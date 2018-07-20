@@ -1,0 +1,115 @@
+<Type Name="AutoFormatRules" FullName="Microsoft.Office.Interop.Outlook.AutoFormatRules">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="96d7cb10a2537d27f6021b63517370dc89097ad9" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20643604" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface AutoFormatRules : Microsoft.Office.Interop.Outlook._AutoFormatRules" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AutoFormatRules implements class Microsoft.Office.Interop.Outlook._AutoFormatRules" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" />
+  <TypeSignature Language="VB.NET" Value="Public Interface AutoFormatRules&#xA;Implements _AutoFormatRules" />
+  <TypeSignature Language="C++ CLI" Value="public interface class AutoFormatRules : Microsoft::Office::Interop::Outlook::_AutoFormatRules" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._AutoFormatRules</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.AutoFormatRulesClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063094-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="9aeb2-101">Representa la colección de <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> objetos de una vista.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="9aeb2-101">Represents the collection of <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> objects in a view.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="9aeb2-102">
+        <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._AutoFormatRules" />.</para>
+        <para>Usar el <see cref="M:Microsoft.Office.Interop.Outlook._AutoFormatRules.Add(System.String)" /> (método) o la <see cref="M:Microsoft.Office.Interop.Outlook._AutoFormatRules.Insert(System.String,System.Object)" /> método de la colección <b>AutoFormatRules</b> para crear una nueva regla de formato para los objetos siguientes derivados de la <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto:</para>
+        <list type="bullet">
+          <item>
+            <para>
+              <see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" />
+            </para>
+          </item>
+          <item>
+            <para>
+              <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />
+            </para>
+          </item>
+          <item>
+            <para>
+              <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />
+            </para>
+          </item>
+          <item>
+            <para>
+              <see cref="T:Microsoft.Office.Interop.Outlook.IconView" />
+            </para>
+          </item>
+          <item>
+            <para>
+              <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />
+            </para>
+          </item>
+        </list>Objetos de 
+      <para><b>AutoFormatRule</b> contenidos en una colección <b>AutoFormatRules</b> se aplican a cada elemento de Outlook en el orden en que se encuentran en la colección. Los cambios realizados en los objetos <b>AutoFormatRule</b> se conservan únicamente si el <see cref="M:Microsoft.Office.Interop.Outlook._AutoFormatRules.Save" /> se llama al método de la colección <b>AutoFormatRules</b> .</para><para /></span>
+      <span class="sxs-lookup">
+        <span data-stu-id="9aeb2-102">
+          <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._AutoFormatRules" />.</para>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook._AutoFormatRules.Add(System.String)" /> method or the <see cref="M:Microsoft.Office.Interop.Outlook._AutoFormatRules.Insert(System.String,System.Object)" /> method of the <b>AutoFormatRules</b> collection to create a new formatting rule for the following objects derived from the <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object:</para>
+          <list type="bullet">
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Interop.Outlook.IconView" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Interop.Outlook.TimelineView" />
+              </para>
+            </item>
+          </list>
+          <para>
+            <b>AutoFormatRule</b> objects contained in an <b>AutoFormatRules</b> collection are applied to each Outlook item in the order in which they are contained in the collection. Changes to <b>AutoFormatRule</b> objects are persisted only if the <see cref="M:Microsoft.Office.Interop.Outlook._AutoFormatRules.Save" /> method of the <b>AutoFormatRules</b> collection is called.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

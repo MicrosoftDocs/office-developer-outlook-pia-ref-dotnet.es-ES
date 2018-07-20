@@ -1,0 +1,65 @@
+<Type Name="MAPIFolderEvents_12_BeforeItemMoveEventHandler" FullName="Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeItemMoveEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c3c199f33af7511d3189ab7cf2b20a3d55944c4c" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20643481" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void MAPIFolderEvents_12_BeforeItemMoveEventHandler(object Item, MAPIFolder MoveTo, out bool Cancel);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MAPIFolderEvents_12_BeforeItemMoveEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeItemMoveEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub MAPIFolderEvents_12_BeforeItemMoveEventHandler(Item As Object, MoveTo As MAPIFolder, ByRef Cancel As Boolean)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void MAPIFolderEvents_12_BeforeItemMoveEventHandler(System::Object ^ Item, MAPIFolder ^ MoveTo, [Runtime::InteropServices::Out] bool % Cancel);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Item" Type="System.Object" />
+    <Parameter Name="MoveTo" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
+    <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Item">
+      <span data-ttu-id="9ed3b-101">Representa el elemento de Outlook que se va a mover o eliminar.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="9ed3b-101">Represents the Outlook item that is to be moved or deleted.</span>
+      </span>
+    </param>
+    <param name="MoveTo">
+      <span data-ttu-id="9ed3b-102">Representa la carpeta a la que se mueve el elemento.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="9ed3b-102">Represents the folder to which the item is being moved.</span>
+      </span>
+    </param>
+    <param name="Cancel">
+      <span data-ttu-id="9ed3b-103">Debe establecer en <b>True</b> para cancelar el movimiento o eliminar acción.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="9ed3b-103">Set this to <b>True</b> to cancel the move or delete action.</span>
+      </span>
+    </param>
+    <summary>
+      <span data-ttu-id="9ed3b-p101">Se trata de un delegado para un evento en el objeto correspondiente. Después de implementar un método de devolución de llamada para el evento, utilice este delegado para conectar el método de devolución de llamada con el evento. Si hubiera varias versiones de la interfaz de eventos, este delegado conectaría el método de devolución de llamadas para el evento en la versión especificada de Outlook.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="9ed3b-p101">This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>
