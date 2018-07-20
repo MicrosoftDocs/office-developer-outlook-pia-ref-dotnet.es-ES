@@ -1,0 +1,44 @@
+<Type Name="TableView" FullName="Microsoft.Office.Interop.Outlook.TableView">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="71115d371c1db6bd8ebfa5a46c3be4b25e7e47eb" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20642145" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface TableView : Microsoft.Office.Interop.Outlook._TableView" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TableView implements class Microsoft.Office.Interop.Outlook._TableView" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.TableView" />
+  <TypeSignature Language="VB.NET" Value="Public Interface TableView&#xA;Implements _TableView" />
+  <TypeSignature Language="C++ CLI" Value="public interface class TableView : Microsoft::Office::Interop::Outlook::_TableView" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._TableView</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.TableViewClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063096-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Representa una vista que muestra elementos de Outlook en una tabla, con cada elemento en una fila y sus detalles en las columnas.</summary>
+    <remarks>
+      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._TableView" />. </para>
+      <para>El objeto <b>TableView</b> , derivado de la <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto, le permite crear vistas personalizables con las que podrá mostrar elementos de Outlook en una tabla.</para>
+      <para>Outlook proporciona varios objetos <b>TableView</b> integrados, y también puede crear objetos <b>TableView</b> personalizados. Usar el <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> (método) de la <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> colección que se va a agregar un nuevo <b>TableView</b> a un <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto. Utilice la propiedad <b>Standard</b> para determinar si un objeto <b>TableView</b> existente es integrado o personalizado.</para>
+      <para>Puede configurar la apariencia y funcionalidad del objeto <b>TableView</b> . Usar el <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticColumnSizing" /> (propiedad) para determinar si la vista cambia automáticamente el tamaño de las columnas y el <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticGrouping" /> (propiedad) para determinar si la vista agrupa automáticamente los elementos de Outlook. Usar el <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutoPreview" /> (propiedad) para determinar si se muestra información de vista previa dentro de la fila para un elemento de Outlook en la vista y el <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutoPreviewFont" /> (propiedad) para especificar la fuente utilizada para mostrar información de vista previa. Usar el <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> (propiedad) para determinar si se muestran los elementos de Outlook en el modo de varias líneas.</para>
+      <para>También puede configurar el modo en que aparecen los elementos de Outlook dentro del objeto <b>TableView</b> . Usar el <see cref="P:Microsoft.Office.Interop.Outlook._TableView.ColumnFont" /> (propiedad) para especificar la fuente utilizada para los encabezados de columna y el <see cref="P:Microsoft.Office.Interop.Outlook._TableView.RowFont" /> (propiedad) para especificar la fuente utilizada para los elementos de Outlook en la vista. Usar el <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> (propiedad) para permitir la edición de valores de propiedad de elemento de Outlook en la vista. Usar el <see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" /> (propiedad) para determinar qué elementos de Outlook que se muestran en la vista y la <see cref="P:Microsoft.Office.Interop.Outlook._TableView.ViewFields" /> colección para especificar las propiedades de elemento de Outlook que se muestra para cada elemento de Outlook. Usar el <see cref="P:Microsoft.Office.Interop.Outlook._TableView.GroupByFields" /> para especificar las propiedades de elemento de Outlook por qué Outlook se agrupan los elementos, y la <see cref="P:Microsoft.Office.Interop.Outlook._TableView.SortFields" /> por qué Outlook se ordenan los elementos en la vista de propiedades de elemento de colección para especificar el Outlook.</para>
+      <para>La definición de cada objeto <b>TableView</b> se almacena en formato de lenguaje de marcado Extensible (XML). Usar el <see cref="P:Microsoft.Office.Interop.Outlook._TableView.XML" /> (propiedad) para trabajar con la definición XML para el objeto <b>TableView</b> .</para> Uso de 
+      <para>el <see cref="M:Microsoft.Office.Interop.Outlook._TableView.Apply" /> (método) para aplicar los cambios realizados en el objeto <b>TableView</b> a la vista actual. Usar el <see cref="M:Microsoft.Office.Interop.Outlook._TableView.Save" /> método para conservar los cambios realizados en el objeto <b>TableView</b> . Usar el <see cref="P:Microsoft.Office.Interop.Outlook._TableView.LockUserChanges" /> (propiedad) para permitir o evitar los cambios a la interfaz de usuario para la vista.</para><para>Puede cambiar los objetos <b>TableView</b> integrados, pero no se puede eliminar. Usar el <see cref="M:Microsoft.Office.Interop.Outlook._TableView.Delete" /> (método) para eliminar un objeto <b>TableView</b> personalizado. Usar el <see cref="M:Microsoft.Office.Interop.Outlook._TableView.Reset" /> método para restablecer las propiedades de un objeto <b>TableView</b> integrado a sus valores predeterminados.</para><para /></remarks>
+  </Docs>
+  <Members />
+</Type>

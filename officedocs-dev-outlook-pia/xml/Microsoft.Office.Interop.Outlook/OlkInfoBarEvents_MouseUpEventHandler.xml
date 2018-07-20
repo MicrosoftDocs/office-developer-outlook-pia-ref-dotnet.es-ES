@@ -1,0 +1,59 @@
+<Type Name="OlkInfoBarEvents_MouseUpEventHandler" FullName="Microsoft.Office.Interop.Outlook.OlkInfoBarEvents_MouseUpEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="772096198fc0cfb1172a9863659be54ac6349a80" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20641916" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void OlkInfoBarEvents_MouseUpEventHandler(OlMouseButton Button, OlShiftState Shift, float X, float Y);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlkInfoBarEvents_MouseUpEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkInfoBarEvents_MouseUpEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub OlkInfoBarEvents_MouseUpEventHandler(Button As OlMouseButton, Shift As OlShiftState, X As Single, Y As Single)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void OlkInfoBarEvents_MouseUpEventHandler(OlMouseButton Button, OlShiftState Shift, float X, float Y);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Button" Type="Microsoft.Office.Interop.Outlook.OlMouseButton" />
+    <Parameter Name="Shift" Type="Microsoft.Office.Interop.Outlook.OlShiftState" />
+    <Parameter Name="X" Type="System.Single">
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.OLE_XPOS_CONTAINER")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Parameter>
+    <Parameter Name="Y" Type="System.Single">
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.OLE_YPOS_CONTAINER")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Parameter>
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Button">Un <see cref="T:Microsoft.Office.Interop.Outlook.OlMouseButton" /> constante que especifica qué botón del mouse que se ha presionado.</param>
+    <param name="Shift">Una máscara OR bit a bit de constantes en el <see cref="T:Microsoft.Office.Interop.Outlook.OlShiftState" /> (enumeración) que especifica si se han presionado las teclas MAYÚS, CTRL o ALT.</param>
+    <param name="X">Identifica la ubicación del cursor del mouse en el eje X relativa al formulario.</param>
+    <param name="Y">Identifica la ubicación del cursor del mouse en el eje Y relativa al formulario.</param>
+    <summary>Se trata de un delegado para un evento en el objeto correspondiente. Después de implementar un método de devolución de llamada para el evento, utilice este delegado para conectar el método de devolución de llamada con el evento. Si hubiera varias versiones de la interfaz de eventos, este delegado conectaría el método de devolución de llamadas para el evento en la versión especificada de Outlook.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

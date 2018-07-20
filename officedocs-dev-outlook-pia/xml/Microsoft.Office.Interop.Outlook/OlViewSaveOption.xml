@@ -1,0 +1,88 @@
+<Type Name="OlViewSaveOption" FullName="Microsoft.Office.Interop.Outlook.OlViewSaveOption">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="79d8d6e858dfab8fe90ca7a23af72935bbbfe06d" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20641755" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlViewSaveOption" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlViewSaveOption extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlViewSaveOption" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlViewSaveOption" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Especifica las carpetas en las que está disponible la vista y los permisos de lectura adjuntos a la misma.</summary>
+    <remarks>
+      <para>Utiliza el método <b>Copy</b> y la propiedad <b>SaveOption</b> de objetos <b>View</b> .</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olViewSaveOptionAllFoldersOfType">
+      <MemberSignature Language="C#" Value="olViewSaveOptionAllFoldersOfType" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlViewSaveOption olViewSaveOptionAllFoldersOfType = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlViewSaveOption.olViewSaveOptionAllFoldersOfType" />
+      <MemberSignature Language="VB.NET" Value="olViewSaveOptionAllFoldersOfType" />
+      <MemberSignature Language="C++ CLI" Value="olViewSaveOptionAllFoldersOfType" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Indica que la vista está disponible en todas las carpetas del mismo tipo.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olViewSaveOptionThisFolderEveryone">
+      <MemberSignature Language="C#" Value="olViewSaveOptionThisFolderEveryone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlViewSaveOption olViewSaveOptionThisFolderEveryone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlViewSaveOption.olViewSaveOptionThisFolderEveryone" />
+      <MemberSignature Language="VB.NET" Value="olViewSaveOptionThisFolderEveryone" />
+      <MemberSignature Language="C++ CLI" Value="olViewSaveOptionThisFolderEveryone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Indica que la vista es la única disponible en la carpeta actual y está disponible para todos los usuarios.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olViewSaveOptionThisFolderOnlyMe">
+      <MemberSignature Language="C#" Value="olViewSaveOptionThisFolderOnlyMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlViewSaveOption olViewSaveOptionThisFolderOnlyMe = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlViewSaveOption.olViewSaveOptionThisFolderOnlyMe" />
+      <MemberSignature Language="VB.NET" Value="olViewSaveOptionThisFolderOnlyMe" />
+      <MemberSignature Language="C++ CLI" Value="olViewSaveOptionThisFolderOnlyMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Indica que la vista es la única disponible en la carpeta actual y sólo está disponible para el usuario de Outlook actual.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

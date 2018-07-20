@@ -1,0 +1,41 @@
+<Type Name="OlkListBoxEvents_KeyPressEventHandler" FullName="Microsoft.Office.Interop.Outlook.OlkListBoxEvents_KeyPressEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5d28e7d126ab3d2c6ae4a643c5c30e5e850f8048" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20642012" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void OlkListBoxEvents_KeyPressEventHandler(ref int KeyAscii);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlkListBoxEvents_KeyPressEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkListBoxEvents_KeyPressEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub OlkListBoxEvents_KeyPressEventHandler(ByRef KeyAscii As Integer)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void OlkListBoxEvents_KeyPressEventHandler(int % KeyAscii);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="KeyAscii" Type="System.Int32&amp;" RefType="ref" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="KeyAscii">Valor numérico de la tecla presionada.</param>
+    <summary>Se trata de un delegado para un evento en el objeto correspondiente. Después de implementar un método de devolución de llamada para el evento, utilice este delegado para conectar el método de devolución de llamada con el evento. Si hubiera varias versiones de la interfaz de eventos, este delegado conectaría el método de devolución de llamadas para el evento en la versión especificada de Outlook.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

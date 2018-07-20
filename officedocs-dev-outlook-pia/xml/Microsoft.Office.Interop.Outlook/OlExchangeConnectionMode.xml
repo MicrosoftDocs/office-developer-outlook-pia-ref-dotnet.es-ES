@@ -1,0 +1,199 @@
+<Type Name="OlExchangeConnectionMode" FullName="Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b39ab38c85bbff93e02638a9f90ec6229d87948a" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20642720" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlExchangeConnectionMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlExchangeConnectionMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlExchangeConnectionMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlExchangeConnectionMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Especifica si la cuenta está conectada a un servidor de Exchange y si está en modo de conexión clásico.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olCachedConnectedDrizzle">
+      <MemberSignature Language="C#" Value="olCachedConnectedDrizzle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode olCachedConnectedDrizzle = int32(600)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode.olCachedConnectedDrizzle" />
+      <MemberSignature Language="VB.NET" Value="olCachedConnectedDrizzle" />
+      <MemberSignature Language="C++ CLI" Value="olCachedConnectedDrizzle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>600</MemberValue>
+      <Docs>
+        <summary>La cuenta utiliza el modo de Exchange en caché, de modo que los encabezados se descarguen primero seguidos por el cuerpo del mensaje y los datos adjuntos de los elementos completos.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olCachedConnectedFull">
+      <MemberSignature Language="C#" Value="olCachedConnectedFull" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode olCachedConnectedFull = int32(700)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode.olCachedConnectedFull" />
+      <MemberSignature Language="VB.NET" Value="olCachedConnectedFull" />
+      <MemberSignature Language="C++ CLI" Value="olCachedConnectedFull" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>700</MemberValue>
+      <Docs>
+        <summary>La cuenta utiliza el modo de Exchange en caché en una red de área local (LAN) o con una conexión de alta velocidad con el servidor de Exchange. El usuario también puede seleccionar este estado manualmente: para ello, deberá deshabilitar la lógica de autodetección y descargar siempre elementos completos, con independencia de la velocidad de conexión.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olCachedConnectedHeaders">
+      <MemberSignature Language="C#" Value="olCachedConnectedHeaders" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode olCachedConnectedHeaders = int32(500)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode.olCachedConnectedHeaders" />
+      <MemberSignature Language="VB.NET" Value="olCachedConnectedHeaders" />
+      <MemberSignature Language="C++ CLI" Value="olCachedConnectedHeaders" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>500</MemberValue>
+      <Docs>
+        <summary>La cuenta utiliza el modo de Exchange en caché con una conexión de marcación o baja velocidad con el servidor de Exchange, de modo que únicamente se descargan los encabezados. El cuerpo completo de los elementos y sus datos adjuntos permanecen en el servidor. El usuario también puede seleccionar este estado manualmente, con independencia de la velocidad de conexión.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olCachedDisconnected">
+      <MemberSignature Language="C#" Value="olCachedDisconnected" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode olCachedDisconnected = int32(400)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode.olCachedDisconnected" />
+      <MemberSignature Language="VB.NET" Value="olCachedDisconnected" />
+      <MemberSignature Language="C++ CLI" Value="olCachedDisconnected" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>400</MemberValue>
+      <Docs>
+        <summary>La cuenta utiliza el modo de Exchange en caché con una conexión desconectada al servidor de Exchange.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olCachedOffline">
+      <MemberSignature Language="C#" Value="olCachedOffline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode olCachedOffline = int32(200)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode.olCachedOffline" />
+      <MemberSignature Language="VB.NET" Value="olCachedOffline" />
+      <MemberSignature Language="C++ CLI" Value="olCachedOffline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>200</MemberValue>
+      <Docs>
+        <summary>La cuenta utiliza el modo de intercambio en caché y el usuario ha seleccionado trabajar sin conexión en el menú archivo.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olDisconnected">
+      <MemberSignature Language="C#" Value="olDisconnected" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode olDisconnected = int32(300)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode.olDisconnected" />
+      <MemberSignature Language="VB.NET" Value="olDisconnected" />
+      <MemberSignature Language="C++ CLI" Value="olDisconnected" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>300</MemberValue>
+      <Docs>
+        <summary>La cuenta tiene una conexión desconectada al servidor de Exchange.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olNoExchange">
+      <MemberSignature Language="C#" Value="olNoExchange" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode olNoExchange = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode.olNoExchange" />
+      <MemberSignature Language="VB.NET" Value="olNoExchange" />
+      <MemberSignature Language="C++ CLI" Value="olNoExchange" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>La cuenta no utiliza un servidor de Exchange.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olOffline">
+      <MemberSignature Language="C#" Value="olOffline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode olOffline = int32(100)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode.olOffline" />
+      <MemberSignature Language="VB.NET" Value="olOffline" />
+      <MemberSignature Language="C++ CLI" Value="olOffline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>100</MemberValue>
+      <Docs>
+        <summary>La cuenta no está conectada a un servidor de Exchange y está en modo sin conexión clásico.  Esto también se produce cuando el usuario selecciona trabajar sin conexión en el menú archivo.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olOnline">
+      <MemberSignature Language="C#" Value="olOnline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode olOnline = int32(800)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode.olOnline" />
+      <MemberSignature Language="VB.NET" Value="olOnline" />
+      <MemberSignature Language="C++ CLI" Value="olOnline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>800</MemberValue>
+      <Docs>
+        <summary>La cuenta está conectada a un servidor de Exchange y está en modo de conexión clásico.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

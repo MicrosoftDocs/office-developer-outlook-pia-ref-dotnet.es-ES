@@ -1,0 +1,88 @@
+<Type Name="OlStorageIdentifierType" FullName="Microsoft.Office.Interop.Outlook.OlStorageIdentifierType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4dd7c0d0df6981cc301899c6761c9fb713d38374" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20642312" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlStorageIdentifierType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlStorageIdentifierType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlStorageIdentifierType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlStorageIdentifierType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlStorageIdentifierType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Especifica el tipo de identificador para una <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" /> objeto.</summary>
+    <remarks>
+      <para>La clase de mensaje de un <b>objeto StorageItem</b> no se expone como una propiedad explícita integrada. Puede obtener acceso a la propiedad de clase de mensaje a través de la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto proporcionado por <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.PropertyAccessor" />.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olIdentifyByEntryID">
+      <MemberSignature Language="C#" Value="olIdentifyByEntryID" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlStorageIdentifierType olIdentifyByEntryID = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlStorageIdentifierType.olIdentifyByEntryID" />
+      <MemberSignature Language="VB.NET" Value="olIdentifyByEntryID" />
+      <MemberSignature Language="C++ CLI" Value="olIdentifyByEntryID" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlStorageIdentifierType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Identifica un <b>StorageItem</b> por <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.EntryID" />.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olIdentifyByMessageClass">
+      <MemberSignature Language="C#" Value="olIdentifyByMessageClass" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlStorageIdentifierType olIdentifyByMessageClass = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlStorageIdentifierType.olIdentifyByMessageClass" />
+      <MemberSignature Language="VB.NET" Value="olIdentifyByMessageClass" />
+      <MemberSignature Language="C++ CLI" Value="olIdentifyByMessageClass" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlStorageIdentifierType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Identifica un <b>StorageItem</b> por clase de mensaje.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olIdentifyBySubject">
+      <MemberSignature Language="C#" Value="olIdentifyBySubject" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlStorageIdentifierType olIdentifyBySubject = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlStorageIdentifierType.olIdentifyBySubject" />
+      <MemberSignature Language="VB.NET" Value="olIdentifyBySubject" />
+      <MemberSignature Language="C++ CLI" Value="olIdentifyBySubject" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlStorageIdentifierType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Identifica un <b>StorageItem</b> por <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.Subject" />.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

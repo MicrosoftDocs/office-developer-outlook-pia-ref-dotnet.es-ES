@@ -1,0 +1,71 @@
+<Type Name="RuleAction" FullName="Microsoft.Office.Interop.Outlook.RuleAction">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5743cd73382d3ab8101df11cb011aba2ef07f771" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20642807" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface RuleAction : Microsoft.Office.Interop.Outlook._RuleAction" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RuleAction implements class Microsoft.Office.Interop.Outlook._RuleAction" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.RuleAction" />
+  <TypeSignature Language="VB.NET" Value="Public Interface RuleAction&#xA;Implements _RuleAction" />
+  <TypeSignature Language="C++ CLI" Value="public interface class RuleAction : Microsoft::Office::Interop::Outlook::_RuleAction" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._RuleAction</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.RuleActionClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630CF-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Representa una acción que se ejecuta cuando un <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> ejecuta el objeto.</summary>
+    <remarks>
+      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._RuleAction" />. </para>
+      <para>
+        <b>RuleAction</b> es la clase base para acciones de regla admitidas durante la creación de reglas mediante programación. Las clases derivadas de <b>RuleAction</b> incluyen: </para>
+      <list type="bullet">
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.MarkAsTaskRuleAction" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.NewItemAlertRuleAction" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.PlaySoundRuleAction" />
+          </para>
+        </item>
+      </list>
+      <para>las reglas del modelo de objetos proporciona paridad parcial con el Asistente de alertas en la interfaz de usuario de Outlook y las reglas. Es compatible con las condiciones y acciones de regla usadas con más frecuencia. Aunque no admite la creación de reglas con cada acción de regla o una condición de regla que permite el asistente, se puede enumerar y habilitar estas acciones de regla y las condiciones en las reglas existentes. </para>
+      <para>Para obtener más información sobre las acciones de regla, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Especificar acciones de regla</a><a href="http://go.microsoft.com/fwlink/?LinkId=87859">Cómo: crear una regla para mover correos electrónicos específicos a una carpeta</a></para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

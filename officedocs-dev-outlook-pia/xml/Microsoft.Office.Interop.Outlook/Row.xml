@@ -1,0 +1,43 @@
+<Type Name="Row" FullName="Microsoft.Office.Interop.Outlook.Row">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="bb36e7173df26003269e3dca6af6c3a6f59b4663" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20642805" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Row : Microsoft.Office.Interop.Outlook._Row" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Row implements class Microsoft.Office.Interop.Outlook._Row" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Row" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Row&#xA;Implements _Row" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Row : Microsoft::Office::Interop::Outlook::_Row" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._Row</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.RowClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630D3-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Representa una fila de datos en el <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto.</summary>
+    <remarks>
+      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._Row" />. </para>
+      <para>Una <b>tabla</b> se compone de filas y columnas. Representa un solo lectura conjunto dinámico de filas de datos en un <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> o <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> objeto. Cada fila de una <b>tabla</b> se puede considerar como un elemento en la carpeta y cada columna como una propiedad del elemento. De forma predeterminada, la <b>tabla</b> contiene sólo un subconjunto de las propiedades de elementos de la carpeta. Esto hace que la <b>tabla</b> de un conjunto de filas ligero en memoria que es compatible con rapidez la enumeración y el filtrado de elementos de la carpeta.</para>
+      <para>Si el objeto <b>Table</b> se obtiene de <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />, puede especificar otro filtro más (en <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />) para obtener un más limitado conjunto de filas de la <b>tabla</b>.</para>
+      <para>Puede usar los métodos de la tabla: <see cref="M:Microsoft.Office.Interop.Outlook._Table.FindRow(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Table.FindNextRow" />, <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" />, y <see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" /> para obtener una fila concreta en una <b>tabla</b>.</para>
+      <para>Uso <see cref="M:Microsoft.Office.Interop.Outlook._Row.GetValues" /> para obtener una matriz de valores que corresponden a los valores de columna de esa fila en la <b>tabla</b>.</para> Funciones de 
+      <para>usar la aplicación auxiliar <see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />, y <see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" /> para facilitar la conversión de tipo de los valores de columna en una fila concreta. Para obtener más información sobre la representación de valor de propiedad en una <b>tabla</b>, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Factores que afectan a la representación de los valores de las (propiedad) en las clases Table y View</a></para><para> aunque las adiciones y eliminaciones de la carpeta subyacente se reflejan en las filas de la <b>tabla</b>, la <b>tabla</b> no admite eventos para agregar, cambiar y quitar filas. Si necesita un objeto grabable de la fila de <b>tabla</b> , obtener el identificador de entrada de la fila de la columna de la propiedad EntryID de forma predeterminada en la <b>tabla</b> y, a continuación, usar el <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetItemFromID(System.String,System.Object)" /> (método) de la <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto que se va a obtener el elemento completo, como un <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> o un <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />, que admite operaciones de lectura y escritura. Para obtener más información sobre las columnas de forma predeterminada en una <b>tabla</b>, vea Propiedades predeterminadas mostradas en una tabla.</para><para /></remarks>
+  </Docs>
+  <Members />
+</Type>
