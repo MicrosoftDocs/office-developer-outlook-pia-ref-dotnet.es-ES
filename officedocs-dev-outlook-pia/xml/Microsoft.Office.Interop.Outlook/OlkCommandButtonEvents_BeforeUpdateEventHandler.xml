@@ -1,0 +1,53 @@
+<Type Name="OlkCommandButtonEvents_BeforeUpdateEventHandler" FullName="Microsoft.Office.Interop.Outlook.OlkCommandButtonEvents_BeforeUpdateEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="06e6598631f4b57a8319a1e981ec7d2d0ed58575" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20643023" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void OlkCommandButtonEvents_BeforeUpdateEventHandler(ref bool Cancel);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlkCommandButtonEvents_BeforeUpdateEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkCommandButtonEvents_BeforeUpdateEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub OlkCommandButtonEvents_BeforeUpdateEventHandler(ByRef Cancel As Boolean)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void OlkCommandButtonEvents_BeforeUpdateEventHandler(bool % Cancel);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="ref" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Cancel">
+      <span data-ttu-id="8a216-p101">
+        <b>False</b> cuando se produce el evento. Si el procedimiento de evento establece este argumento en <b>True</b>, la operación no se completará y no se actualizará la propiedad enlazada al control. </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="8a216-p101">
+          <b>False</b> when the event occurs. If the event procedure sets this argument to <b>True</b>, the operation will not be completed and the property bound to the control will not be updated.</span>
+      </span>
+    </param>
+    <summary>
+      <span data-ttu-id="8a216-p102">Se trata de un delegado para un evento en el objeto correspondiente. Después de implementar un método de devolución de llamada para el evento, utilice este delegado para conectar el método de devolución de llamada con el evento. Si hubiera varias versiones de la interfaz de eventos, este delegado conectaría el método de devolución de llamadas para el evento en la versión especificada de Outlook.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="8a216-p102">This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

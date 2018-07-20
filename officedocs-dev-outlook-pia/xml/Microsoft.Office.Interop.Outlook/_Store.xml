@@ -1,0 +1,1118 @@
+<Type Name="_Store" FullName="Microsoft.Office.Interop.Outlook._Store">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3f2239ab127f9c76011dbb664fdfb2aec7a1918e" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20643424" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _Store" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Store" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Store" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _Store" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _Store" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630C7-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="69ee2-101">Esto es una interfaz principal en una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="69ee2-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="69ee2-102">Use esta interfaz principal sólo cuando el método que desea usar comparte el mismo nombre que un evento del objeto COM; en este caso, se convierte en esta interfaz para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="69ee2-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
+      </span>
+      <span data-ttu-id="69ee2-103">De lo contrario, use la interfaz de .NET que se deriva de la coclase COM para tener acceso a los métodos, propiedades y eventos del objeto COM.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="69ee2-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
+      </span>
+      <span data-ttu-id="69ee2-104">Para obtener información sobre el objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.Store" />.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="69ee2-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Store" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="69ee2-105">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
+          </span>
+          <span data-ttu-id="69ee2-106">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-106">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Categories">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Categories Categories { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Categories Categories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.Categories" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Categories As Categories" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Categories ^ Categories { Microsoft::Office::Interop::Outlook::Categories ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64421)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64421)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Categories</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="69ee2-107">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Categories" /> colección que representa todas las categorías que se definen para la <see cref="T:Microsoft.Office.Interop.Outlook.Store" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-107">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Categories" /> collection that represents all of the categories that are defined for the <see cref="T:Microsoft.Office.Interop.Outlook.Store" />.</span>
+          </span>
+          <span data-ttu-id="69ee2-108">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-108">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="69ee2-109">
+            <para>Esta propiedad es similar a la <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Categories" /> (propiedad) de la <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> de objetos, excepto en que esta propiedad se aplica a un perfil de sesión que especifica una o varias cuentas y las categorías para el almacén que está asociada una cuenta, mientras que el <b> Categorías de</b> propiedad del objeto de <b>espacio de nombres</b> se aplica a un perfil de sesión que define sólo una cuenta y especifica la lista principal de categorías para esa sesión.</para>
+            <para>Para determinados almacenes de entrega secundario como un almacén IMAP, la propiedad <b>Categories</b> devuelve la colección de <b>categorías</b> para el almacén principal. Almacenes IMAP no admiten realmente una colección categories independientes.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-109">
+              <para>This property is similar to the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Categories" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object, except that the this property applies to a session profile that specifies one or more accounts and specifies the categories for the store that an account is associated with, whereas the <b>Categories</b> property of the <b>NameSpace</b> object applies to a session profile that defines only one account, and specifies the Master Category List for that session.</para>
+              <para>For certain secondary delivery stores such as an IMAP store, the <b>Categories</b> property returns the <b>Categories</b> collection for the primary store. IMAP stores do not actually support a separate categories collection.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="69ee2-110">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-110">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
+          </span>
+          <span data-ttu-id="69ee2-111">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-111">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="69ee2-112">Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre para mostrar de la <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-112">Returns a <b>String</b> (<b>string</b> in C#) representing the display name of the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object.</span>
+          </span>
+          <span data-ttu-id="69ee2-113">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-113">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="69ee2-114">
+            <para>
+              <b>DisplayName</b> es la propiedad predeterminada del objeto <b>Store</b> . Esta propiedad corresponde a la propiedad <b>PidTagDisplayName</b>de MAPI. </para>
+            <para>
+              <b>DisplayName</b> es de sólo lectura. Para cambiar el <b>DisplayName</b> de un archivo de carpetas personales (.pst), utilice la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto y la <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> método.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-114">
+              <para>
+                <b>DisplayName</b> is the default property of the <b>Store</b> object. This property corresponds to the MAPI property, <b>PidTagDisplayName</b>. </para>
+              <para>
+                <b>DisplayName</b> is read-only. To change the <b>DisplayName</b> of a Personal Folders File (.pst), use the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object and the <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> method.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExchangeStoreType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlExchangeStoreType ExchangeStoreType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlExchangeStoreType ExchangeStoreType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExchangeStoreType As OlExchangeStoreType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlExchangeStoreType ExchangeStoreType { Microsoft::Office::Interop::Outlook::OlExchangeStoreType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64218)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64218)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeStoreType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="69ee2-115">Devuelve una constante en el <see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeStoreType" /> (enumeración) que indica el tipo de un almacén de Exchange.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-115">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeStoreType" /> enumeration that indicates the type of an Exchange store.</span>
+          </span>
+          <span data-ttu-id="69ee2-116">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-116">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="69ee2-117">
+            <para>La propiedad <b>ExchangeStoreType</b> distingue entre diferentes tipos de almacén de Exchange, como el buzón principal de Exchange, buzón de Exchange, almacén de carpeta pública o un almacén que no sean de Exchange. Esta propiedad no distingue entre cada tipo de almacén incluidos Hotmail, HTTP, IMAP y así sucesivamente. Uso <see cref="P:Microsoft.Office.Interop.Outlook._Account.AccountType" /> para el tipo de servidor asociado con una cuenta de correo electrónico, como Exchange, HTTP, IMAP o POP3.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-117">
+              <para>The <b>ExchangeStoreType</b> property distinguishes among different Exchange store types, such as primary Exchange mailbox, Exchange mailbox, Public Folder store, or non-Exchange store. This property does not distinguish among every type of store including Hotmail, HTTP, IMAP, and so forth. Use <see cref="P:Microsoft.Office.Interop.Outlook._Account.AccountType" /> for the type of server associated with an e-mail account, such as Exchange, HTTP, IMAP, or  POP3.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FilePath">
+      <MemberSignature Language="C#" Value="public string FilePath { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FilePath" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.FilePath" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FilePath As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FilePath { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64221)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64221)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="69ee2-118">Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa la ruta de acceso completa al archivo de un archivo de carpetas personales (.pst) o un almacén de archivos de carpeta sin conexión (.ost).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-118">Returns a <b>String</b> (<b>string</b> in C#) representing the full file path for a Personal Folders File (.pst) or an Offline Folder File (.ost) store.</span>
+          </span>
+          <span data-ttu-id="69ee2-119">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-119">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="69ee2-120">
+            <para>Esta propiedad admite almacenes de Exchange y almacenes que no son de Exchange. Si el almacén no es un almacén .pst o .ost, <b>FilePath</b> devuelve una cadena vacía.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-120">
+              <para>This property supports both Exchange and non-Exchange stores. If the store is not a .pst or .ost store, <b>FilePath</b> returns an empty string.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDefaultFolder">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.MAPIFolder GetDefaultFolder (Microsoft.Office.Interop.Outlook.OlDefaultFolders FolderType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.MAPIFolder GetDefaultFolder([in]valuetype Microsoft.Office.Interop.Outlook.OlDefaultFolders FolderType) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Store.GetDefaultFolder(Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetDefaultFolder (FolderType As OlDefaultFolders) As MAPIFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::MAPIFolder ^ GetDefaultFolder(Microsoft::Office::Interop::Outlook::OlDefaultFolders FolderType);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64621)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FolderType" Type="Microsoft.Office.Interop.Outlook.OlDefaultFolders" />
+      </Parameters>
+      <Docs>
+        <param name="FolderType">
+          <span data-ttu-id="69ee2-121">Especifica el tipo de la carpeta predeterminada solicitada.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-121">Specifies the type of the requested default folder.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="69ee2-122">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" /> objeto que representa la carpeta predeterminada en el almacén y que es del tipo especificado por el <paramref name="FolderType" /> argumento.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-122">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" /> object that represents the default folder in the store and that is of the type specified by the <paramref name="FolderType" /> argument.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="69ee2-123">Devuelve un objeto <b>Folder</b> que representa la carpeta predeterminada del tipo solicitado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-123">Returns a <b>Folder</b> object that represents the default folder of the requested type.</span>
+          </span>
+          <span data-ttu-id="69ee2-124">Si la carpeta predeterminada del tipo solicitado no existe, <b>GetDefaultFolder</b> devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-124">If the default folder of the requested type does not exist, <b>GetDefaultFolder</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="69ee2-125">
+            <para>Este método es similar a la <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetDefaultFolder(Microsoft.Office.Interop.Outlook.OlDefaultFolders)" /> (método) de la <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto. La diferencia es que este método obtiene la carpeta predeterminada en el almacén de entrega que está asociada con la cuenta, mientras que <b>GetDefaultFolder</b> del objeto <b>NameSpace</b> devuelve la carpeta predeterminada en el almacén predeterminado para el perfil actual.</para>
+            <para>Un ejemplo de cuándo <b>GetDefaultFolder</b> devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) es cuando <see cref="F:Microsoft.Office.Interop.Outlook.OlDefaultFolders.olFolderManagedEmail" /> se especifica como el <paramref name="FolderType" /> , pero el grupo de carpetas administradas no se implementó.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-125">
+              <para>This method is similar to the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetDefaultFolder(Microsoft.Office.Interop.Outlook.OlDefaultFolders)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object. The difference is that this method gets the default folder on the delivery store that is associated with the account, whereas <b>GetDefaultFolder</b> of the <b>NameSpace</b> object returns the default folder on the default store for the current profile.</para>
+              <para>One example of when <b>GetDefaultFolder</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) is when <see cref="F:Microsoft.Office.Interop.Outlook.OlDefaultFolders.olFolderManagedEmail" /> is specified as the <paramref name="FolderType" /> but the Managed Folders group has not been deployed.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRootFolder">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.MAPIFolder GetRootFolder ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.MAPIFolder GetRootFolder() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Store.GetRootFolder" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRootFolder () As MAPIFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::MAPIFolder ^ GetRootFolder();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64219)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="69ee2-126">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto que representa la carpeta de nivel raíz de la <see cref="T:Microsoft.Office.Interop.Outlook.Store" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-126">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object representing the root-level folder of the <see cref="T:Microsoft.Office.Interop.Outlook.Store" />.</span>
+          </span>
+          <span data-ttu-id="69ee2-127">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-127">Read-only.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="69ee2-128">Objeto <b>Folder</b> que representa la carpeta en la raíz de ese <b>almacén</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-128">A <b>Folder</b> object that represents the folder at the root of that <b>Store</b>.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="69ee2-129">
+            <para>Puede usar el método <b>GetRootFolder</b> para enumerar las subcarpetas de la carpeta raíz del <b>almacén</b>. A diferencia de <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Folders" /> que contiene todas las carpetas para todos los almacenes del perfil actual, <b>Store.GetRootFolder.Folders</b> permite enumerar todas las carpetas de un objeto <b>Store</b> determinado en el perfil actual.</para>
+            <para>El <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Parent" /> (propiedad) de la carpeta raíz de un almacén devuelve la cadena "Mapi".</para> Almacenamiento de 
+          <para>la carpeta raíz de la carpeta pública de Exchange es la carpeta carpetas públicas. Esta carpeta se devuelve al llamar a Application.Session.GetDefaultFolder (olPublicFoldersAllPublicFolders).</para><para><b>GetRootFolder</b> devuelve un error si el proveedor de servicios no admite carpetas raíz.</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-129">
+              <para>You can use the <b>GetRootFolder</b> method to enumerate the subfolders of the root folder of the <b>Store</b>. Unlike <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Folders" /> which contains all folders for all stores in the current profile, <b>Store.GetRootFolder.Folders</b> allows you to enumerate all folders for a given <b>Store</b> object in the current profile.</para>
+              <para>The <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Parent" /> property of the root folder of a store returns the string "Mapi".</para>
+              <para>The root folder for the Exchange Public Folder store is the folder Public Folders. This folder is returned by the call to Application.Session.GetDefaultFolder(olPublicFoldersAllPublicFolders).</para>
+              <para>
+                <b>GetRootFolder</b> returns an error if the service provider does not support root folders.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRules">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Rules GetRules ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Rules GetRules() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Store.GetRules" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRules () As Rules" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Rules ^ GetRules();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64265)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Rules</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="69ee2-130">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> objeto de colección que contiene el <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objetos definidos para la sesión actual.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-130">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> collection object that contains the <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objects defined for the current session.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="69ee2-131">Un objeto de colección <b>Rules</b> que representa el conjunto de <b>reglas</b> definidas para la sesión actual.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-131">A <b>Rules</b> collection object that represents the set of <b>Rules</b> defined for the current session.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="69ee2-132">
+            <para>Llamar a <b>GetRules</b> puede ser una operación costosa en términos de rendimiento en conexiones lentas a un servidor de Exchange.</para> Sigue el orden de los objetos <b>Rule</b> de la colección devueltos por <b>GetRules</b><para>de <see cref="P:Microsoft.Office.Interop.Outlook._Rule.ExecutionOrder" /> con <b>ExecutionOrder</b> igual a 1 que se va a la primera <b>regla</b> de la colección y <b>ExecutionOrder</b> igual <see cref="P:Microsoft.Office.Interop.Outlook._Rules.Count" /> que se va a la por última vez la <b>regla</b> de la colección.</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-132">
+              <para>Calling <b>GetRules</b> can be an expensive operation in terms of performance on slow connections to an Exchange server.</para>
+              <para>The order of the <b>Rule</b> objects in the collection returned from <b>GetRules</b> follows that of <see cref="P:Microsoft.Office.Interop.Outlook._Rule.ExecutionOrder" /> with <b>ExecutionOrder</b> equal 1 being the first <b>Rule</b> in the collection and <b>ExecutionOrder</b> equal <see cref="P:Microsoft.Office.Interop.Outlook._Rules.Count" /> being the last <b>Rule</b> in the collection.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSearchFolders">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Folders GetSearchFolders ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Folders GetSearchFolders() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Store.GetSearchFolders" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSearchFolders () As Folders" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Folders ^ GetSearchFolders();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64220)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Folders</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="69ee2-133">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> definida por el objeto de colección que representa las carpetas de búsqueda para la <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-133">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> collection object that represents the search folders defined for the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="69ee2-134">Un objeto de colección <b>Folders</b> que representa todas las carpetas de búsqueda para el objeto <b>Store</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-134">A <b>Folders</b> collection object that represents all the search folders for the <b>Store</b> object.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="69ee2-135">
+            <para>
+              <b>GetSearchFolders</b> devuelve todas las carpetas de búsqueda activas visibles para el <b>almacén</b>. No devuelve no inicializadas u obsoletas las carpetas de búsqueda.</para>
+            <para>
+              <b>GetSearchFolders</b> devuelve un objeto de colección <b>Folders</b> con <see cref="P:Microsoft.Office.Interop.Outlook._Folders.Count" /> igual a cero (0) si no hay carpetas de búsqueda se han definido para el <b>almacén de</b>.</para>
+            <para>Para un objeto de colección <b>Folders</b> que representa una colección de carpetas de búsqueda, <see cref="P:Microsoft.Office.Interop.Outlook._Folders.Parent" /> devuelve el mismo objeto que <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetRootFolder" />. <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Folders" /> devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-135">
+              <para>
+                <b>GetSearchFolders</b> returns all the visible active search folders for the <b>Store</b>. It does not return uninitialized or aged out search folders.</para>
+              <para>
+                <b>GetSearchFolders</b> returns a <b>Folders</b> collection object with <see cref="P:Microsoft.Office.Interop.Outlook._Folders.Count" /> equal zero (0) if no search folders have been defined for the <b>Store</b>.</para>
+              <para>For a <b>Folders</b> collection object that represents a collection of search folders, <see cref="P:Microsoft.Office.Interop.Outlook._Folders.Parent" /> returns the same object as <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetRootFolder" />. <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Folders" /> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSpecialFolder">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.MAPIFolder GetSpecialFolder (Microsoft.Office.Interop.Outlook.OlSpecialFolders FolderType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.MAPIFolder GetSpecialFolder([in]valuetype Microsoft.Office.Interop.Outlook.OlSpecialFolders FolderType) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Store.GetSpecialFolder(Microsoft.Office.Interop.Outlook.OlSpecialFolders)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSpecialFolder (FolderType As OlSpecialFolders) As MAPIFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::MAPIFolder ^ GetSpecialFolder(Microsoft::Office::Interop::Outlook::OlSpecialFolders FolderType);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8456)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FolderType" Type="Microsoft.Office.Interop.Outlook.OlSpecialFolders" />
+      </Parameters>
+      <Docs>
+        <param name="FolderType">
+          <span data-ttu-id="69ee2-136">Constante de la enumeración <b>OlSpecialFolders</b> que especifica el tipo de la carpeta especial en el almacén.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-136">A constant in the <b>OlSpecialFolders</b> enumeration that specifies the type of the special folder in the store.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="69ee2-137">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto de una carpeta especial especificada por <paramref name="FolderType" /> en un almacén determinado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-137">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object for a special folder specified by <paramref name="FolderType" /> in a given store.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="69ee2-138">Un objeto <b>Folder</b> que representa una carpeta especial especificada por el <paramref name="FolderType" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-138">A <b>Folder</b> object that represents a special folder specified by the  <paramref name="FolderType" />.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="69ee2-139">
+            <para>No todas las carpetas especiales existen en todos los almacenes.  Si la carpeta especial solicitada no existe, se devolverá <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-139">
+              <para>Not all special folders exist in all stores.  If the requested special folder does not exist, <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) will be returned.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCachedExchange">
+      <MemberSignature Language="C#" Value="public bool IsCachedExchange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsCachedExchange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.IsCachedExchange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsCachedExchange As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsCachedExchange { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64222)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64222)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="69ee2-140">Devuelve un <b>valor Boolean</b> (<b>bool</b> en C#) que indica si la <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> es un almacén de Exchange en caché.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-140">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> is a cached Exchange store.</span>
+          </span>
+          <span data-ttu-id="69ee2-141">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-141">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="69ee2-142">
+            <para>
+              <b>IsCachedExchange</b> devuelve <b>True</b> cuando <see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" /> es un buzón principal de Exchange (<b>Store.ExchangeStoreType</b> es <b>olExchangePrimaryMailbox</b>) y el buzón de correo está configurado para el modo de intercambio en caché de uso. En caso contrario, devuelve <b>False</b> . En concreto, devuelve <b>False</b> para un almacén de carpetas públicas de Exchange que está configurado para los favoritos de carpetas públicas de memoria caché.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-142">
+              <para>
+                <b>IsCachedExchange</b> returns <b>True</b> when <see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" /> is a primary Exchange mailbox (<b>Store.ExchangeStoreType</b> is <b>olExchangePrimaryMailbox</b>) and the mailbox is configured to use cached Exchange mode. It returns <b>False</b> otherwise. In particular, it returns <b>False</b> for an Exchange Public Folder store that is configured to cache Public Folder favorites.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsConversationEnabled">
+      <MemberSignature Language="C#" Value="public bool IsConversationEnabled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsConversationEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsConversationEnabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsConversationEnabled { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64630)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64630)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="69ee2-143">Devuelve un <see cref="T:System.Boolean" /> valor (<b>bool</b> para C#) que es <b>True</b> si el almacén es compatible con la vista de conversación.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-143">Returns a <see cref="T:System.Boolean" /> (<b>bool</b> for C#) value that is <b>True</b> if the store supports the Conversation view.</span>
+          </span>
+          <span data-ttu-id="69ee2-144">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-144">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="69ee2-145">
+            <para>Un almacén admite la vista de conversación si el almacén es un almacén de POP, IMAP o PST, o si se ejecuta una versión de Microsoft Exchange Server que sea de al menos Microsoft Exchange Server 2010. Un almacén también admite la vista de conversación si se está ejecutando el almacén de Microsoft Exchange Server 2007, la versión de Outlook es al menos Microsoft Outlook 2010 y Outlook se ejecuta en modo en caché.</para> Llamar al método <b>GetConversation</b> de un elemento en el almacén de devuelve 
+          <para>Si un almacén admite conversaciones, un <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> objeto para el elemento. Si el almacén no admite conversaciones, <b>GetConversation</b> devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) para los elementos en el almacén de.</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-145">
+              <para>A store supports the Conversation view if the store is a POP, IMAP, or PST store, or if it runs a version of Microsoft Exchange Server that is at least Microsoft Exchange Server 2010. A store also supports the Conversation view if the store is running Microsoft Exchange Server 2007, the version of Outlook is at least Microsoft Outlook 2010, and Outlook is running in cached mode.</para>
+              <para>If a store supports conversations, calling the <b>GetConversation</b> method of an item in the store returns a <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object for the item. If the store does not support conversations, <b>GetConversation</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) for items in the store.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDataFileStore">
+      <MemberSignature Language="C#" Value="public bool IsDataFileStore { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDataFileStore" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.IsDataFileStore" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDataFileStore As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDataFileStore { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64223)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64223)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="69ee2-146">Devuelve un <b>valor Boolean</b> (<b>bool</b> en C#) que indica si la <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> es un almacén de un archivo de datos de Outlook, que es un archivo de carpetas personales (.pst) o un archivo de carpetas sin conexión (.ost).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-146">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> is a store for  an Outlook data file, which is either a Personal Folders File (.pst) or an Offline Folder File (.ost).</span>
+          </span>
+          <span data-ttu-id="69ee2-147">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-147">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="69ee2-148">
+            <para>
+              <b>IsDataFileStore</b> sólo admite Exchange almacenes y devolverá <b>False</b> para los almacenes de tipo HTTP, como Hotmail y MSN y para los almacenes IMAP.</para> Almacenes de 
+          <para>para Exchange, <b>IsDataFileStore</b> devuelve <b>False</b> si el perfil de usuario no está usando el modo de intercambio en caché. <b>IsDataFileStore</b> devolverá también <b>False</b> cuando el almacén sea una carpeta pública de Exchange (es decir, <see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" /> sea <b>olExchangePublicFolder</b>).</para><para><b>IsDataFileStore</b> no indica si el almacén se encuentra en una unidad de disco duro local. Por ejemplo, un archivo .pst podría estar ubicado en una unidad de red asignada y <b>IsDataFileStore</b> seguiría devolviendo <b>True</b>.</para><para>El valor devuelto de <b>IsDataFileStore</b> puede cambiar si el usuario está configurado para el modo clásico sin conexión de Exchange. Cuando el usuario está desconectado y utiliza el modo clásico sin conexión de Exchange, <b>IsDataFileStore</b> devuelve <b>True</b>. Cuando el usuario está conectado y utiliza el modo clásico en línea de Exchange, <b>IsDataFileStore</b> devuelve <b>False</b>.</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-148">
+              <para>
+                <b>IsDataFileStore</b> supports only Exchange stores, and will return <b>False</b> for HTTP-type stores such as Hotmail and MSN, and for IMAP stores.</para>
+              <para>For Exchange stores, <b>IsDataFileStore</b> will return <b>False</b> if the user profile is not using Cached Exchange mode. <b>IsDataFileStore</b> will also return <b>False</b> when the store is an Exchange Public Folder (that is, <see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" /> is <b>olExchangePublicFolder</b>).</para>
+              <para>
+                <b>IsDataFileStore</b> does not indicate whether the store is located on a local hard drive. For example, a .pst file could be located on a mapped network drive and <b>IsDataFileStore</b> would still return <b>True</b>.</para>
+              <para>The return value of <b>IsDataFileStore</b> can change if the user is configured for classic Exchange offline mode. When the user is offline and using classic Exchange offline mode, <b>IsDataFileStore</b> will return <b>True</b>. When the user is online and using classic Exchange online mode, <b>IsDataFileStore</b> will return <b>False</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInstantSearchEnabled">
+      <MemberSignature Language="C#" Value="public bool IsInstantSearchEnabled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsInstantSearchEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.IsInstantSearchEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsInstantSearchEnabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsInstantSearchEnabled { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64532)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64532)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="69ee2-149">Devuelve un <b>valor Boolean</b> (<b>bool</b> en C#) que indica si la búsqueda instantánea está habilitada y operativa en un almacén.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-149">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates whether Instant Search is enabled and operational on a store.</span>
+          </span>
+          <span data-ttu-id="69ee2-150">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-150">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="69ee2-151">
+            <para>Utilice <b>IsInstantSearchEnabled</b> para determinar si debe utilizar los operadores <b>ci_startswith</b> o <b>ci_phrasematch</b> en la consulta. Si utiliza <b>ci_startswith</b> o <b>ci_phrasematch</b> en la consulta y la búsqueda instantánea no está habilitada, Outlook devolverá un error.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-151">
+              <para>Use <b>IsInstantSearchEnabled</b> to evaluate whether you should use <b>ci_startswith</b> or <b>ci_phrasematch</b> operators in your query. If you use <b>ci_startswith</b> or <b>ci_phrasematch</b> in the query and Instant Search is not enabled, Outlook will return an error. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOpen">
+      <MemberSignature Language="C#" Value="public bool IsOpen { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsOpen" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.IsOpen" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsOpen As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOpen { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64224)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64224)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="69ee2-152">Devuelve un <b>valor Boolean</b> (<b>bool</b> en C#) que indica si la <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> está abierto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-152">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> is open.</span>
+          </span>
+          <span data-ttu-id="69ee2-153">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-153">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="69ee2-154">
+            <para>Esta propiedad admite almacenes de Exchange y almacenes que no son de Exchange.</para>
+            <para>
+              <b>IsOpen</b> indica únicamente si el almacén está abierto. No indica si el almacén está sin conexión, o si es un buzón de Exchange o una carpeta pública de Exchange y el servidor de almacenamiento está inactivo.</para>
+            <para>Debido a que abrir un almacén puede suponer una sobrecarga de rendimiento, y <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetRootFolder" /> y <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetSearchFolders" /> se abrirán un almacén si aún no está abierto, puede utilizar <b>IsOpen</b> antes de decidir llamar a <b>GetRootFolder</b> o a <b>GetSearchFolders</b> para minimizar sobrecarga de rendimiento. </para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-154">
+              <para>This property supports both Exchange and non-Exchange stores.</para>
+              <para>
+                <b>IsOpen</b> only indicates if the store is open. It does not indicate if the store is offline, or if it is an Exchange mailbox or an Exchange Public Folder and the store server is down.</para>
+              <para>Because opening a store can impose a performance overhead, and <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetRootFolder" /> and <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetSearchFolders" /> will open a store if it is not already open, you can use <b>IsOpen</b> before deciding to call <b>GetRootFolder</b> or <b>GetSearchFolders</b> to minimize performance overhead. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MAPIOBJECT">
+      <MemberSignature Language="C#" Value="public object MAPIOBJECT { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object MAPIOBJECT" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.MAPIOBJECT" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MAPIOBJECT As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ MAPIOBJECT { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61696)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61696)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="69ee2-155">[!PRECAUCIóN] Este objeto, miembro o enumeración está en desuso y no debería usarse en el código.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-155">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="69ee2-p115">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-p115">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="69ee2-158">
+            <para>El elemento principal de la <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto es el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-158">
+              <para>The parent of the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object is the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyAccessor">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.PropertyAccessor PropertyAccessor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.PropertyAccessor PropertyAccessor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.PropertyAccessor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PropertyAccessor As PropertyAccessor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::PropertyAccessor ^ PropertyAccessor { Microsoft::Office::Interop::Outlook::PropertyAccessor ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64253)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64253)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="69ee2-159">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto que admite la creación, obtener, establecer y eliminación de propiedades del objeto primario <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-159">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object.</span>
+          </span>
+          <span data-ttu-id="69ee2-160">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-160">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RefreshQuotaDisplay">
+      <MemberSignature Language="C#" Value="public void RefreshQuotaDisplay ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RefreshQuotaDisplay() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Store.RefreshQuotaDisplay" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RefreshQuotaDisplay ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RefreshQuotaDisplay();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64590)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="69ee2-161">Actualiza la información de la cuota de almacén que se muestra en la barra de estado en la ventana del explorador.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-161">Refreshes the store quota information that is displayed in the status bar in the explorer window.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="69ee2-162">
+            <para>Si el almacén no admite la visualización de información de cuota, este método no tiene ningún efecto.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-162">
+              <para>If the store does not support the display of quota information, this method does nothing.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="69ee2-163">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-163">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
+          </span>
+          <span data-ttu-id="69ee2-164">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-164">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="69ee2-165">
+            <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+            <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+            <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+            <code>Outlook.NameSpace objSession = Application.Session;</code>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-165">
+              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
+              <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+              <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+              <code>Outlook.NameSpace objSession = Application.Session;</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StoreID">
+      <MemberSignature Language="C#" Value="public string StoreID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string StoreID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Store.StoreID" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StoreID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ StoreID { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12552)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12552)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="69ee2-166">Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que identifica el <see cref="T:Microsoft.Office.Interop.Outlook.Store" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-166">Returns a <b>String</b> (<b>string</b> in C#) identifying the <see cref="T:Microsoft.Office.Interop.Outlook.Store" />.</span>
+          </span>
+          <span data-ttu-id="69ee2-167">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-167">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="69ee2-168">
+            <para>
+              <b>StoreID</b> es único en el perfil. Es equivalente a la propiedad MAPI <b>PidTagStoreEntryId</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="69ee2-168">
+              <para>
+                <b>StoreID</b> is unique to the profile. It is equivalent to the MAPI property <b>PidTagStoreEntryId</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

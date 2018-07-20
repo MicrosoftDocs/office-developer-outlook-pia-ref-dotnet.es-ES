@@ -1,0 +1,57 @@
+<Type Name="AttachmentSelection" FullName="Microsoft.Office.Interop.Outlook.AttachmentSelection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="89d4cc40051887ef0752881948727d49c4a4034f" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20643144" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface AttachmentSelection : Microsoft.Office.Interop.Outlook._AttachmentSelection" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AttachmentSelection implements class Microsoft.Office.Interop.Outlook._AttachmentSelection" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface AttachmentSelection&#xA;Implements _AttachmentSelection" />
+  <TypeSignature Language="C++ CLI" Value="public interface class AttachmentSelection : Microsoft::Office::Interop::Outlook::_AttachmentSelection" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._AttachmentSelection</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.AttachmentSelectionClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630F9-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="bd2c0-101">Contiene un conjunto de <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> objetos que representan los datos adjuntos seleccionados en un elemento de Outlook.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="bd2c0-101">Contains a set of <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" />  objects that represent the selected attachments in an Outlook item.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="bd2c0-102">
+        <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._AttachmentSelection" />.</para>
+        <para>El objeto <b>AttachmentSelection</b> contiene una colección de solo lectura de los datos adjuntos que se han seleccionado en un elemento que se encuentra en el inspector activo o en el explorador activo.</para>
+        <para>Para personalizar el menú contextual de datos adjuntos mediante el uso de Microsoft Office Fluent extensibilidad de la cinta de opciones, use la propiedad del <b>contexto</b> de la interfaz de <b>IRibbonControl</b> para obtener un objeto <b>AttachmentSelection</b> .</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="bd2c0-102">
+          <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._AttachmentSelection" />.</para>
+          <para>The <b>AttachmentSelection</b> object contains a read-only collection of attachments that are selected in an item that is in the active inspector or the active explorer.</para>
+          <para>To customize the attachment shortcut menu by using Microsoft Office Fluent ribbon extensibility, use the <b>Context</b> property of the <b>IRibbonControl</b> interface to obtain an <b>AttachmentSelection</b> object.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members />
+</Type>
