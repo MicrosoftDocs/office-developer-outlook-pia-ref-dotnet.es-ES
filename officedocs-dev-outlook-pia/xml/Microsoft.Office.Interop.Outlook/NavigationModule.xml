@@ -1,0 +1,40 @@
+<Type Name="NavigationModule" FullName="Microsoft.Office.Interop.Outlook.NavigationModule">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e015b6347e2c958056f13943b0fe4e39346e4cb3" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20642820" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface NavigationModule : Microsoft.Office.Interop.Outlook._NavigationModule" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NavigationModule implements class Microsoft.Office.Interop.Outlook._NavigationModule" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NavigationModule" />
+  <TypeSignature Language="VB.NET" Value="Public Interface NavigationModule&#xA;Implements _NavigationModule" />
+  <TypeSignature Language="C++ CLI" Value="public interface class NavigationModule : Microsoft::Office::Interop::Outlook::_NavigationModule" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._NavigationModule</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.NavigationModuleClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630E8-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Representa un módulo de navegación en el panel de navegación de un explorador.</summary>
+    <remarks>
+      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._NavigationModule" />. </para>Objeto 
+      <para>el <b>NavigationModule</b> proporciona acceso a los distintos módulos de navegación que se muestran en el panel de navegación de Microsoft Outlook. Los objetos siguientes se derivan del objeto <b>NavigationModule</b> :</para><list type="bullet"><item><para><see cref="T:Microsoft.Office.Interop.Outlook.CalendarModule" /></para></item><item><para><see cref="T:Microsoft.Office.Interop.Outlook.ContactsModule" /></para></item><item><para><see cref="T:Microsoft.Office.Interop.Outlook.JournalModule" /></para></item><item><para><see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /></para></item><item><para><see cref="T:Microsoft.Office.Interop.Outlook.NotesModule" /></para></item></list><para> usar el <see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" /> (método) o el <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Item(System.Object)" /> (propiedad) (<b>este</b> en C#) de la <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> colección para el elemento primario <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> recupere un objeto <b>NavigationModule</b> , a continuación, usar el <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModule.NavigationModuleType" /> (propiedad) del objeto <b>NavigationModule</b> para recuperar el tipo de módulo. Según el valor de la propiedad <b>NavigationModuleType</b> , podrá convertir la referencia de objeto <b>NavigationModule</b> como uno de los objetos enumerados anteriormente para tener acceso a la <see cref="P:Microsoft.Office.Interop.Outlook._CalendarModule.NavigationGroups" /> (propiedad) para ese objeto, como un <b>CalendarModule </b>objeto.</para> Módulos de 
+      <para>navegación el accesos directos y lista de carpetas no tienen un objeto correspondiente, por ejemplo, <b>MailModule</b>, debido a que no admiten el acceso mediante programación a los grupos de exploración o las carpetas de navegación. Puede utilizar el objeto <b>NavigationModule</b> para tener acceso a las propiedades de los accesos directos y lista de carpetas módulos.</para><para>Se puede usar el <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModule.Visible" /> (propiedad) para determinar si el módulo de exploración está visible y el <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModule.Position" /> (propiedad) para devolver o establecer la posición de presentación del módulo de exploración dentro del panel de navegación. También puede usar el <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModule.Name" /> propiedad para devolver el nombre para mostrar del módulo de exploración dentro del panel de navegación.</para><para /></remarks>
+  </Docs>
+  <Members />
+</Type>

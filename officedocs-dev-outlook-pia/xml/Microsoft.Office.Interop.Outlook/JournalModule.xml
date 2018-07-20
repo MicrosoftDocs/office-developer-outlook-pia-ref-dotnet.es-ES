@@ -1,0 +1,39 @@
+<Type Name="JournalModule" FullName="Microsoft.Office.Interop.Outlook.JournalModule">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0c4ac2b4ea0698138fa548a4b78a65d6cc4884dd" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20641797" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface JournalModule : Microsoft.Office.Interop.Outlook._JournalModule" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract JournalModule implements class Microsoft.Office.Interop.Outlook._JournalModule" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.JournalModule" />
+  <TypeSignature Language="VB.NET" Value="Public Interface JournalModule&#xA;Implements _JournalModule" />
+  <TypeSignature Language="C++ CLI" Value="public interface class JournalModule : Microsoft::Office::Interop::Outlook::_JournalModule" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._JournalModule</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.JournalModuleClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630ED-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Representa el módulo de navegación Diario del panel de navegación de un explorador.</summary>
+    <remarks>
+      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._JournalModule" />. </para>Objeto 
+      <para>el <b>JournalModule</b> , derivado de la <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> de objetos, proporciona acceso a los grupos de exploración contenidos en el módulo de exploración Diario del panel de exploración de un explorador. Usar el <see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" /> (método) o el <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Item(System.Object)" /> (propiedad) (<b>este</b> en C#) de la <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" /> colección para el elemento primario <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> recupere un objeto <b>NavigationModule</b> , a continuación, usar el <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModule.NavigationModuleType" /> (propiedad) del objeto <b>NavigationModule</b> para recuperar el tipo de módulo. Si la propiedad <b>NavigationModuleType</b> se establece en <b>olModuleJournal</b>, a continuación, puede convertir la referencia de objeto <b>NavigationModule</b> como un objeto <b>JournalModule</b> para tener acceso a la <see cref="P:Microsoft.Office.Interop.Outlook._JournalModule.NavigationGroups" /> (propiedad) para ese módulo de exploración.</para><para>Se puede usar el <see cref="P:Microsoft.Office.Interop.Outlook._JournalModule.Visible" /> (propiedad) para determinar si el módulo de exploración está visible y el <see cref="P:Microsoft.Office.Interop.Outlook._JournalModule.Position" /> (propiedad) para devolver o establecer la posición de presentación del módulo de exploración dentro del panel de navegación. Puede usar el <see cref="P:Microsoft.Office.Interop.Outlook._JournalModule.Name" /> propiedad para devolver el nombre para mostrar del módulo de exploración Diario dentro del panel de navegación.</para><para /></remarks>
+  </Docs>
+  <Members />
+</Type>

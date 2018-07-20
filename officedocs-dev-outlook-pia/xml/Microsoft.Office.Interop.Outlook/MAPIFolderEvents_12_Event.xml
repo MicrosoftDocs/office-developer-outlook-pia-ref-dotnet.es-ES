@@ -1,0 +1,83 @@
+<Type Name="MAPIFolderEvents_12_Event" FullName="Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b57abf71e090da959e1914f676e549cec228a8b5" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20641788" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface MAPIFolderEvents_12_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MAPIFolderEvents_12_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface MAPIFolderEvents_12_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class MAPIFolderEvents_12_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12), typeof(Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Ésta es una interfaz de .NET que se crean cuando se procesa una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Esta interfaz implementa todos los eventos de interfaces anteriores y los nuevos eventos adicionales. Hacer referencia a esta interfaz para obtener información acerca de todos los eventos del objeto COM. Sin embargo, use la <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> interfaz a los métodos de acceso, propiedades y eventos del objeto COM.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeforeFolderMove">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeFolderMoveEventHandler BeforeFolderMove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeFolderMoveEventHandler BeforeFolderMove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event.BeforeFolderMove" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeFolderMove As MAPIFolderEvents_12_BeforeFolderMoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::MAPIFolderEvents_12_BeforeFolderMoveEventHandler ^ BeforeFolderMove;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeFolderMoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Se produce cuando una carpeta se va a mover o eliminar, como resultado de una acción del usuario o del código de programación.</summary>
+        <remarks>
+          <para>Este evento se desencadena cuando la carpeta se va a mover a otra carpeta (incluida la carpeta Elementos eliminados) o cuando la carpeta se va a eliminar de forma permanente.  No se desencadena durante el archivado automático o sincronizar operaciones.</para>
+          <para>Si la acción es una eliminación permanente, la <paramref name="MoveTo" /> carpeta devuelta en el evento será <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeItemMove">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeItemMoveEventHandler BeforeItemMove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeItemMoveEventHandler BeforeItemMove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event.BeforeItemMove" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeItemMove As MAPIFolderEvents_12_BeforeItemMoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::MAPIFolderEvents_12_BeforeItemMoveEventHandler ^ BeforeItemMove;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeItemMoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Se produce cuando un elemento se va a mover o eliminar de una carpeta, como resultado de una acción del usuario o del código de programación.</summary>
+        <remarks>
+          <para>Este evento se desencadena cuando el elemento se va a mover a otra carpeta (incluida la carpeta Elementos eliminados) o cuando el elemento se va a eliminar de forma permanente. No se desencadena durante el archivado automático o sincronizar operaciones.</para>
+          <para>Si la acción es una eliminación permanente, la <paramref name="MoveTo" /> carpeta devuelta en el evento será <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

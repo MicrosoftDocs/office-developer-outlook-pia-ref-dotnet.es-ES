@@ -1,0 +1,42 @@
+<Type Name="Column" FullName="Microsoft.Office.Interop.Outlook.Column">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="46ea2650432468cf516946b92fbae341d0c68957" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20641798" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Column : Microsoft.Office.Interop.Outlook._Column" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Column implements class Microsoft.Office.Interop.Outlook._Column" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Column" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Column&#xA;Implements _Column" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Column : Microsoft::Office::Interop::Outlook::_Column" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._Column</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.ColumnClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630E5-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Representa una columna de datos en un <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto.</summary>
+    <remarks>
+      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._Column" />.</para>
+      <para>Una <b>tabla</b> se compone de filas y columnas. Representa un solo lectura conjunto dinámico de filas de datos en un <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> o <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> objeto. Cada fila de una <b>tabla</b> se puede considerar como un elemento en la carpeta, cada columna como una propiedad del elemento. De forma predeterminada, una <b>tabla</b> contiene sólo un subconjunto de las propiedades de elementos de la carpeta. Esto hace que la <b>tabla</b> de un conjunto de filas ligero en memoria que permite rapidez la enumeración y el filtrado de elementos de la carpeta.</para>
+      <para>Para obtener el valor de una propiedad (columna) para un elemento (fila) concreto de una <b>tabla</b>, también puede utilizar el <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetArray(System.Int32)" /> (método) y el índice en la matriz devuelta, o el uso del <see cref="P:Microsoft.Office.Interop.Outlook._Row.Item(System.Object)" /><b />(propiedad) (<b>este</b> en C#), que especifica la <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" />de la columna.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

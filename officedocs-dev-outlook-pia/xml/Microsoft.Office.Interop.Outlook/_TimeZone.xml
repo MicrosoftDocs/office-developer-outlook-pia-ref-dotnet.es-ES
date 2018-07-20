@@ -1,0 +1,439 @@
+<Type Name="_TimeZone" FullName="Microsoft.Office.Interop.Outlook._TimeZone">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c93472155461317f92e16b09941e71830b4f74ac" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20642640" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _TimeZone" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _TimeZone" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._TimeZone" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _TimeZone" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _TimeZone" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630FD-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Esto es una interfaz principal en una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz principal sólo cuando el método que desea usar comparte el mismo nombre que un evento del objeto COM; en este caso, se convierte en esta interfaz para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. De lo contrario, use la interfaz de .NET que se deriva de la coclase COM para tener acceso a los métodos, propiedades y eventos del objeto COM. Para obtener información sobre el objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TimeZone" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimeZone.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bias">
+      <MemberSignature Language="C#" Value="public int Bias { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Bias" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimeZone.Bias" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Bias As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Bias { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64545)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64545)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que representa la diferencia en minutos entre la hora local en esta zona horaria y la hora Universal coordinada (UTC). Es de solo lectura</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Este valor se almacena como parte del valor de TZI para esa zona horaria en el registro de Windows. El valor TZI está asignado a las ventanas <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
+          <para>
+            <b>Bias</b> no tener en cuenta cualquier desplazamiento de tiempo para hora estándar en la zona horaria o el horario de verano. Para tener en cuenta para cualquier desplazamiento de tiempo de horario de verano, utilice <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.DaylightBias" />. En general, cuando la zona horaria local adopta el horario de verano, la hora UTC es el resultado de agregar <b>Bias</b> y <b>DaylightBias</b> a la hora local. Para tener en cuenta para cualquier desplazamiento de hora estándar, use <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.StandardBias" />. En general, cuando la zona horaria local adopta la hora estándar, la hora UTC es el resultado de agregar <b>Bias</b> y <b>StandardBias</b> a la hora local. </para>
+          <para>, Por ejemplo, en un estado adopta el horario de verano en la zona hora del Pacífico, <b>Bias</b> es 480 minutos y <b>DaylightBias</b> es-60 minutos. Para determinar la hora en UTC 11 de junio, 2 A.M. PST, agregue <b>Bias</b> de (480/60) horas y un <b>DaylightBias</b> de-(60/60) horas a la hora local 11 de junio, 2 A.M. La hora en UTC es 11 de junio, 9 A.M.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimeZone.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que representa la clase del objeto. Es de solo lectura</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DaylightBias">
+      <MemberSignature Language="C#" Value="public int DaylightBias { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 DaylightBias" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimeZone.DaylightBias" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DaylightBias As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int DaylightBias { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64547)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64547)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que representa el desplazamiento de tiempo en minutos desde el <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Bias" /> para tener en cuenta el horario de verano en esta zona horaria. Es de solo lectura</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Este valor se almacena como parte del valor de TZI para esa zona horaria en el registro de Windows. El valor TZI está asignado a las ventanas <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
+          <para>en relación con la hora UTC y la hora local de la zona horaria, la hora UTC es el resultado de agregar <b>Bias</b> y <b>DaylightBias</b> a la hora local. Por ejemplo, en un estado adopta el horario de verano en la zona hora del Pacífico, <b>Bias</b> es 480 minutos y <b>DaylightBias</b> es-60 minutos. Para determinar la hora en UTC 11 de junio, 2 A.M. PST, agregue <b>Bias</b> de (480/60) horas y un <b>DaylightBias</b> de-(60/60) horas a la hora local 11 de junio, 2 A.M. La hora en UTC es 11 de junio, 9 A.M.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DaylightDate">
+      <MemberSignature Language="C#" Value="public DateTime DaylightDate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime DaylightDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimeZone.DaylightDate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DaylightDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime DaylightDate { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64549)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64549)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve un valor de <b>fecha y hora</b> que representa la fecha y hora en esta zona horaria cuando la hora cambia al horario de verano en el año actual. Es de solo lectura</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Este valor se almacena como parte del valor de TZI para la zona horaria en el registro de Windows. El valor TZI está asignado a las ventanas <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DaylightDesignation">
+      <MemberSignature Language="C#" Value="public string DaylightDesignation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DaylightDesignation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimeZone.DaylightDesignation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DaylightDesignation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DaylightDesignation { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64555)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64555)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que identifica la zona horaria en el horario de verano. Es de solo lectura</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Esta propiedad se almacena como el valor Dlt para la zona horaria en el registro.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ID">
+      <MemberSignature Language="C#" Value="public string ID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimeZone.ID" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ID { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64562)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64562)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que identifica de forma exclusiva la zona horaria. Es de solo lectura</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>El <b>identificador</b> de una zona horaria es globalmente el mismo para esa zona horaria.  Es el nombre de la clave del registro de Windows que contiene la información de zona horaria. A diferencia de la <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Name" /> (propiedad), el valor de <b>identificador</b> no está localizado.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimeZone.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el identificador de la zona horaria. Es de solo lectura</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Normalmente, el <b>nombre</b> incluye el valor de desplazamiento de hora Universal coordinada (UTC), el nombre de la zona horaria oficial y regiones donde se usa la zona horaria. Se almacena como el valor para mostrar en la clave del registro para una zona horaria.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimeZone.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimeZone.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StandardBias">
+      <MemberSignature Language="C#" Value="public int StandardBias { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 StandardBias" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimeZone.StandardBias" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StandardBias As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int StandardBias { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64546)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64546)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que representa el desplazamiento de tiempo en minutos desde el <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Bias" /> para tener en cuenta la hora estándar de esa zona horaria. Es de solo lectura</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Este valor se almacena como parte del valor de TZI para la zona horaria en el registro de Windows. El valor TZI está asignado a las ventanas <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
+          <para>en relación con la hora UTC y la hora local de la zona horaria, la hora UTC es el resultado de agregar <b>Bias</b> y <b>StandardBias</b> a la hora local. Por ejemplo, en un estado adopta la hora estándar en la zona hora del Pacífico, <b>Bias</b> es 480 minutos y <b>StandardBias</b> es 0 minutos. Para determinar la hora en UTC 11 de junio, 2 A.M. PST, agregue <b>Bias</b> de (480/60) horas y un <b>StandardBias</b> de 0 horas de la hora local 11 de junio, 2 A.M. La hora en UTC es 11 de junio, 10 A.M.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StandardDate">
+      <MemberSignature Language="C#" Value="public DateTime StandardDate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StandardDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimeZone.StandardDate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StandardDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime StandardDate { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64548)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64548)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve un valor de <b>fecha y hora</b> que representa la fecha y hora en esta zona horaria cuando la hora cambia al horario estándar. Es de solo lectura</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Este valor se almacena como parte del valor de TZI para la zona horaria en el registro de Windows. El valor TZI está asignado a las ventanas <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StandardDesignation">
+      <MemberSignature Language="C#" Value="public string StandardDesignation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string StandardDesignation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._TimeZone.StandardDesignation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StandardDesignation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ StandardDesignation { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64556)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64556)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que identifica la zona horaria en la hora estándar. Es de solo lectura</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Esta propiedad se almacena como el valor Std para la zona horaria en el registro.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

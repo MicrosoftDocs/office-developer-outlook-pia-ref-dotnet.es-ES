@@ -1,0 +1,573 @@
+<Type Name="_SelectNamesDialog" FullName="Microsoft.Office.Interop.Outlook._SelectNamesDialog">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3da1cf3261b3db854a70c2e61d5f6fde1afb62c2" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20641959" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _SelectNamesDialog" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _SelectNamesDialog" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._SelectNamesDialog" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _SelectNamesDialog" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _SelectNamesDialog" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630C8-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Esto es una interfaz principal en una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz principal sólo cuando el método que desea usar comparte el mismo nombre que un evento del objeto COM; en este caso, se convierte en esta interfaz para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. De lo contrario, use la interfaz de .NET que se deriva de la coclase COM para tener acceso a los métodos, propiedades y eventos del objeto COM. Para obtener información sobre el objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllowMultipleSelection">
+      <MemberSignature Language="C#" Value="public bool AllowMultipleSelection { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowMultipleSelection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.AllowMultipleSelection" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowMultipleSelection As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowMultipleSelection { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64230)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64230)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64230)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que determina si se puede seleccionar más de una entrada de dirección en un momento en el cuadro de diálogo Seleccionar nombres. Lectura y escritura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>El valor predeterminado de <b>AllowMultipleSelection</b> es <b>True</b>. Si <b>AllowMultipleSelection</b> se establece en <b>True</b>, el usuario puede seleccionar a varios destinatarios mediante el uso de la tecla CTRL o MAYÚS. Si <b>AllowMultipleSelection</b> se establece en <b>False</b>, la selección múltiple está deshabilitada.   </para>
+          <para>Configuración <b>AllowMultipleSelection</b> en <b>False</b> no garantiza que el un solo destinatario se puede seleccionar. El usuario puede escribir a destinatarios adicionales en el cuadro de edición o selecciónelo en la lista de destinatarios varias veces. Para asegurarse de que un solo destinatario puede seleccionarse en el cuadro de diálogo, deberá establecer <b>AllowMultipleSelect</b> en <b>False</b> y <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> en <b>olShowNone</b>. </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación principal (Outlook) para la <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> objeto. Es de solo lectura</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BccLabel">
+      <MemberSignature Language="C#" Value="public string BccLabel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BccLabel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />
+      <MemberSignature Language="VB.NET" Value="Public Property BccLabel As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ BccLabel { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64227)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64227)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64227)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) para el texto que aparece en el botón de comando CCO en el cuadro de diálogo Seleccionar nombres. Lectura y escritura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Para proporcionar una tecla de aceleración para los cuadros de edición de destinatarios, incluya un signo de y comercial (&amp;) carácter en la cadena de argumento label, inmediatamente antes del carácter que actúa como la tecla de acceso. Por ejemplo, si <b>BccLabel</b> es la cadena "Local &amp;los asistentes", los usuarios pueden presionar la tecla ALT + A para desplazar el enfoque al primer cuadro de edición de destinatarios. </para>
+          <para>Si no se establece <b>BccLabel</b> , a continuación, el valor predeterminado será la cadena traducida correspondiente a "Bcc". Si <b>BccLabel</b> se establece en una cadena vacía, a continuación, se muestra el botón de comando CCO -&gt;. Si la propiedad <b>BccLabel</b> contiene más de 32 caracteres (incluido el signo de y comercial (&amp;) clave de acceso), se mostrará sólo los primeros 32 caracteres en el botón de comando.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Caption">
+      <MemberSignature Language="C#" Value="public string Caption { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Caption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Caption" />
+      <MemberSignature Language="VB.NET" Value="Public Property Caption As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Caption { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64226)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64226)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64226)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve o establece un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa el título para el cuadro de diálogo Seleccionar nombres. Lectura y escritura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Si no se establece <b>Caption</b>, el título del cuadro de diálogo será Seleccionar nombres. Si establece <b>Caption</b> en una cadena vacía, el título del cuadro de diálogo será una cadena vacía.</para>
+          <para>Si establece <b>Caption</b> en una cadena larga (por ejemplo, con 300 caracteres) el título se truncará y no hará que el ancho del cuadro de diálogo Seleccionar nombres para cambiar.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CcLabel">
+      <MemberSignature Language="C#" Value="public string CcLabel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CcLabel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" />
+      <MemberSignature Language="VB.NET" Value="Public Property CcLabel As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CcLabel { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64228)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64228)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64228)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) para el texto que aparece en el botón de comando Cc en el cuadro de diálogo Seleccionar nombres. Lectura y escritura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Para proporcionar una tecla de aceleración para los cuadros de edición de destinatarios, incluya un signo de y comercial (&amp;) carácter en la cadena de argumento label, inmediatamente antes del carácter que actúa como la tecla de acceso. Por ejemplo, si <b>CcLabel</b> es la cadena "Local &amp;los asistentes", los usuarios pueden presionar la tecla ALT + A para desplazar el enfoque al primer cuadro de edición de destinatarios. </para>
+          <para>Si no se establece <b>CcLabel</b> , a continuación, el valor predeterminado será la cadena traducida correspondiente a "Cc". Si <b>CcLabel</b> se establece en una cadena vacía, a continuación, se muestra el botón de comando Cc -&gt;. Si la propiedad <b>CcLabel</b> contiene más de 32 caracteres (incluido el signo de y comercial (&amp;) clave de acceso), se mostrará sólo los primeros 32 caracteres en el botón de comando.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve una constante en el <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> (enumeración) que indica la clase de la <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> objeto. Es de solo lectura</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Display">
+      <MemberSignature Language="C#" Value="public bool Display ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Display() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Display" />
+      <MemberSignature Language="VB.NET" Value="Public Function Display () As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Display();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61473)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Muestra el cuadro de diálogo Seleccionar nombres.</summary>
+        <returns>Un valor <b>booleano</b> (<b>bool</b> en C#) que es <b>True</b> si el usuario ha hecho clic en Aceptar y <b>False</b> si el usuario ha hecho clic en Cancelar o en el icono Cerrar.</returns>
+        <remarks>
+          <para>Cuando se muestra el cuadro de diálogo Seleccionar nombres, <b>Display</b> usa la ubicación anterior y el tamaño (indicados por la parte superior, izquierda, ancho y alto) del cuadro de diálogo.</para>
+          <para>Cuadro de diálogo Seleccionar los nombres es modal, lo que significa que el código dejará de ejecutarse hasta que el usuario hace clic en Aceptar, cancelar o el icono Cerrar.</para>
+          <para>Debe detectar las condiciones de error como memoria insuficiente u otro mensaje o cuadro de diálogo está abierto.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForceResolution">
+      <MemberSignature Language="C#" Value="public bool ForceResolution { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ForceResolution" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.ForceResolution" />
+      <MemberSignature Language="VB.NET" Value="Public Property ForceResolution As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ForceResolution { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64231)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64231)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64231)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que determina si Outlook deberá resolver todos los destinatarios en el objeto especificado por <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Recipients" /> antes de que el usuario puede hacer clic en Aceptar para aceptar los destinatarios escritos o seleccionados en el cuadro de diálogo Seleccionar nombres. Lectura y escritura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>El valor predeterminado es <b>True</b>. Si no se puede resolver un destinatario, Outlook le pedirá al usuario que resuelva los nombres ambiguos. El usuario debe tener todos los destinatarios en el cuadro de edición de destinatarios resolver antes de poder hacer clic en Aceptar.</para>
+          <para>
+            <b>ForceResolution</b> se pasa por alto si el usuario hace clic en Cancelar o en el icono Cerrar.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InitialAddressList">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.AddressList InitialAddressList { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.AddressList InitialAddressList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.InitialAddressList" />
+      <MemberSignature Language="VB.NET" Value="Public Property InitialAddressList As AddressList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::AddressList ^ InitialAddressList { Microsoft::Office::Interop::Outlook::AddressList ^ get(); void set(Microsoft::Office::Interop::Outlook::AddressList ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64234)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64234)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64234)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AddressList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> objeto que determina la lista de direcciones inicial que se mostrará en el cuadro de diálogo Seleccionar nombres. Lectura y escritura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Es establecer la propiedad <b>InitialAddressList</b> mediante programación equivale a seleccionar un <b>objeto AddressList</b> de la lista desplegable para la libreta de direcciones en el cuadro de diálogo Seleccionar nombres.</para>
+          <para>En su estado predeterminado, <b>InitialAddressList</b> es el <b>objeto AddressList</b> que tiene la propiedad <see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" /> establecido en <b>True</b>. <b>IsInitialAddressList</b> corresponde a establecer mostrar esta lista de direcciones en primer lugar en el cuadro de diálogo dirección, que está disponible haciendo clic en herramientas y, a continuación, en Opciones en el cuadro de diálogo Libreta de direcciones.  </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfRecipientSelectors">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlRecipientSelectors NumberOfRecipientSelectors { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlRecipientSelectors NumberOfRecipientSelectors" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberOfRecipientSelectors As OlRecipientSelectors" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlRecipientSelectors NumberOfRecipientSelectors { Microsoft::Office::Interop::Outlook::OlRecipientSelectors get(); void set(Microsoft::Office::Interop::Outlook::OlRecipientSelectors value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64233)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64233)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64233)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlRecipientSelectors</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlRecipientSelectors" /> constante que determina el número de destinatario editar cuadros (cada uno de ellos asociado con un botón de comando) que se muestran en el cuadro de diálogo Seleccionar nombres. Lectura y escritura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Un cuadro de edición de destinatarios permite escribir los nombres de los destinatarios. Cada cuadro de edición de destinatarios está asociada con un botón de comando en el cuadro de diálogo Seleccionar nombres; ejemplos de un botón de comando para un cuadro de edición de destinatarios son para y Cc botones de comando. El valor predeterminado de <b>NumberOfRecipientSelectors</b> es <b>OlRecipientSelectors.olToCcBcc</b>.</para>
+          <para>Si establece <b>NumberOfRecipientSelectors</b> en <b>OlRecipientSelectors.olShowTo</b> y a continuación establece el texto para <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" /> o <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />, no cambiará el <b>NumberOfRecipientSelectors</b> .</para>
+          <para>Si establece <b>NumberOfRecipientSelectors</b> en <b>OlRecipientSelectors.olShowNone</b>, entonces el <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.AllowMultipleSelection" /> propiedad se omitirá.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve el objeto primario de la <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> objeto. Es de solo lectura</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Recipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Recipients Recipients { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Recipients Recipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Recipients" />
+      <MemberSignature Language="VB.NET" Value="Public Property Recipients As Recipients" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Recipients ^ Recipients { Microsoft::Office::Interop::Outlook::Recipients ^ get(); void set(Microsoft::Office::Interop::Outlook::Recipients ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(63508)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(63508)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(63508)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Recipients</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> objeto de colección que representa los destinatarios seleccionados en el cuadro de diálogo Seleccionar nombres, o bien establece un objeto de colección <b>Recipients</b> que representa los destinatarios iniciales que se mostrará en el cuadro de diálogo Seleccionar nombres. Lectura y escritura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Esta propiedad especifica un objeto de colección <b>Recipients</b> que tiene un <see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Count" /> igual que el número total de destinatarios en la línea para, Cc y CCO los cuadros de edición. </para>
+          <para>Si no se establece esta propiedad antes de mostrar el cuadro de diálogo Seleccionar nombres, a continuación, el objeto <b>Recipients</b> representado por <b>SelectNamesDialog.Recipients</b> tendrá una <b>propiedad Recipients.Count será</b> igual a cero.</para>
+          <para>Si el usuario no selecciona ningún nombre en el cuadro de diálogo Seleccionar nombres y hace clic en Aceptar, <b>SelectNamesDialog.Recipients</b> devolverá un objeto de colección <b>Recipients</b> cuya <b>propiedad Recipients.Count será</b> igual a cero.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetDefaultDisplayMode">
+      <MemberSignature Language="C#" Value="public void SetDefaultDisplayMode (Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode defaultMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetDefaultDisplayMode([in]valuetype Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode defaultMode) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._SelectNamesDialog.SetDefaultDisplayMode(Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetDefaultDisplayMode (defaultMode As OlDefaultSelectNamesDisplayMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetDefaultDisplayMode(Microsoft::Office::Interop::Outlook::OlDefaultSelectNamesDisplayMode defaultMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64235)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="defaultMode" Type="Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode" />
+      </Parameters>
+      <Docs>
+        <param name="defaultMode">Constante de la enumeración <b>OlDefaultSelectNamesDisplayMode</b> que determina las etiquetas predeterminadas de título y botones para el cuadro de diálogo Seleccionar nombres.</param>
+        <summary>Establece el modo de presentación predeterminado del cuadro de diálogo Seleccionar nombres y especifica sus etiquetas de título y botones.</summary>
+        <remarks>
+          <para>
+            <b>SetDefaultDisplayMode</b> es opcional. Si no se llama a <b>SetDefaultDisplayMode</b> antes de llamar a <see cref="M:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Display" />, el modo de presentación predeterminado será <b>OlDefaultSelectNamesDisplayMode.olDefaultMail</b>. Para establecer el modo de presentación en un valor diferente, deberá llamar a <b>SetDefaultDisplayMode</b> antes de llamar al método de <b>visualización</b> . </para>
+          <para>Este método le permite para mostrar el cuadro de diálogo Seleccionar nombres sin usar un archivo de recursos para adaptar los valores para el título, las etiquetas de para, Cc etiqueta y la etiqueta de CCO. Puede invalidar el comportamiento integrado mediante la configuración de sus propios valores para <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Caption" />, <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.ToLabel" />, <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" />, y <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />. </para>
+          <para>Se pueden establecer propiedades adicionales (por ejemplo, si se establece <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> en <b>olRecipientSelectors.olToCc</b>) después de llamar a <b>SetDefaultDisplayMode</b>. El cuadro de diálogo Seleccionar nombres respetará la configuración subsiguiente.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowOnlyInitialAddressList">
+      <MemberSignature Language="C#" Value="public bool ShowOnlyInitialAddressList { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowOnlyInitialAddressList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.ShowOnlyInitialAddressList" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowOnlyInitialAddressList As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowOnlyInitialAddressList { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64232)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64232)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64232)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que determina si el <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> representada por <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.InitialAddressList" /> es el único <b>objeto AddressList</b> disponible en la lista desplegable para la libreta de direcciones en el cuadro de diálogo Seleccionar nombres. Lectura y escritura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>El valor predeterminado de esta propiedad es <b>False</b>, lo que significa que se muestran todas las listas de direcciones. Para restringir la lista desplegable para la libreta de direcciones a la que se indica en <b>InitialAddressList</b>, establezca <b>ShowOnlyInitialAddressList</b> en <b>True</b>. </para>
+          <para>Si no establece la propiedad <b>InitialAddressList</b> y establece <b>ShowOnlyInitialAddressList</b> en <b>True</b>, el <b>objeto AddressList</b> con <see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" /> igual a <b>True</b> será la única lista de direcciones disponible en el lista desplegable para la libreta de direcciones.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToLabel">
+      <MemberSignature Language="C#" Value="public string ToLabel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ToLabel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.ToLabel" />
+      <MemberSignature Language="VB.NET" Value="Public Property ToLabel As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ToLabel { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64229)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64229)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64229)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) para el texto que aparece en el botón de comando para en el cuadro de diálogo Seleccionar nombres. Lectura y escritura.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Para proporcionar una tecla de aceleración para los cuadros de edición de destinatarios, incluya un signo de y comercial (&amp;) carácter en la cadena de argumento label, inmediatamente antes del carácter que actúa como la tecla de acceso. Por ejemplo, si <b>ToLabel</b> es la cadena "Local &amp;los asistentes", los usuarios pueden presionar la tecla ALT + A para desplazar el enfoque al primer cuadro de edición de destinatarios. </para>
+          <para>Si no se establece <b>ToLabel</b> , el valor predeterminado será la cadena localizada para "Para". Si <b>ToLabel</b> se establece en una cadena vacía, a continuación, se muestra el botón de comando para -&gt;. Si la propiedad <b>ToLabel</b> contiene más de 32 caracteres (incluido el signo de y comercial (&amp;) clave de acceso), se mostrará sólo los primeros 32 caracteres en el botón de comando.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

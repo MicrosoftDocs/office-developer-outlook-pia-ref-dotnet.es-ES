@@ -1,0 +1,132 @@
+<Type Name="StoresEvents_12_Event" FullName="Microsoft.Office.Interop.Outlook.StoresEvents_12_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b7130da689629b3854734549d3eea36f219b10b1" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20642818" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface StoresEvents_12_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract StoresEvents_12_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.StoresEvents_12_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface StoresEvents_12_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class StoresEvents_12_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook.StoresEvents_12), typeof(Microsoft.Office.Interop.Outlook.StoresEvents_12_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Se trata de una interfaz .NET creada al procesar una coclase COM que requiere el código administrado para la interoperabilidad con el objeto COM correspondiente. Esta interfaz implementa todos los eventos de interfaces anteriores, además de los eventos nuevos. Úsela solamente si el evento que quiere usar comparte el mismo nombre que un método del objeto COM. Si fuera ese el caso, realice la conversión a esta interfaz para conectarse con el evento y la conversión a la interfaz principal para llamar al método. En caso contrario, use la interfaz .NET derivada de la coclase COM para acceder a los métodos, las propiedades y los eventos del objeto COM.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeforeStoreRemove">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.StoresEvents_12_BeforeStoreRemoveEventHandler BeforeStoreRemove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.StoresEvents_12_BeforeStoreRemoveEventHandler BeforeStoreRemove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.StoresEvents_12_Event.BeforeStoreRemove" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeStoreRemove As StoresEvents_12_BeforeStoreRemoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::StoresEvents_12_BeforeStoreRemoveEventHandler ^ BeforeStoreRemove;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.StoresEvents_12_BeforeStoreRemoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Se produce cuando un <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> está a punto de quitarse de la sesión actual mediante programación o a través de la acción del usuario.</summary>
+        <remarks>
+          <para>Outlook debe estar ejecutándose en orden para que se desencadena este evento. Este evento desencadenará cuando se produce cualquiera de los siguientes: </para>
+          <list type="bullet">
+            <item>
+              <para>se quita un almacén por el usuario hace clic en el comando Cerrar en el menú contextual.</para>
+            </item>
+            <item>
+              <para>Se quite un almacén mediante programación llamando a <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.RemoveStore(Microsoft.Office.Interop.Outlook.MAPIFolder)" />.</para>
+            </item>
+          </list>
+          <para>Este evento desencadenará cuando se produce cualquiera de los siguientes:</para>
+          <list type="bullet">
+            <item>
+              <para>Cuando Outlook se cierra y se cierra un principal o delegado almacenar.</para>
+            </item>
+            <item>
+              <para>Si un almacén se quita mediante el applet de correo en el Panel de Control de Microsoft Windows y no se está ejecutando Outlook.</para>
+            </item>
+            <item>
+              <para>Se quite un almacén delegado en la ficha Opciones avanzadas del cuadro de diálogo Microsoft Exchange Server.</para>
+            </item>
+            <item>
+              <para>Un almacén se quita mediante la ficha archivos de datos del cuadro de diálogo Administrador de cuentas cuando Outlook no se está ejecutando.</para>
+            </item>
+            <item>
+              <para>Se ha quitado un almacén IMAP del perfil.</para>
+            </item>
+          </list>
+          <para>Puede usar este evento para determinar que se ha quitado un almacén y tomar las acciones adecuadas si es necesario para la aplicación (por ejemplo, volver a montar el almacén de) el almacén de. En caso contrario, tendría que recurrir a sondeo la <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> colección.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StoreAdd">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.StoresEvents_12_StoreAddEventHandler StoreAdd;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.StoresEvents_12_StoreAddEventHandler StoreAdd" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.StoresEvents_12_Event.StoreAdd" />
+      <MemberSignature Language="VB.NET" Value="Event StoreAdd As StoresEvents_12_StoreAddEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::StoresEvents_12_StoreAddEventHandler ^ StoreAdd;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.StoresEvents_12_StoreAddEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Se produce cuando un <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> se ha agregado a la sesión actual mediante programación o a través de la acción del usuario.</summary>
+        <remarks>
+          <para>Outlook debe estar ejecutándose en orden para que se desencadena este evento. Este evento se desencadenará cuando se produzca cualquiera de los siguientes: </para>
+          <list type="bullet">
+            <item>
+              <para>se agrega un almacén mediante el cuadro de diálogo Abrir archivo de datos de Outlook seleccionando Abrir y, a continuación, el archivo de datos de Outlook en el menú archivo.</para>
+            </item>
+            <item>
+              <para>Se agrega un almacén a través de la ficha archivos de datos del cuadro de diálogo Administrador de cuentas.</para>
+            </item>
+            <item>
+              <para>Se agrega un almacén correctamente llamando el <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.AddStore(System.Object)" /> método.</para>
+            </item>
+          </list>
+          <para>Este evento desencadenará cuando se produce cualquiera de los siguientes:</para>
+          <list type="bullet">
+            <item>
+              <para>Cuando Outlook se inicia y se abre un principal o delegado almacenar.</para>
+            </item>
+            <item>
+              <para>Si se agrega un almacén mediante el applet de correo en el Panel de Control de Microsoft Windows y no se está ejecutando Outlook.</para>
+            </item>
+            <item>
+              <para>Se agrega un almacén delegado a través de la ficha Opciones avanzadas del cuadro de diálogo Microsoft Exchange Server.</para>
+            </item>
+          </list>
+          <para>Puede usar este evento para determinar si se ha agregado un almacén y tomar las acciones pertinentes en los elementos de ese almacén. De lo contrario, tendría que recurrir a sondeo la <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> colección.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,126 @@
+<Type Name="OlMeetingStatus" FullName="Microsoft.Office.Interop.Outlook.OlMeetingStatus">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="38c172422a2a78e82e775f6f508dd95ec441a6fe" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20642982" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlMeetingStatus" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlMeetingStatus extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlMeetingStatus" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlMeetingStatus" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlMeetingStatus" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Indica el estado de la reunión.</summary>
+    <remarks>
+      <para>Vea <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.MeetingStatus" /> (propiedad).</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olMeeting">
+      <MemberSignature Language="C#" Value="olMeeting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlMeetingStatus olMeeting = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlMeetingStatus.olMeeting" />
+      <MemberSignature Language="VB.NET" Value="olMeeting" />
+      <MemberSignature Language="C++ CLI" Value="olMeeting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMeetingStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>La reunión se ha convocado.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olMeetingCanceled">
+      <MemberSignature Language="C#" Value="olMeetingCanceled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlMeetingStatus olMeetingCanceled = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlMeetingStatus.olMeetingCanceled" />
+      <MemberSignature Language="VB.NET" Value="olMeetingCanceled" />
+      <MemberSignature Language="C++ CLI" Value="olMeetingCanceled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMeetingStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>La reunión convocada se ha cancelado.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olMeetingReceived">
+      <MemberSignature Language="C#" Value="olMeetingReceived" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlMeetingStatus olMeetingReceived = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlMeetingStatus.olMeetingReceived" />
+      <MemberSignature Language="VB.NET" Value="olMeetingReceived" />
+      <MemberSignature Language="C++ CLI" Value="olMeetingReceived" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMeetingStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>La convocatoria de reunión se ha recibido.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olMeetingReceivedAndCanceled">
+      <MemberSignature Language="C#" Value="olMeetingReceivedAndCanceled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlMeetingStatus olMeetingReceivedAndCanceled = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlMeetingStatus.olMeetingReceivedAndCanceled" />
+      <MemberSignature Language="VB.NET" Value="olMeetingReceivedAndCanceled" />
+      <MemberSignature Language="C++ CLI" Value="olMeetingReceivedAndCanceled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMeetingStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>La reunión programada se canceló pero todavía aparece en el calendario del usuario.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olNonMeeting">
+      <MemberSignature Language="C#" Value="olNonMeeting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlMeetingStatus olNonMeeting = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlMeetingStatus.olNonMeeting" />
+      <MemberSignature Language="VB.NET" Value="olNonMeeting" />
+      <MemberSignature Language="C++ CLI" Value="olNonMeeting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMeetingStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Se ha programado un elemento de cita sin asistentes. Este estado puede usarse ara establecer las vacaciones de un calendario.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
