@@ -1,0 +1,107 @@
+<Type Name="OlAttachmentType" FullName="Microsoft.Office.Interop.Outlook.OlAttachmentType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4381616cf8421e5a879d9115aee9c6fae2a316f0" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20643226" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlAttachmentType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlAttachmentType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlAttachmentType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlAttachmentType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlAttachmentType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Especifica el tipo de datos adjuntos.</summary>
+    <remarks>
+      <para>Usada como un parámetro opcional para el <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> (método) para especificar el tipo de datos adjuntos.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olByReference">
+      <MemberSignature Language="C#" Value="olByReference" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlAttachmentType olByReference = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlAttachmentType.olByReference" />
+      <MemberSignature Language="VB.NET" Value="olByReference" />
+      <MemberSignature Language="C++ CLI" Value="olByReference" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAttachmentType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Este valor ya no es compatible con respecto a Microsoft Outlook 2007. Use <b>olByValue</b> para adjuntar una copia de un archivo en el sistema de archivos. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olByValue">
+      <MemberSignature Language="C#" Value="olByValue" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlAttachmentType olByValue = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlAttachmentType.olByValue" />
+      <MemberSignature Language="VB.NET" Value="olByValue" />
+      <MemberSignature Language="C++ CLI" Value="olByValue" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAttachmentType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Los datos adjuntos son una copia del archivo original y se puede tener acceso incluso si se quita el archivo original.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olEmbeddeditem">
+      <MemberSignature Language="C#" Value="olEmbeddeditem" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlAttachmentType olEmbeddeditem = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlAttachmentType.olEmbeddeditem" />
+      <MemberSignature Language="VB.NET" Value="olEmbeddeditem" />
+      <MemberSignature Language="C++ CLI" Value="olEmbeddeditem" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAttachmentType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Los datos adjuntos tienen formato de mensaje de Outlook (.msg) y son una copia del mensaje original.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olOLE">
+      <MemberSignature Language="C#" Value="olOLE" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlAttachmentType olOLE = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlAttachmentType.olOLE" />
+      <MemberSignature Language="VB.NET" Value="olOLE" />
+      <MemberSignature Language="C++ CLI" Value="olOLE" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAttachmentType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Los datos adjuntos son un documento OLE.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

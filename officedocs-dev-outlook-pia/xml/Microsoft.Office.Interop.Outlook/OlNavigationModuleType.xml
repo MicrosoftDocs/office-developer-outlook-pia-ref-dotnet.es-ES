@@ -1,0 +1,240 @@
+<Type Name="OlNavigationModuleType" FullName="Microsoft.Office.Interop.Outlook.OlNavigationModuleType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="962cc61e0ae4176aabb9c2a50b45f802b6477e8c" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20643753" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlNavigationModuleType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlNavigationModuleType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlNavigationModuleType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlNavigationModuleType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlNavigationModuleType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Identifica el tipo de módulo de navegación de un <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> objeto.</summary>
+    <remarks>
+      <para>Esta enumeración se usa en el <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModule.NavigationModuleType" /> (propiedad) para los objetos siguientes identificar el tipo de módulo de navegación:</para>
+      <list type="bullet">
+        <item>
+          <para>
+            <b>CalendarModule</b>
+          </para>
+        </item>
+        <item>
+          <para>
+            <b>ContactsModule</b>
+          </para>
+        </item>
+        <item>
+          <para>
+            <b>JournalModule</b>
+          </para>
+        </item>
+        <item>
+          <para>
+            <b>MailModule</b>
+          </para>
+        </item>
+        <item>
+          <para>
+            <b>módulo</b>
+          </para>
+        </item>
+        <item>
+          <para>
+            <b> NotesModule</b>
+          </para>
+        </item>
+        <item>
+          <para>
+            <b>TasksModule</b>
+          </para>
+        </item>
+      </list>
+      <para>la enumeración también se usa en el <see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" /> (método) de la <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> colección para identificar el tipo de módulo de navegación de la <b>NavigationModule</b> que se recuperarán en ese método.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olModuleCalendar">
+      <MemberSignature Language="C#" Value="olModuleCalendar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlNavigationModuleType olModuleCalendar = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlNavigationModuleType.olModuleCalendar" />
+      <MemberSignature Language="VB.NET" Value="olModuleCalendar" />
+      <MemberSignature Language="C++ CLI" Value="olModuleCalendar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Identifica un <see cref="T:Microsoft.Office.Interop.Outlook.CalendarModule" /> object que representa el módulo de exploración Calendario.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olModuleContacts">
+      <MemberSignature Language="C#" Value="olModuleContacts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlNavigationModuleType olModuleContacts = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlNavigationModuleType.olModuleContacts" />
+      <MemberSignature Language="VB.NET" Value="olModuleContacts" />
+      <MemberSignature Language="C++ CLI" Value="olModuleContacts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Identifica un <see cref="T:Microsoft.Office.Interop.Outlook.ContactsModule" /> object que representa el módulo de exploración Contactos.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olModuleFolderList">
+      <MemberSignature Language="C#" Value="olModuleFolderList" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlNavigationModuleType olModuleFolderList = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlNavigationModuleType.olModuleFolderList" />
+      <MemberSignature Language="VB.NET" Value="olModuleFolderList" />
+      <MemberSignature Language="C++ CLI" Value="olModuleFolderList" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Identifica un objeto <b>NavigationModule</b> que representa el módulo de navegación de la lista de carpetas.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olModuleJournal">
+      <MemberSignature Language="C#" Value="olModuleJournal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlNavigationModuleType olModuleJournal = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlNavigationModuleType.olModuleJournal" />
+      <MemberSignature Language="VB.NET" Value="olModuleJournal" />
+      <MemberSignature Language="C++ CLI" Value="olModuleJournal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Identifica un <see cref="T:Microsoft.Office.Interop.Outlook.JournalModule" /> object que representa el módulo de exploración diario.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olModuleMail">
+      <MemberSignature Language="C#" Value="olModuleMail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlNavigationModuleType olModuleMail = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlNavigationModuleType.olModuleMail" />
+      <MemberSignature Language="VB.NET" Value="olModuleMail" />
+      <MemberSignature Language="C++ CLI" Value="olModuleMail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Identifica un <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> object que representa el módulo de exploración correo.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olModuleNotes">
+      <MemberSignature Language="C#" Value="olModuleNotes" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlNavigationModuleType olModuleNotes = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlNavigationModuleType.olModuleNotes" />
+      <MemberSignature Language="VB.NET" Value="olModuleNotes" />
+      <MemberSignature Language="C++ CLI" Value="olModuleNotes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Identifica un <see cref="T:Microsoft.Office.Interop.Outlook.NotesModule" /> object que representa el módulo de exploración notas.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olModuleShortcuts">
+      <MemberSignature Language="C#" Value="olModuleShortcuts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlNavigationModuleType olModuleShortcuts = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlNavigationModuleType.olModuleShortcuts" />
+      <MemberSignature Language="VB.NET" Value="olModuleShortcuts" />
+      <MemberSignature Language="C++ CLI" Value="olModuleShortcuts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>Identifica un objeto <b>NavigationModule</b> que representa el módulo de navegación accesos directos.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olModuleSolutions">
+      <MemberSignature Language="C#" Value="olModuleSolutions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlNavigationModuleType olModuleSolutions = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlNavigationModuleType.olModuleSolutions" />
+      <MemberSignature Language="VB.NET" Value="olModuleSolutions" />
+      <MemberSignature Language="C++ CLI" Value="olModuleSolutions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>A <see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" /> object que representa el módulo de navegación soluciones.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olModuleTasks">
+      <MemberSignature Language="C#" Value="olModuleTasks" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlNavigationModuleType olModuleTasks = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlNavigationModuleType.olModuleTasks" />
+      <MemberSignature Language="VB.NET" Value="olModuleTasks" />
+      <MemberSignature Language="C++ CLI" Value="olModuleTasks" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Identifica un <see cref="T:Microsoft.Office.Interop.Outlook.TasksModule" /> object que representa el módulo de exploración tareas.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

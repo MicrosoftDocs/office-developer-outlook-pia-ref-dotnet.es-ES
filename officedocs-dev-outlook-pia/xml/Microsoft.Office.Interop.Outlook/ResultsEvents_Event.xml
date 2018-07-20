@@ -1,0 +1,100 @@
+<Type Name="ResultsEvents_Event" FullName="Microsoft.Office.Interop.Outlook.ResultsEvents_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3a87dc9dae2379388ad923144e6c646f5a199984" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20643235" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ResultsEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ResultsEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ResultsEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ResultsEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ResultsEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook.ResultsEvents), typeof(Microsoft.Office.Interop.Outlook.ResultsEvents_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Se trata de una interfaz .NET creada al procesar una coclase COM que requiere el código administrado para la interoperabilidad con el objeto COM correspondiente. Esta interfaz implementa todos los eventos de interfaces anteriores, además de los eventos nuevos. Úsela solamente si el evento que quiere usar comparte el mismo nombre que un método del objeto COM. Si fuera ese el caso, realice la conversión a esta interfaz para conectarse con el evento y la conversión a la interfaz principal para llamar al método. En caso contrario, use la interfaz .NET derivada de la coclase COM para acceder a los métodos, las propiedades y los eventos del objeto COM.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ItemAdd">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ResultsEvents_ItemAddEventHandler ItemAdd;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ResultsEvents_ItemAddEventHandler ItemAdd" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ResultsEvents_Event.ItemAdd" />
+      <MemberSignature Language="VB.NET" Value="Event ItemAdd As ResultsEvents_ItemAddEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ResultsEvents_ItemAddEventHandler ^ ItemAdd;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ResultsEvents_ItemAddEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Se produce cuando se agregan uno o varios elementos a la colección especificada.</summary>
+        <remarks>
+          <para>Este evento no se ejecuta cuando un gran número de elementos se agregan a la carpeta a la vez.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemChange">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ResultsEvents_ItemChangeEventHandler ItemChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ResultsEvents_ItemChangeEventHandler ItemChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ResultsEvents_Event.ItemChange" />
+      <MemberSignature Language="VB.NET" Value="Event ItemChange As ResultsEvents_ItemChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ResultsEvents_ItemChangeEventHandler ^ ItemChange;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ResultsEvents_ItemChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Se produce cuando se cambia un elemento de la colección especificada.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemRemove">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ResultsEvents_ItemRemoveEventHandler ItemRemove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ResultsEvents_ItemRemoveEventHandler ItemRemove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ResultsEvents_Event.ItemRemove" />
+      <MemberSignature Language="VB.NET" Value="Event ItemRemove As ResultsEvents_ItemRemoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ResultsEvents_ItemRemoveEventHandler ^ ItemRemove;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ResultsEvents_ItemRemoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Se produce cuando se elimina un elemento de la colección especificada.</summary>
+        <remarks>
+          <para>Este evento no se ejecuta cuando se elimina el último elemento de un archivo de carpetas personales (.pst) o si 16 o más elementos se eliminan a la vez de un archivo .pst, buzón de Microsoft Exchange o una carpeta pública de Exchange.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
