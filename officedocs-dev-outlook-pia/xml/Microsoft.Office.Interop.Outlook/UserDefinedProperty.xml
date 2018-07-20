@@ -1,0 +1,59 @@
+<Type Name="UserDefinedProperty" FullName="Microsoft.Office.Interop.Outlook.UserDefinedProperty">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="51f6419b1b5a27d2045cd76c0a7e19684d452700" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20642801" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface UserDefinedProperty : Microsoft.Office.Interop.Outlook._UserDefinedProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract UserDefinedProperty implements class Microsoft.Office.Interop.Outlook._UserDefinedProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" />
+  <TypeSignature Language="VB.NET" Value="Public Interface UserDefinedProperty&#xA;Implements _UserDefinedProperty" />
+  <TypeSignature Language="C++ CLI" Value="public interface class UserDefinedProperty : Microsoft::Office::Interop::Outlook::_UserDefinedProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._UserDefinedProperty</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.UserDefinedPropertyClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0006305C-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="7fe36-101">Representa la definición de una propiedad definida por el usuario para un <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7fe36-101">Represents the definition of a user-defined property for a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="7fe36-102">
+        <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._UserDefinedProperty" />. </para>
+        <para>Uso <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.UserDefinedProperties" />(<paramref name="index" />), donde <paramref name="index" /> es un nombre o número de índice, para devolver un objeto solo <b>UserDefinedProperty</b> .  </para>
+        <para>Usar el <see cref="M:Microsoft.Office.Interop.Outlook._UserDefinedProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> (método) de la <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.UserDefinedProperties" /> colección para un objeto <b>Folder</b> definir una propiedad definida por el usuario para esa carpeta.</para> Uso de 
+      <para>la <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Type" /> propiedad para devolver el tipo de propiedad definida por el usuario y el <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.DisplayFormat" /> propiedad para devolver el formato de presentación de la propiedad definida por el usuario. Si la propiedad <b>Type</b> se establece en <b>olCombination</b> u <b>olFormula</b>, utilice la <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Formula" /> propiedad para devolver la fórmula que se utiliza para generar valores para la propiedad definida por el usuario.</para> Objeto 
+      <para>el <b>objeto UserDefinedProperty</b> representa únicamente la definición de una propiedad definida por el usuario, que es aplicable a todos los elementos de Outlook contenidos en la carpeta. Para recuperar o cambiar valores de propiedad definida por el usuario para un elemento de Outlook en esa carpeta, utilice la <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.UserProperties" /> elemento de propiedad de Outlook, como un <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> objeto, para recuperar la <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> colección para ese elemento. A continuación, puede usar el <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> objeto para la propiedad definida por el usuario adecuada recuperar o cambiar el valor de la propiedad definida por el usuario para el elemento de Outlook.</para><para /></span>
+      <span class="sxs-lookup">
+        <span data-stu-id="7fe36-102">
+          <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._UserDefinedProperty" />. </para>
+          <para>Use <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.UserDefinedProperties" />(<paramref name="index" />), where <paramref name="index" /> is a name or index number, to return a single <b>UserDefinedProperty</b> object.  </para>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook._UserDefinedProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> method of the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.UserDefinedProperties" /> collection for a <b>Folder</b> object to define a user-defined property for that folder.</para>
+          <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Type" /> property to return the user-defined property type and the <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.DisplayFormat" /> property to return the display format for the user-defined property. If the <b>Type</b> property is set to <b>olCombination</b> or <b>olFormula</b>, use the <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Formula" /> property to return the formula used to generate values for the user-defined property.</para>
+          <para>The <b>UserDefinedProperty</b> object represents only the definition of a user-defined property, which is applicable to all Outlook items contained by the folder. To retrieve or change user-defined property values for an Outlook item in that folder, use the <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.UserProperties" /> property of the Outlook item, such as a <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> object,  to retrieve the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> collection for that item. You can then use the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> object for the appropriate user-defined property to retrieve or change the value of that user-defined property for the Outlook item.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members />
+</Type>
