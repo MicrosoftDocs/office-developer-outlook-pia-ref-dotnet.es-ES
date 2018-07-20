@@ -1,0 +1,96 @@
+<Type Name="OlCalendarMailFormat" FullName="Microsoft.Office.Interop.Outlook.OlCalendarMailFormat">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ba14da78dfd7a5bc8f84a984665153fc6b5dfbfa" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20642974" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlCalendarMailFormat" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlCalendarMailFormat extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlCalendarMailFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlCalendarMailFormat" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlCalendarMailFormat" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="a9e9b-101">Determina el formato de la información del calendario en el cuerpo de la <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> creado por el <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" /> (método).</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a9e9b-101">Determines the format of the calendar information in the body of the <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> created by the <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" /> method.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="a9e9b-102">
+        <para>Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87575">Uso compartido de calendarios</a><a href="http://go.microsoft.com/fwlink/?LinkId=87589">Cómo: exportar un calendario mediante la función de carga compartida</a></para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a9e9b-102">
+          <para>For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87575">Sharing Calendars</a><a href="http://go.microsoft.com/fwlink/?LinkId=87589">How to: Export a Calendar using Payload Sharing</a></para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olCalendarMailFormatDailySchedule">
+      <MemberSignature Language="C#" Value="olCalendarMailFormatDailySchedule" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlCalendarMailFormat olCalendarMailFormatDailySchedule = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlCalendarMailFormat.olCalendarMailFormatDailySchedule" />
+      <MemberSignature Language="VB.NET" Value="olCalendarMailFormatDailySchedule" />
+      <MemberSignature Language="C++ CLI" Value="olCalendarMailFormatDailySchedule" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlCalendarMailFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a9e9b-103">La información del calendario adopta el formato de un calendario diario de citas desglosado por horas con bloques de horas disponibles y no disponibles e información de horas laborables.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a9e9b-103">The calendar information is formatted as a daily schedule of appointments, containing an hour-by-hour breakdown of the calendar, showing both free and busy time blocks along with working-hour information.</span>
+          </span>
+          <span data-ttu-id="a9e9b-104">La finalidad de este formato es mostrar a los destinatarios las horas en las que está disponible.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a9e9b-104">This layout is intended to help show recipients which times you are available.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olCalendarMailFormatEventList">
+      <MemberSignature Language="C#" Value="olCalendarMailFormatEventList" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlCalendarMailFormat olCalendarMailFormatEventList = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlCalendarMailFormat.olCalendarMailFormatEventList" />
+      <MemberSignature Language="VB.NET" Value="olCalendarMailFormatEventList" />
+      <MemberSignature Language="C++ CLI" Value="olCalendarMailFormatEventList" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlCalendarMailFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a9e9b-p102">La información del calendario adopta el formato de una lista de eventos con una lista de las citas del calendario sin mostrar bloques de horas. La finalidad de este formato es mostrar a los destinatarios los eventos programados en un período de tiempo determinado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a9e9b-p102">The calendar information is formatted as a list of events, containing a list of the calendar appointments without showing any time blocks.  This layout is intended to help show recipients the events scheduled for a given time period.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

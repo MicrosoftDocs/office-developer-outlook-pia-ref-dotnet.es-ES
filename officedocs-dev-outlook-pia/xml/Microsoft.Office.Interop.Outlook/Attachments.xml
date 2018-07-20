@@ -1,0 +1,442 @@
+<Type Name="Attachments" FullName="Microsoft.Office.Interop.Outlook.Attachments">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2b8b26dcc7340ad097dbcab31fa6b4722b3b19e2" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20642164" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Attachments : System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Attachments implements class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Attachments" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Attachments&#xA;Implements IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Attachments : System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0006303C-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="2c393-101">Contiene un conjunto de <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> objetos que representan los datos adjuntos de un elemento de Outlook.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="2c393-101">Contains a set of <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" />  objects that represent the attachments in an Outlook item.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="2c393-102">
+        <para>Usar el <see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" /> propiedad para devolver la colección <b>Attachments</b> de cualquier elemento de Outlook (excepto las notas).</para>
+        <para>Usar la <see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" /> método para agregar datos adjuntos a un elemento.</para>
+        <para>Para garantizar un resultado homogéneo, guarde siempre un elemento antes de agregar o quitar objetos de la colección <b>Attachments</b> del elemento.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="2c393-102">
+          <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" />  property to return the <b>Attachments</b> collection for any Outlook item (except notes).</para>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" />  method to add an attachment to an item.</para>
+          <para>To ensure consistent results, always save an item before adding or removing objects in the <b>Attachments</b> collection of the item.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Attachment Add (object Source, object Type, object Position, object DisplayName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Attachment Add([in]object Source, [in]object Type, [in]object Position, [in]object DisplayName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (Source As Object, Optional Type As Object, Optional Position As Object, Optional DisplayName As Object) As Attachment" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Attachment</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Source" Type="System.Object" />
+        <Parameter Name="Type" Type="System.Object" />
+        <Parameter Name="Position" Type="System.Object" />
+        <Parameter Name="DisplayName" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Source">
+          <span data-ttu-id="2c393-p101">El origen del dato adjunto. Puede ser un archivo (representado por la ruta completa del sistema de archivos con un nombre de archivo) o un elemento de Outlook que constituye el dato adjunto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-p101">The source of the attachment. This can be a file (represented by the full file system path with a file name) or an Outlook item that constitutes the attachment.</span>
+          </span>
+        </param>
+        <param name="Type">
+          <span data-ttu-id="2c393-105">El tipo del dato adjunto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-105">The type of the attachment.</span>
+          </span>
+          <span data-ttu-id="2c393-106">Puede ser una de las <see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentType" /> constantes.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-106">Can be one of the <see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentType" /> constants.</span>
+          </span>
+        </param>
+        <param name="Position">
+          <span data-ttu-id="2c393-107">Este parámetro se aplica únicamente a correo electrónico, los mensajes con formato de Microsoft Outlook Rich Text: es la posición donde se debe colocar el archivo adjunto dentro del texto del cuerpo del mensaje.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-107">This parameter applies only to e-mail messages using Microsoft Outlook Rich Text format: it is the position where the attachment should be placed within the body text of the message.</span>
+          </span>
+          <span data-ttu-id="2c393-108">Un valor de 1 para el <paramref name="Position" /> parámetro especifica que los datos adjuntos deben ubicarse al principio del cuerpo del mensaje.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-108">A value of 1 for the <paramref name="Position" /> parameter specifies that the attachment should be positioned at the beginning of the message body.</span>
+          </span>
+          <span data-ttu-id="2c393-109">Un valor 'n' mayor que el número de caracteres en el cuerpo del elemento de correo electrónico especifica que el dato adjunto debe colocarse al final.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-109">A value 'n' greater than the number of characters in the body of the e-mail item specifies that the attachment should be placed at the end.</span>
+          </span>
+          <span data-ttu-id="2c393-110">El valor 0 oculta el dato adjunto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-110">A value of 0 makes the attachment hidden.</span>
+          </span>
+        </param>
+        <param name="DisplayName">
+          <span data-ttu-id="2c393-111">Este parámetro sólo se aplica si el elemento de correo está en formato de texto de Rich y tipo se establece en <b>olByValue</b>: el nombre se muestra en un objeto <b>Inspector</b> para los datos adjuntos o al ver las propiedades de los datos adjuntos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-111">This parameter applies only if the mail item is in Rich Text format and Type is set to <b>olByValue</b>: the name is displayed in an <b>Inspector</b> object for the attachment or when viewing the properties of the attachment.</span>
+          </span>
+          <span data-ttu-id="2c393-112">Si el elemento de correo está en formato de texto sin formato o HTML, a continuación, se muestran los datos adjuntos con el nombre de archivo en el <paramref name="Source" /> parámetro.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-112">If the mail item is in Plain Text or HTML format, then the attachment is displayed using the file name in the <paramref name="Source" /> parameter.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="2c393-113">Crea un anexo nuevo en la <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> colección.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-113">Creates a new attachment in the <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />  collection.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="2c393-114">Un <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> object que representa el nuevo dato adjunto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-114">An  <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" />   object that represents the new attachment.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="2c393-115">
+            <para>Cuando se agrega un <b>archivo adjunto</b> a la colección <b>Attachments</b> de un elemento, la propiedad <b>Type</b> de los <b>datos adjuntos</b> devolverá siempre <b>olOLE</b> (6) hasta que se guarda el elemento. Para garantizar un resultado homogéneo, guarde siempre un elemento antes de agregar o quitar objetos de la colección <b>Attachments</b> .</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-115">
+              <para>When an <b>Attachment</b> is added to the <b>Attachments</b> collection of an item, the <b>Type</b> property of the <b>Attachment</b> will always return <b>olOLE</b> (6) until the item is saved. To ensure consistent results, always save an item before adding or removing objects in the <b>Attachments</b> collection.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachments.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2c393-116">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-116">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
+          </span>
+          <span data-ttu-id="2c393-117">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-117">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachments.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2c393-118">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-118">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
+          </span>
+          <span data-ttu-id="2c393-119">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-119">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachments.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2c393-120">Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-120">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span>
+          </span>
+          <span data-ttu-id="2c393-121">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-121">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Attachment this[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Attachment Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Object) As Attachment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Attachment ^ default[System::Object ^] { Microsoft::Office::Interop::Outlook::Attachment ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Attachment</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">
+          <span data-ttu-id="2c393-122">Puede ser el número de índice del objeto o un valor utilizado para que coincida con la propiedad predeterminada de un objeto de la colección.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-122">Either the index number of the object, or a value used to match the default property of an object in the collection.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="2c393-123">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> objeto de la colección.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-123">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> object from the collection.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2c393-124">Objeto <b>Attachment</b> que representa el objeto especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-124">An <b>Attachment</b> object that represents the specified object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachments.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2c393-p108">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-p108">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public void Remove (int Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Remove([in]int32 Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.Attachments.Remove(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Remove (Index As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Remove(int Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(84)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">
+          <span data-ttu-id="2c393-127">Valor de índice basado en 1 del objeto en la colección.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-127">The 1-based index value of the object within the collection.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="2c393-128">Quita un objeto de la colección.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-128">Removes an object from the collection.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.Attachments.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2c393-129">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-129">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
+          </span>
+          <span data-ttu-id="2c393-130">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-130">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="2c393-131">
+            <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+            <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+            <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+            <code>Outlook.NameSpace objSession = Application.Session;</code>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2c393-131">
+              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
+              <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+              <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+              <code>Outlook.NameSpace objSession = Application.Session;</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

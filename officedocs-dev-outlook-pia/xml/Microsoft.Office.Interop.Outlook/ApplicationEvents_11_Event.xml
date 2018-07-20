@@ -1,0 +1,629 @@
+<Type Name="ApplicationEvents_11_Event" FullName="Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0c3817e72f684595f4f26217d161e8043fe66e25" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20642989" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ApplicationEvents_11_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ApplicationEvents_11_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ApplicationEvents_11_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ApplicationEvents_11_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook.ApplicationEvents_11), typeof(Microsoft.Office.Interop.Outlook.ApplicationEvents_11_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="036e7-p101">Se trata de una interfaz .NET creada al procesar una coclase COM que requiere el código administrado para la interoperabilidad con el objeto COM correspondiente. Esta interfaz implementa todos los eventos de interfaces anteriores, además de los eventos nuevos. Úsela solamente si el evento que quiere usar comparte el mismo nombre que un método del objeto COM. Si fuera ese el caso, realice la conversión a esta interfaz para conectarse con el evento y la conversión a la interfaz principal para llamar al método. En caso contrario, use la interfaz .NET derivada de la coclase COM para acceder a los métodos, las propiedades y los eventos del objeto COM.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="036e7-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AdvancedSearchComplete">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_AdvancedSearchCompleteEventHandler AdvancedSearchComplete;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_AdvancedSearchCompleteEventHandler AdvancedSearchComplete" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AdvancedSearchComplete" />
+      <MemberSignature Language="VB.NET" Value="Event AdvancedSearchComplete As ApplicationEvents_11_AdvancedSearchCompleteEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_AdvancedSearchCompleteEventHandler ^ AdvancedSearchComplete;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_AdvancedSearchCompleteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="036e7-105">Se produce cuando el <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> método ha finalizado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-105">Occurs when the <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> method has completed.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="036e7-106">
+            <para>El evento <b>AdvancedSearchComplete</b> se utiliza para devolver el objeto creado por el método <b>AdvancedSearch</b> . Este evento sólo se desencadena cuando el método <b>AdvancedSearch</b> se ejecuta mediante programación.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-106">
+              <para>The <b>AdvancedSearchComplete</b> event is used to return the object that was created by the <b>AdvancedSearch</b> method. This event only fires when the <b>AdvancedSearch</b> method is executed programmatically.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdvancedSearchStopped">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_AdvancedSearchStoppedEventHandler AdvancedSearchStopped;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_AdvancedSearchStoppedEventHandler AdvancedSearchStopped" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AdvancedSearchStopped" />
+      <MemberSignature Language="VB.NET" Value="Event AdvancedSearchStopped As ApplicationEvents_11_AdvancedSearchStoppedEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_AdvancedSearchStoppedEventHandler ^ AdvancedSearchStopped;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_AdvancedSearchStoppedEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="036e7-107">Se produce cuando un especificado <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> del objeto <see cref="M:Microsoft.Office.Interop.Outlook.Search.Stop" /> se ha ejecutado el método.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-107">Occurs when a specified <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> object's <see cref="M:Microsoft.Office.Interop.Outlook.Search.Stop" />  method has been executed.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="036e7-108">
+            <para>Una vez que se desencadena este evento, el objeto de <b>búsqueda</b><see cref="T:Microsoft.Office.Interop.Outlook.Results" /> ya no se actualizará la colección. Este evento sólo se puede desencadenar mediante programación.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-108">
+              <para>After this event is fired, the <b>Search</b> object’s <see cref="T:Microsoft.Office.Interop.Outlook.Results" /> collection will no longer be updated. This event can only be triggered programmatically.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachmentContextMenuDisplay">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_AttachmentContextMenuDisplayEventHandler AttachmentContextMenuDisplay;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_AttachmentContextMenuDisplayEventHandler AttachmentContextMenuDisplay" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AttachmentContextMenuDisplay" />
+      <MemberSignature Language="VB.NET" Value="Event AttachmentContextMenuDisplay As ApplicationEvents_11_AttachmentContextMenuDisplayEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_AttachmentContextMenuDisplayEventHandler ^ AttachmentContextMenuDisplay;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_AttachmentContextMenuDisplayEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="036e7-109">[!PRECAUCIóN] Este objeto, miembro o enumeración está en desuso y no debería usarse en el código.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-109">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeFolderSharingDialog">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_BeforeFolderSharingDialogEventHandler BeforeFolderSharingDialog;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_BeforeFolderSharingDialogEventHandler BeforeFolderSharingDialog" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.BeforeFolderSharingDialog" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeFolderSharingDialog As ApplicationEvents_11_BeforeFolderSharingDialogEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_BeforeFolderSharingDialogEventHandler ^ BeforeFolderSharingDialog;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_BeforeFolderSharingDialogEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="036e7-110">Se produce antes de mostrar el cuadro de diálogo Compartir para un seleccionado <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-110">Occurs before the Sharing dialog box is displayed for a selected <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="036e7-111">
+            <para>Este evento proporciona un complemento con la capacidad de reemplazar la interfaz de usuario uso compartido proporcionada por Outlook con una interfaz de usuario personalizada.  Este evento no se produce si un mensaje para compartir se crea y se muestra mediante programación.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-111">
+              <para>This event provides an add-in with the capability of replacing the sharing user interface supplied by Outlook with a custom user interface.  This event does not occur if a sharing message is programmatically created and displayed.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContextMenuClose">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ContextMenuCloseEventHandler ContextMenuClose;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ContextMenuCloseEventHandler ContextMenuClose" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.ContextMenuClose" />
+      <MemberSignature Language="VB.NET" Value="Event ContextMenuClose As ApplicationEvents_11_ContextMenuCloseEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_ContextMenuCloseEventHandler ^ ContextMenuClose;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ContextMenuCloseEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="036e7-112">[!PRECAUCIóN] Este objeto, miembro o enumeración está en desuso y no debería usarse en el código.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-112">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderContextMenuDisplay">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_FolderContextMenuDisplayEventHandler FolderContextMenuDisplay;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_FolderContextMenuDisplayEventHandler FolderContextMenuDisplay" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.FolderContextMenuDisplay" />
+      <MemberSignature Language="VB.NET" Value="Event FolderContextMenuDisplay As ApplicationEvents_11_FolderContextMenuDisplayEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_FolderContextMenuDisplayEventHandler ^ FolderContextMenuDisplay;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_FolderContextMenuDisplayEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="036e7-113">[!PRECAUCIóN] Este objeto, miembro o enumeración está en desuso y no debería usarse en el código.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-113">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemContextMenuDisplay">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ItemContextMenuDisplayEventHandler ItemContextMenuDisplay;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ItemContextMenuDisplayEventHandler ItemContextMenuDisplay" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.ItemContextMenuDisplay" />
+      <MemberSignature Language="VB.NET" Value="Event ItemContextMenuDisplay As ApplicationEvents_11_ItemContextMenuDisplayEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_ItemContextMenuDisplayEventHandler ^ ItemContextMenuDisplay;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ItemContextMenuDisplayEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="036e7-114">[!PRECAUCIóN] Este objeto, miembro o enumeración está en desuso y no debería usarse en el código.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-114">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemLoad">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ItemLoadEventHandler ItemLoad;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ItemLoadEventHandler ItemLoad" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.ItemLoad" />
+      <MemberSignature Language="VB.NET" Value="Event ItemLoad As ApplicationEvents_11_ItemLoadEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_ItemLoadEventHandler ^ ItemLoad;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ItemLoadEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="036e7-115">Se produce cuando se carga un elemento de Outlook en memoria.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-115">Occurs when an Outlook item is loaded into memory.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="036e7-116">
+            <para>Este evento se produce cuando el elemento de Outlook comienza a cargar en la memoria. Datos para el elemento aún no están disponibles, excepto los valores de las propiedades <b>Class</b> y <b>MessageClass</b> del elemento de Outlook, por lo que se produce un error cuando se llama a una propiedad distinta de <b>Class</b> o <b>MessageClass</b> para el elemento de Outlook devuelto en <paramref name="Item" />. De forma similar, se produce un error si se intenta llamar a cualquier método desde el elemento de Outlook, o si se llama a la <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetObjectReference(System.Object,Microsoft.Office.Interop.Outlook.OlReferenceType)" /> (método) de la <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> objeto en el elemento de Outlook devuelto en <paramref name="Item" />.</para>
+            <para>
+              <b>ItemLoad</b> (evento) normalmente debe implementarse como un medio para enlazar los controladores de eventos de nivel de elemento, como <b>BeforeRead</b>, <b>Open</b>, <b>Enviar</b>y <b>escribir</b>.</para>
+            <para>Este evento no se produce cuando se producen las siguientes condiciones:</para>
+            <list type="bullet">
+              <item>
+                <para>Elemento an Outlook se sincroniza con una carpeta.</para>
+              </item>
+              <item>
+                <para>Si se desencadena una regla de servidor para un elemento de Outlook.</para>
+              </item>
+              <item>
+                <para>Se desencadena un aviso para un elemento de Outlook.</para>
+              </item>
+              <item>
+                <para>Se muestra una alerta de escritorio para un elemento de Outlook.</para>
+              </item>
+            </list>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-116">
+              <para>This event occurs when the Outlook item begins to load into memory. Data for the item is not yet available, other than the values for the <b>Class</b> and <b>MessageClass</b> properties of the Outlook item, so an error occurs when calling any property other than <b>Class</b> or <b>MessageClass</b> for the Outlook item returned in <paramref name="Item" />. Similarly, an error occurs if you attempt to call any method from the Outlook item, or if you call the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetObjectReference(System.Object,Microsoft.Office.Interop.Outlook.OlReferenceType)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object on the Outlook item returned in <paramref name="Item" />.</para>
+              <para>The <b>ItemLoad</b> event should typically be implemented as a means to hook up item-level event handlers such as <b>BeforeRead</b>, <b>Open</b>, <b>Send</b>, and <b>Write</b>.</para>
+              <para>This event is not raised when the following conditions occur:</para>
+              <list type="bullet">
+                <item>
+                  <para>An Outlook item is synchronized with a folder.</para>
+                </item>
+                <item>
+                  <para>A server-side rule is triggered for an Outlook item.</para>
+                </item>
+                <item>
+                  <para>A reminder is triggered for an Outlook item.</para>
+                </item>
+                <item>
+                  <para>A Desktop Alert is displayed for an Outlook item.</para>
+                </item>
+              </list>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemSend">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ItemSendEventHandler ItemSend;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ItemSendEventHandler ItemSend" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.ItemSend" />
+      <MemberSignature Language="VB.NET" Value="Event ItemSend As ApplicationEvents_11_ItemSendEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_ItemSendEventHandler ^ ItemSend;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ItemSendEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="036e7-117">Se produce siempre que un elemento se envía Outlook, ya sea por el usuario a través de un <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> (antes de cerrar el inspector pero después de que el usuario hace clic en el botón Enviar) o cuando el <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" /> elemento de método para un de Outlook, como <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, se usa en un programa.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-117">Occurs whenever an Outlook item is sent, either by the user through an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />  (before the inspector is closed, but after the user clicks the Send button) or when the <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" />  method for an Outlook item, such as <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, is used in a program.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MAPILogonComplete">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_MAPILogonCompleteEventHandler MAPILogonComplete;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_MAPILogonCompleteEventHandler MAPILogonComplete" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.MAPILogonComplete" />
+      <MemberSignature Language="VB.NET" Value="Event MAPILogonComplete As ApplicationEvents_11_MAPILogonCompleteEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_MAPILogonCompleteEventHandler ^ MAPILogonComplete;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_MAPILogonCompleteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="036e7-118">Se produce cuando el usuario ha iniciado una sesión en el sistema.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-118">Occurs after the user has logged onto the system.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewMail">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_NewMailEventHandler NewMail;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_NewMailEventHandler NewMail" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.NewMail" />
+      <MemberSignature Language="VB.NET" Value="Event NewMail As ApplicationEvents_11_NewMailEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_NewMailEventHandler ^ NewMail;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_NewMailEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="036e7-119">Tiene lugar cuando se reciben uno o varios mensajes de correo electrónico nuevos en la Bandeja de entrada.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-119">Occurs when one or more new e-mail messages are received in the Inbox.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="036e7-120">
+            <para>El evento <b>NewMail</b> se desencadena cuando reciben mensajes nuevos en la Bandeja de entrada y antes de cliente se produce el procesamiento de la regla. Si desea procesar los elementos que se reciben en la Bandeja de entrada, considere el uso de la <see cref="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemAdd" /> (evento) en la colección de elementos de la Bandeja de entrada. El evento <b>ItemAdd</b> pasa una referencia a cada elemento que se agrega a una carpeta.</para>
+            <para>El evento <b>NewMail</b> no se desencadena cuando el usuario está en modo sin conexión.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-120">
+              <para>The <b>NewMail</b> event fires when new messages arrive in the Inbox and before client rule processing occurs. If you want to process items that arrive in the Inbox, consider using the <see cref="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemAdd" /> event on the collection of items in the Inbox. The <b>ItemAdd</b> event passes a reference to each item that is added to a folder.</para>
+              <para>The <b>NewMail</b> event does not fire when the user is in offline mode.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewMailEx">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_NewMailExEventHandler NewMailEx;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_NewMailExEventHandler NewMailEx" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.NewMailEx" />
+      <MemberSignature Language="VB.NET" Value="Event NewMailEx As ApplicationEvents_11_NewMailExEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_NewMailExEventHandler ^ NewMailEx;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_NewMailExEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="036e7-121">Se produce cuando se reciben uno o más eventos nuevos en la Bandeja de entrada.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-121">Occurs when a new item is received in the Inbox.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="036e7-122">
+            <para>Este evento se desencadena una vez para cada elemento recibido se procesa por Outlook. El elemento puede ser uno de los distintos tipos de elemento diferente, por ejemplo, <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />, o <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. El <paramref name="EntryIDsCollection" /> cadena contiene el identificador de entrada que corresponde a ese elemento. Tenga en cuenta que este comportamiento ha cambiado desde las versiones anteriores del evento cuando la <paramref name="EntryIDCollection" /> contenía una lista de los identificadores de entrada delimitada por comas de todos los elementos recibidos en la Bandeja de entrada desde la última vez que el evento se desencadenó.</para>
+            <para>Este evento se desencadena para las cuentas de correo electrónico que proporcionan notificaciones para los mensajes recibidos, como las cuentas de Microsoft Exchange Server y POP3.</para>
+            <para>El evento <b>NewMailEx</b> se desencadena cuando llegue un nuevo mensaje en la Bandeja de entrada y antes de la regla de cliente se produce el procesamiento. Puede usar el identificador de entrada que se devuelven en el <paramref name="EntryIDCollection" /> matriz para llamar a la <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetItemFromID(System.String,System.Object)" /> método y procesar el elemento. Use este método con cuidado para minimizar el impacto en el rendimiento de Outlook. Sin embargo, dependiendo de la configuración en el cliente de equipo, una vez que llega un nuevo mensaje en la Bandeja de entrada, procesa como filtrado de spam y reglas de cliente que mover el mensaje nuevo de la Bandeja de entrada a otra carpeta pueden producirse de forma asincrónica. No debe asumir que después de que estos eventos se desencadenan, siempre obtendrá un aumento de un elemento en el número de elementos en la Bandeja de entrada.</para>
+            <para>Para los usuarios con una cuenta de Exchange Server (que no sean - modo caché de Exchange o modo caché de Exchange), el evento se desencadena únicamente para los mensajes que se reciben en el servidor después de que Outlook ha iniciado. El evento se desencadena para los mensajes que se sincronizan en el modo de intercambio en caché inmediatamente después de iniciar Outlook, o para los mensajes que ya están en el servidor cuando se inicia Outlook en que no sean - modo caché de Exchange.</para>
+            <para>Para los usuarios con el modo de intercambio en caché, el evento se desencadena en todas las opciones de proporcionado que Outlook se está ejecutando cuando se recibe el mensaje: Descargar elementos completos, descargar encabezados y descargar encabezados y después elementos completos.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-122">
+              <para>This event fires once for every received item that is processed by Outlook. The item can be one of several different item types, for example, <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />, or <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. The <paramref name="EntryIDsCollection" /> string contains the Entry ID that corresponds to that item. Note that this behavior has changed from earlier versions of the event when the <paramref name="EntryIDCollection" /> contained a list of comma-delimited Entry IDs of all the items received in the Inbox since the last time the event was fired.</para>
+              <para>This event fires for e-mail accounts that provide notifications for received messages, such as Microsoft Exchange Server and POP3 accounts.</para>
+              <para>The <b>NewMailEx</b> event fires when a new message arrives in the Inbox and before client rule processing occurs. You can use the Entry ID returned in the <paramref name="EntryIDCollection" /> array to call the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetItemFromID(System.String,System.Object)" /> method and process the item. Use this method with caution to minimize the impact on Outlook performance. However, depending on the setup on the client computer, after a new message arrives in the Inbox, processes like spam filtering and client rules that move the new message from the Inbox to another folder can occur asynchronously. You should not assume that after these events fire, you will always get a one-item increase in the number of items in the Inbox.</para>
+              <para>For users with an Exchange Server account (non-Cached Exchange Mode or Cached Exchange Mode), the event fires only for messages that arrive at the server after Outlook has started. The event does not fire for messages that are synchronized in Cached Exchange Mode immediately after Outlook starts, or for messages that are already on the server when Outlook starts in non-Cached Exchange Mode.</para>
+              <para>For users using Cached Exchange Mode, the event fires in all settings provided that Outlook is running when the message is received: Download Full Items, Download Headers, and Download Headers and then Full Items. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OptionsPagesAdd">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_OptionsPagesAddEventHandler OptionsPagesAdd;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_OptionsPagesAddEventHandler OptionsPagesAdd" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.OptionsPagesAdd" />
+      <MemberSignature Language="VB.NET" Value="Event OptionsPagesAdd As ApplicationEvents_11_OptionsPagesAddEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_OptionsPagesAddEventHandler ^ OptionsPagesAdd;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_OptionsPagesAddEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="036e7-123">Se produce siempre que el usuario hace clic en el botón Opciones del complemento en la ficha Complementos del cuadro de diálogo Opciones de Outlook.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-123">Occurs whenever the user clicks the Add-in Options button on the Add-ins tab of the Outlook Options dialog box.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="036e7-124">
+            <para>El programa controla este evento para agregar una página de propiedades personalizada. La página de propiedades se agregará al cuadro de diálogo Opciones. Cuando se desencadena el evento, el objeto de colección <b>PropertyPages</b> identificado por <paramref name="Pages" /> contiene las páginas de propiedades que se han agregado antes de llamar al controlador de eventos. Para agregar la página de propiedades a la colección, use la <see cref="M:Microsoft.Office.Interop.Outlook.PropertyPages.Add(System.Object,System.String)" /> método de la colección <b>PropertyPages</b> antes de salir del controlador de eventos.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-124">
+              <para>Your program handles this event to add a custom property page. The property page will be added to the Options dialog box. When the event fires, the <b>PropertyPages</b>  collection object identified by <paramref name="Pages" /> contains the property pages that have been added prior to the event handler being called. To add your property page to the collection, use the <see cref="M:Microsoft.Office.Interop.Outlook.PropertyPages.Add(System.Object,System.String)" />  method of the <b>PropertyPages</b> collection before exiting the event handler.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Quit">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_QuitEventHandler Quit;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_QuitEventHandler Quit" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.Quit" />
+      <MemberSignature Language="VB.NET" Value="Event Quit As ApplicationEvents_11_QuitEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_QuitEventHandler ^ Quit;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_QuitEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="036e7-125">Se produce cuando Outlook comienza a cerrarse.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-125">Occurs when Outlook begins to close.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reminder">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ReminderEventHandler Reminder;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ReminderEventHandler Reminder" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.Reminder" />
+      <MemberSignature Language="VB.NET" Value="Event Reminder As ApplicationEvents_11_ReminderEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_ReminderEventHandler ^ Reminder;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ReminderEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="036e7-126">Se produce inmediatamente antes de que se muestre un aviso.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-126">Occurs immediately before a reminder is displayed.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShortcutContextMenuDisplay">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ShortcutContextMenuDisplayEventHandler ShortcutContextMenuDisplay;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ShortcutContextMenuDisplayEventHandler ShortcutContextMenuDisplay" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.ShortcutContextMenuDisplay" />
+      <MemberSignature Language="VB.NET" Value="Event ShortcutContextMenuDisplay As ApplicationEvents_11_ShortcutContextMenuDisplayEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_ShortcutContextMenuDisplayEventHandler ^ ShortcutContextMenuDisplay;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ShortcutContextMenuDisplayEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="036e7-127">[!PRECAUCIóN] Este objeto, miembro o enumeración está en desuso y no debería usarse en el código.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-127">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Startup">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_StartupEventHandler Startup;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_StartupEventHandler Startup" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.Startup" />
+      <MemberSignature Language="VB.NET" Value="Event Startup As ApplicationEvents_11_StartupEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_StartupEventHandler ^ Startup;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_StartupEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="036e7-128">Se produce al iniciar Microsoft Outlook después de que se hayan cargado todos los programas de complementos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-128">Occurs when Microsoft Outlook is starting, but after all add-in programs have been loaded.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="036e7-129">
+            <para>Un Outlook Visual Basic para aplicaciones (VBA) puede usar este procedimiento de evento para iniciarse al mismo tiempo cuando se inicia Outlook.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-129">
+              <para>An Outlook Visual Basic for Applications (VBA) macro can use this event procedure to initialize itself when Outlook starts.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StoreContextMenuDisplay">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_StoreContextMenuDisplayEventHandler StoreContextMenuDisplay;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_StoreContextMenuDisplayEventHandler StoreContextMenuDisplay" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.StoreContextMenuDisplay" />
+      <MemberSignature Language="VB.NET" Value="Event StoreContextMenuDisplay As ApplicationEvents_11_StoreContextMenuDisplayEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_StoreContextMenuDisplayEventHandler ^ StoreContextMenuDisplay;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_StoreContextMenuDisplayEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="036e7-130">[!PRECAUCIóN] Este objeto, miembro o enumeración está en desuso y no debería usarse en el código.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-130">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewContextMenuDisplay">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ViewContextMenuDisplayEventHandler ViewContextMenuDisplay;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ViewContextMenuDisplayEventHandler ViewContextMenuDisplay" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.ViewContextMenuDisplay" />
+      <MemberSignature Language="VB.NET" Value="Event ViewContextMenuDisplay As ApplicationEvents_11_ViewContextMenuDisplayEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ApplicationEvents_11_ViewContextMenuDisplayEventHandler ^ ViewContextMenuDisplay;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ApplicationEvents_11_ViewContextMenuDisplayEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="036e7-131">[!PRECAUCIóN] Este objeto, miembro o enumeración está en desuso y no debería usarse en el código.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="036e7-131">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

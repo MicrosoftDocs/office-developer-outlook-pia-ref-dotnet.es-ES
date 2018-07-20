@@ -1,0 +1,343 @@
+<Type Name="OutlookBarShortcut" FullName="Microsoft.Office.Interop.Outlook.OutlookBarShortcut">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5a65f22e3eaa69e1ad0b770928f78d702f831c4a" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20643221" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface OutlookBarShortcut" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OutlookBarShortcut" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcut" />
+  <TypeSignature Language="VB.NET" Value="Public Interface OutlookBarShortcut" />
+  <TypeSignature Language="C++ CLI" Value="public interface class OutlookBarShortcut" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063075-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="b507f-101">Representa un acceso directo de un grupo del Panel de accesos directos.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b507f-101">Represents a shortcut in a group in the Shortcuts pane.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="b507f-102">
+        <para>Usar el <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarShortcuts.Item(System.Object)" /> (propiedad) (<b>este</b> en C#) para recuperar el objeto <b>OutlookBarShortcut</b> de un <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcuts" /> objeto. Debido a que el <see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarShortcut.Name" /> (propiedad) es la propiedad predeterminada del objeto <b>OutlookBarShortcut</b> , puede identificar el acceso directo por su nombre.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="b507f-102">
+          <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarShortcuts.Item(System.Object)" />  property (<b>this</b> in C#) to retrieve the <b>OutlookBarShortcut</b> object from an <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcuts" />  object. Because the <see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarShortcut.Name" />  property is the default property of the <b>OutlookBarShortcut</b> object, you can identify the shortcut by name.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OutlookBarShortcut.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b507f-103">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b507f-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
+          </span>
+          <span data-ttu-id="b507f-104">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b507f-104">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OutlookBarShortcut.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b507f-105">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b507f-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
+          </span>
+          <span data-ttu-id="b507f-106">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b507f-106">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OutlookBarShortcut.Name" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b507f-107">Devuelve o establece un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre para mostrar para el objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b507f-107">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span>
+          </span>
+          <span data-ttu-id="b507f-108">Lectura y escritura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b507f-108">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OutlookBarShortcut.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b507f-p104">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b507f-p104">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OutlookBarShortcut.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b507f-111">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b507f-111">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
+          </span>
+          <span data-ttu-id="b507f-112">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b507f-112">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="b507f-113">
+            <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+            <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+            <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+            <code>Outlook.NameSpace objSession = Application.Session;</code>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b507f-113">
+              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
+              <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+              <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+              <code>Outlook.NameSpace objSession = Application.Session;</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetIcon">
+      <MemberSignature Language="C#" Value="public void SetIcon (object Icon);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetIcon([in]object Icon) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.OutlookBarShortcut.SetIcon(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetIcon (Icon As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetIcon(System::Object ^ Icon);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64162)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Icon" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Icon">
+          <span data-ttu-id="b507f-114">Ruta de acceso del icono.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b507f-114">The path of the icon.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="b507f-115">Establece el icono para el acceso directo especificado en el panel de accesos directos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b507f-115">Sets the icon for the specified shortcut on the Shortcuts pane.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Target">
+      <MemberSignature Language="C#" Value="public object Target { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Target" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OutlookBarShortcut.Target" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Target As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Target { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8448)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8448)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="b507f-116">Devuelve un <b>objeto</b> que indica el destino del acceso directo especificado en un grupo del panel de accesos directos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b507f-116">Returns an <b>Object</b> indicating the target of the specified shortcut in a Shortcuts pane group.</span>
+          </span>
+          <span data-ttu-id="b507f-117">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b507f-117">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="b507f-118">
+            <para>El tipo de valor devuelto depende del tipo de acceso directo. Si el acceso directo representa una carpeta de Outlook, el tipo de valor devuelto es la <b>carpeta</b>. Si el acceso directo representa una carpeta del sistema de archivos, el tipo de valor devuelto es un <b>objeto</b>. Si el acceso directo representa una ruta de acceso del sistema de archivos o la dirección URL, el tipo de valor devuelto es una <b>cadena</b> (<b>cadena</b> en C#).</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="b507f-118">
+              <para>The return type depends on the shortcut type. If the shortcut represents an Outlook folder, the return type is <b>Folder</b>. If the shortcut represents a file-system folder, the return type is an <b>Object</b>. If the shortcut represents a file-system path or URL, the return type is a <b>String</b> (<b>string</b> in C#).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

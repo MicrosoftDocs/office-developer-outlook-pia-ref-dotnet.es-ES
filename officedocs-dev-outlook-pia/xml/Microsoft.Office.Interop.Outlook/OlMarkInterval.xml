@@ -1,0 +1,334 @@
+<Type Name="OlMarkInterval" FullName="Microsoft.Office.Interop.Outlook.OlMarkInterval">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7c9e49df717ce3ddf0f27eb4d29b64b4f9d7e205" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20643220" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlMarkInterval" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlMarkInterval extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlMarkInterval" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlMarkInterval" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlMarkInterval" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="1e0f4-101">Especifica el período para el cual se marcó un elemento de Outlook como tarea.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="1e0f4-101">Specifies the time period for which an Outlook item is marked as a task.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="1e0f4-102">
+        <para>Esta enumeración se usa el método <b>MarkAsTask</b> para los siguientes elementos de Outlook:</para>
+        <list type="bullet">
+          <item>
+            <para>
+              <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />
+            </para>
+          </item>
+          <item>
+            <para>
+              <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />
+            </para>
+          </item>
+          <item>
+            <para>
+              <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />
+            </para>
+          </item>
+          <item>
+            <para>
+              <see cref="T:Microsoft.Office.Interop.Outlook.PostItem" />
+            </para>
+          </item>
+        </list>
+        <para>según el valor elegido, las siguientes propiedades se establecen en los valores predeterminados especificados.</para>
+        <item>
+          <description>Los valores de propiedad</description>del 
+          <description>valor de la enumeración</description></item>
+        <item>
+          <list type="table">
+            <description>
+              <b>olMarkComplete</b>
+            </description>
+            <description>
+              <b>TaskCompletedDate</b> se establece en la fecha actual y la hora (<b>ahora</b> en Visual Basic) si el elemento se ha marcado como una tarea. <b>TaskCompletedDate</b> se establece en el valor de fecha vacío (#1/1/4501 #) si el elemento no se ha marcado como una tarea, o si la tarea se ha marcado ya completa.</description>
+            <item>
+              <description>
+                <b>olMarkNoDate</b>
+              </description>
+              <description>
+                <b>IsMarkedAsTask</b> se establece en <b>True</b>. <b>TaskSubject</b> se establece en el valor de la propiedad <b>Subject</b> para el elemento de Outlook. <b>TaskStartDate</b>, <b>TaskDueDate</b>y <b>TaskCompletedDate</b> se establecen en <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#). <b>ToDoTaskOrdinal</b> se establece a la fecha y hora actuales (<b>ahora</b> en Visual Basic).  </description>
+            </item>
+            <item>
+              <description>
+                <b>olMarkNextWeek</b>
+              </description>
+              <description>
+                <b>IsMarkedAsTask</b> se establece en <b>True</b>. <b>TaskSubject</b> se establece en el valor de la propiedad <b>Subject</b> para el elemento de Outlook. <b>TaskStartDate</b> se establece en el primer día laborable de la próxima semana.   <b>TaskDueDate</b> se establece en el último día laborable de la próxima semana. <b>TaskCompletedDate</b> se establece en <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#). <b>ToDoTaskOrdinal</b> se establece a la fecha y hora actuales (<b>ahora</b> en Visual Basic). </description>
+            </item>
+            <item>
+              <description>
+                <b>olMarkThisWeek</b>
+              </description>
+              <description>
+                <b>IsMarkedAsTask</b> se establece en <b>True</b>. <b>TaskSubject</b> se establece en el valor de la propiedad <b>Subject</b> para el elemento de Outlook. <b>TaskStartDate</b> se establece en una fecha dos días anterior a la fecha actual. Si el valor es mayor que el valor de <b>TaskDueDate</b>, entonces <b>TaskStartDate</b> se establece en el valor de <b>TaskDueDate</b>.   <b>TaskDueDate</b> se establece en el último día laborable de la semana actual. <b>TaskCompletedDate</b> se establece en <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#). <b>ToDoTaskOrdinal</b> se establece a la fecha y hora actuales (<b>ahora</b> en Visual Basic). </description>
+            </item>
+            <item>
+              <description>
+                <b>olMarkToday</b>
+              </description>
+              <description>
+                <b>IsMarkedAsTask</b> se establece en <b>True</b>. <b>TaskSubject</b> se establece en el valor de la propiedad <b>Subject</b> para el elemento de Outlook. <b>TaskStartDate</b> y <b>TaskDueDate</b> se establecen en la fecha actual.  <b>TaskCompletedDate</b> se establece en <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#). <b>ToDoTaskOrdinal</b> se establece a la fecha y hora actuales (<b>ahora</b> en Visual Basic). </description>
+            </item>
+            <item>
+              <description>
+                <b>olMarkTomorrow</b>
+              </description>
+              <description>
+                <b>IsMarkedAsTask</b> se establece en <b>True</b>. <b>TaskSubject</b> se establece en el valor de la propiedad <b>Subject</b> para el elemento de Outlook. <b>TaskStartDate</b> y <b>TaskDueDate</b> se establecen un día después de la fecha actual.  <b>TaskCompletedDate</b> se establece en <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#). <b>ToDoTaskOrdinal</b> se establece a la fecha y hora actuales (<b>ahora</b> en Visual Basic). </description>
+            </item>
+          </list>
+        </item>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="1e0f4-102">
+          <para>This enumeration is used by the <b>MarkAsTask</b> method for the following Outlook items:</para>
+          <list type="bullet">
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Interop.Outlook.DistListItem" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Interop.Outlook.PostItem" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />
+              </para>
+            </item>
+          </list>
+          <para>Depending on the value chosen, the following properties are set to the specified default values.</para>
+          <list type="table">
+            <item>
+              <description>Enumeration value</description>
+              <description>Property values</description>
+            </item>
+            <item>
+              <description>
+                <b>olMarkComplete</b>
+              </description>
+              <description>
+                <b>TaskCompletedDate</b> is set to the current date and time (<b>Now</b> in Visual Basic) if the item has been marked as a task. <b>TaskCompletedDate</b> is set to the empty date value (#1/1/4501#) if the item has not been marked as a task, or if the task has already been marked complete.</description>
+            </item>
+            <item>
+              <description>
+                <b>olMarkNoDate</b>
+              </description>
+              <description>
+                <b>IsMarkedAsTask</b> is set to <b>True</b>. <b>TaskSubject</b> is set to the value of the <b>Subject</b> property for the Outlook item. <b>TaskStartDate</b>, <b>TaskDueDate</b>, and <b>TaskCompletedDate</b> are set to <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).<b>ToDoTaskOrdinal</b> is set to the current date and time (<b>Now</b> in Visual Basic).  </description>
+            </item>
+            <item>
+              <description>
+                <b>olMarkNextWeek</b>
+              </description>
+              <description>
+                <b>IsMarkedAsTask</b> is set to <b>True</b>. <b>TaskSubject</b> is set to the value of the <b>Subject</b> property for the Outlook item. <b>TaskStartDate</b> is set to the first working day of next week.   <b>TaskDueDate</b> is set to the last working day of next week. <b>TaskCompletedDate</b> is set to <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).<b>ToDoTaskOrdinal</b> is set to the current date and time (<b>Now</b> in Visual Basic). </description>
+            </item>
+            <item>
+              <description>
+                <b>olMarkThisWeek</b>
+              </description>
+              <description>
+                <b>IsMarkedAsTask</b> is set to <b>True</b>. <b>TaskSubject</b> is set to the value of the <b>Subject</b> property for the Outlook item. <b>TaskStartDate</b> is set to a date two working days ahead of the current date. If that value would exceed the value of <b>TaskDueDate</b>, then <b>TaskStartDate</b> is set to the value of <b>TaskDueDate</b>.   <b>TaskDueDate</b> is set to the last working day of the current week. <b>TaskCompletedDate</b> is set to <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).<b>ToDoTaskOrdinal</b> is set to the current date and time (<b>Now</b> in Visual Basic). </description>
+            </item>
+            <item>
+              <description>
+                <b>olMarkToday</b>
+              </description>
+              <description>
+                <b>IsMarkedAsTask</b> is set to <b>True</b>. <b>TaskSubject</b> is set to the value of the <b>Subject</b> property for the Outlook item. <b>TaskStartDate</b> and <b>TaskDueDate</b> are set to the current date.  <b>TaskCompletedDate</b> is set to <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#). <b>ToDoTaskOrdinal</b> is set to the current date and time (<b>Now</b> in Visual Basic). </description>
+            </item>
+            <item>
+              <description>
+                <b>olMarkTomorrow</b>
+              </description>
+              <description>
+                <b>IsMarkedAsTask</b> is set to <b>True</b>. <b>TaskSubject</b> is set to the value of the <b>Subject</b> property for the Outlook item. <b>TaskStartDate</b> and <b>TaskDueDate</b> are set to one day after the current date.  <b>TaskCompletedDate</b> is set to <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#). <b>ToDoTaskOrdinal</b> is set to the current date and time (<b>Now</b> in Visual Basic). </description>
+            </item>
+          </list>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olMarkComplete">
+      <MemberSignature Language="C#" Value="olMarkComplete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlMarkInterval olMarkComplete = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlMarkInterval.olMarkComplete" />
+      <MemberSignature Language="VB.NET" Value="olMarkComplete" />
+      <MemberSignature Language="C++ CLI" Value="olMarkComplete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMarkInterval</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1e0f4-103">Marca la tarea como completada.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e0f4-103">Mark the task as complete.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olMarkNextWeek">
+      <MemberSignature Language="C#" Value="olMarkNextWeek" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlMarkInterval olMarkNextWeek = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlMarkInterval.olMarkNextWeek" />
+      <MemberSignature Language="VB.NET" Value="olMarkNextWeek" />
+      <MemberSignature Language="C++ CLI" Value="olMarkNextWeek" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMarkInterval</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1e0f4-104">Marca la tarea que vence la semana que viene.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e0f4-104">Mark the task due next week.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olMarkNoDate">
+      <MemberSignature Language="C#" Value="olMarkNoDate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlMarkInterval olMarkNoDate = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlMarkInterval.olMarkNoDate" />
+      <MemberSignature Language="VB.NET" Value="olMarkNoDate" />
+      <MemberSignature Language="C++ CLI" Value="olMarkNoDate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMarkInterval</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1e0f4-105">Marca la tarea que vence sin fecha.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e0f4-105">Mark the task due with no date.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olMarkThisWeek">
+      <MemberSignature Language="C#" Value="olMarkThisWeek" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlMarkInterval olMarkThisWeek = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlMarkInterval.olMarkThisWeek" />
+      <MemberSignature Language="VB.NET" Value="olMarkThisWeek" />
+      <MemberSignature Language="C++ CLI" Value="olMarkThisWeek" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMarkInterval</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1e0f4-106">Marca la tarea que vence esta semana.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e0f4-106">Mark the task due this week.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olMarkToday">
+      <MemberSignature Language="C#" Value="olMarkToday" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlMarkInterval olMarkToday = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlMarkInterval.olMarkToday" />
+      <MemberSignature Language="VB.NET" Value="olMarkToday" />
+      <MemberSignature Language="C++ CLI" Value="olMarkToday" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMarkInterval</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1e0f4-107">Marca la tarea que vence hoy.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e0f4-107">Mark the task due today.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olMarkTomorrow">
+      <MemberSignature Language="C#" Value="olMarkTomorrow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlMarkInterval olMarkTomorrow = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlMarkInterval.olMarkTomorrow" />
+      <MemberSignature Language="VB.NET" Value="olMarkTomorrow" />
+      <MemberSignature Language="C++ CLI" Value="olMarkTomorrow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMarkInterval</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1e0f4-108">Marca la tarea que vence mañana.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1e0f4-108">Mark the task due tomorrow.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,54 @@
+<Type Name="CalendarModule" FullName="Microsoft.Office.Interop.Outlook.CalendarModule">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9a3d15cfa73586cd3f386ded09d5d37fa3c49cdf" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20641782" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface CalendarModule : Microsoft.Office.Interop.Outlook._CalendarModule" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CalendarModule implements class Microsoft.Office.Interop.Outlook._CalendarModule" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.CalendarModule" />
+  <TypeSignature Language="VB.NET" Value="Public Interface CalendarModule&#xA;Implements _CalendarModule" />
+  <TypeSignature Language="C++ CLI" Value="public interface class CalendarModule : Microsoft::Office::Interop::Outlook::_CalendarModule" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._CalendarModule</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.CalendarModuleClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630EA-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="8a61d-101">Representa el módulo de navegación Calendario del panel de navegación de un explorador.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="8a61d-101">Represents the Calendar navigation module in the Navigation Pane of an explorer.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="8a61d-102">
+        <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._CalendarModule" />.</para> Objeto 
+      <para>que <b>CalendarModule</b> , derivado de la <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> de objetos, proporciona acceso a los grupos de exploración contenidos en el módulo de exploración Calendario del panel de exploración de un explorador. Usar el <see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" /> (método) o el <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Item(System.Object)" /> (propiedad) (<b>este</b> en C#) de la <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" /> colección para el elemento primario <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> recupere un objeto <b>NavigationModule</b> , a continuación, usar el <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModule.NavigationModuleType" /> (propiedad) del objeto <b>NavigationModule</b> para recuperar el tipo de módulo de navegación. Si la propiedad <b>NavigationModuleType</b> se establece en <b>olModuleCalendar</b>, a continuación, puede convertir la referencia de objeto <b>NavigationModule</b> como un objeto <b>CalendarModule</b> para tener acceso a la <see cref="P:Microsoft.Office.Interop.Outlook._CalendarModule.NavigationGroups" /> (propiedad) para ese módulo de exploración .</para><para>Se puede usar el <see cref="P:Microsoft.Office.Interop.Outlook._CalendarModule.Visible" /> (propiedad) para determinar si el módulo de exploración está visible y el <see cref="P:Microsoft.Office.Interop.Outlook._CalendarModule.Position" /> (propiedad) para devolver o establecer la posición de presentación del módulo de exploración dentro del panel de navegación. Puede usar el <see cref="P:Microsoft.Office.Interop.Outlook._CalendarModule.Name" /> propiedad para devolver el nombre para mostrar del módulo de exploración Calendario dentro del panel de navegación.</para><para /></span>
+      <span class="sxs-lookup">
+        <span data-stu-id="8a61d-102">
+          <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._CalendarModule" />.</para>
+          <para>The <b>CalendarModule</b> object, derived from the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> object, provides access to the navigation groups contained in the Calendar navigation module of the Navigation Pane for an explorer. Use the <see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" /> method or the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Item(System.Object)" /> property (<b>this</b> in C#) of the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" /> collection for the parent <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> object to retrieve a <b>NavigationModule</b> object, then use the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModule.NavigationModuleType" /> property of the <b>NavigationModule</b> object to retrieve the navigation module type. If the <b>NavigationModuleType</b> property is set to <b>olModuleCalendar</b>, you can then cast the <b>NavigationModule</b> object reference as a <b>CalendarModule</b> object to access the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarModule.NavigationGroups" /> property for that navigation module.</para>
+          <para>You can use the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarModule.Visible" /> property to determine if the navigation module is visible and the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarModule.Position" /> property to return or set the display position of the navigation module within the Navigation Pane. You can use the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarModule.Name" /> property to return the display name of the Calendar navigation module within the Navigation Pane.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

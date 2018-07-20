@@ -1,0 +1,715 @@
+<Type Name="_OlkCheckBox" FullName="Microsoft.Office.Interop.Outlook._OlkCheckBox">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="06ec4a697a0ebc451e72e60a6cf8aa5055e89538" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20642609" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _OlkCheckBox" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkCheckBox" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkCheckBox" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _OlkCheckBox" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _OlkCheckBox" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000672DD-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="8c3fe-101">Esto es una interfaz principal en una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="8c3fe-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="8c3fe-102">Use esta interfaz principal sólo cuando el método que desea usar comparte el mismo nombre que un evento del objeto COM; en este caso, se convierte en esta interfaz para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="8c3fe-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
+      </span>
+      <span data-ttu-id="8c3fe-103">De lo contrario, use la interfaz de .NET que se deriva de la coclase COM para tener acceso a los métodos, propiedades y eventos del objeto COM.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="8c3fe-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
+      </span>
+      <span data-ttu-id="8c3fe-104">Para obtener información sobre el objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.OlkCheckBox" />.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="8c3fe-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkCheckBox" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Accelerator">
+      <MemberSignature Language="C#" Value="public string Accelerator { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Accelerator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.Accelerator" />
+      <MemberSignature Language="VB.NET" Value="Public Property Accelerator As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Accelerator { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-543)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-543)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-543)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8c3fe-105">Devuelve o establece un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa el acelerador o una tecla de acceso rápido para el control.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-105">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the accelerator or hot key for the control.</span>
+          </span>
+          <span data-ttu-id="8c3fe-106">Lectura y escritura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-106">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="8c3fe-107">
+            <para>El valor predeterminado es una cadena vacía, lo que significa que no hay ninguna tecla de acceso rápido.  Si se establece la propiedad con una cadena de más de un carácter, se truncará el valor para el primer carácter.  </para>
+            <para>No se pueden utilizar dígitos en una tecla de aceleración.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-107">
+              <para>The default value is an empty string, meaning there is no hot key.  If the property is set with a string of more than one character, the value will  be truncated to the first character.  </para>
+              <para>You cannot use digits in an accelerator.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Alignment">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlAlignment Alignment { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlAlignment Alignment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.Alignment" />
+      <MemberSignature Language="VB.NET" Value="Public Property Alignment As OlAlignment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlAlignment Alignment { Microsoft::Office::Interop::Outlook::OlAlignment get(); void set(Microsoft::Office::Interop::Outlook::OlAlignment value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(710)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(710)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(710)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAlignment</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8c3fe-108">Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlAlignment" /> constante que indica la posición de un control en relación con su título.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-108">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlAlignment" /> constant that indicates the position of a control relative to its caption.</span>
+          </span>
+          <span data-ttu-id="8c3fe-109">Lectura y escritura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-109">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="8c3fe-110">
+            <para>El valor predeterminado es <b>olAlignmentLeft</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-110">
+              <para>The default value is <b>olAlignmentLeft</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackColor">
+      <MemberSignature Language="C#" Value="public uint BackColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 BackColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.BackColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property BackColor As UInteger" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt32 BackColor { System::UInt32 get(); void set(System::UInt32 value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.OLE_COLOR")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-501)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-501)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-501)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8c3fe-111">Devuelve o establece un valor de <b>UInteger</b> (<b>uint</b> en C#) que indica el color de fondo del control.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-111">Returns or sets a <b>UInteger</b> (<b>uint</b> in C#) value that indicates the background color of the control.</span>
+          </span>
+          <span data-ttu-id="8c3fe-112">Lectura y escritura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-112">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="8c3fe-113">
+            <para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0x8000000F, "Cara del botón".</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-113">
+              <para>This property is of the type <b>OLE_COLOR</b> which is a <b>UInteger</b> (<b>uint</b> in C#) value. The default value for this property is 0x8000000F, "Button Face." </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackStyle">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlBackStyle BackStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlBackStyle BackStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.BackStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property BackStyle As OlBackStyle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlBackStyle BackStyle { Microsoft::Office::Interop::Outlook::OlBackStyle get(); void set(Microsoft::Office::Interop::Outlook::OlBackStyle value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-502)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-502)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-502)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlBackStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8c3fe-114">Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" /> constante que cambia el estilo de fondo del control entre transparente y opaco.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-114">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" /> constant that changes the background style of the control between transparent and opaque.</span>
+          </span>
+          <span data-ttu-id="8c3fe-115">Lectura y escritura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-115">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="8c3fe-116">
+            <para>El valor predeterminado es <b>olBackStyleOpaque</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-116">
+              <para>The default value is <b>olBackStyleOpaque</b>.  </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Caption">
+      <MemberSignature Language="C#" Value="public string Caption { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Caption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.Caption" />
+      <MemberSignature Language="VB.NET" Value="Public Property Caption As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Caption { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-518)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-518)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-518)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8c3fe-117">Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que aparece en un objeto para identificarlo o describirlo.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-117">Returns or sets a <b>String</b> (<b>string</b> in C#) that appears on an object to identify or describe it.</span>
+          </span>
+          <span data-ttu-id="8c3fe-118">Lectura y escritura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-118">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="8c3fe-119">
+            <para>El valor predeterminado se basa en el nombre del control.  La posición del título relativa a la casilla de verificación está determinada por la <see cref="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.Alignment" /> (propiedad).</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-119">
+              <para>  The default value is based on the control's name.  The position of the caption relative to the check box is determined by the <see cref="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.Alignment" /> property.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="public bool Enabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Enabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property Enabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Enabled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-514)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-514)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-514)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8c3fe-120">Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que indica si el control puede funcionar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-120">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the control is allowed to function.</span>
+          </span>
+          <span data-ttu-id="8c3fe-121">Lectura y escritura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-121">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="8c3fe-122">
+            <para>El valor predeterminado es <b>True</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-122">
+              <para>The default value is <b>True</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Font">
+      <MemberSignature Language="C#" Value="public stdole.StdFont Font { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class stdole.StdFont Font" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.Font" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Font As StdFont" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property stdole::StdFont ^ Font { stdole::StdFont ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-512)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-512)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>stdole.StdFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8c3fe-123">Devuelve un <b>StdFont</b> que representa la fuente utilizada para representar el texto dentro del control.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-123">Returns a <b>StdFont</b> that represents the font used to render the text inside the control.</span>
+          </span>
+          <span data-ttu-id="8c3fe-124">Es de sólo lectura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-124">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="8c3fe-125">
+            <para>La fuente se expresa como la de tipo <b>stdfont</b>de Microsoft Windows.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-125">
+              <para>The font is expressed as the Microsoft Windows type <b>stdfont</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForeColor">
+      <MemberSignature Language="C#" Value="public uint ForeColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 ForeColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.ForeColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property ForeColor As UInteger" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt32 ForeColor { System::UInt32 get(); void set(System::UInt32 value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.OLE_COLOR")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-513)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-513)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-513)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8c3fe-126">Devuelve o establece un valor de <b>UInteger</b> (<b>uint</b> en C#) que indica el color de primer plano del control.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-126">Returns or sets a <b>UInteger</b> (<b>uint</b> in C#) value that indicates the foreground color of the control.</span>
+          </span>
+          <span data-ttu-id="8c3fe-127">Lectura y escritura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-127">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="8c3fe-128">
+            <para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0 x 80000008, "Texto de ventana".</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-128">
+              <para>This property is of the type <b>OLE_COLOR</b> which is a <b>UInteger</b> (<b>uint</b> in C#) value. The default value for this property is 0x80000008, "Window Text."  </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseIcon">
+      <MemberSignature Language="C#" Value="public stdole.StdPicture MouseIcon { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class stdole.StdPicture MouseIcon" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.MouseIcon" />
+      <MemberSignature Language="VB.NET" Value="Public Property MouseIcon As StdPicture" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property stdole::StdPicture ^ MouseIcon { stdole::StdPicture ^ get(); void set(stdole::StdPicture ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-522)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-522)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-522)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>stdole.StdPicture</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8c3fe-p110">Devuelve o establece un <b>StdPicture</b> que representa una imagen personalizada para el cursor del mouse (ratón) para este control. Lectura y escritura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-p110">Returns or sets a <b>StdPicture</b> that represents a custom picture to the mouse cursor for this control. Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="8c3fe-131">
+            <para>El valor predeterminado es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-131">
+              <para>The default value is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MousePointer">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlMousePointer MousePointer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlMousePointer MousePointer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.MousePointer" />
+      <MemberSignature Language="VB.NET" Value="Public Property MousePointer As OlMousePointer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlMousePointer MousePointer { Microsoft::Office::Interop::Outlook::OlMousePointer get(); void set(Microsoft::Office::Interop::Outlook::OlMousePointer value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-521)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-521)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-521)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8c3fe-132">Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constante que especifica el tipo de puntero mostrado cuando el usuario coloca el mouse sobre el control.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-132">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constant that specifies the type of pointer displayed when the user positions the mouse over the control.</span>
+          </span>
+          <span data-ttu-id="8c3fe-133">Lectura y escritura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-133">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="8c3fe-134">
+            <para>El valor predeterminado es <b>olMousePointerDefault</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-134">
+              <para>The default value is <b>olMousePointerDefault</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TripleState">
+      <MemberSignature Language="C#" Value="public bool TripleState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TripleState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.TripleState" />
+      <MemberSignature Language="VB.NET" Value="Public Property TripleState As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TripleState { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(700)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(700)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(700)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8c3fe-135">Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si un usuario puede especificar en la interfaz de usuario el estado <b>Null</b> para el control.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-135">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether a user can specify in the user interface the <b>Null</b> state for the control.</span>
+          </span>
+          <span data-ttu-id="8c3fe-136">Lectura y escritura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-136">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="8c3fe-137">
+            <para>Si esta propiedad es <b>True</b>, hace clic en la casilla de verificación a través de los tres estados. Si esta propiedad es <b>False</b>, la casilla de verificación admite los estados <b>True</b> y <b>False</b> . El valor predeterminado es <b>False</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-137">
+              <para>If this property is <b>True</b>, the check box clicks through the three states. If this property is <b>False</b>, the check box supports only the <b>True</b> and <b>False</b> states. The default value is <b>False</b>.  </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public object this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.Value" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Value As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ default { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8c3fe-138">Devuelve o establece un <b>objeto</b> que especifica el estado del control.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-138">Returns or sets an <b>Object</b> that specifies the state of the control.</span>
+          </span>
+          <span data-ttu-id="8c3fe-139">Lectura y escritura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-139">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="8c3fe-140">
+            <para>Para el control de casilla de verificación, esta propiedad es <b>True</b> o <b>False</b>, o si el <see cref="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.TripleState" /> propiedad está establecida, la propiedad <b>Value</b> también puede ser <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#). El valor predeterminado es <b>False</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-140">
+              <para>For the check box control, this property is <b>True</b> or <b>False</b>, or if the <see cref="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.TripleState" /> property is set, the <b>Value</b> property can also be <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#). The default value is <b>False</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WordWrap">
+      <MemberSignature Language="C#" Value="public bool WordWrap { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool WordWrap" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.WordWrap" />
+      <MemberSignature Language="VB.NET" Value="Public Property WordWrap As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool WordWrap { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-536)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-536)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-536)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="8c3fe-141">Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si el contenido de un control se ajusta automáticamente al final de una línea.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-141">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether the contents of a control automatically wrap at the end of a line.</span>
+          </span>
+          <span data-ttu-id="8c3fe-142">Lectura y escritura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-142">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="8c3fe-143">
+            <para>El valor predeterminado es <b>True</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="8c3fe-143">
+              <para>The default value is <b>True</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,61 @@
+<Type Name="OutlookBarShortcutsEvents_BeforeShortcutRemoveEventHandler" FullName="Microsoft.Office.Interop.Outlook.OutlookBarShortcutsEvents_BeforeShortcutRemoveEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="25df1005fa9c97e0c975594f5254a4e8684ad65d" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20642534" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void OutlookBarShortcutsEvents_BeforeShortcutRemoveEventHandler(OutlookBarShortcut Shortcut, out bool Cancel);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OutlookBarShortcutsEvents_BeforeShortcutRemoveEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcutsEvents_BeforeShortcutRemoveEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub OutlookBarShortcutsEvents_BeforeShortcutRemoveEventHandler(Shortcut As OutlookBarShortcut, ByRef Cancel As Boolean)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void OutlookBarShortcutsEvents_BeforeShortcutRemoveEventHandler(OutlookBarShortcut ^ Shortcut, [Runtime::InteropServices::Out] bool % Cancel);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Shortcut" Type="Microsoft.Office.Interop.Outlook.OutlookBarShortcut" />
+    <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Shortcut">
+      <span data-ttu-id="00afa-101">
+        <b>Objeto OutlookBarShortcut</b> que se va a quitar.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="00afa-101">The <b>OutlookBarShortcut</b>  that is being removed.</span>
+      </span>
+    </param>
+    <param name="Cancel">
+      <span data-ttu-id="00afa-p101">
+        <b>False</b> cuando se produce el evento. Si el procedimiento de evento establece este argumento en <b>True</b>, el acceso directo no se quita del grupo. </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="00afa-p101">
+          <b>False</b> when the event occurs. If the event procedure sets this argument to <b>True</b>, the shortcut is not removed from the group.</span>
+      </span>
+    </param>
+    <summary>
+      <span data-ttu-id="00afa-p102">Se trata de un delegado para un evento en el objeto correspondiente. Después de implementar un método de devolución de llamada para el evento, utilice este delegado para conectar el método de devolución de llamada con el evento. Si hubiera varias versiones de la interfaz de eventos, este delegado conectaría el método de devolución de llamadas para el evento en la versión especificada de Outlook.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="00afa-p102">This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

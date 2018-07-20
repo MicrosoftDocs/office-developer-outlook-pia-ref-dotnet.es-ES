@@ -1,0 +1,380 @@
+<Type Name="_ToOrFromRuleCondition" FullName="Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="648baf91163629ffdd4d280837514179e56bd36d" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20642161" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _ToOrFromRuleCondition" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ToOrFromRuleCondition" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _ToOrFromRuleCondition" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _ToOrFromRuleCondition" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630DE-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="5562b-101">Esto es una interfaz principal en una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="5562b-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="5562b-102">Use esta interfaz principal sólo cuando el método que desea usar comparte el mismo nombre que un evento del objeto COM; en este caso, se convierte en esta interfaz para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="5562b-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
+      </span>
+      <span data-ttu-id="5562b-103">De lo contrario, use la interfaz de .NET que se deriva de la coclase COM para tener acceso a los métodos, propiedades y eventos del objeto COM.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="5562b-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
+      </span>
+      <span data-ttu-id="5562b-104">Para obtener información sobre el objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" />.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="5562b-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5562b-105">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5562b-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
+          </span>
+          <span data-ttu-id="5562b-106">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5562b-106">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5562b-107">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5562b-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
+          </span>
+          <span data-ttu-id="5562b-108">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5562b-108">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConditionType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlRuleConditionType ConditionType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlRuleConditionType ConditionType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConditionType As OlRuleConditionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlRuleConditionType ConditionType { Microsoft::Office::Interop::Outlook::OlRuleConditionType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64298)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64298)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlRuleConditionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5562b-109">Devuelve una constante de la <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" /> (enumeración) que indica el tipo de condición de regla.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5562b-109">Returns a constant from the <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" /> enumeration that indicates the type of rule condition.</span>
+          </span>
+          <span data-ttu-id="5562b-110">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5562b-110">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="5562b-111">
+            <para>
+              <b>ConditionType</b> depende del tipo de condición de regla, como dos tipos de uso de las condiciones de regla la <see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" /> objeto: <b>olConditionFrom</b> y <b>olConditionSentTo</b>.   <b>olConditionFrom</b> sólo es compatible con las reglas para recibir mensajes, mientras que <b>olConditionSentTo por las reglas para la recepción de mensajes, así como las reglas para el envío de mensajes</b> . Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificar condiciones de regla</a></para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5562b-111">
+              <para>
+                <b>ConditionType</b> depends on the type of rule condition, as two types of rule conditions use the <see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" /> object: <b>olConditionFrom</b> and <b>olConditionSentTo</b>.   <b>olConditionFrom</b> is supported only by rules for receiving messages, while <b>olConditionSentTo</b> is supported by rules for receiving messages as well as rules for sending messages. For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Specifying Rule Conditions</a></para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="public bool Enabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Enabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property Enabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Enabled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5562b-112">Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que determina si el <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> está habilitado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5562b-112">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that determines if the <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> is enabled.</span>
+          </span>
+          <span data-ttu-id="5562b-113">Es de lectura y escritura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5562b-113">Read/write</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="5562b-114">
+            <para>Después de habilitar una condición de regla, también debe guardarse la regla mediante el uso de <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> para que la condición de regla y su estado habilitado persistan más allá de la sesión actual.  Una condición de regla está habilitada únicamente después de que se han guardado correctamente. </para>
+            <para>Devuelve un error si se intenta habilitar una condición de regla admitida únicamente en una regla de tipo <b>olRuleSend</b> para una regla de tipo <b>olRuleReceive</b>, o viceversa.  Para obtener más información sobre admitidas por las reglas para la recepción de mensajes o las reglas para el envío de mensajes, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificar condiciones de regla</a></para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5562b-114">
+              <para>After you enable a rule condition, you must also save the rule by using <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> so that the rule  condition and its enabled state will persist beyond the current session.  A rule condition is only enabled after it have been saved successfully. </para>
+              <para>Returns an error if you attempt to enable a rule condition that is supported only on a rule of type  <b>olRuleSend</b> for a rule of type <b>olRuleReceive</b>, or vice versa.  For more information on suppport by rules for receiving  messages or rules for sending messages, see <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Specifying Rule Conditions</a></para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5562b-p106">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5562b-p106">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="5562b-117">
+            <para>El objeto primario es el <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> objeto.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5562b-117">
+              <para>The parent object is the <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Recipients">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Recipients Recipients { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Recipients Recipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Recipients" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Recipients As Recipients" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Recipients ^ Recipients { Microsoft::Office::Interop::Outlook::Recipients ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(63508)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(63508)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Recipients</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5562b-118">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> colección que representa la lista de destinatarios para la evaluación de la condición de regla.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5562b-118">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />  collection that represents the recipient list for the evaluation of the rule condition.</span>
+          </span>
+          <span data-ttu-id="5562b-119">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5562b-119">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="5562b-120">
+            <para>Destinatarios múltiples se evalúan mediante la operación de OR lógica.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5562b-120">
+              <para>Multiple recipients are evaluated using the logical OR operation.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5562b-121">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5562b-121">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
+          </span>
+          <span data-ttu-id="5562b-122">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5562b-122">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="5562b-123">
+            <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+            <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+            <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+            <code>Outlook.NameSpace objSession = Application.Session;</code>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5562b-123">
+              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
+              <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+              <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+              <code>Outlook.NameSpace objSession = Application.Session;</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

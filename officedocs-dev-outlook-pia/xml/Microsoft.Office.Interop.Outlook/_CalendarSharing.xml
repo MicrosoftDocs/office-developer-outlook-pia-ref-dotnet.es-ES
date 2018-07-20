@@ -1,0 +1,807 @@
+<Type Name="_CalendarSharing" FullName="Microsoft.Office.Interop.Outlook._CalendarSharing">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0fa933e0b4d67bf2f8c2536ee0c2d6c3a656ea10" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20641930" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _CalendarSharing" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CalendarSharing" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._CalendarSharing" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _CalendarSharing" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _CalendarSharing" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630E2-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="2ff7a-101">Esto es una interfaz principal en una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="2ff7a-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="2ff7a-102">Use esta interfaz principal sólo cuando el método que desea usar comparte el mismo nombre que un evento del objeto COM; en este caso, se convierte en esta interfaz para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="2ff7a-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
+      </span>
+      <span data-ttu-id="2ff7a-103">De lo contrario, use la interfaz de .NET que se deriva de la coclase COM para tener acceso a los métodos, propiedades y eventos del objeto COM.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="2ff7a-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
+      </span>
+      <span data-ttu-id="2ff7a-104">Para obtener información sobre el objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="2ff7a-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarSharing.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ff7a-105">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
+          </span>
+          <span data-ttu-id="2ff7a-106">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-106">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalendarDetail">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlCalendarDetail CalendarDetail { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlCalendarDetail CalendarDetail" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarSharing.CalendarDetail" />
+      <MemberSignature Language="VB.NET" Value="Public Property CalendarDetail As OlCalendarDetail" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlCalendarDetail CalendarDetail { Microsoft::Office::Interop::Outlook::OlCalendarDetail get(); void set(Microsoft::Office::Interop::Outlook::OlCalendarDetail value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64410)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64410)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64410)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlCalendarDetail</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ff7a-107">Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlCalendarDetail" /> valor que indica el nivel de detalle de los elementos de calendario incluidos en el archivo de iCalendar (.ics) creado por el <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" /> o <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" /> métodos de la <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-107">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlCalendarDetail" /> value indicating the level of detail for calendar items included in the iCalendar (.ics) file created by the <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" /> or <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" /> methods of the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> object.</span>
+          </span>
+          <span data-ttu-id="2ff7a-108">Lectura y escritura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-108">Read/write.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="2ff7a-109">Valor <b>OlCalendarDetail</b> que indica el nivel de detalle de los elementos de calendario.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-109">A <b>OlCalendarDetail</b> value that indicates the level of detail for calendar items.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="2ff7a-110">
+            <para>El valor de esta propiedad determina los valores permitidos para las siguientes propiedades del objeto <b>CalendarSharing</b> :</para>
+            <list type="bullet">
+              <item>
+                <para>IncludeAttachments debe estar establecida en False si CalendarDetail está establecida en olFreeBusyOnly u olFreeBusyAndSubject.</para>
+              </item>
+              <item>
+                <para>IncludePrivateDetails debe estar establecida en False si CalendarDetail está establecida en olFreeBusyOnly.</para>
+              </item>
+              <item>
+                <para>RestrictToWorkingHours debe estar establecida en False si CalendarDetail está establecida en olFreeBusyAndSubject u olFullDetails.</para>
+              </item>
+            </list>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-110">
+              <para>The value of this property determines the allowable values for the following properties of the <b>CalendarSharing</b> object:</para>
+              <list type="bullet">
+                <item>
+                  <para>IncludeAttachments must be set to False if CalendarDetail is set to olFreeBusyOnly or olFreeBusyAndSubject.</para>
+                </item>
+                <item>
+                  <para>IncludePrivateDetails must be set to False if CalendarDetail is set to olFreeBusyOnly.</para>
+                </item>
+                <item>
+                  <para>RestrictToWorkingHours must be set to False if CalendarDetail is set to olFreeBusyAndSubject or olFullDetails.</para>
+                </item>
+              </list>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarSharing.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ff7a-111">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-111">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
+          </span>
+          <span data-ttu-id="2ff7a-112">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-112">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndDate">
+      <MemberSignature Language="C#" Value="public DateTime EndDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime EndDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarSharing.EndDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime EndDate { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64411)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64411)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64411)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ff7a-113">Devuelve o establece un valor de <b>fecha y hora</b> que indica la fecha final inclusive del intervalo de elementos de calendario que se va a compartir el <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-113">Returns or sets a <b>DateTime</b> value that indicates the inclusive end date of the range of calendar items to be shared by the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> object.</span>
+          </span>
+          <span data-ttu-id="2ff7a-114">Lectura y escritura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-114">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="2ff7a-115">
+            <para>Esta propiedad se omite si la <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" /> propiedad del objeto <b>CalendarSharing</b> está establecida en <b>true</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-115">
+              <para>This property is ignored if the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" /> property of the <b>CalendarSharing</b> object is set to <b>true</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Folder">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.MAPIFolder Folder { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.MAPIFolder Folder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarSharing.Folder" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Folder As MAPIFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::MAPIFolder ^ Folder { Microsoft::Office::Interop::Outlook::MAPIFolder ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64412)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64412)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ff7a-116">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> que contiene los elementos de calendario que se va a compartir el <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-116">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> containing the calendar items to be shared by the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> object.</span>
+          </span>
+          <span data-ttu-id="2ff7a-117">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-117">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForwardAsICal">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.MailItem ForwardAsICal (Microsoft.Office.Interop.Outlook.OlCalendarMailFormat MailFormat);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.MailItem ForwardAsICal([in]valuetype Microsoft.Office.Interop.Outlook.OlCalendarMailFormat MailFormat) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ForwardAsICal (MailFormat As OlCalendarMailFormat) As MailItem" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::MailItem ^ ForwardAsICal(Microsoft::Office::Interop::Outlook::OlCalendarMailFormat MailFormat);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64409)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MailItem</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="MailFormat" Type="Microsoft.Office.Interop.Outlook.OlCalendarMailFormat" />
+      </Parameters>
+      <Docs>
+        <param name="MailFormat">
+          <span data-ttu-id="2ff7a-118">Determina el formato de la información del calendario en el cuerpo del <b>objeto MailItem</b> creado por este método.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-118">Determines the format of the calendar information in the body of the  <b>MailItem</b>  created by this method.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="2ff7a-119">Reenvía información del calendario desde el primario <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> de la <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> objeto como la carga de un <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-119">Forwards calendar information from the parent <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> of the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> object as the payload of a <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="2ff7a-120">Un objeto <b>MailItem</b> que representa el nuevo elemento de correo al que se adjunta la información del calendario.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-120">A <b>MailItem</b> object that represents the new mail item to which the calendar information is attached.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="2ff7a-121">
+            <para>El método <b>ForwardAsICal</b> proporciona un método único que puede usar la función de carga compartida para compartir un calendario con otros usuarios. El método:</para>
+            <list type="bullet">
+              <item>
+                <para>crea un objeto MailItem y presenta la información del calendario en el cuerpo del elemento de correo.</para>
+              </item>
+              <item>
+                <para>Crea un archivo de iCalendar (.ics) que contiene la información del calendario y se adjunta el archivo para el objeto MailItem.</para>
+              </item>
+            </list>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-121">
+              <para>The <b>ForwardAsICal</b> method provides a single method by which you can use payload sharing to share a calendar with other users. The method:</para>
+              <list type="bullet">
+                <item>
+                  <para>Creates a MailItem object and provides a presentation of calendar information in the body of the mail item.</para>
+                </item>
+                <item>
+                  <para>Creates an iCalendar (.ics) file containing the calendar information and attaches the file to the MailItem.</para>
+                </item>
+              </list>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludeAttachments">
+      <MemberSignature Language="C#" Value="public bool IncludeAttachments { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IncludeAttachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeAttachments" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludeAttachments As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludeAttachments { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64413)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64413)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64413)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ff7a-122">Devuelve o establece un valor <b>booleano</b> (<b>bool</b> en C#) que indica si los datos adjuntos para elementos de calendario deben incluirse en el archivo de iCalendar (.ics) creado por el <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" /> o <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" /> métodos de la <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-122">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether attachments for calendar items should be included in the iCalendar (.ics) file created by the <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" /> or <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" /> methods of the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> object.</span>
+          </span>
+          <span data-ttu-id="2ff7a-123">Lectura y escritura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-123">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="2ff7a-124">
+            <para>
+              <b>True</b> indica que se deben incluidos los datos adjuntos de los elementos del calendario.</para>
+            <para>Se debe establecer esta propiedad en <b>False</b> si el <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.CalendarDetail" /> (propiedad) del objeto <b>CalendarSharing</b> está establecido en <b>olFreeBusyOnly</b> u <b>olFreeBusyAndSubject</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-124">
+              <para>
+                <b>True</b> indicates that the attachments for calendar items should be included.</para>
+              <para>This property must be set to <b>False</b> if the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.CalendarDetail" /> property of the <b>CalendarSharing</b> object is set to  <b>olFreeBusyOnly</b> or <b>olFreeBusyAndSubject</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludePrivateDetails">
+      <MemberSignature Language="C#" Value="public bool IncludePrivateDetails { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IncludePrivateDetails" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludePrivateDetails" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludePrivateDetails As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludePrivateDetails { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64414)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64414)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64414)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ff7a-125">Devuelve o establece un valor <b>booleano</b> (<b>bool</b> en C#) que indica si los detalles privados de los elementos de calendario deben incluirse en el archivo de iCalendar (.ics) creado por el <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" /> o <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" /> métodos de la <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-125">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether private details for calendar items should be included in the iCalendar (.ics) file created by the <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" /> or <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" /> methods of the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> object.</span>
+          </span>
+          <span data-ttu-id="2ff7a-126">Lectura y escritura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-126">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="2ff7a-127">
+            <para>
+              <b>True</b> indica que se deben incluidos los detalles para elementos de calendario privados.</para>
+            <para>Se debe establecer esta propiedad en <b>False</b> si el <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.CalendarDetail" /> (propiedad) del objeto <b>CalendarSharing</b> está establecido en <b>olFreeBusyOnly</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-127">
+              <para>
+                <b>True</b> indicates that the private details for calendar items should be included.</para>
+              <para>This property must be set to <b>False</b> if the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.CalendarDetail" /> property of the <b>CalendarSharing</b> object is set to  <b>olFreeBusyOnly</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludeWholeCalendar">
+      <MemberSignature Language="C#" Value="public bool IncludeWholeCalendar { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IncludeWholeCalendar" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludeWholeCalendar As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludeWholeCalendar { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64417)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64417)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64417)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ff7a-128">Devuelve o establece un valor <b>booleano</b> (<b>bool</b> en C#) que indica si se deben incluir todos los elementos de calendario en la carpeta en el archivo de iCalendar (.ics) creado por el <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" /> o <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" /> métodos de la <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-128">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether all calendar items in the folder should be included in the iCalendar (.ics) file created by the <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" /> or <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" /> methods of the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> object.</span>
+          </span>
+          <span data-ttu-id="2ff7a-129">Lectura y escritura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-129">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="2ff7a-130">
+            <para>
+              <b>True</b> indica que se deben incluidos todos los elementos de calendario en la carpeta.</para>
+            <para>Si esta propiedad se establece en <b>True</b>, el <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.StartDate" /> y <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.EndDate" /> se pasan por alto las propiedades del objeto <b>CalendarSharing</b> y se incluyen todos los elementos de calendario en la carpeta.</para>
+            <para>Si esta propiedad se establece en <b>False</b>, las propiedades <b>StartDate</b> y <b>EndDate</b> determinan el intervalo de elementos de calendario que se incluirán.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-130">
+              <para>
+                <b>True</b> indicates that all calendar items in the folder should be included.</para>
+              <para>If this property is set to <b>True</b>, the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.StartDate" /> and <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.EndDate" /> properties of the <b>CalendarSharing</b> object are ignored and all calendar items in the folder are included.</para>
+              <para>If this property is set to <b>False</b>, the <b>StartDate</b> and <b>EndDate</b> properties determine the range of calendar items to be included.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarSharing.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ff7a-p110">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-p110">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RestrictToWorkingHours">
+      <MemberSignature Language="C#" Value="public bool RestrictToWorkingHours { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool RestrictToWorkingHours" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarSharing.RestrictToWorkingHours" />
+      <MemberSignature Language="VB.NET" Value="Public Property RestrictToWorkingHours As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RestrictToWorkingHours { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64415)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64415)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64415)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ff7a-133">Devuelve o establece un valor <b>booleano</b> (<b>bool</b> en C#) que indica si los elementos de calendario que no ocurren en horas de trabajo deben estar incluidos en el archivo de iCalendar (.ics) creado por el <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" /> o <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" /> métodos de la <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-133">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether calendar items that do not occur within working hours should be included in the iCalendar (.ics) file created by the <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" /> or <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" /> methods of the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> object.</span>
+          </span>
+          <span data-ttu-id="2ff7a-134">Lectura y escritura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-134">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="2ff7a-135">
+            <para>
+              <b>True</b> indica que se deben incluidos los elementos de calendario que no ocurren en horas de trabajo.</para>
+            <para>Se debe establecer esta propiedad en <b>False</b> si el <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.CalendarDetail" /> (propiedad) del objeto <b>CalendarSharing</b> está establecido en <b>olFreeBusyOnly</b> u <b>olFullDetails</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-135">
+              <para>
+                <b>True</b> indicates that the calendar items that do not occur within working hours should be included.</para>
+              <para>This property must be set to <b>False</b> if the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.CalendarDetail" /> property of the <b>CalendarSharing</b> object is set to  <b>olFreeBusyOnly</b> or <b>olFullDetails</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveAsICal">
+      <MemberSignature Language="C#" Value="public void SaveAsICal (string Path);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SaveAsICal([in]string Path) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SaveAsICal (Path As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SaveAsICal(System::String ^ Path);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64408)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Path" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Path">
+          <span data-ttu-id="2ff7a-136">Ruta de acceso y nombre del archivo iCalendar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-136">The path and file  name of the iCalendar file.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="2ff7a-137">Exporta la información del elemento primario calendario <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> de la <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> objeto como un archivo iCalendar (.ics).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-137">Exports calendar information from the parent <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> of the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> object as an iCalendar calendar (.ics) file.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="2ff7a-138">
+            <para>El nivel de detalle proporcionada en el archivo de iCalendar está determinado por una combinación de valores en las siguientes propiedades <b>CalendarSharing</b> :</para>
+            <list type="bullet">
+              <item>
+                <para>CalendarDetail</para>
+              </item>
+              <item>
+                <para>IncludeAttachments</para>
+              </item>
+              <item>
+                <para>IncludePrivateDetails</para>
+              </item>
+              <item>
+                <para> RestrictToWorkingHours</para>
+              </item>
+            </list>
+            <para>se puede establecer el <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" /> propiedad en <b>True</b> para exportar todos los elementos contenidos en la carpeta, o puede establecer el <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.StartDate" /> y <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.EndDate" /> propiedades para limitar los elementos exportados a un intervalo de fechas entre un especificado fecha de inicio y fecha de finalización, respectivamente.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-138">
+              <para>The level of detail provided in the iCalendar file is determined by a combination of values in the following <b>CalendarSharing</b> properties:</para>
+              <list type="bullet">
+                <item>
+                  <para>CalendarDetail</para>
+                </item>
+                <item>
+                  <para>IncludeAttachments</para>
+                </item>
+                <item>
+                  <para>IncludePrivateDetails</para>
+                </item>
+                <item>
+                  <para>RestrictToWorkingHours</para>
+                </item>
+              </list>
+              <para>You can set the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" /> property to <b>True</b> to export all items contained in the folder, or you can set the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.StartDate" /> and <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.EndDate" /> properties to limit the exported items to a date range between a specified start date and end date, respectively.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarSharing.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ff7a-139">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-139">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
+          </span>
+          <span data-ttu-id="2ff7a-140">Es de solo lectura</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-140">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="2ff7a-141">
+            <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+            <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+            <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+            <code>Outlook.NameSpace objSession = Application.Session;</code>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-141">
+              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
+              <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+              <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+              <code>Outlook.NameSpace objSession = Application.Session;</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartDate">
+      <MemberSignature Language="C#" Value="public DateTime StartDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._CalendarSharing.StartDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime StartDate { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64416)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64416)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64416)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="2ff7a-142">Devuelve o establece un valor de <b>fecha y hora</b> que indica la fecha inicial inclusive del intervalo de elementos de calendario que se va a compartir el <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-142">Returns or sets a <b>DateTime</b> value that indicates the inclusive start date of the range of calendar items to be shared by the <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> object.</span>
+          </span>
+          <span data-ttu-id="2ff7a-143">Lectura y escritura.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-143">Read/write.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="2ff7a-144">
+            <para>Esta propiedad se omite si la <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" /> propiedad del objeto <b>CalendarSharing</b> está establecida en <b>True</b>.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="2ff7a-144">
+              <para>This property is ignored if the <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" /> property of the <b>CalendarSharing</b> object is set to <b>True</b>.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,84 @@
+<Type Name="OlkBusinessCardControlEvents_MouseDownEventHandler" FullName="Microsoft.Office.Interop.Outlook.OlkBusinessCardControlEvents_MouseDownEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ce9e11c322d4bf39bb37aa3a10fcd4dabd37977d" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20642177" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void OlkBusinessCardControlEvents_MouseDownEventHandler(OlMouseButton Button, OlShiftState Shift, float X, float Y);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlkBusinessCardControlEvents_MouseDownEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkBusinessCardControlEvents_MouseDownEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub OlkBusinessCardControlEvents_MouseDownEventHandler(Button As OlMouseButton, Shift As OlShiftState, X As Single, Y As Single)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void OlkBusinessCardControlEvents_MouseDownEventHandler(OlMouseButton Button, OlShiftState Shift, float X, float Y);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Button" Type="Microsoft.Office.Interop.Outlook.OlMouseButton" />
+    <Parameter Name="Shift" Type="Microsoft.Office.Interop.Outlook.OlShiftState" />
+    <Parameter Name="X" Type="System.Single">
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.OLE_XPOS_CONTAINER")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Parameter>
+    <Parameter Name="Y" Type="System.Single">
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.OLE_YPOS_CONTAINER")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Parameter>
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Button">
+      <span data-ttu-id="e09bc-101">Un <see cref="T:Microsoft.Office.Interop.Outlook.OlMouseButton" /> constante que especifica qué botón del mouse que se ha presionado.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e09bc-101">An  <see cref="T:Microsoft.Office.Interop.Outlook.OlMouseButton" /> constant that specifies which button on the mouse has been pressed.</span>
+      </span>
+    </param>
+    <param name="Shift">
+      <span data-ttu-id="e09bc-102">Una máscara OR bit a bit de constantes en el <see cref="T:Microsoft.Office.Interop.Outlook.OlShiftState" /> (enumeración) que especifica si se han presionado las teclas MAYÚS, CTRL o ALT.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e09bc-102">A bitwise-OR mask of constants in the <see cref="T:Microsoft.Office.Interop.Outlook.OlShiftState" /> enumeration that specifies whether the SHIFT, CTRL, or ALT keys have been pressed.</span>
+      </span>
+    </param>
+    <param name="X">
+      <span data-ttu-id="e09bc-103">Identifica la ubicación del cursor del mouse en el eje X relativa al formulario.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e09bc-103">Identifies the location of the mouse cursor on the X-axis relative to the  form.</span>
+      </span>
+    </param>
+    <param name="Y">
+      <span data-ttu-id="e09bc-104">Identifica la ubicación del cursor del mouse en el eje Y relativa al formulario.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e09bc-104">Identifies the location of the mouse cursor on the Y-axis relative to the  form.</span>
+      </span>
+    </param>
+    <summary>
+      <span data-ttu-id="e09bc-p101">Se trata de un delegado para un evento en el objeto correspondiente. Después de implementar un método de devolución de llamada para el evento, utilice este delegado para conectar el método de devolución de llamada con el evento. Si hubiera varias versiones de la interfaz de eventos, este delegado conectaría el método de devolución de llamadas para el evento en la versión especificada de Outlook.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e09bc-p101">This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>
