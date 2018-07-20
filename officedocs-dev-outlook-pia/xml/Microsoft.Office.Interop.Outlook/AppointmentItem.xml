@@ -1,0 +1,48 @@
+<Type Name="AppointmentItem" FullName="Microsoft.Office.Interop.Outlook.AppointmentItem">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="dfb07f19af13b577e521c3dd5c487e46f23c189d" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20642894" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface AppointmentItem : Microsoft.Office.Interop.Outlook._AppointmentItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AppointmentItem implements class Microsoft.Office.Interop.Outlook._AppointmentItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />
+  <TypeSignature Language="VB.NET" Value="Public Interface AppointmentItem&#xA;Implements _AppointmentItem, ItemEvents_10_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class AppointmentItem : Microsoft::Office::Interop::Outlook::_AppointmentItem, Microsoft::Office::Interop::Outlook::ItemEvents_10_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._AppointmentItem</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.ItemEvents_10_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.AppointmentItemClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063033-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Representa una reunión, una cita única o una cita o reunión periódica en la carpeta Calendario.</summary>
+    <remarks>
+      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._AppointmentItem" />. Para obtener información acerca de los miembros de evento del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />.</para>
+      <para>Usar el <see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" /> (método) para crear un objeto <b>AppointmentItem</b> que representa una nueva cita.</para>
+      <para>Uso <see cref="P:Microsoft.Office.Interop.Outlook._Items.Item(System.Object)" /> (<paramref name="index" />), donde <paramref name="index" /> es el número de índice de una cita o un valor que se utiliza para que coincida con la propiedad predeterminada de una cita, para devolver un único objeto <b>AppointmentItem</b> desde una carpeta Calendario.</para>
+      <para>También puede devolver un objeto <b>AppointmentItem</b> desde un <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> objeto mediante el uso de la <see cref="M:Microsoft.Office.Interop.Outlook._MeetingItem.GetAssociatedAppointment(System.Boolean)" /> método.</para>
+      <para>Cuando se trabaja con elementos de cita periódica, debe liberar cualquier antes de referencias, obtener nuevas referencias para el elemento de cita periódica antes de obtener acceso o modificar el elemento y liberar estas referencias tan pronto como terminado y se ha guardado el cambios. Esta práctica se aplica al objeto <b>AppointmentItem</b> periódico y cualquier <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> o <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> objeto. Para liberar una referencia en Visual Basic, establezca ese objeto existente en <b>Nothing</b>. En C#, liberar explícitamente la memoria para ese objeto. </para>
+      <para>Tenga en cuenta que incluso después de la referencia de la versión e intente obtener una referencia al nuevo, si aún no hay una referencia activa, llevada a cabo por otro complemento o Outlook a uno de los objetos anteriores, la nueva referencia aún pueden apuntar a una copia caducada de la objeto. Por lo tanto, es importante liberar sus referencias tan pronto como haya terminado con la cita periódica.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

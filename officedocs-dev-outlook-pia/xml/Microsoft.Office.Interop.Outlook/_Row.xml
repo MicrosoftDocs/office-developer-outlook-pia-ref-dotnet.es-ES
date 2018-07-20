@@ -1,0 +1,320 @@
+<Type Name="_Row" FullName="Microsoft.Office.Interop.Outlook._Row">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a3c7defd97d97fe5c78387a6bea20000c185f175" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20643404" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _Row" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Row" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Row" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _Row" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _Row" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630D3-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Esto es una interfaz principal en una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz principal sólo cuando el método que desea usar comparte el mismo nombre que un evento del objeto COM; en este caso, se convierte en esta interfaz para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. De lo contrario, use la interfaz de .NET que se deriva de la coclase COM para tener acceso a los métodos, propiedades y eventos del objeto COM. Para obtener información sobre el objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.Row" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Row.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación principal (Outlook) para la <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> objeto. Es de solo lectura</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BinaryToString">
+      <MemberSignature Language="C#" Value="public string BinaryToString (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string BinaryToString([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BinaryToString (Index As Object) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ BinaryToString(System::Object ^ Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64259)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Un valor de índice de base 1 que puede ser un valor de <b>número entero</b> (<b>int</b> en C#) que representa el índice de columna para el <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> colección o una <b>cadena</b> (<b>cadena</b> en C#) que representa la <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> de la <b>columna</b>.</param>
+        <summary>Obtiene una <b>cadena</b> (<b>cadena</b> en C#) que representa un valor que se ha convertido desde un valor binario para el elemento primario <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> en la columna especificada por <paramref name="Index" />.</summary>
+        <returns>Un valor de <b>cadena</b> (<b>string</b> ) en C# de hexadecimal que se ha convertido desde un valor PT_BINARY para el objeto <b>Row</b> primario en la columna especificada por <paramref name="Index" />. Devuelve el error "no se puede convertir la columna especificada por Index en una cadena" si el valor especificado por <paramref name="Index" /> no es PT_BINARY.</returns>
+        <remarks>
+          <para>Use las funciones auxiliares <b>Row.BinaryToString</b>, <see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />, y <see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" /> para facilitar la conversión de tipo de los valores de columna en una fila concreta. Para obtener más información sobre la representación del valor de propiedad en un <see cref="T:Microsoft.Office.Interop.Outlook.Table" />, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Factores que afectan a la representación de los valores de las (propiedad) en las clases Table y View</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Row.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve una constante en el <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> (enumeración) que indica la clase de la <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> objeto. Es de solo lectura</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetValues">
+      <MemberSignature Language="C#" Value="public object GetValues ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetValues() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Row.GetValues" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetValues () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetValues();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64462)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Obtiene una matriz unidimensional que contiene los valores de todas las columnas en el <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> en el elemento primario <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</summary>
+        <returns>Un <b>objeto</b> que representa una matriz de valores para todas las columnas de esa <b>fila</b> en la <b>tabla</b>.</returns>
+        <remarks>
+          <para>
+            <b>GetValues</b> es un método auxiliar que facilita la recuperación de todos los valores de columna en la <b>fila</b> en una sola llamada.</para>
+          <para>Dado que la matriz es de base cero, la longitud de la matriz es el número de columnas en la <b>fila</b> menos uno.</para>
+          <para>Los valores devueltos en la matriz son del mismo tipo que los valores del objeto <b>Table</b>primario. Esto significa que las propiedades binarias en la <b>tabla</b> se devuelven como matrices de bytes. Para las propiedades de fecha y hora, si un <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> es una columna predeterminada o si se ha agregado con un nombre de propiedad integrado explícito, su valor en la <b>tabla</b> y en la matriz se expresan en hora local. Si la <b>columna</b> se ha agregado a la <b>tabla</b> mediante una referencia de espacio de nombres, su valor en la tabla y en la matriz se expresan en hora Universal coordinada (UTC). Para obtener más información sobre cómo hacer referencia a propiedades por espacio de nombres, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Hacer referencia a propiedades por Namespace</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public object this[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Row.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ default[System::Object ^] { System::Object ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Un valor de índice de base 1 que puede ser un valor de <b>número entero</b> (<b>int</b> en C#) que representa el índice de columna para el <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> colección o una <b>cadena</b> (<b>cadena</b> en C#) que representa la <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> de la <see cref="T:Microsoft.Office.Interop.Outlook.Column" />.</param>
+        <summary>Obtiene un <b>objeto</b> que representa el valor de la <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> objeto en la columna especificada por <paramref name="Index" />.</summary>
+        <value>Un <b>objeto</b> que representa el valor de una propiedad (especificada por <paramref name="Index" />) de un elemento (especificado por el objeto <b>Row</b>primario).</value>
+        <remarks>
+          <para>Si se ha agregado una <b>columna</b> a un <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> con un nombre de propiedad hace referencia a un espacio de nombres, debe hacer referencia a la <b>columna</b> en la propiedad <b>Row.Item</b> (<b>este</b> en C#) con la misma referencia de espacio de nombres. Si usa una referencia de nombre integrada explícita en <b>Row.Item</b>, obtendrá un error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LocalTimeToUTC">
+      <MemberSignature Language="C#" Value="public DateTime LocalTimeToUTC (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.DateTime LocalTimeToUTC([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function LocalTimeToUTC (Index As Object) As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DateTime LocalTimeToUTC(System::Object ^ Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64257)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Un valor de índice de base 1 que puede ser un valor de <b>número entero</b> (<b>int</b> en C#) que representa el índice de columna para el <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> colección o una <b>cadena</b> (<b>cadena</b> en C#) que representa la <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> de la <see cref="T:Microsoft.Office.Interop.Outlook.Column" />.</param>
+        <summary>Obtiene un valor de <b>fecha y hora</b> en una <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> especificado por la <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> de objetos en <paramref name="Index" />, que se ha convertido de hora local en hora Universal coordinada (UTC).</summary>
+        <returns>Un valor de Date que se ha convertido de una representación en hora local a la hora UTC. Se devuelve un error si <paramref name="Index" /> es válido o el valor de fila indicado por <paramref name="Index" /> no es un valor de fecha.</returns>
+        <remarks>
+          <para>Use las funciones auxiliares <see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />, <b>Row.LocalTimeToUTC</b>, y <see cref="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" /> para facilitar la conversión de tipo de los valores de columna en una fila concreta.</para>
+          <para>Para obtener información sobre la representación de valor de propiedad en una <b>tabla</b>, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Factores que afectan a la representación de los valores de las (propiedad) en la tabla y las clases de vista de</a><b>tabla de</b> filtros, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87929">Filtrar elementos utilizando una comparación de fecha y hora</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Row.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve el objeto primario de la <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> objeto. Es de solo lectura</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Row.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UTCToLocalTime">
+      <MemberSignature Language="C#" Value="public DateTime UTCToLocalTime (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.DateTime UTCToLocalTime([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Row.UTCToLocalTime(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function UTCToLocalTime (Index As Object) As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DateTime UTCToLocalTime(System::Object ^ Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64256)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Un valor de índice de base 1 que puede ser un valor de <b>número entero</b> (<b>int</b> en C#) que representa el índice de columna para el <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> colección o una <b>cadena</b> (<b>cadena</b> en C#) que representa la <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> de la <see cref="T:Microsoft.Office.Interop.Outlook.Column" />.</param>
+        <summary>Obtiene un valor de fecha y hora en una <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> especificado por la <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> de objetos en <paramref name="Index" />, que se ha convertido de hora Universal coordinada (UTC) a la hora local.</summary>
+        <returns>Un valor de fecha que se ha convertido de una representación en UTC a la hora local. Se devuelve un error si <paramref name="Index" /> es válido o el valor de fila indicado por <paramref name="Index" /> no es un valor de fecha.</returns>
+        <remarks>
+          <para>Use las funciones auxiliares <see cref="M:Microsoft.Office.Interop.Outlook._Row.BinaryToString(System.Object)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Row.LocalTimeToUTC(System.Object)" />y <b>Row.UTCToLocalTime</b> para facilitar la conversión de tipo de los valores de columna en una fila concreta. </para>
+          <para>Para obtener información sobre la representación de valor de propiedad en una <b>tabla</b>, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Factores que afectan a la representación de los valores de las (propiedad) en la tabla y las clases de vista</a>de<b>tabla de</b> filtros, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87929">Filtrar elementos utilizando una comparación de fecha y hora</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

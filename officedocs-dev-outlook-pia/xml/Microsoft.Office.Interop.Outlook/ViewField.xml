@@ -1,0 +1,49 @@
+<Type Name="ViewField" FullName="Microsoft.Office.Interop.Outlook.ViewField">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="84fc8af049b7b0856da6d28fd712eb4b21599cd8" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20643373" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ViewField : Microsoft.Office.Interop.Outlook._ViewField" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ViewField implements class Microsoft.Office.Interop.Outlook._ViewField" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ViewField" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ViewField&#xA;Implements _ViewField" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ViewField : Microsoft::Office::Interop::Outlook::_ViewField" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._ViewField</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.ViewFieldClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630A0-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Representa un campo de vista, que se utiliza para mostrar información en una vista.</summary>
+    <remarks>
+      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._ViewField" />. </para>
+      <para>Usar el <see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" /> (método) de la <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> colección que se va a agregar una propiedad de elemento de Outlook a los objetos siguientes derivados de la <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto:</para>
+      <list type="bullet">
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />
+          </para>
+        </item>
+      </list>
+      <para>uso el <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ColumnFormat" /> (propiedad) para obtener acceso a la <see cref="T:Microsoft.Office.Interop.Outlook.ColumnFormat" /> que representa el objeto propiedades de presentación asociadas al campo de vista. Usar el <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" /> (propiedad) para obtener el nombre del campo de vista como que se hace referencia en la definición XML de la vista.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

@@ -1,0 +1,88 @@
+<Type Name="OlIconViewType" FullName="Microsoft.Office.Interop.Outlook.OlIconViewType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2f7075486f9a9bbd3d12bc6f2b5da560eb9b2855" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20643713" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlIconViewType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlIconViewType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlIconViewType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlIconViewType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlIconViewType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Indica el modo de vista cuando se utiliza un <see cref="T:Microsoft.Office.Interop.Outlook.IconView" /> objeto.</summary>
+    <remarks>
+      <para>Para <b>olIconViewLarge</b> y <b>olIconViewSmall</b>, la colocación y orientación real de los iconos mostrados en el objeto <b>IconView</b> viene determinada por la <see cref="T:Microsoft.Office.Interop.Outlook.OlIconViewPlacement" /> constante especificado en el <see cref="P:Microsoft.Office.Interop.Outlook._IconView.IconPlacement" /> (propiedad) del objeto <b>IconView</b> . El valor de la propiedad <b>IconPlacement</b> se omite cuando se selecciona <b>olIconViewList</b> .</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olIconViewLarge">
+      <MemberSignature Language="C#" Value="olIconViewLarge" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlIconViewType olIconViewLarge = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlIconViewType.olIconViewLarge" />
+      <MemberSignature Language="VB.NET" Value="olIconViewLarge" />
+      <MemberSignature Language="C++ CLI" Value="olIconViewLarge" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlIconViewType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Muestra los elementos de Outlook como iconos grandes, con la descripción del elemento de Outlook debajo del icono.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olIconViewList">
+      <MemberSignature Language="C#" Value="olIconViewList" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlIconViewType olIconViewList = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlIconViewType.olIconViewList" />
+      <MemberSignature Language="VB.NET" Value="olIconViewList" />
+      <MemberSignature Language="C++ CLI" Value="olIconViewList" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlIconViewType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Muestra los elementos de Outlook como una lista de iconos pequeños, con la descripción del elemento de Outlook junto al icono.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olIconViewSmall">
+      <MemberSignature Language="C#" Value="olIconViewSmall" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlIconViewType olIconViewSmall = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlIconViewType.olIconViewSmall" />
+      <MemberSignature Language="VB.NET" Value="olIconViewSmall" />
+      <MemberSignature Language="C++ CLI" Value="olIconViewSmall" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlIconViewType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Muestra los elementos de Outlook como una colección de iconos pequeños, con la descripción del elemento de Outlook junto al icono.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

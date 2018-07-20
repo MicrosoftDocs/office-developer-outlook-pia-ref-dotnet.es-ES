@@ -1,0 +1,44 @@
+<Type Name="NavigationFolder" FullName="Microsoft.Office.Interop.Outlook.NavigationFolder">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c2a2409fbe1ec306f5eef687c9635875089a48f5" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20643457" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface NavigationFolder : Microsoft.Office.Interop.Outlook._NavigationFolder" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NavigationFolder implements class Microsoft.Office.Interop.Outlook._NavigationFolder" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />
+  <TypeSignature Language="VB.NET" Value="Public Interface NavigationFolder&#xA;Implements _NavigationFolder" />
+  <TypeSignature Language="C++ CLI" Value="public interface class NavigationFolder : Microsoft::Office::Interop::Outlook::_NavigationFolder" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._NavigationFolder</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.NavigationFolderClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630F2-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Representa una carpeta de navegación que se muestra en un grupo de navegación de un módulo de navegación del panel de navegación.</summary>
+    <remarks>
+      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._NavigationFolder" />. </para>
+      <para>Usar el <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolders.Item(System.Object)" /> (propiedad) (<b>este</b> en C#) para recuperar un objeto <b>NavigationFolder</b> de la <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> colección del elemento primario <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> objeto. Usar el <see cref="M:Microsoft.Office.Interop.Outlook._NavigationFolders.Add(Microsoft.Office.Interop.Outlook.MAPIFolder)" /> método de la colección <b>NavigationFolders</b> para crear un nuevo objeto <b>NavigationFolder</b> basado en un <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto.</para>
+      <para>Usar la <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.Folder" /> método para devolver o establecer el objeto de <b>carpeta</b> en la que se basa el objeto <b>NavigationFolder</b> .</para>
+      <para>Usar el <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsSelected" /> (propiedad) para determinar si la carpeta de exploración está seleccionada y el <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.Position" /> (propiedad) para devolver o establecer la posición de presentación de la carpeta de exploración dentro del panel de navegación. También puede usar el <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.DisplayName" /> propiedad para devolver el nombre para mostrar de la carpeta de exploración dentro del panel de navegación.</para>
+      <para>Usar el <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsRemovable" /> (propiedad) para determinar si se puede quitar una carpeta de exploración de la colección <b>NavigationFolders</b> y la <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsSideBySide" /> (propiedad) para devolver o establecer el modo de visualización de una carpeta de exploración asociada con un <see cref="T:Microsoft.Office.Interop.Outlook.CalendarModule" /> objeto.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

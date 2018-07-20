@@ -1,0 +1,69 @@
+<Type Name="OlAttachmentBlockLevel" FullName="Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b3d54fd2ea0e452bdbce34a12d85f38cd94da2ce" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20643716" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlAttachmentBlockLevel" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlAttachmentBlockLevel extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlAttachmentBlockLevel" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlAttachmentBlockLevel" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Especifica si existe algún tipo de restricción en el tipo de datos adjuntos para un elemento.</summary>
+    <remarks>
+      <para>Los datos adjuntos con el <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.BlockLevel" /> igual a <b>olAttachmentBlockLevelOpen</b> están en la lista de nivel 2 de datos adjuntos que los administradores mantienen para la seguridad de los datos adjuntos. Para obtener más información acerca de la seguridad de los datos adjuntos en Outlook, vea el sitio Web Office Resource Kit.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olAttachmentBlockLevelNone">
+      <MemberSignature Language="C#" Value="olAttachmentBlockLevelNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel olAttachmentBlockLevelNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel.olAttachmentBlockLevelNone" />
+      <MemberSignature Language="VB.NET" Value="olAttachmentBlockLevelNone" />
+      <MemberSignature Language="C++ CLI" Value="olAttachmentBlockLevelNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>No hay restricciones para el tipo de datos adjuntos según la extensión de archivo.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olAttachmentBlockLevelOpen">
+      <MemberSignature Language="C#" Value="olAttachmentBlockLevelOpen" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel olAttachmentBlockLevelOpen = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel.olAttachmentBlockLevelOpen" />
+      <MemberSignature Language="VB.NET" Value="olAttachmentBlockLevelOpen" />
+      <MemberSignature Language="C++ CLI" Value="olAttachmentBlockLevelOpen" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Existe una restricción para el tipo de datos adjuntos según la extensión de archivo que obliga al usuario a guardarlo en el disco para poder abrirlo.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

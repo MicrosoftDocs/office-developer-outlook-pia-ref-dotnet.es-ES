@@ -1,0 +1,42 @@
+<Type Name="IconView" FullName="Microsoft.Office.Interop.Outlook.IconView">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3b48e95b3428e34709f0bdb589bb0a8dfe91f865" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="es-ES" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20643640" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IconView : Microsoft.Office.Interop.Outlook._IconView" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IconView implements class Microsoft.Office.Interop.Outlook._IconView" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.IconView" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IconView&#xA;Implements _IconView" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IconView : Microsoft::Office::Interop::Outlook::_IconView" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._IconView</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.IconViewClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063097-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Representa una vista que muestra elementos de Outlook como una serie de iconos con etiquetas.</summary>
+    <remarks>
+      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._IconView" />.</para>
+      <para>El objeto <b>IconView</b> , derivado de la <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto, le permite crear vistas personalizables con las que podrá mostrar elementos de Outlook como iconos grandes o pequeños, con etiquetas.</para>
+      <para>Outlook proporciona varias vistas integradas, y también puede crear objetos <b>IconView</b> personalizados. Usar el <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> (método) de la <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> colección que se va a agregar un nuevo <b>IconView</b> a un <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto. Usar el <see cref="P:Microsoft.Office.Interop.Outlook._IconView.Standard" /> (propiedad) para determinar si un objeto <b>IconView</b> existente es integrado o personalizado.</para> Objeto 
+      <para>el <b>IconView</b> admite varios tipos de vistas, dependiendo del diseño en el que se va a mostrar elementos de Outlook. Usar el <see cref="P:Microsoft.Office.Interop.Outlook._IconView.IconViewType" /> (propiedad) para establecer el tipo de vista.</para><para>También puede configurar el modo en que aparecen los elementos de Outlook dentro del objeto <b>IconView</b> . Usar el <see cref="P:Microsoft.Office.Interop.Outlook._IconView.IconPlacement" /> (propiedad) para determinar cómo se organizan los iconos para los elementos de Outlook dentro de la vista. Usar el <see cref="P:Microsoft.Office.Interop.Outlook._IconView.Filter" /> (propiedad) para determinar qué elementos de Outlook que se muestran en la vista y la <see cref="P:Microsoft.Office.Interop.Outlook._IconView.SortFields" /> por qué Outlook se ordenan los elementos en la vista de propiedades de elemento de colección para especificar el Outlook.</para><para>La definición de cada objeto <b>IconView</b> se almacena en formato de lenguaje de marcado Extensible (XML). Usar el <see cref="P:Microsoft.Office.Interop.Outlook._IconView.XML" /> (propiedad) para trabajar con la definición XML para el objeto <b>IconView</b> .</para> Uso de 
+      <para>el <see cref="M:Microsoft.Office.Interop.Outlook._IconView.Apply" /> (método) para aplicar los cambios realizados en el objeto <b>IconView</b> a la vista actual. Usar el <see cref="M:Microsoft.Office.Interop.Outlook._IconView.Save" /> método para conservar los cambios realizados en el objeto <b>IconView</b> . Usar el <see cref="P:Microsoft.Office.Interop.Outlook._IconView.LockUserChanges" /> (propiedad) para permitir o evitar los cambios a la interfaz de usuario para la vista.</para><para>Puede cambiar los objetos <b>IconView</b> integrados, pero no se puede eliminar. Usar el <see cref="M:Microsoft.Office.Interop.Outlook._IconView.Delete" /> (método) para eliminar un objeto <b>IconView</b> personalizado. Usar el <see cref="M:Microsoft.Office.Interop.Outlook._IconView.Reset" /> método para restablecer las propiedades de un objeto <b>IconView</b> integrado a sus valores predeterminados.</para><para /></remarks>
+  </Docs>
+  <Members />
+</Type>
