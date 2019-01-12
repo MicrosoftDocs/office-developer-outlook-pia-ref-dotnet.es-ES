@@ -1,13 +1,5 @@
 <Type Name="SharingItem" FullName="Microsoft.Office.Interop.Outlook.SharingItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="63d5d340dc1933c7c9df7ff9df6b1420f1fc1fde" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642084" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SharingItem : Microsoft.Office.Interop.Outlook._SharingItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="16a751c8e7e322c5384c507c1e0de9d3b65c2f7f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899245" /></Metadata><TypeSignature Language="C#" Value="public interface SharingItem : Microsoft.Office.Interop.Outlook._SharingItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SharingItem implements class Microsoft.Office.Interop.Outlook._SharingItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.SharingItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface SharingItem&#xA;Implements _SharingItem, ItemEvents_10_Event" />
@@ -33,28 +25,11 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="4a8ea-101">Representa un mensaje de uso compartido en una carpeta Bandeja de entrada.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="4a8ea-101">Represents a sharing message in an Inbox folder.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="4a8ea-102">
-        <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._SharingItem" />. Para obtener información acerca de los miembros de evento del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />.</para>
-        <para>Usar el <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.CreateSharingItem(System.Object,System.Object)" /> (método) de la <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto que se va a crear un objeto <b>SharingItem</b> que represente una nueva solicitud o invitación de uso compartido.</para>
-        <para>Uso <see cref="P:Microsoft.Office.Interop.Outlook._Folders.Item(System.Object)" /> (<paramref name="index" />), donde <paramref name="index" /> es el número de índice de un mensaje para compartir o un valor que se utiliza para que coincida con la propiedad predeterminada de un mensaje, para devolver un solo objeto <b>SharingItem</b> de una carpeta Bandeja de entrada.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="4a8ea-102">
-          <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._SharingItem" />. For information about the event members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.CreateSharingItem(System.Object,System.Object)" />  method of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object to create a <b>SharingItem</b> object that represents a new sharing request or sharing invitation.</para>
-          <para>Use <see cref="P:Microsoft.Office.Interop.Outlook._Folders.Item(System.Object)" /> (<paramref name="index" />), where <paramref name="index" /> is the index number of a sharing message or a value used to match the default property of a message, to return a single <b>SharingItem</b> object from an Inbox folder.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="85b52-101">Representa un mensaje de uso compartido en una carpeta Bandeja de entrada.</span><span class="sxs-lookup"><span data-stu-id="85b52-101">Represents a sharing message in an Inbox folder.</span></span></summary>
+    <remarks><para><span data-ttu-id="85b52-102">Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente.</span><span class="sxs-lookup"><span data-stu-id="85b52-102">This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="85b52-103">Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM.</span><span class="sxs-lookup"><span data-stu-id="85b52-103">Use this derived interface to access all method, property, and event members of the COM object.</span></span> <span data-ttu-id="85b52-104">Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento.</span><span class="sxs-lookup"><span data-stu-id="85b52-104">However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="85b52-105">Hacer referencia a este tema para obtener información sobre el objeto COM.</span><span class="sxs-lookup"><span data-stu-id="85b52-105">Refer to this topic for information about the COM object.</span></span> <span data-ttu-id="85b52-106">Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._SharingItem" />.</span><span class="sxs-lookup"><span data-stu-id="85b52-106">For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._SharingItem" />.</span></span> <span data-ttu-id="85b52-107">Para obtener información acerca de los miembros de evento del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />.</span><span class="sxs-lookup"><span data-stu-id="85b52-107">For information about the event members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />.</span></span></para>
+      <para><span data-ttu-id="85b52-108">Usar el <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.CreateSharingItem(System.Object,System.Object)" /> (método) de la <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto que se va a crear un objeto <b>SharingItem</b> que represente una nueva solicitud o invitación de uso compartido.</span><span class="sxs-lookup"><span data-stu-id="85b52-108">Use the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.CreateSharingItem(System.Object,System.Object)" />  method of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object to create a <b>SharingItem</b> object that represents a new sharing request or sharing invitation.</span></span></para>
+      <para><span data-ttu-id="85b52-109">Uso <see cref="P:Microsoft.Office.Interop.Outlook._Folders.Item(System.Object)" /> (<paramref name="index" />), donde <paramref name="index" /> es el número de índice de un mensaje para compartir o un valor que se utiliza para que coincida con la propiedad predeterminada de un mensaje, para devolver un solo objeto <b>SharingItem</b> de una carpeta Bandeja de entrada.</span><span class="sxs-lookup"><span data-stu-id="85b52-109">Use <see cref="P:Microsoft.Office.Interop.Outlook._Folders.Item(System.Object)" /> (<paramref name="index" />), where <paramref name="index" /> is the index number of a sharing message or a value used to match the default property of a message, to return a single <b>SharingItem</b> object from an Inbox folder.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

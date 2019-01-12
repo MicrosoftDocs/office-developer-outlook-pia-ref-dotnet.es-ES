@@ -1,13 +1,5 @@
 <Type Name="ExplorerEvents_10_BeforeMinimizeEventHandler" FullName="Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMinimizeEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="249ad05276f3739f735c120c41c4bcc15055f426" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642669" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void ExplorerEvents_10_BeforeMinimizeEventHandler(out bool Cancel);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e96b19945b5702440fbcad750d3cbe3b8a6f22c2" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897615" /></Metadata><TypeSignature Language="C#" Value="public delegate void ExplorerEvents_10_BeforeMinimizeEventHandler(out bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ExplorerEvents_10_BeforeMinimizeEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMinimizeEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub ExplorerEvents_10_BeforeMinimizeEventHandler(ByRef Cancel As Boolean)" />
@@ -34,20 +26,8 @@
     <ReturnType>System.Void</ReturnType>
   </ReturnValue>
   <Docs>
-    <param name="Cancel">
-      <span data-ttu-id="8781d-p101">
-        <b>False</b> cuando se produce el evento. Si el procedimiento de evento establece este argumento en <b>True</b>, la operación no se completa y el explorador no se minimiza. </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="8781d-p101">
-          <b>False</b> when the event occurs. If the event procedure sets this argument to <b>True</b>, the operation is not completed and the explorer is not minimized.</span>
-      </span>
-    </param>
-    <summary>
-      <span data-ttu-id="8781d-p102">Se trata de un delegado para un evento en el objeto correspondiente. Después de implementar un método de devolución de llamada para el evento, utilice este delegado para conectar el método de devolución de llamada con el evento. Si hubiera varias versiones de la interfaz de eventos, este delegado conectaría el método de devolución de llamadas para el evento en la versión especificada de Outlook.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="8781d-p102">This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</span>
-      </span>
-    </summary>
+    <param name="Cancel"><span data-ttu-id="09e7c-p101"><b>False</b> cuando se produce el evento. Si el procedimiento de evento establece este argumento en <b>True</b>, la operación no se completa y el explorador no se minimiza. </span><span class="sxs-lookup"><span data-stu-id="09e7c-p101"><b>False</b> when the event occurs. If the event procedure sets this argument to <b>True</b>, the operation is not completed and the explorer is not minimized.</span></span></param>
+    <summary><span data-ttu-id="09e7c-p102">Se trata de un delegado para un evento en el objeto correspondiente. Después de implementar un método de devolución de llamada para el evento, utilice este delegado para conectar el método de devolución de llamada con el evento. Si hubiera varias versiones de la interfaz de eventos, este delegado conectaría el método de devolución de llamadas para el evento en la versión especificada de Outlook.</span><span class="sxs-lookup"><span data-stu-id="09e7c-p102">This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
 </Type>

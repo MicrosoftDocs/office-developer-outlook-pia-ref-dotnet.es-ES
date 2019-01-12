@@ -1,13 +1,5 @@
 <Type Name="ItemEvents_10_BeforeAttachmentReadEventHandler" FullName="Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentReadEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c312896d7c456a4b2a0a6a924f6acd030c3c2daa" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642130" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void ItemEvents_10_BeforeAttachmentReadEventHandler(Attachment Attachment, out bool Cancel);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="136fa3c366dfa060aca9b15fce99596b910e31e3" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896656" /></Metadata><TypeSignature Language="C#" Value="public delegate void ItemEvents_10_BeforeAttachmentReadEventHandler(Attachment Attachment, out bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ItemEvents_10_BeforeAttachmentReadEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentReadEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub ItemEvents_10_BeforeAttachmentReadEventHandler(Attachment As Attachment, ByRef Cancel As Boolean)" />
@@ -35,25 +27,9 @@
     <ReturnType>System.Void</ReturnType>
   </ReturnValue>
   <Docs>
-    <param name="Attachment">
-      <span data-ttu-id="99aac-101">
-        <b>Datos adjuntos</b> que se lea.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="99aac-101">The <b>Attachment</b> to be read.</span>
-      </span>
-    </param>
-    <param name="Cancel">
-      <span data-ttu-id="99aac-102">Establecer en <b>True</b> para cancelar la operación; de lo contrario, se establece en <b>False</b> para permitir que los <b>datos adjuntos</b> que se lea.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="99aac-102">Set to <b>True</b> to cancel the operation; otherwise, set to <b>False</b> to allow the <b>Attachment</b> to be read.</span>
-      </span>
-    </param>
-    <summary>
-      <span data-ttu-id="99aac-p101">Se trata de un delegado para un evento en el objeto correspondiente. Después de implementar un método de devolución de llamada para el evento, utilice este delegado para conectar el método de devolución de llamada con el evento. Si hubiera varias versiones de la interfaz de eventos, este delegado conectaría el método de devolución de llamadas para el evento en la versión especificada de Outlook.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="99aac-p101">This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</span>
-      </span>
-    </summary>
+    <param name="Attachment"><span data-ttu-id="d846d-101"><b>Datos adjuntos</b> que se lea.</span><span class="sxs-lookup"><span data-stu-id="d846d-101">The <b>Attachment</b> to be read.</span></span></param>
+    <param name="Cancel"><span data-ttu-id="d846d-102">Establecer en <b>True</b> para cancelar la operación; de lo contrario, se establece en <b>False</b> para permitir que los <b>datos adjuntos</b> que se lea.</span><span class="sxs-lookup"><span data-stu-id="d846d-102">Set to <b>True</b> to cancel the operation; otherwise, set to <b>False</b> to allow the <b>Attachment</b> to be read.</span></span></param>
+    <summary><span data-ttu-id="d846d-p101">Se trata de un delegado para un evento en el objeto correspondiente. Después de implementar un método de devolución de llamada para el evento, utilice este delegado para conectar el método de devolución de llamada con el evento. Si hubiera varias versiones de la interfaz de eventos, este delegado conectaría el método de devolución de llamadas para el evento en la versión especificada de Outlook.</span><span class="sxs-lookup"><span data-stu-id="d846d-p101">This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
 </Type>

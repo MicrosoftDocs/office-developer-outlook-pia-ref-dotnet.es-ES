@@ -1,13 +1,5 @@
 <Type Name="ConversationHeader" FullName="Microsoft.Office.Interop.Outlook.ConversationHeader">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f240db48bde1c2db353f938b5173be3971c038f7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643601" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ConversationHeader : Microsoft.Office.Interop.Outlook._ConversationHeader" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6baf4e2eb6ab932ae64172f4ef76ba4e203b7dff" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900846" /></Metadata><TypeSignature Language="C#" Value="public interface ConversationHeader : Microsoft.Office.Interop.Outlook._ConversationHeader" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ConversationHeader implements class Microsoft.Office.Interop.Outlook._ConversationHeader" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />
   <TypeSignature Language="VB.NET" Value="Public Interface ConversationHeader&#xA;Implements _ConversationHeader" />
@@ -30,52 +22,23 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="6d40c-101">Representa un encabezado de conversación de Microsoft Outlook en una vista Conversación.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6d40c-101">Represents a Microsoft Outlook conversation header in a Conversation view.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="6d40c-102">
-        <para>En Outlook, una conversación agrupa los mensajes que comparten al mismo asunto y pertenecen al mismo subproceso. Una conversación también puede incluir ramas, como cuando se obtiene un mensaje de dos o más discusiones y respuestas extender de forma independiente de cada respuesta. La vista de conversación está relacionada con todos los elementos en la misma conversación a través de las carpetas y almacenes. Un encabezado de conversación puede ser un elemento o un encabezado de grupo en uno de los siguientes formatos:</para>
-        <list type="bullet">
-          <item>
-            <para>un elemento en un subproceso que contiene sólo un elemento único.</para>
-          </item>
-          <item>
-            <para>Un encabezado de grupo para mantener una conversación que contiene varios elementos.</para>
-          </item>
-          <item>
-            <para>El primer elemento de una conversación que contiene un único subproceso.</para>
-          </item>
-          <item>
-            <para>El primer elemento de una conversación dividida.</para>
-          </item>
-        </list>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6d40c-102">
-          <para>In Outlook, a conversation groups messages that share the same subject and belong to the same thread. A conversation can also include branches, such as when a message gets two or more responses and discussions grow independently from each response. The Conversation view relates all items in the same conversation across folders and stores. A conversation header can be an item or a group header in one of the following forms:</para>
-          <list type="bullet">
-            <item>
-              <para>An item in a thread that contains only a single item.</para>
-            </item>
-            <item>
-              <para>A group header for a conversation that contains multiple items.</para>
-            </item>
-            <item>
-              <para>The first item in a conversation that contains a single thread.</para>
-            </item>
-            <item>
-              <para>The first item in a split conversation.</para>
-            </item>
-          </list>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="f89ed-101">Representa un encabezado de conversación de Microsoft Outlook en una vista Conversación.</span><span class="sxs-lookup"><span data-stu-id="f89ed-101">Represents a Microsoft Outlook conversation header in a Conversation view.</span></span></summary>
+    <remarks><para><span data-ttu-id="f89ed-p101">En Outlook, una conversación agrupa los mensajes que comparten al mismo asunto y pertenecen al mismo subproceso. Una conversación también puede incluir sucursales, como cuando un mensaje se obtiene dos o más respuestas y discusiones extender de forma independiente de cada respuesta. La vista de conversación está relacionada con todos los elementos en la misma conversación en carpetas y almacenes. Un encabezado de la conversación puede ser un elemento o un encabezado de grupo en una de las siguientes formas:</span><span class="sxs-lookup"><span data-stu-id="f89ed-p101">In Outlook, a conversation groups messages that share the same subject and belong to the same thread. A conversation can also include branches, such as when a message gets two or more responses and discussions grow independently from each response. The Conversation view relates all items in the same conversation across folders and stores. A conversation header can be an item or a group header in one of the following forms:</span></span></para>
+      <list type="bullet">
+        <item>
+          <para><span data-ttu-id="f89ed-106">Un elemento de un subproceso que contiene un único elemento.</span><span class="sxs-lookup"><span data-stu-id="f89ed-106">An item in a thread that contains only a single item.</span></span></para>
+        </item>
+        <item>
+          <para><span data-ttu-id="f89ed-107">Un encabezado de grupo de una conversación que contiene múltiples elementos.</span><span class="sxs-lookup"><span data-stu-id="f89ed-107">A group header for a conversation that contains multiple items.</span></span></para>
+        </item>
+        <item>
+          <para><span data-ttu-id="f89ed-108">El primer elemento de una conversación que contiene un único subproceso.</span><span class="sxs-lookup"><span data-stu-id="f89ed-108">The first item in a conversation that contains a single thread.</span></span></para>
+        </item>
+        <item>
+          <para><span data-ttu-id="f89ed-109">El primer elemento de una conversación dividida.</span><span class="sxs-lookup"><span data-stu-id="f89ed-109">The first item in a split conversation.</span></span></para>
+        </item>
+      </list>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

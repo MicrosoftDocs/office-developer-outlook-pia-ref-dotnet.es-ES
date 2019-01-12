@@ -1,13 +1,5 @@
 <Type Name="OlActionCopyLike" FullName="Microsoft.Office.Interop.Outlook.OlActionCopyLike">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="aa645b393eb5513da0133626f8f3965d1adb7f3b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642855" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlActionCopyLike" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4e9789a563410d828e5bd80a9c901e3cda164c56" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900401" /></Metadata><TypeSignature Language="C#" Value="public enum OlActionCopyLike" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlActionCopyLike extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlActionCopyLike" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlActionCopyLike" />
@@ -20,24 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="c6c7a-101">Especifica cómo se copiarán las propiedades de elemento.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c6c7a-101">Specifies how item properties will be copied.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="c6c7a-102">
-        <para>Utilizado por el <see cref="P:Microsoft.Office.Interop.Outlook.Action.CopyLike" /> (propiedad) de un <see cref="T:Microsoft.Office.Interop.Outlook.Action" /> para especificar el elemento cómo se copiarán las propiedades para el nuevo elemento que se crea cuando se ejecuta la <b>acción</b> .</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c6c7a-102">
-          <para>Used by the <see cref="P:Microsoft.Office.Interop.Outlook.Action.CopyLike" /> property of an <see cref="T:Microsoft.Office.Interop.Outlook.Action" /> to specify how item properties will be copied to the new item that is created when the <b>Action</b> is executed.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="f8322-101">Especifica cómo se copiarán las propiedades de elemento.</span><span class="sxs-lookup"><span data-stu-id="f8322-101">Specifies how item properties will be copied.</span></span></summary>
+    <remarks><para><span data-ttu-id="f8322-102">Utilizado por el <see cref="P:Microsoft.Office.Interop.Outlook.Action.CopyLike" /> (propiedad) de un <see cref="T:Microsoft.Office.Interop.Outlook.Action" /> para especificar el elemento cómo se copiarán las propiedades para el nuevo elemento que se crea cuando se ejecuta la <b>acción</b> .</span><span class="sxs-lookup"><span data-stu-id="f8322-102">Used by the <see cref="P:Microsoft.Office.Interop.Outlook.Action.CopyLike" /> property of an <see cref="T:Microsoft.Office.Interop.Outlook.Action" /> to specify how item properties will be copied to the new item that is created when the <b>Action</b> is executed.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olForward">
@@ -56,20 +33,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c6c7a-103">Propiedades del nuevo elemento se establecerá tal que el nuevo elemento es un avance del elemento original.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6c7a-103">Properties of the new item will be set such that the new item is a forward of the original item.</span>
-          </span>
-          <span data-ttu-id="c6c7a-104">Si se crea un nuevo <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, el valor de las propiedades <b>para</b> y <b>CC</b> en el nuevo elemento estará vacío y la propiedad <b>Subject</b> del nuevo elemento será el <b>Subject</b> original con un prefijo como "Rv:" (vea <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> (propiedad)) se agregó.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6c7a-104">If creating a new <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, the value of the <b>To</b> and <b>CC</b> properties in the new item will be empty and the <b>Subject</b> property of the new item will be the original <b>Subject</b> with a prefix such as "FW:" (see <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> property) added.</span>
-          </span>
-          <span data-ttu-id="c6c7a-105">Los datos adjuntos en el elemento original se copiará en el nuevo elemento.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6c7a-105">The   attachments on the original item will be copied to the new item.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f8322-103">Propiedades del nuevo elemento se establecerá tal que el nuevo elemento es un avance del elemento original.</span><span class="sxs-lookup"><span data-stu-id="f8322-103">Properties of the new item will be set such that the new item is a forward of the original item.</span></span>  <span data-ttu-id="f8322-104">Si se crea un nuevo <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, el valor de las propiedades <b>para</b> y <b>CC</b> en el nuevo elemento estará vacío y la propiedad <b>Subject</b> del nuevo elemento será el <b>Subject</b> original con un prefijo como "Rv:" (vea <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> (propiedad)) se agregó.</span><span class="sxs-lookup"><span data-stu-id="f8322-104">If creating a new <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, the value of the <b>To</b> and <b>CC</b> properties in the new item will be empty and the <b>Subject</b> property of the new item will be the original <b>Subject</b> with a prefix such as "FW:" (see <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> property) added.</span></span>    <span data-ttu-id="f8322-105">Los datos adjuntos en el elemento original se copiará en el nuevo elemento.</span><span class="sxs-lookup"><span data-stu-id="f8322-105">The   attachments on the original item will be copied to the new item.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olReply">
@@ -88,16 +52,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c6c7a-106">Por ejemplo, que el nuevo elemento se reenvíe al elemento original, se establecerá las propiedades del nuevo elemento.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6c7a-106">Properties of the new item will be set such that the new item is a reply to the original item.</span>
-          </span>
-          <span data-ttu-id="c6c7a-107">Si se crea un nuevo <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, el valor del campo <b>a</b> original se copiarán a la propiedad <b>SenderEmailAddress</b> del nuevo elemento, el campo CC quedará en blanco y el campo <b>asunto</b> del nuevo elemento será el <b>Subject</b> original con un prefijo como "RE:" (vea <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> (propiedad)) se agregó.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6c7a-107">If creating a new <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, the value of the original <b>To</b> field will be copied to  the <b>SenderEmailAddress</b> property of the new item, the CC field will be blank and the <b>Subject</b> field of the new item will be the original <b>Subject</b> with a prefix such as "RE:" (see <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> property) added.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f8322-106">Por ejemplo, que el nuevo elemento se reenvíe al elemento original, se establecerá las propiedades del nuevo elemento.</span><span class="sxs-lookup"><span data-stu-id="f8322-106">Properties of the new item will be set such that the new item is a reply to the original item.</span></span>    <span data-ttu-id="f8322-107">Si se crea un nuevo <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, el valor del campo <b>a</b> original se copiarán a la propiedad <b>SenderEmailAddress</b> del nuevo elemento, el campo CC quedará en blanco y el campo <b>asunto</b> del nuevo elemento será el <b>Subject</b> original con un prefijo como "RE:" (vea <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> (propiedad)) se agregó.</span><span class="sxs-lookup"><span data-stu-id="f8322-107">If creating a new <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, the value of the original <b>To</b> field will be copied to  the <b>SenderEmailAddress</b> property of the new item, the CC field will be blank and the <b>Subject</b> field of the new item will be the original <b>Subject</b> with a prefix such as "RE:" (see <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> property) added.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olReplyAll">
@@ -116,16 +71,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c6c7a-108">Propiedades del nuevo elemento se establecerá tal que el nuevo elemento es una respuesta a todos los remitentes del elemento original.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6c7a-108">Properties of the new item will be set such that the new item is a reply to all of the senders of the original item.</span>
-          </span>
-          <span data-ttu-id="c6c7a-109">Si se crea un nuevo <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, el valor de las propiedades de la <b>propiedad SenderEmailAddress</b> y <b>CC</b> se copiará en la propiedad <b>To</b> del nuevo elemento y la propiedad <b>Subject</b> del nuevo elemento será el asunto del elemento original con un prefijo como "RE:" (vea <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> (propiedad)) se agregó.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6c7a-109">If creating a new <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, the value of the <b>SenderEmailAddress</b> and <b>CC</b> properties will be copied to  the <b>To</b> property of the new item and the <b>Subject</b> property of the new item will be the Subject of the original item with a prefix such as "RE:" (see <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> property) added.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f8322-108">Propiedades del nuevo elemento se establecerá tal que el nuevo elemento es una respuesta a todos los remitentes del elemento original.</span><span class="sxs-lookup"><span data-stu-id="f8322-108">Properties of the new item will be set such that the new item is a reply to all of the senders of the original item.</span></span>  <span data-ttu-id="f8322-109">Si se crea un nuevo <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, el valor de las propiedades de la <b>propiedad SenderEmailAddress</b> y <b>CC</b> se copiará en la propiedad <b>To</b> del nuevo elemento y la propiedad <b>Subject</b> del nuevo elemento será el asunto del elemento original con un prefijo como "RE:" (vea <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> (propiedad)) se agregó.</span><span class="sxs-lookup"><span data-stu-id="f8322-109">If creating a new <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, the value of the <b>SenderEmailAddress</b> and <b>CC</b> properties will be copied to  the <b>To</b> property of the new item and the <b>Subject</b> property of the new item will be the Subject of the original item with a prefix such as "RE:" (see <see cref="P:Microsoft.Office.Interop.Outlook.Action.Prefix" /> property) added.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olReplyFolder">
@@ -144,12 +90,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c6c7a-110">Si se crea un nuevo <see cref="T:Microsoft.Office.Interop.Outlook.PostItem" /> basado en alguno anterior, la propiedad Post To del nuevo elemento contendrá la dirección de la carpeta activa, la propiedad <b>Subject</b> del elemento original se copiará en la propiedad <b>ConversationTopic</b> del nuevo elemento y la <b> Asunto</b> (propiedad) del nuevo elemento estará vacía.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6c7a-110">If creating a new <see cref="T:Microsoft.Office.Interop.Outlook.PostItem" /> based on an old one, the Post To property of the new item will contain the active folder address, the <b>Subject</b> property of the original item will be copied to the <b>ConversationTopic</b> property of the new item, and the <b>Subject</b> property of the new item will be empty.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f8322-110">Si se crea un nuevo <see cref="T:Microsoft.Office.Interop.Outlook.PostItem" /> basado en alguno anterior, la propiedad Post To del nuevo elemento contendrá la dirección de la carpeta activa, la propiedad <b>Subject</b> del elemento original se copiará en la propiedad <b>ConversationTopic</b> del nuevo elemento y la <b> Asunto</b> (propiedad) del nuevo elemento estará vacía.</span><span class="sxs-lookup"><span data-stu-id="f8322-110">If creating a new <see cref="T:Microsoft.Office.Interop.Outlook.PostItem" /> based on an old one, the Post To property of the new item will contain the active folder address, the <b>Subject</b> property of the original item will be copied to the <b>ConversationTopic</b> property of the new item, and the <b>Subject</b> property of the new item will be empty.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olRespond">
@@ -168,12 +109,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="c6c7a-111">Se usa exclusivamente para acciones de botones de votaciones.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="c6c7a-111">Used exclusively for voting button actions.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="f8322-111">Se usa exclusivamente para acciones de botones de votaciones.</span><span class="sxs-lookup"><span data-stu-id="f8322-111">Used exclusively for voting button actions.</span></span></summary>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="ItemProperties" FullName="Microsoft.Office.Interop.Outlook.ItemProperties">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="068473e5343109a26ed982c2916e8e99e1bf5182" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642706" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ItemProperties : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2e0b6f765c864178318a6ab735154aa9fb4aa042" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900282" /></Metadata><TypeSignature Language="C#" Value="public interface ItemProperties : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ItemProperties implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemProperties" />
   <TypeSignature Language="VB.NET" Value="Public Interface ItemProperties&#xA;Implements IEnumerable" />
@@ -30,30 +22,16 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="ea715-101">Una colección de todas las propiedades asociadas con el elemento.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ea715-101">A collection of all properties associated with the item.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="ea715-102">
-        <para>Usar el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ItemProperties" /> (propiedad) para devolver la colección <b>ItemProperties</b> . Utilice ItemProperties.Item (<paramref name="index" />), donde <paramref name="index" /> es el nombre del objeto o la posición numérica del elemento dentro de la colección, para devolver un solo <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperty" /> objeto.</para>
-        <para>
-          <b>Nota</b>: la colección <b>ItemProperties</b> es de base cero, lo que significa que el primer elemento de la colección de referencia es 0.</para> Uso de 
-      <para>la <see cref="M:Microsoft.Office.Interop.Outlook.ItemProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> método para agregar una nueva propiedad de elemento a la colección <b>ItemProperties</b> . Usar el <see cref="M:Microsoft.Office.Interop.Outlook.ItemProperties.Remove(System.Int32)" /> método para quitar una propiedad de elemento de la colección <b>ItemProperties</b> .</para><para><b>Nota</b>: sólo se puede agregar o quitar propiedades personalizadas. Las propiedades personalizadas se indican mediante el <see cref="P:Microsoft.Office.Interop.Outlook.ItemProperty.IsUserProperty" /> .</para><para /></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="ea715-102">
-          <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ItemProperties" />  property to return the <b>ItemProperties</b> collection. Use ItemProperties.Item(<paramref name="index" />), where <paramref name="index" /> is the name of the object or the numeric position of the item within the collection, to return a single <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperty" />  object.</para>
-          <para>
-            <b>Note</b>: The <b>ItemProperties</b> collection is zero-based, meaning that the first item in the collection is referenced by 0.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook.ItemProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />  method to add a new item property to the <b>ItemProperties</b> collection. Use the <see cref="M:Microsoft.Office.Interop.Outlook.ItemProperties.Remove(System.Int32)" />  method to remove an item property from the <b>ItemProperties</b> collection.</para>
-          <para>
-            <b>Note</b>:  You can only add or remove custom properties. Custom properties are denoted by the <see cref="P:Microsoft.Office.Interop.Outlook.ItemProperty.IsUserProperty" /> .</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="7531a-101">Una colección de todas las propiedades asociadas con el elemento.</span><span class="sxs-lookup"><span data-stu-id="7531a-101">A collection of all properties associated with the item.</span></span></summary>
+    <remarks><para><span data-ttu-id="7531a-102">Usar el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ItemProperties" /> (propiedad) para devolver la colección <b>ItemProperties</b> .</span><span class="sxs-lookup"><span data-stu-id="7531a-102">Use the <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ItemProperties" />  property to return the <b>ItemProperties</b> collection.</span></span> <span data-ttu-id="7531a-103">Utilice ItemProperties.Item (<paramref name="index" />), donde <paramref name="index" /> es el nombre del objeto o la posición numérica del elemento dentro de la colección, para devolver un solo <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperty" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="7531a-103">Use ItemProperties.Item(<paramref name="index" />), where <paramref name="index" /> is the name of the object or the numeric position of the item within the collection, to return a single <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperty" />  object.</span></span></para>
+      <para><span data-ttu-id="7531a-104">
+        <b>Nota</b>: la colección <b>ItemProperties</b> es de base cero, lo que significa que el primer elemento de la colección de referencia es 0.</span><span class="sxs-lookup"><span data-stu-id="7531a-104">
+        <b>Note</b>: The <b>ItemProperties</b> collection is zero-based, meaning that the first item in the collection is referenced by 0.</span></span></para>
+      <para><span data-ttu-id="7531a-105">Usar el <see cref="M:Microsoft.Office.Interop.Outlook.ItemProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> método para agregar una nueva propiedad de elemento a la colección <b>ItemProperties</b> .</span><span class="sxs-lookup"><span data-stu-id="7531a-105">Use the <see cref="M:Microsoft.Office.Interop.Outlook.ItemProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />  method to add a new item property to the <b>ItemProperties</b> collection.</span></span> <span data-ttu-id="7531a-106">Usar el <see cref="M:Microsoft.Office.Interop.Outlook.ItemProperties.Remove(System.Int32)" /> método para quitar una propiedad de elemento de la colección <b>ItemProperties</b> .</span><span class="sxs-lookup"><span data-stu-id="7531a-106">Use the <see cref="M:Microsoft.Office.Interop.Outlook.ItemProperties.Remove(System.Int32)" />  method to remove an item property from the <b>ItemProperties</b> collection.</span></span></para>
+      <para><span data-ttu-id="7531a-107">
+        <b>Nota</b>: sólo se puede agregar o quitar propiedades personalizadas.</span><span class="sxs-lookup"><span data-stu-id="7531a-107">
+        <b>Note</b>:  You can only add or remove custom properties.</span></span> <span data-ttu-id="7531a-108">Las propiedades personalizadas se indican mediante el <see cref="P:Microsoft.Office.Interop.Outlook.ItemProperty.IsUserProperty" /> .</span><span class="sxs-lookup"><span data-stu-id="7531a-108">Custom properties are denoted by the <see cref="P:Microsoft.Office.Interop.Outlook.ItemProperty.IsUserProperty" /> .</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -81,49 +59,14 @@
         <Parameter Name="DisplayFormat" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Name">
-          <span data-ttu-id="ea715-103">Nombre del nuevo objeto elemento de propiedad.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea715-103">The name of the new item property object.</span>
-          </span>
-        </param>
-        <param name="Type">
-          <span data-ttu-id="ea715-104">El tipo de la nueva <b>ItemProperty</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea715-104">The type of the new <b>ItemProperty</b>.</span>
-          </span>
-        </param>
-        <param name="AddToFolderFields">
-          <span data-ttu-id="ea715-105">Determina si la propiedad del elemento se agregará a los campos de carpeta.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea715-105">Determines if the item property will be added to the folder fields.</span>
-          </span>
-        </param>
-        <param name="DisplayFormat">
-          <span data-ttu-id="ea715-106">Define el formato del campo tal como aparece en una carpeta determinada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea715-106">Defines the format of the field as it appears in a given folder.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="ea715-107">Agrega un objeto <b>ItemProperty</b> a la colección <b>ItemProperties</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea715-107">Adds an <b>ItemProperty</b> object to the <b>ItemProperties</b> collection.</span>
-          </span>
-        </summary>
+        <param name="Name"><span data-ttu-id="7531a-109">Nombre del nuevo objeto elemento de propiedad.</span><span class="sxs-lookup"><span data-stu-id="7531a-109">The name of the new item property object.</span></span></param>
+        <param name="Type"><span data-ttu-id="7531a-110">El tipo de la nueva <b>ItemProperty</b>.</span><span class="sxs-lookup"><span data-stu-id="7531a-110">The type of the new <b>ItemProperty</b>.</span></span></param>
+        <param name="AddToFolderFields"><span data-ttu-id="7531a-111">Determina si la propiedad del elemento se agregará a los campos de carpeta.</span><span class="sxs-lookup"><span data-stu-id="7531a-111">Determines if the item property will be added to the folder fields.</span></span></param>
+        <param name="DisplayFormat"><span data-ttu-id="7531a-112">Define el formato del campo tal como aparece en una carpeta determinada.</span><span class="sxs-lookup"><span data-stu-id="7531a-112">Defines the format of the field as it appears in a given folder.</span></span></param>
+        <summary><span data-ttu-id="7531a-113">Agrega un objeto <b>ItemProperty</b> a la colección <b>ItemProperties</b>.</span><span class="sxs-lookup"><span data-stu-id="7531a-113">Adds an <b>ItemProperty</b> object to the <b>ItemProperties</b> collection.</span></span></summary>
         <returns>To be added.</returns>
-        <remarks>
-          <span data-ttu-id="ea715-108">
-            <para>Puede crear una propiedad de un tipo definido por el <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> (enumeración), excepto los tipos siguientes: <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olEnumeration" />, <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olOutlookInternal" />, y <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olSmartFrom" />.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea715-108">
-              <para>You can create a property of a type that is defined by the <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> enumeration, except for the following types: <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olEnumeration" />, <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olOutlookInternal" />, and <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olSmartFrom" />.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="7531a-114">Puede crear una propiedad de un tipo definido por el <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> (enumeración), excepto los tipos siguientes: <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olEnumeration" />, <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olOutlookInternal" />, y <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olSmartFrom" />.</span><span class="sxs-lookup"><span data-stu-id="7531a-114">You can create a property of a type that is defined by the <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> enumeration, except for the following types: <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olEnumeration" />, <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olOutlookInternal" />, and <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olSmartFrom" />.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -149,16 +92,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea715-109">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea715-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="ea715-110">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea715-110">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7531a-115">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span><span class="sxs-lookup"><span data-stu-id="7531a-115">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="7531a-116">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="7531a-116">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -186,16 +120,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea715-111">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea715-111">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="ea715-112">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea715-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7531a-117">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span><span class="sxs-lookup"><span data-stu-id="7531a-117">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="7531a-118">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="7531a-118">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -223,16 +148,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea715-113">Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea715-113">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="ea715-114">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea715-114">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7531a-119">Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada.</span><span class="sxs-lookup"><span data-stu-id="7531a-119">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span></span> <span data-ttu-id="7531a-120">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="7531a-120">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -264,12 +180,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="ea715-115">Este miembro se hereda del tipo base de la interfaz principal.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea715-115">This member is inherited from the base type of the parent interface.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7531a-121">Este miembro se hereda del tipo base de la interfaz principal.</span><span class="sxs-lookup"><span data-stu-id="7531a-121">This member is inherited from the base type of the parent interface.</span></span></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -300,24 +211,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="ea715-116">Puede ser el número de índice de base cero del objeto o un valor usado para que coincida con la propiedad predeterminada de un objeto de la colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea715-116">Either the zero-based index number of the object, or a value used to match the default property of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="ea715-117">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperty" /> objeto de la colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea715-117">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperty" /> object from the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="ea715-118">Objeto <b>ItemProperty</b> que representa el objeto especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea715-118">An <b>ItemProperty</b> object that represents the specified object.</span>
-          </span>
-        </value>
+        <param name="Index"><span data-ttu-id="7531a-122">Puede ser el número de índice de base cero del objeto o un valor usado para que coincida con la propiedad predeterminada de un objeto de la colección.</span><span class="sxs-lookup"><span data-stu-id="7531a-122">Either the zero-based index number of the object, or a value used to match the default property of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="7531a-123">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperty" /> objeto de la colección.</span><span class="sxs-lookup"><span data-stu-id="7531a-123">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperty" /> object from the collection.</span></span></summary>
+        <value><span data-ttu-id="7531a-124">Objeto <b>ItemProperty</b> que representa el objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="7531a-124">An <b>ItemProperty</b> object that represents the specified object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -344,12 +240,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea715-p104">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea715-p104">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7531a-p107">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="7531a-p107">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -377,18 +268,8 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="ea715-121">Valor de índice basado en cero del objeto en la colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea715-121">The zero-based index value of the object within the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="ea715-122">Quita un objeto de la colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea715-122">Removes an object from the collection.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="7531a-127">Valor de índice basado en cero del objeto en la colección.</span><span class="sxs-lookup"><span data-stu-id="7531a-127">The zero-based index value of the object within the collection.</span></span></param>
+        <summary><span data-ttu-id="7531a-128">Quita un objeto de la colección.</span><span class="sxs-lookup"><span data-stu-id="7531a-128">Removes an object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -415,41 +296,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="ea715-123">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea715-123">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="ea715-124">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea715-124">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="7531a-129">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="7531a-129">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="7531a-130">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="7531a-130">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="ea715-125">
-            <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="7531a-131">La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="7531a-131">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="7531a-132">Los dos miembros tienen el mismo propósito.</span><span class="sxs-lookup"><span data-stu-id="7531a-132">Both members serve the same purpose.</span></span> <span data-ttu-id="7531a-133">Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</span><span class="sxs-lookup"><span data-stu-id="7531a-133">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="ea715-125">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

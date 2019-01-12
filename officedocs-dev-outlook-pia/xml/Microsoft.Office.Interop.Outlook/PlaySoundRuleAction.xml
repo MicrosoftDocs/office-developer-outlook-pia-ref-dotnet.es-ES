@@ -1,13 +1,5 @@
 <Type Name="PlaySoundRuleAction" FullName="Microsoft.Office.Interop.Outlook.PlaySoundRuleAction">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="cc5299a71bee19906807b19d6b757a64d22a19c4" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643227" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface PlaySoundRuleAction : Microsoft.Office.Interop.Outlook._PlaySoundRuleAction" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5b8a70614d4a38b22412dfa5da2e6a62a7146663" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900317" /></Metadata><TypeSignature Language="C#" Value="public interface PlaySoundRuleAction : Microsoft.Office.Interop.Outlook._PlaySoundRuleAction" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PlaySoundRuleAction implements class Microsoft.Office.Interop.Outlook._PlaySoundRuleAction" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.PlaySoundRuleAction" />
   <TypeSignature Language="VB.NET" Value="Public Interface PlaySoundRuleAction&#xA;Implements _PlaySoundRuleAction" />
@@ -30,30 +22,13 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="2e24c-101">Representa una acción que reproduce un archivo de sonido .wav.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2e24c-101">Represents an action that plays a .wav file sound.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="2e24c-102">
-        <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._PlaySoundRuleAction" />. </para>
-        <para>
-          <b>PlaySoundRuleAction</b> se deriva el <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> objeto. Cada regla está asociada con un <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> objeto que tiene un <see cref="P:Microsoft.Office.Interop.Outlook._RuleActions.AssignToCategory" /> (propiedad). La propiedad <b>PlaySound</b> siempre devuelve un objeto <b>PlaySoundRuleAction</b> . Si la regla tiene una acción de regla habilitada que reproduce un archivo de sonido, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._PlaySoundRuleAction.Enabled" /> sería <b>True</b>.</para>
-        <para>Para obtener más información sobre cómo especificar acciones de regla, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Especificar acciones de regla</a></para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="2e24c-102">
-          <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._PlaySoundRuleAction" />. </para>
-          <para>
-            <b>PlaySoundRuleAction</b> is derived from the <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> object. Each rule is associated with a <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> object which has a <see cref="P:Microsoft.Office.Interop.Outlook._RuleActions.AssignToCategory" /> property. The <b>PlaySound</b> property always returns a <b>PlaySoundRuleAction</b> object. If the rule has an enabled rule action that plays a sound file, then <see cref="P:Microsoft.Office.Interop.Outlook._PlaySoundRuleAction.Enabled" /> would be <b>True</b>.</para>
-          <para>For more information on specifying rule actions, see <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Specify Rule Actions</a></para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="abad4-101">Representa una acción que reproduce un archivo de sonido .wav.</span><span class="sxs-lookup"><span data-stu-id="abad4-101">Represents an action that plays a .wav file sound.</span></span></summary>
+    <remarks><para><span data-ttu-id="abad4-102">Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente.</span><span class="sxs-lookup"><span data-stu-id="abad4-102">This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="abad4-103">Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM.</span><span class="sxs-lookup"><span data-stu-id="abad4-103">Use this derived interface to access all method, property, and event members of the COM object.</span></span> <span data-ttu-id="abad4-104">Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento.</span><span class="sxs-lookup"><span data-stu-id="abad4-104">However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="abad4-105">Hacer referencia a este tema para obtener información sobre el objeto COM.</span><span class="sxs-lookup"><span data-stu-id="abad4-105">Refer to this topic for information about the COM object.</span></span> <span data-ttu-id="abad4-106">Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._PlaySoundRuleAction" />.</span><span class="sxs-lookup"><span data-stu-id="abad4-106">For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._PlaySoundRuleAction" />.</span></span> </para>
+      <para><span data-ttu-id="abad4-107">
+        <b>PlaySoundRuleAction</b> se deriva el <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="abad4-107">
+        <b>PlaySoundRuleAction</b> is derived from the <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> object.</span></span> <span data-ttu-id="abad4-108">Cada regla está asociada con un <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> objeto que tiene un <see cref="P:Microsoft.Office.Interop.Outlook._RuleActions.AssignToCategory" /> (propiedad).</span><span class="sxs-lookup"><span data-stu-id="abad4-108">Each rule is associated with a <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> object which has a <see cref="P:Microsoft.Office.Interop.Outlook._RuleActions.AssignToCategory" /> property.</span></span> <span data-ttu-id="abad4-109">La propiedad <b>PlaySound</b> siempre devuelve un objeto <b>PlaySoundRuleAction</b>.</span><span class="sxs-lookup"><span data-stu-id="abad4-109">The <b>PlaySound</b> property always returns a <b>PlaySoundRuleAction</b> object.</span></span> <span data-ttu-id="abad4-110">Si la regla tiene una acción de regla habilitada que reproduce un archivo de sonido, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._PlaySoundRuleAction.Enabled" /> sería <b>True</b>.</span><span class="sxs-lookup"><span data-stu-id="abad4-110">If the rule has an enabled rule action that plays a sound file, then <see cref="P:Microsoft.Office.Interop.Outlook._PlaySoundRuleAction.Enabled" /> would be <b>True</b>.</span></span></para>
+      <para><span data-ttu-id="abad4-111">Para obtener más información sobre cómo especificar acciones de regla, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Especificar acciones de regla</a></span><span class="sxs-lookup"><span data-stu-id="abad4-111">For more information on specifying rule actions, see <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Specify Rule Actions</a></span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>
