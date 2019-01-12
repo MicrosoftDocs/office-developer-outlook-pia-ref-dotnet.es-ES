@@ -1,13 +1,5 @@
 <Type Name="_OlkListBox" FullName="Microsoft.Office.Interop.Outlook._OlkListBox">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7e9053f372be4d8cf569cbaf4b62f4d812bf11d7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642613" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkListBox" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7e9053f372be4d8cf569cbaf4b62f4d812bf11d7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902764" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkListBox" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkListBox" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkListBox" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkListBox" />
@@ -56,10 +48,8 @@
         <param name="ItemText">Valor que se agrega a la lista en el control de cuadro de lista.</param>
         <param name="Index">Valor de base 0 que especifica el orden del nuevo elemento en la lista.</param>
         <summary>Agrega un elemento a la lista especificando, a título opcional, un índice para el nuevo elemento que aparece en la lista.</summary>
-        <remarks>
-          <para>Si el valor de <paramref name="Index" /> es igual o mayor que el número de elementos de la lista, el nuevo elemento se agregará al final de la lista.</para>
-          <para />
-        </remarks>
+        <remarks><para>Si el valor de <paramref name="Index" /> es igual o mayor que el número de elementos de la lista, el nuevo elemento se agregará al final de la lista.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -93,10 +83,8 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>UInteger</b> (<b>uint</b> en C#) que indica el color de fondo del control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0 x 80000005, "Ventana".</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0 x 80000005, "Ventana". </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BorderStyle">
@@ -127,10 +115,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> constante que define el estilo de borde que rodea el control.   Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olBorderStyleSingle</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olBorderStyleSingle</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Clear">
@@ -211,10 +197,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que indica si el control puede funcionar.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -240,7 +224,7 @@
         <ReturnType>stdole.StdFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <b>StdFont</b> que representa la fuente utilizada para representar el texto dentro del control.  Es de solo lectura</summary>
+        <summary>Devuelve un <b>StdFont</b> que representa la fuente utilizada para representar el texto dentro del control.  Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -276,10 +260,8 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>UInteger</b> (<b>uint</b> en C#) que indica el color de primer plano del control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0 x 80000008, "Texto de ventana".</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0 x 80000008, "Texto de ventana".  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetItem">
@@ -308,10 +290,8 @@
         <param name="Index">Valor de base 0 que especifica la ubicación de un elemento en la lista.</param>
         <summary>Obtiene una <b>cadena</b> (<b>cadena</b> en C#) que representa un elemento en la ubicación especificada en la lista.</summary>
         <returns>Un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa el elemento en la ubicación especificada en la lista.</returns>
-        <remarks>
-          <para>Si <paramref name="Index" /> está fuera del intervalo de valores permitidos (entre cero y <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), un fuera de los límites se devolverá el error.</para>
-          <para />
-        </remarks>
+        <remarks><para>Si <paramref name="Index" /> está fuera del intervalo de valores permitidos (entre cero y <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), un fuera de los límites se devolverá el error.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetSelected">
@@ -340,10 +320,8 @@
         <param name="Index">Valor de base 0 que especifica la ubicación de un elemento en la lista.</param>
         <summary>Devuelve un <b>valor Boolean</b> (<b>bool</b> en C#) que indica si el elemento indizado está actualmente seleccionado.</summary>
         <returns>Un valor Boolean (<b>bool</b> en C#) que es <b>True</b> si el elemento especificado está actualmente seleccionado y <b>False</b> en caso contrario.</returns>
-        <remarks>
-          <para>Si <paramref name="Index" /> está fuera del intervalo de valores permitidos (entre cero y <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), un fuera de los límites se devolverá el error.</para>
-          <para />
-        </remarks>
+        <remarks><para>Si <paramref name="Index" /> está fuera del intervalo de valores permitidos (entre cero y <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), un fuera de los límites se devolverá el error. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ListCount">
@@ -369,12 +347,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que especifica el número de elementos en la lista desplegable del control de cuadro de lista. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que especifica el número de elementos en la lista desplegable del control de cuadro de lista. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es cero, lo que indica que no hay ningún elemento en la lista.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es cero, que indica que no hay elementos en la lista.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ListIndex">
@@ -405,11 +381,9 @@
       <Docs>
         <summary>Devuelve o establece control un valor <b>entero</b> (<b>int</b> en C#) que indica la ubicación del elemento seleccionado actualmente en la lista del cuadro combinado. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>ListIndex</b> es un valor de base cero índice en la matriz de elementos de la lista.  El valor predeterminado es -1, que indica que no hay ningún elemento está seleccionado.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Locked">
@@ -440,11 +414,9 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si el control está bloqueado desde que se está cambiando.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>False</b>.</para>
-          <para>Cuando el control está bloqueado, el control no tiene un aspecto "deshabilitado", pero el usuario no puede editar el contenido del control.  </para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>False</b>.</para>
+          <para>Cuando el control está bloqueado, no parece que esté "deshabilitado", pero el usuario no puede modificar su contenido.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MatchEntry">
@@ -475,10 +447,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlMatchEntry" /> constante que indica cómo el control busca en su lista cuando el usuario escribe. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olMatchEntryComplete</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olMatchEntryComplete</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -509,10 +479,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>StdPicture</b> que representa la imagen personalizada en el cursor del mouse para este control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -543,10 +511,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constante que especifica el tipo de puntero mostrado cuando el usuario coloca el mouse sobre el control.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olMousePointerDefault</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olMousePointerDefault</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MultiSelect">
@@ -605,10 +571,8 @@
       <Docs>
         <param name="Index">Valor de base 0 que actúa de índice en la matriz de elementos de la lista.</param>
         <summary>Quita el elemento especificado de la lista.</summary>
-        <remarks>
-          <para>Si <paramref name="Index" /> está fuera del intervalo de valores permitidos (entre cero y <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), un fuera de los límites se devolverá el error.</para>
-          <para />
-        </remarks>
+        <remarks><para>Si <paramref name="Index" /> está fuera del intervalo de valores permitidos (entre cero y <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), un fuera de los límites se devolverá el error. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetItem">
@@ -638,10 +602,8 @@
         <param name="Index">Valor de base 0 que especifica la ubicación de un elemento en la lista.</param>
         <param name="Item">Valor que se utiliza para actualizar la lista en la ubicación especificada.</param>
         <summary>Establece el elemento en la ubicación especificada en la lista en el valor especificado.</summary>
-        <remarks>
-          <para>Si <paramref name="Index" /> está fuera del intervalo de valores permitidos (entre cero y <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), un fuera de los límites se devolverá el error.</para>
-          <para />
-        </remarks>
+        <remarks><para>Si <paramref name="Index" /> está fuera del intervalo de valores permitidos (entre cero y <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), un fuera de los límites se devolverá el error. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetSelected">
@@ -669,13 +631,10 @@
       </Parameters>
       <Docs>
         <param name="Index">Valor de base 0 que especifica la ubicación de un elemento en la lista.</param>
-        <param name="Selected">
-          <b>True</b> para indicar que el elemento debe seleccionarse, <b>False</b> para indicar que no se debe seleccionar el elemento.</param>
+        <param name="Selected"><b>True</b> para indicar que el elemento debe seleccionarse, <b>False</b> para indicar que no se debe seleccionar el elemento.</param>
         <summary>Establece el estado seleccionado de un elemento en la ubicación especificada en la lista a la determinada <paramref name="Selected" /> valor.</summary>
-        <remarks>
-          <para>Si <paramref name="Index" /> está fuera del intervalo de valores permitidos (entre cero y <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), un fuera de los límites se devolverá el error.</para>
-          <para />
-        </remarks>
+        <remarks><para>Si <paramref name="Index" /> está fuera del intervalo de valores permitidos (entre cero y <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), un fuera de los límites se devolverá el error. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Text">
@@ -706,11 +665,9 @@
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que es el texto que se muestra en el control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado de la propiedad <b>Text</b> es una cadena vacía.</para>
+        <remarks><para>El valor predeterminado de la propiedad <b>Text</b> es una cadena vacía.</para>
           <para>La propiedad <b>Text</b> proporciona el mismo valor que el <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Value" /> (propiedad), pero el valor es inflexible como una <b>cadena</b> (<b>cadena</b> en C#).</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TextAlign">
@@ -741,10 +698,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constante que especifica cómo se alinea el texto en el control.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olTextAlignLeft</b> en idiomas de izquierda a derecha como inglés.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olTextAlignLeft</b> en idiomas de izquierda a derecha como inglés.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TopIndex">
@@ -775,9 +730,9 @@
       <Docs>
         <summary>Devuelve o establece un valor <b>entero</b> (<b>int</b> en C#) que representa el índice del elemento en la parte superior de la parte mostrada de la lista. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Tal y como se desplaza la lista, se cambiará el elemento en la parte superior de la lista y se cambiará el valor de esta propiedad para reflejar el elemento actualmente mostrado en la parte superior de la lista.</para> Valor 
-          <para>el índice es de base cero. El valor predeterminado es -1, que indica que no se debe aplicar ningún orden especial.</para><para /></remarks>
+        <remarks><para>Conforme se desplaza la lista, va cambiando el elemento de la parte superior de la lista, así como el valor de esta propiedad para reflejar el elemento actualmente mostrado en la parte superior de la lista.</para>
+          <para>El valor del índice es de base cero. El valor predeterminado es -1, que indica que no debe aplicarse ningún orden especial.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -808,10 +763,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>objeto</b> que representa el contenido seleccionado en la lista mostrada en el control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor es el mismo que el valor de <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Text" />, con la salvedad de que esta propiedad es el <b>objeto</b> y <b>texto</b> tiene establecimiento inflexible como <b>cadena</b> (<b>cadena</b> en C#).</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor es el mismo que el valor de <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Text" />, con la salvedad de que esta propiedad es el <b>objeto</b> y <b>texto</b> tiene establecimiento inflexible como <b>cadena</b> (<b>cadena</b> en C#).  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

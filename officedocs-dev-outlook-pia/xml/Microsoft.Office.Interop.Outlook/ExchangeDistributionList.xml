@@ -1,13 +1,5 @@
 <Type Name="ExchangeDistributionList" FullName="Microsoft.Office.Interop.Outlook.ExchangeDistributionList">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ebf12affddd051d674e3d01da3f8d2217bd29299" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642168" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ExchangeDistributionList : Microsoft.Office.Interop.Outlook._ExchangeDistributionList" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0cea9b405f999efdca2e4e93850ef34df8cb50a9" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906404" /></Metadata><TypeSignature Language="C#" Value="public interface ExchangeDistributionList : Microsoft.Office.Interop.Outlook._ExchangeDistributionList" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ExchangeDistributionList implements class Microsoft.Office.Interop.Outlook._ExchangeDistributionList" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" />
   <TypeSignature Language="VB.NET" Value="Public Interface ExchangeDistributionList&#xA;Implements _ExchangeDistributionList" />
@@ -31,14 +23,12 @@
   </Attributes>
   <Docs>
     <summary>El objeto <b>ExchangeDistributionList</b> proporciona información detallada acerca de un <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> que representa una lista de distribución de Exchange.</summary>
-    <remarks>
-      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._ExchangeDistributionList" />.</para>
+    <remarks><para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._ExchangeDistributionList" />.</para>
       <para>
-        <b>ExchangeDistributionList</b> es una clase derivada de <b>AddressEntry</b>y se devuelve en lugar de <b>AddressEntry</b> cuando el llamador realiza una <b>QueryInterface</b> en <b>AddressEntry</b>.</para>
-      <para>AddressEntry.Members es la propiedad admite la enumeración de miembros de una lista de distribución. <b>ExchangeDistributionList</b> agrega las propiedades de primera clase de <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeDistributionList.Alias" />, <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeDistributionList.Comments" />, y <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeDistributionList.PrimarySmtpAddress" />. También puede obtener acceso a otras propiedades específicas a la lista de distribución de Exchange que no se exponen en el modelo de objetos a través de la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto.</para>
-      <para>Algunas propiedades como <b>Comments</b> son las propiedades de lectura y escritura. Establecer estas propiedades requiere que el código se está ejecutando bajo una cuenta de administrador de Exchange apropiada; sin permisos suficientes, al llamar a la <see cref="M:Microsoft.Office.Interop.Outlook._ExchangeUser.Update(System.Object,System.Object)" /> (método) se producirá un error de "permiso denegado". </para>
-      <para />
-    </remarks>
+        <b>ExchangeDistributionList</b> es una clase derivada de <b>AddressEntry</b> y se devuelve en lugar de <b>AddressEntry</b> cuando el llamador realiza una <b>QueryInterface</b> en <b>AddressEntry</b>.</para>
+      <para>La propiedad AddressEntry.Members es compatible con la enumeración de miembros de una lista de distribución. <b>ExchangeDistributionList</b> agrega las propiedades de primera clase de <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeDistributionList.Alias" />, <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeDistributionList.Comments" />, y <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeDistributionList.PrimarySmtpAddress" />. También puede obtener acceso a otras propiedades específicas a la lista de distribución de Exchange que no se exponen en el modelo de objetos a través de la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto.</para>
+      <para>Algunas propiedades, como <b>Comments</b> son propiedades de lectura y escritura. Establecer estas propiedades requiere que el código se está ejecutando bajo una cuenta de administrador de Exchange apropiada; sin permisos suficientes, al llamar a la <see cref="M:Microsoft.Office.Interop.Outlook._ExchangeUser.Update(System.Object,System.Object)" /> (método) se producirá un error de "permiso denegado". </para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

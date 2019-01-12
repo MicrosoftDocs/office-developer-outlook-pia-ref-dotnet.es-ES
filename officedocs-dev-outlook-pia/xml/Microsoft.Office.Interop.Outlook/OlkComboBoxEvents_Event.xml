@@ -1,13 +1,5 @@
 <Type Name="OlkComboBoxEvents_Event" FullName="Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3d2abb9b29c8c464f15ae99e580a708aca2dbeae" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642879" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkComboBoxEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ac506b761fd1bb015bfc986bbb95fd9a3cea4bb0" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906187" /></Metadata><TypeSignature Language="C#" Value="public interface OlkComboBoxEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkComboBoxEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkComboBoxEvents_Event" />
@@ -49,12 +41,11 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce una vez que han cambiado los datos del control a través de la interfaz de usuario.</summary>
-        <remarks>
-          <para>
-            <b>BeforeUpdate</b> y <b>AfterUpdate</b> se producen cada vez que se va a guardar los datos en el control es el elemento.  La secuencia típica de eventos que rodea a <b>AfterUpdate</b> para este control es como sigue:</para>
+        <remarks><para>
+            <b>BeforeUpdate</b> y <b>AfterUpdate</b> pueden producirse cualquier vez que se guardan los datos en el control al elemento.  La secuencia típica de eventos que rodea a <b>AfterUpdate</b> para este control es como sigue:</para>
           <list type="number">
             <item>
-              <description>usuario se centra en el control</description>
+              <description>El usuario coloca el foco en el control</description>
             </item>
             <item>
               <description>
@@ -62,7 +53,7 @@
               </description>
             </item>
             <item>
-              <description>se actualizan los datos del Control</description>
+              <description>Los datos del control se actualizan</description>
             </item>
             <item>
               <description>
@@ -71,11 +62,10 @@
             </item>
             <item>
               <description>
-                <b>Salir</b>: usuario Mueve el foco del control</description>
+                <b>Exit</b>: usuario mueve el foco del control</description>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeUpdate">
@@ -94,13 +84,12 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando los datos del control cambian a través de la interfaz de usuario y se van a guardar en el elemento.</summary>
-        <remarks>
-          <para>Al cancelar esta propiedad se restablece el control al valor actual de la propiedad y devolver el foco al control.</para>
+        <remarks><para>Al cancelar esta propiedad se restablece el control al valor actual de la propiedad y se devuelve el foco al control.</para>
           <para>
             <b>BeforeUpdate</b> y <b>AfterUpdate</b> pueden producirse cualquier vez que se guardan los datos en el control al elemento.  La secuencia típica de eventos que rodea a <b>BeforeUpdate</b> para este control es como sigue:</para>
           <list type="number">
             <item>
-              <description>usuario se centra en el control</description>
+              <description>El usuario coloca el foco en el control</description>
             </item>
             <item>
               <description>
@@ -108,7 +97,7 @@
               </description>
             </item>
             <item>
-              <description>se actualizan los datos del Control</description>
+              <description>Los datos del control se actualizan</description>
             </item>
             <item>
               <description>
@@ -117,11 +106,10 @@
             </item>
             <item>
               <description>
-                <b>Salir</b>: usuario Mueve el foco del control</description>
+                <b>Exit</b>: usuario mueve el foco del control</description>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Change">
@@ -216,10 +204,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando el control recibe el foco, inmediatamente después de evento <b>Exit</b> del control anterior.</summary>
-        <remarks>
-          <para>Esto es similar al evento <b>GotFocus</b> expuesto por los controles de código administrado o en Microsoft Visual Basic 6.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esto es similar al evento <b>GotFocus</b> expuesto por los controles de código administrado o en Microsoft Visual Basic 6.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Exit">
@@ -257,10 +243,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando un usuario presiona una tecla.</summary>
-        <remarks>
-          <para>El estado de las teclas modificadoras (MAYÚS, CTRL o ALT) que se presionan durante el evento <b>KeyDown</b> es accesible a través de la <paramref name="Shift" /> parámetro.</para>
-          <para />
-        </remarks>
+        <remarks><para>El estado de las teclas modificadoras (MAYÚS, CTRL o ALT) que se presionan durante el evento <b>KeyDown</b> es accesible a través de la <paramref name="Shift" /> parámetro.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyPress">
@@ -279,25 +263,23 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando el usuario presiona una tecla ANSI.</summary>
-        <remarks>
-          <para>Una tecla ANSI es aquel que genera un carácter escribible cuando el usuario presiona lo. El evento <b>KeyPress</b> se produce cuando el usuario presiona una tecla ANSI en un formulario que se está ejecutando mientras el formulario o un control que tiene el foco. El evento puede producirse antes o después de que se suelte la tecla.</para>
-          <para>Un evento <b>KeyPress</b> no se produce en las siguientes condiciones:</para>
+        <remarks><para>Una tecla ANSI es aquel que genera un carácter escribible cuando el usuario presiona lo. El evento <b>KeyPress</b> se produce cuando el usuario presiona una tecla ANSI en un formulario que se está ejecutando mientras el formulario o un control que tiene el foco. El evento puede producirse antes o después de que se suelte la tecla.</para>
+          <para>El evento <b>KeyPress</b> no se produce en las siguientes condiciones:</para>
           <list type="bullet">
             <item>
-              <para>Ficha presionar</para>
+              <para>Al presionar TAB</para>
             </item>
             <item>
-              <para>Presione ENTRAR</para>
+              <para>Al presionar ENTRAR</para>
             </item>
             <item>
-              <para>al presionar una tecla de flecha</para>
+              <para>Al presionar una tecla de dirección</para>
             </item>
             <item>
-              <para>cuando una pulsación de tecla hace que el foco se mueva de un control a otro.</para>
+              <para>Cuando una pulsación de tecla hace que el foco se mueva de un control a otro.</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyUp">
@@ -316,10 +298,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando el usuario suelta una tecla.</summary>
-        <remarks>
-          <para>El estado de las teclas modificadoras (MAYÚS, CTRL o ALT) que se presionan durante el evento <b>KeyUp</b> es accesible a través de la <paramref name="Shift" /> parámetro.</para>
-          <para />
-        </remarks>
+        <remarks><para>El estado de las teclas modificadoras (MAYÚS, CTRL o ALT) que se presionan durante el evento <b>KeyUp</b> es accesible a través de la <paramref name="Shift" /> parámetro.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseDown">
@@ -357,10 +337,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce una vez registrado el movimiento del mouse (ratón) por el control.</summary>
-        <remarks>
-          <para>Al presionar la tecla ALT desencadena el evento <b>MouseMove</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Al presionar la tecla ALT desencadena el evento <b>MouseMove</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseUp">

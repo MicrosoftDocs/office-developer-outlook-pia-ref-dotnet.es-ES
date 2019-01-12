@@ -1,13 +1,5 @@
 <Type Name="ItemProperty" FullName="Microsoft.Office.Interop.Outlook.ItemProperty">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8b9cd8e1046b3e3fb1b3f1e72a9158303acba7bb" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642981" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ItemProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="867107e667467cf1af12c042db1fe1725a1f331e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905613" /></Metadata><TypeSignature Language="C#" Value="public interface ItemProperty" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ItemProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemProperty" />
   <TypeSignature Language="VB.NET" Value="Public Interface ItemProperty" />
@@ -27,11 +19,9 @@
   </Attributes>
   <Docs>
     <summary>Representa información sobre una propiedad de elemento determinada para un objeto de un elemento de Microsoft Outlook.</summary>
-    <remarks>
-      <para>Cada propiedad de elemento define un atributo concreto del elemento, como el nombre, el tipo o el valor del elemento. El objeto <b>ItemProperty</b> es un miembro de la <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> colección.</para>
+    <remarks><para> Cada propiedad de elemento define un atributo concreto del elemento, como el nombre, tipo o valor del elemento. El objeto <b>ItemProperty</b> es un miembro de la <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> colección.</para>
       <para>Utilice <b>ItemProperties.Item</b>(<paramref name="index" />), donde <paramref name="index" /> es la posición del objeto numérico dentro de la colección o con nombre para devolver un solo objeto <b>ItemProperty</b> .</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -57,7 +47,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -85,7 +75,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -178,7 +168,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>booleano</b> (<b>bool</b> en C#) que indica si la propiedad item es una propiedad personalizada creada por el usuario. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>booleano</b> (<b>bool</b> en C#) que indica si la propiedad item es una propiedad personalizada creada por el usuario. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -206,7 +196,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre para mostrar para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre para mostrar para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -262,18 +252,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -299,7 +287,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlUserPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> constante que indica el tipo del objeto especificado. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> constante que indica el tipo del objeto especificado. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -406,10 +394,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>objeto</b> que indica el valor de la propiedad integrada explícita o personalizado especificado. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Aunque <b>ItemProperty.Value</b> permite obtener o establecer una propiedad integrada explícita o una propiedad personalizada, puede hacer referencia a las propiedades integradas explícitas directamente desde el objeto primario, por ejemplo, ContactItem.Body. Para obtener más información acerca del acceso a las propiedades en Outlook, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87861">Introducción a las propiedades</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Aunque <b>ItemProperty.Value</b> permite obtener o establecer una propiedad integrada explícita o una propiedad personalizada, puede hacer referencia a las propiedades integradas explícitas directamente desde el objeto primario, por ejemplo, ContactItem.Body. Para obtener más información acerca del acceso a las propiedades en Outlook, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87861">Introducción a las propiedades</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

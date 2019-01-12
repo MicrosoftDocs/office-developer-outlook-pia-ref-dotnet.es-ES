@@ -1,13 +1,5 @@
 <Type Name="_OlkFrameHeader" FullName="Microsoft.Office.Interop.Outlook._OlkFrameHeader">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="80ea7261ca8c917e5107fde1b844bf7e7b71d2e4" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642129" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkFrameHeader" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="80ea7261ca8c917e5107fde1b844bf7e7b71d2e4" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904045" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkFrameHeader" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkFrameHeader" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkFrameHeader" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkFrameHeader" />
@@ -58,10 +50,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlAlignment" /> constante que indica la posición de un control en relación con su título.    Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olAlignmentLeft</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olAlignmentLeft</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Caption">
@@ -92,10 +82,8 @@
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que aparece en un objeto para identificarlo o describirlo.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es una cadena vacía. El Diseñador de formularios establece esta propiedad en el nombre del control de forma predeterminada.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es una cadena vacía. El diseñador de formularios establece esta propiedad en el nombre predeterminado del control.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -126,11 +114,9 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que indica si el control puede funcionar.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>False</b>.</para>
+        <remarks><para>El valor predeterminado es <b>False</b>.</para>
           <para>Cuando el control está deshabilitado, el contenido del control aparece atenuado.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -156,7 +142,7 @@
         <ReturnType>stdole.StdFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <b>StdFont</b> que representa la fuente utilizada para representar el texto dentro del control.  Es de solo lectura</summary>
+        <summary>Devuelve un <b>StdFont</b> que representa la fuente utilizada para representar el texto dentro del control.  Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -192,11 +178,9 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>UInteger</b> (<b>uint</b> en C#) que indica el color de primer plano del control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0 x 80000008, "Texto de ventana".  </para>
-          <para>El control de encabezado de marco tiene sólo el color de primer plano y el color de fondo no.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0 x 80000008, "Texto de ventana".  </para>
+          <para>El control de encabezado del marco sólo tiene color de primer plano, pero no color de fondo.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -227,10 +211,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>StdPicture</b> que representa la imagen personalizada en el cursor del mouse para este control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -261,10 +243,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constante que especifica el tipo de puntero mostrado cuando el usuario coloca el mouse sobre el control.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olMousePointerDefault</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olMousePointerDefault</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="_OlkTextBox" FullName="Microsoft.Office.Interop.Outlook._OlkTextBox">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ea16e71e0adb9193ceb69aaf07bb2a77be1fda2b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20641968" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkTextBox" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ea16e71e0adb9193ceb69aaf07bb2a77be1fda2b" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903079" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkTextBox" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkTextBox" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkTextBox" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkTextBox" />
@@ -58,12 +50,10 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que cambia automáticamente el tamaño del control para mostrar todo el contenido.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado de esta propiedad es <b>False</b>.</para>
-          <para>Para un cuadro de texto de una línea, al establecer <b>AutoSize</b> en <b>True</b> automáticamente establece el ancho del área de visualización a la longitud del texto en el cuadro de texto.</para>
-          <para>Para un cuadro de texto de varias líneas que no contiene texto, al establecer <b>AutoSize</b> en <b>True</b> automáticamente muestra el texto como una columna. Se establece el ancho de la columna de texto para dar cabida a la letra más ancha de ese tamaño de fuente. Se establece el alto de la columna de texto para mostrar todo el texto del cuadro de texto. Para un cuadro de texto de varias líneas que contiene texto, al establecer <b>AutoSize</b> en <b>True</b> automáticamente extiende verticalmente para mostrar todo el texto en el cuadro de texto. El ancho del cuadro de texto no cambia.</para>
-          <para />
-        </remarks>
+        <remarks><para>  El valor predeterminado de esta propiedad es <b>False</b>.</para>
+          <para>En un cuadro de texto de línea única, si establece <b>AutoSize</b> en <b>True</b>, se establece automáticamente el ancho del área de visualización en la longitud del texto en el cuadro de texto.</para>
+          <para>Para un cuadro de texto de varias líneas que no contiene texto, al establecer <b>AutoSize</b> en <b>True</b> automáticamente muestra el texto como una columna. Se establece el ancho de la columna de texto para dar cabida a la letra más ancha de ese tamaño de fuente. Se establece el alto de la columna de texto para mostrar todo el texto del cuadro de texto. Para un cuadro de texto de varias líneas que contiene texto, al establecer <b>AutoSize</b> en <b>True</b> automáticamente extiende el cuadro de texto verticalmente para mostrar el texto completo. No cambia el ancho del cuadro de texto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoTab">
@@ -94,10 +84,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si se inserta una ficha automáticamente cuando el control se ha rellenado hasta la longitud máxima especificada. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado de esta propiedad es <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>  El valor predeterminado de esta propiedad es <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoWordSelect">
@@ -128,10 +116,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si una palabra o un carácter es la unidad básica utilizada para extender una selección.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -165,10 +151,8 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>UInteger</b> (<b>uint</b> en C#) que indica el color de fondo del control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0 x 80000005, "Ventana".</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0 x 80000005, "Ventana". </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BorderStyle">
@@ -199,10 +183,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> constante que define el estilo de borde que rodea el control.   Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olBorderStyleSingle</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olBorderStyleSingle</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Clear">
@@ -252,10 +234,8 @@
       <Parameters />
       <Docs>
         <summary>Copia el contenido del control en el Portapapeles.</summary>
-        <remarks>
-          <para>Los datos se copian en texto sin formato y reemplazan el contenido existente del Portapapeles.</para>
-          <para />
-        </remarks>
+        <remarks><para>Los datos se copian como texto sin formato y reemplazan el contenido existente en el Portapapeles.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Cut">
@@ -280,10 +260,8 @@
       <Parameters />
       <Docs>
         <summary>Quita el contenido del control y lo copia en el Portapapeles.</summary>
-        <remarks>
-          <para>Los datos se copian en el Portapapeles en texto sin formato y reemplazan el contenido existente del Portapapeles.</para>
-          <para />
-        </remarks>
+        <remarks><para>Los datos se copian en el Portapapeles como texto sin formato y reemplazan el contenido existente en el Portapapeles.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DragBehavior">
@@ -314,10 +292,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlDragBehavior" /> constante que indica si el sistema habilita la característica de arrastrar y colocar para este control.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olDragDropDisabled</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olDragDropDisabled</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -348,10 +324,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que indica si el control puede funcionar.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EnableRichText">
@@ -419,10 +393,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" /> constante que especifica el comportamiento de selección al entrar en el control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olEnterFieldBehaviorSelectAll</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olEnterFieldBehaviorSelectAll</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EnterKeyBehavior">
@@ -453,10 +425,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que define el comportamiento de la tecla ENTRAR en el control.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Cuando esta propiedad es <b>True</b>, al presionar ENTRAR crea una nueva línea.  Cuando esta propiedad es <b>False</b>, al presionar ENTRAR mueve el foco al siguiente control en el orden de tabulación. El valor predeterminado de esta propiedad es <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Cuando esta propiedad es <b>True</b>, al presionar ENTRAR crea una nueva línea.  Cuando esta propiedad es <b>False</b>, al presionar ENTRAR mueve el foco al siguiente control en el orden de tabulación. El valor predeterminado de esta propiedad es <b>False</b>. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -482,7 +452,7 @@
         <ReturnType>stdole.StdFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <b>StdFont</b> que representa la fuente utilizada para representar el texto dentro del control.  Es de solo lectura</summary>
+        <summary>Devuelve un <b>StdFont</b> que representa la fuente utilizada para representar el texto dentro del control.  Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -518,10 +488,8 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>UInteger</b> (<b>uint</b> en C#) que indica el color de primer plano del control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0 x 80000008, "Texto de ventana".</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0 x 80000008, "Texto de ventana".  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HideSelection">
@@ -552,10 +520,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si una selección se muestra o se oculta para el control cuando el control pierde el foco.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado de esta propiedad es <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado de esta propiedad es <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IntegralHeight">
@@ -586,10 +552,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si este control muestra líneas completas de texto. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Si esta propiedad es <b>True</b>, el control muestra líneas completas de texto; en caso contrario, muestra líneas parciales.  El valor predeterminado es <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Si esta propiedad es <b>True</b>, el control muestra líneas completas de texto; en caso contrario, muestra líneas parciales.  El valor predeterminado es <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Locked">
@@ -620,11 +584,9 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si el control está bloqueado desde que se está cambiando.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>False</b>.</para>
-          <para>Cuando el control está bloqueado, el control no tiene un aspecto "deshabilitado", pero el usuario no puede editar el contenido del control.  </para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>False</b>.</para>
+          <para>Cuando el control está bloqueado, no parece que esté "deshabilitado", pero el usuario no puede modificar su contenido.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MaxLength">
@@ -655,10 +617,8 @@
       <Docs>
         <summary>Devuelve o establece un valor <b>entero</b> (<b>int</b> en C#) que especifica el número máximo de caracteres para el <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" /> de este control.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es cero, lo que significa que no se ha definido ninguna longitud máxima para el valor sólo para este control. Una longitud máxima puede estar todavía en funcionamiento en función de la memoria disponible u otros factores.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es cero, lo que indica simplemente que no se ha definido ninguna longitud máxima para el valor de este control. Sin embargo, es posible que exista una longitud máxima impuesta por la memoria disponible u otros factores.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -689,10 +649,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>StdPicture</b> que representan la imagen personalizada en el cursor del mouse para este control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -723,10 +681,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constante que especifica el tipo de puntero mostrado cuando el usuario coloca el mouse sobre el control.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olMousePointerDefault</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olMousePointerDefault</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MultiLine">
@@ -757,10 +713,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si un control puede aceptar y mostrar varias líneas de texto.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PasswordChar">
@@ -791,9 +745,9 @@
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que especifica un carácter de marcador de posición que se muestra repetidas veces como una cadena en lugar de los caracteres reales especificados en el cuadro de texto.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A las aplicaciones comunes de establecer esta propiedad en <b>True</b> es la entrada de contraseña, donde podría no desea mostrar los caracteres reales de la contraseña que el usuario escribe en el cuadro de texto. El valor predeterminado es una cadena vacía.</para> Se acepta 
-          <para>sólo un carácter para el valor de esta propiedad.  Si se establece una cadena de más de un carácter, sólo el primer carácter que se usará como el carácter de marcador de posición y el resto se omitirá.</para><para /></remarks>
+        <remarks><para>Una aplicación común de establecer esta propiedad en <b>True</b> es la entrada de contraseña, donde podría no desea mostrar los caracteres reales de la contraseña que el usuario escribe en el cuadro de texto. El valor predeterminado es una cadena vacía.</para>
+          <para>Se acepta un solo carácter para el valor de esta propiedad.  Si se establece una cadena de más de un carácter, sólo el primer carácter que se utilizará como el carácter de marcador de posición y el resto se omitirá.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Paste">
@@ -818,10 +772,8 @@
       <Parameters />
       <Docs>
         <summary>Pega el contenido del Portapapeles en el control.</summary>
-        <remarks>
-          <para>El contenido del Portapapeles se pega como texto.</para>
-          <para />
-        </remarks>
+        <remarks><para>El contenido del Portapapeles se pega como texto sin formato.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Scrollbars">
@@ -852,10 +804,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlScrollBars" /> constante que especifica si el control tiene una barra de desplazamiento vertical, barra de desplazamiento horizontal o ambos.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olScrollBarsNone</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olScrollBarsNone</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectionMargin">
@@ -886,10 +836,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si el usuario puede seleccionar una línea de texto haciendo clic en la región a la izquierda del texto.   Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Si <b>es True</b>, al hacer clic en el margen hace que la selección de texto.  Si <b>es False</b>, esta acción no selecciona ningún texto. El valor predeterminado es <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Si <b>es True</b>, al hacer clic en el margen hace que la selección de texto.  Si <b>False</b>, esta acción no selecciona ningún texto. El valor predeterminado es <b>False</b>.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelLength">
@@ -920,13 +868,11 @@
       <Docs>
         <summary>Devuelve o establece un valor <b>entero</b> (<b>int</b> en C#) que especifica el número de caracteres de la selección actual.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La selección actual es especificada por <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.SelText" />, que es una parte del control <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" />. El número máximo de caracteres que puede admitirse para el <b>valor</b> es <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.MaxLength" />.</para>
+        <remarks><para>La selección actual es especificada por <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.SelText" />, que es una parte del control <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" />. El número máximo de caracteres que puede admitirse para el <b>valor</b> es <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.MaxLength" />.</para>
           <para>El valor predeterminado es cero, lo que significa que no hay ningún texto seleccionado actualmente.</para>
-          <para>La propiedad <b>SelLength</b> siempre es válida, incluso cuando el control no tiene foco.</para>
-          <para>Configuración <b>SelLength</b> a un valor menor que cero se produce un error.   Si se intenta establecer el valor en uno mayor que <b>MaxLength</b> , <b>SelLength</b> en <b>MaxLength</b>.  </para>
-          <para />
-        </remarks>
+          <para>La propiedad <b>SelLength</b> siempre es válida, incluso cuando el control no tiene el foco.</para>
+          <para>Si se establece <b>SelLength</b> en un valor menor que cero, se produce un error.   Si se intenta establecer el valor en uno mayor que <b>MaxLength</b>, <b>SelLength</b> en <b>MaxLength</b>.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelStart">
@@ -957,10 +903,10 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>número entero</b> (<b>int</b> en C#) que especifica el punto inicial del texto seleccionado o el punto de inserción si no se ha seleccionado ningún texto.    Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La selección actual es especificada por <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.SelText" />, que es una parte del control <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" />. El número máximo de caracteres que puede admitirse para el <b>valor</b> es <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.MaxLength" />.</para>
-          <para>El valor predeterminado es cero, lo que significa que no hay ningún texto seleccionado y el punto de inserción está al principio.</para> Propiedad 
-          <para>el <b>SelStart</b> siempre es válida, incluso cuando el control no tiene el foco.  Al establecer <b>SelStart</b> en un valor menor que cero, se produce un error.  Al establecer <b>SelStart</b> en un valor mayor que <b>MaxLength</b> , <b>SelStart</b> se restablece en <b>MaxLength</b>.  Al cambiar el valor de <b>SelStart,</b> cancela la selección existente, sitúa el punto de inserción en el texto y establece la propiedad <b>SelLength</b> a cero. </para><para /></remarks>
+        <remarks><para>La selección actual es especificada por <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.SelText" />, que es una parte del control <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" />. El número máximo de caracteres que puede admitirse para el <b>valor</b> es <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.MaxLength" />.</para>
+          <para>El valor predeterminado es cero, lo que significa que no hay ningún texto seleccionado y que el punto de inserción está al principio.</para>
+          <para>La propiedad <b>SelStart</b> siempre es válida, incluso cuando el control no tiene el foco.  Al establecer <b>SelStart</b> en un valor menor que cero, se produce un error.  Al establecer <b>SelStart</b> en un valor mayor que <b>MaxLength</b>, <b>SelStart</b> se restablece en <b>MaxLength</b>.  Cambiar el valor de <b>SelStart,</b> cancela la selección existente, sitúa el punto de inserción en el texto y establece la propiedad <b>SelLength</b> a cero. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelText">
@@ -986,14 +932,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa la parte actualmente seleccionada del valor del cuadro de texto.    Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa la parte actualmente seleccionada del valor del cuadro de texto.    Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>SelText</b> representa la selección actual, que es una parte del control <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" />. El número máximo de caracteres que puede admitirse para el <b>valor</b> es <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.MaxLength" />.</para>
           <para>El valor predeterminado es una cadena vacía.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TabKeyBehavior">
@@ -1024,11 +968,9 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica cómo responde el control a la tecla TAB.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Si esta propiedad es <b>True</b>, al presionar TAB inserta un carácter de tabulación en el cuadro de texto.  Si esta propiedad es <b>False</b>, el enfoque se desplaza al siguiente control del orden de tabulación.</para>
+        <remarks><para>Si esta propiedad es <b>True</b>, al presionar TAB inserta un carácter de tabulación en el cuadro de texto.  Si esta propiedad es <b>False</b>, el enfoque se desplaza al siguiente control del orden de tabulación.</para>
           <para>El valor predeterminado es <b>False</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Text">
@@ -1059,11 +1001,9 @@
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que es el texto que se muestra en el control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado de la propiedad <b>Text</b> es una cadena vacía.</para>
+        <remarks><para>El valor predeterminado de la propiedad <b>Text</b> es una cadena vacía.</para>
           <para>La propiedad <b>Text</b> proporciona el mismo valor que el <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Value" /> (propiedad), pero el valor es inflexible como una <b>cadena</b> (<b>cadena</b> en C#).</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TextAlign">
@@ -1094,10 +1034,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constante que especifica cómo se alinea el texto en el control.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olTextAlignLeft</b> en idiomas de izquierda a derecha como inglés.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olTextAlignLeft</b> en idiomas de izquierda a derecha como inglés.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -1128,10 +1066,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>objeto</b> que representa el contenido del control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor es el mismo que el valor de <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Text" />, con la salvedad de que esta propiedad es el <b>objeto</b> y <b>texto</b> tiene establecimiento inflexible como <b>cadena</b> (<b>cadena</b> en C#).</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor es el mismo que el valor de <see cref="P:Microsoft.Office.Interop.Outlook._OlkTextBox.Text" />, con la salvedad de que esta propiedad es el <b>objeto</b> y <b>texto</b> tiene establecimiento inflexible como <b>cadena</b> (<b>cadena</b> en C#).  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="WordWrap">
@@ -1162,10 +1098,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si el contenido de un control se ajusta automáticamente al final de una línea.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

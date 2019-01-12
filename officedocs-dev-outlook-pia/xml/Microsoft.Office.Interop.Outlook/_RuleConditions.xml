@@ -1,13 +1,5 @@
 <Type Name="_RuleConditions" FullName="Microsoft.Office.Interop.Outlook._RuleConditions">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ee9e9cd5e60909dd8c8b2a0698b75286f18e83ac" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642949" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _RuleConditions : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ee9e9cd5e60909dd8c8b2a0698b75286f18e83ac" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905466" /></Metadata><TypeSignature Language="C#" Value="public interface _RuleConditions : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _RuleConditions implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._RuleConditions" />
   <TypeSignature Language="VB.NET" Value="Public Interface _RuleConditions&#xA;Implements IEnumerable" />
@@ -57,13 +49,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AccountRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.AccountRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.ConditionType" /><b>olConditionAccount</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.AccountRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.ConditionType" /> <b>olConditionAccount</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Usar el objeto <b>AccountRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que un mensaje se envía o recibe a través de la cuenta especificada. </para>
+        <remarks><para>Usar el objeto <b>AccountRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que un mensaje se envía o recibe a través de la cuenta especificada. </para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>AccountRuleCondition</b> independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AnyCategory">
@@ -89,13 +79,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionAnyCategory</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionAnyCategory</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Utilice el objeto <b>RuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una regla que especifique la condición o la condición de excepción de que el mensaje se asigna a cualquier categoría.  </para>
+        <remarks><para>Utilice el objeto <b>RuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una regla que especifique la condición o la condición de excepción de que el mensaje se asigna a cualquier categoría.</para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> colección siempre devuelve un objeto <b>RuleCondition</b> , independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> será <b>True</b>.  </para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -121,7 +109,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -149,13 +137,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.TextRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /><b>olConditionBody</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> <b>olConditionBody</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Utilice el objeto <b>TextRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que se encuentra determinado texto en el cuerpo del mensaje. </para>
+        <remarks><para>Utilice el objeto <b>TextRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que se encuentra determinado texto en el cuerpo del mensaje. </para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>TextRuleCondition</b> , independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BodyOrSubject">
@@ -181,13 +167,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.TextRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /><b>olConditionBodyOrSubject</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> <b>olConditionBodyOrSubject</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Usar el objeto <b>TextRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que se encuentra determinado texto en el cuerpo del mensaje o el asunto . </para>
+        <remarks><para>Usar el objeto <b>TextRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que se encuentra determinado texto en el cuerpo del mensaje o el asunto . </para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>TextRuleCondition</b> , independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Category">
@@ -213,13 +197,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.CategoryRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.CategoryRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.ConditionType" /><b>olConditionCategory</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.CategoryRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.ConditionType" /> <b>olConditionCategory</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Usar el objeto <b>CategoryRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando se crea una nueva regla que especifique la condición o la condición de excepción de que el mensaje se asigna específico categorías. </para>
+        <remarks><para>Usar el objeto <b>CategoryRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando se crea una nueva regla que especifique la condición o la condición de excepción de que el mensaje se asigna específico categorías. </para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>CategoryRuleCondition</b> independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CC">
@@ -245,13 +227,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionCc</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionCc</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Usar el objeto <b>RuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que su nombre se encuentra en el cuadro Cc.</para>
+        <remarks><para>Utilice el objeto <b>RuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que su nombre se encuentra en el cuadro Cc.</para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> colección siempre devuelve un objeto <b>RuleCondition</b> , independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -277,7 +257,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -305,12 +285,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Puede enumerar la <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> colección desde 1 hasta <b>RuleConditions.Count</b> para determinar todas las condiciones de regla para una regla existente. Aunque el modelo de objetos de reglas admite crear reglas con sólo el máximo con frecuencia usan las condiciones de regla y no todas las condiciones de regla admitidas por las reglas y el Asistente para alertas, la colección <b>RuleConditions</b> incluye todas las condiciones de regla de una regla. Por lo tanto, siempre puede enumerar el objeto de colección <b>RuleConditions</b> para determinar las condiciones de regla que están habilitadas para una regla existente.</para>
-          <para />
-        </remarks>
+        <remarks><para>Puede enumerar la <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> colección desde 1 hasta <b>RuleConditions.Count</b> para determinar todas las condiciones de regla para una regla existente. Aunque los modelo de objetos de reglas admite la creación de reglas con sólo el máximo con frecuencia utilizan las condiciones de regla y no todas las condiciones de regla admitidas por las reglas y el Asistente de alertas, la colección <b>RuleConditions</b> incluye todas las condiciones de regla de una regla. Por lo tanto, siempre puede enumerar el objeto de colección <b>RuleConditions</b> para determinar las condiciones de regla que están habilitadas para una regla existente.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FormName">
@@ -336,13 +314,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.FormNameRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.FormNameRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.ConditionType" /><b>olConditionFormName</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.FormNameRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.ConditionType" /> <b>olConditionFormName</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Usar el objeto <b>FormNameRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que el mensaje usa el formulario especificado.</para>
+        <remarks><para>Utilice el objeto <b>FormNameRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que el mensaje usa el formulario especificado.</para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> colección siempre devuelve un objeto <b>FormNameRuleCondition</b> , independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="From">
@@ -368,13 +344,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" /><b>olConditionFrom</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" /> <b>olConditionFrom</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Usar el objeto <b>ToOrFromRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifica la condición o la condición de excepción de que el remitente del mensaje se encuentra en el  lista especificada de <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />.</para>
+        <remarks><para>Usar el objeto <b>ToOrFromRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifica la condición o la condición de excepción de que el remitente del mensaje se encuentra en el  lista especificada de <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />.</para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> colección siempre devuelve un objeto <b>ToOrFromRuleCondition</b> independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FromAnyRSSFeed">
@@ -400,13 +374,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionFromAnyRssFeed</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionFromAnyRssFeed</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Usar el objeto <b>RuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una regla que especifique la condición o la condición de excepción de que el mensaje procede de una suscripción RSS.</para>
+        <remarks><para>Utilice el objeto <b>RuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una regla que especifique la condición o la condición de excepción de que el mensaje procede de una suscripción RSS.</para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> colección siempre devuelve un objeto <b>RuleCondition</b> , independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> será <b>True</b>.  </para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FromRssFeed">
@@ -432,13 +404,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.FromRssFeedRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.FromRssFeedRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._FromRssFeedRuleCondition.ConditionType" /> de <b>olConditionFromRssFeed</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.FromRssFeedRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._FromRssFeedRuleCondition.ConditionType" /> de <b>olConditionFromRssFeed</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Puede utilizar el objeto <b>FromRSSFeedRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifica la condición o la condición de excepción de que el mensaje procede de un RSS específica suscripción.</para>
+        <remarks><para>Utilice el objeto <b>FromRSSFeedRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que el mensaje procede de una suscripción RSS específica.</para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> colección siempre devuelve un objeto <b>FromRSSFeedRuleCondition</b> independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._FromRssFeedRuleCondition.Enabled" /> será <b>True</b>.  </para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HasAttachment">
@@ -464,13 +434,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionHasAttachment</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionHasAttachment</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Usar el objeto <b>RuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que el mensaje tiene datos adjuntos.</para>
+        <remarks><para>Utilice el objeto <b>RuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que el mensaje tiene datos adjuntos.</para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> colección siempre devuelve un objeto <b>RuleCondition</b> , independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Importance">
@@ -496,13 +464,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ImportanceRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.ImportanceRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._ImportanceRuleCondition.ConditionType" /><b>olConditionImportance</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.ImportanceRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._ImportanceRuleCondition.ConditionType" /> <b>olConditionImportance</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Usar el objeto <b>ImportanceRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que el mensaje es el nivel especificado de importancia.</para>
+        <remarks><para>Usar el objeto <b>ImportanceRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que el mensaje es el nivel especificado de importancia.</para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> colección siempre devuelve un objeto <b>ImportanceRuleCondition</b> , independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._ImportanceRuleCondition.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -534,10 +500,8 @@
         <param name="Index">Valor numérico de base 1 que refleja la posición ordinal de una condición de regla dentro de la colección <b>RuleConditions</b> . Por ejemplo, el valor de índice de la primera condición de regla de la colección es 1, y el valor de índice de la segunda condición de regla es 2.</param>
         <summary>Obtiene un <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> objeto especificado por <paramref name="Index" /> que es un índice numérico en la <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> colección.</summary>
         <value>Un objeto <b>RuleCondition</b> que representa el objeto especificado.</value>
-        <remarks>
-          <para>El objeto de colección <b>RuleConditions</b> es una colección fija. Contiene objetos <b>RuleCondition</b> u objetos derivados de <b>RuleCondition</b>. No se puede agregar o quitar elementos de esta colección, pero puede indizar en la colección para enumerar los elementos de condición de regla y establecer el <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> (propiedad) de la condición de regla. Cuando se usa el <b>elemento</b> para enumerar la colección, puede enumerar <paramref name="Index" /> de 1 a <see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.Count" />.</para>
-          <para />
-        </remarks>
+        <remarks><para>El objeto de colección <b>RuleConditions</b> es una colección fija. Contiene objetos <b>RuleCondition</b> u objetos derivados de <b>RuleCondition</b>. No se puede agregar o quitar elementos de esta colección, pero puede indizar en la colección para enumerar los elementos de condición de regla y establecer el <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> (propiedad) de la condición de regla. Cuando se usa el <b>elemento</b> para enumerar la colección, puede enumerar <paramref name="Index" /> de 1 a <see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.Count" />.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MeetingInviteOrUpdate">
@@ -563,13 +527,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionMeetingInviteOrUpdate</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionMeetingInviteOrUpdate</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Usar el objeto <b>RuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifica la condición o la condición de excepción de que el mensaje es una convocatoria de reunión o una reunión actualizar.</para>
+        <remarks><para>Usar el objeto <b>RuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifica la condición o la condición de excepción de que el mensaje es una convocatoria de reunión o una reunión actualizar.</para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> colección siempre devuelve un objeto <b>RuleCondition</b> , independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MessageHeader">
@@ -595,13 +557,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.TextRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /><b>olConditionMessageHeader</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> <b>olConditionMessageHeader</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Usar el objeto <b>TextRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que el encabezado del mensaje contiene el texto especificado texto.</para>
+        <remarks><para>Usar el objeto <b>TextRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que el encabezado del mensaje contiene el texto especificado texto.</para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>TextRuleCondition</b> , independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NotTo">
@@ -627,13 +587,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionNotTo</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionNotTo</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Usar el objeto <b>RuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que su nombre no está en el cuadro para.</para>
+        <remarks><para>Utilice el objeto <b>RuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que su nombre no está en el cuadro para.</para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> colección siempre devuelve un objeto <b>RuleCondition</b> , independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OnLocalMachine">
@@ -659,13 +617,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> de <b>olConditionLocalMachineOnly</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> de <b>olConditionLocalMachineOnly</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Utilice el objeto <b>RuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que puede ejecutar la regla sólo en esta máquina. Cuando se ejecute la misma regla en otro equipo, la regla indicará que está habilitada la condición <b>olConditionOtherMachine</b> .</para>
-          <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> colección siempre devuelve un objeto <b>RuleCondition</b> , independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Puede habilitar mediante programación una condición de regla de este tipo. En determinados casos, <b>olConditionLocalMachine</b> se establece automáticamente como consecuencia de habilitación de la otra condición de regla, como <b>olConditionAccount</b>. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Utilice el objeto <b>RuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que puede ejecutar la regla sólo en esta máquina. Cuando se ejecute la misma regla en otro equipo, la regla indicará que la condición <b>olConditionOtherMachine</b> está habilitada.</para>
+          <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> colección siempre devuelve un objeto <b>RuleCondition</b> , independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Puede habilitar mediante programación una condición de regla de este tipo. En algunos casos, <b>olConditionLocalMachine</b> se establece automáticamente como resultado de la habilitación de otra condición de regla, como <b>olConditionAccount</b>. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> será <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OnlyToMe">
@@ -691,13 +647,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionOnlyToMe</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionOnlyToMe</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Usar el objeto <b>RuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifica la condición o la condición de excepción de que el mensaje se envía sólo a usted.</para>
+        <remarks><para>Utilice el objeto <b>RuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifica la condición o la condición de excepción de que el mensaje se envía sólo a usted.</para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> colección siempre devuelve un objeto <b>RuleCondition</b> , independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OnOtherMachine">
@@ -723,14 +677,12 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> de <b>olConditionOtherMachine</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> de <b>olConditionOtherMachine</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Utilice el objeto <b>RuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente. Esta condición de regla indica que la regla puede ejecutarse sólo en un equipo distinto del equipo local.</para>
+        <remarks><para>Utilice el objeto <b>RuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente. Esta condición de regla indica que la regla puede ejecutarse sólo en un equipo distinto del equipo local.</para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> colección siempre devuelve un objeto <b>RuleCondition</b> , independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla.</para>
-          <para>Mediante programación no se puede habilitar o deshabilitar una condición de tipo <b>olConditionOtherMachine</b>. Este tipo de condición de regla indica que la regla puede ejecutarse sólo en un equipo específico que no es el actual. Esto sucede cuando se crea la regla en que equipo y la condición de regla <b>olConditionLocalMachineOnly</b> está habilitada, que indica que la regla puede ejecutar solo en dicho equipo. Cuando se ejecute la misma regla en otro equipo, la regla indicará que está habilitada la condición <b>olConditionOtherMachine</b> .</para>
-          <para />
-        </remarks>
+          <para>Mediante programación, no se puede habilitar o deshabilitar una condición de tipo <b>olConditionOtherMachine</b>. Este tipo de condición de regla indica que la regla puede ejecutarse sólo en un equipo específico que no es el actual. Esto sucede cuando se crea la regla en que equipo y la condición de regla <b>olConditionLocalMachineOnly</b> está habilitada, que indica que la regla puede ejecutar solo en dicho equipo. Cuando se ejecute la misma regla en otro equipo, la regla indicará que la condición <b>olConditionOtherMachine</b> está habilitada.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -758,10 +710,8 @@
       <Docs>
         <summary>Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El elemento principal de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> objeto es el <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>El elemento principal de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> objeto es el <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RecipientAddress">
@@ -787,13 +737,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AddressRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.ConditionType" /><b>olConditionRecipientAddress</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.ConditionType" /> <b>olConditionRecipientAddress</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Usar el objeto <b>AddressRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifica la condición o la condición de excepción de que la dirección del destinatario contienen la texto especificado. </para>
+        <remarks><para>Usar el objeto <b>AddressRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifica la condición o la condición de excepción de que la dirección del destinatario contienen la texto especificado. </para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>AddressRuleCondition</b> independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SenderAddress">
@@ -819,13 +767,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AddressRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.ConditionType" /><b>olConditionSenderAddress</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.ConditionType" /> <b>olConditionSenderAddress</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Usar el objeto <b>AddressRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que la dirección del remitente contiene el texto especificado. </para>
+        <remarks><para>Usar el objeto <b>AddressRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que la dirección del remitente contiene el texto especificado. </para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>AddressRuleCondition</b> independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SenderInAddressList">
@@ -851,13 +797,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.SenderInAddressListRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.SenderInAddressListRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._SenderInAddressListRuleCondition.ConditionType" /><b>olConditionAccount</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.SenderInAddressListRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._SenderInAddressListRuleCondition.ConditionType" /> <b>olConditionAccount</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Usar el objeto <b>SenderInAddressListRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifica la condición o la condición de excepción de que el remitente está en una especificado lista de direcciones.</para>
+        <remarks><para>Usar el objeto <b>SenderInAddressListRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifica la condición o la condición de excepción de que el remitente está en una especificado lista de direcciones.</para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>SenderInAddressListRuleCondition</b> independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._SenderInAddressListRuleCondition.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SentTo">
@@ -883,13 +827,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" /><b>olConditionSentTo</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" /> <b>olConditionSentTo</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Usar el objeto <b>ToOrFromRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o excepción condición que los destinatarios (en para y Cc texto cuadros) del mensaje se encuentran en la lista especificada de <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />.</para>
+        <remarks><para>Usar el objeto <b>ToOrFromRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o excepción condición que los destinatarios (en para y Cc texto cuadros) del mensaje se encuentran en la lista especificada de <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />.</para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> colección siempre devuelve un objeto <b>ToOrFromRuleCondition</b> independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -915,18 +857,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Subject">
@@ -952,13 +892,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.TextRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /><b>olConditionSubject</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> <b>olConditionSubject</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Usar el objeto <b>TextRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que el asunto del mensaje contiene el texto especificado texto.</para>
+        <remarks><para>Usar el objeto <b>TextRuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que el asunto del mensaje contiene el texto especificado texto.</para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>TextRuleCondition</b> , independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ToMe">
@@ -984,13 +922,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionTo</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionTo</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Usar el objeto <b>RuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que su nombre se encuentra en el cuadro para.</para>
+        <remarks><para>Utilice el objeto <b>RuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que su nombre se encuentra en el cuadro para.</para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> colección siempre devuelve un objeto <b>RuleCondition</b> , independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ToOrCc">
@@ -1016,13 +952,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /><b>olConditionToOrCc</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> <b>olConditionToOrCc</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Usar el objeto <b>RuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que su nombre se encuentra en para o Cc cuadro.</para>
+        <remarks><para>Usar el objeto <b>RuleCondition</b> devuelto cuando enumere las condiciones de regla o las condiciones de excepción de una regla existente, o cuando cree una nueva regla que especifique la condición o la condición de excepción de que su nombre se encuentra en para o Cc cuadro.</para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> colección siempre devuelve un objeto <b>RuleCondition</b> , independientemente de si la regla asociada a esta colección <b>RuleConditions</b> ha definido dicha condición de regla. Si la regla ha definido y habilitado dicha condición de regla, a continuación, <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

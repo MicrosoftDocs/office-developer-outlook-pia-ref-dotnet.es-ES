@@ -1,13 +1,5 @@
 <Type Name="_Conversation" FullName="Microsoft.Office.Interop.Outlook._Conversation">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2f5c48eeaf35740be2ed40d2f2a41eb42b099ab3" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642060" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Conversation" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2f5c48eeaf35740be2ed40d2f2a41eb42b099ab3" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902036" /></Metadata><TypeSignature Language="C#" Value="public interface _Conversation" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Conversation" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Conversation" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Conversation" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación de Microsoft Outlook principal para el <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación de Microsoft Outlook principal para el <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,7 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -110,12 +102,10 @@
       <Docs>
         <param name="Store">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> se debe quitar el objeto que representa el almacén de las categorías de elementos que pertenecen a la conversación.</param>
         <summary>Quita todas las categorías de todos los elementos en esta conversación y detiene la acción de asignar siempre categorías a los elementos en la conversación.</summary>
-        <remarks>
-          <para>Si el almacén especificado por el <paramref name="Store" /> parámetro representa un almacén sin entrega como un almacén de archivos .pst, la acción de eliminación de categoría se aplicará a los elementos de la conversación en el almacén de entrega predeterminado. </para>
-          <para>Después de aplicar el método <b>ClearAlwaysAssignCategories</b> en una conversación, el <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> método devolverá <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) para esa conversación. Se borran las categorías de los elementos existentes y no hay categorías se asignan a los elementos nuevos en la conversación.</para>
+        <remarks><para>Si el almacén especificado por el <paramref name="Store" /> parámetro representa un almacén sin entrega como un almacén de archivos .pst, la acción de eliminación de categoría se aplicará a los elementos de la conversación en el almacén de entrega predeterminado. </para>
+          <para>Después de aplicar el método <b>ClearAlwaysAssignCategories</b> en una conversación, el <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> método devolverá <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) para esa conversación. Categorías de los elementos existentes se borran y categorías no se asignan a los elementos de la conversación.</para>
           <para>Si el <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" /> (método) no se ha aplicado a una conversación, <b>ClearAlwaysAssignCategories</b> no quita ninguna categoría.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ConversationID">
@@ -141,13 +131,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:System.String" /> (<b>cadena</b> en C#) que identifica una <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:System.String" /> (<b>cadena</b> en C#) que identifica una <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagConversationId</b>.</para>
-          <para>Esta propiedad asocia los elementos a una conversación. La conversación y estos elementos tienen el mismo valor en su propiedad <b>ConversationID</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad se corresponde con la propiedad MAPI <b>PidTagConversationId</b>.</para>
+          <para>Esta propiedad asocia elementos a una conversación. La conversación y estos elementos tienen el mismo valor en su propiedad <b>ConversationID</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAlwaysAssignCategories">
@@ -175,13 +163,11 @@
         <param name="Store">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> se debe devolver el objeto que representa el almacén para que las categorías de elementos que pertenecen a la conversación.</param>
         <summary>Devuelve un <see cref="T:System.String" /> (<b>cadena</b> en C#) que indica las categorías que se asignan a todos los elementos nuevos que entran en la conversación.</summary>
         <returns>A <see cref="T:System.String" /> (<b>cadena</b> en C#) que contiene una o varias categorías que se asignan a los elementos de la conversación.</returns>
-        <remarks>
-          <para>Varias categorías están delimitadas por comas en la cadena de nombres de categoría que devuelve esta propiedad. Para convertir la cadena de nombres de categoría en una matriz de nombres de categoría, utilice la función de Microsoft Visual Basic <b>Split</b> .</para>
+        <remarks><para>Varias categorías están delimitadas por comas en la cadena de nombres de categoría que devuelve esta propiedad. Para convertir la cadena de nombres de categoría en una matriz de nombres de categoría, utilice la función <b>Split</b> de Microsoft Visual Basic.</para>
           <para>Si el almacén especificado por el <paramref name="Store" /> parámetro representa un almacén sin entrega como un almacén de archivos .pst, el método devuelve una cadena de categorías que se aplican a elementos de la conversación en el almacén de entrega predeterminado.</para>
           <para>Si el <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" /> (método) no se ha aplicado a una conversación, <b>GetAlwaysAssignCategories</b> devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
-          <para>Para detener la acción de asignar siempre categorías, use la <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> (método). Una vez que se ha llamado al método <b>ClearAlwaysAssignCategories</b> , <b>GetAlwaysAssignCategories</b> devuelve una cadena vacía.</para>
-          <para />
-        </remarks>
+          <para>Para detener la acción de asignar siempre categorías, use la <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> (método). Una vez que se ha llamado al método <b>ClearAlwaysAssignCategories</b>, <b>GetAlwaysAssignCategories</b> devuelve una cadena vacía.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAlwaysDelete">
@@ -209,13 +195,11 @@
         <param name="Store">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa el almacén que contiene la carpeta Elementos eliminados a la que se mueven los elementos de la conversación.</param>
         <summary>Devuelve una constante en el <see cref="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" /> (enumeración) que indica si todos los elementos nuevos que se unen a la conversación siempre se mueven a la carpeta Elementos eliminados en el almacén de entrega especificado.</summary>
         <returns>Una constante de la enumeración <b>OlAlwaysDeleteConversation</b> que indica si todos los elementos nuevos de la conversación siempre se mueven a la carpeta Elementos eliminados del almacén de entrega especificado.</returns>
-        <remarks>
-          <para>Si el <paramref name="Store" /> parámetro especifica un almacén sin entrega como un almacén de archivos .pst, el método <b>GetAlwaysDelete</b> devuelve una constante de <b>OlAlwaysDeleteConversation</b> que se aplica a los elementos de la conversación en el almacén de entrega predeterminado. Los elementos en un almacén sin entrega no se mueven a la carpeta Elementos eliminados para el almacén de entrega predeterminado.</para>
+        <remarks><para>Si el <paramref name="Store" /> parámetro especifica un almacén sin entrega como un almacén de archivos .pst, el método <b>GetAlwaysDelete</b> devuelve una constante de <b>OlAlwaysDeleteConversation</b> que se aplica a los elementos de la conversación en el almacén de entrega predeterminado. No se mueven los elementos en un almacén de no entrega a la carpeta Elementos eliminados del almacén de entrega predeterminado.</para>
           <para>Si <b>GetAlwaysDelete</b> devuelve <b>olAlwaysDelete</b>, los elementos de la conversación se mueven a la carpeta Elementos eliminados para el almacén que contiene los elementos. En una conversación entre-store, los elementos se mueven a la carpeta Elementos eliminados para el almacén que contiene los elementos. Cuando <b>GetAlwaysDelete</b> devuelve <b>olAlwaysDelete</b>, la <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> método devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object que representa la carpeta Elementos eliminados del almacén predeterminado.</para>
           <para>Si <b>GetAlwaysDelete</b> devuelve <b>olAlwaysDeleteUnsupported</b>, el almacén especificado no es compatible con la acción de mover siempre los elementos a la carpeta Elementos eliminados de ese almacén.</para>
           <para>Si <b>GetAlwaysDelete</b> devuelve <b>olDoNotDelete</b>, los elementos nuevos que entran en la conversación no se mueven a la carpeta Elementos eliminados en el almacén de entrega especificado y elementos de una conversación existente en la carpeta Elementos eliminados se mueven a la Bandeja de entrada.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAlwaysMoveToFolder">
@@ -243,11 +227,9 @@
         <param name="Store">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa el almacén donde reside la carpeta a qué conversación se mueven los elementos.</param>
         <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto que indica la carpeta en el almacén de entrega especificado a la que se mueven siempre los elementos nuevos que entran en la conversación.</summary>
         <returns>A <see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" /> objeto en el almacén especificado a la que se mueven siempre todos los elementos nuevos que entran en la conversación.</returns>
-        <remarks>
-          <para>Si el <paramref name="Store" /> parámetro representa un almacén sin entrega como un almacén de archivos .pst, el método <b>GetAlwaysMoveToFolder</b> devuelve un objeto <b>Folder</b> que se aplica a los elementos de la conversación en el almacén de entrega predeterminado.</para>
+        <remarks><para>Si el <paramref name="Store" /> parámetro representa un almacén sin entrega como un almacén de archivos .pst, el método <b>GetAlwaysMoveToFolder</b> devuelve un objeto <b>Folder</b> que se aplica a los elementos de la conversación en el almacén de entrega predeterminado.</para>
           <para>Si no se ha especificado ninguna carpeta distinta de la carpeta Elementos eliminados, para mover siempre los elementos de conversación, el método <b>GetAlwaysMoveToFolder</b> devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetChildren">
@@ -276,11 +258,9 @@
         <param name="Item">To be added.</param>
         <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> colección que contiene todos los elementos en el nodo de conversación especificado.</summary>
         <returns>Una colección <b>SimpleItems</b> que representa el conjunto de elementos secundarios de la conversación en el nodo especificado por el <paramref name="Item" /> parámetro.</returns>
-        <remarks>
-          <para>La colección <b>SimpleItems</b> devuelta contiene los elementos secundarios inmediatos del nodo de conversación especificado por el <paramref name="Item" /> parámetro. Si el nodo especificado no existe en la conversación, el método <b>GetChildren</b> devuelve un error.</para>
+        <remarks><para>La colección <b>SimpleItems</b> devuelta contiene los elementos secundarios inmediatos del nodo de conversación especificado por el <paramref name="Item" /> parámetro. Si el nodo especificado no existe en la conversación, el método <b>GetChildren</b> devuelve un error.</para>
           <para>Si no existen elementos secundarios en ese nodo, el método <b>GetChildren</b> devuelve una colección <b>SimpleItems</b> con cero objetos, en cuyo caso el <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> (propiedad) de la colección <b>SimpleItems</b> devuelve 0.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetParent">
@@ -309,11 +289,9 @@
         <param name="Item">Nodo de conversación que forma parte de una conversación.</param>
         <summary>Devuelve el elemento primario del nodo especificado en la conversación.</summary>
         <returns>Un <see cref="T:System.Object" /> (<b>objeto</b> de C#) que representa el elemento primario de conversación del nodo especificado por el <paramref name="Item" /> parámetro.</returns>
-        <remarks>
-          <para>Si el nodo especificado por el <paramref name="Item" /> parámetro no existe en la conversación, el método <b>GetParent</b> devuelve un error.</para>
+        <remarks><para>Si el nodo especificado por el <paramref name="Item" /> parámetro no existe en la conversación, el método <b>GetParent</b> devuelve un error.</para>
           <para>Si el nodo especificado por el <paramref name="Item" /> parámetro no tiene un elemento primario en la conversación, el método <b>GetParent</b> devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetRootItems">
@@ -339,11 +317,9 @@
       <Docs>
         <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> colección que contiene todos los elementos de raíz de la conversación.</summary>
         <returns>Una colección <b>SimpleItems</b> que incluye el elemento raíz o todos los elementos de la raíz de la conversación.</returns>
-        <remarks>
-          <para>Una conversación puede tener uno o varios elementos raíz. Por ejemplo, si el elemento raíz de la conversación tiene tres elementos secundarios y eliminar permanentemente el elemento raíz, todos los elementos secundarios tres se convierten en elementos de raíz.</para>
-          <para>Si se eliminan todos los elementos de la conversación una vez que se ha obtenido el objeto <b>T:Microsoft.Office.Interop.Outlook.Conversation</b> , <b>GetRootItems</b> devuelve una colección <b>SimpleItems</b> con cero objetos. En este caso, el <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> (propiedad) de la colección <b>SimpleItems</b> devuelve 0.</para>
-          <para />
-        </remarks>
+        <remarks><para>Una conversación puede tener uno o más elementos raíz. Por ejemplo, si el elemento raíz de la conversación tiene tres elementos secundarios y el elemento raíz se elimina permanentemente, los tres elementos secundarios se convierten en elementos raíz.</para>
+          <para>Si todos los elementos se eliminan de la conversación una vez que se ha obtenido el objeto <b>T:Microsoft.Office.Interop.Outlook.Conversation</b> , <b>GetRootItems</b> devuelve una colección <b>SimpleItems</b> con cero objetos. En este caso, el <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> (propiedad) de la colección <b>SimpleItems</b> devuelve 0.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetTable">
@@ -369,19 +345,18 @@
       <Docs>
         <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> object que contiene filas que representan todos los elementos de la conversación.</summary>
         <returns>Un objeto <b>Table</b> que contiene filas que representan todos los elementos de la conversación.</returns>
-        <remarks>
-          <para>El método <b>GetTable</b> devuelve una <b>tabla</b> que tiene todos los elementos de la conversación como las filas. El conjunto de columnas predeterminado se muestra en la siguiente tabla. </para>
+        <remarks><para>El método <b>GetTable</b> devuelve una <b>tabla</b> que tiene todos los elementos de la conversación como las filas. El conjunto de columnas predeterminado se muestra en la siguiente tabla.</para>
           <list type="table">
             <item>
               <description>1</description>
               <description>
-                <b>EntryID</b>
+                <b>Propiedad EntryID</b>
               </description>
             </item>
             <item>
               <description>2</description>
               <description>
-                <b>asunto</b>
+                <b>Asunto</b>
               </description>
             </item>
             <item>
@@ -404,10 +379,9 @@
             </item>
           </list>
           <para>De forma predeterminada, las filas de la tabla se ordenan por la propiedad <b>ConversationIndex</b> de los elementos.</para>
-          <para>Para modificar el conjunto de columnas predeterminado, use el <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, o <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> métodos de la <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> colección.</para>
-          <para>El objeto <b>Table</b> devuelto por este método <b>GetTable</b> no incluye los elementos de la conversación que se han movido a la carpeta Elementos eliminados.</para>
-          <para />
-        </remarks>
+          <para>Para modificar el conjunto de columnas predeterminado, use el <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, o <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> métodos de la <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> colección. </para>
+          <para>El objeto <b>Table</b> devuelto por este método <b>GetTable</b> no incluir los elementos de la conversación que se han movido a la carpeta Elementos eliminados.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MarkAsRead">
@@ -483,13 +457,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el objeto primario <see cref="T:System.Object" /> (<b>objeto</b> de C#) del especificado <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve el objeto primario <see cref="T:System.Object" /> (<b>objeto</b> de C#) del especificado <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El elemento principal de un objeto de <b>conversación</b> es el primer elemento de la conversación.</para>
+        <remarks><para>El objeto primario de un <b>conversación</b> es el primer elemento de la conversación.</para>
           <para>Si todos los elementos de la conversación se eliminan después de que se ha obtenido el objeto de <b>conversación</b> , la propiedad <b>Parent</b> devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -515,13 +487,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si no hay ninguna sesión iniciada.</para>
+        <remarks><para>Esta propiedad devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si no hay ninguna sesión iniciada.</para>
           <para>Puede usar la propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. </para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetAlwaysAssignCategories">
@@ -550,14 +520,14 @@
         <param name="Categories">Delimitado por comas <see cref="T:System.String" /> (<b>cadena</b> en C#) de uno o más nombres de categoría que siempre se asignan a todos los elementos de la conversación.</param>
         <param name="Store">El <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> en qué elementos de la conversación siempre se debe asignar las categorías especificadas por la <paramref name="Categories" /> parámetro.</param>
         <summary>Aplica una o más categorías a todos los elementos existentes y futuros de la conversación.</summary>
-        <remarks>
-          <para>Si el almacén especificado por el <paramref name="Store" /> parámetro representa un almacén sin entrega como un almacén de archivos .pst, el método devuelve una cadena de categorías que se aplican a elementos de la conversación en el almacén de entrega predeterminado.</para>
+        <remarks><para>Si el almacén especificado por el <paramref name="Store" /> parámetro representa un almacén sin entrega como un almacén de archivos .pst, el método devuelve una cadena de categorías que se aplican a elementos de la conversación en el almacén de entrega predeterminado.</para>
           <para>El <see cref="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemChange" /> (evento) de la <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> objeto se produce cuando se llama al método <b>SetAlwaysAssignCategories</b> en una conversación.</para>
-          <para>Para determinar existente principal de categorías para el usuario actual, examine el <see cref="P:Microsoft.Office.Interop.Outlook._Store.Categories" /> (propiedad) del objeto <b>Store</b> que se especifica mediante el <paramref name="Store" /> parámetro. Si una o varias categorías especificado por el <paramref name="Categories" /> parámetro no existe en la colección principal de categorías, las categorías se asignará a la conversación, pero no se agregarán a la colección principal de categorías.</para>
-          <para>Para determinar las categorías existentes que siempre se asignan a los elementos de la conversación en el almacén especificado, use la <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> método.</para>
+          <para>Para determinar las categorías principales existentes para el usuario actual, examine el <see cref="P:Microsoft.Office.Interop.Outlook._Store.Categories" /> (propiedad) del objeto <b>Store</b> que se especifica mediante el <paramref name="Store" /> parámetro. Si una o varias categorías especificado por el <paramref name="Categories" /> parámetro no existe en la colección principal de categorías, las categorías se asignará a la conversación, pero no se agregarán a la colección principal de categorías.</para>
+          <para>Para determinar las categorías existentes que siempre se asignan a los elementos de la conversación en el almacén especificado, use la <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> (método).</para>
           <para>Si se llama a <b>SetAlwaysAssignCategories</b> más de una vez, el resultado es acumulativo. Por ejemplo, si llama a <b>SetAlwaysAssignCategories</b> que especifica la categoría "Importante" y, a continuación, llamar a <b>SetAlwaysAssignCategories</b> volver a especificar las categorías "Business" y "Social", son las categorías que están siempre asignadas" Importante","Empresariales"y"Social".</para>
-          <para>Para detener la acción de asignar siempre categorías, use la <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> (método). Después de que se ha llamado al método <b>ClearAlwaysAssignCategories</b> , <b>GetAlwaysAssignCategories</b> devuelve una vacía <b>String</b> (<b>cadena</b> en C#).</para> Método 
-          <para>la <b>SetAlwaysAssignToCategories</b> pasa por alto los nombres de categoría que son cadenas vacías. Por ejemplo, si la <paramref name="Categories" /> parámetro se establece en la cadena "Trabajo,, reproducir", "Trabajo" y "Reproducir" se asigna a la conversación y se omite la categoría de cadena vacía.</para><para /></remarks>
+          <para>Para detener la acción de asignar siempre categorías, use la <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" /> (método). Después de que se ha llamado al método <b>ClearAlwaysAssignCategories</b> , <b>GetAlwaysAssignCategories</b> devuelve una vacía <b>String</b> (<b>cadena</b> en C#).</para>
+          <para>El método <b>SetAlwaysAssignToCategories</b> pasa por alto los nombres de categoría que son cadenas vacías. Por ejemplo, si la <paramref name="Categories" /> parámetro se establece en la cadena "Trabajo,, reproducir", "Trabajo" y "Reproducir" se asigna a la conversación y se omite la categoría de cadena vacía.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetAlwaysDelete">
@@ -586,12 +556,10 @@
         <param name="AlwaysDelete">Un <see cref="T:Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" /> constante que indica si todos los elementos nuevos y existentes que se reciben en la conversación siempre se mueven a la carpeta eliminados del almacén especificado por el <paramref name="Store" /> parámetro.</param>
         <param name="Store">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa el almacén que contiene la carpeta de elementos eliminados a la que los elementos nuevos y existentes de la conversación se va a mover.</param>
         <summary>Especifica una configuración para el almacén de entrega especificado que indica si todos los elementos nuevos y existentes que entren a la conversación se moverán siempre a la carpeta Elementos eliminados de este almacén.</summary>
-        <remarks>
-          <para>El método <b>SetAlwaysDelete</b> funciona en elementos de la conversación en el almacén de entrega especificado por el <paramref name="Store" /> parámetro. Si el almacén especificado por el <paramref name="Store" /> parámetro representa un almacén sin entrega como un almacén de archivos .pst, la acción se aplica a los elementos de la conversación en el almacén de entrega predeterminado.</para>
+        <remarks><para>El método <b>SetAlwaysDelete</b> funciona en elementos de la conversación en el almacén de entrega especificado por el <paramref name="Store" /> parámetro. Si el almacén especificado por el <paramref name="Store" /> parámetro representa un almacén sin entrega como un almacén de archivos .pst, la acción se aplica a los elementos de la conversación en el almacén de entrega predeterminado.</para>
           <para>Si el <paramref name="AlwaysDelete" /> parámetro es <b>olAlwaysDelete</b>, elementos de la conversación se mueven a la carpeta Elementos eliminados para el almacén especificado. En este caso, los elementos no eliminados permanentemente, a menos que el usuario ha especificado una opción independiente para eliminar permanentemente los elementos cuando se cierra Microsoft Outlook.</para>
-          <para>Si devuelve <b>SetAlwaysDelete</b><b>olDoNotDelete</b>, elementos de la conversación y los elementos nuevos que entran en la conversación existentes no son mueve a la carpeta Elementos eliminados en el almacén de entrega especificado y la conversación existente elementos en el Deleted Carpeta elementos se mueven a la Bandeja de entrada.</para>
-          <para />
-        </remarks>
+          <para>Si <b>SetAlwaysDelete</b> devuelve <b>olDoNotDelete</b>, elementos de la conversación existentes y los elementos nuevos que entran en la conversación no se mueven a la carpeta Elementos eliminados en el almacén de entrega especificado, y los elementos existentes de conversación en la carpeta Elementos eliminados se mueven a la Bandeja de entrada.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetAlwaysMoveToFolder">
@@ -620,15 +588,13 @@
         <param name="MoveToFolder">Especifica la carpeta a la cual se mueven todos los elementos de la conversación existentes y nuevos que entran a la conversación.</param>
         <param name="Store">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa el almacén que contiene la carpeta a la que se mueven los elementos de la conversación.</param>
         <summary>Conjuntos de un <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto que indica la carpeta a la que se mueven siempre todos los elementos de una conversación existente y los elementos nuevos que entran en la conversación.</summary>
-        <remarks>
-          <para>El método <b>SetAlwaysMoveToFolder</b> funciona en elementos de la conversación en el almacén de entrega especificado por el <paramref name="Store" /> parámetro. Si el <paramref name="Store" /> parámetro representa un almacén sin entrega como un almacén de archivos .pst, se aplicará la acción de mover a elementos de la conversación en el almacén de entrega predeterminado.</para>
-          <para>Si el <paramref name="MoveToFolder" /> parámetro especifica una carpeta no válida que no existe, se ha movido o es de sólo lectura, Outlook generará un error.</para>
-          <para>Para detener la acción siempre move-a la carpeta para los elementos de las conversaciones de un almacén, llame a la <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.StopAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> método</para>
+        <remarks><para>El método <b>SetAlwaysMoveToFolder</b> funciona en elementos de la conversación en el almacén de entrega especificado por el <paramref name="Store" /> parámetro. Si el <paramref name="Store" /> parámetro representa un almacén sin entrega como un almacén de archivos .pst, se aplicará la acción de mover a elementos de la conversación en el almacén de entrega predeterminado.</para>
+          <para>Si el <paramref name="MoveToFolder" /> parámetro especifica una carpeta no válida que no existe, se ha movido o es de sólo lectura, Outlook generará un error. </para>
+          <para>Para detener la acción siempre move-a la carpeta para los elementos de las conversaciones de un almacén, llame a la <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.StopAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> (método)</para>
           <para>
             <b>Nota</b>: configuración de la carpeta Elementos eliminados como el <paramref name="MoveToFolder" /> parámetro en <b>SetAlwaysMoveToFolder</b> no es equivalente a llamar a <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" /> en el mismo almacén y la conversación. Configuración de la <paramref name="MoveToFolder" /> de resultados de parámetro a la carpeta Elementos eliminados en el <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" /> método que devuelve el valor <b>olDoNotDelete</b>.</para>
-          <para>La <see cref="E:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event.BeforeItemMove" /> evento del objeto <b>Folder</b> se produce cuando se llama <b>a SetAlwaysMoveToFolder</b>.</para>
-          <para />
-        </remarks>
+          <para>El <see cref="E:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event.BeforeItemMove" /> evento del objeto <b>Folder</b> se produce cuando se llama <b>a SetAlwaysMoveToFolder</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StopAlwaysDelete">
@@ -655,14 +621,12 @@
       <Docs>
         <param name="Store">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa el almacén al que se aplica la acción de detener eliminar siempre.</param>
         <summary>Detiene la acción de siempre mover elementos de la conversación del almacén especificado a la carpeta Elementos eliminados de ese almacén.</summary>
-        <remarks>
-          <para>Si no se ha activado la acción de eliminar siempre (mediante una llamada a la <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" /> (método)), <b>StopAlwaysDelete</b> no tiene ningún efecto.</para>
-          <para>Si se ha activado la acción de eliminar siempre, <b>StopAlwaysDelete</b> mueve elementos de una conversación existente en la carpeta Elementos eliminados a la Bandeja de entrada.</para>
+        <remarks><para>Si no se ha activado la acción de eliminar siempre (mediante una llamada a la <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" /> (método)), <b>StopAlwaysDelete</b> no tiene ningún efecto.</para>
+          <para>Si se ha activado la acción de eliminar siempre, <b>StopAlwaysDelete</b> mueve los elementos de la conversación existentes de la carpeta Elementos eliminados a la Bandeja de entrada.</para>
           <para>Después de llamar al método <b>StopAlwaysDelete</b> para mantener una conversación en un almacén, al llamar a la <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" /> método en esa conversación y almacén devuelve la constante <b>olDoNotDelete</b>.</para>
           <para>Si el almacén especificado por el <paramref name="Store" /> parámetro representa un almacén sin entrega como un almacén de archivos .pst, la acción de detener eliminar siempre se aplica a los elementos de la conversación en el almacén de entrega predeterminado.</para>
-          <para>Al llamar a este método en una conversación que ya está en la carpeta Elementos eliminados en el almacén especificado devuelve un error.</para>
-          <para />
-        </remarks>
+          <para>Llamar a este método en una conversación que ya está en la carpeta Elementos eliminados en el almacén especificado, devuelve un error.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StopAlwaysMoveToFolder">
@@ -689,12 +653,10 @@
       <Docs>
         <param name="Store">A <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object que representa el almacén donde residen los elementos de la conversación para limpiar.</param>
         <summary>Detiene la acción de siempre mover los elementos de la conversación del almacén especificado a una carpeta específica.</summary>
-        <remarks>
-          <para>Si no se ha activado la acción de mover siempre, <b>StopAlwaysMoveToFolder</b> no tiene ningún efecto.</para>
+        <remarks><para>Si no se ha activado la acción de mover siempre, <b>StopAlwaysMoveToFolder</b> no tiene ningún efecto.</para>
           <para>Si el <paramref name="Store" /> parámetro representa un almacén sin entrega como un almacén de archivos .pst, la acción de detener mover siempre se aplicará a los elementos de la conversación en el almacén de entrega predeterminado.</para>
           <para>Después de llamar al método <b>StopAlwaysMoveToFolder</b> , al llamar a la <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" /> método devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

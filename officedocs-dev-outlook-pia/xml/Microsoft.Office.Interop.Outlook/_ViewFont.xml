@@ -1,13 +1,5 @@
 <Type Name="_ViewFont" FullName="Microsoft.Office.Interop.Outlook._ViewFont">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="dce221fa9294212037ac54a826838b60f072a320" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643558" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _ViewFont" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="dce221fa9294212037ac54a826838b60f072a320" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903597" /></Metadata><TypeSignature Language="C#" Value="public interface _ViewFont" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ViewFont" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._ViewFont" />
   <TypeSignature Language="VB.NET" Value="Public Interface _ViewFont" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -112,7 +104,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -176,10 +168,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" /> constante como el color de fuente de la vista. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Puede usar el <see cref="P:Microsoft.Office.Interop.Outlook._ViewFont.Color" /> (propiedad) o la propiedad <b>ExtendedColor</b> para establecer el color de fuente en una vista. Para una vista de calendario en concreto, debe usar la propiedad <b>ExtendedColor</b> para establecer el color de fuente.</para>
-          <para />
-        </remarks>
+        <remarks><para>Puede usar el <see cref="P:Microsoft.Office.Interop.Outlook._ViewFont.Color" /> (propiedad) o la propiedad <b>ExtendedColor</b> para establecer el color de fuente en una vista. Para obtener una vista de calendario en particular, debe usar la propiedad <b>ExtendedColor</b> para establecer el color de fuente.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Italic">
@@ -295,18 +285,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Size">
@@ -335,13 +323,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve o establece un valor <b>entero</b> (<b>int</b> en C#) que representa el tamaño (en puntos) de la fuente en la vista. Es de solo lectura</summary>
+        <summary>Devuelve o establece un valor <b>entero</b> (<b>int</b> en C#) que representa el tamaño (en puntos) de la fuente en la vista. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad se puede establecer en un valor entre 1 y 127. Si esta propiedad se establece en un valor menor que 1, la propiedad se establece en 1. Si esta propiedad se establece en un valor mayor que 127, la propiedad se establece en 127.</para>
-          <para>El valor predeterminado de esta propiedad está determinado por el sistema operativo.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad puede establecerse en un valor entre 1 y 127. Si se establece en un valor menor que 1, su valor cambiará a 1. Si se establece en un valor mayor que 127, su valor cambiará a 127.</para>
+          <para>El valor predeterminado para esta propiedad lo determina el sistema operativo.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Strikethrough">

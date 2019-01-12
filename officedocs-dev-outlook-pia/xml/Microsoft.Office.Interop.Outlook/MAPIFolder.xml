@@ -1,13 +1,5 @@
 <Type Name="MAPIFolder" FullName="Microsoft.Office.Interop.Outlook.MAPIFolder">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d8a333f159d3a63a23c2b19913ea1f7e5b666bcb" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20641835" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface MAPIFolder" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5ff194f3b28d1408ede7525b7b91a1471bd5eb41" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901091" /></Metadata><TypeSignature Language="C#" Value="public interface MAPIFolder" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MAPIFolder" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.MAPIFolder" />
   <TypeSignature Language="VB.NET" Value="Public Interface MAPIFolder" />
@@ -58,10 +50,8 @@
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que indica el nombre de la libreta de direcciones para el <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto que representa una carpeta de contactos. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Si se intenta establecer la propiedad <b>AddressBookName</b> en una carpeta que no sean contactos, se devolverá un error.</para>
-          <para />
-        </remarks>
+        <remarks><para>Si se intenta establecer la propiedad <b>AddressBookName</b> en una carpeta que no sean contactos, se devolverá un error.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddToFavorites">
@@ -144,7 +134,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -172,7 +162,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -203,10 +193,8 @@
         <param name="DestinationFolder">Objeto <b>Folder</b> obligatorio que representa la carpeta de destino.</param>
         <summary>Copia todo el contenido de la carpeta actual a la carpeta de destino.</summary>
         <returns>Objeto <b>Folder</b> que representa la nueva copia de la carpeta actual.</returns>
-        <remarks>
-          <para>Establecer el valor REG_MULTI_SZ, DisableCrossAccountCopy, en HKCU\Software\Microsoft\Office\14.0\Outlook en el registro de Windows tiene el efecto secundario de la deshabilitación de este método.</para>
-          <para />
-        </remarks>
+        <remarks><para>Establecer el valor REG_MULTI_SZ, DisableCrossAccountCopy, en HKCU\Software\Microsoft\Office\14.0\Outlook en el registro de Windows tiene el efecto secundario de la deshabilitación de este método.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CurrentView">
@@ -232,12 +220,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.View</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto que representa la vista actual. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto que representa la vista actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Para obtener un objeto <b>View</b> para la vista del actual <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />, use <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> en lugar de la propiedad <b>CurrentView</b> del actual <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto devuelto por <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />. </para>
-          <para>Debe guardar una referencia al objeto <b>View</b> que devuelve <b>CurrentView</b> antes de proceder a usar para cualquier fin.</para>
-          <para>Para restablecer correctamente la vista actual, debe realizar una <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> y, a continuación, un <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />. En el siguiente ejemplo de código se muestra el orden de las llamadas:</para>
+        <remarks><para>Para obtener un objeto <b>View</b> para la vista del actual <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />, use <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> en lugar de la propiedad <b>CurrentView</b> del actual <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto devuelto por <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />. </para>
+          <para>Debe guardar una referencia al objeto <b>View</b> que devuelve <b>CurrentView</b> antes de proceder a usarlo para cualquier fin.</para>
+          <para>Para restablecer la vista actual correctamente, debe hacer una <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> y, a continuación, un <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />. En el siguiente ejemplo de código se muestra el orden de las llamadas:</para>
           <code>Sub ResetView()
     Dim v as Outlook.View
     ' Save a reference to the current view object
@@ -256,8 +243,7 @@ End Sub</code>
     v.Reset();
     v.Apply();
 }</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CustomViewsOnly">
@@ -288,11 +274,9 @@ End Sub</code>
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que determina las vistas que se muestran en el menú Ver para una carpeta determinada. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Si se establece en <b>True</b>, sólo las vistas creadas por el usuario se muestra en el menú.</para>
-          <para>Esta propiedad tiene efecto sólo en el menú Ver. No afecta a la visualización de vistas en el panel de navegación.</para>
-          <para />
-        </remarks>
+        <remarks><para>Si se establece en <b>True</b>, sólo las vistas creadas por el usuario se muestra en el menú.</para>
+          <para>Esta propiedad solo tiene efecto en el menú Ver. No afecta a la presentación de las vistas del panel de navegación.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DefaultItemType">
@@ -318,7 +302,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.OlItemType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una constante de la <see cref="T:Microsoft.Office.Interop.Outlook.OlItemType" /> contenido en la carpeta de tipo de elemento de enumeración que indica el valor predeterminado de Outlook. Es de solo lectura</summary>
+        <summary>Devuelve una constante de la <see cref="T:Microsoft.Office.Interop.Outlook.OlItemType" /> contenido en la carpeta de tipo de elemento de enumeración que indica el valor predeterminado de Outlook. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -346,7 +330,7 @@ End Sub</code>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa la clase de mensaje predeterminada para los elementos de la carpeta. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa la clase de mensaje predeterminada para los elementos de la carpeta. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -404,10 +388,8 @@ End Sub</code>
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que representa la descripción de la carpeta.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad <b>PidTagComment</b>de MAPI.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagComment</b> de MAPI.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Display">
@@ -458,11 +440,11 @@ End Sub</code>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el identificador único de entrada del objeto.  Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el identificador único de entrada del objeto.  Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagEntryId</b>.</para> Proveedor de almacenamiento de 
-          <para>A MAPI asigna una cadena de identificador único cuando se crea un elemento en su almacén. Por lo tanto, la propiedad <b>EntryID</b> no se establece para un elemento de Outlook hasta que éste se guarda o se envía. Los cambios cuando se mueve un elemento a otro almacén, por ejemplo, desde la Bandeja de entrada a una carpeta pública de Microsoft Exchange Server, o desde un archivo de carpetas personales (.pst) a otro archivo .pst de identificador de entrada. Soluciones no deben depender de la propiedad <b>EntryID</b> sea única, a menos que no se moverán los elementos. La propiedad <b>EntryID</b> devuelve un identificador EntryID MAPI de a largo plazo. Para obtener más información acerca de los identificadores de larga y corta duración, busque http://msdn.microsoft.com para <b>PidTagEntryId</b>. </para><para /></remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagEntryId</b>.</para>
+          <para>Un proveedor de almacén MAPI asigna una cadena de identificador único cuando se crea un elemento en su almacén. Por lo tanto, la propiedad <b>EntryID</b> no se establece para un elemento de Outlook hasta que éste se guarda o se envía. EntryID cambia cuando un elemento se mueve a otro almacén, por ejemplo, desde la Bandeja de entrada a una carpeta pública de Microsoft Exchange Server, o desde un archivo de carpetas personales (.pst) a otro archivo .pst. Soluciones no deben depender de la propiedad <b>EntryID</b> sea única, a menos que no se mueven los elementos. La propiedad <b>EntryID</b> devuelve un identificador EntryID MAPI de a largo plazo. Para obtener más información de larga duración, busque http://msdn.microsoft.com <b>PidTagEntryId</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FolderPath">
@@ -488,7 +470,7 @@ End Sub</code>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que indica la ruta de acceso de la carpeta actual. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que indica la ruta de acceso de la carpeta actual. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -516,12 +498,10 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.Folders</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> colección que representa todas las carpetas contenidas en especificado <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> colección que representa todas las carpetas contenidas en especificado <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto es la raíz de todas las carpetas del espacio de nombres especificado.</para>
-          <para />
-        </remarks>
+        <remarks><para>El <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto es la raíz de todas las carpetas del espacio de nombres especificado. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FullFolderPath">
@@ -578,12 +558,10 @@ End Sub</code>
       <Docs>
         <summary>Crea un <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> objeto para especificado <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />.</summary>
         <returns>Un objeto <b>CalendarSharing</b> para la carpeta especificada.</returns>
-        <remarks>
-          <para>El método <b>GetCalendarExporter</b> establece automáticamente los valores predeterminados de la clase <b>CalendarSharing</b> en las opciones predeterminadas estándar utilizadas por el objeto de <b>carpeta</b> . El método <b>GetCalendarExporter</b> sólo puede utilizarse en las carpetas de calendario. Se produce un error si se utiliza el método en objetos <b>Folder</b> que representan otros tipos de carpetas.</para>
+        <remarks><para>El método <b>GetCalendarExporter</b> establece automáticamente los valores predeterminados de la clase <b>CalendarSharing</b> en las opciones predeterminadas estándar utilizadas por el objeto <b>Folder</b>. El método <b>GetCalendarExporter</b> sólo puede utilizarse en las carpetas de calendario. Se produce un error si se utiliza el método en objetos <b>Folder</b> que representan otros tipos de carpetas.</para>
           <para>
             <b>Nota</b>: el objeto <b>CalendarSharing</b> sólo permite exportar el formato de archivo iCalendar (.ics).</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetCustomIcon">
@@ -609,8 +587,7 @@ End Sub</code>
       <Docs>
         <summary>Devuelve un <see cref="T:stdole.StdPicture" /> object que representa el icono personalizado para la carpeta.</summary>
         <returns>Devuelve un objeto <b>StdPicture</b> que representa un icono personalizado para la carpeta.</returns>
-        <remarks>
-          <para>El objeto <b>StdPicture</b> devuelto tiene su propiedad <b>Type</b> igual a <b>PICTYPE_ICON</b> o <b>PICTYPE_BITMAP</b>.</para>
+        <remarks><para>El objeto <b>StdPicture</b> devuelto tiene su propiedad <b>Type</b> igual a <b>PICTYPE_ICON</b> o <b>PICTYPE_BITMAP</b>.</para>
           <para>
             <b>GetCustomIcon</b> devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si la carpeta no tiene un icono de carpeta personalizada, o si la carpeta pertenece a uno de los siguientes grupos de carpetas:</para>
           <list type="bullet">
@@ -618,13 +595,20 @@ End Sub</code>
               <para>Carpetas predeterminadas (tal como aparecen en la <see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" /> (enumeración))</para>
             </item>
             <item>
-              <para>las carpetas especiales (tal como aparecen en la <see cref="T:Microsoft.Office.Interop.Outlook.OlSpecialFolders" /> (enumeración))</para>
-            </item>de
-            <item><para>la carpeta raíz de cualquier buzón de Exchange</para></item>de
-            <item><para>carpetas públicas de Exchange</para></item><item><para>carpetas ocultos</para></item></list>
-          <para>Sólo puede llamar a <b>GetCustomIcon</b> desde el código que se ejecuta en proceso como Outlook. No se puede ordenar un objeto <b>StdPicture</b> a través de límites de proceso. Si intenta llamar a <b>GetCustomIcon</b> desde código fuera de proceso, se produce una excepción. Para obtener más información, vea <a href="http://support.microsoft.com/kb/150034">un servidor de automatización no puede pasar un puntero a la imagen implementación del objeto IPictureDisp a través de límites de proceso</a></para>
-          <para />
-        </remarks>
+              <para>Carpetas especiales (tal como aparecen en la <see cref="T:Microsoft.Office.Interop.Outlook.OlSpecialFolders" /> (enumeración))</para>
+            </item>
+            <item>
+              <para>Carpetas públicas de Exchange</para>
+            </item>
+            <item>
+              <para>Carpeta raíz para cualquier buzón de correo de Exchange</para>
+            </item>
+            <item>
+              <para>Carpetas ocultas</para>
+            </item>
+          </list>
+          <para><b>GetCustomIcon</b> sólo se puede llamar desde el código que se ejecuta en proceso como Outlook. Un objeto <b>StdPicture</b> no se puede ordenar a través de límites de proceso. Si intenta llamar a <b>GetCustomIcon</b> desde código fuera de proceso, se produce una excepción. Para obtener más información, vea <a href="http://support.microsoft.com/kb/150034">un servidor de automatización no puede pasar un puntero a la imagen implementación del objeto IPictureDisp a través de límites de proceso</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetExplorer">
@@ -652,12 +636,13 @@ End Sub</code>
         <param name="DisplayMode">Modo de presentación de la carpeta. Puede ser una de las constantes en el <see cref="T:Microsoft.Office.Interop.Outlook.OlFolderDisplayMode" /> (enumeración).</param>
         <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto que representa un objeto <b>Explorer</b> nuevo e inactivo inicializado con la carpeta especificada como carpeta actual.</summary>
         <returns>Un objeto <b>Explorer</b> que representa un Explorer nuevo e inactivo inicializado con la carpeta especificada como carpeta actual.</returns>
-        <remarks>
-          <para>Este método es útil para devolver un nuevo objeto <b>Explorer</b> en el que se va a mostrar la carpeta, en lugar de usar el <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> (método) y la configuración de la <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> (propiedad).</para>
-          <para>La <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Display" /> método puede usarse para activar o mostrar el objeto <b>Explorer</b>.</para>
+        <remarks><para>Este método es útil para devolver un nuevo objeto <b>Explorer</b> en el que se va a mostrar la carpeta, en lugar de usar el <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> (método) y la configuración de la <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> (propiedad).</para>
+          <para>El <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Display" /> método puede usarse para activar o mostrar el <b>Explorador</b>.</para>
           <para>El método <b>GetExplorer</b> toma un argumento opcional de un <b>OlFolderDisplayMode</b> constante.</para>
-          <para>De forma predeterminada, el nuevo objeto <b>Explorer</b> se mostrará en el modo Normal (<b>olFolderDisplayNormal</b>) con todos los elementos de la interfaz visibles: un panel de mensajes a la derecha y el panel de navegación de la izquierda. La excepción a esta regla es cuando se llama al <b>método GetExplorer</b> en carpetas delegadas que se encuentran en el modo No explorar (<b>olFolderDisplayNoNavigation</b> ) de forma predeterminada. Puede aplicar más restricciones a un modo predeterminado, pero no se puede reducir las restricciones al cambiar <b>OlFolderDisplayMode</b>.</para> También se puede mostrar 
-          <para>el explorador en modo sólo carpetas (<b>olFolderDisplayFolderOnly</b>). Este modo es básicamente el mismo que el modo Normal (<b>olFolderDisplayNormal</b> ) en que también muestra el panel de navegación a la izquierda.</para><para>El modo más restrictivo que puede utilizar es el modo No explorar (<b>olFolderDisplayNoNavigation</b>). En este modo, el <b>Explorador</b> se mostrará sin lista de carpetas, sin lista de carpetas de la lista desplegable y cualquier barra de comandos o de menú del tipo "Ir" deben deshabilitarse las opciones. Básicamente, el usuario no debe poder desplazarse a cualquier otra carpeta desde la ventana del <b>Explorador</b> . De forma predeterminada, aparece una carpeta (compartida) delegada en modo No explorar.</para><para /></remarks>
+          <para>De manera predeterminada, el nuevo objeto <b>Explorer</b> se mostrará en modo Normal (<b>olFolderDisplayNormal</b>) con todos los elementos de la interfaz visibles: un panel de mensajes a la derecha y el panel de navegación a la izquierda. La excepción a esta regla se produce cuando se llama al método <b>GetExplorer</b> en carpetas delegadas que no están en el modo No navegación (<b>olFolderDisplayNoNavigation</b> ) de forma predeterminada. Puede aplicar más restricciones a un modo predeterminado, pero no se pueden reducir las restricciones modificando <b>OlFolderDisplayMode</b>.</para>
+          <para>El explorador se puede mostrar también en modo Solo carpetas (<b>olFolderDisplayFolderOnly</b>). En esencia, este modo es idéntico al modo Normal (<b>olFolderDisplayNormal</b> ) ya que también muestra el panel de navegación a la izquierda.</para>
+          <para> El modo más restrictivo que puede usar es el modo No navegación (<b>olFolderDisplayNoNavigation</b>). En este modo, el objeto <b>Explorer</b> se mostrará sin lista de carpetas ni lista desplegable, y todas las opciones de barra de comandos o de menú del tipo "Ir" deben estar deshabilitadas. Básicamente, el usuario no debe poder navegar a ninguna otra carpeta dentro de esa ventana del objeto <b>Explorer</b>. De manera predeterminada, las carpetas delegadas (compartidas) aparecen en el modo No navegación.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetStorage">
@@ -688,31 +673,29 @@ End Sub</code>
         <param name="StorageIdentifierType">Especifica el tipo de identificador para el objeto <b>StorageItem</b>.</param>
         <summary>Obtiene un <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" /> objeto en el elemento primario <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> para almacenar datos de una solución de Outlook.</summary>
         <returns>Un objeto <b>StorageItem</b> que se usa para almacenar datos de una solución.</returns>
-        <remarks>
-          <para>El método <b>GetStorage</b> Obtiene un <b>StorageItem</b> en un objeto <b>Folder</b> usando el identificador especificado por <paramref name="StorageIdentifier" /> y ha especificado el tipo de identificador por <paramref name="StorageIdentifierType" />.    El <b>objeto StorageItem</b> es un elemento oculto en la <b>carpeta</b>, que se mueve con la cuenta y está disponible en línea y sin conexión.</para>
-          <para>Si se especifica el <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.EntryID" /> para <b>StorageItem</b> usando el valor <b>olIdentifyByEntryID</b> para <paramref name="StorageIdentifierType" />, a continuación, el método <b>GetStorage</b> devolverá <b>StorageItem</b> con el <b>EntryID</b>de especificado. Si no se encuentra ningún <b>StorageItem</b> usando dicho <b>EntryID</b> o si <b>StorageItem</b> no existe, el método <b>GetStorage</b> provocará un error.</para>
-          <para>Si se especifica la clase de mensaje para <b>StorageItem</b> usando el valor <b>olIdentifyByMessageClass</b> para <paramref name="StorageIdentifierType" />, a continuación, el método <b>GetStorage</b> devolverá <b>StorageItem</b> con la clase de mensaje especificado. Si hay varios elementos con la misma clase de mensaje, el método <b>GetStorage</b> devuelve el elemento con el más reciente <b>PidTagLastModificationTime</b>. Si existe ningún <b>objeto StorageItem</b> con la clase de mensaje especificado, a continuación, el método <b>GetStorage</b> crea un nuevo <b>objeto StorageItem</b> con la clase de mensaje especificada por <paramref name="StorageIdentifier" />.</para>
-          <para>Si se especifica la <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.Subject" /> de <b>StorageItem</b>y, a continuación, el <b>GetStorage</b> método devolverá el <b>objeto StorageItem</b> con el <b>Subject</b> especificado en la llamada a <b>GetStorage</b> . Si hay varios elementos con el mismo <b>asunto</b>, a continuación, el método <b>GetStorage</b> devolverá el elemento con el más reciente <b>PidTagLastModificationTime</b>. Si existe ningún <b>objeto StorageItem</b> con el <b>asunto</b>de especificado, a continuación, el método <b>GetStorage</b> creará un nuevo <b>objeto StorageItem</b> con el <b>Subject</b> especificado por <paramref name="StorageIdentifier" />.</para>
+        <remarks><para>El método <b>GetStorage</b> Obtiene un <b>StorageItem</b> en un objeto <b>Folder</b> usando el identificador especificado por <paramref name="StorageIdentifier" /> y ha especificado el tipo de identificador por <paramref name="StorageIdentifierType" />.    El <b>objeto StorageItem</b> es un elemento oculto en la <b>carpeta</b>, que se mueve con la cuenta y está disponible en línea y sin conexión.</para>
+          <para>Si especifica el <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.EntryID" /> para <b>StorageItem</b> usando el valor <b>olIdentifyByEntryID</b> para <paramref name="StorageIdentifierType" />, a continuación, el método <b>GetStorage</b> devolverá <b>StorageItem</b> con el <b>EntryID</b>de especificado. Si no se encuentra ningún <b>StorageItem</b> usando dicho <b>EntryID</b> o si <b>StorageItem</b> no existe, el método <b>GetStorage</b> provocará un error.</para>
+          <para>Si especifica la clase de mensaje para <b>StorageItem</b> usando el valor <b>olIdentifyByMessageClass</b> para <paramref name="StorageIdentifierType" />, a continuación, el método <b>GetStorage</b> devolverá <b>StorageItem</b> con la clase de mensaje especificado. Si hay varios elementos con la misma clase de mensaje, el método <b>GetStorage</b> devuelve el elemento con el más reciente <b>PidTagLastModificationTime</b>. Si existe ningún <b>objeto StorageItem</b> con la clase de mensaje especificado, a continuación, el método <b>GetStorage</b> crea un nuevo <b>objeto StorageItem</b> con la clase de mensaje especificada por <paramref name="StorageIdentifier" />.</para>
+          <para>Si especifica la <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.Subject" /> de <b>StorageItem</b>y, a continuación, el <b>GetStorage</b> método devolverá el <b>objeto StorageItem</b> con el <b>Subject</b> especificado en la llamada a <b>GetStorage</b> . Si hay varios elementos con el mismo <b>asunto</b>, a continuación, el método <b>GetStorage</b> devolverá el elemento con el más reciente <b>PidTagLastModificationTime</b>. Si existe ningún <b>objeto StorageItem</b> con el <b>asunto</b>de especificado, a continuación, el método <b>GetStorage</b> creará un nuevo <b>objeto StorageItem</b> con el <b>Subject</b> especificado por <paramref name="StorageIdentifier" />.</para>
           <para>
-            <b>GetStorage</b> devuelve un error si no se admite el tipo de almacén de la carpeta. Los siguientes almacenes de devuelven un error cuando se llama a <b>GetStorage</b> :</para>
+            <b>GetStorage</b> devuelve un error si no se admite el tipo de almacén de la carpeta. Los siguientes almacenes de devuelven un error cuando se llama a <b>GetStorage</b>:</para>
           <list type="bullet">
             <item>
-              <para>almacenar Hotmail</para>
+              <para>Almacén de Hotmail</para>
             </item>
             <item>
-              <para>almacena el protocolo de acceso a mensajes de Internet (IMAP)</para>
+              <para>Almacenes de Protocolo de acceso a mensajes de Internet (IMAP)</para>
             </item>
             <item>
-              <para>almacena delegado</para>
+              <para>Almacenes de delegado</para>
             </item>
             <item>
-              <para>almacenes de carpetas públicas</para>
+              <para>Almacenes de carpeta pública</para>
             </item>
           </list>
-          <para>el <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.Size" />de un <b>objeto StorageItem</b> recién creado es cero (0) hasta que realice una llamada explícita la <see cref="M:Microsoft.Office.Interop.Outlook._StorageItem.Save" /> método del elemento.</para>
+          <para>La <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.Size" /> de un <b>objeto StorageItem</b> recién creado es cero (0) hasta que realice una llamada explícita la <see cref="M:Microsoft.Office.Interop.Outlook._StorageItem.Save" /> método del elemento.</para>
           <para>Para obtener más información sobre cómo almacenar datos de una solución, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87931">Almacenar datos para soluciones</a></para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetTable">
@@ -742,14 +725,12 @@ End Sub</code>
         <param name="TableContents">Especifica el tipo de elementos en la carpeta que <b>GetTable</b> devuelve un objeto. El valor predeterminado es <b>olUserItems</b>. </param>
         <summary>Obtiene un <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto que contiene los elementos filtrados por <paramref name="Filter" />.</summary>
         <returns>Una <b>tabla</b> que contiene los elementos del objeto primario <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> que cumplen los criterios en <paramref name="Filter" />. De forma predeterminada, <paramref name="TableContents" /> es <b>olUserItems</b> y la <b>tabla</b> de devuelto contiene únicamente los elementos filtrados que no están ocultos.</returns>
-        <remarks>
-          <para>Si <paramref name="Filter" /> es una cadena en blanco o el <paramref name="Filter" /> se omite el parámetro, <b>GetTable</b> devuelve una <b>tabla</b> cuyas filas representan todos los elementos en la <b>carpeta</b>. Si <paramref name="Filter" /> es una cadena en blanco o el <paramref name="Filter" /> se omite el parámetro y <paramref name="TableContents" /> es <b>olHiddenItems</b>, <b>GetTable</b> devuelve una <b>tabla</b> cuyas filas representan todos los elementos ocultos en la <b>carpeta</b>.</para>
+        <remarks><para>Si <paramref name="Filter" /> es una cadena en blanco o el <paramref name="Filter" /> se omite el parámetro, <b>GetTable</b> devuelve una <b>tabla</b> cuyas filas representan todos los elementos en la <b>carpeta</b>. Si <paramref name="Filter" /> es una cadena en blanco o el <paramref name="Filter" /> se omite el parámetro y <paramref name="TableContents" /> es <b>olHiddenItems</b>, <b>GetTable</b> devuelve una <b>tabla</b> cuyas filas representan todos los elementos ocultos en la <b>carpeta</b>.</para>
           <para>Para obtener más información sobre los filtros, vea Filtrar elementos y hacer referencia a propiedades por Namespace.</para>
           <para>
-            <b>GetTable</b> devuelve una <b>tabla</b> con la columna predeterminada establecida para el tipo de carpeta de la <b>carpeta</b>principal. Para modificar el conjunto de columnas predeterminado, use el <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, o <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> métodos de la <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> objeto de la colección.  Cuando <paramref name="TableContents" /> es <b>olHiddenItems</b>, el conjunto de columnas predeterminado es siempre la columna predeterminado establecido para una carpeta de correo aunque el objeto primario <b>Folder</b> sea, por ejemplo, una carpeta de contactos.  Para obtener más información sobre conjuntos de columnas predeterminados, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87925">Propiedades predeterminadas mostradas en un objeto Table</a></para>
-          <para>puede usar <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> para aplicar filtros subsiguientes a una <b>tabla</b> que se basa en el objeto <b>Folder</b> .</para>
-          <para />
-        </remarks>
+            <b>GetTable</b> devuelve una <b>tabla</b> con la columna predeterminada establecida para el tipo de carpeta del <b>carpeta</b> principal. Para modificar el conjunto de columnas predeterminado, use el <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, o <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> métodos de la <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> objeto de la colección.  Cuando <paramref name="TableContents" /> es <b>olHiddenItems</b>, el conjunto de columnas predeterminado es siempre la columna predeterminado establecido para una carpeta de correo aunque el objeto primario <b>Folder</b> sea, por ejemplo, una carpeta de contactos.  Para obtener más información sobre conjuntos de columnas predeterminados, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87925">Propiedades predeterminadas mostradas en un objeto Table</a></para>
+          <para>Puede usar <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> para aplicar filtros subsiguientes a una <b>tabla</b> que se basa en el objeto <b>Folder</b> .</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="InAppFolderSyncObject">
@@ -780,12 +761,10 @@ End Sub</code>
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que determina si la carpeta especificada se sincronizará con el servidor de correo electrónico. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Si <b>es True</b>, esta carpeta será cuándo se sincronizan las carpetas de aplicación"" <see cref="T:Microsoft.Office.Interop.Outlook.SyncObject" /> está sincronizado. Si <b>es False</b>, no se sincronizará la carpeta. </para>
-          <para>Esto equivale a seleccionar la casilla de verificación para esta carpeta en el grupo de carpetas de aplicación en el cuadro de diálogo de envío o recepción.</para>
-          <para>Si esta propiedad se establece en <b>True</b>y el <b>objeto SyncObject</b> de "Carpetas de aplicación" ya no existe, un <b>objeto SyncObject</b> se crearán automáticamente. El <b>objeto SyncObject</b> de "Carpetas de aplicación" es el único grupo de envío o recepción que puede modificarse mediante programación.</para>
-          <para />
-        </remarks>
+        <remarks><para>Si <b>es True</b>, esta carpeta será cuándo se sincronizan las carpetas de aplicación"" <see cref="T:Microsoft.Office.Interop.Outlook.SyncObject" /> está sincronizado. Si <b>False</b>, no se sincronizará la carpeta. </para>
+          <para>Esto equivale a seleccionar la casilla de verificación de esta carpeta en el grupo de Carpetas de aplicación en el cuadro de diálogo de Envío o recepción.</para>
+          <para>Si esta propiedad se establece en <b>True</b> y el <b>objeto SyncObject</b> de "Carpetas de aplicación" no existe, se creará automáticamente un <b>objeto SyncObject</b>. El <b>objeto SyncObject</b> de "Carpetas de aplicación" es el único grupo de Envío o recepción que puede modificarse mediante programación.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsSharePointFolder">
@@ -811,12 +790,13 @@ End Sub</code>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <b>valor Boolean</b> (<b>bool</b> en C#) que determina si la carpeta es una carpeta de Microsoft SharePoint Foundation. Es de solo lectura</summary>
+        <summary>Devuelve un <b>valor Boolean</b> (<b>bool</b> en C#) que determina si la carpeta es una carpeta de Microsoft SharePoint Foundation. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A SharePoint Foundation carpeta es una carpeta personalizada de Outlook que contiene una copia activa de la lista de contactos o eventos que reside en un sitio Web de SharePoint Foundation. La lista de contactos se asigna a una carpeta de contactos de Outlook y la lista de eventos que se asigna a una carpeta de calendario. </para>
-          <para>Las carpetas de Windows SharePoint Services se crean automáticamente bajo el nodo carpetas de SharePoint en el panel de navegación cuando se exporta una lista de contactos o una lista de eventos desde el sitio Web de SharePoint Foundation.</para> Aunque SharePoint Foundation 
-          <para>carpetas funcionan del mismo modo que otras carpetas, hay algunas excepciones. Las carpetas de Windows SharePoint Services son de sólo lectura y cualquier intento de editar las propiedades de carpeta o agregar, editar, o eliminar elementos existentes se producirá un error. </para><para>Una carpeta en la carpeta del servidor de Microsoft Exchange del usuario nunca será una carpeta de Windows SharePoint Services y no hay ninguna carpeta en el archivo del usuario predeterminado carpetas personales (.pst) nunca será una carpeta de SharePoint Foundation. Normalmente, las carpetas de SharePoint Foundation estará bajo el nodo carpetas de SharePoint en el panel de navegación.</para><para /></remarks>
+        <remarks><para>Una carpeta de Microsoft SharePoint Foundation es una carpeta personalizada de Outlook que contiene una copia activa de la lista de contactos o de la lista de eventos que reside en un sitio web de SharePoint Foundation. La lista de contactos se corresponde con una carpeta Contactos de Outlook y la lista de eventos se corresponde con una carpeta Calendario. </para>
+          <para>Las carpetas de SharePoint Foundation se crean automáticamente en el nodo Carpetas de SharePoint del panel de navegación cuando se exporta una lista de contactos o una lista de eventos desde el sitio web de SharePoint Foundation.</para>
+          <para>Si bien las carpetas de SharePoint Foundation funcionan de la misma manera que otras carpetas, hay algunas excepciones. Las carpetas de SharePoint Foundation son de solo lectura y cualquier intento de editar las propiedades de carpeta o de agregar, editar o quitar elementos existentes generará un error. </para>
+          <para>Una carpeta en la carpeta del servidor de Microsoft Exchange del usuario nunca será una carpeta de Windows SharePoint Services y no hay ninguna carpeta en el archivo del usuario predeterminado carpetas personales (.pst) nunca será una carpeta de SharePoint Foundation. Las carpetas de SharePoint Foundation se encuentran normalmente bajo el nodo Carpetas de SharePoint en el panel de navegación.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Items">
@@ -842,12 +822,10 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.Items</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> objeto de la colección como una colección de elementos de Outlook en la carpeta especificada. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> objeto de la colección como una colección de elementos de Outlook en la carpeta especificada. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El índice de la colección de <b>elementos</b> comienza en 1 y no se garantiza que los elementos en el objeto de colección <b>Items</b> estén en un orden determinado.</para>
-          <para />
-        </remarks>
+        <remarks><para>El índice de la colección de <b>Items</b> comienza en 1 y no se garantiza que los elementos en el objeto de colección <b>Items</b> en ningún orden concreto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MAPIOBJECT">
@@ -906,10 +884,8 @@ End Sub</code>
       <Docs>
         <param name="DestinationFolder">La <b>carpeta</b> de destino para la <b>carpeta</b> que se va a mover.</param>
         <summary>Mueve una carpeta a la carpeta de destino especificada.</summary>
-        <remarks>
-          <para>Establecer el valor REG_MULTI_SZ, DisableCrossAccountCopy, en HKCU\Software\Microsoft\Office\14.0\Outlook en el registro de Windows tiene el efecto secundario de la deshabilitación de este método.</para>
-          <para />
-        </remarks>
+        <remarks><para>Establecer el valor REG_MULTI_SZ, DisableCrossAccountCopy, en HKCU\Software\Microsoft\Office\14.0\Outlook en el registro de Windows tiene el efecto secundario de la deshabilitación de este método.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -968,10 +944,8 @@ End Sub</code>
       <Docs>
         <summary>Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El elemento principal de la <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto es el <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> objeto de la colección.</para>
-          <para />
-        </remarks>
+        <remarks><para>El elemento principal de la <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto es el <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> objeto de la colección.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyAccessor">
@@ -997,7 +971,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto que admite la creación, obtener, establecer y eliminación de propiedades del objeto primario <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto que admite la creación, obtener, establecer y eliminación de propiedades del objeto primario <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1025,18 +999,16 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetCustomIcon">
@@ -1064,18 +1036,29 @@ End Sub</code>
       <Docs>
         <param name="Picture">Especifica el icono personalizado para la carpeta.</param>
         <summary>Establece un icono personalizado que se especifica por <paramref name="Picture" /> para la carpeta.</summary>
-        <remarks>
-          <para>El <see cref="T:stdole.StdPicture" /> objeto especificado por <paramref name="Picture" /> debe tener su propiedad <b>Type</b> igual a <b>PICTYPE_ICON</b> o <b>PICTYPE_BITMAP</b>. El recurso de icono o mapa de bits puede tener un tamaño máximo de 32 x 32. También se admiten los iconos de 16 x 16 o 24 x 24 y Microsoft Outlook puede incrementar la escalabilidad vertical un icono de 16 x 16 si Outlook se está ejecutando en modo alta puntos por pulgada (PPP). Los iconos de otros tamaños provocar <b>SetCustomIcon</b> devolver un error.</para>
-          <para>Se puede establecer un icono personalizado para una carpeta de búsqueda y para todas las carpetas que no representan un valor predeterminado o una carpeta especial. Si se intenta establecer un icono personalizado para una carpeta que pertenece a uno de los siguientes grupos de carpetas, <b>SetCustomIcon</b> devolverá un error:</para>
+        <remarks><para>El <see cref="T:stdole.StdPicture" /> objeto especificado por <paramref name="Picture" /> debe tener su propiedad <b>Type</b> igual a <b>PICTYPE_ICON</b> o <b>PICTYPE_BITMAP</b>. El recurso de icono o mapa de bits puede tener un tamaño máximo de 32 x 32. También se admiten los iconos de 16 x 16 o 24 x 24 y Microsoft Outlook puede incrementar la escalabilidad vertical un icono de 16 x 16 si Outlook se está ejecutando en modo alta puntos por pulgada (PPP). Iconos de otros tamaños provocar <b>SetCustomIcon</b> devolver un error.</para>
+          <para>Puede establecer un icono personalizado para una carpeta de búsqueda y para todas las carpetas que no representan un valor predeterminado o una carpeta especial. Si se intenta establecer un icono personalizado para una carpeta que pertenece a uno de los siguientes grupos de carpetas, <b>SetCustomIcon</b> devolverá un error:</para>
           <list type="bullet">
             <item>
-              <para>carpetas predeterminadas (tal como aparecen en la <see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" /> (enumeración))</para>
-            </item>(tal como aparecen en las carpetas
-            <item><para>especial el <see cref="T:Microsoft.Office.Interop.Outlook.OlSpecialFolders" /> (enumeración))</para></item>de
-            <item><para>la carpeta raíz de cualquier buzón de Exchange</para></item>de
-            <item><para>carpetas públicas de Exchange</para></item><item><para>carpetas ocultos</para></item></list>
-          <para>sólo puede llamar a <b>GetCustomIcon</b> desde el código que se ejecuta en proceso como Outlook. No se puede ordenar un objeto <b>StdPicture</b> a través de límites de proceso. Si intenta llamar a <b>GetCustomIcon</b> desde código fuera de proceso, se produce una excepción. Para obtener más información, vea <a href="http://support.microsoft.com/kb/150034">un servidor de automatización no puede pasar un puntero a la imagen implementación del objeto IPictureDisp a través de límites de proceso</a></para>icono
-          <para>la carpeta personalizada que se proporciona este método no se conserva más allá de la ejecución Sesión de Outlook. Complementos, por tanto, deben establecer el icono de carpeta personalizada cada vez que Outlook se inicia. </para><para>El icono de carpeta personalizada no aparece en otros clientes de Exchange, como Outlook Web Access ni aparece en Outlook que se ejecutan en un dispositivo Windows Mobile.</para><para /></remarks>
+              <para>Carpetas predeterminadas (tal como aparecen en la <see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" /> (enumeración))</para>
+            </item>
+            <item>
+              <para>Carpetas especiales (tal como aparecen en la <see cref="T:Microsoft.Office.Interop.Outlook.OlSpecialFolders" /> (enumeración))</para>
+            </item>
+            <item>
+              <para>Carpetas públicas de Exchange</para>
+            </item>
+            <item>
+              <para>Carpeta raíz para cualquier buzón de correo de Exchange</para>
+            </item>
+            <item>
+              <para>Carpetas ocultas</para>
+            </item>
+          </list>
+          <para><b>GetCustomIcon</b> sólo se puede llamar desde el código que se ejecuta en proceso como Outlook. Un objeto <b>StdPicture</b> no se puede ordenar a través de límites de proceso. Si intenta llamar a <b>GetCustomIcon</b> desde código fuera de proceso, se produce una excepción. Para obtener más información, vea <a href="http://support.microsoft.com/kb/150034">un servidor de automatización no puede pasar un puntero a la imagen implementación del objeto IPictureDisp a través de límites de proceso</a></para>
+          <para>El icono de carpeta personalizada que proporciona este método no persiste más allá de la sesión de Outlook que se está ejecutando. Por lo tanto, los complementos deben configurar el icono de la carpeta personalizada cada vez que arranca Outlook.</para>
+          <para>El icono de carpeta personalizada no aparece en otros clientes de Exchange, como Outlook Web Access, ni en Outlook que se ejecuta en un dispositivo con Windows Mobile.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowAsOutlookAB">
@@ -1106,12 +1089,10 @@ End Sub</code>
       <Docs>
         <summary>Devuelve o establece un valor <b>booleano</b> (<b>bool</b> en C#) que especifica si se mostrará la carpeta de elementos de contacto como una lista de direcciones en la libreta de direcciones de Outlook. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Si establece la propiedad <b>ShowAsOutlookAB</b> de una carpeta de elementos de contacto en <b>False</b>, no estará disponible en la lista desplegable en la libreta de direcciones en el cuadro de diálogo Libreta de direcciones.</para>
+        <remarks><para>Si establece la propiedad <b>ShowAsOutlookAB</b> de una carpeta de elementos de contacto en <b>False</b>, no estará disponible en la lista desplegable en la Libreta de direcciones en el cuadro de diálogo Libreta de direcciones.</para>
           <para>
-            <b>ShowAsOutlookAB</b> no admite carpetas de buzón de otro usuario de Exchange, por ejemplo, una carpeta de contactos es compartida por otro usuario. Al obtener o establecer esta propiedad en una carpeta de este tipo no producirá los resultados esperados.</para>
-          <para />
-        </remarks>
+            <b>ShowAsOutlookAB</b> no admite carpetas en el buzón de otro usuario de Exchange, por ejemplo, una carpeta de contactos es compartida por otro usuario. Al obtener o establecer esta propiedad en una carpeta de este tipo no producen los resultados esperados.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowItemCount">
@@ -1142,10 +1123,8 @@ End Sub</code>
       <Docs>
         <summary>Establece o devuelve una constante en el <see cref="T:Microsoft.Office.Interop.Outlook.OlShowItemCount" /> (enumeración) que indica si se debe mostrar el número de mensajes no leídos de la carpeta o el número total de elementos de la carpeta en el panel de navegación. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>ShowItemCount</b> no funciona con carpetas públicas.</para>
-          <para />
-        </remarks>
+        <remarks><para>La propiedad <b>ShowItemCount</b> no funciona con carpetas públicas.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Store">
@@ -1171,12 +1150,10 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.Store</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto que representa el almacén que contiene el <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto que representa el almacén que contiene el <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad devuelve un objeto <b>Store</b> salvo en el caso de que la <b>carpeta</b> es una carpeta compartida (devuelta por <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />). En este caso, un usuario ha delegado acceso a una carpeta predeterminada a otro usuario; llama a <b>Folder.Store</b> devolverá <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad devuelve un objeto <b>Store</b> salvo en el caso de que la <b>carpeta</b> es una carpeta compartida (devuelta por <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />). En este caso, un usuario ha delegado acceso a una carpeta predeterminada a otro usuario; llama a <b>Folder.Store</b> devolverá <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StoreID">
@@ -1202,7 +1179,7 @@ End Sub</code>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que indica el identificador de almacén de la carpeta. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que indica el identificador de almacén de la carpeta. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1230,7 +1207,7 @@ End Sub</code>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de elementos no leídos en la carpeta. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de elementos no leídos en la carpeta. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1258,7 +1235,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.UserDefinedProperties</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" /> object que representa las propiedades personalizadas definidas por el usuario para la <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" /> object que representa las propiedades personalizadas definidas por el usuario para la <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1317,7 +1294,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.Views</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> colección de la <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> colección de la <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1387,13 +1364,11 @@ End Sub</code>
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que indica el estado de vista Web para una carpeta.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Devuelve <b>True</b> para mostrar la página Web especificada por el <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" /> (propiedad).</para>
-          <para>Microsoft Outlook usa el motor de representación de la versión de Windows Internet Explorer instalada en el equipo cliente para mostrar la página web. Si el Explorador de Internet no está instalado en el equipo cliente, Outlook no mostrará la página web.</para>
+        <remarks><para>Devuelve <b>True</b> para mostrar la página Web especificada por el <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" /> (propiedad).</para>
+          <para>Microsoft Outlook usa el motor de representación de la versión de Windows Internet Explorer instalada en el equipo cliente para mostrar la página web. Si Internet Explorer no está instalado en el equipo cliente, Outlook no muestra la página web.</para>
           <para>Esta propiedad es siempre <b>False</b> si el valor de la propiedad <b>WebViewURL</b> está vacío.</para>
-          <para>Además, si se establece la propiedad <b>WebViewOn</b> en <b>True</b> antes de establecer la propiedad <b>WebViewURL</b> , no mostrará la página de inicio especificada en la propiedad <b>WebViewURL</b> .</para>
-          <para />
-        </remarks>
+          <para>Además, establecer el <b>WebViewOn</b> propiedad en <b>True</b> antes de establecer la propiedad <b>WebViewURL</b> no mostrará la página de inicio especificada en la propiedad <b>WebViewURL</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="WebViewURL">

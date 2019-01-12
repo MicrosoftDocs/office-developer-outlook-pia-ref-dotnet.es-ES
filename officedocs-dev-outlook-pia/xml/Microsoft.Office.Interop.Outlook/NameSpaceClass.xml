@@ -1,13 +1,5 @@
 <Type Name="NameSpaceClass" FullName="Microsoft.Office.Interop.Outlook.NameSpaceClass">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ac6a0c726a290f8d36429f19b24081080ab0d3bf" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642790" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public class NameSpaceClass : Microsoft.Office.Interop.Outlook.NameSpace" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5aa70cfa4f7c907f279675e467797efaeb4524a9" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897517" /></Metadata><TypeSignature Language="C#" Value="public class NameSpaceClass : Microsoft.Office.Interop.Outlook.NameSpace" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi NameSpaceClass extends System.Object implements class Microsoft.Office.Interop.Outlook._NameSpace, class Microsoft.Office.Interop.Outlook.NameSpace, class Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NameSpaceClass" />
   <TypeSignature Language="VB.NET" Value="Public Class NameSpaceClass&#xA;Implements NameSpace" />
@@ -781,10 +773,8 @@
         <param name="FolderType">To be added.</param>
         <summary>Esto es una clase .NET o un miembro de una clase de .NET que se crean cuando se procesa una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta clase sólo cuando debe tener acceso a un evento anterior en esta clase que se ha extendido posteriormente en una versión posterior de Outlook. De lo contrario, use la interfaz de .NET derivada de la coclase COM. Para obtener información acerca de la interfaz. NET, consulte <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />.</summary>
         <returns>To be added.</returns>
-        <remarks>
-          <para>Si la carpeta predeterminada del tipo solicitado no existe, dependiendo del tipo, Outlook puede crear y devolver la carpeta, o puede producir un error. Por ejemplo, si olFolderManagedEmail se especifica como el FolderType pero no se ha implementado el grupo de carpetas administradas, Outlook genera un error.</para>
-          <para />
-        </remarks>
+        <remarks><para>Si no existe la carpeta predeterminada del tipo solicitado, en función del tipo, Outlook puede crear y devolver la carpeta o puede generar un error. Por ejemplo, si olFolderManagedEmail se especifica como el FolderType pero no se ha implementado el grupo de carpetas administradas, Outlook genera un error.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetFolderFromID">

@@ -1,13 +1,5 @@
 <Type Name="_OlkTimeZoneControl" FullName="Microsoft.Office.Interop.Outlook._OlkTimeZoneControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="634eab2d4b9fd488a079b785a9e53badada48a71" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20641951" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkTimeZoneControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="634eab2d4b9fd488a079b785a9e53badada48a71" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902792" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkTimeZoneControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkTimeZoneControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkTimeZoneControl" />
@@ -58,10 +50,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlAppointmentTimeField" /> constante que especifica el campo de hora de la cita que se enlaza el control contra.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Este control no admite el enlace de datos estándar.</para>
-          <para />
-        </remarks>
+        <remarks><para>Este control no admite el enlace estándar de datos.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BorderStyle">
@@ -92,10 +82,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> constante que define el estilo de borde que rodea el control.   Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olBorderStyleSingle</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olBorderStyleSingle</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DropDown">
@@ -120,10 +108,8 @@
       <Parameters />
       <Docs>
         <summary>Expande la parte desplegable del control de zona horaria.</summary>
-        <remarks>
-          <para>Simula el usuario hace clic en el botón de lista desplegable en el control. Este método hace que el <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.DropButtonClick" /> evento se desencadene.</para>
-          <para />
-        </remarks>
+        <remarks><para>Simula la acción del usuario al hacer clic en el botón del control. Este método hace que el <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.DropButtonClick" /> evento se desencadene.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -154,10 +140,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que indica si el control puede funcionar. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Locked">
@@ -188,7 +172,9 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si el control está bloqueado desde que se está cambiando. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>Valor <para>el valor predeterminado es <b>False</b>.  </para><para>Cuando el control está bloqueado, el control no tiene un aspecto "deshabilitado", pero el usuario no puede editar el contenido del control.   </para><para /></remarks>
+        <remarks><para>El valor predeterminado es <b>False</b>.</para>
+          <para>Cuando el control está bloqueado, no parece que esté "deshabilitado", pero el usuario no puede modificar su contenido.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -219,10 +205,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>StdPicture</b> que representa la imagen personalizada en el cursor del mouse para este control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -253,10 +237,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constante que especifica el tipo de puntero mostrado cuando el usuario coloca el mouse sobre el control.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olMousePointerDefault</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olMousePointerDefault</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectedTimeZoneIndex">
@@ -287,11 +269,9 @@
       <Docs>
         <summary>Devuelve o establece un <b>número entero</b> (<b>int</b> en C#) que representa el índice en la <see cref="P:Microsoft.Office.Interop.Outlook._Application.TimeZones" /> colección que determina la zona horaria seleccionada. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>Base de SelectedTimeZoneIndex</b> es 1 y un valor de cero (0) significa que no se ha seleccionado ninguna zona horaria.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">

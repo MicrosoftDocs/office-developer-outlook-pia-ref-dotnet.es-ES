@@ -1,13 +1,5 @@
 <Type Name="Exception" FullName="Microsoft.Office.Interop.Outlook.Exception">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9b115b7a385cbe53cefdab4d3a549f6f64635e72" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642671" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Exception" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="47943f3ce7b614b555767c32ad8d514efe3bf2b1" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899988" /></Metadata><TypeSignature Language="C#" Value="public interface Exception" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Exception" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Exception" />
   <TypeSignature Language="VB.NET" Value="Public Interface Exception" />
@@ -27,14 +19,12 @@
   </Attributes>
   <Docs>
     <summary>Representa información sobre una instancia de un <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto que es una excepción a una serie periódica.</summary>
-    <remarks>
-      <para>A diferencia de la mayoría de los otros objetos de Microsoft Outlook, el objeto <b>Exception</b> es un objeto de sólo lectura. Esto significa que no se puede crear un objeto <b>Exception</b> , pero, en su lugar, el objeto se crea cuando se modifica una propiedad de un <b>objeto AppointmentItem</b> . Por ejemplo, si cambia el <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> (propiedad) de un <b>objeto AppointmentItem</b>, habrá creado una <b>excepción</b> en <b>AppointmentItem.RecurrencePattern.Exceptions</b>.</para>
+    <remarks><para> A diferencia de los demás objetos de Microsoft Outlook, el objeto <b>Exception</b> es un objeto de sólo lectura. Esto significa que no se puede crear un objeto de <b>excepción</b> pero, en su lugar, el objeto se crea cuando se altera una propiedad de un <b>objeto AppointmentItem</b>. Por ejemplo, si cambia el <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> (propiedad) de un <b>objeto AppointmentItem</b>, habrá creado una <b>excepción</b> en <b>AppointmentItem.RecurrencePattern.Exceptions</b>.</para>
       <para>
         <b>Nota</b>: el <see cref="T:Microsoft.Office.Interop.Outlook.Exceptions" /> objeto se encuentra en la <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> , no el propio objeto <b>AppointmentItem</b> .</para>
-      <para>Cuando se trabaja con elementos de cita periódica, debe liberar cualquier antes de referencias, obtener nuevas referencias para el elemento de cita periódica antes de obtener acceso o modificar el elemento y liberar estas referencias tan pronto como terminado y se ha guardado el cambios. Esta práctica se aplica a la periódica <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto y cualquier <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> o <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> objeto. Para liberar una referencia en Visual Basic, establezca ese objeto existente en <b>Nothing</b>. En C#, liberar explícitamente la memoria para ese objeto. </para>
-      <para>Tenga en cuenta que incluso después de la referencia de la versión e intente obtener una referencia al nuevo, si aún no hay una referencia activa, llevada a cabo por otro complemento o Outlook a uno de los objetos anteriores, la nueva referencia aún pueden apuntar a una copia caducada de la objeto. Por lo tanto, es importante liberar sus referencias tan pronto como haya terminado con la cita periódica.</para>
-      <para />
-    </remarks>
+      <para>Cuando se trabaja con elementos de citas periódicas, debe liberar todas las referencias anteriores, obtener nuevas referencias al elemento de cita periódico antes de tener acceso o modificar el elemento y liberar estas referencias, tan pronto como termine y haya guardado los cambios. Esta práctica se aplica a la periódica <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto y cualquier <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> o <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> objeto. Para liberar una referencia en Visual Basic, establezca ese objeto existente en <b>Nothing</b>. En C#, libere explícitamente la memoria para ese objeto. </para>
+      <para>Tenga en cuenta que incluso después de liberar la referencia e intentar obtener una nueva, si aún hay una referencia activa a uno de los objetos anteriores, mantenida por otro complemento o Outlook, la nueva referencia puede apuntar a una copia obsoleta del objeto. Por lo tanto, es importante liberar las referencias cuando termine con la cita periódica.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -60,7 +50,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -90,11 +80,9 @@
       <Docs>
         <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto que es la excepción. No es válido para las citas eliminadas. Es de sólo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Cuando se trabaja con elementos de cita periódica, debe liberar cualquier antes de referencias, obtener nuevas referencias para el elemento de cita periódica antes de obtener acceso o modificar el elemento y liberar estas referencias tan pronto como terminado y se ha guardado el cambios. Esta práctica se aplica a la periódica <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto y cualquier <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> o <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> objeto. Para liberar una referencia en Visual Basic, establezca ese objeto existente en <b>Nothing</b>. En C#, liberar explícitamente la memoria para ese objeto. </para>
-          <para>Tenga en cuenta que incluso después de la referencia de la versión e intente obtener una referencia al nuevo, si aún no hay una referencia activa, llevada a cabo por otro complemento o Outlook a uno de los objetos anteriores, la nueva referencia aún señalará a una copia del objeto caducada . Por lo tanto, es importante liberar sus referencias tan pronto como haya terminado con la cita periódica.</para>
-          <para />
-        </remarks>
+        <remarks><para>Cuando se trabaja con elementos de citas periódicas, debe liberar todas las referencias anteriores, obtener nuevas referencias al elemento de cita periódico antes de tener acceso o modificar el elemento y liberar estas referencias, tan pronto como termine y haya guardado los cambios. Esta práctica se aplica a la periódica <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> objeto y cualquier <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> o <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> objeto. Para liberar una referencia en Visual Basic, establezca ese objeto existente en <b>Nothing</b>. En C#, libere explícitamente la memoria para ese objeto. </para>
+          <para>Tenga en cuenta que incluso después de liberar la referencia e intentar obtener una nueva, si aún hay una referencia activa a uno de los objetos anteriores, mantenida por otro complemento o Outlook, la nueva referencia puede apuntar a una copia obsoleta del objeto. Por lo tanto, es importante liberar las referencias cuando termine con la cita periódica.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -120,7 +108,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -263,18 +251,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

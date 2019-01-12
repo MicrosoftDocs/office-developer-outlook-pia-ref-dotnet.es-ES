@@ -1,13 +1,5 @@
 <Type Name="OlkTimeZoneControl" FullName="Microsoft.Office.Interop.Outlook.OlkTimeZoneControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="50bfd42f60ae3c7bd0edffbf6b1ad877dd6ddd26" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642924" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkTimeZoneControl : Microsoft.Office.Interop.Outlook._OlkTimeZoneControl, Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="39efe87db427ad99a3ea7a5d45fd528e7acf508e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904640" /></Metadata><TypeSignature Language="C#" Value="public interface OlkTimeZoneControl : Microsoft.Office.Interop.Outlook._OlkTimeZoneControl, Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkTimeZoneControl implements class Microsoft.Office.Interop.Outlook._OlkTimeZoneControl, class Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkTimeZoneControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkTimeZoneControl&#xA;Implements _OlkTimeZoneControl, OlkTimeZoneControlEvents_Event" />
@@ -34,13 +26,11 @@
   </Attributes>
   <Docs>
     <summary>Este control permite una selección efectuada en una lista de zonas horarias.</summary>
-    <remarks>
-      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl" />. Para obtener información acerca de los miembros de evento del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event" />.</para>
-      <para>Antes de utilizar este control por primera vez en el Diseñador de formularios, agregue el Control de zona horaria de Microsoft Outlook al cuadro de herramientas de control. Sólo se puede agregar este control a un área de formulario en un formulario de Outlook mediante el Diseñador de formularios; no se puede agregar este control a un objeto UserForm de Visual Basic en el Editor de Visual Basic.</para>
-      <para>El siguiente es un ejemplo de un control de zona horaria.  Los datos de zona horaria pueden obtenerse de la clave del registro de Windows HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time Zones.</para>
-      <para>Si un elemento de cita se creó originalmente con un valor de zona horaria que ya no existe, la hora de la cita se convertirá a la zona horaria local actual.</para>
-      <para />
-    </remarks>
+    <remarks><para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl" />. Para obtener información acerca de los miembros de evento del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event" />.</para>
+      <para>Antes de usar este control por primera vez en el diseñador de formularios, agregue el control de zona horaria de Microsoft Outlook al cuadro de controles. Solo puede agregar este control a un área de un formulario de Outlook mediante el diseñador de formularios; no puede agregarlo a un objeto UserForm de Visual Basic en el Editor de Visual Basic.</para>
+      <para>A continuación se muestra un ejemplo de un control time zone. Los datos de la zona horaria pueden obtenerse de la clave del Registro de Windows HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time Zones.</para>
+      <para>Si un elemento de cita se creó con un valor de zona horaria que ya no existe, la hora de la cita se convertirá en la zona horaria local.</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

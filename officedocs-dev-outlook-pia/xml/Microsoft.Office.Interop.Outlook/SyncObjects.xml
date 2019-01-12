@@ -1,13 +1,5 @@
 <Type Name="SyncObjects" FullName="Microsoft.Office.Interop.Outlook.SyncObjects">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="897801400bda22ee1d2c19d30674ead29210e33e" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643256" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SyncObjects : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b6347fd733986d34504b47f33826a031314444d2" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905732" /></Metadata><TypeSignature Language="C#" Value="public interface SyncObjects : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SyncObjects implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.SyncObjects" />
   <TypeSignature Language="VB.NET" Value="Public Interface SyncObjects&#xA;Implements IEnumerable" />
@@ -31,9 +23,9 @@
   </Attributes>
   <Docs>
     <summary>Contiene un conjunto de <see cref="T:Microsoft.Office.Interop.Outlook.SyncObject" /> objetos que representan los grupos de envío o recepción de un usuario.</summary>
-    <remarks>
-      <para>Usar el <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.SyncObjects" /> propiedad para devolver el objeto <b>SyncObjects</b> de un <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto.</para> Objeto 
-      <para>el <b>SyncObjects</b> es de sólo lectura. No se puede agregar un elemento a la colección. Sin embargo, tenga en cuenta que se puede agregar un grupo de envío o recepción mediante la propiedad <b>AppFolders</b> , que creará un grupo de envío o recepción denominado carpetas de aplicación.</para><para /></remarks>
+    <remarks><para>Usar el <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.SyncObjects" /> propiedad para devolver el objeto <b>SyncObjects</b> de un <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto.</para>
+      <para>El objeto <b>SyncObjects</b> es de sólo lectura. No se puede agregar un elemento a la colección. Sin embargo, tenga en cuenta que se puede agregar un grupo de envío o recepción mediante la propiedad <b>AppFolders</b> , que creará un grupo de envío o recepción denominado carpetas de aplicación.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="AppFolders">
@@ -59,12 +51,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.SyncObject</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Esta propiedad devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.SyncObject" /> de carpetas de aplicación. Es de solo lectura</summary>
+        <summary>Esta propiedad devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.SyncObject" /> de carpetas de aplicación. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El <b>objeto SyncObject</b> es donde se agregan automáticamente las carpetas cuando la propiedad <b>InAppFolderSyncObject</b> del objeto <b>Folder</b> se establece en <b>True</b>. El <b>objeto SyncObject</b> permite a los usuarios sincronizar las carpetas de Microsoft Outlook, libretas de direcciones y las páginas principales de carpeta para uso sin conexión.</para>
-          <para />
-        </remarks>
+        <remarks><para>El <b>objeto SyncObject</b> es donde se agregan automáticamente las carpetas cuando la propiedad <b>InAppFolderSyncObject</b> del objeto <b>Folder</b> se establece en <b>True</b>. El <b>objeto SyncObject</b> permite a los usuarios sincronizar las carpetas de Microsoft Outlook, libretas de direcciones y páginas principales de carpeta para uso sin conexión.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -90,7 +80,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -118,7 +108,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -146,7 +136,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -234,12 +224,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, las siguientes instrucciones tienen la misma función:</para>
-          <para />
-        </remarks>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, las siguientes instrucciones tienen la misma función:</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

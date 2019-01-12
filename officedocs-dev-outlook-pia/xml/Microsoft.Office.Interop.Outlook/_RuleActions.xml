@@ -1,13 +1,5 @@
 <Type Name="_RuleActions" FullName="Microsoft.Office.Interop.Outlook._RuleActions">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7b0d9621b3685ab22d601175636ec9ed19292022" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642623" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _RuleActions : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7b0d9621b3685ab22d601175636ec9ed19292022" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902162" /></Metadata><TypeSignature Language="C#" Value="public interface _RuleActions : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _RuleActions implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._RuleActions" />
   <TypeSignature Language="VB.NET" Value="Public Interface _RuleActions&#xA;Implements IEnumerable" />
@@ -57,7 +49,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -85,13 +77,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction.ActionType" /><b>olRuleAssignToCategory</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction.ActionType" /> <b>olRuleAssignToCategory</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Utilice el objeto <b>AssignToCategoryRuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que asigne categorías a un mensaje.</para>
+        <remarks><para>Utilice el objeto <b>AssignToCategoryRuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que asigne categorías a un mensaje.</para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>AssignToCategoryRuleAction</b> independientemente de si la regla asociada a esta colección <b>RuleActions</b> ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, <see cref="P:Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CC">
@@ -117,13 +107,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.SendRuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /><b>olRuleActionCcMessage</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /> <b>olRuleActionCcMessage</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Utilice el objeto <b>SendRuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que especifica un mensaje a determinados destinatarios cc-ador como una acción. </para>
+        <remarks><para>Utilice el objeto <b>SendRuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que especifica un mensaje a determinados destinatarios cc-ador como una acción. </para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>SendRuleAction</b> independientemente de si la regla asociada a esta colección <b>RuleActions</b> ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -149,7 +137,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -177,13 +165,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /><b>olRuleActionClearCategories</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> <b>olRuleActionClearCategories</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Utilice el objeto <b>RuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una regla que especifica la eliminación de todas las categorías de un mensaje como una acción.   </para>
+        <remarks><para>Utilice el objeto <b>RuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una regla que especifica la eliminación de todas las categorías de un mensaje como una acción.   </para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>RuleAction</b> , independientemente de si la regla asociada a esta colección <b>RuleActions</b> ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" /> será <b>True</b>.  </para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CopyToFolder">
@@ -209,13 +195,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.ActionType" /><b>olRuleActionCopyToFolder</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.ActionType" /> <b>olRuleActionCopyToFolder</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Utilice el objeto <b>MoveOrCopyRuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que copiar un mensaje a una carpeta específica como una acción. </para>
+        <remarks><para>Utilice el objeto <b>MoveOrCopyRuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que copiar un mensaje a una carpeta específica como una acción. </para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>MoveOrCopyRuleAction</b> , independientemente de si la regla asociada a esta colección <b>RuleActions</b> ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -241,12 +225,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Puede enumerar la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección desde 1 hasta <b>RuleActions.Count</b> para determinar todas las acciones de regla de una regla existente. Aunque el modelo de objetos de reglas admite la creación de reglas con sólo la mayoría comunes no todas las acciones de regla admitidas por las reglas y el Asistente para alertas y acciones de regla, la colección <b>RuleActions</b> incluye todas las acciones de regla de una regla. Por lo tanto, siempre puede enumerar el objeto de colección <b>RuleActions</b> para determinar qué acciones de regla que están habilitadas para una regla existente.</para>
-          <para />
-        </remarks>
+        <remarks><para>Puede enumerar la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección desde 1 hasta <b>RuleActions.Count</b> para determinar todas las acciones de regla de una regla existente. Aunque el modelo de objetos de reglas admite la creación de reglas con sólo la mayoría comunes acciones de regla y no todas las acciones de regla admitidas por las reglas y el Asistente de alertas, la colección <b>RuleActions</b> incluye todas las acciones de regla de una regla. Por lo tanto, siempre puede enumerar el objeto de colección <b>RuleActions</b> para determinar las acciones de regla que están habilitadas para una regla existente.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -272,13 +254,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /><b>olRuleActionDelete</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> <b>olRuleActionDelete</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Utilice el objeto <b>RuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que especifica la eliminación de un mensaje como una acción. </para>
+        <remarks><para>Utilice el objeto <b>RuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que especifica la eliminación de un mensaje como una acción. </para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>RuleAction</b> , independientemente de si la regla asociada a esta colección <b>RuleActions</b> ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeletePermanently">
@@ -304,13 +284,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /><b>olRuleActionDeletePermanently</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> <b>olRuleActionDeletePermanently</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Utilice el objeto <b>RuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que especifica la eliminación de un mensaje de forma permanente como una acción. </para>
+        <remarks><para>Utilice el objeto <b>RuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que especifica la eliminación de un mensaje de forma permanente como una acción. </para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>RuleAction</b> , independientemente de si la regla asociada a esta colección <b>RuleActions</b> ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DesktopAlert">
@@ -336,13 +314,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /><b>olRuleActionDesktopAlert</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> <b>olRuleActionDesktopAlert</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Utilice el objeto <b>RuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que consista en mostrar una alerta de escritorio como una acción. </para>
+        <remarks><para>Utilice el objeto <b>RuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que consista en mostrar una alerta de escritorio como una acción. </para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>RuleAction</b> , independientemente de si la regla asociada a esta colección <b>RuleActions</b> ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Forward">
@@ -368,13 +344,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.SendRuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /><b>olRuleActionForward</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /> <b>olRuleActionForward</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Utilice el objeto <b>SendRuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que consista en reenviar un mensaje a determinados destinatarios como una acción. </para>
+        <remarks><para>Utilice el objeto <b>SendRuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que consista en reenviar un mensaje a determinados destinatarios como una acción. </para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>SendRuleAction</b> independientemente de si la regla asociada a esta colección <b>RuleActions</b> ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ForwardAsAttachment">
@@ -400,13 +374,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.SendRuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /><b>olRuleActionForwardAsAttachment</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /> <b>olRuleActionForwardAsAttachment</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Utilice el objeto <b>SendRuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que consista en reenviar un mensaje como datos adjuntos a determinados destinatarios como una acción. </para>
+        <remarks><para>Utilice el objeto <b>SendRuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que consista en reenviar un mensaje como datos adjuntos a determinados destinatarios como una acción. </para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>SendRuleAction</b> independientemente de si la regla asociada a esta colección <b>RuleActions</b> ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -438,10 +410,8 @@
         <param name="Index">Valor numérico de base 1 que refleja la posición ordinal de una acción de regla dentro de la colección <b>RuleActions</b> . Por ejemplo, el valor de índice de la primera acción de regla de la colección es 1, y el valor de índice de la segunda acción de regla es 2.</param>
         <summary>Obtiene un <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> objeto especificado por <paramref name="Index" /> que es un índice numérico en la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección.</summary>
         <value>Un objeto <b>RuleAction</b> que coincide con la acción de regla especificada por <paramref name="Index" />.</value>
-        <remarks>
-          <para>El objeto de colección <b>RuleActions</b> es una colección fija. Contiene objetos <b>RuleAction</b> u objetos derivados de <b>RuleAction</b>. No se puede agregar o quitar elementos de esta colección, pero se puede usar el <b>elemento</b> para enumerar los elementos de acción de regla y establecer el <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" /> (propiedad) de la acción de regla. Cuando se usa el <b>elemento</b> para enumerar la colección, puede enumerar <paramref name="Index" /> de 1 a <see cref="P:Microsoft.Office.Interop.Outlook._RuleActions.Count" />.</para>
-          <para />
-        </remarks>
+        <remarks><para>El objeto de colección <b>RuleActions</b> es una colección fija. Contiene objetos <b>RuleAction</b> u objetos derivados de <b>RuleAction</b>. No se puede agregar o quitar elementos de esta colección, pero se puede usar el <b>elemento</b> para enumerar los elementos de acción de regla y establecer el <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" /> (propiedad) de la acción de regla. Cuando se usa el <b>elemento</b> para enumerar la colección, puede enumerar <paramref name="Index" /> de 1 a <see cref="P:Microsoft.Office.Interop.Outlook._RuleActions.Count" />.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MarkAsTask">
@@ -467,13 +437,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.MarkAsTaskRuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.MarkAsTaskRuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction.ActionType" /><b>olRuleActionMarkAsTask</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.MarkAsTaskRuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction.ActionType" /> <b>olRuleActionMarkAsTask</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Utilice el objeto <b>MarkAsTaskRuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que especifica la acción de marcar un mensaje como tarea. </para>
+        <remarks><para>Utilice el objeto <b>MarkAsTaskRuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que especifica la acción de marcar un mensaje como tarea. </para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>MarkAsTaskRuleAction</b> independientemente de si la regla asociada a esta colección <b>RuleActions</b> ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, <see cref="P:Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MoveToFolder">
@@ -499,13 +467,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.ActionType" /><b>olRuleActionMoveToFolder</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.ActionType" /> <b>olRuleActionMoveToFolder</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Utilice el objeto <b>MoveOrCopyRuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que copiar un mensaje a una carpeta específica como una acción. </para>
+        <remarks><para>Utilice el objeto <b>MoveOrCopyRuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que copiar un mensaje a una carpeta específica como una acción. </para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>MoveOrCopyRuleAction</b> , independientemente de si la regla asociada a esta colección <b>RuleActions</b> ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NewItemAlert">
@@ -531,13 +497,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NewItemAlertRuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.NewItemAlertRuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._NewItemAlertRuleAction.ActionType" /><b>olRuleActionNewItemAlert</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.NewItemAlertRuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._NewItemAlertRuleAction.ActionType" /> <b>olRuleActionNewItemAlert</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Utilice el objeto <b>NewItemAlertRuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que consista en mostrar una alerta para un nuevo elemento como una acción. </para>
+        <remarks><para>Utilice el objeto <b>NewItemAlertRuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que consista en mostrar una alerta para un nuevo elemento como una acción. </para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>NewItemAlertRuleAction</b> independientemente de si la regla asociada a esta colección <b>RuleActions</b> ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, <see cref="P:Microsoft.Office.Interop.Outlook._NewItemAlertRuleAction.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NotifyDelivery">
@@ -563,13 +527,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /><b>olRuleActionNotifyDelivery</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> <b>olRuleActionNotifyDelivery</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Utilice el objeto <b>RuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que cuya acción consista en notificar la entrega de un mensaje. </para>
+        <remarks><para>Utilice el objeto <b>RuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que cuya acción consista en notificar la entrega de un mensaje. </para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>RuleAction</b> , independientemente de si la regla asociada a esta colección <b>RuleActions</b> ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NotifyRead">
@@ -595,13 +557,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /><b>olRuleActionNotifyRead</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> <b>olRuleActionNotifyRead</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Utilice el objeto <b>RuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que consista en enviar una notificación sobre la apertura de un mensaje como una acción. </para>
+        <remarks><para>Utilice el objeto <b>RuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que consista en enviar una notificación sobre la apertura de un mensaje como una acción. </para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>RuleAction</b> , independientemente de si la regla asociada a esta colección <b>RuleActions</b> ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -629,10 +589,8 @@
       <Docs>
         <summary>Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El elemento principal de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> objeto es el <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>El elemento principal de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> objeto es el <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PlaySound">
@@ -658,13 +616,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PlaySoundRuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.PlaySoundRuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._PlaySoundRuleAction.ActionType" /><b>olRuleActionNotifyRead</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.PlaySoundRuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._PlaySoundRuleAction.ActionType" /> <b>olRuleActionNotifyRead</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Utilice el objeto <b>PlaySoundRuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que consista en reproducir un archivo de sonido como una acción. </para>
+        <remarks><para>Utilice el objeto <b>PlaySoundRuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que consista en reproducir un archivo de sonido como una acción. </para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>PlaySoundRuleAction</b> , independientemente de si la regla asociada a esta colección <b>RuleActions</b> ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, <see cref="P:Microsoft.Office.Interop.Outlook._PlaySoundRuleAction.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Redirect">
@@ -690,13 +646,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.SendRuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /><b>olRuleActionRedirect</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /> <b>olRuleActionRedirect</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Utilice el objeto <b>SendRuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que consista en redirigir un mensaje a determinados destinatarios como una acción. </para>
+        <remarks><para>Utilice el objeto <b>SendRuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que consista en redirigir un mensaje a determinados destinatarios como una acción. </para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>SendRuleAction</b> independientemente de si la regla asociada a esta colección <b>RuleActions</b> ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -722,18 +676,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Stop">
@@ -759,13 +711,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /><b>olRuleActionStop</b>. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> <b>olRuleActionStop</b>. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Utilice el objeto <b>RuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que consista en detener el procesamiento de más reglas como una acción. </para>
+        <remarks><para>Utilice el objeto <b>RuleAction</b> devuelto para enumerar las acciones de regla de una regla existente o para crear una nueva regla que consista en detener el procesamiento de más reglas como una acción. </para>
           <para>Esta propiedad de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> colección siempre devuelve un objeto <b>RuleAction</b> , independientemente de si la regla asociada a esta colección <b>RuleActions</b> ha definido dicha acción de regla. Si la regla ha definido y habilitado dicha acción de regla, <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> será <b>True</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>
