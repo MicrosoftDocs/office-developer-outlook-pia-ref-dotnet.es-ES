@@ -1,13 +1,5 @@
 <Type Name="_TimeZone" FullName="Microsoft.Office.Interop.Outlook._TimeZone">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c93472155461317f92e16b09941e71830b4f74ac" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642640" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _TimeZone" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c93472155461317f92e16b09941e71830b4f74ac" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901847" /></Metadata><TypeSignature Language="C#" Value="public interface _TimeZone" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _TimeZone" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._TimeZone" />
   <TypeSignature Language="VB.NET" Value="Public Interface _TimeZone" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,15 +73,13 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que representa la diferencia en minutos entre la hora local en esta zona horaria y la hora Universal coordinada (UTC). Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que representa la diferencia en minutos entre la hora local en esta zona horaria y la hora Universal coordinada (UTC). Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Este valor se almacena como parte del valor de TZI para esa zona horaria en el registro de Windows. El valor TZI está asignado a las ventanas <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
+        <remarks><para>Este valor se almacena como parte del valor de TZI para esa zona horaria en el registro de Windows. El valor TZI está asignado a las ventanas <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
           <para>
-            <b>Bias</b> no tener en cuenta cualquier desplazamiento de tiempo para hora estándar en la zona horaria o el horario de verano. Para tener en cuenta para cualquier desplazamiento de tiempo de horario de verano, utilice <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.DaylightBias" />. En general, cuando la zona horaria local adopta el horario de verano, la hora UTC es el resultado de agregar <b>Bias</b> y <b>DaylightBias</b> a la hora local. Para tener en cuenta para cualquier desplazamiento de hora estándar, use <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.StandardBias" />. En general, cuando la zona horaria local adopta la hora estándar, la hora UTC es el resultado de agregar <b>Bias</b> y <b>StandardBias</b> a la hora local. </para>
-          <para>, Por ejemplo, en un estado adopta el horario de verano en la zona hora del Pacífico, <b>Bias</b> es 480 minutos y <b>DaylightBias</b> es-60 minutos. Para determinar la hora en UTC 11 de junio, 2 A.M. PST, agregue <b>Bias</b> de (480/60) horas y un <b>DaylightBias</b> de-(60/60) horas a la hora local 11 de junio, 2 A.M. La hora en UTC es 11 de junio, 9 A.M.</para>
-          <para />
-        </remarks>
+            <b>Bias</b> no tiene en cuenta ninguna desviación de horario de verano o la hora estándar en la zona horaria. Para tener en cuenta para cualquier desplazamiento de tiempo de horario de verano, utilice <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.DaylightBias" />. En general, cuando la zona horaria local adopta el horario de verano, la hora UTC es el resultado de agregar <b>Bias</b> y <b>DaylightBias</b> a la hora local. Para tener en cuenta para cualquier desplazamiento de hora estándar, use <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.StandardBias" />. En general, cuando la zona horaria local adopta la hora estándar, la hora UTC es el resultado de agregar <b>Bias</b> y <b>StandardBias</b> a la hora local. </para>
+          <para>Por ejemplo, en un estado adopta el horario de verano en la zona hora del Pacífico, <b>Bias</b> es 480 minutos y <b>DaylightBias</b> es-60 minutos. Para determinar la hora en UTC 11 de junio, 2 A.M. PST, agregue <b>Bias</b> de (480/60) horas y un <b>DaylightBias</b> de-(60/60) horas a la hora local 11 de junio, 2 A.M. La hora en UTC es 11 de junio, 9 A.M.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -115,7 +105,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que representa la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que representa la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -143,13 +133,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que representa el desplazamiento de tiempo en minutos desde el <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Bias" /> para tener en cuenta el horario de verano en esta zona horaria. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que representa el desplazamiento de tiempo en minutos desde el <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Bias" /> para tener en cuenta el horario de verano en esta zona horaria. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Este valor se almacena como parte del valor de TZI para esa zona horaria en el registro de Windows. El valor TZI está asignado a las ventanas <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
-          <para>en relación con la hora UTC y la hora local de la zona horaria, la hora UTC es el resultado de agregar <b>Bias</b> y <b>DaylightBias</b> a la hora local. Por ejemplo, en un estado adopta el horario de verano en la zona hora del Pacífico, <b>Bias</b> es 480 minutos y <b>DaylightBias</b> es-60 minutos. Para determinar la hora en UTC 11 de junio, 2 A.M. PST, agregue <b>Bias</b> de (480/60) horas y un <b>DaylightBias</b> de-(60/60) horas a la hora local 11 de junio, 2 A.M. La hora en UTC es 11 de junio, 9 A.M.</para>
-          <para />
-        </remarks>
+        <remarks><para>Este valor se almacena como parte del valor de TZI para esa zona horaria en el registro de Windows. El valor TZI está asignado a las ventanas <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
+          <para>En relación con la hora UTC y la hora local de la zona horaria, la hora UTC es el resultado de agregar <b>Bias</b> y <b>DaylightBias</b> a la hora local. Por ejemplo, en un estado adopta el horario de verano en la zona hora del Pacífico, <b>Bias</b> es 480 minutos y <b>DaylightBias</b> es-60 minutos. Para determinar la hora en UTC 11 de junio, 2 A.M. PST, agregue <b>Bias</b> de (480/60) horas y un <b>DaylightBias</b> de-(60/60) horas a la hora local 11 de junio, 2 A.M. La hora en UTC es 11 de junio, 9 A.M.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DaylightDate">
@@ -175,12 +163,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor de <b>fecha y hora</b> que representa la fecha y hora en esta zona horaria cuando la hora cambia al horario de verano en el año actual. Es de solo lectura</summary>
+        <summary>Devuelve un valor de <b>fecha y hora</b> que representa la fecha y hora en esta zona horaria cuando la hora cambia al horario de verano en el año actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Este valor se almacena como parte del valor de TZI para la zona horaria en el registro de Windows. El valor TZI está asignado a las ventanas <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Este valor se almacena como parte del valor de TZI para la zona horaria en el registro de Windows. El valor TZI está asignado a las ventanas <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DaylightDesignation">
@@ -206,12 +192,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que identifica la zona horaria en el horario de verano. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que identifica la zona horaria en el horario de verano. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad se almacena como el valor Dlt para la zona horaria en el registro.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad se almacena como el valor Dlt para la zona horaria en el Registro.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ID">
@@ -237,12 +221,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que identifica de forma exclusiva la zona horaria. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que identifica de forma exclusiva la zona horaria. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El <b>identificador</b> de una zona horaria es globalmente el mismo para esa zona horaria.  Es el nombre de la clave del registro de Windows que contiene la información de zona horaria. A diferencia de la <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Name" /> (propiedad), el valor de <b>identificador</b> no está localizado.</para>
-          <para />
-        </remarks>
+        <remarks><para>El <b>identificador</b> de una zona horaria es globalmente el mismo para esa zona horaria.  Es el nombre de la clave del registro de Windows que contiene la información de zona horaria. A diferencia de la <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Name" /> (propiedad), el valor de <b>identificador</b> no está localizado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -268,12 +250,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el identificador de la zona horaria. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el identificador de la zona horaria. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Normalmente, el <b>nombre</b> incluye el valor de desplazamiento de hora Universal coordinada (UTC), el nombre de la zona horaria oficial y regiones donde se usa la zona horaria. Se almacena como el valor para mostrar en la clave del registro para una zona horaria.</para>
-          <para />
-        </remarks>
+        <remarks><para>Normalmente, el <b>nombre</b> incluye el valor de desplazamiento de hora Universal coordinada (UTC), el nombre de la zona horaria oficial y regiones donde se usa la zona horaria. Se almacena como el valor para mostrar en la clave del registro para una zona horaria.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -327,18 +307,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StandardBias">
@@ -364,13 +342,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que representa el desplazamiento de tiempo en minutos desde el <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Bias" /> para tener en cuenta la hora estándar de esa zona horaria. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que representa el desplazamiento de tiempo en minutos desde el <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Bias" /> para tener en cuenta la hora estándar de esa zona horaria. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Este valor se almacena como parte del valor de TZI para la zona horaria en el registro de Windows. El valor TZI está asignado a las ventanas <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
-          <para>en relación con la hora UTC y la hora local de la zona horaria, la hora UTC es el resultado de agregar <b>Bias</b> y <b>StandardBias</b> a la hora local. Por ejemplo, en un estado adopta la hora estándar en la zona hora del Pacífico, <b>Bias</b> es 480 minutos y <b>StandardBias</b> es 0 minutos. Para determinar la hora en UTC 11 de junio, 2 A.M. PST, agregue <b>Bias</b> de (480/60) horas y un <b>StandardBias</b> de 0 horas de la hora local 11 de junio, 2 A.M. La hora en UTC es 11 de junio, 10 A.M.</para>
-          <para />
-        </remarks>
+        <remarks><para>Este valor se almacena como parte del valor de TZI para la zona horaria en el registro de Windows. El valor TZI está asignado a las ventanas <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
+          <para>En relación con la hora UTC y la hora local de la zona horaria, la hora UTC es el resultado de agregar <b>Bias</b> y <b>StandardBias</b> a la hora local. Por ejemplo, en un estado adopta la hora estándar en la zona hora del Pacífico, <b>Bias</b> es 480 minutos y <b>StandardBias</b> es 0 minutos. Para determinar la hora en UTC 11 de junio, 2 A.M. PST, agregue <b>Bias</b> de (480/60) horas y un <b>StandardBias</b> de 0 horas a la hora local 11 de junio, 2 A.M. La hora en UTC es 11 de junio, 10 A.M.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StandardDate">
@@ -396,12 +372,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor de <b>fecha y hora</b> que representa la fecha y hora en esta zona horaria cuando la hora cambia al horario estándar. Es de solo lectura</summary>
+        <summary>Devuelve un valor de <b>fecha y hora</b> que representa la fecha y hora en esta zona horaria cuando la hora cambia al horario estándar. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Este valor se almacena como parte del valor de TZI para la zona horaria en el registro de Windows. El valor TZI está asignado a las ventanas <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Este valor se almacena como parte del valor de TZI para la zona horaria en el registro de Windows. El valor TZI está asignado a las ventanas <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StandardDesignation">
@@ -427,12 +401,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que identifica la zona horaria en la hora estándar. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que identifica la zona horaria en la hora estándar. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad se almacena como el valor Std para la zona horaria en el registro.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad se almacena como el valor Std para la zona horaria en el Registro.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

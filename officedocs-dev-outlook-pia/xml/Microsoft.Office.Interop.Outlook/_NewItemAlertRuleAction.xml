@@ -1,13 +1,5 @@
 <Type Name="_NewItemAlertRuleAction" FullName="Microsoft.Office.Interop.Outlook._NewItemAlertRuleAction">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5964291225b3ec448a6016897fb073eae35180fc" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20641950" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _NewItemAlertRuleAction" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5964291225b3ec448a6016897fb073eae35180fc" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902169" /></Metadata><TypeSignature Language="C#" Value="public interface _NewItemAlertRuleAction" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _NewItemAlertRuleAction" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._NewItemAlertRuleAction" />
   <TypeSignature Language="VB.NET" Value="Public Interface _NewItemAlertRuleAction" />
@@ -53,12 +45,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRuleActionType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve la constante <b>olRuleActionNewItemAlert</b>, desde el <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleActionType" /> (enumeración) que indica el tipo de acción que se llevará a cabo por la regla. Es de solo lectura</summary>
+        <summary>Devuelve la constante <b>olRuleActionNewItemAlert</b>, desde el <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleActionType" /> (enumeración) que indica el tipo de acción que se llevará a cabo por la regla. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La acción de regla de alerta de elemento nuevo sólo es compatible con las reglas para recibir mensajes. Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Especificar acciones de regla</a></para>
-          <para />
-        </remarks>
+        <remarks><para> La acción de regla de alerta de elemento nuevo sólo es compatible con las reglas para recibir mensajes. Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Especificar acciones de regla</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -84,7 +74,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -112,7 +102,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -145,10 +135,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que determina si la acción de regla está habilitada. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Después de habilitar una regla, también debe guardarse la regla mediante el uso de <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> para que la regla y su estado habilitado persistan más allá de la sesión actual.  Una regla está habilitada únicamente después de que se ha guardado correctamente.</para>
-          <para />
-        </remarks>
+        <remarks><para>Después de habilitar una regla, también debe guardarse la regla mediante el uso de <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> para que la regla y su estado habilitado persistan más allá de la sesión actual.  Sólo se habilita una regla después de haberla guardado correctamente. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -176,10 +164,8 @@
       <Docs>
         <summary>Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El objeto primario es el <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>El objeto primario es el <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -205,18 +191,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Text">
@@ -247,10 +231,8 @@
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que representa el texto que aparece en el cuadro de diálogo de alerta de elemento nuevo. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Devuelve un error si el texto es una cadena vacía.</para>
-          <para />
-        </remarks>
+        <remarks><para>Devuelve un error si el texto es una cadena vacía.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

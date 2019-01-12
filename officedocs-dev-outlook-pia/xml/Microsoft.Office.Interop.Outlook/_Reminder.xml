@@ -1,13 +1,5 @@
 <Type Name="_Reminder" FullName="Microsoft.Office.Interop.Outlook._Reminder">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c32220cc6cd2297c2f337e6d7f5f70853a5de7e6" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20641940" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Reminder" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c32220cc6cd2297c2f337e6d7f5f70853a5de7e6" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901763" /></Metadata><TypeSignature Language="C#" Value="public interface _Reminder" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Reminder" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Reminder" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Reminder" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,7 +73,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el título. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el título. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -109,7 +101,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -136,10 +128,8 @@
       <Parameters />
       <Docs>
         <summary>Omite el aviso actual.</summary>
-        <remarks>
-          <para>El método <b>Dismiss</b> se producirá un error si no hay ningún aviso visible.</para>
-          <para />
-        </remarks>
+        <remarks><para>El método <b>Dismiss</b> se producirá un error si no hay ningún aviso visible.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsVisible">
@@ -165,12 +155,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <b>valor Boolean</b> (<b>bool</b> en C#) que determina si el aviso está visible actualmente.  Es de solo lectura</summary>
+        <summary>Devuelve un <b>valor Boolean</b> (<b>bool</b> en C#) que determina si el aviso está visible actualmente.  Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Outlook determina el valor devuelto de esta propiedad basándose en el estado del aviso actual. Todos los avisos activos son visibles. Si el <b>valor de IsVisible</b> es True, el aviso está visible.</para>
-          <para />
-        </remarks>
+        <remarks><para> Outlook determina el valor devuelto de esta propiedad en función del estado del aviso actual. Todos los avisos activos son visibles. Si el <b>valor de IsVisible</b> es True, el aviso está visible.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -226,10 +214,8 @@
       <Docs>
         <summary>Devuelve una <b>fecha</b> que indica la próxima vez que el aviso especificado, se producirá. Es de sólo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor de la propiedad <b>NextReminderDate</b> cambia cada vez el objeto <see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" /> se ejecuta el método o cuando el usuario hace clic en el botón Posponer.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor de la propiedad <b>NextReminderDate</b> cambia cada vez el objeto <see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" /> se ejecuta el método o cuando el usuario hace clic en el botón Posponer.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OriginalReminderDate">
@@ -257,10 +243,8 @@
       <Docs>
         <summary>Devuelve un valor <b>Date</b> que especifica la fecha y hora en que el aviso especificado se establece que se produzca originales. Es de sólo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Este valor corresponde al valor de fecha y hora original antes de la <see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" /> se ejecuta el método o el usuario hace clic en el botón Posponer.</para>
-          <para />
-        </remarks>
+        <remarks><para>Este valor corresponde al valor de fecha y hora original antes de la <see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" /> se ejecuta el método o el usuario hace clic en el botón Posponer.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -314,18 +298,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Snooze">
@@ -352,11 +334,9 @@
       <Docs>
         <param name="SnoozeTime">Indica el período de tiempo (en minutos) que se aplazará el aviso. El valor predeterminado es 5 minutos.</param>
         <summary>Aplaza el aviso durante un período de tiempo determinado.</summary>
-        <remarks>
-          <para>Es equivalente al usuario hace clic en el botón Posponer.  </para>
+        <remarks><para>Se obtiene el mismo resultado que si el usuario hace clic en el botón Posponer.  </para>
           <para>Este método generará un error si el aviso actual no está activo.  </para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

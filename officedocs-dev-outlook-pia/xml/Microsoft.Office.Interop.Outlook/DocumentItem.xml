@@ -1,13 +1,5 @@
 <Type Name="DocumentItem" FullName="Microsoft.Office.Interop.Outlook.DocumentItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="721532dd62d340e509db090a0d82dda54ca85f23" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642652" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface DocumentItem : Microsoft.Office.Interop.Outlook._DocumentItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="70642ffe932600890443c1386123052ee6da41d5" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901854" /></Metadata><TypeSignature Language="C#" Value="public interface DocumentItem : Microsoft.Office.Interop.Outlook._DocumentItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DocumentItem implements class Microsoft.Office.Interop.Outlook._DocumentItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.DocumentItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface DocumentItem&#xA;Implements _DocumentItem, ItemEvents_10_Event" />
@@ -34,9 +26,12 @@
   </Attributes>
   <Docs>
     <summary>Representa cualquier documento que no sea un elemento de Outlook como un elemento en una carpeta de Outlook.</summary>
-    <remarks>
-      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._DocumentItem" />. Para obtener información acerca de los miembros de evento del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />.</para> Objeto 
-      <para>un <b>objeto DocumentItem</b> es cualquier documento que no sea un elemento de Outlook como un elemento en una carpeta de Outlook. En común uso, esto será un documento de Office, pero puede ser cualquier tipo de documento o el archivo ejecutable.</para><para>a diferencia de otros objetos de Microsoft Outlook, no se puede crear este objeto.</para><para><b>Nota</b>: cuando se intenta agregar mediante programación una propiedad definida por el usuario a un objeto <b>DocumentItem</b> , recibirá el siguiente mensaje de error: "La propiedad es de sólo lectura". Esto es debido a que el modelo de objetos de Outlook no admite esta funcionalidad.</para><para /></remarks>
+    <remarks><para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._DocumentItem" />. Para obtener información acerca de los miembros de evento del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />.</para>
+      <para>Un objeto <b>DocumentItem</b> es cualquier documento distinto de un elemento de Outlook como un elemento en una carpeta de Outlook. En común uso, esto será un documento de Office, pero puede ser cualquier tipo de documento o archivo ejecutable.</para>
+      <para>A diferencia de otros objetos Microsoft Outlook, no puede crear este objeto.</para>
+      <para>
+        <b>Nota</b>: cuando se intenta agregar mediante programación una propiedad definida por el usuario a un objeto <b>DocumentItem</b> , recibirá el siguiente mensaje de error: "La propiedad es de sólo lectura". Esto es porque el modelo de objetos de Outlook no admite esta funcionalidad.</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

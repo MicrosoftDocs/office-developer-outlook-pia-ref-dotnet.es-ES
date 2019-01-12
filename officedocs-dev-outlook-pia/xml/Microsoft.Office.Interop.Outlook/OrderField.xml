@@ -1,13 +1,5 @@
 <Type Name="OrderField" FullName="Microsoft.Office.Interop.Outlook.OrderField">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a141c7a729e401f026f05a32cde85f7730804364" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20641751" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OrderField : Microsoft.Office.Interop.Outlook._OrderField" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="83e00c147e2cc836d6d3bb41db88d4407efe9b48" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902120" /></Metadata><TypeSignature Language="C#" Value="public interface OrderField : Microsoft.Office.Interop.Outlook._OrderField" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OrderField implements class Microsoft.Office.Interop.Outlook._OrderField" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OrderField" />
   <TypeSignature Language="VB.NET" Value="Public Interface OrderField&#xA;Implements _OrderField" />
@@ -31,9 +23,8 @@
   </Attributes>
   <Docs>
     <summary>Representa un campo de orden, que se utiliza para ordenar la información de una vista.</summary>
-    <remarks>
-      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._OrderField" />. </para>
-      <para>Uso el <see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" /> método de la <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> objeto que se va a agregar una propiedad de elemento de Outlook a la colección <b>SortFields</b> para los objetos siguientes derivados de la <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto:</para>
+    <remarks><para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._OrderField" />. </para>
+      <para>Usar el <see cref="M:Microsoft.Office.Interop.Outlook._ViewFields.Add(System.String)" /> (método) de la <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> objeto que se va a agregar una propiedad de elemento de Outlook a la colección <b>SortFields</b> para los objetos siguientes derivados de la <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto:</para>
       <list type="bullet">
         <item>
           <para>
@@ -50,9 +41,16 @@
             <see cref="T:Microsoft.Office.Interop.Outlook.IconView" />
           </para>
         </item>
+        <item>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />
+          </para>
+        </item>
       </list>
-      <para>usar la <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" />(propiedad) para obtener el nombre del campo de orden como se hace referencia en la definición XML de la vista.</para> Objetos de 
-      <para><b>OrderField</b> contenidos en una colección <b>OrderFields</b> se aplican a los elementos de Outlook que se muestran en la vista en el orden en el que se encuentran los objetos de la colección. Para cada objeto <b>OrderField</b> , utilice la <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" /> (propiedad) para determinar si se debe ordenar el contenido del campo de orden en orden ascendente o descendente.</para><para /></remarks>
+      <para>Usar el <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.ViewXMLSchemaName" /> (propiedad) para obtener el nombre del campo de orden como se hace referencia en la definición XML de la vista.</para>
+      <para>Objetos 
+        <b>OrderField</b> contenidos en una colección <b>OrderFields</b> se aplican a elementos de Outlook que se muestran en la vista en el orden en el que se encuentran los objetos de la colección. Para cada objeto <b>OrderField</b> , utilice la <see cref="P:Microsoft.Office.Interop.Outlook._OrderField.IsDescending" /> (propiedad) para determinar si se debe ordenar el contenido del campo de orden en orden ascendente o descendente.</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

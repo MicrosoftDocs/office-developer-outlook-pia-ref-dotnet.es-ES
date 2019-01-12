@@ -1,13 +1,5 @@
 <Type Name="_ConversationHeader" FullName="Microsoft.Office.Interop.Outlook._ConversationHeader">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3e7523fbc078c04c08925a77c26ff767d6e7a942" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20641928" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _ConversationHeader" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3e7523fbc078c04c08925a77c26ff767d6e7a942" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901749" /></Metadata><TypeSignature Language="C#" Value="public interface _ConversationHeader" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ConversationHeader" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._ConversationHeader" />
   <TypeSignature Language="VB.NET" Value="Public Interface _ConversationHeader" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> objeto que representa la aplicación Outlook principal para el <see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> objeto que representa la aplicación Outlook principal para el <see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,7 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -109,12 +101,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que identifica de forma exclusiva la <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> de objeto al que pertenece este encabezado de conversación. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que identifica de forma exclusiva la <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> de objeto al que pertenece este encabezado de conversación. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad asocia el encabezado de conversación con otros elementos en la misma conversación. La conversación y estos elementos tienen el mismo valor en su propiedad <b>ConversationID</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad asocia el encabezado de conversación con otros elementos en la misma conversación. La conversación y estos elementos tienen el mismo valor en su propiedad <b>ConversationID</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ConversationTopic">
@@ -140,12 +130,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el tema de la secuencia de conversación del elemento de Outlook. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el tema de la secuencia de conversación del elemento de Outlook. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Corresponde a la propiedad MAPI PidTagConversationTopic.</para>
-          <para />
-        </remarks>
+        <remarks><para>Corresponde a la propiedad MAPI PidTagConversationTopic.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetConversation">
@@ -171,25 +159,23 @@
       <Docs>
         <summary>Obtiene un <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object que representa la conversación a la que pertenece este encabezado de conversación.</summary>
         <returns>Devuelve un objeto <b>Conversation</b> que representa la conversación a la que pertenece este encabezado de conversación.</returns>
-        <remarks>
-          <para>
-            <b>GetConversation</b> devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si no existe ninguna conversación para el elemento. No existe ninguna conversación para un elemento en los siguientes escenarios:</para>
+        <remarks><para>
+            <b>GetConversation</b> devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si no existe ninguna conversación para el elemento. Ninguna conversación existe para un elemento en los siguientes escenarios:</para>
           <list type="bullet">
             <item>
-              <para>el elemento no se ha guardado. Un elemento se puede guardar mediante programación, por acción del usuario, o por guardado automático. </para>
+              <para>El elemento no se ha guardado. Un elemento se pueden guardar mediante programación, mediante acciones del usuario, o por guardado automático.</para>
             </item>
             <item>
-              <para>Para un elemento que se puede enviar (por ejemplo, un elemento de correo, elemento de cita o elemento de contacto), no se ha enviado el elemento.</para>
+              <para>No se ha enviado el elemento relativo a un elemento que se puede enviar (por ejemplo, un elemento de correo, elemento de cita o elemento de contacto).</para>
             </item>
             <item>
-              <para>Las conversaciones están deshabilitadas a través del registro de Windows.</para>
+              <para>Las conversaciones están deshabilitadas mediante el Registro de Windows.</para>
             </item>
             <item>
-              <para>El almacén no es compatible con la vista de conversación (por ejemplo, Outlook se ejecuta en modo clásico en línea con una versión de Microsoft Exchange que es anterior a Microsoft Exchange Server 2010). Usar el <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> (propiedad) de la <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto para determinar si el almacén admite la vista conversación.</para>
+              <para>El almacén no es compatible con la vista de conversación (por ejemplo, Outlook se ejecuta en modo clásico en línea con una versión de Microsoft Exchange que es anterior a Microsoft Exchange Server 2010). Usar el <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> (propiedad) de la <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto para determinar si el almacén admite la vista de conversación.</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetItems">
@@ -215,10 +201,8 @@
       <Docs>
         <summary>Obtiene un <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> colección que todos los elementos de la conversación que residen en la misma carpeta que el encabezado de la conversación seleccionada contiene.</summary>
         <returns>Devuelve una colección <b>SimpleItems</b> de elementos que pertenecen a la misma conversación y residen en la misma carpeta que el encabezado de conversación.</returns>
-        <remarks>
-          <para>La colección <b>SimpleItems</b> sólo contiene los elementos de una conversación en la carpeta que contiene el encabezado de conversación. La colección <b>SimpleItems</b> no devuelve elementos de una conversación entre carpetas. Si debe tener acceso a contenido de la carpeta entre, use la <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />objeto. Si no hay elementos de una conversación existen en la misma carpeta que el encabezado de conversación, <b>GetItems</b> devuelve una colección <b>SimpleItems</b> con el <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> (propiedad) igual a 0.</para>
-          <para />
-        </remarks>
+        <remarks><para>La colección <b>SimpleItems</b> sólo contiene los elementos de una conversación en la carpeta que contiene el encabezado de conversación. La colección <b>SimpleItems</b> no devuelve elementos de la conversación entre carpetas. Si debe tener acceso a contenido de la carpeta entre, use la <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />objeto. Si no hay elementos de una conversación existen en la misma carpeta que el encabezado de conversación, <b>GetItems</b> devuelve una colección <b>SimpleItems</b> con el <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> (propiedad) igual a 0.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -244,11 +228,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el objeto primario <see cref="T:System.Object" /> del objeto especificado. Es de solo lectura</summary>
+        <summary>Devuelve el objeto primario <see cref="T:System.Object" /> del objeto especificado. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El elemento principal de un <see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" /> objeto es un <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> objeto.</para> Objeto 
-          <para>la <b>selección</b> de devuelto contiene sólo los objetos <b>ConversationHeader</b> . Obtener la propiedad <b>Parent</b> es equivalente a llamar a la <see cref="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" /> método con el <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" /> argumento.</para><para /></remarks>
+        <remarks><para>El elemento principal de un <see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" /> objeto es un <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> objeto.</para>
+          <para>El objeto <b>Selection</b> devuelto contiene sólo los objetos <b>ConversationHeader</b>. Obtener la propiedad <b>Parent</b> es equivalente a llamar a la <see cref="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" /> método con el <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" /> argumento.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -274,13 +258,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si no hay ninguna sesión iniciada. </para>
-          <para>Puede usar la propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual.</para>
-          <para />
-        </remarks>
+        <remarks><para>Devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si no hay ninguna sesión iniciada. </para>
+          <para>Puede usar la propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

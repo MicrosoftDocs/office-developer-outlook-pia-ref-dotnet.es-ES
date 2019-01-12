@@ -1,13 +1,5 @@
 <Type Name="ItemEvents_10_ReplyEventHandler" FullName="Microsoft.Office.Interop.Outlook.ItemEvents_10_ReplyEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2f2af162a2b094d82e86bfb176083608b4c4781d" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642963" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void ItemEvents_10_ReplyEventHandler(object Response, out bool Cancel);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ed91a09f73b49251cd231b53028940c9f8be3a28" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902127" /></Metadata><TypeSignature Language="C#" Value="public delegate void ItemEvents_10_ReplyEventHandler(object Response, out bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ItemEvents_10_ReplyEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_ReplyEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub ItemEvents_10_ReplyEventHandler(Response As Object, ByRef Cancel As Boolean)" />
@@ -36,8 +28,7 @@
   </ReturnValue>
   <Docs>
     <param name="Response">Nuevo elemento que se envía en respuesta al mensaje original.</param>
-    <param name="Cancel">
-      <b>False</b> cuando se produce el evento. Si el procedimiento de evento establece este argumento en <b>True</b>, la operación de respuesta no se completa y el nuevo elemento no se muestra.</param>
+    <param name="Cancel"><b>False</b> cuando se produce el evento. Si el procedimiento de evento establece este argumento en <b>True</b>, la operación de respuesta no se completa y el nuevo elemento no se muestra.</param>
     <summary>Se trata de un delegado para un evento en el objeto correspondiente. Después de implementar un método de devolución de llamada para el evento, utilice este delegado para conectar el método de devolución de llamada con el evento. Si hubiera varias versiones de la interfaz de eventos, este delegado conectaría el método de devolución de llamadas para el evento en la versión especificada de Outlook.</summary>
     <remarks>To be added.</remarks>
   </Docs>
