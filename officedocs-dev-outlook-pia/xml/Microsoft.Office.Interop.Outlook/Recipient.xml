@@ -1,13 +1,5 @@
 <Type Name="Recipient" FullName="Microsoft.Office.Interop.Outlook.Recipient">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5905873faa2813aa09498c7fbd926ed8c9f40f55" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642267" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Recipient" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a8e59f96599b28ed30e2f085f18934c0f3738776" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903296" /></Metadata><TypeSignature Language="C#" Value="public interface Recipient" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Recipient" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Recipient" />
   <TypeSignature Language="VB.NET" Value="Public Interface Recipient" />
@@ -27,9 +19,9 @@
   </Attributes>
   <Docs>
     <summary>Representa un usuario o recurso de Outlook, generalmente una dirección de mensaje de correo.</summary>
-    <remarks>
-      <para>Uso <see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Item(System.Object)" />(<paramref name="index" />), donde <paramref name="index" /> es el nombre o número de índice, para devolver un único objeto <b>Recipient</b> . El nombre puede ser una cadena que representa el nombre para mostrar, el alias o la dirección de correo electrónico completa SMTP del destinatario.</para> Uso de 
-      <para>el <see cref="M:Microsoft.Office.Interop.Outlook.Recipients.Add(System.String)" /> (método) para crear un nuevo objeto <b>Recipient</b> y agregarlo a la <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> objeto. El <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Type" /> (propiedad) de un nuevo objeto <b>Recipient</b> se establece en el valor predeterminado para el <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> o <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /> de objetos y se debe restaurar para indicar otro tipo de destinatario.</para><para /></remarks>
+    <remarks><para>Uso <see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Item(System.Object)" />(<paramref name="index" />), donde <paramref name="index" /> es el nombre o número de índice, para devolver un único objeto <b>Recipient</b> . El nombre puede ser una cadena que representa el nombre para mostrar, el alias o la dirección de correo electrónico completa SMTP del destinatario.</para>
+      <para>Usar el <see cref="M:Microsoft.Office.Interop.Outlook.Recipients.Add(System.String)" /> (método) para crear un nuevo objeto <b>Recipient</b> y agregarlo a la <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> objeto. El <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Type" /> (propiedad) de un nuevo objeto <b>Recipient</b> se establece en el valor predeterminado para el <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> o <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /> de objetos y se debe restaurar para indicar otro tipo de destinatario.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Address">
@@ -55,7 +47,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa la dirección de correo electrónico de la <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa la dirección de correo electrónico de la <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -88,10 +80,8 @@
       <Docs>
         <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objeto correspondiente al destinatario resultante. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Obtener acceso a la propiedad <b>AddressEntry</b> , fuerza la resolución de un nombre de destinatario sin resolver. Si no se puede resolver el nombre, se devuelve un error. Si el destinatario se ha resuelto, el <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Resolved" /> propiedad es <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Obtener acceso a la propiedad <b>AddressEntry</b>, fuerza la resolución de un nombre de destinatario sin resolver. Si no se puede resolver el nombre, se devuelve un error. Si el destinatario se ha resuelto, el <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.Resolved" /> propiedad es <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -117,7 +107,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -176,7 +166,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -229,12 +219,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDisplayType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una constante perteneciente a la <see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" /> (enumeración) que describe la naturaleza de la <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />. Es de solo lectura</summary>
+        <summary>Devuelve una constante perteneciente a la <see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" /> (enumeración) que describe la naturaleza de la <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Puede usar la propiedad <b>DisplayType</b> para filtrar destinatarios. La propiedad <b>DisplayType</b> corresponde a la propiedad <b>PidTagDisplayType</b>MAPI.</para>
-          <para />
-        </remarks>
+        <remarks><para>Puede usar la propiedad <b>DisplayType</b> para filtrar destinatarios. La propiedad <b>DisplayType</b> corresponde a la propiedad <b>PidTagDisplayType</b> MAPI.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EntryID">
@@ -260,11 +248,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el identificador único de entrada del objeto.  Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el identificador único de entrada del objeto.  Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagEntryId</b>.</para> Proveedor de almacenamiento de 
-          <para>A MAPI asigna una cadena de identificador único cuando se crea un elemento en su almacén. Por lo tanto, la propiedad <b>EntryID</b> no se establece para un elemento de Outlook hasta que éste se guarda o se envía. Los cambios cuando se mueve un elemento a otro almacén, por ejemplo, desde la Bandeja de entrada a una carpeta pública de Microsoft Exchange Server, o desde un archivo de carpetas personales (.pst) a otro archivo .pst de identificador de entrada. Soluciones no deben depender de la propiedad <b>EntryID</b> sea única, a menos que no se moverán los elementos. La propiedad <b>EntryID</b> devuelve un identificador EntryID MAPI de a largo plazo. Para obtener más información acerca de los identificadores de larga y corta duración, busque http://msdn.microsoft.com para <b>PidTagEntryId</b>. </para><para /></remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagEntryId</b>.</para>
+          <para>Un proveedor de almacén MAPI asigna una cadena de identificador único cuando se crea un elemento en su almacén. Por lo tanto, la propiedad <b>EntryID</b> no se establece para un elemento de Outlook hasta que éste se guarda o se envía. EntryID cambia cuando un elemento se mueve a otro almacén, por ejemplo, desde la Bandeja de entrada a una carpeta pública de Microsoft Exchange Server, o desde un archivo de carpetas personales (.pst) a otro archivo .pst. Soluciones no deben depender de la propiedad <b>EntryID</b> sea única, a menos que no se mueven los elementos. La propiedad <b>EntryID</b> devuelve un identificador EntryID MAPI de a largo plazo. Para obtener más información de larga duración, busque http://msdn.microsoft.com <b>PidTagEntryId</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FreeBusy">
@@ -293,16 +281,13 @@
       <Docs>
         <param name="Start">La fecha inicial del período de información de disponibilidad devuelta.</param>
         <param name="MinPerChar">El número de minutos por carácter representados en la cadena de disponibilidad devuelta.</param>
-        <param name="CompleteFormat">
-          <b>True</b> si la cadena devuelta debe contener no sólo información de disponibilidad, sino también los valores de cada carácter según la <see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" /> constantes.</param>
+        <param name="CompleteFormat"><b>True</b> si la cadena devuelta debe contener no sólo información de disponibilidad, sino también los valores de cada carácter según la <see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" /> constantes.</param>
         <summary>Devuelve la información de disponibilidad del destinatario.</summary>
         <returns>Un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa la información de libre/ocupado.</returns>
-        <remarks>
-          <para>El valor predeterminado es para devolver una cadena que represente un mes de información de disponibilidad compatible con el formato de automatización de Microsoft Schedule + (es decir, la cadena contiene un carácter para cada uno de ellos <paramref name="MinPerChar" /> minuto, hasta un mes de información de la <paramref name="Start" />fecha).</para>
+        <remarks><para> El valor predeterminado es para devolver una cadena que represente un mes de información de disponibilidad compatible con el formato de automatización de Microsoft Schedule + (es decir, la cadena contiene un carácter para cada uno de ellos <paramref name="MinPerChar" /> minuto, hasta un mes de información de la <paramref name="Start" />fecha).</para>
           <para>Si el argumento opcional <paramref name="CompleteFormat" /> se omite o <b>"es False</b>, a continuación, libre" se indica con el carácter 0 y todos los demás Estados con el carácter 1.</para>
           <para>Si <paramref name="CompleteFormat" /> es <b>True</b>, a continuación, se devuelve la misma cadena de longitud definida anteriormente, pero ahora los caracteres corresponden a la <see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" /> constantes.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Index">
@@ -328,12 +313,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica la posición del objeto dentro de la colección.  Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica la posición del objeto dentro de la colección.  Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Index</b> sólo es válida durante la sesión actual y se puede cambiar si se agregan a los objetos y se elimine de la colección. El primer objeto de la colección tiene un valor de <b>índice</b> de 1.</para>
-          <para />
-        </remarks>
+        <remarks><para>La propiedad <b>Index</b> solamente es válida durante la sesión actual y se puede cambiar si se agregan a los objetos y se elimine de la colección. El primer objeto de la colección tiene un valor de <b>índice</b> de 1.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MeetingResponseStatus">
@@ -359,7 +342,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlResponseStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlResponseStatus" /> constante que indica el estado global de la respuesta a la convocatoria de reunión para el destinatario. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlResponseStatus" /> constante que indica el estado global de la respuesta a la convocatoria de reunión para el destinatario. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -387,7 +370,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre para mostrar para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre para mostrar para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -443,7 +426,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto que admite la creación, obtener, establecer y eliminación de propiedades del objeto primario <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto que admite la creación, obtener, establecer y eliminación de propiedades del objeto primario <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -470,8 +453,7 @@
       <Parameters />
       <Docs>
         <summary>Intenta resolver un <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> objeto contra la libreta de direcciones.</summary>
-        <returns>
-          <b>True</b> si el objeto se ha resuelto; de lo contrario, <b>False</b>.</returns>
+        <returns><b>True</b> si el objeto se ha resuelto; de lo contrario, <b>False</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -498,12 +480,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <b>valor Boolean</b> (<b>bool</b> en C#) que indica <b>True</b> si el destinatario se ha validado contra la libreta de direcciones. Es de solo lectura</summary>
+        <summary>Devuelve un <b>valor Boolean</b> (<b>bool</b> en C#) que indica <b>True</b> si el destinatario se ha validado contra la libreta de direcciones. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Si existen nombres similares para un destinatario de una libreta de direcciones, puede resolver al destinatario mediante la especificación de la dirección de correo electrónico SMTP completa del destinatario.</para>
-          <para />
-        </remarks>
+        <remarks><para>Si existen nombres similares para un destinatario de una Libreta de direcciones, puede resolver el destinatario si especifica su dirección de correo electrónica completa SMTP. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sendable">
@@ -534,11 +514,9 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:System.Boolean" /> valor (<b>bool</b> para C#) que indica si se puede enviar una convocatoria de reunión a la <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI PidTagRecipientFlags. Devuelve <b>True</b> si <b>PidTagRecipientFlags</b> es igual a 0 x 00000001. Al establecer la propiedad cambia <b>PidTagRecipientFlags</b> en consecuencia. </para>
-          <para>Esta propiedad se aplica sólo a un destinatario de una convocatoria de reunión. Si el destinatario no está en una convocatoria de reunión, obtener y establecer esta propiedad no hace nada.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad MAPI PidTagRecipientFlags. Devuelve <b>True</b> si <b>PidTagRecipientFlags</b> es igual a 0 x 00000001. Al establecer la propiedad cambia <b>PidTagRecipientFlags</b> en consecuencia. </para>
+          <para>Esta propiedad se aplica solo a un destinatario de una convocatoria de reunión. En caso de que el destinatario no esté en dicha convocatoria, no ocurrirá nada cuando esta propiedad se obtenga y establezca.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -564,18 +542,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TrackingStatus">
@@ -668,30 +644,28 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>número entero</b> (<b>int</b> en C#) que representa el tipo de destinatario. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Según el tipo de destinatario, esta propiedad devuelve o establece un valor de <b>número entero</b> (<b>int</b> en C#) que corresponde al equivalente numérico de una de las constantes siguientes:</para>
+        <remarks><para>Según el tipo de destinatario, esta propiedad devuelve o establece un valor de <b>número entero</b> (<b>int</b> en C#) que corresponde al equivalente numérico de una de las constantes siguientes:</para>
           <list type="bullet">
             <item>
               <para>
-                <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" /> destinatario: el <see cref="T:Microsoft.Office.Interop.Outlook.OlJournalRecipientType" /> constante olAssociatedContact.</para>
+                <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />destinatario: el <see cref="T:Microsoft.Office.Interop.Outlook.OlJournalRecipientType" /> olAssociatedContact constante.</para>
             </item>
             <item>
               <para>
-                <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> destinatario: uno de los siguientes <see cref="T:Microsoft.Office.Interop.Outlook.OlMailRecipientType" /> constantes: olBCC, olCC, olOriginator u olTo.</para>
+                <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />destinatario: uno de los siguientes <see cref="T:Microsoft.Office.Interop.Outlook.OlMailRecipientType" /> constantes: olBCC, olCC, olOriginator u olTo.</para>
             </item>
             <item>
               <para>
-                <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> destinatario: uno de los siguientes <see cref="T:Microsoft.Office.Interop.Outlook.OlMeetingRecipientType" /> constantes: olOptional, olOrganizer, olRequired u olResource.</para>
+                <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />destinatario: uno de los siguientes <see cref="T:Microsoft.Office.Interop.Outlook.OlMeetingRecipientType" /> constantes: olOptional, olOrganizer, olRequired u olResource.</para>
             </item>
             <item>
               <para>
-                <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /> destinatario: cualquiera de los siguientes <see cref="T:Microsoft.Office.Interop.Outlook.OlTaskRecipientType" /> constantes: olFinalStatus u olUpdate.</para>
+                <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />destinatario: cualquiera de los siguientes <see cref="T:Microsoft.Office.Interop.Outlook.OlTaskRecipientType" /> constantes: olFinalStatus u olUpdate.</para>
             </item>
           </list>
-          <para>Esta propiedad no puede devolver siempre el tipo de destinatario adecuado para una sala de conferencias. Por ejemplo, una sala de conferencias puede especificarse como un destinatario necesario en una convocatoria de reunión, en cuyo caso esta propiedad no devolverá olResource para esa sala de conferencias.</para>
-          <para>Para determinar si un destinatario es una sala de conferencias confiable, utilice la propiedad de la API de mensajería (MAPI), PidTagDisplayTypeEx, de la <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> objeto. Puede obtener acceso a esta propiedad mediante el <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto en el modelo de objetos de Outlook. La propiedad <b>PidTagDisplayTypeEx</b> se representa como "http://schemas.microsoft.com/mapi/proptag/0x39050003" en el espacio de nombres MAPI proptag. Tenga en cuenta que la propiedad <b>PidTagDisplayTypeEx</b> no está disponible en versiones de Microsoft Exchange Server anteriores a Microsoft Exchange Server 2007. en estas versiones anteriores de Exchange Server, puede usar la propiedad <b>Recipient.Type</b> y se supone que un destinatario que tiene un tipo que no sea olResource no es una sala de conferencias.</para>
-          <para />
-        </remarks>
+          <para>Esta propiedad probablemente no devuelva siempre el tipo de destinatario apropiado para una sala de conferencias. Por ejemplo, puede especificarse una sala de conferencias como un destinatario requerido en una convocatoria de reunión, en cuyo caso esta propiedad no devolverá olResource para dicha sala de conferencias.</para>
+          <para>Para confiable, determinar si un destinatario es una sala de conferencias, utilice la propiedad de la API de mensajería (MAPI), PidTagDisplayTypeEx, de la <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> objeto. Puede obtener acceso a esta propiedad mediante el <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto en el modelo de objetos de Outlook. La propiedad <b>PidTagDisplayTypeEx</b> se representa como "http://schemas.microsoft.com/mapi/proptag/0x39050003" en el espacio de nombres proptag MAPI. Tenga en cuenta que la propiedad <b>PidTagDisplayTypeEx</b> no está disponible en versiones de Microsoft Exchange Server anteriores a Microsoft Exchange Server 2007; en esas versiones anteriores de Exchange Server, puede usar la propiedad <b>Recipient.Type</b> y se supone que un destinatario tenga un tipo que no sea olResource no es una sala de conferencias.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

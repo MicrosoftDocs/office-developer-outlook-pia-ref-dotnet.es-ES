@@ -1,13 +1,5 @@
 <Type Name="ReportItem" FullName="Microsoft.Office.Interop.Outlook.ReportItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e769837be4af43c739696f9ab745b17f52a5efa1" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643098" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ReportItem : Microsoft.Office.Interop.Outlook._ReportItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5373b34e179702a584e996cab3355ca918414ff4" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904626" /></Metadata><TypeSignature Language="C#" Value="public interface ReportItem : Microsoft.Office.Interop.Outlook._ReportItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ReportItem implements class Microsoft.Office.Interop.Outlook._ReportItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ReportItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface ReportItem&#xA;Implements _ReportItem, ItemEvents_10_Event" />
@@ -34,12 +26,10 @@
   </Attributes>
   <Docs>
     <summary>Representa un informe de entrega de correo en una carpeta Bandeja de entrada.</summary>
-    <remarks>
-      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._ReportItem" />. Para obtener información acerca de los miembros de evento del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />.</para>
+    <remarks><para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._ReportItem" />. Para obtener información acerca de los miembros de evento del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />.</para>
       <para>El objeto <b>ReportItem</b> es similar a un <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> objeto y contiene un informe (normalmente, el informe de no entrega) o un mensaje de error del sistema de transporte de correo.</para>
-      <para>a diferencia de otros objetos de Microsoft Outlook, no se puede crear este objeto. Elementos de informe se crean automáticamente cuando un informe o error se recibe en general desde el sistema de transporte de correo.</para>
-      <para />
-    </remarks>
+      <para>A diferencia de lo que ocurre con otros objetos de Microsoft Outlook, no puede crear este objeto. Los elementos de informe se crean automáticamente cuando se recibe un informe o error en general del sistema de transporte de correo.</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

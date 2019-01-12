@@ -1,13 +1,5 @@
 <Type Name="Attachment" FullName="Microsoft.Office.Interop.Outlook.Attachment">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bca3de4ee3e1766193a9380a2d4dcee5344f4ba1" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642094" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Attachment" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="eadbaac7ca2fb1ea21fb2b4899e303c68daea5b3" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904223" /></Metadata><TypeSignature Language="C#" Value="public interface Attachment" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Attachment" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Attachment" />
   <TypeSignature Language="VB.NET" Value="Public Interface Attachment" />
@@ -27,11 +19,9 @@
   </Attributes>
   <Docs>
     <summary>Representa un documento o un vínculo a un documento contenido en un elemento de Outlook.</summary>
-    <remarks>
-      <para>Uso <see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" /> (<paramref name="index" />), donde <paramref name="index" /> es el número de índice, para devolver un único objeto <b>Attachment</b> .</para>
-      <para>Usar la <see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" /> método para agregar datos adjuntos a un elemento.</para>
-      <para />
-    </remarks>
+    <remarks><para>Uso <see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" /> (<paramref name="index" />), donde <paramref name="index" /> es el número de índice, para devolver un único objeto <b>Attachment</b> .</para>
+      <para>Usar el <see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" /> método para agregar datos adjuntos a un elemento.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -57,7 +47,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -85,12 +75,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel" /> constante que especifica si hay algún tipo de restricción en los datos adjuntos en función de su extensión de archivo. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel" /> constante que especifica si hay algún tipo de restricción en los datos adjuntos en función de su extensión de archivo. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Este valor de esta propiedad refleja si un archivo adjunto está bloqueado en función de su extensión de archivo y cómo se ha configurado seguridad de datos adjuntos en el equipo cliente. Para obtener más información acerca de la seguridad de los datos adjuntos en Outlook, vea el sitio Web Office Resource Kit.</para>
-          <para />
-        </remarks>
+        <remarks><para>Este valor de esta propiedad refleja si un dato adjunto está bloqueado según la extensión del archivo y cómo se ha configurado la seguridad de datos adjuntos en el equipo cliente. Para obtener más información sobre la seguridad de datos adjuntos, vea el sitio web del kit de recursos de Office.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -116,7 +104,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -174,10 +162,8 @@
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre, que no necesita ser el nombre de archivo real, que se muestra debajo del icono que representa al archivo adjunto incrustado. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad <b>PidTagDisplayName</b>de MAPI.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagDisplayName</b> de MAPI.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FileName">
@@ -203,12 +189,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre de archivo de los datos adjuntos.  Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre de archivo de los datos adjuntos.  Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Utilice esta propiedad junto con la <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.PathName" /> (propiedad).</para>
-          <para />
-        </remarks>
+        <remarks><para>Utilice esta propiedad junto con la <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.PathName" /> (propiedad).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetTemporaryFilePath">
@@ -232,13 +216,11 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Devuelve la ruta de acceso completa del archivo adjunto que se encuentra en una carpeta de archivos temporales. Es de solo lectura</summary>
+        <summary>Devuelve la ruta de acceso completa del archivo adjunto que se encuentra en una carpeta de archivos temporales. Solo lectura.</summary>
         <returns>Devuelve un <see cref="T:System.String" /> que representa la ruta de acceso completa al archivo adjunto temporal.</returns>
-        <remarks>
+        <remarks><para><b>GetTemporaryFilePath</b> (método) sólo es válida para los archivos adjuntos cuya <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.Type" /> propiedad es <see cref="F:Microsoft.Office.Interop.Outlook.OlAttachmentType.olByValue" />. Esto significa que los datos adjuntos están una copia y que se puede tener acceso a la copia incluso si se quita el archivo original. Para otros tipos de datos adjuntos, el método <b>GetTemporaryFilePath</b> devuelve un error. </para>
           <para>
-            <b>GetTemporaryFilePath</b> (método) sólo es válida para los archivos adjuntos cuya <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.Type" /> propiedad es <see cref="F:Microsoft.Office.Interop.Outlook.OlAttachmentType.olByValue" />. Esto significa que los datos adjuntos son una copia y que se puede tener acceso a la copia incluso si se ha quitado el archivo original. Para otros tipos de datos adjuntos, el método <b>GetTemporaryFilePath</b> devuelve un error. </para>
-          <para>
-            <b>GetTemporaryFilePath</b> también devuelve un error al obtener acceso a un <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> de objetos en un <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> colección o en la <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> objeto. Uso <b>GetTemporaryFilePath</b> sólo en las devoluciones de llamada de evento de datos adjuntos se enumeran a continuación para diversos elementos de Outlook de Microsoft:</para>
+            <b>GetTemporaryFilePath</b> también devuelve un error al obtener acceso a un <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> de objetos en un <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> colección o en la <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> objeto. Uso <b>GetTemporaryFilePath</b> sólo en las devoluciones de llamada de un evento adjunto enumerados a continuación para los diversos elementos de Microsoft Outlook:</para>
           <list type="bullet">
             <item>
               <para>
@@ -281,8 +263,7 @@
               </para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Index">
@@ -308,12 +289,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica la posición del objeto dentro de la colección.  Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica la posición del objeto dentro de la colección.  Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Index</b> sólo es válida durante la sesión actual y se puede cambiar si se agregan a los objetos y se elimine de la colección. El primer objeto de la colección tiene un valor de <b>índice</b> de 1.</para>
-          <para />
-        </remarks>
+        <remarks><para>La propiedad <b>Index</b> solamente es válida durante la sesión actual y se puede cambiar si se agregan a los objetos y se elimine de la colección. El primer objeto de la colección tiene un valor de <b>índice</b> de 1.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MAPIOBJECT">
@@ -398,12 +377,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa la ruta de acceso completa a la que está vinculada el archivo adjunto. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa la ruta de acceso completa a la que está vinculada el archivo adjunto. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad sólo es válida para archivos vinculados.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad sólo es válida para archivos vinculados.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Position">
@@ -434,10 +411,10 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>número entero</b> (<b>int</b> en C#) que indica la posición de los datos adjuntos en el cuerpo del elemento. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Position</b> sólo funciona en los datos adjuntos para un elemento donde el formato del cuerpo sea de texto enriquecido (RTF). Si el formato del cuerpo no es RTF, la propiedad <b>Position</b> se omitirá para una operación set y siempre devuelve cero (0) para una operación get.</para>
-          <para>Si se establece la propiedad <b>Position</b> en 0 para un elemento donde dar formato el cuerpo es RTF, los datos adjuntos estarán ocultos en la interfaz de usuario de Outlook. Los datos adjuntos no está visible en una vista, y el usuario no puede quitar los datos adjuntos desde el cuerpo del elemento. Aún se pueden tener acceso a los datos adjuntos a través de la <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> colección en el elemento.</para> Es el único elemento que permite establecer mediante programación la propiedad BodyFormat de 
-          <para>un <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />. Otros tipos de elementos, como citas, contactos o tareas tienen el formato RTF de forma predeterminada. </para><para /></remarks>
+        <remarks><para>La propiedad <b>Position</b> sólo funciona en datos adjuntos para un elemento cuyo formato del cuerpo sea de texto enriquecido (RTF). Si el formato del cuerpo no es RTF, la propiedad <b>Position</b> se omitirá para una operación set y siempre devuelve cero (0) para una operación get.</para>
+          <para>Si establece la propiedad <b>Position</b> en 0 para un elemento cuyo formato del cuerpo es RTF, los datos adjuntos se ocultarán en la interfaz de usuario de Outlook. Los datos adjuntos no están visible en una vista, y el usuario no puede quitar los datos adjuntos desde el cuerpo del elemento. Aún se pueden tener acceso a los datos adjuntos a través de la <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> colección en el elemento.</para>
+          <para>El único elemento que permite establecer mediante programación la propiedad BodyFormat es un <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />. Otros tipos de elementos, como citas, contactos o tareas tienen el formato RTF de forma predeterminada. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyAccessor">
@@ -463,7 +440,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto que admite la creación, obtener, establecer y eliminación de propiedades del objeto primario <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto que admite la creación, obtener, establecer y eliminación de propiedades del objeto primario <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -519,18 +496,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Size">
@@ -556,12 +531,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el tamaño (en bytes) de los datos adjuntos. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el tamaño (en bytes) de los datos adjuntos. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta información no siempre esté disponible para los datos adjuntos.  Por ejemplo, en un mensaje S/MIME, el tamaño real de los datos adjuntos es desconocido hasta que se extraen los datos adjuntos. En los casos donde no se puede determinar el tamaño de los datos adjuntos, esta propiedad devuelve 0.</para>
-          <para />
-        </remarks>
+        <remarks><para>Es posible que esta información no siempre esté disponible para los datos adjuntos.  Por ejemplo, en un mensaje S/MIME, los tamaños reales de los datos adjuntos se desconocen hasta que éstos se extraen. En los casos en que no puede determinarse el tamaño de los datos adjuntos, esta propiedad devuelve 0.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -587,7 +560,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAttachmentType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentType" /> constante que indica el tipo del objeto especificado. Es de solo lectura.</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentType" /> constante que indica el tipo del objeto especificado. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
