@@ -1,13 +1,5 @@
 <Type Name="OlAttachmentBlockLevel" FullName="Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b3d54fd2ea0e452bdbce34a12d85f38cd94da2ce" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643716" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlAttachmentBlockLevel" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="806562abe6645923c290d033d5642762db5e3bc2" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902253" /></Metadata><TypeSignature Language="C#" Value="public enum OlAttachmentBlockLevel" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlAttachmentBlockLevel extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlAttachmentBlockLevel" />
@@ -20,24 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="df66c-101">Especifica si existe algún tipo de restricción en el tipo de datos adjuntos para un elemento.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="df66c-101">Specifies whether there is any restriction on the type of attachments for an item.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="df66c-102">
-        <para>Los datos adjuntos con el <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.BlockLevel" /> igual a <b>olAttachmentBlockLevelOpen</b> están en la lista de nivel 2 de datos adjuntos que los administradores mantienen para la seguridad de los datos adjuntos. Para obtener más información acerca de la seguridad de los datos adjuntos en Outlook, vea el sitio Web Office Resource Kit.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="df66c-102">
-          <para>Attachments with the <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.BlockLevel" /> equal to <b>olAttachmentBlockLevelOpen</b> are on the Level 2 list of attachments that administrators maintain for attachment security. For more information on attachment security in Outlook, see the Office Resource Kit Web site.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="65b4b-101">Especifica si existe algún tipo de restricción en el tipo de datos adjuntos para un elemento.</span><span class="sxs-lookup"><span data-stu-id="65b4b-101">Specifies whether there is any restriction on the type of attachments for an item.</span></span></summary>
+    <remarks><para><span data-ttu-id="65b4b-102">Los datos adjuntos con el <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.BlockLevel" /> igual a <b>olAttachmentBlockLevelOpen</b> están en la lista de nivel 2 de datos adjuntos que los administradores mantienen para la seguridad de los datos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="65b4b-102">Attachments with the <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.BlockLevel" /> equal to <b>olAttachmentBlockLevelOpen</b> are on the Level 2 list of attachments that administrators maintain for attachment security.</span></span> <span data-ttu-id="65b4b-103">Para obtener más información sobre la seguridad de datos adjuntos, vea el sitio web del kit de recursos de Office.</span><span class="sxs-lookup"><span data-stu-id="65b4b-103">For more information on attachment security in Outlook, see the Office Resource Kit Web site.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olAttachmentBlockLevelNone">
@@ -56,12 +33,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="df66c-103">No hay restricciones para el tipo de datos adjuntos según la extensión de archivo.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df66c-103">There is no restriction on the type of the attachment based on its file extension.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="65b4b-104">No hay restricciones para el tipo de datos adjuntos según la extensión de archivo.</span><span class="sxs-lookup"><span data-stu-id="65b4b-104">There is no restriction on the type of the attachment based on its file extension.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olAttachmentBlockLevelOpen">
@@ -80,12 +52,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="df66c-104">Existe una restricción para el tipo de datos adjuntos según la extensión de archivo que obliga al usuario a guardarlo en el disco para poder abrirlo.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="df66c-104">There is a restriction on the type of the attachment based on its file extension such that users must first save the attachment to disk before opening it.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="65b4b-105">Existe una restricción para el tipo de datos adjuntos según la extensión de archivo que obliga al usuario a guardarlo en el disco para poder abrirlo.</span><span class="sxs-lookup"><span data-stu-id="65b4b-105">There is a restriction on the type of the attachment based on its file extension such that users must first save the attachment to disk before opening it.</span></span></summary>
       </Docs>
     </Member>
   </Members>
