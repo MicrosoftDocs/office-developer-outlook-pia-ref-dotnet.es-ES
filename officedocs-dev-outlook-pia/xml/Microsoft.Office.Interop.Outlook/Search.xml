@@ -1,13 +1,5 @@
 <Type Name="Search" FullName="Microsoft.Office.Interop.Outlook.Search">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="95e75d0a084b225bee45b2e7972a363b981ca65d" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643331" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Search" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="71b006a1225b8c88295fc1f2047326471943e9a9" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900492" /></Metadata><TypeSignature Language="C#" Value="public interface Search" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Search" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Search" />
   <TypeSignature Language="VB.NET" Value="Public Interface Search" />
@@ -27,12 +19,10 @@
   </Attributes>
   <Docs>
     <summary>Contiene información sobre búsquedas individuales realizadas en elementos de Outlook.</summary>
-    <remarks>
-      <para>El objeto <b>Search</b> contiene propiedades que definen el tipo de búsqueda y los parámetros de la propia búsqueda.</para>
-      <para>Usar la <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> del objeto <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> método para devolver un objeto <b>Search</b> .</para>
-      <para>Usar la <see cref="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AdvancedSearchComplete" /> evento para determinar cuándo concluye una búsqueda determinada.</para>
-      <para />
-    </remarks>
+    <remarks><para>El objeto <b>Search</b> contiene propiedades que definen el tipo de búsqueda y los parámetros de la búsqueda en Sí.</para>
+      <para>Usar el <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> del objeto <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> método para devolver un objeto de <b>búsqueda</b> .</para>
+      <para>Usar el <see cref="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AdvancedSearchComplete" /> evento para determinar cuándo concluye una búsqueda determinada.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -58,7 +48,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -86,7 +76,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -116,17 +106,15 @@
       <Docs>
         <summary>Devuelve un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa la instrucción DASL que se utiliza para restringir la búsqueda a un subconjunto específico de datos.  Solo lectura</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad se establece como el <paramref name="Filter" /> argumento en el <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> del objeto <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> (método). </para>
-          <para>Al buscar en los campos de <b>texto</b> , puede usar un apóstrofo (') o comillas dobles ("") para delimitar los valores que forman parte del filtro. Por ejemplo, todas las líneas siguientes funcionan correctamente cuando el campo es de tipo <b>String </b>(<b>cadena</b> en C#):</para>
+        <remarks><para>Esta propiedad se establece como el <paramref name="Filter" /> argumento en el <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> del objeto <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> (método). </para>
+          <para>Al buscar campos de <b>texto</b>, se pueden usar un apóstrofo (') o comillas dobles ("") para delimitar los valores que forman parte del filtro. Por ejemplo, todas las líneas siguientes funcionan correctamente cuando el campo es de tipo <b>String </b>(<b>cadena</b> en C#): </para>
           <code>sFilter = "[CompanyName] = 'Microsoft'"</code>
           <code>sFilter = "[CompanyName] = 'Microsoft'";</code>
           <code>sFilter = "[CompanyName] = ""Microsoft"""</code>
           <code>sFilter = "[CompanyName] = ""Microsoft""";</code>
           <code>sFilter = "[CompanyName] = " &amp;amp; Chr(34) &amp;amp; "Microsoft" &amp;amp; Chr(34)</code>
           <code>sFilter = "[CompanyName] = " &amp;amp; Chr(34) &amp;amp; "Microsoft" &amp;amp; Chr(34);</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetTable">
@@ -152,14 +140,12 @@
       <Docs>
         <summary>Obtiene un <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto que contiene los elementos filtrados por el <paramref name="Filter" /> parámetro en una anterior <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> llamada al método.</summary>
         <returns>Una <b>tabla</b> que contiene los elementos que cumplen los criterios especificados por el <paramref name="Filter" /> parámetro en una llamada anterior al método <b>Application.AdvancedSearch</b> .</returns>
-        <remarks>
-          <para>A diferencia de <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />, <b>Search.GetTable</b> no acepta una <paramref name="Filter" /> parámetro. El filtro para la <b>tabla</b> está determinado por <see cref="P:Microsoft.Office.Interop.Outlook.Search.Filter" />. Dado que <b>Search.Filter</b> es una propiedad de solo lectura, el <paramref name="Filter" /> parámetro para el método <b>Application.AdvancedSearch</b> establece el filtro para el objeto <b>Table</b> devuelto por <b>Search.GetTable</b>.</para>
-          <para>La <paramref name="Filter" /> parámetro proporcionado a Application.AdvancedSearch debe ser una consulta DASL. El filtro de <b>AdvancedSearch</b> no aceptará una consulta JET. No utilizar prefijos en una consulta DASL para <b>AdvancedSearch</b> con "@SQL =". Si agrega la "@SQL =" prefijo, la consulta generará un error. Para obtener más información sobre los filtros, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtrar elementos</a></para>
+        <remarks><para>A diferencia de <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />, <b>Search.GetTable</b> no acepta una <paramref name="Filter" /> parámetro. El filtro para la <b>tabla</b> está determinado por <see cref="P:Microsoft.Office.Interop.Outlook.Search.Filter" />. Dado que <b>Search.Filter</b> es una propiedad de solo lectura, el <paramref name="Filter" /> parámetro para el método <b>Application.AdvancedSearch</b> establece el filtro para el objeto <b>Table</b> devuelto por <b>Search.GetTable</b>.</para>
+          <para>El <paramref name="Filter" /> parámetro proporcionado a Application.AdvancedSearch debe ser una consulta DASL. El filtro de <b>AdvancedSearch</b> no aceptará una consulta JET. No utilizar prefijos en una consulta DASL para <b>AdvancedSearch</b> con "@SQL =". Si agrega la "@SQL =" prefijo, la consulta generará un error. Para obtener más información sobre los filtros, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtrar elementos</a></para>
           <para>
-            <b>Search.GetTable</b> devuelve una <b>tabla</b> con la columna predeterminada establecida para el tipo de carpeta de la <b>carpeta</b>principal. Para modificar el conjunto de columnas predeterminado, use el <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, o <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> métodos de la <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> objeto de la colección.  Para obtener más información sobre conjuntos de columnas predeterminados, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87925">Propiedades predeterminadas mostradas en un objeto Table</a></para>
-          <para>a diferencia de <b>Folder.GetTable</b>, no se puede usar <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> para aplicar filtros subsiguientes a una <b>tabla</b> que se basa en la <b> Búsqueda</b> objeto. Especificar un nuevo filtro en <b>Application.AdvancedSearch</b> para volver a aplicar un filtro.</para>
-          <para />
-        </remarks>
+            <b>Search.GetTable</b> devuelve una <b>tabla</b> con la columna predeterminada establecida para el tipo de carpeta del <b>carpeta</b> principal. Para modificar el conjunto de columnas predeterminado, use el <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, o <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> métodos de la <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> objeto de la colección.  Para obtener más información sobre conjuntos de columnas predeterminados, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87925">Propiedades predeterminadas mostradas en un objeto Table</a></para>
+          <para>A diferencia de <b>Folder.GetTable</b>, no se puede usar <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> para aplicar filtros subsiguientes a una <b>tabla</b> que se basa en el objeto <b>Search</b> . Especificar un nuevo filtro en <b>Application.AdvancedSearch</b> para volver a aplicar un filtro.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsSynchronous">
@@ -185,12 +171,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <b>valor Boolean</b> (<b>bool</b> en C#) que indica si la búsqueda es sincrónica. Es de solo lectura</summary>
+        <summary>Devuelve un <b>valor Boolean</b> (<b>bool</b> en C#) que indica si la búsqueda es sincrónica. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Una búsqueda puede ser sincrónica o asincrónica. Si la búsqueda es sincrónica, se detendrá la ejecución de código hasta que haya finalizado la búsqueda. Por el contrario, si la búsqueda es asincrónica, la ejecución de código continuará, aunque no se ha completado la búsqueda. En este caso, use la <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> del objeto <see cref="M:Microsoft.Office.Interop.Outlook.Search.Stop" /> método para detener la búsqueda.  Para obtener resultados significativos de una búsqueda asincrónica, utilice la <see cref="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AdvancedSearchComplete" /> evento para notificarle cuando haya finalizado la búsqueda.</para>
-          <para />
-        </remarks>
+        <remarks><para>Una búsqueda puede ser sincrónica o asincrónica. Si la búsqueda es sincrónica, se detendrá la ejecución de código hasta que haya finalizado la búsqueda. Por el contrario, si la búsqueda es asincrónica, la ejecución de código continuará, aunque no se ha completado la búsqueda. En este caso, use la <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> del objeto <see cref="M:Microsoft.Office.Interop.Outlook.Search.Stop" /> método para detener la búsqueda.  Para obtener resultados significativos de una búsqueda asincrónica, utilice la <see cref="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AdvancedSearchComplete" /> evento para notificarle cuando haya finalizado la búsqueda.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -244,7 +228,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Results</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Results" /> colección que especifica los resultados de la búsqueda. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Results" /> colección que especifica los resultados de la búsqueda. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -275,10 +259,8 @@
         <param name="Name">Cadena que representa el nombre de la carpeta de búsqueda.</param>
         <summary>Guarda los resultados de la búsqueda en una carpeta de búsqueda.</summary>
         <returns>To be added.</returns>
-        <remarks>
-          <para>El método <b>Save</b> muestra un error si ya existe una carpeta de búsqueda con el mismo nombre.</para>
-          <para />
-        </remarks>
+        <remarks><para>El método <b>Save</b> muestra un error si ya existe una carpeta de búsqueda con el mismo nombre.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Scope">
@@ -304,12 +286,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que especifica el ámbito de la búsqueda especificada. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que especifica el ámbito de la búsqueda especificada. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El ámbito de la búsqueda se define cuando se inicia la búsqueda. Para obtener más información, vea el <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> (método).</para>
-          <para />
-        </remarks>
+        <remarks><para>El ámbito de la búsqueda se define cuando se inicia la búsqueda. Para obtener más información, vea el <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> (método).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SearchSubFolders">
@@ -335,12 +315,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <b>valor Boolean</b> (<b>bool</b> en C#) que indica si el ámbito de la búsqueda especificada incluye las subcarpetas de las carpetas examinadas. Es de solo lectura</summary>
+        <summary>Devuelve un <b>valor Boolean</b> (<b>bool</b> en C#) que indica si el ámbito de la búsqueda especificada incluye las subcarpetas de las carpetas examinadas. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad está determinada por la <paramref name="SearchSubfolders" /> argumento de la <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> (método) y se especifica cuando se inicia la búsqueda. Si <b>es True</b>, la <b>búsqueda</b> de objetos búsquedas a través de todas las subcarpetas de la ruta de acceso del filtro especificado.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad está determinada por la <paramref name="SearchSubfolders" /> argumento de la <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> (método) y se especifica cuando se inicia la búsqueda. Si <b>es True</b>, la <b>búsqueda</b> de objetos búsquedas a través de todas las subcarpetas de la ruta de acceso del filtro especificado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -366,18 +344,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Stop">
@@ -430,10 +406,8 @@
       <Docs>
         <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que especifica el nombre de la búsqueda actual. La propiedad <b>Tag</b> se usa para identificar una búsqueda específica. Es de sólo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Tag</b> se establece mediante el uso de la <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> método cuando la <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> se crea el objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>La propiedad <b>Tag</b> se establece mediante el uso de la <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> método cuando la <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> se crea el objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="_OlkTimeControl" FullName="Microsoft.Office.Interop.Outlook._OlkTimeControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ce2a5f72951f8dc3e07a337dee076ea8ef948818" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643099" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkTimeControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ce2a5f72951f8dc3e07a337dee076ea8ef948818" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896726" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkTimeControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkTimeControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkTimeControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkTimeControl" />
@@ -58,10 +50,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que cambia automáticamente el tamaño del control para mostrar todo el contenido.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado de esta propiedad es <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>  El valor predeterminado de esta propiedad es <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoWordSelect">
@@ -92,10 +82,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si una palabra o un carácter es la unidad básica utilizada para extender una selección.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -129,10 +117,8 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>UInteger</b> (<b>uint</b> en C#) que indica el color de fondo del control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0 x 80000005, "Ventana".</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0 x 80000005, "Ventana". </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackStyle">
@@ -163,10 +149,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" /> constante que cambia el estilo de fondo del control entre transparente y opaco. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olBackStyleOpaque</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olBackStyleOpaque</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DropDown">
@@ -222,10 +206,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que indica si el control puede funcionar.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EnterFieldBehavior">
@@ -256,10 +238,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" /> constante que especifica el comportamiento de selección al entrar en el control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olEnterFieldBehaviorSelectAll</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olEnterFieldBehaviorSelectAll</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -285,7 +265,7 @@
         <ReturnType>stdole.StdFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <b>StdFont</b> que representa la fuente utilizada para representar el texto dentro del control.  Es de solo lectura</summary>
+        <summary>Devuelve un <b>StdFont</b> que representa la fuente utilizada para representar el texto dentro del control.  Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -321,10 +301,8 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>UInteger</b> (<b>uint</b> en C#) que indica el color de primer plano del control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0 x 80000008, "Texto de ventana".</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0 x 80000008, "Texto de ventana".  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HideSelection">
@@ -355,10 +333,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si una selección se muestra o se oculta para el control cuando el control pierde el foco.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado de esta propiedad es <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado de esta propiedad es <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IntervalTime">
@@ -389,13 +365,11 @@
       <Docs>
         <summary>Devuelve o establece una <b>fecha y hora</b> que especifica el número de minutos mostrados como un intervalo utilizado para <b>el estilo olTimeStyleTimeDuration en el control de hora</b> .  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es 30.</para>
-          <para>El valor mínimo de <b>IntervalTime</b> es 1 y el valor máximo es 1440.  Asignar un valor fuera de este intervalo, se producirá el valor de borde más cercano que se usa en su lugar.  </para>
-          <para>Cuando <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Style" /> es <b>olTimeStyleTimeDuration</b>, el control de fecha muestra el valor de <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.ReferenceTime" /> como el primer valor de hora seleccionable, muestra intervalos adicionales (especificados por <b>IntervalTime</b>) comenzando desde <b>ReferenceTime</b> valor y muestra la duración de un evento.</para>
-          <para>El valor predeterminado de <b>ReferenceTime</b> es 30 de Dic de 1899 12:00 AM. En este caso, el control de hora mostrará 30 de Dic de 1899 12:00 A.M. como la primera hora seleccionable.  Un valor de 60 para <b>IntervalTime</b> marcará 30 de Dic de 1899 1:00 A.M. como el primer intervalo.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es 30.</para>
+          <para>El valor mínimo de <b>IntervalTime</b> es 1 y el valor máximo es 1440.  Asignar un valor fuera de este intervalo se producirá en el valor de borde más cercano que se usa en su lugar.  </para>
+          <para>Cuando <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Style" /> es <b>olTimeStyleTimeDuration</b>, el control de fecha muestra el valor de <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.ReferenceTime" /> como el primer valor de hora seleccionable, muestra intervalos adicionales (especificados por <b>IntervalTime</b>) comenzando desde el valor <b>ReferenceTime</b> , y Muestra la duración de un evento.</para>
+          <para>El valor predeterminado de <b>ReferenceTime</b> es 30 de Dic, de 1899 12:00 AM. En este caso, el control de hora mostrará 30 de Dic de 1899 12:00 A.M. como la primera hora seleccionable.  Un valor de 60 para <b>IntervalTime</b> marcará 30 de Dic de 1899 1:00 A.M. como el primer intervalo.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Locked">
@@ -426,11 +400,9 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si el control está bloqueado desde que se está cambiando.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>False</b>.</para>
-          <para>Cuando el control está bloqueado, el control no tiene un aspecto "deshabilitado", pero el usuario no puede editar el contenido del control.  </para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>False</b>.</para>
+          <para>Cuando el control está bloqueado, no parece que esté "deshabilitado", pero el usuario no puede modificar su contenido.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -461,10 +433,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>StdPicture</b> que representa la imagen personalizada en el cursor del mouse para este control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -495,10 +465,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constante que especifica el tipo de puntero mostrado cuando el usuario coloca el mouse sobre el control.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olMousePointerDefault</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olMousePointerDefault</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReferenceTime">
@@ -529,12 +497,10 @@
       <Docs>
         <summary>Devuelve o establece una <b>fecha y hora</b> que especifica un hora de referencia utilizada para <b>el estilo olTimeStyleTimeDuration en el control de hora</b> .    Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es 12/30/1899.</para>
-          <para>Cuando <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Style" /> es <b>olTimeStyleTimeDuration</b>, el control de fecha muestra el valor de <b>ReferenceTime</b> como el primer valor de hora seleccionable, muestra intervalos adicionales (especificada por <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.IntervalTime" />) comenzando desde el valor <b>ReferenceTime</b> , y muestra la duración de un evento.</para>
-          <para>El valor predeterminado de <b>ReferenceTime</b> es 30 de Dic de 1899 12:00 AM. En este caso, el control de hora mostrará 30 de Dic de 1899 12:00 A.M. como la primera hora seleccionable.  Un valor de 60 para <b>IntervalTime</b> marcará 30 de Dic de 1899 1:00 A.M. como el primer intervalo.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es 12/30/1899.</para>
+          <para>Cuando <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Style" /> es <b>olTimeStyleTimeDuration</b>, el control de fecha muestra el valor de <b>ReferenceTime</b> como el primer valor de hora seleccionable, muestra intervalos adicionales (especificada por <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.IntervalTime" />) comenzando desde el valor <b>ReferenceTime</b> , y Muestra la duración de un evento.</para>
+          <para>El valor predeterminado de <b>ReferenceTime</b> es 30 de Dic, de 1899 12:00 AM. En este caso, el control de hora mostrará 30 de Dic de 1899 12:00 A.M. como la primera hora seleccionable.  Un valor de 60 para <b>IntervalTime</b> marcará 30 de Dic de 1899 1:00 A.M. como el primer intervalo.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Style">
@@ -565,10 +531,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlTimeStyle" /> constante que especifica el estilo del control de tiempo.   Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olTimeStyleTimeOnly</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olTimeStyleTimeOnly</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Text">
@@ -599,11 +563,9 @@
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que es el texto que se muestra en el control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado de la propiedad <b>Text</b> es una cadena vacía.</para>
+        <remarks><para>El valor predeterminado de la propiedad <b>Text</b> es una cadena vacía.</para>
           <para>La propiedad <b>Text</b> proporciona el mismo valor que el <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Value" /> (propiedad), pero el valor es inflexible como una <b>cadena</b> (<b>cadena</b> en C#).</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TextAlign">
@@ -634,10 +596,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constante que especifica cómo se alinea el texto en el control.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olTextAlignLeft</b> en idiomas de izquierda a derecha como inglés.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olTextAlignLeft</b> en idiomas de izquierda a derecha como inglés.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Time">
@@ -668,11 +628,9 @@
       <Docs>
         <summary>Devuelve o establece una <b>fecha y hora</b> que representa el valor de hora actualmente seleccionado en el control.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es 30 de Dic de 1899 12:00 A.M.</para>
+        <remarks><para>El valor predeterminado es Dic 30, 1899 12:00 a.m.</para>
           <para>Cuando se usa el control de hora para indicar una duración (es decir, el <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Style" /> es <b>olTimeStyleDuration</b>), si la duración es mayor que 24 horas, la propiedad <b>Time</b> indicará la duración desde 30 de Dic de 1899 12:00 AM.  Por ejemplo, una duración de 24 horas devolverá un valor de <b>fecha y hora</b> 31 de Dic de 1899 12:00 AM.  Si se trata de un valor de duración de una cita y desea determinar una hora de finalización para la cita, puede agregar este valor para el <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.ReferenceTime" /> valor de la propiedad.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -703,10 +661,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>objeto</b> que representa el contenido del control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor es el mismo que el valor de <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Text" />, con la salvedad de que esta propiedad es el <b>objeto</b> y <b>texto</b> tiene establecimiento inflexible como <b>cadena</b> (<b>cadena</b> en C#).</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor es el mismo que el valor de <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.Text" />, con la salvedad de que esta propiedad es el <b>objeto</b> y <b>texto</b> tiene establecimiento inflexible como <b>cadena</b> (<b>cadena</b> en C#).  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

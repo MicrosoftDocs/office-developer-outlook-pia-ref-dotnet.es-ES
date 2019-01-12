@@ -1,13 +1,5 @@
 <Type Name="NameSpaceEvents_Event" FullName="Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0f045237185550e081b3a4867c8df470879b59be" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643232" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface NameSpaceEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1c005a7d21957144559d87eb958351e7789b49e6" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896866" /></Metadata><TypeSignature Language="C#" Value="public interface NameSpaceEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NameSpaceEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface NameSpaceEvents_Event" />
@@ -68,11 +60,9 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce siempre que se abre el cuadro de diálogo Propiedades de una carpeta.</summary>
-        <remarks>
-          <para>Puede abrir el cuadro de diálogo Propiedades de una carpeta haciendo clic en la carpeta y seleccionando Propiedades.</para>
-          <para>El programa controla este evento para agregar una página de propiedades personalizada. La página de propiedades se agregará al cuadro de diálogo de propiedades de la carpeta especificada. Cuando se desencadena el evento, el objeto de colección <b>PropertyPages</b> identificado por <paramref name="Pages" /> contiene las páginas de propiedades que se han agregado antes de llamar al controlador de eventos. Para agregar la página de propiedades a la colección, use la <see cref="M:Microsoft.Office.Interop.Outlook.PropertyPages.Add(System.Object,System.String)" /> método de la colección <b>PropertyPages</b> antes de salir del controlador de eventos.</para>
-          <para />
-        </remarks>
+        <remarks><para>Puede abrir el cuadro de diálogo Propiedades para una carpeta haciendo clic con el botón secundario en ella y seleccionando Propiedades.</para>
+          <para>El programa controla este evento para agregar una página de propiedades personalizada. La página de propiedades se agregará al cuadro de diálogo de Propiedades de la carpeta especificada. Cuando se desencadena el evento, el objeto de colección <b>PropertyPages</b> identificado por <paramref name="Pages" /> contiene las páginas de propiedades que se han agregado antes de llamar al controlador de eventos. Para agregar la página de propiedades a la colección, use la <see cref="M:Microsoft.Office.Interop.Outlook.PropertyPages.Add(System.Object,System.String)" /> método de la colección <b>PropertyPages</b> antes de salir del controlador de eventos.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

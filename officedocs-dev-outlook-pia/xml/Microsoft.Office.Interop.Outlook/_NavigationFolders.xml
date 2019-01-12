@@ -1,13 +1,5 @@
 <Type Name="_NavigationFolders" FullName="Microsoft.Office.Interop.Outlook._NavigationFolders">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b4c4d498f22e067b44aff3e0cf6b8a93dfd0cfd1" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20641938" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _NavigationFolders : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b4c4d498f22e067b44aff3e0cf6b8a93dfd0cfd1" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900776" /></Metadata><TypeSignature Language="C#" Value="public interface _NavigationFolders : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _NavigationFolders implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._NavigationFolders" />
   <TypeSignature Language="VB.NET" Value="Public Interface _NavigationFolders&#xA;Implements IEnumerable" />
@@ -60,10 +52,8 @@
         <param name="Folder">Carpeta que se desea agregar.</param>
         <summary>Agrega especificado <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />, como un <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> objeto hasta el final de la <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> colección.</summary>
         <returns>Un objeto <b>NavigationFolder</b> que representa la nueva carpeta de navegación.</returns>
-        <remarks>
-          <para>Una carpeta sólo puede aparecer en un grupo de navegación. Cuando se agrega un objeto <b>Folder</b> a un nuevo grupo de navegación, se quitan las referencias a esa <b>carpeta</b> de cualquier otro grupo de navegación de los cuales anteriormente era un miembro.</para>
-          <para />
-        </remarks>
+        <remarks><para>Una carpeta sólo puede aparecer en un grupo de navegación. Cuando se agrega un objeto <b>Folder</b> a un nuevo grupo de navegación, se quitan las referencias a esa <b>carpeta</b> de cualquier otro grupo de navegación que anteriormente era un miembro.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -89,7 +79,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -117,12 +107,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad devuelve la <b>constante olNavigationFolders</b> para el <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad devuelve la <b>constante olNavigationFolders</b> para el <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -148,7 +136,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -182,10 +170,8 @@
         <param name="Index">Puede ser el número de índice del objeto o un valor que se utiliza para que coincida con la propiedad predeterminada de un objeto de la colección.</param>
         <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> objeto de la colección.</summary>
         <value>Un objeto <b>NavigationFolder</b> que representa el objeto especificado.</value>
-        <remarks>
-          <para>El valor de índice de un <b>objeto NavigationFolder</b> de la colección representa la posición ordinal de la carpeta en el grupo de navegación cuando se muestra en el panel de navegación. Cambiar la posición de las carpetas de navegación en el grupo de navegación también cambia los valores de índice de las carpetas dentro de la <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> colección para que <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor de índice de un <b>objeto NavigationFolder</b> de la colección representa la posición ordinal de la carpeta en el grupo de navegación cuando se muestra en el panel de navegación. Cambiar la posición de las carpetas de navegación en el grupo de navegación también cambia los valores de índice de las carpetas dentro de la <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> colección para que <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -241,10 +227,8 @@
       <Docs>
         <param name="RemovableFolder">Carpeta de navegación que debe eliminarse.</param>
         <summary>Quita un objeto de la colección.</summary>
-        <remarks>
-          <para>Sólo carpetas extraíbles, objetos <b>NavigationFolder</b> con un <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsRemovable" /> valor de la propiedad establecida en <b>True</b>, se puede quitar de una colección <b>NavigationFolders</b> . Esto significa que puede utilizar <b>NavigationFolders.Remove</b> para quitar carpetas compartidas, carpetas públicas y carpetas vinculadas. Sin embargo, debe usar <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.Delete" /> para quitar todas las carpetas creadas por el usuario.</para>
-          <para />
-        </remarks>
+        <remarks><para>Sólo carpetas extraíbles, objetos <b>NavigationFolder</b> con un <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsRemovable" /> valor de la propiedad establecida en <b>True</b>, se puede quitar de una colección <b>NavigationFolders</b> . Esto significa que puede utilizar <b>NavigationFolders.Remove</b> para quitar carpetas compartidas, carpetas públicas y carpetas vinculadas. Sin embargo, debe usar <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.Delete" /> para quitar todas las carpetas creadas por el usuario.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -270,18 +254,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

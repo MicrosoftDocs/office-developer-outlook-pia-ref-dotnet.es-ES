@@ -1,13 +1,5 @@
 <Type Name="_OlkComboBox" FullName="Microsoft.Office.Interop.Outlook._OlkComboBox">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="89f18877a1a25c0c409aacc28f213dc09a4b2fad" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643531" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkComboBox" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="89f18877a1a25c0c409aacc28f213dc09a4b2fad" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901434" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkComboBox" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkComboBox" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkComboBox" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkComboBox" />
@@ -56,10 +48,8 @@
         <param name="ItemText">Valor que se agrega a la lista en el cuadro combinado.</param>
         <param name="Index">Valor de base 0 que especifica el orden del nuevo elemento en la lista.</param>
         <summary>Agrega un elemento a la lista especificando, a título opcional, un índice para el nuevo elemento que aparece en la lista.</summary>
-        <remarks>
-          <para>Si el valor de <paramref name="Index" /> es igual o mayor que el número de elementos de la lista, el nuevo elemento se agregará al final de la lista.</para>
-          <para />
-        </remarks>
+        <remarks><para>Si el valor de <paramref name="Index" /> es igual o mayor que el número de elementos de la lista, el nuevo elemento se agregará al final de la lista.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoSize">
@@ -90,11 +80,9 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que cambia automáticamente el tamaño del control para mostrar todo el contenido.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado de esta propiedad es <b>False</b>.</para>
-          <para>Configuración <b>AutoSize</b> en <b>True</b> , se establece automáticamente el ancho del área de visualización a la longitud del texto en el cuadro combinado. Este comportamiento es similar al cuadro de texto de una línea. </para>
-          <para />
-        </remarks>
+        <remarks><para>  El valor predeterminado de esta propiedad es <b>False</b>.</para>
+          <para>Automáticamente al establecer <b>AutoSize</b> en <b>True</b>, establece el ancho del área de visualización a la longitud del texto en el cuadro combinado. Este comportamiento es similar al cuadro de texto de una línea.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoTab">
@@ -125,10 +113,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si se inserta una ficha automáticamente cuando el control se ha rellenado hasta la longitud máxima especificada. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado de esta propiedad es <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>  El valor predeterminado de esta propiedad es <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoWordSelect">
@@ -159,10 +145,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si una palabra o un carácter es la unidad básica utilizada para extender una selección.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -196,10 +180,8 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>UInteger</b> (<b>uint</b> en C#) que indica el color de fondo del control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0 x 80000005, "Ventana".</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0 x 80000005, "Ventana". </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BorderStyle">
@@ -230,10 +212,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> constante que define el estilo de borde que rodea el control.   Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olBorderStyleSingle</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olBorderStyleSingle</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Clear">
@@ -283,11 +263,9 @@
       <Parameters />
       <Docs>
         <summary>Copia el contenido del control en el Portapapeles.</summary>
-        <remarks>
-          <para>Los datos se copian en texto sin formato y reemplazan el contenido existente del Portapapeles.</para>
+        <remarks><para>Los datos se copian como texto sin formato y reemplazan el contenido existente en el Portapapeles.</para>
           <para>Si el estilo del control es <b>olComboBoxStyleListBox</b>, este método copia la selección actual en la lista desplegable en el Portapapeles.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Cut">
@@ -312,11 +290,9 @@
       <Parameters />
       <Docs>
         <summary>Quita el contenido del control y lo copia en el Portapapeles.</summary>
-        <remarks>
-          <para>Los datos se copian en el Portapapeles en texto sin formato y reemplazan el contenido existente del Portapapeles.</para>
-          <para>Si el estilo del control es <b>olComboBoxStyleListBox</b>, este método no corta ningún dato.</para>
-          <para />
-        </remarks>
+        <remarks><para>Los datos se copian en el Portapapeles como texto sin formato y reemplazan el contenido existente en el Portapapeles.</para>
+          <para>Si el estilo del control es <b>olComboBoxStyleListBox</b>, a continuación, este método no corta nada.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DragBehavior">
@@ -347,10 +323,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlDragBehavior" /> constante que indica si el sistema habilita la característica de arrastrar y colocar para este control.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olDragDropDisabled</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olDragDropDisabled</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DropDown">
@@ -375,10 +349,8 @@
       <Parameters />
       <Docs>
         <summary>Expande la parte desplegable del cuadro combinado.</summary>
-        <remarks>
-          <para>Simula el usuario hace clic en el botón de lista desplegable en el control. Este método hace que el <see cref="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.DropButtonClick" /> evento se desencadene.</para>
-          <para />
-        </remarks>
+        <remarks><para>Simula la acción del usuario al hacer clic en el botón del control. Este método hace que el <see cref="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.DropButtonClick" /> evento se desencadene.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -409,10 +381,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que indica si el control puede funcionar.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EnterFieldBehavior">
@@ -443,10 +413,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" /> constante que especifica el comportamiento de selección al entrar en el control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olEnterFieldBehaviorSelectAll</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olEnterFieldBehaviorSelectAll</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -474,10 +442,8 @@
       <Docs>
         <summary>Devuelve un <b>StdFont</b> que representa la fuente utilizada para representar el texto dentro del control.  Es de sólo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La fuente se expresa como la de tipo <b>stdfont</b>de Microsoft Windows.</para>
-          <para />
-        </remarks>
+        <remarks><para>La fuente se expresa como la de tipo <b>stdfont</b>de Microsoft Windows.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ForeColor">
@@ -511,10 +477,8 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>UInteger</b> (<b>uint</b> en C#) que indica el color de primer plano del control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0 x 80000008, "Texto de ventana".</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0 x 80000008, "Texto de ventana".  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetItem">
@@ -543,10 +507,8 @@
         <param name="Index">Valor de base 0 que especifica la ubicación de un elemento en la lista.</param>
         <summary>Obtiene una <b>cadena</b> (<b>cadena</b> en C#) que representa un elemento en la ubicación especificada en la lista de control de cuadro combinado.</summary>
         <returns>Un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa el elemento en la ubicación especificada en la lista.</returns>
-        <remarks>
-          <para>Si <paramref name="Index" /> está fuera del intervalo de valores permitidos (entre cero y <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" />-1), un fuera de los límites se devolverá el error.</para>
-          <para />
-        </remarks>
+        <remarks><para>Si <paramref name="Index" /> está fuera del intervalo de valores permitidos (entre cero y <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" />-1), un fuera de los límites se devolverá el error.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HideSelection">
@@ -577,10 +539,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si una selección se muestra o se oculta para el control cuando el control pierde el foco.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado de esta propiedad es <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado de esta propiedad es <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ListCount">
@@ -606,12 +566,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que especifica el número de elementos en la lista desplegable el combinado de control de cuadro. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que especifica el número de elementos en la lista desplegable el combinado de control de cuadro. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es cero, lo que indica que no hay ningún elemento en la lista.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es cero, que indica que no hay elementos en la lista.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ListIndex">
@@ -642,11 +600,9 @@
       <Docs>
         <summary>Devuelve o establece control un valor <b>entero</b> (<b>int</b> en C#) que indica la ubicación del elemento seleccionado actualmente en la lista del cuadro combinado. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>ListIndex</b> es un valor de base cero índice en la matriz de elementos de la lista.  El valor predeterminado es -1, que indica que no hay ningún elemento está seleccionado.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Locked">
@@ -677,11 +633,9 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si el control está bloqueado desde que se está cambiando.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>False</b>.</para>
-          <para>Cuando el control está bloqueado, el control no tiene un aspecto "deshabilitado", pero el usuario no puede editar el contenido del control.  </para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>False</b>.</para>
+          <para>Cuando el control está bloqueado, no parece que esté "deshabilitado", pero el usuario no puede modificar su contenido.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MaxLength">
@@ -712,10 +666,8 @@
       <Docs>
         <summary>Devuelve o establece un valor <b>entero</b> (<b>int</b> en C#) que especifica el número máximo de caracteres para el <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" /> de este control.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es cero, lo que significa que no se ha definido ninguna longitud máxima para el valor sólo para este control. Una longitud máxima puede estar todavía en funcionamiento en función de la memoria disponible u otros factores.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es cero, lo que indica simplemente que no se ha definido ninguna longitud máxima para el valor de este control. Sin embargo, es posible que exista una longitud máxima impuesta por la memoria disponible u otros factores.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -746,10 +698,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>StdPicture</b> que representa una imagen personalizada para el cursor del mouse (ratón) para este control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -780,10 +730,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constante que especifica el tipo de puntero mostrado cuando el usuario coloca el mouse sobre el control.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olMousePointerDefault</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olMousePointerDefault</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Paste">
@@ -808,11 +756,9 @@
       <Parameters />
       <Docs>
         <summary>Pega el contenido del Portapapeles en el control.</summary>
-        <remarks>
-          <para>El contenido del Portapapeles se pega en texto sin formato.</para>
+        <remarks><para>El contenido del Portapapeles se pega como texto sin formato.</para>
           <para>Este método no pega ningún dato cuando el control <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Style" /> es <b>olComboBoxStyleListBox</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RemoveItem">
@@ -840,10 +786,8 @@
       <Docs>
         <param name="Index">Valor de base 0 que actúa de índice en la matriz de elementos de la lista.</param>
         <summary>Quita el elemento especificado de la lista.</summary>
-        <remarks>
-          <para>Si <paramref name="Index" /> está fuera del intervalo de valores permitidos (entre cero y <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" />-1), un fuera de los límites se devolverá el error.</para>
-          <para />
-        </remarks>
+        <remarks><para>Si <paramref name="Index" /> está fuera del intervalo de valores permitidos (entre cero y <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" />-1), un fuera de los límites se devolverá el error. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectionMargin">
@@ -874,10 +818,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si el usuario puede seleccionar una línea de texto haciendo clic en la región a la izquierda del texto.   Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Si <b>es True</b>, al hacer clic en el margen hace que la selección de texto.  Si <b>es False</b>, esta acción no selecciona ningún texto. El valor predeterminado es <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Si <b>es True</b>, al hacer clic en el margen hace que la selección de texto.  Si <b>False</b>, esta acción no selecciona ningún texto. El valor predeterminado es <b>False</b>.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelLength">
@@ -908,13 +850,11 @@
       <Docs>
         <summary>Devuelve o establece un valor <b>entero</b> (<b>int</b> en C#) que especifica el número de caracteres de la selección actual.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La selección actual es especificada por <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" />, que es una parte del control <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />. El número máximo de caracteres que puede admitirse para el <b>valor</b> es <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</para>
+        <remarks><para>La selección actual es especificada por <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" />, que es una parte del control <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />. El número máximo de caracteres que puede admitirse para el <b>valor</b> es <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</para>
           <para>El valor predeterminado es cero, lo que significa que no hay ningún texto seleccionado actualmente.</para>
-          <para>La propiedad <b>SelLength</b> siempre es válida, incluso cuando el control no tiene foco.</para>
-          <para>Configuración <b>SelLength</b> a un valor menor que cero se produce un error.   Si se intenta establecer el valor en uno mayor que <b>MaxLength</b> , <b>SelLength</b> en <b>MaxLength</b>.  </para>
-          <para />
-        </remarks>
+          <para>La propiedad <b>SelLength</b> siempre es válida, incluso cuando el control no tiene el foco.</para>
+          <para>Si se establece <b>SelLength</b> en un valor menor que cero, se produce un error.   Si se intenta establecer el valor en uno mayor que <b>MaxLength</b>, <b>SelLength</b> en <b>MaxLength</b>.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelStart">
@@ -945,10 +885,10 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>número entero</b> (<b>int</b> en C#) que especifica el punto inicial del texto seleccionado o el punto de inserción si no se ha seleccionado ningún texto.    Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La selección actual es especificada por <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" />, que es una parte del control <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />. El número máximo de caracteres que puede admitirse para el <b>valor</b> es <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</para>
-          <para>El valor predeterminado es cero, lo que significa que no hay ningún texto seleccionado y el punto de inserción está al principio.</para> Propiedad 
-          <para>el <b>SelStart</b> siempre es válida, incluso cuando el control no tiene el foco.  Al establecer <b>SelStart</b> en un valor menor que cero, se produce un error.  Al establecer <b>SelStart</b> en un valor mayor que <b>MaxLength</b> , <b>SelStart</b> se restablece en <b>MaxLength</b>.  Al cambiar el valor de <b>SelStart,</b> cancela la selección existente, sitúa el punto de inserción en el texto y establece la propiedad <b>SelLength</b> a cero. </para><para /></remarks>
+        <remarks><para>La selección actual es especificada por <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" />, que es una parte del control <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />. El número máximo de caracteres que puede admitirse para el <b>valor</b> es <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</para>
+          <para>El valor predeterminado es cero, lo que significa que no hay ningún texto seleccionado y que el punto de inserción está al principio.</para>
+          <para>La propiedad <b>SelStart</b> siempre es válida, incluso cuando el control no tiene el foco.  Al establecer <b>SelStart</b> en un valor menor que cero, se produce un error.  Al establecer <b>SelStart</b> en un valor mayor que <b>MaxLength</b>, <b>SelStart</b> se restablece en <b>MaxLength</b>.  Cambiar el valor de <b>SelStart,</b> cancela la selección existente, sitúa el punto de inserción en el texto y establece la propiedad <b>SelLength</b> a cero. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelText">
@@ -974,14 +914,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa la parte seleccionada del valor del cuadro combinado.    Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa la parte seleccionada del valor del cuadro combinado.    Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>SelText</b> representa la selección actual, que es una parte del control <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />. El número máximo de caracteres que puede admitirse para el <b>valor</b> es <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</para>
           <para>El valor predeterminado es una cadena vacía.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetItem">
@@ -1011,10 +949,8 @@
         <param name="Index">Valor de base 0 que especifica la ubicación de un elemento en la lista.</param>
         <param name="Item">Valor que se utiliza para actualizar la lista en la ubicación especificada.</param>
         <summary>Establece el elemento en la ubicación especificada en la lista del cuadro combinado en el valor especificado.</summary>
-        <remarks>
-          <para>Si <paramref name="Index" /> está fuera del intervalo de valores permitidos (entre cero y <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), un fuera de los límites se devolverá el error.</para>
-          <para />
-        </remarks>
+        <remarks><para>Si <paramref name="Index" /> está fuera del intervalo de valores permitidos (entre cero y <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), un fuera de los límites se devolverá el error. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Style">
@@ -1045,10 +981,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlComboBoxStyle" /> constante para especificar cómo el usuario puede elegir o establecer el valor del control.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olComboBoxStyleCombo</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olComboBoxStyleCombo</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Text">
@@ -1079,11 +1013,9 @@
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que es el texto que se muestra en el control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado de la propiedad <b>Text</b> es una cadena vacía.</para>
+        <remarks><para>El valor predeterminado de la propiedad <b>Text</b> es una cadena vacía.</para>
           <para>La propiedad <b>Text</b> proporciona el mismo valor que el <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" /> (propiedad), pero el valor es inflexible como una <b>cadena</b> (<b>cadena</b> en C#).</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TextAlign">
@@ -1114,10 +1046,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constante que especifica cómo se alinea el texto en el control.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olTextAlignLeft</b> en idiomas de izquierda a derecha como inglés.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olTextAlignLeft</b> en idiomas de izquierda a derecha como inglés.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TopIndex">
@@ -1148,9 +1078,9 @@
       <Docs>
         <summary>Devuelve o establece un valor <b>entero</b> (<b>int</b> en C#) que representa el índice del elemento en la parte superior de la parte mostrada de la lista en el cuadro combinado. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Tal y como se desplaza la lista, se cambiará el elemento en la parte superior de la lista y se cambiará el valor de esta propiedad para reflejar el elemento actualmente mostrado en la parte superior de la lista.</para> Valor 
-          <para>el índice es de base cero. El valor predeterminado es -1, que indica que no se debe aplicar ningún orden especial.</para><para /></remarks>
+        <remarks><para>Conforme se desplaza la lista, va cambiando el elemento de la parte superior de la lista, así como el valor de esta propiedad para reflejar el elemento actualmente mostrado en la parte superior de la lista.</para>
+          <para>El valor del índice es de base cero. El valor predeterminado es -1, que indica que no debe aplicarse ningún orden especial.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -1181,10 +1111,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>objeto</b> que representa el contenido seleccionado en la lista mostrada en el control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor es el mismo que el valor de <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Text" />, con la salvedad de que esta propiedad es el <b>objeto</b> y <b>texto</b> tiene establecimiento inflexible como <b>cadena</b> (<b>cadena</b> en C#).</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor es el mismo que el valor de <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Text" />, con la salvedad de que esta propiedad es el <b>objeto</b> y <b>texto</b> tiene establecimiento inflexible como <b>cadena</b> (<b>cadena</b> en C#).  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

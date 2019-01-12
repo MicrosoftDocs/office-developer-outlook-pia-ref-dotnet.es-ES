@@ -1,13 +1,5 @@
 <Type Name="_OlkLabel" FullName="Microsoft.Office.Interop.Outlook._OlkLabel">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="471b24bdc0f9e32ac954094896abf68165188812" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643346" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkLabel" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="471b24bdc0f9e32ac954094896abf68165188812" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898952" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkLabel" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkLabel" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkLabel" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkLabel" />
@@ -58,12 +50,10 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa el acelerador o una tecla de acceso rápido para el control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es una cadena vacía, lo que significa que no hay ninguna tecla de acceso rápido.  Si se establece la propiedad con una cadena de más de un carácter, se truncará el valor para el primer carácter.  </para>
+        <remarks><para>El valor predeterminado es una cadena vacía, que indica que no hay ninguna tecla de acceso directo. Si la propiedad está definida con una cadena de varios caracteres, el valor se trunca en el primer carácter.  </para>
           <para>No se pueden utilizar dígitos en una tecla de aceleración.</para>
-          <para>Cuando se presiona la tecla de aceleración para una etiqueta, el siguiente control en el orden de tabulación recibe el foco, no el control label.</para>
-          <para />
-        </remarks>
+          <para>Cuando se presiona la tecla de aceleración de una etiqueta, el siguiente control según el orden de la pestaña recibe el foco y no el control de etiqueta.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoSize">
@@ -94,10 +84,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que cambia automáticamente el tamaño del control para mostrar todo el contenido.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado de esta propiedad es <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>  El valor predeterminado de esta propiedad es <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -131,10 +119,8 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>UInteger</b> (<b>uint</b> en C#) que indica el color de fondo del control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0x8000000F, "Cara del botón".</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0x8000000F, "Cara del botón".</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackStyle">
@@ -165,10 +151,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" /> constante que cambia el estilo de fondo del control entre transparente y opaco. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olBackStyleOpaque</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olBackStyleOpaque</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BorderStyle">
@@ -199,10 +183,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> constante que define el estilo de borde que rodea el control.   Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olBorderStyleSingle</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olBorderStyleSingle</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Caption">
@@ -233,10 +215,8 @@
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que aparece en un objeto para identificarlo o describirlo.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es una cadena vacía. El Diseñador de formularios establece esta propiedad en el nombre del control de forma predeterminada.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es una cadena vacía. El diseñador de formularios establece esta propiedad en el nombre predeterminado del control.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -267,10 +247,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que indica si el control puede funcionar.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -296,7 +274,7 @@
         <ReturnType>stdole.StdFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve como <b>StdFont</b> que representa la fuente utilizada para representar el texto dentro del control.  Es de solo lectura</summary>
+        <summary>Devuelve como <b>StdFont</b> que representa la fuente utilizada para representar el texto dentro del control.  Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -332,10 +310,8 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>UInteger</b> (<b>uint</b> en C#) que indica el color de primer plano del control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0 x 80000008, "Texto de ventana".</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0 x 80000008, "Texto de ventana".  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -366,10 +342,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>StdPicture</b> que representa la imagen personalizada en el cursor del mouse para este control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -400,10 +374,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constante que especifica el tipo de puntero mostrado cuando el usuario coloca el mouse sobre el control.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olMousePointerDefault</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olMousePointerDefault</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TextAlign">
@@ -434,10 +406,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constante que especifica cómo se alinea el texto en el control.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olTextAlignLeft</b> en idiomas de izquierda a derecha como inglés.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olTextAlignLeft</b> en idiomas de izquierda a derecha como inglés.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UseHeaderColor">
@@ -468,10 +438,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que indica si el control de etiqueta debe utilizar el color de primer plano para que coincida con el tema actual de Windows XP o Windows Vista. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad está pensada para los controles de etiqueta en un formulario de mensaje que se muestra en el panel de lectura y en el Inspector. Si la propiedad es <b>True</b>, la etiqueta debe utilizar el color de primer plano que coincida con el tema actual de Windows. Si la propiedad es <b>False</b>, la etiqueta debe utilizar el color de primer plano indicado por la <see cref="P:Microsoft.Office.Interop.Outlook._OlkLabel.ForeColor" /> (propiedad).</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad está pensada para los controles de etiqueta en un formulario de mensaje que se muestra en el panel de lectura y en el Inspector. Si la propiedad es <b>True</b>, la etiqueta debe utilizar el color de primer plano que coincida con el tema actual de Windows. Si la propiedad es <b>False</b>, la etiqueta debe utilizar el color de primer plano indicado por la <see cref="P:Microsoft.Office.Interop.Outlook._OlkLabel.ForeColor" /> (propiedad).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -539,10 +507,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si el contenido de un control se ajusta automáticamente al final de una línea.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

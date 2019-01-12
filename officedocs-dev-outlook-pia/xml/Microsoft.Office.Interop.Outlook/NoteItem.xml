@@ -1,13 +1,5 @@
 <Type Name="NoteItem" FullName="Microsoft.Office.Interop.Outlook.NoteItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c3c651b8fa7c6452466bc3e9898b37e5e8be0166" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20641734" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface NoteItem : Microsoft.Office.Interop.Outlook._NoteItem" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f03425335f748dee3a57be5302c258bb5ff2355f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898609" /></Metadata><TypeSignature Language="C#" Value="public interface NoteItem : Microsoft.Office.Interop.Outlook._NoteItem" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NoteItem implements class Microsoft.Office.Interop.Outlook._NoteItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NoteItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface NoteItem&#xA;Implements _NoteItem" />
@@ -31,14 +23,12 @@
   </Attributes>
   <Docs>
     <summary>Representa una nota de una carpeta Notas.</summary>
-    <remarks>
-      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._NoteItem" />. Para obtener información acerca de los miembros de evento del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_Event" />. </para>
+    <remarks><para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._NoteItem" />. Para obtener información acerca de los miembros de evento del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_Event" />. </para>
       <para>Un <b>objeto NoteItem</b> no es personalizable. Si abre una nueva nota, observará que no es posible ponerla en tiempo de diseño.</para>
-      <para>El <see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.Subject" /> (propiedad) de un objeto <b>NoteItem</b> es de sólo lectura porque se calcula a partir del texto del cuerpo de la nota. Además, el <b>objeto NoteItem</b><see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.Body" /> sólo puede ser de texto enriquecido, por lo que no se aplican las propiedades que corresponden a contenido HTML y Microsoft Word. Aunque el <see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.GetInspector" /> (propiedad) funcionará en las notas, ya que no se puede personalizar notas, algunas de las <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> propiedades, métodos y eventos no se aplicarán a los objetos <b>NoteItem</b> .</para>
+      <para>El <see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.Subject" /> (propiedad) de un objeto <b>NoteItem</b> es de sólo lectura porque se calcula a partir del texto del cuerpo de la nota. Además, el <b>objeto NoteItem</b> <see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.Body" /> sólo puede ser de texto enriquecido, por lo que no se aplican las propiedades que corresponden a contenido HTML y Microsoft Word. Aunque el <see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.GetInspector" /> (propiedad) funcionará en las notas, ya que no se puede personalizar notas, algunas de las <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> propiedades, métodos y eventos no se aplicarán a los objetos <b>NoteItem</b> .</para>
       <para>Usar el <see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" /> (método) para crear un objeto <b>NoteItem</b> que representa una nueva nota.</para>
       <para>Uso <see cref="P:Microsoft.Office.Interop.Outlook._Items.Item(System.Object)" />(<paramref name="index" />), donde <paramref name="index" /> es el número de índice de una nota o un valor que se utiliza para que coincida con la propiedad predeterminada de una nota, para devolver un objeto <b>NoteItem</b> de una carpeta notas.</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

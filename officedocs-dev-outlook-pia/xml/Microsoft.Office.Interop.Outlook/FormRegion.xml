@@ -1,13 +1,5 @@
 <Type Name="FormRegion" FullName="Microsoft.Office.Interop.Outlook.FormRegion">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3b25be4b72745d9aa761ed5594ffccd47108d425" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20641781" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface FormRegion : Microsoft.Office.Interop.Outlook._FormRegion, Microsoft.Office.Interop.Outlook.FormRegionEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e5bfc42ddd7f88bee26bb54fb5a9edb8213bb7a7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897860" /></Metadata><TypeSignature Language="C#" Value="public interface FormRegion : Microsoft.Office.Interop.Outlook._FormRegion, Microsoft.Office.Interop.Outlook.FormRegionEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FormRegion implements class Microsoft.Office.Interop.Outlook._FormRegion, class Microsoft.Office.Interop.Outlook.FormRegionEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.FormRegion" />
   <TypeSignature Language="VB.NET" Value="Public Interface FormRegion&#xA;Implements _FormRegion, FormRegionEvents_Event" />
@@ -34,14 +26,12 @@
   </Attributes>
   <Docs>
     <summary>Representa un área de formulario de un formulario de Outlook.</summary>
-    <remarks>
-      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._FormRegion" />. Para obtener información acerca de los miembros de evento del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionEvents_Event" />.</para>
-      <para>El objeto <b>FormRegion</b> permite a un complemento agregar código detrás de un área de formulario en un formulario personalizado para modificar la apariencia y el comportamiento del área de formulario.</para>
+    <remarks><para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._FormRegion" />. Para obtener información acerca de los miembros de evento del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionEvents_Event" />.</para>
+      <para>El objeto <b>FormRegion</b> permite a un complemento agregar código integrado a un área de formulario en un formulario personalizado para modificar la apariencia y el comportamiento del área de formulario.</para>
       <para>Para obtener una instancia del objeto <b>FormRegion</b> , un complemento debe implementar la <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" /> interfaz. Outlook asigna el almacenamiento para el área de formulario, crea una instancia de una instancia del objeto <b>FormRegion</b> y devuelve el objeto <b>FormRegion</b> en el <see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionStorage(System.String,System.Object,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionMode,Microsoft.Office.Interop.Outlook.OlFormRegionSize)" /> (método). </para>
-      <para>Cuando el complemento cierra el marco para el área de formulario, el complemento debe liberar el objeto para el área de formulario.</para>
+      <para>Cuando el complemento cierra el marco para el área de formulario, el complemento debe liberar el objeto del área de formulario.</para>
       <para>Para obtener más información sobre cómo programar un área de formulario, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87930">Extender un área de formulario con un complemento</a></para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

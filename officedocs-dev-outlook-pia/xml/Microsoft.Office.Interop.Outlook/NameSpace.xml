@@ -1,13 +1,5 @@
 <Type Name="NameSpace" FullName="Microsoft.Office.Interop.Outlook.NameSpace">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e7fa3c61b1254f5d5f5ffdce481266853142f977" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642826" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface NameSpace : Microsoft.Office.Interop.Outlook._NameSpace, Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="fd1833d0e0e9aeab5240d7bbcdbecfc03a8dab6a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898224" /></Metadata><TypeSignature Language="C#" Value="public interface NameSpace : Microsoft.Office.Interop.Outlook._NameSpace, Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NameSpace implements class Microsoft.Office.Interop.Outlook._NameSpace, class Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NameSpace" />
   <TypeSignature Language="VB.NET" Value="Public Interface NameSpace&#xA;Implements _NameSpace, NameSpaceEvents_Event" />
@@ -34,13 +26,11 @@
   </Attributes>
   <Docs>
     <summary>Representa un objeto raíz abstracto de cualquier origen de datos.</summary>
-    <remarks>
-      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._NameSpace" />. Para obtener información acerca de los miembros de evento del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event" />.</para>
-      <para>El objeto mismo proporciona métodos para iniciar y cerrar una sesión, obtener acceso a objetos de almacenamiento directamente mediante su identificador, tener acceso directamente a algunas carpetas predeterminadas especiales y obtener acceso a orígenes de datos que pertenecen a otros usuarios.</para>
+    <remarks><para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._NameSpace" />. Para obtener información acerca de los miembros de evento del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.NameSpaceEvents_Event" />.</para>
+      <para>El objeto mismo proporciona métodos para iniciar y cerrar una sesión, tener acceso a los objetos de almacenamiento directamente mediante su id., tener acceso directamente a algunas carpetas predeterminadas especiales y tener acceso a los orígenes de datos que son propiedad de otros usuarios.</para>
       <para>Uso <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> ("MAPI") para devolver el objeto <b>NameSpace</b> de Outlook desde el <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> objeto.</para>
-      <para>El origen de datos sólo admitido es MAPI, que permite el acceso a todos los datos de Outlook almacenados en los almacenes de correo del usuario.</para>
-      <para />
-    </remarks>
+      <para>El único origen de datos admitido es MAPI, que permite el acceso a todos los datos de Outlook almacenados en los almacenes de correo del usuario.</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

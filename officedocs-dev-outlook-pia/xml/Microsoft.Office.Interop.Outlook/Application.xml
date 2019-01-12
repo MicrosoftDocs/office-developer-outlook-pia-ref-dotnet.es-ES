@@ -1,13 +1,5 @@
 <Type Name="Application" FullName="Microsoft.Office.Interop.Outlook.Application">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="da09d35d132ed58e324bfd41c114fa38d39760a8" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642650" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Application : Microsoft.Office.Interop.Outlook._Application, Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="801583c80d7ad4efb3f58f9096c0aeb20ef5434f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899358" /></Metadata><TypeSignature Language="C#" Value="public interface Application : Microsoft.Office.Interop.Outlook._Application, Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Application implements class Microsoft.Office.Interop.Outlook._Application, class Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Application" />
   <TypeSignature Language="VB.NET" Value="Public Interface Application&#xA;Implements _Application, ApplicationEvents_11_Event" />
@@ -34,13 +26,12 @@
   </Attributes>
   <Docs>
     <summary>Representa la aplicación completa de Outlook.</summary>
-    <remarks>
-      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._Application" />. Para obtener información acerca de los miembros de evento del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event" />.</para>
+    <remarks><para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._Application" />. Para obtener información acerca de los miembros de evento del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event" />.</para>
       <para>Éste es el único objeto de la jerarquía que se puede devolver mediante el uso de la <see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateObject(System.String)" /> método o la función intrínseca de Visual Basic <b>GetObject</b> .</para>
-      <para>Objeto de <b>aplicación</b> de Outlook tiene varios propósitos:</para>
+      <para>El objeto <b>Application</b> de Outlook tiene diversos fines:</para>
       <list type="bullet">
         <item>
-          <para>Como el objeto raíz, permite el acceso a otros objetos en la jerarquía de Outlook.</para>
+          <para>Como objeto raíz, permite el acceso a otros objetos de la jerarquía de Outlook.</para>
         </item>
         <item>
           <para>Permite el acceso directo a un nuevo elemento creado mediante el uso de <see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" />, sin necesidad de recorrer la jerarquía de objetos.</para>
@@ -50,8 +41,7 @@
         </item>
       </list>
       <para>Cuando utilice Automatización para controlar Microsoft Outlook desde otra aplicación, use el método <b>CreateObject</b> para crear un objeto <b>Application</b> de Outlook.</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

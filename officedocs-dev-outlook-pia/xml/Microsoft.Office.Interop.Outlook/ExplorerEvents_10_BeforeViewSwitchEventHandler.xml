@@ -1,13 +1,5 @@
 <Type Name="ExplorerEvents_10_BeforeViewSwitchEventHandler" FullName="Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeViewSwitchEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3bb21f9db6d8ee58159488a99963c4a9f554f598" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642673" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void ExplorerEvents_10_BeforeViewSwitchEventHandler(object NewView, out bool Cancel);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="356f2a9fe50a742ef94bb3df0a96141c66781a55" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896908" /></Metadata><TypeSignature Language="C#" Value="public delegate void ExplorerEvents_10_BeforeViewSwitchEventHandler(object NewView, out bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ExplorerEvents_10_BeforeViewSwitchEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeViewSwitchEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub ExplorerEvents_10_BeforeViewSwitchEventHandler(NewView As Object, ByRef Cancel As Boolean)" />
@@ -36,8 +28,7 @@
   </ReturnValue>
   <Docs>
     <param name="NewView">Nombre de la vista a la que cambia el explorador.</param>
-    <param name="Cancel">
-      <b>False</b> cuando se produce el evento. Si el procedimiento de evento establece este argumento en <b>True</b>, se cancela el modificador y no se cambia la vista actual. </param>
+    <param name="Cancel"><b>False</b> cuando se produce el evento. Si el procedimiento de evento establece este argumento en <b>True</b>, se cancela el modificador y no se cambia la vista actual. </param>
     <summary>Se trata de un delegado para un evento en el objeto correspondiente. Después de implementar un método de devolución de llamada para el evento, utilice este delegado para conectar el método de devolución de llamada con el evento. Si hubiera varias versiones de la interfaz de eventos, este delegado conectaría el método de devolución de llamadas para el evento en la versión especificada de Outlook.</summary>
     <remarks>To be added.</remarks>
   </Docs>

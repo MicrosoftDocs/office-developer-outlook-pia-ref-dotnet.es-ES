@@ -1,13 +1,5 @@
 <Type Name="_Category" FullName="Microsoft.Office.Interop.Outlook._Category">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="980d1194a72301e1075492e2bd0fe0d45c2cdad3" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643122" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Category" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="980d1194a72301e1075492e2bd0fe0d45c2cdad3" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897083" /></Metadata><TypeSignature Language="C#" Value="public interface _Category" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Category" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Category" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Category" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -84,13 +76,11 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor de <b>tipo OLE_COLOR</b> que representa el color del borde de la muestra de color que se muestra para un <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve un valor de <b>tipo OLE_COLOR</b> que representa el color del borde de la muestra de color que se muestra para un <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Configuración de la <see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" /> propiedad del objeto <b>Category</b> en una <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" /> constante cambia el valor de esta propiedad, así como el valor de la <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientBottomColor" /> y <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientTopColor" /> propiedades.</para>
-          <para>Este color se debe utilizar para mostrar el borde de un muestrario de colores con sombreado degradado del objeto <b>Category</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Configuración de la <see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" /> propiedad del objeto <b>Category</b> en una <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" /> constante cambia el valor de esta propiedad, así como el valor de la <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientBottomColor" /> y <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientTopColor" /> propiedades.</para>
+          <para>Este color se debe utilizar para mostrar el borde de un muestrario de colores con sombreado degradado para el objeto <b>Category</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CategoryGradientBottomColor">
@@ -119,13 +109,11 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor de <b>tipo OLE_COLOR</b> que representa el color del degradado inferior de la muestra de color que se muestra para un <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve un valor de <b>tipo OLE_COLOR</b> que representa el color del degradado inferior de la muestra de color que se muestra para un <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Configuración de la <see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" /> propiedad del objeto <b>Category</b> en una <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" /> constante cambia el valor de esta propiedad, así como el valor de la <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientTopColor" /> y <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryBorderColor" /> propiedades.</para>
-          <para>Este color se debe utilizar para mostrar un muestrario de colores con sombreado degradado para el objeto <b>Category</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Configuración de la <see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" /> propiedad del objeto <b>Category</b> en una <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" /> constante cambia el valor de esta propiedad, así como el valor de la <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientTopColor" /> y <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryBorderColor" /> propiedades.</para>
+          <para>Este color se debe utilizar para mostrar un muestrario de colores con sombreado degradado para el objeto <b>Category</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CategoryGradientTopColor">
@@ -154,13 +142,11 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor de <b>tipo OLE_COLOR</b> que representa el color del degradado superior de la muestra de color que se muestra para un <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve un valor de <b>tipo OLE_COLOR</b> que representa el color del degradado superior de la muestra de color que se muestra para un <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Configuración de la <see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" /> propiedad del objeto <b>Category</b> en una <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" /> constante cambia el valor de esta propiedad, así como el valor de la <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientBottomColor" /> y <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryBorderColor" /> propiedades.</para>
-          <para>Este color se debe utilizar para mostrar un muestrario de colores con sombreado degradado para el objeto <b>Category</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Configuración de la <see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" /> propiedad del objeto <b>Category</b> en una <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" /> constante cambia el valor de esta propiedad, así como el valor de la <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryGradientBottomColor" /> y <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryBorderColor" /> propiedades.</para>
+          <para>Este color se debe utilizar para mostrar un muestrario de colores con sombreado degradado para el objeto <b>Category</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CategoryID">
@@ -186,13 +172,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa el identificador único para la <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa el identificador único para la <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Debido a que el <see cref="P:Microsoft.Office.Interop.Outlook._Category.Name" /> (propiedad) de un objeto <b>Category</b> puede cambiarse mediante programación o mediante acciones del usuario, cada objeto <b>Category</b> se identifica mediante un identificador único global (GUID) asignado al objeto, que se puede recuperar uso de esta propiedad. El GUID se presenta como una cadena con el siguiente formato:</para>
+        <remarks><para>Debido a que el <see cref="P:Microsoft.Office.Interop.Outlook._Category.Name" /> (propiedad) de un objeto <b>Category</b> puede cambiarse mediante programación o mediante acciones del usuario, cada objeto <b>Category</b> se identifica mediante un identificador único global (GUID) asignado al objeto, que se puede recuperar uso de esta propiedad. El GUID se presenta como una cadena con el siguiente formato:</para>
           <code>{00000000-0000-0000-0000-000000000000}</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -218,7 +202,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -251,10 +235,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" /> constante que indica el color utilizado por la <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> objeto. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Puede compartir el mismo color para varias categorías, mediante la especificación de la misma constante que representa el color de la categoría en la enumeración <b>OlCategoryColor</b> para dichos objetos <b>Category</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Puede compartir el mismo color para varias categorías, especificando la misma constante que representa el color de la categoría en la enumeración <b>OlCategoryColor</b> para esos objetos <b>Category</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -339,18 +321,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShortcutKey">
@@ -381,10 +361,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryShortcutKey" /> constante que especifica la tecla de método abreviado utilizada por el <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> objeto. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Cualquier constante <b>OlCategoryShortcutKey</b> distinta de <b>olCategoryShortcutKeyNone</b> sólo puede utilizarse por un objeto <b>Category</b> en cualquier momento dado. Si se establece el valor de esta propiedad en una constante <b>OlCategoryShortcutKey</b> ya establece la propiedad <b>ShortcutKey</b> del objeto <b>Category</b> ya está usando el valor especificado en <b>olCategoryShortcutKeyNone</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Cualquier constante <b>OlCategoryShortcutKey</b> distinta de <b>olCategoryShortcutKeyNone</b> sólo puede utilizarse a un objeto <b>Category</b> en un momento dado. Establece el valor de esta propiedad en una constante <b>OlCategoryShortcutKey</b> ya establece la propiedad <b>ShortcutKey</b> del objeto <b>Category</b> ya está usando el valor especificado en <b>olCategoryShortcutKeyNone</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

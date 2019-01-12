@@ -1,13 +1,5 @@
 <Type Name="_SyncObject" FullName="Microsoft.Office.Interop.Outlook._SyncObject">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="76910bdb5f2ffd23348b9b37eff39ee5cb4ca869" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642895" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _SyncObject" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="76910bdb5f2ffd23348b9b37eff39ee5cb4ca869" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896565" /></Metadata><TypeSignature Language="C#" Value="public interface _SyncObject" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _SyncObject" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._SyncObject" />
   <TypeSignature Language="VB.NET" Value="Public Interface _SyncObject" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,7 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -109,7 +101,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre para mostrar para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre para mostrar para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -165,18 +157,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Start">
@@ -228,10 +218,8 @@
       <Parameters />
       <Docs>
         <summary>Termina inmediatamente la sincronización de las carpetas del usuario mediante el grupo de envío y recepción especificado.</summary>
-        <remarks>
-          <para>Este método no deshace la sincronización que ya se ha producido.</para>
-          <para />
-        </remarks>
+        <remarks><para>Este método no deshace la sincronización ya realizada.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

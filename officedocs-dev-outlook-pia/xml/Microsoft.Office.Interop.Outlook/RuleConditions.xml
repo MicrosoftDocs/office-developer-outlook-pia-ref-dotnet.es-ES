@@ -1,13 +1,5 @@
 <Type Name="RuleConditions" FullName="Microsoft.Office.Interop.Outlook.RuleConditions">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="090e2fb2c58b7ce3e2eadffe19cd6c02d655882f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20641756" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface RuleConditions : Microsoft.Office.Interop.Outlook._RuleConditions" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ee868138af65a2bfb03a2af1d9fe0018cdeb4639" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901315" /></Metadata><TypeSignature Language="C#" Value="public interface RuleConditions : Microsoft.Office.Interop.Outlook._RuleConditions" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RuleConditions implements class Microsoft.Office.Interop.Outlook._RuleConditions" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.RuleConditions" />
   <TypeSignature Language="VB.NET" Value="Public Interface RuleConditions&#xA;Implements _RuleConditions" />
@@ -31,10 +23,12 @@
   </Attributes>
   <Docs>
     <summary>Contiene un conjunto de <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> objetos u objetos derivan de <b>RuleCondition</b>, que representan las condiciones o las condiciones de excepción que deben satisfacerse para la <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> para ejecutar.</summary>
-    <remarks>
-      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._RuleConditions" />. </para>Objeto de 
-      <para>la <b>RuleConditions</b> incluye tanto condiciones de regla como excepciones de regla. El tipo de condición de regla que puede agregarse a una colección <b>RuleConditions</b> depende el <see cref="P:Microsoft.Office.Interop.Outlook._Rule.RuleType" />.</para> Objeto 
-      <para>el <b>RuleConditions</b> es una colección fija. Un objeto <b>RuleCondition</b> o un tipo que se deriva del objeto <b>RuleCondition</b> no se pueden agregar o quitar del objeto <b>RuleConditions</b> .</para><para>Las reglas del modelo de objetos proporciona paridad parcial con el Asistente de alertas en la interfaz de usuario de Outlook y las reglas. Es compatible con las condiciones y acciones de regla usadas con más frecuencia. Aunque no admite la creación de reglas con cualquier acción de regla o una condición de regla que permite el asistente, se puede enumerar y habilitar estas acciones de regla y las condiciones en las reglas existentes. </para><para>Para obtener más información sobre las condiciones de regla, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificar condiciones de regla</a><a href="http://go.microsoft.com/fwlink/?LinkId=87859">Cómo: crear una regla para mover correos electrónicos específicos a una carpeta</a></para><para /></remarks>
+    <remarks><para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._RuleConditions" />. </para>
+      <para>El objeto <b>RuleConditions</b> incluye tanto condiciones de regla como excepciones de regla. El tipo de condición de regla que puede agregarse a una colección <b>RuleConditions</b> depende el <see cref="P:Microsoft.Office.Interop.Outlook._Rule.RuleType" />.</para>
+      <para>El objeto <b>RuleConditions</b> es una colección fija. Un objeto <b>RuleCondition</b> o un tipo que se deriva del objeto <b>RuleCondition</b> no puede agregar ni quitarse del objeto <b>RuleConditions</b>.</para>
+      <para>El modelo de objetos de reglas proporciona paridad parcial con el Asistente para reglas y alertas de la interfaz de usuario de Outlook. Admite las acciones y las condiciones de regla más comunes. Aunque no permite crear reglas con todas las acciones o condiciones de regla que permite el Asistente, sí permite enumerar y habilitar estas acciones y condiciones de regla en las reglas existentes.</para>
+      <para>Para obtener más información sobre las condiciones de regla, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificar condiciones de regla</a><a href="http://go.microsoft.com/fwlink/?LinkId=87859">Cómo: crear una regla para mover correos electrónicos específicos a una carpeta</a></para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

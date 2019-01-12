@@ -1,13 +1,5 @@
 <Type Name="ItemEvents_10_BeforeAttachmentAddEventHandler" FullName="Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentAddEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5c399ad4bfd1778a614c0a0056104eda01c05535" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643652" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void ItemEvents_10_BeforeAttachmentAddEventHandler(Attachment Attachment, out bool Cancel);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2be3a0f57291c232d16b0144084895584dde915e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900527" /></Metadata><TypeSignature Language="C#" Value="public delegate void ItemEvents_10_BeforeAttachmentAddEventHandler(Attachment Attachment, out bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ItemEvents_10_BeforeAttachmentAddEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentAddEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub ItemEvents_10_BeforeAttachmentAddEventHandler(Attachment As Attachment, ByRef Cancel As Boolean)" />
@@ -35,8 +27,7 @@
     <ReturnType>System.Void</ReturnType>
   </ReturnValue>
   <Docs>
-    <param name="Attachment">
-      <b>Datos adjuntos</b> que se agregará al elemento.</param>
+    <param name="Attachment"><b>Datos adjuntos</b> que se agregará al elemento.</param>
     <param name="Cancel">Establecer en <b>True</b> para cancelar la operación; de lo contrario, se establece en <b>False</b> para permitir que los <b>datos adjuntos</b> se va a agregar.</param>
     <summary>Se trata de un delegado para un evento en el objeto correspondiente. Después de implementar un método de devolución de llamada para el evento, utilice este delegado para conectar el método de devolución de llamada con el evento. Si hubiera varias versiones de la interfaz de eventos, este delegado conectaría el método de devolución de llamadas para el evento en la versión especificada de Outlook.</summary>
     <remarks>To be added.</remarks>

@@ -1,13 +1,5 @@
 <Type Name="_AccountSelector" FullName="Microsoft.Office.Interop.Outlook._AccountSelector">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="33f6ada9ca53fd6445dfacde4868a898b71da6f5" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20641973" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _AccountSelector" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="33f6ada9ca53fd6445dfacde4868a898b71da6f5" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896747" /></Metadata><TypeSignature Language="C#" Value="public interface _AccountSelector" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _AccountSelector" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._AccountSelector" />
   <TypeSignature Language="VB.NET" Value="Public Interface _AccountSelector" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,7 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -111,10 +103,8 @@
       <Docs>
         <summary>Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Devuelve el objeto primario del objeto <b>AccountSelector</b> una <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>Devuelve el objeto primario del objeto <b>AccountSelector</b> una <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectedAccount">
@@ -140,13 +130,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Account</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> object que representa la cuenta seleccionada en la vista Backstage de Microsoft Office en Microsoft Outlook. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> object que representa la cuenta seleccionada en la vista Backstage de Microsoft Office en Microsoft Outlook. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>En la interfaz de usuario de Outlook, puede seleccionar una cuenta explícitamente en la ficha de información de la vista Backstage, o puede seleccionar una cuenta de forma implícita cuando se selecciona una carpeta en una lista de carpetas. El <b>selectedaccount (</b> propiedad) representa la cuenta seleccionada actualmente en la vista Backstage para una instancia determinada de la <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto. Para determinar la cuenta que está seleccionada de forma implícita, identificar el objeto de <b>cuenta</b> que tiene su <see cref="P:Microsoft.Office.Interop.Outlook._Account.DeliveryStore" /> propiedad igual a la <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Store" /> (propiedad) de la carpeta actual (que está representada por el <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> (propiedad) del objeto <b>Explorer</b> ).</para>
-          <para>Esta propiedad devuelve <b>Null</b> (<b>Nothing</b> en Visual Basic) si no se define en el perfil de la sesión; que es, el <see cref="P:Microsoft.Office.Interop.Outlook._Accounts.Count" /> (propiedad) de la <see cref="T:Microsoft.Office.Interop.Outlook.Accounts" /> object que representa todas las cuentas del perfil actual es 0.</para>
-          <para />
-        </remarks>
+        <remarks><para>En la interfaz de usuario de Outlook, puede seleccionar una cuenta explícitamente en la ficha de información de la vista Backstage, o puede seleccionar una cuenta de forma implícita cuando se selecciona una carpeta en una lista de carpetas. El <b>selectedaccount (</b> propiedad) representa la cuenta seleccionada actualmente en la vista Backstage para una instancia determinada de la <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto. Para determinar la cuenta que está seleccionada de forma implícita, identificar el objeto de <b>cuenta</b> que tiene su <see cref="P:Microsoft.Office.Interop.Outlook._Account.DeliveryStore" /> propiedad igual a la <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Store" /> (propiedad) de la carpeta actual (que está representada por el <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> (propiedad) del objeto <b>Explorer</b> ).</para>
+          <para>Esta propiedad devuelve <b>Null</b> (<b>Nothing</b> en Visual Basic) si no se define en la sesión de perfil de; es decir, el <see cref="P:Microsoft.Office.Interop.Outlook._Accounts.Count" /> (propiedad) de la <see cref="T:Microsoft.Office.Interop.Outlook.Accounts" /> object que representa todas las cuentas del perfil actual es 0. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -172,13 +160,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Devuelve <b>Null</b> (<b>Nothing</b> en Visual Basic) si no hay ninguna sesión iniciada.</para>
+        <remarks><para>Devuelve <b>Null</b> (<b>Nothing</b> en Visual Basic) si no hay ninguna sesión iniciada.</para>
           <para>Puede usar la propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> (método) de la <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> objeto indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

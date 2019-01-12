@@ -1,13 +1,5 @@
 <Type Name="_BusinessCardView" FullName="Microsoft.Office.Interop.Outlook._BusinessCardView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e4a50ec2d09f3ddbb58c0953b9949f3a6893a1fd" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20641966" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _BusinessCardView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e4a50ec2d09f3ddbb58c0953b9949f3a6893a1fd" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897132" /></Metadata><TypeSignature Language="C#" Value="public interface _BusinessCardView" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _BusinessCardView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._BusinessCardView" />
   <TypeSignature Language="VB.NET" Value="Public Interface _BusinessCardView" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -111,10 +103,8 @@
       <Docs>
         <summary>Devuelve o establece un valor <b>entero</b> (<b>int</b> en C#) que representa el tamaño, como un porcentaje, de una tarjeta de presentación electrónica (EBC) en la vista. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad se puede establecer en un valor entre 20 y 100. Si esta propiedad se establece en un valor menor que 20, la propiedad se establece en 20. Si esta propiedad se establece en un valor mayor que 100, la propiedad se establece en 100.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad puede establecerse en un valor entre 20 y 100. Si se establece en un valor menor que 20, su valor cambiará a 20. Si se establece en un valor mayor que 100, su valor cambiará a 100.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -140,12 +130,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad devuelve la <b>constante olBusinessCardView</b> para el <see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad devuelve la <b>constante olBusinessCardView</b> para el <see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Copy">
@@ -285,7 +273,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" /> object que representa la fuente utilizada para mostrar los títulos para cada tarjeta de presentación electrónica (EBC) en la vista. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" /> object que representa la fuente utilizada para mostrar los títulos para cada tarjeta de presentación electrónica (EBC) en la vista. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -318,11 +306,9 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa la configuración de idioma para el objeto que define el idioma utilizado en el menú. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El <b>idioma</b> de la propiedad utiliza una <b>cadena</b> (<b>cadena</b> en C#) para representar una etiqueta de idioma ISO. Por ejemplo, la cadena "EN-US" representa el código ISO para "Estados de Unidos - inglés"</para>
-          <para>Si se especifica un código de idioma válido, el objeto sólo estará disponible en el menú Ver para el tipo de idioma especificado. Si no se especifica ningún valor, el elemento del objeto está disponible para todos los tipos de idioma. El valor predeterminado de esta propiedad es una cadena vacía.</para>
-          <para />
-        </remarks>
+        <remarks><para>La propiedad <b>Language</b> utiliza una <b>cadena</b> (<b>cadena</b> en C#) para representar una etiqueta de idioma ISO. Por ejemplo, la cadena "EN-US" representa el código ISO de "Estados Unidos - inglés."</para>
+          <para>Si se especifica un código válido de idioma, el objeto sólo estará disponible en el menú Ver para el tipo de idioma especificado. Si no se especifica un valor, el elemento de objeto estará disponible para todos los tipos de idioma. El valor predeterminado de esta propiedad es una cadena vacía.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LockUserChanges">
@@ -353,10 +339,8 @@
       <Docs>
         <summary>Devuelve o establece un valor <b>booleano</b> (<b>bool</b> en C#) que indica si un usuario puede modificar la configuración de la vista actual. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Si el <b>es True</b>, el usuario puede modificar la configuración de la vista actual. Sin embargo, no se guardarán los cambios realizados en la interfaz. Si <b>es False</b> (valor predeterminado), se guardarán los cambios.</para>
-          <para />
-        </remarks>
+        <remarks><para>Si el <b>es True</b>, el usuario puede modificar la configuración de la vista actual. Sin embargo, no se guardarán los cambios realizados en la interfaz. Si <b>False</b> (valor predeterminado), los cambios se guardarán.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -440,10 +424,8 @@
       <Parameters />
       <Docs>
         <summary>Restablece la configuración original de una vista integrada de Microsoft Outlook.</summary>
-        <remarks>
-          <para>Este método sólo funciona con vistas integradas de Outlook.</para>
-          <para />
-        </remarks>
+        <remarks><para>Este método sólo funciona con vistas integradas de Outlook.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -494,12 +476,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> constante que especifica las carpetas en la que está disponible la vista especificada y los permisos de lectura adjuntos a la vista. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> constante que especifica las carpetas en la que está disponible la vista especificada y los permisos de lectura adjuntos a la vista. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor de la propiedad <b>SaveOption</b> se establece cuando el <see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" /> objeto se crea mediante el uso de la <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> (método) de la <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> colección.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor de la propiedad <b>SaveOption</b> se establece cuando el <see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" /> objeto se crea mediante el uso de la <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> (método) de la <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> colección. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -525,18 +505,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SortFields">
@@ -562,7 +540,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OrderFields</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> objeto de colección que representa todos los campos que se ordena la vista. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> objeto de colección que representa todos los campos que se ordena la vista. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -590,12 +568,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>booleano</b> (<b>bool</b> en C#) que indica si la <see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" /> objeto es una vista integrada de Outlook. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>booleano</b> (<b>bool</b> en C#) que indica si la <see cref="T:Microsoft.Office.Interop.Outlook.BusinessCardView" /> objeto es una vista integrada de Outlook. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> método sólo se puede utilizar en una vista si el valor de esta propiedad se establece en <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> método sólo se puede utilizar en una vista si el valor de esta propiedad se establece en <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewType">
@@ -621,7 +597,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" /> constante que representa el tipo de vista de la vista. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" /> constante que representa el tipo de vista de la vista. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -654,7 +630,9 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>cadena</b> (<b>cadena</b> en C#) que especifica la definición XML de la vista actual. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>Definición de <para>el XML describe el tipo de vista mediante el uso de una serie de etiquetas y palabras clave que corresponden a varias propiedades de la vista en Sí. Cuando se crea la vista, se analiza la definición XML para representar la configuración de la nueva vista.</para><para>Para determinar cómo se debe estructurar el XML al crear vistas, crear una vista mediante el uso de la interfaz de usuario de Outlook y, a continuación, recuperar la propiedad <b>XML</b> para esa vista.  </para><para /></remarks>
+        <remarks><para>La definición XML describe el tipo de vista mediante una serie de etiquetas y palabras clave que corresponden a las diferentes propiedades de la vista en sí. Cuando se crea la vista, se analiza la definición XML para mostrar la configuración de la nueva vista.</para>
+          <para>Para determinar cómo se debe estructurar el XML al crear vistas, crear una vista mediante la interfaz de usuario de Outlook y, a continuación, recuperar la propiedad <b>XML</b> para esa vista.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

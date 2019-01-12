@@ -1,13 +1,5 @@
 <Type Name="InspectorEvents_10_Event" FullName="Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e577cef66d03135647987f26fbc59f4c3687f225" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642157" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface InspectorEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f1194b1f0b61ad8f4626aab81e241dac5cce1074" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897684" /></Metadata><TypeSignature Language="C#" Value="public interface InspectorEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract InspectorEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface InspectorEvents_10_Event" />
@@ -68,10 +60,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando el usuario selecciona datos adjuntos diferentes o adicionales de un elemento en el inspector activo mediante programación o interactuando con la interfaz de usuario.</summary>
-        <remarks>
-          <para>El evento <b>AttachmentSelectionChange</b> se desencadena cuando se selecciona un adjunto diferente o adicional del elemento en el inspector.</para>
-          <para />
-        </remarks>
+        <remarks><para>El evento <b>AttachmentSelectionChange</b> se desencadena cuando se selecciona un adjunto diferente o adicional del elemento en el inspector.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeMaximize">
@@ -90,10 +80,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando el usuario maximiza un inspector.</summary>
-        <remarks>
-          <para>Este evento puede cancelarse después de haber comenzado.</para>
-          <para />
-        </remarks>
+        <remarks><para>Este evento se puede cancelar después de haber comenzado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeMinimize">
@@ -112,10 +100,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando el usuario minimiza el inspector activo.</summary>
-        <remarks>
-          <para>Este evento puede cancelarse después de haber comenzado.</para>
-          <para />
-        </remarks>
+        <remarks><para>Este evento se puede cancelar después de haber comenzado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeMove">
@@ -134,10 +120,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando el <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> se mueve por el usuario.</summary>
-        <remarks>
-          <para>Este evento puede cancelarse después de haber comenzado.</para>
-          <para />
-        </remarks>
+        <remarks><para>Este evento se puede cancelar después de haber comenzado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeSize">
@@ -156,10 +140,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando el usuario cambia el tamaño actual <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />.</summary>
-        <remarks>
-          <para>Este evento puede cancelarse después de haber comenzado. Si se cancela el evento, no se ajusta el tamaño de la ventana.</para>
-          <para />
-        </remarks>
+        <remarks><para>Este evento se puede cancelar después de haber comenzado. Si se cancela el evento, no se ajustará el tamaño de la ventana.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -178,10 +160,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando se cierra el inspector asociado a un elemento de Microsoft Outlook.</summary>
-        <remarks>
-          <para>Si usa el <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" /> método para desencadenar este evento, éste sólo se podrá cancelar si el método <b>Close</b> utiliza el argumento <b>olPromptForSave</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Si usa el <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" /> método para desencadenar este evento, éste sólo se podrá cancelar si el método <b>Close</b> utiliza el argumento <b>olPromptForSave</b> .</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Deactivate">
@@ -219,10 +199,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando cambia la página de formulario activa, ya sea mediante programación o mediante acciones del usuario, en un <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> objeto.</summary>
-        <remarks>
-          <para>Se produce un error si el controlador de eventos para que este evento llama a la <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" /> o <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.SetCurrentFormPage(System.String)" /> métodos.</para>
-          <para />
-        </remarks>
+        <remarks><para>Se produce un error si el controlador de eventos para que este evento llama a la <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" /> o <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.SetCurrentFormPage(System.String)" /> métodos.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

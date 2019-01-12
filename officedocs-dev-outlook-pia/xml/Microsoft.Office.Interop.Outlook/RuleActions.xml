@@ -1,13 +1,5 @@
 <Type Name="RuleActions" FullName="Microsoft.Office.Interop.Outlook.RuleActions">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1c9dcd938b096bfbf64c19b0467f098f31267e47" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642030" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface RuleActions : Microsoft.Office.Interop.Outlook._RuleActions" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="179d0d3e95cdc9402409978be77550cf35aa5d70" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897489" /></Metadata><TypeSignature Language="C#" Value="public interface RuleActions : Microsoft.Office.Interop.Outlook._RuleActions" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RuleActions implements class Microsoft.Office.Interop.Outlook._RuleActions" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.RuleActions" />
   <TypeSignature Language="VB.NET" Value="Public Interface RuleActions&#xA;Implements _RuleActions" />
@@ -31,9 +23,11 @@
   </Attributes>
   <Docs>
     <summary>El objeto <b>RuleActions</b> contiene un conjunto de <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> objetos u objetos derivan de <b>RuleAction</b>que representan las acciones que se ejecutan en un <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objeto.</summary>
-    <remarks>
-      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._RuleActions" />. </para>Objeto 
-      <para>el <b>RuleActions</b> es una colección fija. No se agrega o quita el objeto <b>RuleActions</b> de objetos <b>RuleAction</b> o tipos que se derivan del objeto <b>RuleAction</b> .</para><para>Las reglas del modelo de objetos proporciona paridad parcial con el Asistente de alertas en la interfaz de usuario de Outlook y las reglas. Es compatible con las condiciones y acciones de regla usadas con más frecuencia. Aunque no admite la creación de reglas con cualquier acción de regla o una condición de regla que permite el asistente, se puede enumerar y habilitar estas acciones de regla y las condiciones en las reglas existentes. </para><para>Para obtener más información sobre las acciones de regla, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Especificar acciones de regla</a><a href="http://go.microsoft.com/fwlink/?LinkId=87859">Cómo: crear una regla para mover correos electrónicos específicos a una carpeta</a></para><para /></remarks>
+    <remarks><para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._RuleActions" />. </para>
+      <para>El objeto <b>RuleActions</b> es una colección fija. Los objetos <b>RuleAction</b> o los tipos que se derivan del objeto <b>RuleAction</b> no se agregan a o quitarse del objeto <b>RuleActions</b>.</para>
+      <para>El modelo de objetos de reglas proporciona paridad parcial con el Asistente para reglas y alertas de la interfaz de usuario de Outlook. Admite las acciones y las condiciones de regla más comunes. Aunque no permite crear reglas con todas las acciones o condiciones de regla que permite el Asistente, sí permite enumerar y habilitar estas acciones y condiciones de regla en las reglas existentes.</para>
+      <para>Para obtener más información sobre las acciones de regla, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Especificar acciones de regla</a><a href="http://go.microsoft.com/fwlink/?LinkId=87859">Cómo: crear una regla para mover correos electrónicos específicos a una carpeta</a></para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

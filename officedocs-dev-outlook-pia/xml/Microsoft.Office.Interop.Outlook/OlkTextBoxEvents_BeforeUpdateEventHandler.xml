@@ -1,13 +1,5 @@
 <Type Name="OlkTextBoxEvents_BeforeUpdateEventHandler" FullName="Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_BeforeUpdateEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1fc45481b92818af3646fa7ce64d0cdcfbf49fef" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642907" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void OlkTextBoxEvents_BeforeUpdateEventHandler(ref bool Cancel);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5e138721f93495e36b349e87d3bce0171197999a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899589" /></Metadata><TypeSignature Language="C#" Value="public delegate void OlkTextBoxEvents_BeforeUpdateEventHandler(ref bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlkTextBoxEvents_BeforeUpdateEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_BeforeUpdateEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub OlkTextBoxEvents_BeforeUpdateEventHandler(ByRef Cancel As Boolean)" />
@@ -34,8 +26,7 @@
     <ReturnType>System.Void</ReturnType>
   </ReturnValue>
   <Docs>
-    <param name="Cancel">
-      <b>False</b> cuando se produce el evento. Si el procedimiento de evento establece este argumento en <b>True</b>, la operación no se completará y no se actualizará la propiedad enlazada al control. </param>
+    <param name="Cancel"><b>False</b> cuando se produce el evento. Si el procedimiento de evento establece este argumento en <b>True</b>, la operación no se completará y no se actualizará la propiedad enlazada al control. </param>
     <summary>Se trata de un delegado para un evento en el objeto correspondiente. Después de implementar un método de devolución de llamada para el evento, utilice este delegado para conectar el método de devolución de llamada con el evento. Si hubiera varias versiones de la interfaz de eventos, este delegado conectaría el método de devolución de llamadas para el evento en la versión especificada de Outlook.</summary>
     <remarks>To be added.</remarks>
   </Docs>

@@ -1,13 +1,5 @@
 <Type Name="Category" FullName="Microsoft.Office.Interop.Outlook.Category">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="435e5765b7ec5d5ff26be55adc999086a3415e41" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643419" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Category : Microsoft.Office.Interop.Outlook._Category" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a7e2734d6e53bd5a1e3e99a9c8084ca598f7964f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897447" /></Metadata><TypeSignature Language="C#" Value="public interface Category : Microsoft.Office.Interop.Outlook._Category" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Category implements class Microsoft.Office.Interop.Outlook._Category" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Category" />
   <TypeSignature Language="VB.NET" Value="Public Interface Category&#xA;Implements _Category" />
@@ -31,11 +23,10 @@
   </Attributes>
   <Docs>
     <summary>Representa una categoría definida por el usuario mediante el cual se pueden agrupar los elementos de Microsoft Outlook.</summary>
-    <remarks>
-      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._Category" />.</para>
+    <remarks><para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._Category" />.</para>
       <para>Outlook proporciona un sistema de categorización con la que los elementos de Outlook pueden ser fácilmente identificados y agrupan en categorías definidas por el usuario. El objeto <b>Category</b> representa una categoría definida por el usuario.</para>
-      <para>Usar el <see cref="M:Microsoft.Office.Interop.Outlook._Categories.Add(System.String,System.Object,System.Object)" /> (método) de la <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Categories" /> (propiedad) para la <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para crear un nuevo objeto <b>Category</b> , agregue la categoría a la lista principal de categorías para ese espacio de nombres.</para>
-      <para>Usar el <see cref="P:Microsoft.Office.Interop.Outlook._Category.Name" /> (propiedad) para especificar el nombre de la categoría, el <see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" /> (propiedad) para especificar el color que se muestra para esa categoría y el <see cref="P:Microsoft.Office.Interop.Outlook._Category.ShortcutKey" /> (propiedad) para especificar la tecla de método abreviado que se utiliza para asignar esa categoría a un elemento de Outlook en Outlook interfaz de usuario. Usar el <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryID" /> (propiedad) para recuperar el identificador único para una categoría.</para>
+      <para>Usar el <see cref="M:Microsoft.Office.Interop.Outlook._Categories.Add(System.String,System.Object,System.Object)" /> (método) de la <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Categories" /> (propiedad) para la <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para crear un nuevo objeto <b>Category</b> , agregue la categoría a la lista principal de categorías para ese espacio de nombres. </para>
+      <para>Usar el <see cref="P:Microsoft.Office.Interop.Outlook._Category.Name" /> (propiedad) para especificar el nombre de la categoría, el <see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" /> (propiedad) para especificar el color que se muestra para esa categoría y el <see cref="P:Microsoft.Office.Interop.Outlook._Category.ShortcutKey" /> (propiedad) para especificar la tecla de método abreviado que se utiliza para asignar esa categoría a un elemento de Outlook en la interfaz de usuario de Outlook . Usar el <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryID" /> (propiedad) para recuperar el identificador único para una categoría.</para>
       <para>Es posible asignar categorías a los elementos de Outlook especificando los nombres de los objetos <b>Category</b> correspondientes en una cadena delimitada por comas en la propiedad <b>Categories</b> de los objetos siguientes:</para>
       <list type="table">
         <item>
@@ -109,8 +100,7 @@
           <description />
         </item>
       </list>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

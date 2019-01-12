@@ -1,13 +1,5 @@
 <Type Name="ResultsEvents_Event" FullName="Microsoft.Office.Interop.Outlook.ResultsEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3a87dc9dae2379388ad923144e6c646f5a199984" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643235" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ResultsEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4a6435255dc3c98ff97995c77a01ed2d110fb667" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896855" /></Metadata><TypeSignature Language="C#" Value="public interface ResultsEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ResultsEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ResultsEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ResultsEvents_Event" />
@@ -49,10 +41,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando se agregan uno o varios elementos a la colección especificada.</summary>
-        <remarks>
-          <para>Este evento no se ejecuta cuando un gran número de elementos se agregan a la carpeta a la vez.</para>
-          <para />
-        </remarks>
+        <remarks><para>Este evento no se ejecuta cuando se agrega de una vez un gran número de elementos a la carpeta. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ItemChange">
@@ -90,10 +80,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando se elimina un elemento de la colección especificada.</summary>
-        <remarks>
-          <para>Este evento no se ejecuta cuando se elimina el último elemento de un archivo de carpetas personales (.pst) o si 16 o más elementos se eliminan a la vez de un archivo .pst, buzón de Microsoft Exchange o una carpeta pública de Exchange.</para>
-          <para />
-        </remarks>
+        <remarks><para>Este evento no se ejecuta cuando se elimina el último elemento de un archivo de carpetas personales (.pst), o bien si se eliminan de golpe 16 o más elementos de un archivo .pst, un buzón de Microsoft Exchange o una carpeta pública de Exchange.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

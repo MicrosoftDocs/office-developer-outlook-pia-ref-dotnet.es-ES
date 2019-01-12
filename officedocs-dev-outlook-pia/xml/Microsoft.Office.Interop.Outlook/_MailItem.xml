@@ -1,13 +1,5 @@
 <Type Name="_MailItem" FullName="Microsoft.Office.Interop.Outlook._MailItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8ebd187494220916c18381901c32818abbb42e39" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642188" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _MailItem" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="8ebd187494220916c18381901c32818abbb42e39" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901133" /></Metadata><TypeSignature Language="C#" Value="public interface _MailItem" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _MailItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._MailItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface _MailItem" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Actions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Actions" /> colección que representa todas las acciones disponibles para el elemento. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Actions" /> colección que representa todas las acciones disponibles para el elemento. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -83,29 +75,28 @@
       <Docs>
         <param name="contact">Elemento de contacto del cual debe obtenerse la información de la tarjeta de presentación.</param>
         <summary>Anexa información de contacto basándose en la tarjeta de presentación electrónica (EBC) asociada con el especificado <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" /> objeto a la <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> objeto.</summary>
-        <remarks>
-          <para>Este método agrega información de contacto, generada a partir de la información almacenada en el objeto <b>ContactItem</b> , al objeto <b>MailItem</b> existente. La información incluida depende del valor de la <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.BodyFormat" /> (propiedad) para el objeto <b>MailItem</b> :</para>
+        <remarks><para>Este método agrega información de contacto, generada a partir de la información almacenada en el objeto <b>ContactItem</b>, al objeto <b>MailItem</b> existente. La información incluida depende del valor de la <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.BodyFormat" /> (propiedad) para el objeto <b>MailItem</b> :</para>
           <list type="table">
             <item>
-              <description>resultado</description>del
-              <description>valor de la propiedad</description></item>
+              <description>Valor de propiedad</description>
+              <description>Resultado</description>
+            </item>
             <item>
               <description>olFormatPlain</description>
-              <description>se crea un archivo vCard (.vcf) y se agrega a la La colección Attachments del objeto MailItem.</description>
+              <description>Se crea un archivo vCard (.vcf) y se agrega a la colección Attachments del objeto MailItem.</description>
             </item>
             <item>
               <description>olFormatRichText</description>
-              <description>se crea un archivo vCard (.vcf) y se agrega a la colección Attachments del objeto MailItem.</description>
+              <description>Se crea un archivo vCard (.vcf) y se agrega a la colección Attachments del objeto MailItem.</description>
             </item>
             <item>
               <description>olFormatHTML</description>
-              <description>una imagen de la tarjeta de presentación electrónica y se incluye en la propiedad Body del objeto MailItem y se crea un archivo vCard (.vcf) y se agrega a la colección Attachments del objeto MailItem.</description>
+              <description>Se crea una imagen de la tarjeta de presentación y se incluye en la propiedad Body del objeto MailItem; también se crea un archivo vCard (.vcf) y se agrega a la colección Attachments del objeto MailItem.</description>
             </item>
           </list>
           <para>
             <b>Nota</b>: el archivo vCard adjunto contiene sólo la información de contacto incluida en la tarjeta de presentación electrónica asociada al objeto <b>ContactItem</b> . Cualquier información de contacto no se muestran en la tarjeta de presentación electrónica se excluye del archivo vCard.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AlternateRecipientAllowed">
@@ -162,7 +153,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -190,7 +181,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Attachments</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> object que representa todos los datos adjuntos para el elemento especificado. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> object que representa todos los datos adjuntos para el elemento especificado. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -249,11 +240,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <b>valor Boolean</b> (<b>bool</b> en C#) que determina si el elemento es el ganador de una resolución automática de conflictos. Es de solo lectura</summary>
+        <summary>Devuelve un <b>valor Boolean</b> (<b>bool</b> en C#) que determina si el elemento es el ganador de una resolución automática de conflictos. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Un valor <b>False</b> no indica necesariamente que el elemento sea el perdedor de una resolución automática de conflictos. El elemento podría ser entra en conflicto con otro elemento.</para> Si tiene un elemento de 
-          <para><see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> de su <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Conflicts" /> propiedad mayor que cero y su propiedad <b>AutoResolvedWinner</b> es <b>True</b>, es el ganador de una resolución automática de conflictos. Por otro lado, si el elemento está en conflicto y su propiedad <b>AutoResolvedWinner es</b><b>False</b>, es el perdedor de una resolución automática de conflictos.</para><para /></remarks>
+        <remarks><para>Un valor <b>False</b> no indica necesariamente que el elemento sea el perdedor de una resolución automática de conflictos. El elemento podría ser en conflicto con otro elemento.</para>
+          <para>Si tiene un elemento <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> de su <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Conflicts" /> propiedad mayor que cero y su propiedad <b>AutoResolvedWinner</b> es <b>True</b>, es el ganador de una resolución automática de conflictos. Por otro lado, si el elemento está en conflicto y su propiedad <b>AutoResolvedWinner es</b> <b>False</b>, es el perdedor de una resolución automática de conflictos.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BCC">
@@ -284,10 +275,8 @@
       <Docs>
         <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa la lista de nombres de copia oculta (CCO) para un <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad contiene sólo los nombres para mostrar. El <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> colección debe usarse para modificar los destinatarios de CCO.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad contiene sólo los nombres para mostrar. El <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> colección debe usarse para modificar los destinatarios de CCO. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BillingInformation">
@@ -318,10 +307,8 @@
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que representa la información de facturación asociada con el elemento de Outlook. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Éste es un campo de texto de forma libre.</para>
-          <para />
-        </remarks>
+        <remarks><para>Éste es un campo de texto de forma libre.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Body">
@@ -352,10 +339,8 @@
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que representa el cuerpo de texto simple del elemento de Outlook. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.BodyFormat" /> propiedad le permite cambiar mediante programación el editor que se utiliza para el cuerpo de un elemento.</para>
-          <para />
-        </remarks>
+        <remarks><para>El <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.BodyFormat" /> propiedad le permite cambiar mediante programación el editor que se utiliza para el cuerpo de un elemento.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BodyFormat">
@@ -386,11 +371,9 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlBodyFormat" /> constante que indica el formato del texto del cuerpo.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El formato de texto de cuerpo determina el estándar utilizado para mostrar el texto del mensaje. Microsoft Outlook proporciona tres opciones de formato de texto de cuerpo: texto sin formato, texto enriquecido (RTF) y HTML.</para>
-          <para>Todo el formato de texto se perderá cuando se cambie la propiedad <b>BodyFormat</b> de RTF a HTML y viceversa.</para>
-          <para />
-        </remarks>
+        <remarks><para>El formato de texto del cuerpo determinar el estándar que se usa para mostrar el texto del mensaje. Microsoft Outlook proporciona tres opciones de formato de texto del cuerpo: texto sin formato, texto enriquecido (RTF) y HTML.</para>
+          <para>Todo el formato de texto se perderá cuando la propiedad <b>BodyFormat</b> cambia de RTF a HTML y viceversa.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Categories">
@@ -421,11 +404,9 @@
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que representa las categorías asignadas al elemento de Outlook. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Categorías</b> es una cadena delimitada de nombres de categoría que se han asignado a un elemento de Outlook. Esta propiedad usa el carácter especificado en el nombre del valor, sList, en HKEY_CURRENT_USER\Control Panel\International en el registro de Windows, como el delimitador para varios valores de categoría. Para convertir la cadena de nombres de categoría en una matriz de nombres de categoría, utilice la función <b>Split</b>de Microsoft Visual Basic.</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>Categorías</b> es una cadena delimitada de nombres de categoría que se han asignado a un elemento de Outlook. Esta propiedad usa el carácter especificado en el nombre del valor, sList, en HKEY_CURRENT_USER\Control Panel\International en el registro de Windows, como el delimitador para varios valores de categoría. Para convertir la cadena de nombres de categoría en una matriz de nombres de categoría, utilice la función <b>Split</b> de Microsoft Visual Basic.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CC">
@@ -456,10 +437,8 @@
       <Docs>
         <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa la lista de nombres de destinatarios con copia (CC) para un <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad contiene sólo los nombres para mostrar. El <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> para modificar los destinatarios CC, se debe utilizar la colección.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad contiene sólo los nombres para mostrar. El <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> para modificar los destinatarios CC, se debe utilizar la colección. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -485,7 +464,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -537,10 +516,8 @@
       <Parameters />
       <Docs>
         <summary>Borra la <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> objeto como una tarea.</summary>
-        <remarks>
-          <para>Llamar a este método establece la <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.IsMarkedAsTask" /> propiedad en <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Llamar a este método establece la <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.IsMarkedAsTask" /> propiedad en <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -599,10 +576,8 @@
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que representa los nombres de las organizaciones asociadas con el elemento de Outlook. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Éste es un campo de texto de forma libre.</para>
-          <para />
-        </remarks>
+        <remarks><para>Éste es un campo de texto de forma libre. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Conflicts">
@@ -628,7 +603,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Conflicts</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devolver el <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> objeto que representa los elementos que están en conflicto para cualquier objeto de elemento de Outlook.  Es de solo lectura</summary>
+        <summary>Devolver el <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> objeto que representa los elementos que están en conflicto para cualquier objeto de elemento de Outlook.  Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -656,14 +631,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que identifica de forma exclusiva una <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> de objetos que el <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> objeto pertenece a. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que identifica de forma exclusiva una <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> de objetos que el <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> objeto pertenece a. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad asocia los elementos a una conversación. La conversación y estos elementos tienen el mismo valor en su propiedad <b>ConversationID</b> .</para>
-          <para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagConversationId</b>.</para>
+        <remarks><para>Esta propiedad asocia elementos a una conversación. La conversación y estos elementos tienen el mismo valor en su propiedad <b>ConversationID</b>.</para>
+          <para>Esta propiedad se corresponde con la propiedad MAPI <b>PidTagConversationId</b>.</para>
           <para>Si se crea el objeto <b>MailItem</b> en una versión de Microsoft Outlook anteriores a Microsoft Outlook 2010, o si Outlook se está ejecutando en modo en línea con una versión de Microsoft Exchange Server anteriores a Microsoft Exchange Server 2010, esta propiedad Devuelve el mismo valor que el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ConversationTopic" /> (propiedad).</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ConversationIndex">
@@ -689,7 +662,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el índice de la secuencia de conversación del elemento de Outlook. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el índice de la secuencia de conversación del elemento de Outlook. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -717,7 +690,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el tema de la secuencia de conversación del elemento de Outlook. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el tema de la secuencia de conversación del elemento de Outlook. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -771,12 +744,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <b>DateTime</b> que indica la hora de creación del elemento de Outlook. Es de solo lectura</summary>
+        <summary>Devuelve un <b>DateTime</b> que indica la hora de creación del elemento de Outlook. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagCreationTime</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagCreationTime</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeferredDeliveryTime">
@@ -807,10 +778,8 @@
       <Docs>
         <summary>Devuelve o establece una <b>fecha y hora</b> que indica la fecha y hora que es entregar el mensaje de correo.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad <b>PidTagDeferredDeliveryTime</b>de MAPI.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagDeferredDeliveryTime</b> de MAPI.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -835,11 +804,9 @@
       <Parameters />
       <Docs>
         <summary>Quita el elemento de la carpeta que contiene el elemento.</summary>
-        <remarks>
-          <para>El método <b>Delete</b> elimina un elemento único en una colección. Para eliminar todos los elementos de la <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> colección de una carpeta, debe eliminar cada elemento empezando por el último elemento de la carpeta. Por ejemplo, en la colección de elementos de una carpeta, AllItems tal y, si hay un número n de elementos en la carpeta, inicia la eliminación del elemento en AllItems.Item(n), disminuir el índice cada vez hasta que lo elimine AllItems.Item(1).</para>
-          <para>Eliminar el método mueve el elemento de la carpeta que contiene a la carpeta Elementos eliminados. Si la carpeta que contiene la carpeta Elementos eliminados, el método <b>Delete</b> elimina el elemento de forma permanente.</para>
-          <para />
-        </remarks>
+        <remarks><para>El método <b>Delete</b> elimina un único elemento de una colección. Para eliminar todos los elementos de la <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> colección de una carpeta, debe eliminar cada elemento empezando por el último elemento de la carpeta. Por ejemplo, en la colección de elementos de una carpeta, AllItems tal y, si hay un número n de elementos en la carpeta, inicia la eliminación del elemento en AllItems.Item(n), disminuir el índice cada vez hasta que lo elimine AllItems.Item(1).</para>
+          <para>El método Delete mueve el elemento de la carpeta que contiene a la carpeta Elementos eliminados. Si la carpeta que contiene la carpeta Elementos eliminados, el método <b>Delete</b> quita permanentemente el elemento.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeleteAfterSubmit">
@@ -895,14 +862,11 @@
         <Parameter Name="Modal" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Modal">
-          <b>True</b> para que la ventana sea modal. El valor predeterminado es <b>False</b>. </param>
+        <param name="Modal"><b>True</b> para que la ventana sea modal. El valor predeterminado es <b>False</b>. </param>
         <summary>Muestra un nuevo <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> objeto para el elemento.</summary>
-        <remarks>
-          <para>El método <b>Display</b> se admite para windows del explorador y del inspector con fines de compatibilidad con versiones anteriores. Para activar una ventana del explorador o inspector, use la <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> método.</para>
-          <para>Si se intenta abrir un objeto del sistema de archivos "no seguros" (o archivo "freedoc") mediante el modelo de objetos de Microsoft Outlook, recibe el código de retorno E_FAIL en los lenguajes de programación C o C++. En Outlook 2000 y versiones anteriores, puede abrir un objeto del sistema de archivos "no seguros" mediante el método <b>Display</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>El método <b>Display</b> se admite ventanas del explorador y del inspector con fines de compatibilidad con versiones anteriores. Para activar una ventana del explorador o inspector, utilice el <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> (método).</para>
+          <para>Si se intenta abrir un objeto del sistema de archivos "no seguros" (o archivo "freedoc") mediante el modelo de objetos de Microsoft Outlook, recibirá el código de retorno E_FAIL en los C o C++ lenguajes de programación. En Outlook 2000 y versiones anteriores, puede abrir un objeto del sistema de archivos "no seguros" mediante el método de <b>visualización</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DownloadState">
@@ -928,7 +892,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDownloadState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una constante que pertenece a la <see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" /> (enumeración) que indica el estado de la descarga del elemento. Es de solo lectura</summary>
+        <summary>Devuelve una constante que pertenece a la <see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" /> (enumeración) que indica el estado de la descarga del elemento. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -993,11 +957,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el identificador único de entrada del objeto.  Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el identificador único de entrada del objeto.  Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagEntryId</b>.</para> Proveedor de almacenamiento de 
-          <para>A MAPI asigna una cadena de identificador único cuando se crea un elemento en su almacén. Por lo tanto, la propiedad <b>EntryID</b> no se establece para un elemento de Outlook hasta que éste se guarda o se envía. Los cambios cuando se mueve un elemento a otro almacén, por ejemplo, desde la Bandeja de entrada a una carpeta pública de Microsoft Exchange Server, o desde un archivo de carpetas personales (.pst) a otro archivo .pst de identificador de entrada. Soluciones no deben depender de la propiedad <b>EntryID</b> sea única, a menos que no se moverán los elementos. La propiedad <b>EntryID</b> devuelve un identificador EntryID MAPI de a largo plazo. Para obtener más información acerca de los identificadores de larga y corta duración, busque http://msdn.microsoft.com para <b>PidTagEntryId</b>. </para><para /></remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagEntryId</b>.</para>
+          <para>Un proveedor de almacén MAPI asigna una cadena de identificador único cuando se crea un elemento en su almacén. Por lo tanto, la propiedad <b>EntryID</b> no se establece para un elemento de Outlook hasta que éste se guarda o se envía. EntryID cambia cuando un elemento se mueve a otro almacén, por ejemplo, desde la Bandeja de entrada a una carpeta pública de Microsoft Exchange Server, o desde un archivo de carpetas personales (.pst) a otro archivo .pst. Soluciones no deben depender de la propiedad <b>EntryID</b> sea única, a menos que no se mueven los elementos. La propiedad <b>EntryID</b> devuelve un identificador EntryID MAPI de a largo plazo. Para obtener más información de larga duración, busque http://msdn.microsoft.com <b>PidTagEntryId</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExpiryTime">
@@ -1133,10 +1097,8 @@
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que indica la acción solicitada para un elemento de correo. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>De forma predeterminada, un elemento de correo no está marcado con cualquier marca y el valor predeterminado de esta propiedad es una cadena vacía. Puede establecer el valor de <b>FlagRequest</b> a través de la interfaz de usuario o mediante programación. Cuando se marca un elemento de correo con una marca a través de la interfaz de usuario, el valor predeterminado de <b>FlagRequest</b> es "Seguimiento".</para>
-          <para />
-        </remarks>
+        <remarks><para>De forma predeterminada, un elemento de correo no está marcado con cualquier marca y el valor predeterminado de esta propiedad es una cadena vacía. Puede establecer el valor de <b>FlagRequest</b> a través de la interfaz de usuario o mediante programación. Cuando se marca un elemento de correo con una marca a través de la interfaz de usuario, el valor predeterminado de <b>FlagRequest</b> es "Seguimiento".</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FlagStatus">
@@ -1199,7 +1161,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.FormDescription</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" /> object que representa la descripción del formulario para el elemento de Outlook especificado. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" /> object que representa la descripción del formulario para el elemento de Outlook especificado. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1253,25 +1215,23 @@
       <Docs>
         <summary>Obtiene un <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object que representa la conversación a la que pertenece este elemento.</summary>
         <returns>Devuelve un objeto <b>Conversation</b> que representa la conversación a la que pertenece este elemento.</returns>
-        <remarks>
-          <para>
-            <b>GetConversation</b> devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si no existe ninguna conversación para el elemento. No existe ninguna conversación para un elemento en los siguientes escenarios:</para>
+        <remarks><para>
+            <b>GetConversation</b> devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si no existe ninguna conversación para el elemento. Ninguna conversación existe para un elemento en los siguientes escenarios:</para>
           <list type="bullet">
             <item>
-              <para>el elemento no se ha guardado. Se puede guardar mediante programación, un elemento por acción del usuario, o por guardado automático.</para>
+              <para>El elemento no se ha guardado. Un elemento se pueden guardar mediante programación, mediante acciones del usuario, o por guardado automático.</para>
             </item>
             <item>
-              <para>Para un elemento que se puede enviar (por ejemplo, un elemento de correo, elemento de cita o elemento de contacto), no se ha enviado el elemento.</para>
+              <para>No se ha enviado el elemento para un elemento que puede ser enviado (por ejemplo, un elemento de correo, elemento de cita o elemento de contacto).</para>
             </item>
             <item>
-              <para>Se han deshabilitado las conversaciones a través del registro de Windows.</para>
+              <para>Se han deshabilitado las conversaciones mediante el Registro de Windows.</para>
             </item>
             <item>
-              <para>El almacén no es compatible con la vista de conversación (por ejemplo, Outlook se ejecuta en modo clásico en línea con una versión de Microsoft Exchange anteriores a Microsoft Exchange Server 2010). Usar el <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> (propiedad) de la <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto para determinar si el almacén admite la vista conversación.</para>
+              <para>El almacén no es compatible con la vista de conversación (por ejemplo, Outlook se ejecuta en modo clásico en línea con una versión de Microsoft Exchange anteriores a Microsoft Exchange Server 2010). Usar el <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> (propiedad) de la <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objeto para determinar si el almacén admite la vista de conversación.</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetInspector">
@@ -1297,12 +1257,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Inspector</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> objeto que representa un inspector inicializado para contener el elemento especificado. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> objeto que representa un inspector inicializado para contener el elemento especificado. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad es útil para devolver un nuevo objeto <b>Inspector</b> en el que se va a mostrar el elemento, en lugar de usar el <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" /> (método) y la configuración de la <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> (propiedad).</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad es útil para devolver un nuevo objeto <b>Inspector</b> en el que se va a mostrar el elemento, en lugar de usar el <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" /> (método) y la configuración de la <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> (propiedad). </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HasCoverSheet">
@@ -1370,11 +1328,9 @@
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que representa el cuerpo HTML del elemento especificado.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>HTMLBody</b> debe ser una cadena de sintaxis HTML.</para>
-          <para>Establecer <b>HTMLBody</b> (propiedad) se actualizará siempre la <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Body" /> propiedad inmediatamente.</para>
-          <para />
-        </remarks>
+        <remarks><para>La propiedad <b>HTMLBody</b> debe ser una cadena de sintaxis HTML.</para>
+          <para>Establecer el <b>HTMLBody</b> (propiedad) se actualizará siempre la <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Body" /> propiedad inmediatamente.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Importance">
@@ -1405,10 +1361,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" /> constante que indica el nivel de importancia relativa para el elemento de Outlook. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagImportance</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagImportance</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="InternetCodepage">
@@ -1439,10 +1393,8 @@
       <Docs>
         <summary>Devuelve o establece un valor <b>entero</b> (<b>int</b> en C#) que determina la página de códigos de Internet utilizada por el elemento. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La página de códigos de Internet define el esquema de codificación de texto usado por el elemento.</para>
-          <para />
-        </remarks>
+        <remarks><para>La página de códigos de Internet define el esquema de codificación de texto usado por el elemento.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsConflict">
@@ -1468,13 +1420,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <b>valor Boolean</b> (<b>bool</b> en C#) que determina si el elemento está en conflicto. Es de solo lectura</summary>
+        <summary>Devuelve un <b>valor Boolean</b> (<b>bool</b> en C#) que determina si el elemento está en conflicto. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Si un elemento está en conflicto viene determinado por el estado de la aplicación. Por ejemplo, cuando un usuario está desconectado e intenta tener acceso a una carpeta con conexión la acción se producirá un error. En este escenario, la propiedad <b>IsConflict</b> devolverá <b>True</b>.</para>
+        <remarks><para>Si un elemento está en conflicto viene determinado por el estado de la aplicación. Por ejemplo, cuando un usuario está desconectado e intenta tener acceso a una carpeta con conexión a la acción se producirá un error. En este escenario, la propiedad <b>IsConflict</b> devolverá <b>True</b>.</para>
           <para>Si <b>es True</b>, el elemento especificado está en conflicto.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsIPFax">
@@ -1537,7 +1487,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>booleano</b> (<b>bool</b> en C#) que indica si la <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> está marcado como una tarea. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>booleano</b> (<b>bool</b> en C#) que indica si la <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> está marcado como una tarea. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1565,12 +1515,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemProperties</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> colección que representa todas las propiedades estándar y definidas por el usuario asociadas con el elemento de Outlook. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> colección que representa todas las propiedades estándar y definidas por el usuario asociadas con el elemento de Outlook. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La colección <b>ItemProperties</b> es una colección de base cero, lo que significa que se hace referencia el primer objeto de la colección por el índice 0.</para>
-          <para />
-        </remarks>
+        <remarks><para>La colección <b>ItemProperties</b> es una colección de base cero, lo que significa que se hace referencia el primer objeto de la colección por el índice 0.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastModificationTime">
@@ -1596,12 +1544,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <b>DateTime</b> que especifica la fecha y hora en que se modificó por última vez el elemento de Outlook.  Es de solo lectura</summary>
+        <summary>Devuelve un <b>DateTime</b> que especifica la fecha y hora en que se modificó por última vez el elemento de Outlook.  Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagLastModificationTime</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagLastModificationTime</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Links">
@@ -1691,10 +1637,8 @@
       <Docs>
         <param name="MarkInterval">Intervalo de tarea para <b>MailItem</b>.</param>
         <summary>Las marcas de un <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> objeto como tarea y le asigna un intervalo de tarea para el objeto.</summary>
-        <remarks>
-          <para>Al llamar a este método establece el valor de otras propiedades, dependiendo del valor proporcionado en <paramref name="MarkInterval" />. Para obtener más información acerca de las propiedades establecidas mediante la especificación de <paramref name="MarkInterval" />, consulte <see cref="T:Microsoft.Office.Interop.Outlook.OlMarkInterval" />.</para>
-          <para />
-        </remarks>
+        <remarks><para>Al llamar a este método establece el valor de otras propiedades, dependiendo del valor proporcionado en <paramref name="MarkInterval" />. Para obtener más información acerca de las propiedades establecidas mediante la especificación de <paramref name="MarkInterval" />, consulte <see cref="T:Microsoft.Office.Interop.Outlook.OlMarkInterval" />.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MarkForDownload">
@@ -1725,10 +1669,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" /> constante que determina el estado de un elemento una vez recibido por un usuario remoto. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad proporciona a los usuarios remotos con los que no sea ideal de transferencia de datos flexibilidad de mensajería.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad proporciona a los usuarios remotos posibilidades casi ilimitadas de transferencia de datos y mayor flexibilidad de mensajería.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MessageClass">
@@ -1759,10 +1701,8 @@
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que representa la clase de mensaje del elemento de Outlook. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagMessageClass</b>. La propiedad <b>MessageClass</b> vincula el elemento al formulario en que se basa. Cuando se selecciona un elemento, Outlook usa la clase de mensaje para localizar el formulario y exponer sus propiedades, como comandos de responder.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagMessageClass</b>. La propiedad <b>MessageClass</b> vincula el elemento al formulario en que se basa. Cuando se selecciona un elemento, Outlook utiliza la clase de mensaje para localizar el formulario y exponer sus propiedades, como comandos de responder.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Mileage">
@@ -1793,10 +1733,8 @@
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que representa el mileage para un elemento. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Este es un campo de cadena de forma libre y se puede usar para almacenar información de mileage asociada con el elemento (por ejemplo, 100 millas documentados para una cita, contacto o tarea) con fines de reembolso.</para>
-          <para />
-        </remarks>
+        <remarks><para>Éste es un campo de cadena de forma libre y se puede utilizar para almacenar la información de kilometraje asociada al elemento (por ejemplo, 100 kilómetros documentados para una cita, contacto o tarea) con fines de reembolso. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Move">
@@ -1823,7 +1761,7 @@
       </Parameters>
       <Docs>
         <param name="DestFldr">Expresión que devuelve un objeto <b>Folder</b>. La carpeta de destino. </param>
-        <summary>Mueve un elemento de Microsoft Outlook a una nueva carpeta.</summary>
+        <summary>Mueve un elemento de Microsoft Outlook a una carpeta nueva.</summary>
         <returns>Valor <b>Object</b> que representa el elemento que se movió a la carpeta designada.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1887,11 +1825,9 @@
       <Docs>
         <summary>Devuelve o establece un valor <b>booleano</b> (<b>bool</b> en C#) que determina si la persona que originó el elemento de reunión o correo mensaje recibirá un informe de entrega. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Cada proveedor de transporte que controla el mensaje envía una única notificación de entrega que contiene los nombres y direcciones de todos los destinatarios a quienes se entregó. Entrega no implica que se ha leído el mensaje. Es True si el autor ha solicitado una confirmación de entrega en el mensaje. </para>
-          <para>La propiedad <b>OriginatorDeliveryReportRequested</b> corresponde a la propiedad MAPI <b>PidTagOriginatorDeliveryReportRequested</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Cada uno de los proveedores de transporte que controlan el mensaje envía una única notificación de entrega que contiene los nombres y las direcciones de todos los destinatarios a quienes se ha entregado el mensaje. La entrega no implica que el mensaje se haya leído. Es True si el autor ha solicitado una confirmación de entrega del mensaje.</para>
+          <para>La propiedad <b>OriginatorDeliveryReportRequested</b> corresponde a la propiedad <b>PidTagOriginatorDeliveryReportRequested</b> de MAPI.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OutlookInternalVersion">
@@ -1917,7 +1853,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que representa el número de compilación de la aplicación Outlook para un elemento de Outlook. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que representa el número de compilación de la aplicación Outlook para un elemento de Outlook. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1945,7 +1881,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que indica el número de versión principal y secundaria de la aplicación Outlook para un elemento de Outlook. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que indica el número de versión principal y secundaria de la aplicación Outlook para un elemento de Outlook. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2006,12 +1942,10 @@
       <Docs>
         <summary>Establece o devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlPermission" /> constante que determina los permisos de los destinatarios tendrán en el elemento de correo electrónico. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Permission</b> se debe sincronizar con la <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.PermissionTemplateGuid" /> propiedad refleje con precisión el estado de los permisos del <b>objeto SharingItem</b>. Si se establece la propiedad <b>PermissionTemplateGuid</b> en un GUID válido debe provocar también si se establece la propiedad <b>Permission</b> en <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olPermissionTemplate" />. </para>
+        <remarks><para>La propiedad <b>Permission</b> se debe sincronizar con la <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.PermissionTemplateGuid" /> propiedad refleje con precisión el estado de los permisos del <b>objeto SharingItem</b>. Si se establece la propiedad <b>PermissionTemplateGuid</b> en un GUID válido debe provocar también si se establece la propiedad <b>Permission</b> en <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olPermissionTemplate" />. </para>
           <para>Cuando se ha configurado ningún Information Rights Management (IRM) (en cuyo caso la propiedad <b>Permission</b> es <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olUnrestricted" />), o la restricción no es reenviar el <b>objeto SharingItem</b> (en cuyo caso la propiedad <b>Permission</b> es <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olDoNotForward" />), el valor de la propiedad <b>PermissionTemplateGuid</b> debe ser una cadena vacía.</para>
-          <para>Aunque puede ver el contenido que está protegido por IRM en cualquier equipo que ejecute el sistema de Microsoft Office 2007 o una versión posterior, debe tener Microsoft Office Professional Edition 2003, Microsoft Office Outlook 2007 o una versión posterior de Outlook para crear o enviar un correo electrónico que está protegido por IRM.</para>
-          <para />
-        </remarks>
+          <para>Si bien se puede ver contenido protegido por IRM en cualquier equipo en el que se ejecute 2007 Microsoft Office system o una versión posterior, es preciso disponer de Microsoft Office Professional Edition 2003, Microsoft Office Outlook 2007 o una versión posterior de Outlook para crear o enviar correo electrónico protegido por IRM.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PermissionService">
@@ -2042,11 +1976,9 @@
       <Docs>
         <summary>Establece o devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlPermissionService" /> constante que determina el servicio de permiso que se va a usar al enviar un mensaje protegido por Information Rights Management (IRM). Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad sólo es útil si tiene más de una identidad de permisos para una dirección SMTP concreta.</para>
-          <para>Mientras se puede ver el contenido que está protegido por IRM en cualquier equipo que ejecute el sistema de Microsoft Office 2007 o una versión posterior, debe tener Microsoft Office Professional Edition 2003, Microsoft Office Outlook 2007 o una versión posterior de Outlook para crear o enviar un correo electrónico que está protegido por IRM.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad sólo es útil si dispone de varias identidades de permiso para una dirección SMTP concreta. </para>
+          <para>Si bien se puede ver contenido protegido por Information Rights Management (IRM) en cualquier equipo en el que se ejecute 2007 Microsoft Office system o una versión posterior, es preciso disponer de Microsoft Office Professional Edition 2003, Microsoft Office Outlook 2007 o una versión posterior de Outlook para crear o enviar correo electrónico protegido por IRM.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PermissionTemplateGuid">
@@ -2077,13 +2009,11 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa el GUID del archivo de plantilla para aplicar a la <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> con el fin de especificar los permisos de Information Rights Management (IRM). Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad complementa las propiedades de IRM en un objeto <b>MailItem</b> ; es decir, el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Permission" /> (propiedad) y la <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.PermissionService" /> propiedades.</para>
-          <para>En particular, la propiedad <b>PermissionTemplateGuid</b> se debe sincronizar con la propiedad <b>Permission</b> para reflejar con precisión el estado de los permisos del <b>objeto MailItem</b>. Si se establece la propiedad <b>PermissionTemplateGuid</b> en un GUID válido debe provocar también si se establece la propiedad <b>Permission</b> en <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olPermissionTemplate" />.</para>
-          <para>Un valor de cadena vacío para el <b>PermissionTemplateGuid</b> (propiedad) significa que no hay ningún archivo de plantilla de permisos especificada para el <b>objeto MailItem</b>. Por ejemplo, si no se ha configurado ningún IRM (en cuyo caso la propiedad <b>Permission</b> es <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olUnrestricted" />), o la restricción no es reenviar el <b>objeto MailItem</b> (en cuyo caso la propiedad <b>Permission</b> es <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olDoNotForward" />).</para>
+        <remarks><para>Esta propiedad complementa las propiedades de IRM en un objeto <b>MailItem</b> ; es decir, el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Permission" /> (propiedad) y la <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.PermissionService" /> propiedades.</para>
+          <para>En particular, la propiedad <b>PermissionTemplateGuid</b> se debe sincronizar con la propiedad <b>Permission</b> refleje con precisión el estado de permiso del <b>objeto MailItem</b>. Si se establece la propiedad <b>PermissionTemplateGuid</b> en un GUID válido debe provocar también si se establece la propiedad <b>Permission</b> en <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olPermissionTemplate" />.</para>
+          <para>Un valor de cadena vacía para la propiedad <b>PermissionTemplateGuid</b> significa que no hay ningún archivo de plantilla de permisos especificada para el <b>objeto MailItem</b>. Por ejemplo, si no se ha configurado ningún IRM (en cuyo caso la propiedad <b>Permission</b> es <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olUnrestricted" />), o la restricción no es reenviar el <b>objeto MailItem</b> (en cuyo caso la propiedad <b>Permission</b> es <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olDoNotForward" />).</para>
           <para>Si se intenta establecer la propiedad <b>PermissionTemplateGuid</b> para un mensaje recibido (es decir, el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Sent" /> propiedad del <b>objeto MailItem</b> es <b>True</b>), Microsoft Outlook devuelve un error.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PrintOut">
@@ -2134,7 +2064,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto que admite la creación, obtener, establecer y eliminación de propiedades del objeto primario <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto que admite la creación, obtener, establecer y eliminación de propiedades del objeto primario <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2167,10 +2097,8 @@
       <Docs>
         <summary>Devuelve un valor <b>booleano</b> (<b>bool</b> en C#) que indica <b>True</b> si el remitente ha solicitado una confirmación de lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagReadReceiptRequested</b>. Lectura y escritura para los elementos de correo electrónico que se han creado pero no se han enviado o expuesto; es de sólo lectura para los elementos de correo electrónico enviados.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagReadReceiptRequested</b>. Lectura y escritura para los elementos de correo electrónico que se han creado pero que no se han enviado o expuesto; es de sólo lectura para los elementos de correo electrónico enviados.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedByEntryID">
@@ -2196,12 +2124,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" /> del destinatario verdadero tal como lo establece el proveedor de transporte que entregó el mensaje de correo. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" /> del destinatario verdadero tal como lo establece el proveedor de transporte que entregó el mensaje de correo. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagReceivedByEntryId</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagReceivedByEntryId</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedByName">
@@ -2227,12 +2153,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre para mostrar del destinatario del mensaje de correo. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre para mostrar del destinatario del mensaje de correo. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagReceivedByName</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagReceivedByName</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedOnBehalfOfEntryID">
@@ -2258,12 +2182,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" /> del usuario delegado que representa el destinatario del mensaje de correo. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" /> del usuario delegado que representa el destinatario del mensaje de correo. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad <b>PidTagReceivedRepresentingEntryId</b>de MAPI.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagReceivedRepresentingEntryId</b> de MAPI.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedOnBehalfOfName">
@@ -2289,12 +2211,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre para mostrar del usuario delegado que representa el destinatario del mensaje de correo. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre para mostrar del usuario delegado que representa el destinatario del mensaje de correo. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad <b>PidTagReceivedRepresentingName</b>de MAPI.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagReceivedRepresentingName</b> de MAPI.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedTime">
@@ -2320,7 +2240,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <b>DateTime</b> que indica la fecha y hora en que se recibió el elemento. Es de solo lectura</summary>
+        <summary>Devuelve un <b>DateTime</b> que indica la fecha y hora en que se recibió el elemento. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2379,12 +2299,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Recipients</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> colección que representa todos los destinatarios del elemento de Outlook. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> colección que representa todos los destinatarios del elemento de Outlook. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Un destinatario puede especificarse mediante una cadena que representa el nombre del destinatario para mostrar, el alias o la dirección de correo electrónico SMTP completa.</para>
-          <para />
-        </remarks>
+        <remarks><para>Un destinatario se puede especificar mediante una cadena que represente su nombre para mostrar, su alias o su dirección SMTP completa de correo electrónico.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderOverrideDefault">
@@ -2415,10 +2333,8 @@
       <Docs>
         <summary>Devuelve o establece un valor <b>booleano</b> (<b>bool</b> en C#) que es <b>True</b> si el aviso pasa por alto el comportamiento predeterminado de aviso para el elemento. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Debe establecer la propiedad <b>ReminderOverrideDefault</b> para validar el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReminderPlaySound" /> y el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReminderSoundFile" /> propiedades.</para>
-          <para />
-        </remarks>
+        <remarks><para>Debe establecer la propiedad <b>ReminderOverrideDefault</b> para validar el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReminderPlaySound" /> y el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReminderSoundFile" /> propiedades.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderPlaySound">
@@ -2449,10 +2365,8 @@
       <Docs>
         <summary>Devuelve o establece un valor <b>booleano</b> (<b>bool</b> en C#) que es <b>True</b> si el aviso debe reproducir un sonido cuando ocurre para este elemento. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>ReminderPlaySound</b> debe estar establecida para poder validar la <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReminderSoundFile" /> (propiedad).</para>
-          <para />
-        </remarks>
+        <remarks><para>La propiedad <b>ReminderPlaySound</b> debe estar establecida para poder validar la <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReminderSoundFile" /> (propiedad). </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderSet">
@@ -2514,10 +2428,8 @@
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que indica la ruta de acceso y el nombre del archivo de sonido que se reproducirá cuando se produzca el aviso del elemento de Outlook. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad sólo es válida si el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReminderOverrideDefault" /> y <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReminderPlaySound" /> propiedades están establecidas en <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad sólo es válida si el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReminderOverrideDefault" /> y <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReminderPlaySound" /> propiedades están establecidas en <b>True</b>. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderTime">
@@ -2657,12 +2569,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una lista de <b>cadena</b> (<b>string</b> ) en C# de delimitada por punto y coma de los destinatarios de respuesta para el mensaje de correo.  Es de solo lectura</summary>
+        <summary>Devuelve una lista de <b>cadena</b> (<b>string</b> ) en C# de delimitada por punto y coma de los destinatarios de respuesta para el mensaje de correo.  Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad sólo contiene los nombres para mostrar de los destinatarios de la respuesta. La lista de destinatarios de la respuesta debe establecerse mediante el uso de la <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReplyRecipients" /> colección.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad sólo contiene los nombres para mostrar de los destinatarios de la respuesta. La lista de destinatarios de la respuesta debe establecerse mediante el uso de la <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReplyRecipients" /> colección.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReplyRecipients">
@@ -2688,7 +2598,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Recipients</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> colección que representa todos los objetos de respuesta al destinatario del elemento de Outlook. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> colección que representa todos los objetos de respuesta al destinatario del elemento de Outlook. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2716,10 +2626,24 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:System.DateTime" /> valor que especifica la fecha cuando el <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> objeto expire, después de que el Asistente de administración de registros de mensajería (MRM), eliminará el elemento. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:System.DateTime" /> valor que especifica la fecha cuando el <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> objeto expire, después de que el Asistente de administración de registros de mensajería (MRM), eliminará el elemento. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>Directiva de retención A <para>se habilita y deshabilita por un administrador de Microsoft Exchange Server en un nivel de buzón de correo. Esta característica está disponible únicamente en un buzón de Exchange Server 2010 con 2.0 MRM habilitado. </para><para>Microsoft Outlook calcula el valor de esta propiedad basándose en el elemento de fecha de inicio de retención y el período de retención, si Outlook está en memoria caché o en modo sin conexión. El servidor de Exchange especifica el valor si Outlook está en modo en línea.</para><para>En general, la retención de la fecha de inicio para el elemento se determina como sigue:</para><list type="bullet"><item><para>Recibido o elementos enviados: la fecha de inicio de retención es la fecha de recepción.</para></item><item><para>Elementos de calendario no periódicos: la fecha de inicio de retención es la fecha de finalización de la cita.</para></item> Elementos de calendario de 
-            <item><para>repetitiva: la fecha de inicio de retención es la fecha de finalización de la última periodicidad. Si no hay ninguna fecha de finalización, el elemento nunca expira.</para></item></list><para /><para /></remarks>
+        <remarks><para>Una directiva de retención se habilita y deshabilita por un administrador de Microsoft Exchange Server en un nivel de buzón de correo. Esta característica está disponible únicamente en un buzón de Exchange Server 2010 con 2.0 MRM habilitado. </para>
+          <para>Si Outlook está en modo de memoria caché o sin conexión, Microsoft Outlook calcula el valor de esta propiedad en función de la fecha de inicio de retención del elemento y el período de retención. Si Outlook está en modo de conexión, el servidor Exchange especifica el valor.</para>
+          <para>En general, la fecha de inicio de retención para el elemento se determina de la siguiente manera:</para>
+          <list type="bullet">
+            <item>
+              <para>Elementos recibidos o enviados: la fecha de inicio de retención es la fecha de recepción.</para>
+            </item>
+            <item>
+              <para>Elementos de calendario no periódicos: la fecha de inicio de retención es la fecha de finalización de la cita.</para>
+            </item>
+            <item>
+              <para>Elementos de calendario periódicos: la fecha de inicio de retención es la fecha de finalización de la última periodicidad. Si no hay ninguna fecha de finalización, el elemento nunca caduca.</para>
+            </item>
+          </list>
+          <para> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RetentionPolicyName">
@@ -2745,12 +2669,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que especifica el nombre de la directiva de retención. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que especifica el nombre de la directiva de retención. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Retención se habilita y deshabilita por un administrador de Microsoft Exchange Server en un nivel de buzón de correo. La característica está disponible únicamente en un buzón de Exchange Server 2010 con registros administración mensajería (MRM) 2.0 habilitado. Un ejemplo de nombre de una directiva de retención es "Definir el intervalo de tiempo de expiración búsquedas rápidas".</para>
-          <para />
-        </remarks>
+        <remarks><para>Retención se habilita y deshabilita por un administrador de Microsoft Exchange Server en un nivel de buzón de correo. La característica está disponible únicamente en un buzón de Exchange Server 2010 con registros administración mensajería (MRM) 2.0 habilitado. Un ejemplo de nombre de una directiva de retención es "Definir intervalo de tiempo de expiración búsquedas rápidas".</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RTFBody">
@@ -2781,10 +2703,8 @@
       <Docs>
         <summary>Devuelve o establece una matriz de bytes que representa el cuerpo del elemento de Microsoft Outlook en formato de texto enriquecido. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Puede usar el método System.Text.Encoding.ASCIIEncoding.GetString () en C# o Visual Basic para convertir una matriz de bytes en una cadena.</para>
-          <para />
-        </remarks>
+        <remarks><para>Puede usar el método System.Text.Encoding.ASCIIEncoding.GetString () en C# o Visual Basic para convertir una matriz de bytes en una cadena.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -2809,10 +2729,8 @@
       <Parameters />
       <Docs>
         <summary>Guarda el elemento de Outlook en la carpeta actual o, si se trata de un elemento nuevo, en la carpeta predeterminada de Outlook para el tipo de elemento.</summary>
-        <remarks>
-          <para>Si un elemento de correo es una respuesta en línea, puede llamar al <b>Guardar</b> en ese elemento de correo producirá un error y producir resultados inesperados.</para>
-          <para />
-        </remarks>
+        <remarks><para>Si un elemento de correo es una respuesta en línea, al llamar a <b>Save</b> en ese elemento de correo puede producirá un error y producir resultados inesperados.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SaveAs">
@@ -2839,12 +2757,10 @@
       </Parameters>
       <Docs>
         <param name="Path">Ruta de acceso en la que se va a guardar el elemento.</param>
-        <param name="Type">Tipo de archivo que se va a guardar. Puede ser una de las constantes en el <see cref="T:Microsoft.Office.Interop.Outlook.OlSaveAsType" /> (enumeración).</param>
+        <param name="Type">El tipo de archivo para guardar. Puede ser una de las constantes en el <see cref="T:Microsoft.Office.Interop.Outlook.OlSaveAsType" /> (enumeración).</param>
         <summary>Guarda el elemento de Microsoft Outlook en la ruta de acceso especificada y con el formato del tipo de archivo indicado. Si no se especifica el tipo de archivo, se usa el formato MSG (.msg).</summary>
-        <remarks>
-          <para>También tenga en cuenta aunque <b>olDoc</b> sea una constante válida de <b>OlSaveAsType</b> , los mensajes en formato HTML no se pueden guardar en formato de documento y la constante <b>olDoc</b> sólo funciona si Microsoft Word está configurado como editor de correo electrónico predeterminado.</para>
-          <para />
-        </remarks>
+        <remarks><para>Además, tenga en cuenta aunque <b>olDoc</b> sea una constante válida de <b>OlSaveAsType</b>, los mensajes en formato HTML no se pueden guardar en formato de documento y la constante <b>olDoc</b> sólo funciona si Microsoft Word está configurado como el editor de correo electrónico predeterminado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Saved">
@@ -2870,7 +2786,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>booleano</b> (<b>bool</b> en C#) que es <b>True</b> si el elemento de Outlook no se ha modificado desde la última vez que guardó. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>booleano</b> (<b>bool</b> en C#) que es <b>True</b> si el elemento de Outlook no se ha modificado desde la última vez que guardó. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2928,10 +2844,8 @@
       <Parameters />
       <Docs>
         <summary>Envía el mensaje de correo electrónico.</summary>
-        <remarks>
-          <para>El método <b>Send</b> envía un elemento con la cuenta predeterminada especificada para la sesión. En una sesión de donde se definen varias cuentas de Microsoft Exchange en el perfil, la primera cuenta de Exchange agregada al perfil es la cuenta principal de Exchange y también es la cuenta predeterminada para la sesión. Para especificar una cuenta diferente para enviar un elemento, establezca la <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.SendUsingAccount" /> propiedad a la que desee <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> de objetos y, a continuación, llamar al método <b>Send</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>El método <b>Send</b> envía un elemento con la cuenta predeterminada especificada para la sesión. En una sesión de donde se definen varias cuentas de Microsoft Exchange en el perfil de la primera cuenta de Exchange agregada al perfil es la cuenta principal de Exchange y también es la cuenta predeterminada de la sesión. Para especificar una cuenta diferente para enviar un elemento, establezca la <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.SendUsingAccount" /> propiedad a la que desee <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> de objetos y, a continuación, llamar al método <b>Send</b> .</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sender">
@@ -2962,11 +2876,9 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objeto que corresponde al usuario de la cuenta desde la que el <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> se envía. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>En una sesión de donde se definen varias cuentas en el perfil, puede establecer esta propiedad para especificar la cuenta desde la que se va a enviar un elemento de correo. Establecer esta propiedad en el objeto <b>AddressEntry</b> del usuario que está representado por el <see cref="P:Microsoft.Office.Interop.Outlook._Account.CurrentUser" /> (propiedad) de una cuenta específica.</para>
-          <para>Si se establece la propiedad <b>remitente</b> a un <b>objeto AddressEntry</b> que no tiene permisos para enviar mensajes en esa cuenta, Outlook generará un error.</para>
-          <para />
-        </remarks>
+        <remarks><para>En una sesión en la que hay varias cuentas definidas en el perfil, puede establecer esta propiedad para especificar la cuenta desde la que quiere que se envíe un elemento de correo. Establecer esta propiedad en el objeto <b>AddressEntry</b> del usuario que está representado por el <see cref="P:Microsoft.Office.Interop.Outlook._Account.CurrentUser" /> (propiedad) de una cuenta específica.</para>
+          <para>Si establece la propiedad del <b>remitente</b> en un <b>objeto AddressEntry</b> que no tiene permisos para enviar mensajes en esa cuenta, Outlook generará un error.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SenderEmailAddress">
@@ -2992,12 +2904,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa la dirección de correo electrónico del remitente del elemento de Outlook.   Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa la dirección de correo electrónico del remitente del elemento de Outlook.   Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad <b>PidTagSenderEmailAddress</b>de MAPI.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagSenderEmailAddress</b> de MAPI.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SenderEmailType">
@@ -3051,13 +2961,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que indica el nombre para mostrar del remitente del elemento de Outlook.  Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que indica el nombre para mostrar del remitente del elemento de Outlook.  Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagSenderName</b>.</para>
+        <remarks><para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagSenderName</b>.</para>
           <para>Si desea recuperar la dirección de correo electrónico completa del remitente, utilice la <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.SenderEmailAddress" /> (propiedad).</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SendUsingAccount">
@@ -3088,10 +2996,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> object que representa la cuenta con la que el <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> es que se envíen. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>SendUsingAccount</b> puede usarse para especificar la cuenta que debe usarse para enviar el <b>objeto MailItem</b> cuando la <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" /> se llama al método. Esta propiedad devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si ya no existe la cuenta especificada para el <b>objeto MailItem</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>La propiedad <b>SendUsingAccount</b> puede usarse para especificar la cuenta que debe usarse para enviar el <b>objeto MailItem</b> cuando la <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" /> se llama al método. Esta propiedad devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si ya no existe la cuenta especificada para el <b>objeto MailItem</b> .</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sensitivity">
@@ -3122,10 +3028,8 @@
       <Docs>
         <summary>Devuelve o establece una constante el <see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" /> (enumeración) que indica la sensibilidad del elemento de Outlook. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagSensitivity</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagSensitivity</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sent">
@@ -3151,12 +3055,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>booleano</b> (<b>bool</b> en C#) que indica si se ha enviado un mensaje. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>booleano</b> (<b>bool</b> en C#) que indica si se ha enviado un mensaje. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>En general, hay tres tipos diferentes de mensajes: enviado, expuesto y guardado. Los mensajes enviados son elementos enviados a un destinatario o carpeta pública. Mensajes expuestos se crean en una carpeta pública. Los mensajes guardados se crean y guardan sin enviar o publicar.</para>
-          <para />
-        </remarks>
+        <remarks><para>En general, hay tres tipos diferentes de mensaje: enviado, expuesto y guardado. Los mensajes enviados son los elementos enviados a un destinatario o a una carpeta pública. Los mensajes expuestos se crean en una carpeta pública. Los mensajes guardados se crean y se guardan sin que se envíen o se expongan.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SentOn">
@@ -3182,12 +3084,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <b>DateTime</b> que indica la fecha y hora en que se envió el elemento de Outlook. Es de solo lectura</summary>
+        <summary>Devuelve un <b>DateTime</b> que indica la fecha y hora en que se envió el elemento de Outlook. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad <b>PidTagClientSubmitTime</b>de MAPI. Cuando se envía un elemento mediante el objeto <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" /> método, el proveedor de transporte establece el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReceivedTime" /> y las propiedades <b>SentOn automáticamente</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagClientSubmitTime</b> de MAPI. Cuando se envía un elemento mediante el objeto <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" /> método, el proveedor de transporte establece el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReceivedTime" /> y las propiedades <b>SentOn automáticamente</b> . </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SentOnBehalfOfName">
@@ -3218,10 +3118,8 @@
       <Docs>
         <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que indica el nombre para mostrar del remitente del mensaje de correo. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad <b>PidTagSentRepresentingName</b>de MAPI.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagSentRepresentingName</b> de MAPI.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -3247,18 +3145,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowCategoriesDialog">
@@ -3309,7 +3205,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el tamaño (en bytes) del elemento de Outlook. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el tamaño (en bytes) del elemento de Outlook. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3342,10 +3238,8 @@
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que indica el asunto del elemento de Outlook. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagSubject</b>. La propiedad <b>Subject</b> es la propiedad predeterminada de los elementos de Outlook.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagSubject</b>. La propiedad <b>Subject</b> es la propiedad predeterminada de los elementos de Outlook.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Submitted">
@@ -3371,12 +3265,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>booleano</b> (<b>bool</b> en C#) que es <b>True</b> si el elemento se ha enviado. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>booleano</b> (<b>bool</b> en C#) que es <b>True</b> si el elemento se ha enviado. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Un mensaje siempre se crea y se envía en una carpeta, generalmente la Bandeja de salida.</para>
-          <para />
-        </remarks>
+        <remarks><para>Los mensajes se crean y se envían siempre en una carpeta, que suele ser la Bandeja de salida. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskCompletedDate">
@@ -3407,10 +3299,8 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>fecha y hora</b> que representa la fecha de finalización de la tarea para este <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.IsMarkedAsTask" /> propiedad está establecida en <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.IsMarkedAsTask" /> propiedad está establecida en <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskDueDate">
@@ -3441,10 +3331,8 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>fecha y hora</b> que representa la fecha de vencimiento de la tarea para este <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.IsMarkedAsTask" /> propiedad está establecida en <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.IsMarkedAsTask" /> propiedad está establecida en <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskStartDate">
@@ -3475,10 +3363,8 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>fecha y hora</b> que representa la fecha de inicio de la tarea para este <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> objeto. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.IsMarkedAsTask" /> propiedad está establecida en <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.IsMarkedAsTask" /> propiedad está establecida en <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskSubject">
@@ -3509,10 +3395,8 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa el asunto de la tarea para el <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> objeto. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad devuelve el valor de la <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Subject" /> (propiedad) si el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.IsMarkedAsTask" /> propiedad está establecida en <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad devuelve el valor de la <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Subject" /> (propiedad) si el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.IsMarkedAsTask" /> propiedad está establecida en <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="To">
@@ -3543,10 +3427,8 @@
       <Docs>
         <summary>Devuelve o establece una lista de <b>cadena</b> (<b>string</b> ) en C# de delimitada por punto y coma de nombres para mostrar de los destinatarios del elemento de Outlook. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad contiene sólo los nombres para mostrar. La propiedad To corresponde a la propiedad <b>PidTagDisplayTo</b>MAPI. El <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> para modificar esta propiedad, se debe utilizar la colección.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad contiene sólo los nombres para mostrar. La propiedad To corresponde a la propiedad <b>PidTagDisplayTo</b> MAPI. El <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> para modificar esta propiedad, se debe utilizar la colección. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ToDoTaskOrdinal">
@@ -3577,11 +3459,9 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>fecha y hora</b> que representa el valor ordinal de la tarea para el <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.IsMarkedAsTask" /> propiedad está establecida en <b>False</b>.</para>
-          <para>Esta propiedad se usa para indicar cómo debe ordenarse la tarea dentro de los grupos primarios, como el grupo hoy o el grupo mañana, de la barra Tareas pendientes. El valor que se utiliza en esta propiedad no tiene ninguna relación con los valores de la <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.TaskStartDate" />, <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.TaskDueDate" />, o <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.TaskCompletedDate" /> propiedades.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.IsMarkedAsTask" /> propiedad está establecida en <b>False</b>.</para>
+          <para>Esta propiedad se usa para indicar cómo debe ordenarse la tarea dentro de los grupos primarios, como el grupo Hoy o el grupo Mañana, de la Barra Tareas pendientes. El valor que se utiliza en esta propiedad no tiene ninguna relación con los valores de la <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.TaskStartDate" />, <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.TaskDueDate" />, o <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.TaskCompletedDate" /> propiedades.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UnRead">
@@ -3638,7 +3518,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.UserProperties</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> colección que representa todas las propiedades de usuario para el elemento de Outlook. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> colección que representa todas las propiedades de usuario para el elemento de Outlook. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3671,10 +3551,8 @@
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que especifica las opciones de una cadena delimitada que contiene los derechos de voto del mensaje de correo. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad usa el carácter especificado en el nombre del valor, sList, en HKEY_CURRENT_USER\Control Panel\International en el registro de Windows, como el delimitador para varias opciones de voto.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad usa el carácter especificado en el nombre del valor, sList, en HKEY_CURRENT_USER\Control Panel\International en el Registro de Windows como el delimitador para varias opciones de voto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="VotingResponse">
@@ -3705,10 +3583,8 @@
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que especifica la respuesta de voto del mensaje de correo. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad normalmente se establece en uno de los valores delimitados que la <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.VotingOptions" /> (propiedad) en una respuesta al mensaje original.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad normalmente se establece en uno de los valores delimitados que la <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.VotingOptions" /> (propiedad) en una respuesta al mensaje original. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="OlkCategoryEvents_Event" FullName="Microsoft.Office.Interop.Outlook.OlkCategoryEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6b5bfb00aa9250de100ae933103dc32bfe1cf197" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642860" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkCategoryEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9969fef0204c00347d74f89eb2a59ae1eec65350" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900832" /></Metadata><TypeSignature Language="C#" Value="public interface OlkCategoryEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkCategoryEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkCategoryEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkCategoryEvents_Event" />
@@ -144,10 +136,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando un usuario presiona una tecla.</summary>
-        <remarks>
-          <para>El estado de las teclas modificadoras (MAYÚS, CTRL o ALT) que se presionan durante el evento <b>KeyDown</b> es accesible a través de la <paramref name="Shift" /> parámetro.</para>
-          <para />
-        </remarks>
+        <remarks><para>El estado de las teclas modificadoras (MAYÚS, CTRL o ALT) que se presionan durante el evento <b>KeyDown</b> es accesible a través de la <paramref name="Shift" /> parámetro.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyPress">
@@ -166,25 +156,23 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando el usuario presiona una tecla ANSI.</summary>
-        <remarks>
-          <para>Una tecla ANSI es aquel que genera un carácter escribible cuando el usuario presiona lo. El evento <b>KeyPress</b> se produce cuando el usuario presiona una tecla ANSI en un formulario que se está ejecutando mientras el formulario o un control que tiene el foco. El evento puede producirse antes o después de que se suelte la tecla.</para>
-          <para>Un evento <b>KeyPress</b> no se produce en las siguientes condiciones:</para>
+        <remarks><para>Una tecla ANSI es aquel que genera un carácter escribible cuando el usuario presiona lo. El evento <b>KeyPress</b> se produce cuando el usuario presiona una tecla ANSI en un formulario que se está ejecutando mientras el formulario o un control que tiene el foco. El evento puede producirse antes o después de que se suelte la tecla.</para>
+          <para>El evento <b>KeyPress</b> no se produce en las siguientes condiciones:</para>
           <list type="bullet">
             <item>
-              <para>Ficha presionar</para>
+              <para>Al presionar TAB</para>
             </item>
             <item>
-              <para>Presione ENTRAR</para>
+              <para>Al presionar ENTRAR</para>
             </item>
             <item>
-              <para>al presionar una tecla de flecha</para>
+              <para>Al presionar una tecla de dirección</para>
             </item>
             <item>
-              <para>cuando una pulsación de tecla hace que el foco se mueva de un control a otro.</para>
+              <para>Cuando una pulsación de tecla hace que el foco se mueva de un control a otro.</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyUp">
@@ -203,10 +191,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando el usuario suelta una tecla.</summary>
-        <remarks>
-          <para>El estado de las teclas modificadoras (MAYÚS, CTRL o ALT) que se presionan durante el evento <b>KeyUp</b> es accesible a través de la <paramref name="Shift" /> parámetro.</para>
-          <para />
-        </remarks>
+        <remarks><para>El estado de las teclas modificadoras (MAYÚS, CTRL o ALT) que se presionan durante el evento <b>KeyUp</b> es accesible a través de la <paramref name="Shift" /> parámetro.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseDown">
@@ -244,10 +230,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce una vez registrado el movimiento del mouse (ratón) por el control.</summary>
-        <remarks>
-          <para>Al presionar la tecla ALT desencadena el evento <b>MouseMove</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Al presionar la tecla ALT desencadena el evento <b>MouseMove</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseUp">

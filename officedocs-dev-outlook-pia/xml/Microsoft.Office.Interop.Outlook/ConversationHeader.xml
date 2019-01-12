@@ -1,13 +1,5 @@
 <Type Name="ConversationHeader" FullName="Microsoft.Office.Interop.Outlook.ConversationHeader">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f240db48bde1c2db353f938b5173be3971c038f7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643601" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ConversationHeader : Microsoft.Office.Interop.Outlook._ConversationHeader" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6baf4e2eb6ab932ae64172f4ef76ba4e203b7dff" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900846" /></Metadata><TypeSignature Language="C#" Value="public interface ConversationHeader : Microsoft.Office.Interop.Outlook._ConversationHeader" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ConversationHeader implements class Microsoft.Office.Interop.Outlook._ConversationHeader" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />
   <TypeSignature Language="VB.NET" Value="Public Interface ConversationHeader&#xA;Implements _ConversationHeader" />
@@ -31,14 +23,13 @@
   </Attributes>
   <Docs>
     <summary>Representa un encabezado de conversación de Microsoft Outlook en una vista Conversación.</summary>
-    <remarks>
-      <para>En Outlook, una conversación agrupa los mensajes que comparten al mismo asunto y pertenecen al mismo subproceso. Una conversación también puede incluir ramas, como cuando se obtiene un mensaje de dos o más discusiones y respuestas extender de forma independiente de cada respuesta. La vista de conversación está relacionada con todos los elementos en la misma conversación a través de las carpetas y almacenes. Un encabezado de conversación puede ser un elemento o un encabezado de grupo en uno de los siguientes formatos:</para>
+    <remarks><para>En Outlook, una conversación agrupa los mensajes que comparten al mismo asunto y pertenecen al mismo subproceso. Una conversación también puede incluir sucursales, como cuando un mensaje se obtiene dos o más respuestas y discusiones extender de forma independiente de cada respuesta. La vista de conversación está relacionada con todos los elementos en la misma conversación en carpetas y almacenes. Un encabezado de la conversación puede ser un elemento o un encabezado de grupo en una de las siguientes formas:</para>
       <list type="bullet">
         <item>
-          <para>un elemento en un subproceso que contiene sólo un elemento único.</para>
+          <para>Un elemento de un subproceso que contiene un único elemento.</para>
         </item>
         <item>
-          <para>Un encabezado de grupo para mantener una conversación que contiene varios elementos.</para>
+          <para>Un encabezado de grupo de una conversación que contiene múltiples elementos.</para>
         </item>
         <item>
           <para>El primer elemento de una conversación que contiene un único subproceso.</para>
@@ -47,8 +38,7 @@
           <para>El primer elemento de una conversación dividida.</para>
         </item>
       </list>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

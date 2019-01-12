@@ -1,13 +1,5 @@
 <Type Name="OlkDateControl" FullName="Microsoft.Office.Interop.Outlook.OlkDateControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ce876da0e95e34a935d5cc135c3b5ee95b6a85db" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643304" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkDateControl : Microsoft.Office.Interop.Outlook._OlkDateControl, Microsoft.Office.Interop.Outlook.OlkDateControlEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="975913fa14a8ca339d5a16022712197207f11424" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896782" /></Metadata><TypeSignature Language="C#" Value="public interface OlkDateControl : Microsoft.Office.Interop.Outlook._OlkDateControl, Microsoft.Office.Interop.Outlook.OlkDateControlEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkDateControl implements class Microsoft.Office.Interop.Outlook._OlkDateControl, class Microsoft.Office.Interop.Outlook.OlkDateControlEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkDateControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkDateControl&#xA;Implements _OlkDateControl, OlkDateControlEvents_Event" />
@@ -34,15 +26,13 @@
   </Attributes>
   <Docs>
     <summary>Este control permite el uso del selector de fechas desplegable que se emplea en los inspectores para seleccionar fechas en los elementos de tarea y de cita.</summary>
-    <remarks>
-      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._OlkDateControl" />. Para obtener información acerca de los miembros de evento del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.OlkDateControlEvents_Event" />.</para>
-      <para>Antes de utilizar este control por primera vez en el Diseñador de formularios, agregue el Control de fecha de Microsoft Outlook al cuadro de herramientas de control. Sólo se puede agregar este control a un área de formulario en un formulario de Outlook mediante el Diseñador de formularios; no se puede agregar este control a un objeto <b>UserForm</b> de Visual Basic en el Editor de Visual Basic.</para>
-      <para>El siguiente es un ejemplo del control fecha en tiempo de ejecución. Este control admite los temas de Microsoft Windows.</para>
-      <para>Este control puede enlazar con cualquier campo <b>DateTime</b> integrado o personalizado.  Sin embargo, el control no es compatible con cualquier valor para el campo de formato de fecha, ni es compatible con el comportamiento de seleccionar el rango que está disponible en el inspector de citas.</para>
+    <remarks><para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._OlkDateControl" />. Para obtener información acerca de los miembros de evento del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.OlkDateControlEvents_Event" />.</para>
+      <para>Antes de utilizar este control por primera vez en el Diseñador de formularios, agregue el Microsoft Outlook Control de fecha al cuadro de controles. Sólo se puede agregar este control a un área de formulario en un formulario de Outlook mediante el Diseñador de formularios; no se puede agregar este control a un objeto <b>UserForm</b> de Visual Basic en el Editor de Visual Basic.</para>
+      <para>A continuación se muestra un ejemplo del control Fecha en tiempo de ejecución. Este control admite los temas de Microsoft Windows.</para>
+      <para>Este control puede enlazar con cualquier campo <b>DateTime</b> integrado o personalizado.  Sin embargo, el control no admite cualquier formato de fecha, establecer para el campo, ni admite el comportamiento de seleccionar el rango que está disponible en el inspector de citas.</para>
       <para>Si el <see cref="E:Microsoft.Office.Interop.Outlook.OlkDateControlEvents_Event.Click" /> se implementa el evento, pero la <see cref="E:Microsoft.Office.Interop.Outlook.OlkDateControlEvents_Event.DropButtonClick" /> no se implementa el evento, a continuación, haciendo clic en el botón de lista desplegable sólo se desencadenará el <b>haga clic en</b> evento.</para>
       <para>Para obtener más información acerca de los controles de Outlook, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87823">controles en un formulario personalizado</a></para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

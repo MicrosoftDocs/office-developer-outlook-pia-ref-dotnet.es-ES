@@ -1,13 +1,5 @@
 <Type Name="PropertyPage" FullName="Microsoft.Office.Interop.Outlook.PropertyPage">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6dbed428a055e97eb67cfd333fb2c6bc9ce4824a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642243" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface PropertyPage" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="48f2f3f7d91d2193670d3d00ba2f1e1b6f744750" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897601" /></Metadata><TypeSignature Language="C#" Value="public interface PropertyPage" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PropertyPage" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.PropertyPage" />
   <TypeSignature Language="VB.NET" Value="Public Interface PropertyPage" />
@@ -27,15 +19,12 @@
   </Attributes>
   <Docs>
     <summary>Representa una página de propiedades personalizada de los cuadros de diálogo Opciones o Propiedades de la carpeta.</summary>
-    <remarks>
-      <para>Outlook utiliza este objeto para permitir que una página de propiedades personalizada interactuar con el botón Aplicar en el cuadro de diálogo.</para>
-      <para>
-        <b>PropertyPage</b> es un objeto abstracto. Es decir, el objeto <b>PropertyPage</b> de la biblioteca de objetos de Microsoft Outlook no contiene ningún código de implementación. En su lugar, se proporciona como plantilla para ayudar a implementar el objeto en Microsoft Visual Basic. Esto proporciona un conjunto predefinido de interfaces que Outlook puede utilizar para determinar si la página de propiedades personalizada ha cambiado y para notificar al programa que el usuario ha hecho clic en el botón Aplicar o Aceptar. (Si la página de propiedades personalizada no se basa en el botón Aplicar, a continuación, no es necesario implementar el objeto <b>PropertyPage</b> .)</para>
+    <remarks><para>Outlook utiliza este objeto para que una página de propiedades personalizada pueda interactuar con el botón Aplicar del cuadro de diálogo.</para>
+      <para>El objeto <b>PropertyPage</b> es un objeto abstracto. Es decir, el objeto <b>PropertyPage</b> de la biblioteca de objetos de Microsoft Outlook no contiene ningún código de implementación. En su lugar, se proporciona como plantilla para ayudar a implementar el objeto en Microsoft Visual Basic. Esto proporciona un conjunto predefinido de interfaces que Outlook puede utilizar para determinar si la página de propiedades personalizada ha cambiado y para notificar al programa que el usuario ha hecho clic en el botón Aplicar o Aceptar. (Si la página de propiedades personalizada no depende del botón Aplicar, no es necesario implementar el objeto <b>PropertyPage</b>.)</para>
       <para>Una página de propiedades personalizada es un control ActiveX que se muestra en el cuadro de diálogo Opciones o en el cuadro de diálogo de propiedades de carpeta de Outlook cuando el usuario hace clic en la ficha de la página de la propiedad personalizada. Para implementar el objeto <b>PropertyPage</b> en Visual Basic. NET, el módulo que contiene el código de implementación debe contener la siguiente instrucción Implements.</para>
       <code>Implements Outlook.PropertyPage</code>
-      <para>El módulo también debe contener los procedimientos que implementan las propiedades y métodos del objeto <b>PropertyPage</b> .</para>
-      <para />
-    </remarks>
+      <para>El módulo también debe contener los procedimientos que implementan las propiedades y métodos del objeto <b>PropertyPage</b>.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Apply">
@@ -55,10 +44,8 @@
       <Parameters />
       <Docs>
         <summary>Aplica los cambios efectuado en una página de propiedades personalizada.</summary>
-        <remarks>
-          <para>Debido a que el <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" /> es un objeto abstracto que implementa en la aplicación (en lugar de en Microsoft Outlook en Sí), la implementación de la <b>Aplicar</b> método es similar a un procedimiento de evento en el código de programa. Es decir, escribir el código que implementa el método en gran parte de la misma manera que se escribiría un procedimiento de evento. En otras palabras, Outlook llama al método <b>Apply</b> y notificar al programa que el usuario ha realizado una acción en el cuadro de diálogo Mostrar la página de propiedades personalizada que requiere el programa para aplicar los valores de propiedad cambiados por el usuario.</para>
-          <para />
-        </remarks>
+        <remarks><para>Debido a que el <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" /> es un objeto abstracto que implementa en la aplicación (en lugar de en Microsoft Outlook en Sí), la implementación de la <b>Aplicar</b> método es similar a un procedimiento de evento en el código de programa. Es decir, escribir el código que implementa el método en gran parte de la misma manera que se debe escribir un procedimiento de evento. En otras palabras, Outlook llama al método <b>Apply</b> y notificar al programa que el usuario ha realizado una acción en el cuadro de diálogo que muestra la página de propiedades personalizada que requiere el programa para aplicar los valores de propiedad cambiados por el usuario.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Dirty">
@@ -81,7 +68,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>booleano</b> (<b>bool</b> en C#) que es <b>True</b> si el contenido de una página de propiedades personalizada ha sido alterada. El control ActiveX que implementa el <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" /> objeto establece el valor de esta propiedad y Microsoft Outlook realiza esta consulta en respuesta a la <see cref="M:Microsoft.Office.Interop.Outlook.PropertyPageSite.OnStatusChange" /> (método) de un <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPageSite" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>booleano</b> (<b>bool</b> en C#) que es <b>True</b> si el contenido de una página de propiedades personalizada ha sido alterada. El control ActiveX que implementa el <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" /> objeto establece el valor de esta propiedad y Microsoft Outlook realiza esta consulta en respuesta a la <see cref="M:Microsoft.Office.Interop.Outlook.PropertyPageSite.OnStatusChange" /> (método) de un <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPageSite" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

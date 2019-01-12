@@ -1,13 +1,5 @@
 <Type Name="MAPIFolderEvents_12_Event" FullName="Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b57abf71e090da959e1914f676e549cec228a8b5" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20641788" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface MAPIFolderEvents_12_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2e4d2f373dd74a164ad2cbc827efc264eecdbd98" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900870" /></Metadata><TypeSignature Language="C#" Value="public interface MAPIFolderEvents_12_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MAPIFolderEvents_12_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface MAPIFolderEvents_12_Event" />
@@ -49,11 +41,9 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando una carpeta se va a mover o eliminar, como resultado de una acción del usuario o del código de programación.</summary>
-        <remarks>
-          <para>Este evento se desencadena cuando la carpeta se va a mover a otra carpeta (incluida la carpeta Elementos eliminados) o cuando la carpeta se va a eliminar de forma permanente.  No se desencadena durante el archivado automático o sincronizar operaciones.</para>
+        <remarks><para>Este evento se activa cuando se va a mover la carpeta a otra carpeta (incluida la carpeta Elementos eliminados) o cuando la carpeta se va a eliminar de manera permanente. No se activa durante las operaciones de autoarchivar ni de sincronización.</para>
           <para>Si la acción es una eliminación permanente, la <paramref name="MoveTo" /> carpeta devuelta en el evento será <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeItemMove">
@@ -72,11 +62,9 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando un elemento se va a mover o eliminar de una carpeta, como resultado de una acción del usuario o del código de programación.</summary>
-        <remarks>
-          <para>Este evento se desencadena cuando el elemento se va a mover a otra carpeta (incluida la carpeta Elementos eliminados) o cuando el elemento se va a eliminar de forma permanente. No se desencadena durante el archivado automático o sincronizar operaciones.</para>
+        <remarks><para>Este evento se activa cuando se va a mover el elemento a otra carpeta (incluida la carpeta Elementos eliminados) o cuando el elemento se va a eliminar de manera permanente. No se activa durante las operaciones de autoarchivar ni de sincronización.</para>
           <para>Si la acción es una eliminación permanente, la <paramref name="MoveTo" /> carpeta devuelta en el evento será <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

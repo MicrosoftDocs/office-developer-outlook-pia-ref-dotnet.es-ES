@@ -1,13 +1,5 @@
 <Type Name="ColumnFormat" FullName="Microsoft.Office.Interop.Outlook.ColumnFormat">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9fd8c25ac36ce7163fbea2d36f52c2a9418da6ea" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643616" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ColumnFormat : Microsoft.Office.Interop.Outlook._ColumnFormat" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a7cc6aab62b3e355d9eb6773e4d2621f7e7490cf" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896880" /></Metadata><TypeSignature Language="C#" Value="public interface ColumnFormat : Microsoft.Office.Interop.Outlook._ColumnFormat" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ColumnFormat implements class Microsoft.Office.Interop.Outlook._ColumnFormat" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ColumnFormat" />
   <TypeSignature Language="VB.NET" Value="Public Interface ColumnFormat&#xA;Implements _ColumnFormat" />
@@ -31,9 +23,11 @@
   </Attributes>
   <Docs>
     <summary>Representa las propiedades de presentación de un campo de orden o un campo de vista de una vista.</summary>
-    <remarks>
-      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._ColumnFormat" />.</para> Objeto 
-      <para>el <b>ColumnFormat</b> representa las propiedades de presentación, como el tipo de alineación o campo, de un <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> o <see cref="T:Microsoft.Office.Interop.Outlook.ViewField" /> objeto. Usar el <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ColumnFormat" /> (propiedad) del objeto <b>ViewField</b> para tener acceso a las propiedades de presentación de un campo de vista.</para><para>Usar el <see cref="P:Microsoft.Office.Interop.Outlook._ColumnFormat.Label" /> (propiedad) para obtener o cambiar el texto utilizado como etiqueta de un campo, o la <see cref="P:Microsoft.Office.Interop.Outlook._ColumnFormat.Align" /> (propiedad) para determinar la alineación del contenido dentro del campo.</para><para>Usar el <see cref="P:Microsoft.Office.Interop.Outlook._ColumnFormat.FieldType" /> (propiedad) para determinar el tipo y el formato de los datos que se muestran en el campo y el <see cref="P:Microsoft.Office.Interop.Outlook._ColumnFormat.FieldFormat" /> (propiedad) para determinar cómo dar formato a los datos para ese campo.</para><para /></remarks>
+    <remarks><para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._ColumnFormat" />.</para>
+      <para>El objeto <b>ColumnFormat</b> representa las propiedades de presentación, como el tipo de alineación o campo, de un <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> o <see cref="T:Microsoft.Office.Interop.Outlook.ViewField" /> objeto. Usar el <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ColumnFormat" /> (propiedad) del objeto <b>ViewField</b> para tener acceso a las propiedades de presentación de un campo de vista.</para>
+      <para>Usar el <see cref="P:Microsoft.Office.Interop.Outlook._ColumnFormat.Label" /> (propiedad) para obtener o cambiar el texto utilizado como etiqueta de un campo, o la <see cref="P:Microsoft.Office.Interop.Outlook._ColumnFormat.Align" /> (propiedad) para determinar la alineación del contenido dentro del campo.</para>
+      <para>Usar el <see cref="P:Microsoft.Office.Interop.Outlook._ColumnFormat.FieldType" /> (propiedad) para determinar el tipo y el formato de los datos que se muestran en el campo y el <see cref="P:Microsoft.Office.Interop.Outlook._ColumnFormat.FieldFormat" /> (propiedad) para determinar cómo dar formato a los datos para ese campo.</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

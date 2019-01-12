@@ -1,13 +1,5 @@
 <Type Name="ReminderCollectionEvents_Event" FullName="Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="82f7e87f4a7c31c6fea7961afdea6e402f53ccb4" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642876" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ReminderCollectionEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c046e68f17198ddfc2900cf348031dac0601e25f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898518" /></Metadata><TypeSignature Language="C#" Value="public interface ReminderCollectionEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ReminderCollectionEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ReminderCollectionEvents_Event" />
@@ -68,10 +60,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce después de agregar un aviso.</summary>
-        <remarks>
-          <para>Un aviso no se crea realmente hasta que se ha guardado el elemento de Microsoft Outlook asociado. Por lo tanto, este evento no se producirá hasta que se ha guardado el objeto elemento asociado.</para>
-          <para />
-        </remarks>
+        <remarks><para>Un aviso no se crea realmente hasta que se guarda el elemento asociado de Microsoft Outlook. Por lo tanto, este evento no se producirá hasta que se haya guardado el objeto del elemento asociado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderChange">
@@ -128,14 +118,13 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando un <see cref="T:Microsoft.Office.Interop.Outlook.Reminder" /> objeto se ha quitado de la colección.</summary>
-        <remarks>
-          <para>Puede quitarse un aviso de la colección <b>Reminders</b> mediante cualquiera de los siguientes medios:</para>
+        <remarks><para>Puede quitarse un aviso de la colección <b>Reminders</b> mediante cualquiera de los siguientes medios:</para>
           <list type="bullet">
             <item>
-              <para>método Remove de la colección de los avisos.</para>
+              <para>El método Remove de la colección Reminders.</para>
             </item>
             <item>
-              <para>Método Dismiss del objeto Reminder el.</para>
+              <para>El método Dismiss del objeto Reminder.</para>
             </item>
             <item>
               <para>Cuando el usuario hace clic en el botón Descartar.</para>
@@ -147,8 +136,7 @@
               <para>Cuando un usuario elimina un elemento que contiene un aviso.</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Snooze">
@@ -167,10 +155,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando se omite un aviso mediante el botón Posponer.</summary>
-        <remarks>
-          <para>Este evento desencadenará cuando el <see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" /> se ejecuta el método, o cuando el usuario hace clic en el botón Posponer.</para>
-          <para />
-        </remarks>
+        <remarks><para>Este evento desencadenará cuando el <see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" /> se ejecuta el método, o cuando el usuario hace clic en el botón Posponer.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

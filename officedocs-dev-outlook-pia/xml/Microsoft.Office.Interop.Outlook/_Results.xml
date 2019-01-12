@@ -1,13 +1,5 @@
 <Type Name="_Results" FullName="Microsoft.Office.Interop.Outlook._Results">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="82f716ca4e71998fcf133f6738e482e4bba38a38" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643092" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Results : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="82f716ca4e71998fcf133f6738e482e4bba38a38" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898896" /></Metadata><TypeSignature Language="C#" Value="public interface _Results : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Results implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Results" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Results&#xA;Implements IEnumerable" />
@@ -57,7 +49,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -85,7 +77,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -113,7 +105,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -172,10 +164,8 @@
       <Docs>
         <summary>Devuelve el primer objeto de la colección.</summary>
         <returns>Valor de objeto que representa el primer objeto incluido en la colección.</returns>
-        <remarks>
-          <para>Devuelve <b>Nothing</b> si no hay ningún objeto primer existe, por ejemplo, si no hay ningún objeto en la colección. Para garantizar el funcionamiento correcto de <b>GetFirst</b>, <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetNext" />, y <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetPrevious" /> métodos en una colección grande, llame al método <b>GetFirst</b> antes de llamar al método <b>GetNext</b> en esa colección y llame al <b>método GetLast</b> antes de llamar a <b>GetPrevious </b>. Para asegurarse de que las llamadas siempre se estén efectuando en la misma colección, cree una variable explícita que hace referencia a esa colección antes de entrar en el bucle.</para>
-          <para />
-        </remarks>
+        <remarks><para>Devuelve <b>Nothing</b> si no hay ningún objeto primer existe, por ejemplo, si no hay ningún objeto en la colección. Para garantizar el funcionamiento correcto de <b>GetFirst</b>, <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetNext" />, y <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetPrevious" /> métodos en una colección grande, llame al método <b>GetFirst</b> antes de llamar al método <b>GetNext</b> en esa colección y llame al <b>método GetLast</b> antes de llamar a <b>GetPrevious </b>. Para asegurarse de que siempre se realizan las llamadas en la misma colección, cree una variable explícita que haga referencia a esa colección antes de entrar en el bucle.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetLast">
@@ -201,10 +191,8 @@
       <Docs>
         <summary>Devuelve el último objeto de la colección.</summary>
         <returns>Valor de objeto que representa el último objeto incluido en la colección.</returns>
-        <remarks>
-          <para>Devuelve <b>Nothing</b> si no hay un último objeto, por ejemplo, si la colección está vacía. Para garantizar el funcionamiento correcto de la <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetFirst" />, <b>GetLast</b>, <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetNext" />, y <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetPrevious" /> métodos en una colección grande, llame al método <b>GetFirst</b> antes de llamar al método <b>GetNext</b> en esa colección y llame al <b>método GetLast</b> antes de llamar a <b>GetPrevious </b>. Para asegurarse de que las llamadas siempre se estén efectuando en la misma colección, cree una variable explícita que hace referencia a esa colección antes de entrar en el bucle.</para>
-          <para />
-        </remarks>
+        <remarks><para>Devuelve <b>Nothing</b> si no hay un último objeto, por ejemplo, si la colección está vacía. Para garantizar el funcionamiento correcto de la <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetFirst" />, <b>GetLast</b>, <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetNext" />, y <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetPrevious" /> métodos en una colección grande, llame al método <b>GetFirst</b> antes de llamar al método <b>GetNext</b> en esa colección y llame al <b>método GetLast</b> antes de llamar a <b>GetPrevious </b>. Para asegurarse de que siempre se realizan las llamadas en la misma colección, cree una variable explícita que haga referencia a esa colección antes de entrar en el bucle.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetNext">
@@ -230,10 +218,8 @@
       <Docs>
         <summary>Devuelve el siguiente objeto de la colección.</summary>
         <returns>Valor de objeto que representa el siguiente objeto incluido en la colección.</returns>
-        <remarks>
-          <para>Devuelve <b>Nothing</b> si no existe un objeto siguiente, por ejemplo, si está situado al final de la colección. Para garantizar el funcionamiento correcto de la <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetLast" />, <b>GetNext</b>, y <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetPrevious" /> métodos en una colección grande, llame al método <b>GetFirst</b> antes de llamar al método <b>GetNext</b> en esa colección y llame al <b>método GetLast</b> antes de llamar a <b>GetPrevious </b>. Para asegurarse de que las llamadas siempre se estén efectuando en la misma colección, cree una variable explícita que hace referencia a esa colección antes de entrar en el bucle.</para>
-          <para />
-        </remarks>
+        <remarks><para>Devuelve <b>Nothing</b> si no existe un objeto siguiente, por ejemplo, si está situado al final de la colección. Para garantizar el funcionamiento correcto de la <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetLast" />, <b>GetNext</b>, y <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetPrevious" /> métodos en una colección grande, llame al método <b>GetFirst</b> antes de llamar al método <b>GetNext</b> en esa colección y llame al <b>método GetLast</b> antes de llamar a <b>GetPrevious </b>. Para asegurarse de que siempre se realizan las llamadas en la misma colección, cree una variable explícita que haga referencia a esa colección antes de entrar en el bucle.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetPrevious">
@@ -259,10 +245,8 @@
       <Docs>
         <summary>Devuelve el objeto anterior de la colección.</summary>
         <returns>Valor de objeto que representa el objeto anterior incluido en la colección.</returns>
-        <remarks>
-          <para>Devuelve <b>Nothing</b> si no existe un objeto anterior, por ejemplo, si se ha llegado al principio de la colección. Para garantizar el funcionamiento correcto de la <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetNext" />, y los métodos <b>GetPrevious</b> en una colección grande, llame al método <b>GetFirst</b> antes de llamar al método <b>GetNext</b> en esa colección y llame al <b>método GetLast</b> antes de llamar a <b> GetPrevious</b>. Para asegurarse de que las llamadas siempre se estén efectuando en la misma colección, cree una variable explícita que hace referencia a esa colección antes de entrar en el bucle.</para>
-          <para />
-        </remarks>
+        <remarks><para>Devuelve <b>Nothing</b> si no existe un objeto anterior, por ejemplo, si se ha llegado al principio de la colección. Para garantizar el funcionamiento correcto de la <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetNext" />, y los métodos <b>GetPrevious</b> en una colección grande, llame al método <b>GetFirst</b> antes de llamar al método <b>GetNext</b> en esa colección y llame al <b>método GetLast</b> antes de llamar a <b> GetPrevious</b>. Para asegurarse de que siempre se realizan las llamadas en la misma colección, cree una variable explícita que haga referencia a esa colección antes de entrar en el bucle.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -378,10 +362,8 @@
       <Parameters />
       <Docs>
         <summary>Borra las propiedades que se han almacenado en caché con el <see cref="M:Microsoft.Office.Interop.Outlook._Results.SetColumns(System.String)" /> (método).</summary>
-        <remarks>
-          <para>Todas las propiedades son accesibles después de llamar al método <b>ResetColumns</b> . Debe utilizar <b>SetColumns</b> para volver a almacenar las nuevas propiedades. <b>ResetColumns</b> no hace nada si no se ha llamado antes a <b>SetColumns</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Todas las propiedades son accesibles después de llamar al método <b>ResetColumns</b>. Debe utilizar <b>SetColumns</b> para volver a almacenar las nuevas propiedades. <b>ResetColumns</b> no hace nada si no se ha llamado antes a <b>SetColumns</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -407,18 +389,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetColumns">
@@ -446,10 +426,8 @@
       <Docs>
         <param name="Columns">To be added.</param>
         <summary>Almacena en caché algunas propiedades para obtener un acceso muy rápido a dichas propiedades correspondientes a un elemento incluido en la colección.</summary>
-        <remarks>
-          <para>El método <b>SetColumns</b> es útil para recorrer en iteración la <see cref="T:Microsoft.Office.Interop.Outlook.Results" /> objeto. Si no utiliza este método, Microsoft Outlook debe abrir cada elemento para obtener acceso a la propiedad. El método <b>SetColumns</b> , Outlook sólo comprueba las propiedades que han almacenado en caché. Las propiedades que no se almacenan en caché se devuelven vacías.</para>
-          <para />
-        </remarks>
+        <remarks><para>El método <b>SetColumns</b> es útil para recorrer en iteración la <see cref="T:Microsoft.Office.Interop.Outlook.Results" /> objeto. Si no utiliza este método, Microsoft Outlook debe abrir cada elemento para tener acceso a la propiedad. Con el método <b>SetColumns</b>, Outlook sólo comprueba las propiedades que han almacenado en caché. Las propiedades que no se almacenan en caché se devuelven vacías.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sort">
@@ -476,14 +454,11 @@
       </Parameters>
       <Docs>
         <param name="Property">El nombre de la propiedad por la que se debe ordenar, que se puede escribir entre corchetes (por ejemplo, "[NombreCompañía]"). Puede no ser un campo definido por el usuario o una propiedad de valores múltiples, por ejemplo, una categoría.</param>
-        <param name="Descending">
-          <b>True</b> para ordenar en orden descendente. El valor predeterminado es <b>False</b> (ascendente). </param>
+        <param name="Descending"><b>True</b> para ordenar en orden descendente. El valor predeterminado es <b>False</b> (ascendente). </param>
         <summary>Ordena la colección de elementos según la propiedad especificada. El índice de la colección se restablece a 1 al finalizar este método.</summary>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>Sort</b> sólo afecta al orden de los elementos de una colección. No afecta el orden de los elementos en una vista del explorador.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

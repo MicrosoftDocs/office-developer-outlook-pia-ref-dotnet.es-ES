@@ -1,13 +1,5 @@
 <Type Name="ReminderCollectionEvents_BeforeReminderShowEventHandler" FullName="Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_BeforeReminderShowEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9e94fa2f274b4b24a70a3dc997542aa14517b1f2" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643610" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void ReminderCollectionEvents_BeforeReminderShowEventHandler(out bool Cancel);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="130368102d67c27d5841b9386f3a3089f5db6b6f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896691" /></Metadata><TypeSignature Language="C#" Value="public delegate void ReminderCollectionEvents_BeforeReminderShowEventHandler(out bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ReminderCollectionEvents_BeforeReminderShowEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_BeforeReminderShowEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub ReminderCollectionEvents_BeforeReminderShowEventHandler(ByRef Cancel As Boolean)" />
@@ -34,8 +26,7 @@
     <ReturnType>System.Void</ReturnType>
   </ReturnValue>
   <Docs>
-    <param name="Cancel">
-      <b>True</b> para cancelar el evento. El valor predeterminado es <b>False</b>. </param>
+    <param name="Cancel"><b>True</b> para cancelar el evento. El valor predeterminado es <b>False</b>. </param>
     <summary>Se trata de un delegado para un evento en el objeto correspondiente. Después de implementar un método de devolución de llamada para el evento, utilice este delegado para conectar el método de devolución de llamada con el evento. Si hubiera varias versiones de la interfaz de eventos, este delegado conectaría el método de devolución de llamadas para el evento en la versión especificada de Outlook.</summary>
     <remarks>To be added.</remarks>
   </Docs>
