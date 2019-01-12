@@ -1,13 +1,5 @@
 <Type Name="OlSearchScope" FullName="Microsoft.Office.Interop.Outlook.OlSearchScope">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5bf874a2f107891f654d5c42c74f87e291457f1b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20641776" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlSearchScope" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6e37dca2d95b84fa85e86240986f903d21b6057e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904213" /></Metadata><TypeSignature Language="C#" Value="public enum OlSearchScope" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlSearchScope extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlSearchScope" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlSearchScope" />
@@ -20,26 +12,10 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="7c537-101">Especifica el ámbito de la búsqueda en lo que se refiere a las carpetas para la búsqueda.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="7c537-101">Specifies the scope in terms of folders for the search.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="7c537-102">
-        <para>Puede seleccionar almacenes para buscar en las ubicaciones al menú de búsqueda haciendo clic en herramientas de búsqueda en el grupo de opciones de la ficha contextual de la búsqueda en la cinta de Microsoft Office Fluent.</para>
-        <para>De forma predeterminada, la búsqueda no incluye la carpeta Elementos eliminados. Para buscar la carpeta Elementos eliminados, establecer esa carpeta como la carpeta actual y de búsqueda por <see cref="F:Microsoft.Office.Interop.Outlook.OlSearchScope.olSearchScopeCurrentFolder" />.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="7c537-102">
-          <para>You can select stores to search in the Locations to Search menu by clicking Search Tools in the Options group of the Search contextual tab in the Microsoft Office Fluent ribbon.</para>
-          <para>By default, search does not include the Deleted Items folder. To search the Deleted Items folder, set that folder as your current folder and search by <see cref="F:Microsoft.Office.Interop.Outlook.OlSearchScope.olSearchScopeCurrentFolder" />.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="e6c73-101">Especifica el ámbito de la búsqueda en lo que se refiere a las carpetas para la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="e6c73-101">Specifies the scope in terms of folders for the search.</span></span></summary>
+    <remarks><para><span data-ttu-id="e6c73-102">Puede seleccionar almacenes para buscar en el menú Ubicaciones donde buscar si hace clic en Herramientas de búsqueda en el grupo Opciones de la ficha contextual Buscar en la cinta de Microsoft Office Fluent.</span><span class="sxs-lookup"><span data-stu-id="e6c73-102">You can select stores to search in the Locations to Search menu by clicking Search Tools in the Options group of the Search contextual tab in the Microsoft Office Fluent ribbon.</span></span></para>
+      <para><span data-ttu-id="e6c73-103">De manera predeterminada, la búsqueda no incluye la carpeta Elementos eliminados.</span><span class="sxs-lookup"><span data-stu-id="e6c73-103">By default, search does not include the Deleted Items folder.</span></span> <span data-ttu-id="e6c73-104">Para buscar la carpeta Elementos eliminados, establecer esa carpeta como la carpeta actual y de búsqueda por <see cref="F:Microsoft.Office.Interop.Outlook.OlSearchScope.olSearchScopeCurrentFolder" />.</span><span class="sxs-lookup"><span data-stu-id="e6c73-104">To search the Deleted Items folder, set that folder as your current folder and search by <see cref="F:Microsoft.Office.Interop.Outlook.OlSearchScope.olSearchScopeCurrentFolder" />.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olSearchScopeAllFolders">
@@ -58,12 +34,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7c537-103">El ámbito de búsqueda va a ser en todas las carpetas que tengan el tipo de carpeta de la carpeta actual (<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.DefaultItemType" />) y todos los almacenes que se han seleccionado para la búsqueda en la carpeta en el menú desplegable.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7c537-103">The search scope will be across all folders that have the folder type of the current folder (<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.DefaultItemType" />) and all stores that have been selected for search in the In Folder drop down menu.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e6c73-105">El ámbito de búsqueda va a ser en todas las carpetas que tengan el tipo de carpeta de la carpeta actual (<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.DefaultItemType" />) y todos los almacenes que se han seleccionado para la búsqueda en la carpeta en el menú desplegable.</span><span class="sxs-lookup"><span data-stu-id="e6c73-105">The search scope will be across all folders that have the folder type of the current folder (<see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.DefaultItemType" />) and all stores that have been selected for search in the In Folder drop down menu.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olSearchScopeAllOutlookItems">
@@ -82,12 +53,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7c537-104">El ámbito de la búsqueda serán todos los elementos de Outlook de todas las carpetas de los almacenes que se han seleccionado para la búsqueda.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7c537-104">The search scope is all Outlook items in all folders in stores that have been selected for search.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e6c73-106">El ámbito de la búsqueda serán todos los elementos de Outlook de todas las carpetas de los almacenes que se han seleccionado para la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="e6c73-106">The search scope is all Outlook items in all folders in stores that have been selected for search.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olSearchScopeCurrentFolder">
@@ -106,12 +72,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7c537-105">El ámbito de búsqueda será la carpeta representada por <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7c537-105">The search scope will be only the folder represented by <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e6c73-107">El ámbito de búsqueda será la carpeta representada por <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />.</span><span class="sxs-lookup"><span data-stu-id="e6c73-107">The search scope will be only the folder represented by <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olSearchScopeCurrentStore">
@@ -130,12 +91,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7c537-106">El ámbito de búsqueda es la tienda para la carpeta actual, que contiene el elemento mostrado en el explorador activo.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7c537-106">The search scope is the store for the current folder, which contains the item displayed in the active explorer.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e6c73-108">El ámbito de búsqueda es la tienda para la carpeta actual, que contiene el elemento mostrado en el explorador activo.</span><span class="sxs-lookup"><span data-stu-id="e6c73-108">The search scope is the store for the current folder, which contains the item displayed in the active explorer.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olSearchScopeSubfolders">
@@ -154,12 +110,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="7c537-107">El ámbito de búsqueda será la carpeta representada por <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> y sus subcarpetas.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="7c537-107">The search scope is the folder represented by <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> and its subfolders.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e6c73-109">El ámbito de búsqueda será la carpeta representada por <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> y sus subcarpetas.</span><span class="sxs-lookup"><span data-stu-id="e6c73-109">The search scope is the folder represented by <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> and its subfolders.</span></span></summary>
       </Docs>
     </Member>
   </Members>

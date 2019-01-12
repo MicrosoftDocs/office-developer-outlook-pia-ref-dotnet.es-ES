@@ -1,13 +1,5 @@
 <Type Name="Exceptions" FullName="Microsoft.Office.Interop.Outlook.Exceptions">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="520fadd96b8362d70a9b5a030b8ffe9075c071ff" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643614" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Exceptions : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7f68233838899e145d387aa0eb20809a1521e737" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903212" /></Metadata><TypeSignature Language="C#" Value="public interface Exceptions : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Exceptions implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Exceptions" />
   <TypeSignature Language="VB.NET" Value="Public Interface Exceptions&#xA;Implements IEnumerable" />
@@ -30,28 +22,12 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="39acb-101">Contiene un grupo de <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> objetos.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="39acb-101">Contains a group of <see cref="T:Microsoft.Office.Interop.Outlook.Exception" />  objects.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="39acb-102">
-        <para>Si tiene un periódica <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> , el <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> objeto define la frecuencia de las citas. El objeto <b>Exceptions</b> contiene el grupo de objetos <b>Exception</b> que define las excepciones al conjunto de citas.</para>
-        <para>Objetos 
-        <b>exception</b> se agregan al objeto <b>Exceptions</b> cada vez que se modifica una propiedad del objeto <b>AppointmentItem</b> correspondiente.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="39acb-102">
-          <para>If you have a recurring <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> , the <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />  object defines the recurrence of these appointments. The <b>Exceptions</b> object contains the group of <b>Exception</b> objects that define the exceptions to that series of appointments.</para>
-          <para>
-            <b>Exception</b> objects are added to the <b>Exceptions</b> object whenever a property in the corresponding <b>AppointmentItem</b> object is altered.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="e0c69-101">Contiene un grupo de <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> objetos.</span><span class="sxs-lookup"><span data-stu-id="e0c69-101">Contains a group of <see cref="T:Microsoft.Office.Interop.Outlook.Exception" />  objects.</span></span></summary>
+    <remarks><para><span data-ttu-id="e0c69-102">Si tiene un periódica <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> , el <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> objeto define la frecuencia de las citas.</span><span class="sxs-lookup"><span data-stu-id="e0c69-102">If you have a recurring <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> , the <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />  object defines the recurrence of these appointments.</span></span> <span data-ttu-id="e0c69-103">El objeto <b>Exceptions</b> contiene el grupo de objetos <b>Exception</b> que define las excepciones respecto a dicha serie de citas.</span><span class="sxs-lookup"><span data-stu-id="e0c69-103">The <b>Exceptions</b> object contains the group of <b>Exception</b> objects that define the exceptions to that series of appointments.</span></span></para>
+      <para><span data-ttu-id="e0c69-104">Los objetos 
+        <b>Exception</b> se agregan al objeto <b>Exceptions</b> cada vez que se altera una propiedad del objeto <b>AppointmentItem</b> correspondiente.</span><span class="sxs-lookup"><span data-stu-id="e0c69-104">
+        <b>Exception</b> objects are added to the <b>Exceptions</b> object whenever a property in the corresponding <b>AppointmentItem</b> object is altered.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -77,16 +53,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="39acb-103">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="39acb-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="39acb-104">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="39acb-104">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e0c69-105">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span><span class="sxs-lookup"><span data-stu-id="e0c69-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="e0c69-106">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="e0c69-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -114,16 +81,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="39acb-105">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="39acb-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="39acb-106">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="39acb-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e0c69-107">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span><span class="sxs-lookup"><span data-stu-id="e0c69-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="e0c69-108">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="e0c69-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -151,16 +109,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="39acb-107">Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="39acb-107">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="39acb-108">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="39acb-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e0c69-109">Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada.</span><span class="sxs-lookup"><span data-stu-id="e0c69-109">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span></span> <span data-ttu-id="e0c69-110">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="e0c69-110">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -191,24 +140,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="39acb-109">Puede ser el número de índice del objeto o un valor utilizado para que coincida con la propiedad predeterminada de un objeto de la colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="39acb-109">Either the index number of the object, or a value used to match the default property of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="39acb-110">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> objeto de la colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="39acb-110">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> object from the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="39acb-111">Un objeto <b>Exception</b> que representa el objeto especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="39acb-111">An <b>Exception</b> object that represents the specified object.</span>
-          </span>
-        </value>
+        <param name="Index"><span data-ttu-id="e0c69-111">Puede ser el número de índice del objeto o un valor utilizado para que coincida con la propiedad predeterminada de un objeto de la colección.</span><span class="sxs-lookup"><span data-stu-id="e0c69-111">Either the index number of the object, or a value used to match the default property of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="e0c69-112">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> objeto de la colección.</span><span class="sxs-lookup"><span data-stu-id="e0c69-112">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> object from the collection.</span></span></summary>
+        <value><span data-ttu-id="e0c69-113">Un objeto <b>Exception</b> que representa el objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="e0c69-113">An <b>Exception</b> object that represents the specified object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -235,12 +169,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="39acb-p104">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="39acb-p104">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e0c69-p105">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="e0c69-p105">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -268,41 +197,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="39acb-114">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="39acb-114">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="39acb-115">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="39acb-115">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e0c69-116">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="e0c69-116">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="e0c69-117">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="e0c69-117">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="39acb-116">
-            <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="e0c69-118">La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="e0c69-118">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="e0c69-119">Los dos miembros tienen el mismo propósito.</span><span class="sxs-lookup"><span data-stu-id="e0c69-119">Both members serve the same purpose.</span></span> <span data-ttu-id="e0c69-120">Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</span><span class="sxs-lookup"><span data-stu-id="e0c69-120">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="39acb-116">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

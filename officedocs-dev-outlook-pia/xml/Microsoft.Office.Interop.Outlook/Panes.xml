@@ -1,13 +1,5 @@
 <Type Name="Panes" FullName="Microsoft.Office.Interop.Outlook.Panes">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="60e4cc75a46518099c824ac6d0a1fc25086de563" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642533" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Panes : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="de8d3a723c79d054b93d65efa593bff55eab354c" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906607" /></Metadata><TypeSignature Language="C#" Value="public interface Panes : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Panes implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Panes" />
   <TypeSignature Language="VB.NET" Value="Public Interface Panes&#xA;Implements IEnumerable" />
@@ -30,28 +22,11 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="50b0c-101">Contiene los paneles mostrados por el especificado <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="50b0c-101">Contains the panes displayed by the specified <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="50b0c-102">
-        <para>Usar el <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Panes" /> propiedad para devolver el objeto de colección <b>Panes</b> de un objeto <b>Explorer</b> .</para>
-        <para>Usar el <see cref="P:Microsoft.Office.Interop.Outlook.Panes.Item(System.Object)" /> (propiedad) (<b>este</b> en C#) para recuperar un panel específico.</para>
-        <para>Para Microsoft Outlook 2000 y versiones posterior, el panel de accesos directos es el único panel al que puede tener acceso a través del objeto <b>Panes</b> .</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="50b0c-102">
-          <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Panes" />  property to return the <b>Panes</b> collection object from an <b>Explorer</b> object.</para>
-          <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook.Panes.Item(System.Object)" /> property (<b>this</b> in C#) to retrieve a specific pane. </para>
-          <para>For Microsoft Outlook 2000 and later, the Shortcuts pane is the only pane that you can access through the <b>Panes</b> object.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="13118-101">Contiene los paneles mostrados por el especificado <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</span><span class="sxs-lookup"><span data-stu-id="13118-101">Contains the panes displayed by the specified <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</span></span></summary>
+    <remarks><para><span data-ttu-id="13118-102">Usar el <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Panes" /> propiedad para devolver el objeto de colección <b>Panes</b> de un objeto <b>Explorer</b> .</span><span class="sxs-lookup"><span data-stu-id="13118-102">Use the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Panes" />  property to return the <b>Panes</b> collection object from an <b>Explorer</b> object.</span></span></para>
+      <para><span data-ttu-id="13118-103">Usar el <see cref="P:Microsoft.Office.Interop.Outlook.Panes.Item(System.Object)" /> (propiedad) (<b>este</b> en C#) para recuperar un panel específico.</span><span class="sxs-lookup"><span data-stu-id="13118-103">Use the <see cref="P:Microsoft.Office.Interop.Outlook.Panes.Item(System.Object)" /> property (<b>this</b> in C#) to retrieve a specific pane.</span></span> </para>
+      <para><span data-ttu-id="13118-104">Microsoft Outlook 2000 y versiones posteriores, el panel de accesos directos es el único panel al que puede tener acceso a través del objeto <b>Panes</b>.</span><span class="sxs-lookup"><span data-stu-id="13118-104">For Microsoft Outlook 2000 and later, the Shortcuts pane is the only pane that you can access through the <b>Panes</b> object.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -77,16 +52,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="50b0c-103">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="50b0c-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="50b0c-104">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="50b0c-104">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="13118-105">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span><span class="sxs-lookup"><span data-stu-id="13118-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="13118-106">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="13118-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -114,16 +80,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="50b0c-105">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="50b0c-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="50b0c-106">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="50b0c-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="13118-107">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span><span class="sxs-lookup"><span data-stu-id="13118-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="13118-108">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="13118-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -151,16 +108,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="50b0c-107">Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="50b0c-107">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="50b0c-108">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="50b0c-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="13118-109">Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada.</span><span class="sxs-lookup"><span data-stu-id="13118-109">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span></span> <span data-ttu-id="13118-110">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="13118-110">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -191,24 +139,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="50b0c-109">Puede ser el número de índice del objeto o un valor utilizado para que coincida con la propiedad predeterminada de un objeto de la colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="50b0c-109">Either the index number of the object, or a value used to match the default property of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="50b0c-110">Devuelve un panel de una colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="50b0c-110">Returns a pane from a collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="50b0c-111">Valor de un objeto que representa el objeto especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="50b0c-111">An Object value that represents the specified object.</span>
-          </span>
-        </value>
+        <param name="Index"><span data-ttu-id="13118-111">Puede ser el número de índice del objeto o un valor utilizado para que coincida con la propiedad predeterminada de un objeto de la colección.</span><span class="sxs-lookup"><span data-stu-id="13118-111">Either the index number of the object, or a value used to match the default property of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="13118-112">Devuelve un panel de una colección.</span><span class="sxs-lookup"><span data-stu-id="13118-112">Returns a pane from a collection.</span></span></summary>
+        <value><span data-ttu-id="13118-113">Valor de un objeto que representa el objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="13118-113">An Object value that represents the specified object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -235,12 +168,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="50b0c-p104">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="50b0c-p104">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="13118-p105">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="13118-p105">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -268,41 +196,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="50b0c-114">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="50b0c-114">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="50b0c-115">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="50b0c-115">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="13118-116">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="13118-116">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="13118-117">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="13118-117">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="50b0c-116">
-            <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="13118-118">La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="13118-118">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="13118-119">Los dos miembros tienen el mismo propósito.</span><span class="sxs-lookup"><span data-stu-id="13118-119">Both members serve the same purpose.</span></span> <span data-ttu-id="13118-120">Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</span><span class="sxs-lookup"><span data-stu-id="13118-120">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="50b0c-116">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="_Views" FullName="Microsoft.Office.Interop.Outlook._Views">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="66617b0bde6b97d2cfc7ba1b7b89affe0a7d6251" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642638" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Views : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="66617b0bde6b97d2cfc7ba1b7b89affe0a7d6251" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903940" /></Metadata><TypeSignature Language="C#" Value="public interface _Views : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Views implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Views" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Views&#xA;Implements IEnumerable" />
@@ -30,24 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="6a250-101">Esto es una interfaz principal en una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6a250-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="6a250-102">Use esta interfaz principal sólo cuando el método que desea usar comparte el mismo nombre que un evento del objeto COM; en este caso, se convierte en esta interfaz para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6a250-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="6a250-103">De lo contrario, use la interfaz de .NET que se deriva de la coclase COM para tener acceso a los métodos, propiedades y eventos del objeto COM.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6a250-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="6a250-104">Para obtener información sobre el objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.Views" />.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6a250-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Views" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="8a602-101">Esto es una interfaz principal en una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente.</span><span class="sxs-lookup"><span data-stu-id="8a602-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="8a602-102">Use esta interfaz principal sólo cuando el método que desea usar comparte el mismo nombre que un evento del objeto COM; en este caso, se convierte en esta interfaz para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento.</span><span class="sxs-lookup"><span data-stu-id="8a602-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="8a602-103">De lo contrario, use la interfaz de .NET que se deriva de la coclase COM para tener acceso a los métodos, propiedades y eventos del objeto COM.</span><span class="sxs-lookup"><span data-stu-id="8a602-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="8a602-104">Para obtener información sobre el objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.Views" />.</span><span class="sxs-lookup"><span data-stu-id="8a602-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Views" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -75,46 +50,13 @@
         <Parameter Name="SaveOption" Type="Microsoft.Office.Interop.Outlook.OlViewSaveOption" />
       </Parameters>
       <Docs>
-        <param name="Name">
-          <span data-ttu-id="6a250-105">Nombre de la nueva vista.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6a250-105">The name of the new view.</span>
-          </span>
-        </param>
-        <param name="ViewType">
-          <span data-ttu-id="6a250-106">Tipo de la nueva vista.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6a250-106">The type of the new view.</span>
-          </span>
-        </param>
-        <param name="SaveOption">
-          <span data-ttu-id="6a250-107">Opción para guardar que especifica los permisos de la nueva vista.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6a250-107">The save option that specifies the permissions of the new view.</span>
-          </span>
-          <span data-ttu-id="6a250-108">
-            <b>olViewSaveOptionAllFoldersOfType</b> Puede tener acceso a la vista en todas las carpetas de este tipo. <b>olViewSaveOptionThisFolderEveryOne</b> La vista se puede tener acceso a todos los usuarios de esta carpeta sólo. <b>olViewSaveOptionThisFolderOnlyMe</b> Puede tener acceso a la vista en esta carpeta sólo por el usuario.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6a250-108">
-              <b>olViewSaveOptionAllFoldersOfType</b> The view can be accessed in all folders of this type.<b>olViewSaveOptionThisFolderEveryOne</b> The view can be accessed by all users in this folder only.<b>olViewSaveOptionThisFolderOnlyMe</b> The view can be accessed in this folder only by the user.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="6a250-109">Crea una nueva vista en el <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6a250-109">Creates a new view in the <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="6a250-110">A <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object que representa la nueva vista.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6a250-110">A <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object that represents the new view.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="6a250-111">
-            <para>Si agrega una <b>vista</b> a una colección de <b>vistas</b> de una carpeta que no sea la carpeta actual, debe guardar primero una copia del objeto de colección <b>Views</b> y, a continuación, agregar la <b>vista</b> a este objeto de colección, tal como se muestra en el ejemplo de código siguiente. Se trata de una solución alternativa para un problema existente que en caso contrario, provocará una llamada a <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" /> para la se ha agregado <b>la vista</b> se lleve a cabo.</para>
-            <code>Sub CalendarView()
+        <param name="Name"><span data-ttu-id="8a602-105">Nombre de la nueva vista.</span><span class="sxs-lookup"><span data-stu-id="8a602-105">The name of the new view.</span></span></param>
+        <param name="ViewType"><span data-ttu-id="8a602-106">Tipo de la nueva vista.</span><span class="sxs-lookup"><span data-stu-id="8a602-106">The type of the new view.</span></span></param>
+        <param name="SaveOption"><span data-ttu-id="8a602-107">Opción para guardar que especifica los permisos de la nueva vista.</span><span class="sxs-lookup"><span data-stu-id="8a602-107">The save option that specifies the permissions of the new view.</span></span> <span data-ttu-id="8a602-108"><b>olViewSaveOptionAllFoldersOfType</b> Puede tener acceso a la vista en todas las carpetas de este tipo. <b>olViewSaveOptionThisFolderEveryOne</b> La vista se puede tener acceso a todos los usuarios de esta carpeta sólo. <b>olViewSaveOptionThisFolderOnlyMe</b> Puede tener acceso a la vista en esta carpeta sólo por el usuario.</span><span class="sxs-lookup"><span data-stu-id="8a602-108"><b>olViewSaveOptionAllFoldersOfType</b> The view can be accessed in all folders of this type.<b>olViewSaveOptionThisFolderEveryOne</b> The view can be accessed by all users in this folder only.<b>olViewSaveOptionThisFolderOnlyMe</b> The view can be accessed in this folder only by the user.</span></span></param>
+        <summary><span data-ttu-id="8a602-109">Crea una nueva vista en el <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> colección.</span><span class="sxs-lookup"><span data-stu-id="8a602-109">Creates a new view in the <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="8a602-110">A <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object que representa la nueva vista.</span><span class="sxs-lookup"><span data-stu-id="8a602-110">A <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object that represents the new view.</span></span></returns>
+        <remarks><para><span data-ttu-id="8a602-111">Si agrega una <b>vista</b> a una colección de <b>vistas</b> de una carpeta que no sea la carpeta actual, debe guardar primero una copia del objeto de colección <b>Views</b> y, a continuación, agregar la <b>vista</b> a este objeto de colección, tal como se muestra en el ejemplo de código siguiente.</span><span class="sxs-lookup"><span data-stu-id="8a602-111">If you add a <b>View</b> to a <b>Views</b> collection of a folder that is not the current folder, you must first save a copy of  the <b>Views</b> collection object and then add the <b>View</b> to this collection object, as shown in the code sample below.</span></span> <span data-ttu-id="8a602-112">Se trata de una solución alternativa para un problema existente que en caso contrario, provocará una llamada a <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" /> para la se ha agregado <b>la vista</b> se lleve a cabo.</span><span class="sxs-lookup"><span data-stu-id="8a602-112">This is a work-around for an existing problem which will otherwise cause a call to <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" /> for the added <b>View</b> to fail.</span></span></para>
+          <code>Sub CalendarView()
     Dim calView As Outlook.View
     Dim vws As Outlook.Views
 
@@ -136,7 +78,7 @@
     ' This Apply call will be fine.
     calView.Apply()
 End Sub</code>
-            <code>private void CalendarView()
+          <code>private void CalendarView()
 {
     Outlook.View calView;
     Outlook.Views vws;
@@ -159,60 +101,7 @@ End Sub</code>
     // This Apply call will be fine.
     calView.Apply();
 }</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6a250-111">
-              <para>If you add a <b>View</b> to a <b>Views</b> collection of a folder that is not the current folder, you must first save a copy of  the <b>Views</b> collection object and then add the <b>View</b> to this collection object, as shown in the code sample below. This is a work-around for an existing problem which will otherwise cause a call to <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" /> for the added <b>View</b> to fail.</para>
-              <code>Sub CalendarView()
-    Dim calView As Outlook.View
-    Dim vws As Outlook.Views
-
-    Application.ActiveExplorer.CurrentFolder = _
-        Application.Session.GetDefaultFolder( _
-        Outlook.OlDefaultFolders.olFolderInbox)
-
-    ' Current folder is Inbox; add a View to the Calendar folder which 
-    ' is not the current folder. Keep a copy of the object for the 
-    ' Views collection for the Calendar
-    vws = Application.Session.GetDefaultFolder( _
-        Outlook.OlDefaultFolders.olFolderCalendar).Views
-
-    ' Add the View to this Views collection object
-    calView = vws.Add("New Calendar", _
-        Outlook.OlViewType.olCalendarView, _
-        Outlook.OlViewSaveOption.olViewSaveOptionThisFolderEveryone)
-    calView.Save()
-    ' This Apply call will be fine.
-    calView.Apply()
-End Sub</code>
-              <code>private void CalendarView()
-{
-    Outlook.View calView;
-    Outlook.Views vws;
-
-    Application.ActiveExplorer().CurrentFolder = 
-        Application.Session.GetDefaultFolder( 
-        Outlook.OlDefaultFolders.olFolderInbox);
-
-    // Current folder is Inbox; add a View to the Calendar folder which 
-    //is not the current folder. Keep a copy of the object for the 
-    //Views collection for the Calendar
-    vws = Application.Session.GetDefaultFolder( 
-        Outlook.OlDefaultFolders.olFolderCalendar).Views;
-
-    //Add the View to this Views collection object
-    calView = vws.Add("New Calendar",
-        Outlook.OlViewType.olCalendarView, 
-        Outlook.OlViewSaveOption.olViewSaveOptionThisFolderEveryone);
-    calView.Save();
-    // This Apply call will be fine.
-    calView.Apply();
-}</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -238,16 +127,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6a250-112">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6a250-112">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="6a250-113">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6a250-113">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8a602-113">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span><span class="sxs-lookup"><span data-stu-id="8a602-113">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="8a602-114">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="8a602-114">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -275,16 +155,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6a250-114">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6a250-114">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="6a250-115">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6a250-115">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8a602-115">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span><span class="sxs-lookup"><span data-stu-id="8a602-115">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="8a602-116">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="8a602-116">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -312,16 +183,7 @@ End Sub</code>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6a250-116">Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6a250-116">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="6a250-117">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6a250-117">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8a602-117">Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada.</span><span class="sxs-lookup"><span data-stu-id="8a602-117">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span></span> <span data-ttu-id="8a602-118">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="8a602-118">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -353,12 +215,7 @@ End Sub</code>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="6a250-118">Este miembro se hereda del tipo base de la interfaz principal.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6a250-118">This member is inherited from the base type of the parent interface.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8a602-119">Este miembro se hereda del tipo base de la interfaz principal.</span><span class="sxs-lookup"><span data-stu-id="8a602-119">This member is inherited from the base type of the parent interface.</span></span></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -389,24 +246,9 @@ End Sub</code>
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="6a250-119">Puede ser el número de índice del objeto o un valor utilizado para que coincida con la propiedad predeterminada de un objeto de la colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6a250-119">Either the index number of the object, or a value used to match the default property of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="6a250-120">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto de la colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6a250-120">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object from the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="6a250-121">Un objeto <b>View</b> que representa el objeto especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6a250-121">A <b>View</b> object that represents the specified object.</span>
-          </span>
-        </value>
+        <param name="Index"><span data-ttu-id="8a602-120">Puede ser el número de índice del objeto o un valor utilizado para que coincida con la propiedad predeterminada de un objeto de la colección.</span><span class="sxs-lookup"><span data-stu-id="8a602-120">Either the index number of the object, or a value used to match the default property of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="8a602-121">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.View" /> objeto de la colección.</span><span class="sxs-lookup"><span data-stu-id="8a602-121">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object from the collection.</span></span></summary>
+        <value><span data-ttu-id="8a602-122">Un objeto <b>View</b> que representa el objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="8a602-122">A <b>View</b> object that represents the specified object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -433,12 +275,7 @@ End Sub</code>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6a250-p106">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6a250-p106">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8a602-p107">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="8a602-p107">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -466,18 +303,8 @@ End Sub</code>
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="6a250-124">El nombre o valor de índice basado en 1 de un objeto dentro de una colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6a250-124">The name or 1-based index value of an object within a collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="6a250-125">Quita un objeto de la colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6a250-125">Removes an object from the collection.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="8a602-125">El nombre o valor de índice basado en 1 de un objeto dentro de una colección.</span><span class="sxs-lookup"><span data-stu-id="8a602-125">The name or 1-based index value of an object within a collection.</span></span></param>
+        <summary><span data-ttu-id="8a602-126">Quita un objeto de la colección.</span><span class="sxs-lookup"><span data-stu-id="8a602-126">Removes an object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -504,41 +331,16 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6a250-126">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6a250-126">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="6a250-127">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6a250-127">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8a602-127">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="8a602-127">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="8a602-128">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="8a602-128">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="6a250-128">
-            <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="8a602-129">La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="8a602-129">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="8a602-130">Los dos miembros tienen el mismo propósito.</span><span class="sxs-lookup"><span data-stu-id="8a602-130">Both members serve the same purpose.</span></span> <span data-ttu-id="8a602-131">Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</span><span class="sxs-lookup"><span data-stu-id="8a602-131">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6a250-128">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

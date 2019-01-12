@@ -1,13 +1,5 @@
 <Type Name="AddressEntry" FullName="Microsoft.Office.Interop.Outlook.AddressEntry">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="682854cc41fd5876bf1d22c8d65e2332e2233750" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642396" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AddressEntry" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7c3361d6fae79bf9b2c1326717d5a3bd9227da59" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906754" /></Metadata><TypeSignature Language="C#" Value="public interface AddressEntry" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AddressEntry" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AddressEntry" />
   <TypeSignature Language="VB.NET" Value="Public Interface AddressEntry" />
@@ -26,26 +18,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="b9638-101">Representa a una persona, un grupo o una carpeta pública a los que puede entregar mensajes el sistema de mensajería.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="b9638-101">Represents a person, group, or public folder to which the messaging system can deliver messages.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="b9638-102">
-        <para>El objeto <b>AddressEntry</b> es una dirección de un <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> objeto. Cada objeto <b>AddressEntry</b> del objeto <b>AddressEntries</b> mantiene información que representa a una persona, grupo o carpeta pública a la que el sistema de mensajería puede entregar mensajes.</para>
-        <para>Utilice <b>AddressEntries</b>(<paramref name="index" />), donde <paramref name="index" /> es el número de índice de una entrada de dirección o un valor que se utiliza para que coincida con la propiedad predeterminada de una entrada de dirección, para devolver un objeto <b>AddressEntry</b> individual.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="b9638-102">
-          <para>The <b>AddressEntry</b> object is an address in an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />  object. Each <b>AddressEntry</b> object in the <b>AddressEntries</b> object holds information that represents a person, group,  or public folder to which the messaging system can deliver messages.</para>
-          <para>Use <b>AddressEntries</b>(<paramref name="index" />), where <paramref name="index" /> is the index number of an address entry or a value used to match the default property of an address entry, to return a single <b>AddressEntry</b> object.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="8ad07-101">Representa a una persona, un grupo o una carpeta pública a los que puede entregar mensajes el sistema de mensajería.</span><span class="sxs-lookup"><span data-stu-id="8ad07-101">Represents a person, group, or public folder to which the messaging system can deliver messages.</span></span></summary>
+    <remarks><para><span data-ttu-id="8ad07-102">El objeto <b>AddressEntry</b> es una dirección de un <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="8ad07-102">The <b>AddressEntry</b> object is an address in an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />  object.</span></span> <span data-ttu-id="8ad07-103">Cada objeto <b>AddressEntry</b> del objeto <b>AddressEntries</b> contiene información que representa a una persona, grupo o carpeta pública a la que el sistema de mensajería puede entregar mensajes.</span><span class="sxs-lookup"><span data-stu-id="8ad07-103">Each <b>AddressEntry</b> object in the <b>AddressEntries</b> object holds information that represents a person, group,  or public folder to which the messaging system can deliver messages.</span></span></para>
+      <para><span data-ttu-id="8ad07-104">Utilice <b>AddressEntries</b>(<paramref name="index" />), donde <paramref name="index" /> es el número de índice de una entrada de dirección o un valor que se utiliza para que coincida con la propiedad predeterminada de una entrada de dirección, para devolver un objeto <b>AddressEntry</b> individual.</span><span class="sxs-lookup"><span data-stu-id="8ad07-104">Use <b>AddressEntries</b>(<paramref name="index" />), where <paramref name="index" /> is the index number of an address entry or a value used to match the default property of an address entry, to return a single <b>AddressEntry</b> object.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Address">
@@ -74,29 +50,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9638-103">Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que representa la dirección de correo electrónico de la <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-103">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the e-mail address of the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />.</span>
-          </span>
-          <span data-ttu-id="b9638-104">Lectura y escritura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-104">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8ad07-105">Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que representa la dirección de correo electrónico de la <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />.</span><span class="sxs-lookup"><span data-stu-id="8ad07-105">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the e-mail address of the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />.</span></span> <span data-ttu-id="8ad07-106">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="8ad07-106">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="b9638-105">
-            <para>La propiedad <b>Address</b> se debe establecer antes de llamar a la <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" /> (método).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-105">
-              <para>The <b>Address</b> property must be set before calling the <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" />  method.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8ad07-107">La propiedad <b>Address</b> se debe establecer antes de llamar a la <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" /> (método).</span><span class="sxs-lookup"><span data-stu-id="8ad07-107">The <b>Address</b> property must be set before calling the <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" />  method.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddressEntryUserType">
@@ -122,31 +79,12 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAddressEntryUserType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9638-106">Devuelve una constante de la <see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" /> tipo de enumeración que representa el usuario de la <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-106">Returns a constant from the  <see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" /> enumeration representing the user type of the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />.</span>
-          </span>
-          <span data-ttu-id="b9638-107">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-107">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8ad07-108">Devuelve una constante de la <see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" /> tipo de enumeración que representa el usuario de la <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />.</span><span class="sxs-lookup"><span data-stu-id="8ad07-108">Returns a constant from the  <see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" /> enumeration representing the user type of the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />.</span></span> <span data-ttu-id="8ad07-109">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="8ad07-109">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="b9638-108">
-            <para>
-              <b>AddressEntryUserType</b> proporciona un nivel de granularidad para los tipos de usuario más fino que de <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" />. La propiedad <b>DisplayType</b> no distingue entre los usuarios con distintos tipos de <b>AddressEntry</b>, como un <b>objeto AddressEntry</b> que tiene una dirección de correo electrónico de Protocolo Simple de transferencia de correo (SMTP), un protocolo ligero de acceso a directorios (LDAP) dirección, una dirección de usuario de Exchange o un <b>objeto AddressEntry</b> de la libreta de direcciones de contactos de Outlook. Estas entradas tienen <b>olUser</b> como sus <b>AddressEntry.DisplayType</b>.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-108">
-              <para>
-                <b>AddressEntryUserType</b> provides a level of granularity for user types that is finer than that of  <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" />. The <b>DisplayType</b> property does not distinguish users with different types of <b>AddressEntry</b>, such as an <b>AddressEntry</b> that has a Simple Mail Transfer Protocol (SMTP) e-mail address, a Lightweight Directory Access Protocol (LDAP) address, an Exchange user address, or an <b>AddressEntry</b> in the  Outlook Contacts Address Book. All these entires  have <b>olUser</b> as their <b>AddressEntry.DisplayType</b>. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8ad07-110">
+            <b>AddressEntryUserType</b> proporciona un nivel de granularidad para los tipos de usuario más fino que de <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" />.</span><span class="sxs-lookup"><span data-stu-id="8ad07-110">
+            <b>AddressEntryUserType</b> provides a level of granularity for user types that is finer than that of  <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" />.</span></span> <span data-ttu-id="8ad07-111">La propiedad <b>DisplayType</b> no distingue entre los usuarios con distintos tipos de <b>AddressEntry</b>, como un <b>objeto AddressEntry</b> que tiene una dirección de correo electrónico de Protocolo Simple de transferencia de correo (SMTP), un protocolo ligero de acceso a directorios (LDAP) dirección, una dirección de usuario de Exchange o un <b>objeto AddressEntry</b> de la libreta de direcciones de contactos de Outlook.</span><span class="sxs-lookup"><span data-stu-id="8ad07-111">The <b>DisplayType</b> property does not distinguish users with different types of <b>AddressEntry</b>, such as an <b>AddressEntry</b> that has a Simple Mail Transfer Protocol (SMTP) e-mail address, a Lightweight Directory Access Protocol (LDAP) address, an Exchange user address, or an <b>AddressEntry</b> in the  Outlook Contacts Address Book.</span></span> <span data-ttu-id="8ad07-112">Estas entradas tienen <b>olUser</b> como sus <b>AddressEntry.DisplayType</b>.</span><span class="sxs-lookup"><span data-stu-id="8ad07-112">All these entires  have <b>olUser</b> as their <b>AddressEntry.DisplayType</b>.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -172,16 +110,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9638-109">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="b9638-110">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-110">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8ad07-113">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span><span class="sxs-lookup"><span data-stu-id="8ad07-113">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="8ad07-114">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="8ad07-114">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -209,16 +138,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9638-111">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-111">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="b9638-112">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8ad07-115">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span><span class="sxs-lookup"><span data-stu-id="8ad07-115">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="8ad07-116">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="8ad07-116">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -244,12 +164,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="b9638-113">Elimina un objeto de la colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-113">Deletes an object from the collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8ad07-117">Elimina un objeto de la colección.</span><span class="sxs-lookup"><span data-stu-id="8ad07-117">Deletes an object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -275,34 +190,13 @@
         <Parameter Name="HWnd" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="HWnd">
-          <span data-ttu-id="b9638-p105">Controlador de la ventana primaria del cuadro de diálogo Detalles. El valor cero (predeterminado) especifica que el cuadro de diálogo es secundario de Outlook. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-p105">The parent window handle for the Details dialog box. A zero value (the default) specifies that the dialog is parented to Outlook.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b9638-116">Muestra un cuadro de diálogo no modal que proporciona información detallada acerca de un <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-116">Displays a modeless dialog box that provides detailed information about an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />  object.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="b9638-117">
-            <para>
-              <b>Nota</b>: el método <b>Details</b> genera un error si el <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.Name" /> (propiedad) está vacío.</para>
-            <para>Debe utilizar el tratamiento de errores para controlar los errores de tiempo de ejecución cuando el usuario hace clic en Cancelar en el cuadro de diálogo. <b>El método</b> Details detiene el código que se ejecute mientras se muestra el cuadro de diálogo.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-117">
-              <para>
-                <b>Note</b>: The <b>Details</b> method fails if the <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.Name" />  property is empty.</para>
-              <para>You must use error handling to handle run-time errors when the user clicks Cancel in the dialog box. The <b>Details</b> method actually stops the code from running while the dialog box is displayed.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="HWnd"><span data-ttu-id="8ad07-p107">Controlador de la ventana primaria del cuadro de diálogo Detalles. El valor cero (predeterminado) especifica que el cuadro de diálogo es secundario de Outlook. </span><span class="sxs-lookup"><span data-stu-id="8ad07-p107">The parent window handle for the Details dialog box. A zero value (the default) specifies that the dialog is parented to Outlook.</span></span></param>
+        <summary><span data-ttu-id="8ad07-120">Muestra un cuadro de diálogo no modal que proporciona información detallada acerca de un <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="8ad07-120">Displays a modeless dialog box that provides detailed information about an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />  object.</span></span></summary>
+        <remarks><para><span data-ttu-id="8ad07-121">
+            <b>Nota</b>: el método <b>Details</b> genera un error si el <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.Name" /> (propiedad) está vacío.</span><span class="sxs-lookup"><span data-stu-id="8ad07-121">
+            <b>Note</b>: The <b>Details</b> method fails if the <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.Name" />  property is empty.</span></span></para>
+          <para><span data-ttu-id="8ad07-p108">Debe usar el control de errores para controlar los errores de tiempo de ejecución cuando el usuario hace clic en Cancelar en el cuadro de diálogo. El método <b>Details</b> detiene el ejecución mientras se muestra el cuadro de diálogo del código.</span><span class="sxs-lookup"><span data-stu-id="8ad07-p108">You must use error handling to handle run-time errors when the user clicks Cancel in the dialog box. The <b>Details</b> method actually stops the code from running while the dialog box is displayed.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayType">
@@ -328,29 +222,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDisplayType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9638-118">Devuelve una constante perteneciente a la <see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" /> (enumeración) que describe la naturaleza de la <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-118">Returns a constant belonging to the  <see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" /> enumeration that describes the nature of the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />.</span>
-          </span>
-          <span data-ttu-id="b9638-119">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-119">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8ad07-124">Devuelve una constante perteneciente a la <see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" /> (enumeración) que describe la naturaleza de la <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />.</span><span class="sxs-lookup"><span data-stu-id="8ad07-124">Returns a constant belonging to the  <see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" /> enumeration that describes the nature of the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />.</span></span> <span data-ttu-id="8ad07-125">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="8ad07-125">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="b9638-120">
-            <para>Puede usar la propiedad <b>DisplayType</b> para entradas de filtro de dirección. La propiedad <b>DisplayType</b> corresponde a la propiedad <b>PidTagDisplayType</b>MAPI.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-120">
-              <para>You can use the <b>DisplayType</b> property to filter address entries. The <b>DisplayType</b> property corresponds to the MAPI property <b>PidTagDisplayType</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8ad07-p110">Puede usar la propiedad <b>DisplayType</b> para las entradas de dirección del filtro. La propiedad <b>DisplayType</b> corresponde a la propiedad <b>PidTagDisplayType</b> MAPI.</span><span class="sxs-lookup"><span data-stu-id="8ad07-p110">You can use the <b>DisplayType</b> property to filter address entries. The <b>DisplayType</b> property corresponds to the MAPI property <b>PidTagDisplayType</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetContact">
@@ -374,22 +249,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="b9638-121">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" /> object que representa el <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />, si <b>AddressEntry</b> corresponde a un contacto en una libreta de direcciones de contactos (CAB) de Outlook.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-121">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" /> object that represents the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />,  if the <b>AddressEntry</b> corresponds to a contact in an Outlook Contacts Address Book  (CAB).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="b9638-122">Un objeto <b>ContactItem</b> que corresponde a <b>AddressEntry</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-122">A <b>ContactItem</b> object that corresponds to the <b>AddressEntry</b>.</span>
-          </span>
-          <span data-ttu-id="b9638-123">Devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si el objeto <b>AddressEntry</b> no se corresponde con un contacto de una libreta de direcciones de contactos.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-123">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the <b>AddressEntry</b> object does not correspond to  a contact in a Contacts Address Book.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="8ad07-128">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" /> object que representa el <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />, si <b>AddressEntry</b> corresponde a un contacto en una libreta de direcciones de contactos (CAB) de Outlook.</span><span class="sxs-lookup"><span data-stu-id="8ad07-128">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" /> object that represents the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />,  if the <b>AddressEntry</b> corresponds to a contact in an Outlook Contacts Address Book  (CAB).</span></span></summary>
+        <returns><span data-ttu-id="8ad07-129">Un objeto <b>ContactItem</b> que corresponde a <b>AddressEntry</b>.</span><span class="sxs-lookup"><span data-stu-id="8ad07-129">A <b>ContactItem</b> object that corresponds to the <b>AddressEntry</b>.</span></span> <span data-ttu-id="8ad07-130">Devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si el objeto <b>AddressEntry</b> no se corresponde con un contacto de una libreta de direcciones de contactos.</span><span class="sxs-lookup"><span data-stu-id="8ad07-130">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the <b>AddressEntry</b> object does not correspond to  a contact in a Contacts Address Book.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -414,34 +275,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="b9638-124">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" /> object que representa el <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> si <b>AddressEntry</b> pertenece a un intercambio <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> objeto, como la lista Global de direcciones (GAL) y corresponde a una lista de distribución de Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-124">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" /> object that represents the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> if the <b>AddressEntry</b>  belongs to an Exchange <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> object such as the Global Address List (GAL) and corresponds to an Exchange distribution list.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="b9638-125">Un objeto <b>ExchangeDistributionList</b> que representa el <b>objeto AddressEntry</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-125">An <b>ExchangeDistributionList</b> object that represents the <b>AddressEntry</b>.</span>
-          </span>
-          <span data-ttu-id="b9638-126">Devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si el objeto <b>AddressEntry</b> no se corresponde con una lista de distribución de Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-126">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the <b>AddressEntry</b> object does not correspond to an Exchange distribution list.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="b9638-127">
-            <para>Debe estar conectado al servidor de Exchange para utilizar este método.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-127">
-              <para> You have to be connected to the Exchange server to use this method.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="8ad07-131">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" /> object que representa el <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> si <b>AddressEntry</b> pertenece a un intercambio <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> objeto, como la lista Global de direcciones (GAL) y corresponde a una lista de distribución de Exchange.</span><span class="sxs-lookup"><span data-stu-id="8ad07-131">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" /> object that represents the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> if the <b>AddressEntry</b>  belongs to an Exchange <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> object such as the Global Address List (GAL) and corresponds to an Exchange distribution list.</span></span></summary>
+        <returns><span data-ttu-id="8ad07-132">Un objeto <b>ExchangeDistributionList</b> que representa el <b>objeto AddressEntry</b>.</span><span class="sxs-lookup"><span data-stu-id="8ad07-132">An <b>ExchangeDistributionList</b> object that represents the <b>AddressEntry</b>.</span></span> <span data-ttu-id="8ad07-133">Devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si el objeto <b>AddressEntry</b> no se corresponde con una lista de distribución de Exchange.</span><span class="sxs-lookup"><span data-stu-id="8ad07-133">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the <b>AddressEntry</b> object does not correspond to an Exchange distribution list.</span></span></returns>
+        <remarks><para> <span data-ttu-id="8ad07-134">Es preciso estar conectado al servidor de Exchange para utilizar este método.</span><span class="sxs-lookup"><span data-stu-id="8ad07-134">You have to be connected to the Exchange server to use this method.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetExchangeUser">
@@ -465,34 +302,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="b9638-128">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object que representa el <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> si <b>AddressEntry</b> pertenece a un intercambio <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> objeto, como la lista Global de direcciones (GAL) y corresponde a un usuario de Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-128">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object that represents the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> if the <b>AddressEntry</b>  belongs to an Exchange <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> object such as the Global Address List (GAL) and  corresponds to an Exchange user.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="b9638-129">Un objeto <b>ExchangeUser</b> que representa el <b>objeto AddressEntry</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-129">An <b>ExchangeUser</b> object that represents the <b>AddressEntry</b>.</span>
-          </span>
-          <span data-ttu-id="b9638-130">Devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si el objeto <b>AddressEntry</b> no se corresponde con un usuario de Exchange.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-130">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the <b>AddressEntry</b> object does not correspond to an Exchange user.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="b9638-131">
-            <para>Debe estar conectado al servidor de Exchange para utilizar este método.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-131">
-              <para> You have to be connected to the Exchange server to use this method.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="8ad07-135">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object que representa el <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> si <b>AddressEntry</b> pertenece a un intercambio <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> objeto, como la lista Global de direcciones (GAL) y corresponde a un usuario de Exchange.</span><span class="sxs-lookup"><span data-stu-id="8ad07-135">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object that represents the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> if the <b>AddressEntry</b>  belongs to an Exchange <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> object such as the Global Address List (GAL) and  corresponds to an Exchange user.</span></span></summary>
+        <returns><span data-ttu-id="8ad07-136">Un objeto <b>ExchangeUser</b> que representa el <b>objeto AddressEntry</b>.</span><span class="sxs-lookup"><span data-stu-id="8ad07-136">An <b>ExchangeUser</b> object that represents the <b>AddressEntry</b>.</span></span> <span data-ttu-id="8ad07-137">Devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si el objeto <b>AddressEntry</b> no se corresponde con un usuario de Exchange.</span><span class="sxs-lookup"><span data-stu-id="8ad07-137">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the <b>AddressEntry</b> object does not correspond to an Exchange user.</span></span></returns>
+        <remarks><para> <span data-ttu-id="8ad07-138">Es preciso estar conectado al servidor de Exchange para utilizar este método.</span><span class="sxs-lookup"><span data-stu-id="8ad07-138">You have to be connected to the Exchange server to use this method.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetFreeBusy">
@@ -519,132 +332,54 @@
         <Parameter Name="CompleteFormat" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Start">
-          <span data-ttu-id="b9638-132">Especifica la fecha.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-132">Specifies the date.</span>
-          </span>
-        </param>
-        <param name="MinPerChar">
-          <span data-ttu-id="b9638-p110">Especifica la extensión de cada franja horaria en minutos. El valor predeterminado es 30.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-p110">Specifies the length of each time slot in minutes. The default value is 30.</span>
-          </span>
-        </param>
-        <param name="CompleteFormat">
-          <span data-ttu-id="b9638-135">Especifica un valor <b>booleano</b> (<b>bool</b> en C#) que representa el nivel de información que se devuelve para cada franja horaria.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-135">Specifies a <b>Boolean</b> value (<b>bool</b> in C#) that represents the level of information returned for each time slot.</span>
-          </span>
-          <span data-ttu-id="b9638-136">El valor predeterminado es <b>False</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-136">The default value is <b>False</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b9638-137">Devuelve un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa la disponibilidad del usuario individual durante un período de 30 días desde la fecha de comienzo, que comienza en la medianoche de la fecha especificada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-137">Returns a <b>String</b> (<b>string</b> in C#) value that represents the availability of the individual user for a period of 30 days from the start date, beginning at midnight of the date specified.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="b9638-138">Un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa la disponibilidad del usuario durante el período especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-138">A <b>String</b> (<b>string</b> in C#) value that represents the availability of the user for the specified period.</span>
-          </span>
-          <span data-ttu-id="b9638-139">El valor de cadena contiene un carácter por cada franja horaria del período especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-139">The string value contains one character for each time slot within the specified period.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="b9638-140">
-            <para>
-              <b>Nota</b>: si una entrada de dirección representa una lista de distribución, no se puede devolver el estado de sus miembros individuales que con el método <b>GetFreeBusy</b> . Se debe enviar una convocatoria de reunión sólo a usuarios de correo individuales. Puede determinar si un usuario de correo es una lista de distribución determinando si su <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" /> propiedad es <b>olDistList</b> o <b>olPrivateDistList</b>.</para>
-            <para>El contenido de la cadena devuelta por este método se determina mediante el <paramref name="CompleteFormat" /> parámetro.</para>
-            <para>Si <paramref name="CompleteFormat" /> está establecida en <b>False</b>, el valor predeterminado, la cadena devuelta por este método contiene uno de los caracteres siguientes para cada franja horaria:</para>
-            <list type="table">
-              <item>De 
-              <description>carácter</description><description>Descripción</description></item>
-              <item>
-                <description>0</description>
-                <description>la franja horaria representa un período disponible.</description>
-              </item>
-              <item>
-                <description>1</description>
-                <description>la franja horaria representa un provisional, fuera de la oficina (OOF) o el período de ocupación.</description>
-              </item>
-            </list>
-            <para>Si <paramref name="CompleteFormat" /> está establecida en <b>True</b>, la cadena devuelta por este método contiene uno de los caracteres siguientes para cada franja horaria:</para>
-            <list type="table">
-              <item>De 
-              <description>carácter</description><description>Descripción</description></item>
-              <item>
-                <description>0</description>
-                <description>la franja horaria representa un período disponible.</description>
-              </item>
-              <item>
-                <description>1</description>
-                <description>la franja horaria representa un período provisional.</description>
-              </item>
-              <item>
-                <description>2</description>
-                <description>la franja horaria representa un período no disponible.</description>
-              </item>
-              <item>
-                <description>3</description>
-                <description>la franja horaria representa un período de oficina (OOF).</description>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-140">
-              <para>
-                <b>Note</b>: If an address entry represents a distribution list, the status of its individual members cannot be returned to you with the <b>GetFreeBusy</b> method. A meeting request should be sent only to single messaging users. You can determine if a messaging user is a distribution list by determining if its <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" />  property is <b>olDistList</b> or <b>olPrivateDistList</b>.</para>
-              <para>The contents of the string returned by this method are determined by the <paramref name="CompleteFormat" /> parameter. </para>
-              <para>If <paramref name="CompleteFormat" /> is set to <b>False</b>, the default value, the string returned by this method contains one of the following characters for each time slot:</para>
-              <list type="table">
-                <item>
-                  <description>Character</description>
-                  <description>Description</description>
-                </item>
-                <item>
-                  <description>0</description>
-                  <description>The time slot represents a free period.</description>
-                </item>
-                <item>
-                  <description>1</description>
-                  <description>The time slot represents a tentative, out of office (OOF), or busy period.</description>
-                </item>
-              </list>
-              <para>If <paramref name="CompleteFormat" /> is set to <b>True</b>, the string returned by this method contains one of the following characters for each time slot:</para>
-              <list type="table">
-                <item>
-                  <description>Character</description>
-                  <description>Description</description>
-                </item>
-                <item>
-                  <description>0</description>
-                  <description>The time slot represents a free period.</description>
-                </item>
-                <item>
-                  <description>1</description>
-                  <description>The time slot represents a tentative period.</description>
-                </item>
-                <item>
-                  <description>2</description>
-                  <description>The time slot represents a busy period.</description>
-                </item>
-                <item>
-                  <description>3</description>
-                  <description>The time slot represents an out of office (OOF) period.</description>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Start"><span data-ttu-id="8ad07-139">Especifica la fecha.</span><span class="sxs-lookup"><span data-stu-id="8ad07-139">Specifies the date.</span></span></param>
+        <param name="MinPerChar"><span data-ttu-id="8ad07-p114">Especifica la extensión de cada franja horaria en minutos. El valor predeterminado es 30.</span><span class="sxs-lookup"><span data-stu-id="8ad07-p114">Specifies the length of each time slot in minutes. The default value is 30.</span></span></param>
+        <param name="CompleteFormat"><span data-ttu-id="8ad07-142">Especifica un valor <b>booleano</b> (<b>bool</b> en C#) que representa el nivel de información que se devuelve para cada franja horaria.</span><span class="sxs-lookup"><span data-stu-id="8ad07-142">Specifies a <b>Boolean</b> value (<b>bool</b> in C#) that represents the level of information returned for each time slot.</span></span> <span data-ttu-id="8ad07-143">El valor predeterminado es <b>False</b>.</span><span class="sxs-lookup"><span data-stu-id="8ad07-143">The default value is <b>False</b>.</span></span></param>
+        <summary><span data-ttu-id="8ad07-144">Devuelve un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa la disponibilidad del usuario individual durante un período de 30 días desde la fecha de comienzo, que comienza en la medianoche de la fecha especificada.</span><span class="sxs-lookup"><span data-stu-id="8ad07-144">Returns a <b>String</b> (<b>string</b> in C#) value that represents the availability of the individual user for a period of 30 days from the start date, beginning at midnight of the date specified.</span></span></summary>
+        <returns><span data-ttu-id="8ad07-145">Un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa la disponibilidad del usuario durante el período especificado.</span><span class="sxs-lookup"><span data-stu-id="8ad07-145">A <b>String</b> (<b>string</b> in C#) value that represents the availability of the user for the specified period.</span></span> <span data-ttu-id="8ad07-146">El valor de cadena contiene un carácter por cada franja horaria del período especificado.</span><span class="sxs-lookup"><span data-stu-id="8ad07-146">The string value contains one character for each time slot within the specified period.</span></span></returns>
+        <remarks><para><span data-ttu-id="8ad07-147">
+            <b>Nota</b>: si una entrada de dirección representa una lista de distribución, no se puede devolver el estado de sus miembros individuales que con el método <b>GetFreeBusy</b> .</span><span class="sxs-lookup"><span data-stu-id="8ad07-147">
+            <b>Note</b>: If an address entry represents a distribution list, the status of its individual members cannot be returned to you with the <b>GetFreeBusy</b> method.</span></span> <span data-ttu-id="8ad07-148">Una convocatoria de reunión se debe enviar solamente a usuarios de correo individuales.</span><span class="sxs-lookup"><span data-stu-id="8ad07-148">A meeting request should be sent only to single messaging users.</span></span> <span data-ttu-id="8ad07-149">Puede determinar si un usuario de correo es una lista de distribución determinando si su <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" /> propiedad es <b>olDistList</b> u <b>olPrivateDistList</b>.</span><span class="sxs-lookup"><span data-stu-id="8ad07-149">You can determine if a messaging user is a distribution list by determining if its <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" />  property is <b>olDistList</b> or <b>olPrivateDistList</b>.</span></span></para>
+          <para><span data-ttu-id="8ad07-150">El contenido de la cadena devuelta por este método se determina mediante el <paramref name="CompleteFormat" /> parámetro.</span><span class="sxs-lookup"><span data-stu-id="8ad07-150">The contents of the string returned by this method are determined by the <paramref name="CompleteFormat" /> parameter.</span></span> </para>
+          <para><span data-ttu-id="8ad07-151">Si <paramref name="CompleteFormat" /> está establecida en <b>False</b>, el valor predeterminado, la cadena devuelta por este método contiene uno de los caracteres siguientes para cada franja horaria:</span><span class="sxs-lookup"><span data-stu-id="8ad07-151">If <paramref name="CompleteFormat" /> is set to <b>False</b>, the default value, the string returned by this method contains one of the following characters for each time slot:</span></span></para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="8ad07-152">Carácter</span><span class="sxs-lookup"><span data-stu-id="8ad07-152">Character</span></span></description>
+              <description><span data-ttu-id="8ad07-153">Descripción</span><span class="sxs-lookup"><span data-stu-id="8ad07-153">Description</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8ad07-154">0</span><span class="sxs-lookup"><span data-stu-id="8ad07-154">0</span></span></description>
+              <description><span data-ttu-id="8ad07-155">La franja horaria representa un período disponible.</span><span class="sxs-lookup"><span data-stu-id="8ad07-155">The time slot represents a free period.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8ad07-156">1</span><span class="sxs-lookup"><span data-stu-id="8ad07-156">1</span></span></description>
+              <description><span data-ttu-id="8ad07-157">La franja horaria representa un período provisional, fuera de la oficina (OOF) o no disponible.</span><span class="sxs-lookup"><span data-stu-id="8ad07-157">The time slot represents a tentative, out of office (OOF), or busy period.</span></span></description>
+            </item>
+          </list>
+          <para><span data-ttu-id="8ad07-158">Si <paramref name="CompleteFormat" /> está establecida en <b>True</b>, la cadena devuelta por este método contiene uno de los caracteres siguientes para cada franja horaria:</span><span class="sxs-lookup"><span data-stu-id="8ad07-158">If <paramref name="CompleteFormat" /> is set to <b>True</b>, the string returned by this method contains one of the following characters for each time slot:</span></span></para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="8ad07-159">Carácter</span><span class="sxs-lookup"><span data-stu-id="8ad07-159">Character</span></span></description>
+              <description><span data-ttu-id="8ad07-160">Descripción</span><span class="sxs-lookup"><span data-stu-id="8ad07-160">Description</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8ad07-161">0</span><span class="sxs-lookup"><span data-stu-id="8ad07-161">0</span></span></description>
+              <description><span data-ttu-id="8ad07-162">La franja horaria representa un período disponible.</span><span class="sxs-lookup"><span data-stu-id="8ad07-162">The time slot represents a free period.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8ad07-163">1</span><span class="sxs-lookup"><span data-stu-id="8ad07-163">1</span></span></description>
+              <description><span data-ttu-id="8ad07-164">La franja horaria representa un período provisional.</span><span class="sxs-lookup"><span data-stu-id="8ad07-164">The time slot represents a tentative period.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8ad07-165">2</span><span class="sxs-lookup"><span data-stu-id="8ad07-165">2</span></span></description>
+              <description><span data-ttu-id="8ad07-166">La franja horaria representa un período no disponible.</span><span class="sxs-lookup"><span data-stu-id="8ad07-166">The time slot represents a busy period.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="8ad07-167">3</span><span class="sxs-lookup"><span data-stu-id="8ad07-167">3</span></span></description>
+              <description><span data-ttu-id="8ad07-168">La franja horaria representa un período de fuera de la oficina (OOF).</span><span class="sxs-lookup"><span data-stu-id="8ad07-168">The time slot represents an out of office (OOF) period.</span></span></description>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ID">
@@ -670,29 +405,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9638-141">Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el identificador único para el objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-141">Returns a <b>String</b> (<b>string</b> in C#) representing the unique identifier for the object.</span>
-          </span>
-          <span data-ttu-id="b9638-142">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-142">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8ad07-169">Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el identificador único para el objeto.</span><span class="sxs-lookup"><span data-stu-id="8ad07-169">Returns a <b>String</b> (<b>string</b> in C#) representing the unique identifier for the object.</span></span> <span data-ttu-id="8ad07-170">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="8ad07-170">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="b9638-143">
-            <para>El proveedor de transporte asigna una propiedad de <b>identificador de</b> cadena permanente y único cuando se crea un objeto miembro individual. Estos identificadores no cambian de una sesión a otra.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-143">
-              <para>The transport provider assigns a permanent, unique string <b>ID</b> property when an individual member object is created. These identifiers do not change from one session to another. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8ad07-p120">El proveedor de transporte asigna una propiedad de <b>identificador</b> de cadena permanente y único cuando se crea un objeto miembro individual. Estos identificadores no cambian de una sesión a otra.</span><span class="sxs-lookup"><span data-stu-id="8ad07-p120">The transport provider assigns a permanent, unique string <b>ID</b> property when an individual member object is created. These identifiers do not change from one session to another. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Manager">
@@ -721,12 +437,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AddressEntry</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9638-144">[!PRECAUCIóN] Este objeto, miembro o enumeración está en desuso y no debería usarse en el código.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-144">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8ad07-173">[!PRECAUCIóN] Este objeto, miembro o enumeración está en desuso y no debería usarse en el código.</span><span class="sxs-lookup"><span data-stu-id="8ad07-173">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -763,12 +474,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9638-145">[!PRECAUCIóN] Este objeto, miembro o enumeración está en desuso y no debería usarse en el código.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-145">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8ad07-174">[!PRECAUCIóN] Este objeto, miembro o enumeración está en desuso y no debería usarse en el código.</span><span class="sxs-lookup"><span data-stu-id="8ad07-174">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -799,12 +505,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AddressEntries</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9638-146">[!PRECAUCIóN] Este objeto, miembro o enumeración está en desuso y no debería usarse en el código.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-146">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8ad07-175">[!PRECAUCIóN] Este objeto, miembro o enumeración está en desuso y no debería usarse en el código.</span><span class="sxs-lookup"><span data-stu-id="8ad07-175">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -835,29 +536,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9638-147">Devuelve o establece un valor de <b>tipo String</b> (<b>cadena</b> en C#) en el nombre para mostrar para el objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-147">Returns or sets a <b>String</b> value (<b>string</b> in C#) the display name for the object.</span>
-          </span>
-          <span data-ttu-id="b9638-148">Lectura y escritura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-148">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8ad07-176">Devuelve o establece un valor de <b>tipo String</b> (<b>cadena</b> en C#) en el nombre para mostrar para el objeto.</span><span class="sxs-lookup"><span data-stu-id="8ad07-176">Returns or sets a <b>String</b> value (<b>string</b> in C#) the display name for the object.</span></span> <span data-ttu-id="8ad07-177">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="8ad07-177">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="b9638-149">
-            <para>Es necesario para la propiedad <b>Name</b> se establezca antes de llamar a la <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" /> (método).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-149">
-              <para>It is necessary for the <b>Name</b> property to be set before calling the <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" />  method.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="8ad07-178">Es necesario para la propiedad <b>Name</b> se establezca antes de llamar a la <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" /> (método).</span><span class="sxs-lookup"><span data-stu-id="8ad07-178">It is necessary for the <b>Name</b> property to be set before calling the <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" />  method.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -883,12 +565,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9638-p115">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-p115">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8ad07-p122">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="8ad07-p122">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -916,16 +593,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9638-152">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto que admite la creación, obtener, establecer y eliminación de propiedades del objeto primario <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-152">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object.</span>
-          </span>
-          <span data-ttu-id="b9638-153">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-153">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8ad07-181">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto que admite la creación, obtener, establecer y eliminación de propiedades del objeto primario <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="8ad07-181">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object.</span></span> <span data-ttu-id="8ad07-182">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="8ad07-182">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -953,41 +621,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9638-154">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-154">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="b9638-155">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-155">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8ad07-183">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="8ad07-183">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="8ad07-184">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="8ad07-184">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="b9638-156">
-            <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="8ad07-185">La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="8ad07-185">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="8ad07-186">Los dos miembros tienen el mismo propósito.</span><span class="sxs-lookup"><span data-stu-id="8ad07-186">Both members serve the same purpose.</span></span> <span data-ttu-id="8ad07-187">Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</span><span class="sxs-lookup"><span data-stu-id="8ad07-187">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-156">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -1016,16 +659,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9638-157">Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que representa el tipo de entrada para esta dirección como una dirección de Internet, dirección de MacMail o dirección de Microsoft Mail.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-157">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the type of entry for this address such as an Internet Address, MacMail Address, or Microsoft Mail Address.</span>
-          </span>
-          <span data-ttu-id="b9638-158">Lectura y escritura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-158">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8ad07-188">Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que representa el tipo de entrada para esta dirección como una dirección de Internet, dirección de MacMail o dirección de Microsoft Mail.</span><span class="sxs-lookup"><span data-stu-id="8ad07-188">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the type of entry for this address such as an Internet Address, MacMail Address, or Microsoft Mail Address.</span></span> <span data-ttu-id="8ad07-189">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="8ad07-189">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1053,38 +687,12 @@
         <Parameter Name="Refresh" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="MakePermanent">
-          <span data-ttu-id="b9638-p119">Un valor de <b>True</b> indica que se vacía la caché de propiedades y todos los cambios se confirman en la libreta de direcciones subyacente. Un valor de <b>False</b> indica que la caché de propiedades se ha vaciado pero no confirmada en almacenamiento persistente. El valor predeterminado es <b>True</b>. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-p119">A value of <b>True</b> indicates that the property cache is flushed and all changes are committed in the underlying address book. A value of <b>False</b> indicates that the property cache is flushed but not committed to persistent storage. The default value is <b>True</b>.</span>
-          </span>
-        </param>
-        <param name="Refresh">
-          <span data-ttu-id="b9638-p120">Un valor de <b>True</b> indica que se vuelve a cargar la caché de propiedades de los valores de la libreta de direcciones subyacente. Un valor de <b>False</b> indica que no se vuelve a cargar la caché de propiedades. El valor predeterminado es <b>False</b>. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-p120">A value of <b>True</b> indicates that the property cache is reloaded from the values in the underlying address book. A value of <b>False</b> indicates that the property cache is not reloaded. The default value is <b>False</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="b9638-165">Expone un cambio realizado en la <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objeto en el sistema de mensajería.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-165">Posts a change to the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />  object in the messaging system.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="b9638-166">
-            <para>Las nuevas entradas o los cambios realizados en las entradas existentes no son persistentes en la colección hasta que se ha llamado al método <b>Update</b> con su <paramref name="MakePermanent" /> parámetro establecido en <b>True</b>.</para>
-            <para>Para vaciar la memoria caché y, a continuación, volver a cargar los valores de la libreta de direcciones, llame al método <b>Update</b> con el <paramref name="MakePermanent" /> parámetro se establece en <b>False</b> y el <paramref name="Refresh" /> parámetro establecido en <b>True</b>.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-166">
-              <para>New entries or changes to existing entries are not persisted in the collection until the <b>Update</b> method has been called with its <paramref name="MakePermanent" /> parameter set to <b>True</b>.</para>
-              <para>To flush the cache and then reload the values from the address book, call <b>Update</b> with the <paramref name="MakePermanent" /> parameter set to <b>False</b> and the <paramref name="Refresh" /> parameter set to <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="MakePermanent"><span data-ttu-id="8ad07-p127">Un valor de <b>True</b> indica que se vacía la caché de propiedades y todos los cambios se confirman en la libreta de direcciones subyacente. Un valor de <b>False</b> indica que la caché de propiedades se ha vaciado pero no confirmada en almacenamiento persistente. El valor predeterminado es <b>True</b>. </span><span class="sxs-lookup"><span data-stu-id="8ad07-p127">A value of <b>True</b> indicates that the property cache is flushed and all changes are committed in the underlying address book. A value of <b>False</b> indicates that the property cache is flushed but not committed to persistent storage. The default value is <b>True</b>.</span></span></param>
+        <param name="Refresh"><span data-ttu-id="8ad07-p128">Un valor de <b>True</b> indica que se vuelve a cargar la caché de propiedades de los valores de la libreta de direcciones subyacente. Un valor de <b>False</b> indica que no se vuelve a cargar la caché de propiedades. El valor predeterminado es <b>False</b>. </span><span class="sxs-lookup"><span data-stu-id="8ad07-p128">A value of <b>True</b> indicates that the property cache is reloaded from the values in the underlying address book. A value of <b>False</b> indicates that the property cache is not reloaded. The default value is <b>False</b>.</span></span></param>
+        <summary><span data-ttu-id="8ad07-196">Expone un cambio realizado en la <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objeto en el sistema de mensajería.</span><span class="sxs-lookup"><span data-stu-id="8ad07-196">Posts a change to the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />  object in the messaging system.</span></span></summary>
+        <remarks><para><span data-ttu-id="8ad07-197">Las nuevas entradas o los cambios realizados en las entradas existentes no son persistentes en la colección hasta que se ha llamado al método <b>Update</b> con su <paramref name="MakePermanent" /> parámetro establecido en <b>True</b>.</span><span class="sxs-lookup"><span data-stu-id="8ad07-197">New entries or changes to existing entries are not persisted in the collection until the <b>Update</b> method has been called with its <paramref name="MakePermanent" /> parameter set to <b>True</b>.</span></span></para>
+          <para><span data-ttu-id="8ad07-198">Para vaciar la memoria caché y, a continuación, volver a cargar los valores de la libreta de direcciones, llame al método <b>Update</b> con el <paramref name="MakePermanent" /> parámetro se establece en <b>False</b> y el <paramref name="Refresh" /> parámetro establecido en <b>True</b>.</span><span class="sxs-lookup"><span data-stu-id="8ad07-198">To flush the cache and then reload the values from the address book, call <b>Update</b> with the <paramref name="MakePermanent" /> parameter set to <b>False</b> and the <paramref name="Refresh" /> parameter set to <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UpdateFreeBusy">
@@ -1111,12 +719,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="b9638-167">[!PRECAUCIóN] Este objeto, miembro o enumeración está en desuso y no debería usarse en el código.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9638-167">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8ad07-199">[!PRECAUCIóN] Este objeto, miembro o enumeración está en desuso y no debería usarse en el código.</span><span class="sxs-lookup"><span data-stu-id="8ad07-199">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

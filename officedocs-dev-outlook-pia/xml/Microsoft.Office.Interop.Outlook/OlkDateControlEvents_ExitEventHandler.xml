@@ -1,13 +1,5 @@
 <Type Name="OlkDateControlEvents_ExitEventHandler" FullName="Microsoft.Office.Interop.Outlook.OlkDateControlEvents_ExitEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="00fd4c97f3772f5e2567f0c27dff92c346cf2fde" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643755" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void OlkDateControlEvents_ExitEventHandler(ref bool Cancel);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="895a3f65977ed7bca68d6a1eb779749abfc70492" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903051" /></Metadata><TypeSignature Language="C#" Value="public delegate void OlkDateControlEvents_ExitEventHandler(ref bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlkDateControlEvents_ExitEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkDateControlEvents_ExitEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub OlkDateControlEvents_ExitEventHandler(ByRef Cancel As Boolean)" />
@@ -34,20 +26,8 @@
     <ReturnType>System.Void</ReturnType>
   </ReturnValue>
   <Docs>
-    <param name="Cancel">
-      <span data-ttu-id="0c3c0-p101">
-        <b>False</b> cuando se produce el evento. Si el procedimiento de evento establece este argumento en <b>True</b>, la operación de salir no finaliza y el foco permanece en este control. </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0c3c0-p101">
-          <b>False</b> when the event occurs. If the event procedure sets this argument to <b>True</b>, the exit operation is not completed and the focus remains in this control.</span>
-      </span>
-    </param>
-    <summary>
-      <span data-ttu-id="0c3c0-p102">Se trata de un delegado para un evento en el objeto correspondiente. Después de implementar un método de devolución de llamada para el evento, utilice este delegado para conectar el método de devolución de llamada con el evento. Si hubiera varias versiones de la interfaz de eventos, este delegado conectaría el método de devolución de llamadas para el evento en la versión especificada de Outlook.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0c3c0-p102">This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</span>
-      </span>
-    </summary>
+    <param name="Cancel"><span data-ttu-id="b5457-p101"><b>False</b> cuando se produce el evento. Si el procedimiento de evento establece este argumento en <b>True</b>, la operación de salir no finaliza y el foco permanece en este control. </span><span class="sxs-lookup"><span data-stu-id="b5457-p101"><b>False</b> when the event occurs. If the event procedure sets this argument to <b>True</b>, the exit operation is not completed and the focus remains in this control.</span></span></param>
+    <summary><span data-ttu-id="b5457-p102">Se trata de un delegado para un evento en el objeto correspondiente. Después de implementar un método de devolución de llamada para el evento, utilice este delegado para conectar el método de devolución de llamada con el evento. Si hubiera varias versiones de la interfaz de eventos, este delegado conectaría el método de devolución de llamadas para el evento en la versión especificada de Outlook.</span><span class="sxs-lookup"><span data-stu-id="b5457-p102">This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
 </Type>

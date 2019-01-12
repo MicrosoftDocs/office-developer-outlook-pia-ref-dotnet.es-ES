@@ -1,13 +1,5 @@
 <Type Name="OlRuleConditionType" FullName="Microsoft.Office.Interop.Outlook.OlRuleConditionType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="420b4d8422ef3de8b9f1b7ac956632bf20619f7b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643211" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlRuleConditionType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="55c9c3c8d21a782558acd0cb913818a13333d9f0" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903716" /></Metadata><TypeSignature Language="C#" Value="public enum OlRuleConditionType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlRuleConditionType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlRuleConditionType" />
@@ -20,24 +12,10 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="8edab-101">Especifica el tipo de condición de regla o de condición de excepción de una regla.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="8edab-101">Specifies the type of rule condition or exception condition of a rule.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="8edab-102">
-        <para>La lista de tipos de condición de regla en esta enumeración incluye todas las condiciones de regla y las condiciones de excepción que es compatible con las reglas y el Asistente de alertas. Tenga en cuenta que aunque puede enumerar mediante programación todas las condiciones de regla y las condiciones de excepción de una regla, puede crear una regla mediante programación con sólo las condiciones usadas con más frecuencia. Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificar condiciones de regla</a></para>de tipos de
-      <para>por ejemplo, la condición de regla <b>olConditionDateRange</b> y <b>olConditionSizeRange</b> sólo se admiten por (enumeración) y habilitación o deshabilitación en una regla existente . No se puede crear mediante programación una regla con estas condiciones. Mediante programación no se puede obtener o establecer los valores de x e y que representan el rango.</para><para /></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="8edab-102">
-          <para>The list of rule condition types in this enumeration includes all the rule conditions and exception conditions that the Rules and Alerts Wizard supports. Note that while you can programmatically enumerate all the rule conditions and exception conditions for a rule, you can programmatically create a rule with only the most commonly used conditions. For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Specifying Rule Conditions</a></para>
-          <para>For example, the rule condition types <b>olConditionDateRange</b> and  <b>olConditionSizeRange</b> are supported only for enumeration and enabling or disabling in an existing rule. You cannot programmatically create a rule with such conditions. You cannot programmatically get or set the values of x and y that represent the range.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="1658f-101">Especifica el tipo de condición de regla o de condición de excepción de una regla.</span><span class="sxs-lookup"><span data-stu-id="1658f-101">Specifies the type of rule condition or exception condition of a rule.</span></span></summary>
+    <remarks><para><span data-ttu-id="1658f-102">The list of rule condition types in this enumeration includes all the rule conditions and exception conditions that the Rules and Alerts Wizard supports.</span><span class="sxs-lookup"><span data-stu-id="1658f-102">The list of rule condition types in this enumeration includes all the rule conditions and exception conditions that the Rules and Alerts Wizard supports.</span></span> <span data-ttu-id="1658f-103">Note that while you can programmatically enumerate all the rule conditions and exception conditions for a rule, you can programmatically create a rule with only the most commonly used conditions.</span><span class="sxs-lookup"><span data-stu-id="1658f-103">Note that while you can programmatically enumerate all the rule conditions and exception conditions for a rule, you can programmatically create a rule with only the most commonly used conditions.</span></span> <span data-ttu-id="1658f-104">Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificar condiciones de regla</a></span><span class="sxs-lookup"><span data-stu-id="1658f-104">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Specifying Rule Conditions</a></span></span></para>
+      <para><span data-ttu-id="1658f-105">Por ejemplo, se admiten los tipos de condiciones de regla <b>olConditionDateRange</b> y <b>olConditionSizeRange</b> sólo para la enumeración y la habilitación o deshabilitación en una regla existente.</span><span class="sxs-lookup"><span data-stu-id="1658f-105">For example, the rule condition types <b>olConditionDateRange</b> and  <b>olConditionSizeRange</b> are supported only for enumeration and enabling or disabling in an existing rule.</span></span> <span data-ttu-id="1658f-106">No puede crear una regla con tales condiciones mediante programación.</span><span class="sxs-lookup"><span data-stu-id="1658f-106">You cannot programmatically create a rule with such conditions.</span></span> <span data-ttu-id="1658f-107">Tampoco puede obtener o definir mediante programación los valores de x e y que representan el intervalo.</span><span class="sxs-lookup"><span data-stu-id="1658f-107">You cannot programmatically get or set the values of x and y that represent the range.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olConditionAccount">
@@ -56,12 +34,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-103">Cuenta es la cuenta especificada en <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Account" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-103">Account is the account specified in <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Account" />.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-108">Cuenta es la cuenta especificada en <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Account" />.</span><span class="sxs-lookup"><span data-stu-id="1658f-108">Account is the account specified in <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Account" />.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionAnyCategory">
@@ -80,12 +53,7 @@
       </ReturnValue>
       <MemberValue>29</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-104">El mensaje se asigna a cualquier categoría.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-104">Message is assigned to any category.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-109">El mensaje se asigna a cualquier categoría.</span><span class="sxs-lookup"><span data-stu-id="1658f-109">Message is assigned to any category.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionBody">
@@ -104,12 +72,7 @@
       </ReturnValue>
       <MemberValue>13</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-105">El cuerpo contiene palabras especificadas en <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Text" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-105">Body contains words specified in <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Text" />.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-110">El cuerpo contiene palabras especificadas en <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Text" />.</span><span class="sxs-lookup"><span data-stu-id="1658f-110">Body contains words specified in <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Text" />.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionBodyOrSubject">
@@ -128,12 +91,7 @@
       </ReturnValue>
       <MemberValue>14</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-106">Cuerpo o el asunto contiene palabras especificadas por <b>TextRuleCondition.Text.</b></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-106">Body or subject contains words specified by <b>TextRuleCondition.Text.</b></span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-111">Cuerpo o el asunto contiene palabras especificadas por <b>TextRuleCondition.Text.</b></span><span class="sxs-lookup"><span data-stu-id="1658f-111">Body or subject contains words specified by <b>TextRuleCondition.Text.</b></span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionCategory">
@@ -152,12 +110,7 @@
       </ReturnValue>
       <MemberValue>18</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-107">Categoría es la categoría especificada en <see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.Categories" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-107">Category is the category specified in <see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.Categories" />.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-112">Categoría es la categoría especificada en <see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.Categories" />.</span><span class="sxs-lookup"><span data-stu-id="1658f-112">Category is the category specified in <see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.Categories" />.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionCc">
@@ -176,12 +129,7 @@
       </ReturnValue>
       <MemberValue>9</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-108">El mensaje tiene mi nombre en el cuadro CC.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-108">Message has my name in the Cc box.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-113">El mensaje tiene mi nombre en el cuadro CC.</span><span class="sxs-lookup"><span data-stu-id="1658f-113">Message has my name in the Cc box.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionDateRange">
@@ -200,12 +148,7 @@
       </ReturnValue>
       <MemberValue>22</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-109">El mensaje se recibió entre x e y, donde x e y son valores de fecha.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-109">Message was received between x and y, where x and y are Date values.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-114">El mensaje se recibió entre x e y, donde x e y son valores de fecha.</span><span class="sxs-lookup"><span data-stu-id="1658f-114">Message was received between x and y, where x and y are Date values.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionFlaggedForAction">
@@ -224,12 +167,7 @@
       </ReturnValue>
       <MemberValue>8</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-110">El mensaje está marcado para la acción especificada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-110">Message is flagged for the specified action.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-115">El mensaje está marcado para la acción especificada.</span><span class="sxs-lookup"><span data-stu-id="1658f-115">Message is flagged for the specified action.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionFormName">
@@ -248,12 +186,7 @@
       </ReturnValue>
       <MemberValue>23</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-111">El mensaje usa el formulario especificado en <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.FormName" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-111">Message uses the form specified in <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.FormName" />.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-116">El mensaje usa el formulario especificado en <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.FormName" />.</span><span class="sxs-lookup"><span data-stu-id="1658f-116">Message uses the form specified in <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.FormName" />.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionFrom">
@@ -272,12 +205,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-112">El remitente está en la lista de destinatarios especificada en <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Recipients" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-112">Sender is in the recipient list specified in <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Recipients" />.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-117">El remitente está en la lista de destinatarios especificada en <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Recipients" />.</span><span class="sxs-lookup"><span data-stu-id="1658f-117">Sender is in the recipient list specified in <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Recipients" />.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionFromAnyRssFeed">
@@ -296,12 +224,7 @@
       </ReturnValue>
       <MemberValue>31</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-113">El mensaje lo ha generado cualquier suscripción RSS.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-113">Message is generated from any RSS subscription.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-118">El mensaje lo ha generado cualquier suscripción RSS.</span><span class="sxs-lookup"><span data-stu-id="1658f-118">Message is generated from any RSS subscription.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionFromRssFeed">
@@ -320,12 +243,7 @@
       </ReturnValue>
       <MemberValue>30</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-114">El mensaje lo ha generado una suscripción RSS específica.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-114">Message is generated from a specific RSS subscription.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-119">El mensaje lo ha generado una suscripción RSS específica.</span><span class="sxs-lookup"><span data-stu-id="1658f-119">Message is generated from a specific RSS subscription.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionHasAttachment">
@@ -344,12 +262,7 @@
       </ReturnValue>
       <MemberValue>20</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-115">El mensaje tiene uno o varios archivos de datos adjuntos.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-115">Message has one or more attachments.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-120">El mensaje tiene uno o varios archivos de datos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="1658f-120">Message has one or more attachments.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionImportance">
@@ -368,12 +281,7 @@
       </ReturnValue>
       <MemberValue>6</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-116">El mensaje está marcado con el nivel de importancia especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-116">Message is marked with the specified level of importance.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-121">El mensaje está marcado con el nivel de importancia especificado.</span><span class="sxs-lookup"><span data-stu-id="1658f-121">Message is marked with the specified level of importance.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionLocalMachineOnly">
@@ -392,12 +300,7 @@
       </ReturnValue>
       <MemberValue>27</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-117">La regla sólo se puede ejecutar en el equipo local.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-117">Rule can run only on the local machine.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-122">La regla sólo se puede ejecutar en el equipo local.</span><span class="sxs-lookup"><span data-stu-id="1658f-122">Rule can run only on the local machine.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionMeetingInviteOrUpdate">
@@ -416,12 +319,7 @@
       </ReturnValue>
       <MemberValue>26</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-118">El mensaje es una invitación a una reunión o una actualización de la misma.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-118">Message is a meeting invitation or update.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-123">El mensaje es una invitación a una reunión o una actualización de la misma.</span><span class="sxs-lookup"><span data-stu-id="1658f-123">Message is a meeting invitation or update.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionMessageHeader">
@@ -440,12 +338,7 @@
       </ReturnValue>
       <MemberValue>15</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-119">Encabezado del mensaje contiene palabras especificadas en <b>TextRuleCondition.Text</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-119">Message header contains words specified in <b>TextRuleCondition.Text</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-124">Encabezado del mensaje contiene palabras especificadas en <b>TextRuleCondition.Text</b>.</span><span class="sxs-lookup"><span data-stu-id="1658f-124">Message header contains words specified in <b>TextRuleCondition.Text</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionNotTo">
@@ -464,12 +357,7 @@
       </ReturnValue>
       <MemberValue>11</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-120">Mensaje no tiene mi nombre en el cuadro para.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-120">Message does not have  my name in the To box.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-125">Mensaje no tiene mi nombre en el cuadro para.</span><span class="sxs-lookup"><span data-stu-id="1658f-125">Message does not have  my name in the To box.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionOnlyToMe">
@@ -488,12 +376,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-121">El mensaje sólo se me ha enviado a mí.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-121">Message is sent only to me.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-126">El mensaje sólo se me ha enviado a mí.</span><span class="sxs-lookup"><span data-stu-id="1658f-126">Message is sent only to me.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionOOF">
@@ -512,12 +395,7 @@
       </ReturnValue>
       <MemberValue>19</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-122">El mensaje es un mensaje fuera de la oficina.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-122">Message is an out-of-office message.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-127">El mensaje es un mensaje fuera de la oficina.</span><span class="sxs-lookup"><span data-stu-id="1658f-127">Message is an out-of-office message.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionOtherMachine">
@@ -536,12 +414,7 @@
       </ReturnValue>
       <MemberValue>28</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-123">La regla sólo puede ejecutarse en un equipo concreto que no es el actual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-123">Rule can run only on  a specific machine that is not the current machine.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-128">La regla sólo puede ejecutarse en un equipo concreto que no es el actual.</span><span class="sxs-lookup"><span data-stu-id="1658f-128">Rule can run only on  a specific machine that is not the current machine.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionProperty">
@@ -560,12 +433,7 @@
       </ReturnValue>
       <MemberValue>24</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-124">La propiedad del documento es exacta, contiene o no contiene las propiedades especificadas.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-124">Document property is exactly, contains, or does not contain specified properties.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-129">La propiedad del documento es exacta, contiene o no contiene las propiedades especificadas.</span><span class="sxs-lookup"><span data-stu-id="1658f-129">Document property is exactly, contains, or does not contain specified properties.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionRecipientAddress">
@@ -584,12 +452,7 @@
       </ReturnValue>
       <MemberValue>16</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-125">Dirección del destinatario contiene palabras especificadas en <b>TextRuleCondition.Text</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-125">Recipient address contains words specified in <b>TextRuleCondition.Text</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-130">Dirección del destinatario contiene palabras especificadas en <b>TextRuleCondition.Text</b>.</span><span class="sxs-lookup"><span data-stu-id="1658f-130">Recipient address contains words specified in <b>TextRuleCondition.Text</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionSenderAddress">
@@ -608,12 +471,7 @@
       </ReturnValue>
       <MemberValue>17</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-126">Dirección del remitente contiene palabras especificadas en <b>TextRuleCondition.Text</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-126">Sender address contains words specified in <b>TextRuleCondition.Text</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-131">Dirección del remitente contiene palabras especificadas en <b>TextRuleCondition.Text</b>.</span><span class="sxs-lookup"><span data-stu-id="1658f-131">Sender address contains words specified in <b>TextRuleCondition.Text</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionSenderInAddressBook">
@@ -632,12 +490,7 @@
       </ReturnValue>
       <MemberValue>25</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-127">El remitente está en la lista de direcciones especificada en AddressRuleCondition.Address.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-127">Sender is in the address list specified in AddressRuleCondition.Address.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-132">El remitente está en la lista de direcciones especificada en AddressRuleCondition.Address.</span><span class="sxs-lookup"><span data-stu-id="1658f-132">Sender is in the address list specified in AddressRuleCondition.Address.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionSensitivity">
@@ -656,12 +509,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-128">El mensaje está marcado con el nivel de confidencialidad especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-128">Message is marked with the specified level of sensitivity.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-133">El mensaje está marcado con el nivel de confidencialidad especificado.</span><span class="sxs-lookup"><span data-stu-id="1658f-133">Message is marked with the specified level of sensitivity.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionSentTo">
@@ -680,12 +528,7 @@
       </ReturnValue>
       <MemberValue>12</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-129">Enviados a destinatarios (para, Cc) están en la lista de destinatarios especificada en <b>ToOrFromRuleCondition.Recipients</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-129">Sent to recipients (To, Cc) are in the recipient list specified in <b>ToOrFromRuleCondition.Recipients</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-134">Enviados a destinatarios (para, Cc) están en la lista de destinatarios especificada en <b>ToOrFromRuleCondition.Recipients</b>.</span><span class="sxs-lookup"><span data-stu-id="1658f-134">Sent to recipients (To, Cc) are in the recipient list specified in <b>ToOrFromRuleCondition.Recipients</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionSizeRange">
@@ -704,12 +547,7 @@
       </ReturnValue>
       <MemberValue>21</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-130">El tamaño del mensaje se encuentra entre x e y, expresados en KB, donde x e y son valores enteros.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-130">Message size is between x and y in units of KB, where x and y are Integer values.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-135">El tamaño del mensaje se encuentra entre x e y, expresados en KB, donde x e y son valores enteros.</span><span class="sxs-lookup"><span data-stu-id="1658f-135">Message size is between x and y in units of KB, where x and y are Integer values.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionSubject">
@@ -728,12 +566,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-131">El asunto contiene palabras especificadas en <b>TextRuleCondition.Text</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-131">Subject contains words specified in <b>TextRuleCondition.Text</b>.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-136">El asunto contiene palabras especificadas en <b>TextRuleCondition.Text</b>.</span><span class="sxs-lookup"><span data-stu-id="1658f-136">Subject contains words specified in <b>TextRuleCondition.Text</b>.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionTo">
@@ -752,12 +585,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-132">Mi nombre se encuentra en el cuadro Para.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-132">My name is in the To box.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-137">Mi nombre se encuentra en el cuadro Para.</span><span class="sxs-lookup"><span data-stu-id="1658f-137">My name is in the To box.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionToOrCc">
@@ -776,12 +604,7 @@
       </ReturnValue>
       <MemberValue>10</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-133">El mensaje tiene mi nombre en el cuadro Para o CC.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-133">Message has my name in the To or Cc box.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-138">El mensaje tiene mi nombre en el cuadro Para o CC.</span><span class="sxs-lookup"><span data-stu-id="1658f-138">Message has my name in the To or Cc box.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olConditionUnknown">
@@ -800,12 +623,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8edab-134">Condición no reconocida.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8edab-134">Unrecognized condition.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="1658f-139">Condición no reconocida.</span><span class="sxs-lookup"><span data-stu-id="1658f-139">Unrecognized condition.</span></span></summary>
       </Docs>
     </Member>
   </Members>
