@@ -1,13 +1,5 @@
 <Type Name="_PropertyAccessor" FullName="Microsoft.Office.Interop.Outlook._PropertyAccessor">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="78e2122c80a9c947755c0b2d0a28a1c207ecb94a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20641944" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _PropertyAccessor" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="78e2122c80a9c947755c0b2d0a28a1c207ecb94a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906215" /></Metadata><TypeSignature Language="C#" Value="public interface _PropertyAccessor" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _PropertyAccessor" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._PropertyAccessor" />
   <TypeSignature Language="VB.NET" Value="Public Interface _PropertyAccessor" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación principal (Outlook) para la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación principal (Outlook) para la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -84,10 +76,8 @@
         <param name="Value">Representa la matriz de bytes que se convertirá.</param>
         <summary>Convierte la matriz de bytes especificada por <paramref name="Value" /> en una <b>cadena</b> (<b>cadena</b> en C#).</summary>
         <returns>Hexadecimal <b>String</b> (<b>cadena</b> en C#) que representa el valor convertido.</returns>
-        <remarks>
-          <para>Para obtener más información sobre la conversión de tipo cuando se utiliza el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Para obtener más información sobre la conversión de tipo cuando se utiliza el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -113,7 +103,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una constante en el <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> (enumeración) que indica la clase de la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve una constante en el <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> (enumeración) que indica la clase de la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -144,10 +134,8 @@
         <param name="SchemaNames">Una matriz que contiene los nombres de las propiedades que se va a eliminar del objeto primario de la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto. Estas propiedades se hace referencia por espacio de nombres. Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Hacer referencia a propiedades por Namespace</a></param>
         <summary>Elimina las propiedades especificadas en la matriz <paramref name="SchemaNames" />.</summary>
         <returns>Un <b>objeto</b> que es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si la operación se realizó correctamente, o es una matriz de objetos <b>Err</b> si se produce un error. Si el valor devuelto es una matriz, el tamaño de esta matriz es el mismo que el de la matriz SchemaNames. El resultado de eliminar la propiedad correspondiente en el parámetro <b>SchemaNames</b> de error, se asigna un valor Err de la matriz.</returns>
-        <remarks>
-          <para>El llamador debe tener el permiso para eliminar propiedades. El método <b>DeleteProperties</b> sólo elimina las propiedades personalizadas que existen. No se elimina ninguna propiedad integrada de Outlook ni ninguna propiedad MAPI. No elimina las propiedades personalizadas de la <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>El llamador debe tener el permiso para eliminar propiedades. El método <b>DeleteProperties</b> sólo elimina las propiedades personalizadas existentes. No se elimina ninguna propiedad integrada de Outlook ni ninguna propiedad MAPI. No elimina las propiedades personalizadas de la <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeleteProperty">
@@ -175,10 +163,8 @@
       <Docs>
         <param name="SchemaName">El nombre de la propiedad que se va a eliminar del objeto primario de la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto. La propiedad se hace referencia por espacio de nombres. Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Hacer referencia a propiedades por Namespace</a></param>
         <summary>Elimina la propiedad especificada por <paramref name="SchemaName" />.</summary>
-        <remarks>
-          <para>El llamador debe tener el permiso para eliminar propiedades. El método <b>DeleteProperty</b> elimina sólo las propiedades personalizadas; no se elimina ninguna propiedad integrada de Outlook ni ninguna propiedad MAPI. No elimina las propiedades personalizadas de la <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>El llamador debe tener el permiso para eliminar propiedades. El método <b>DeleteProperty</b> elimina sólo las propiedades personalizadas; no se elimina ninguna propiedad integrada de Outlook ni ninguna propiedad MAPI. No elimina las propiedades personalizadas de la <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetProperties">
@@ -207,11 +193,9 @@
         <param name="SchemaNames">Matriz que contiene los nombres de las propiedades cuyos valores se van a devolver. El espacio de nombres hace referencia a estas propiedades. Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Hacer referencia a propiedades por Namespace</a></param>
         <summary>Obtiene los valores de las propiedades especificadas por la matriz unidimensional <paramref name="SchemaNames" />.</summary>
         <returns>Un <b>objeto</b> que representa una matriz de valores de las propiedades especificadas en el parámetro <paramref name="SchemaNames" />. El número de elementos en la matriz devuelta es igual al número de elementos de la <paramref name="SchemaNames" /> matriz.  Si se produce un error al obtener una propiedad específica, se devolverá el valor de <b>Err</b> en la ubicación correspondiente en la matriz devuelta.</returns>
-        <remarks>
-          <para>La matriz devuelta por <b>GetProperties</b> puede contener elementos de distintos tipos, según el tipo de la propiedad solicitada. El tipo de elemento de la matriz devuelto por <b>GetProperties</b> será el mismo que el tipo de la propiedad subyacente. Ciertos tipos de propiedades sin procesar como <b>pt Object</b> no son compatibles y provocan un error. Si necesita la conversión del tipo de propiedad sin procesar, por ejemplo, de <b>PT_BINARY</b> a una cadena o de <b>PT_SYSTIME</b> a la hora local, use los métodos auxiliares <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" /> y <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />. </para>
+        <remarks><para>La matriz devuelta por <b>GetProperties</b> puede contener elementos de distintos tipos, según el tipo de la propiedad solicitada. El tipo de elemento de la matriz devuelto por <b>GetProperties</b> será el mismo que el tipo de la propiedad subyacente. Ciertos tipos de propiedades sin procesar como <b>pt Object</b> no son compatibles y provocan un error. Si necesita la conversión del tipo de propiedad sin procesar, por ejemplo, de <b>PT_BINARY</b> a una cadena o de <b>PT_SYSTIME</b> a la hora local, use los métodos auxiliares <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" /> y <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />. </para>
           <para>Para obtener más información sobre la obtención de propiedades que usen el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetProperty">
@@ -240,11 +224,9 @@
         <param name="SchemaName">Nombre de la propiedad cuyo valor se va a devolver. El espacio de nombres hace referencia a la propiedad. Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Hacer referencia a propiedades por Namespace</a></param>
         <summary>Devuelve un objeto <b>Object</b> que representa el valor de la propiedad especificada por <paramref name="SchemaName" />.</summary>
         <returns>El valor de un <b>objeto</b> que representa el valor de la propiedad solicitada como especificado por <paramref name="SchemaName" />.</returns>
-        <remarks>
-          <para>El tipo del valor devuelto será el mismo que el tipo de la propiedad subyacente. Ciertos tipos de propiedades sin procesar como <b>pt Object</b> no son compatibles y provocan un error. Si necesita la conversión del tipo de propiedad sin procesar, por ejemplo, de <b>PT_BINARY</b> a una cadena o de <b>PT_SYSTIME</b> a la hora local, use los métodos auxiliares <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" /> y <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />. </para>
+        <remarks><para>El tipo del valor devuelto será el mismo que el tipo de la propiedad subyacente. Ciertos tipos de propiedades sin procesar como <b>pt Object</b> no son compatibles y provocan un error. Si necesita la conversión del tipo de propiedad sin procesar, por ejemplo, de <b>PT_BINARY</b> a una cadena o de <b>PT_SYSTIME</b> a la hora local, use los métodos auxiliares <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" /> y <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />. </para>
           <para>Para obtener más información sobre la obtención de propiedades que usen el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LocalTimeToUTC">
@@ -273,10 +255,8 @@
         <param name="Value">El valor de DateTime que se va a convertir de hora local a la hora UTC.</param>
         <summary>Convierte un valor de fecha y hora especificado por <paramref name="Value" /> desde el formato de hora local al formato hora Universal coordinada (UTC).</summary>
         <returns>Un valor de fecha y hora que representa <paramref name="Value" /> después de convertirse de la hora local a la hora UTC.</returns>
-        <remarks>
-          <para>Para obtener más información sobre la conversión de tipo cuando se utiliza el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Para obtener más información sobre la conversión de tipo cuando se utiliza el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -302,7 +282,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el objeto primario de la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve el objeto primario de la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -330,18 +310,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.  Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.  Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método se puede utilizar indistintamente para obtener la <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método se puede utilizar indistintamente para obtener la <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetProperties">
@@ -372,9 +350,35 @@
         <param name="Values">Matriz de valores que se van a establecer para las propiedades especificadas por el parámetro SchemaNames.</param>
         <summary>Establece las propiedades especificadas por la matriz <paramref name="SchemaNames" /> a los valores especificados por la matriz <paramref name="Values" />.</summary>
         <returns>Un <b>objeto</b> que es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si la operación se realiza correctamente. Si se produce un error antes de que se establecen las propiedades, por ejemplo, el número de elementos de la matriz de SchemaNames no coincide con en la matriz de Values, y se devolverá un valor <b>Err</b>. Si se ha producido un error durante la configuración de las propiedades, el valor devuelto es una matriz de objetos <b>Err</b> , el número de elementos de esta matriz es el mismo que el de la matriz SchemaNames. Se asigna un valor <b>Err</b> de la matriz en el resultado de error de configuración de la propiedad correspondiente en el parámetro SchemaNames.</returns>
-        <remarks>
-          <para>Si la propiedad no existe y la <paramref name="SchemaNames" /> elemento contiene un especificador de propiedad válido, a continuación, <b>SetProperties</b> crea la propiedad y se asigna la propiedad con el valor especificado por <paramref name="Values" />. El tipo de la propiedad será el tipo del elemento pasado en <paramref name="Values" />. Si la propiedad existe, <b>SetProperties</b> asigna a la propiedad el valor especificado por <paramref name="Values" />.</para> Tenga en cuenta que una propiedad personalizada creada mediante el uso de <b>PropertyAccessor</b> no se admite en una vista personalizada de 
-          <para>. Si desea ver una propiedad personalizada en un elemento, crear la propiedad mediante el uso de la <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> método.</para><para>Si el objeto primario de la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> admite explícita operación de <b>Guardar</b> y, a continuación, las propiedades se deben guardar en el objeto con un explícitas <b>Guardar</b> llamada al método. Si el objeto no admite explícita operación de <b>Guardar</b> y, a continuación, las propiedades se guardan en el objeto cuando se llame a <b>SetProperties</b> . </para><para>Debe tener cuidado y asegúrese de que todas las excepciones se controlan correctamente. Condiciones donde se produce un error de configuración propiedades incluye:</para><list type="bullet"><item><para>la propiedad es de sólo lectura, como algunos Outlook y MAPI son propiedades de sólo lectura.</para></item><item><para>La propiedad al que hace referencia el espacio de nombres especificado no se encuentra.</para></item><item><para>La propiedad especificada en un formato no válido y no se puede analizar.</para></item><item><para>La propiedad no existe y no se puede crear.</para></item><item><para>La propiedad existe pero se pasa un valor de un tipo incorrecto.</para></item><item><para>No puede abrir la propiedad porque el cliente no está conectado.</para></item><item><para>La propiedad se crea mediante el método <b>Add</b> de la <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> objeto. Al establecer la propiedad por primera vez, debe usar el <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> (propiedad) de la <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> objeto, en lugar de la <b>SetProperties</b> o <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> método del objeto <b>PropertyAccessor</b> .</para></item></list><para>Para obtener más información sobre cómo configurar propiedades que usen el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></para><para /></remarks>
+        <remarks><para>Si la propiedad no existe y la <paramref name="SchemaNames" /> elemento contiene un especificador de propiedad válido, a continuación, <b>SetProperties</b> crea la propiedad y se asigna la propiedad con el valor especificado por <paramref name="Values" />. El tipo de la propiedad será el tipo del elemento pasado en <paramref name="Values" />. Si la propiedad existe, <b>SetProperties</b> asigna a la propiedad el valor especificado por <paramref name="Values" />.</para>
+          <para>Tenga en cuenta que no se admite en una vista personalizada una propiedad personalizada creada usando <b>PropertyAccessor</b>. Si desea ver una propiedad personalizada en un elemento, crear la propiedad mediante el uso de la <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> (método).</para>
+          <para>Si el objeto primario de la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> admite explícita operación de <b>Guardar</b> y, a continuación, las propiedades se deben guardar en el objeto con un explícitas <b>Guardar</b> llamada al método. Si el objeto no admite explícita operación de <b>Guardar</b> y, a continuación, las propiedades se guardan en el objeto cuando se llame a <b>SetProperties</b>. </para>
+          <para>Tenga cuidado y asegúrese de que se controlan todas las excepciones correctamente. Las condiciones en las que el establecimiento de las propiedades genera un error incluyen las siguientes:</para>
+          <list type="bullet">
+            <item>
+              <para>La propiedad es de sólo lectura, ya que algunas propiedades de Outlook y MAPI son de sólo lectura.</para>
+            </item>
+            <item>
+              <para>La propiedad a la que hace referencia el espacio de nombres especificado no se encuentra.</para>
+            </item>
+            <item>
+              <para>La propiedad se especifica en un formato no válido y no se puede analizar.</para>
+            </item>
+            <item>
+              <para>La propiedad no existe y no se puede crear.</para>
+            </item>
+            <item>
+              <para>La propiedad existe pero se pasa a un valor de un tipo que no es correcto.</para>
+            </item>
+            <item>
+              <para>No se puede abrir la propiedad porque el cliente no está conectado.</para>
+            </item>
+            <item>
+              <para>La propiedad se crea mediante el método <b>Add</b> de la <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> objeto. Al establecer la propiedad por primera vez, debe usar el <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> (propiedad) de la <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> objeto, en lugar de la <b>SetProperties</b> o <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> método del objeto <b>PropertyAccessor</b> .</para>
+            </item>
+          </list>
+          <para>Para obtener más información acerca de cómo establecer las propiedades con el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetProperty">
@@ -404,9 +408,35 @@
         <param name="SchemaName">El nombre de una propiedad cuyo valor se va a establecer como especificado por <paramref name="Value" />. La propiedad se hace referencia por espacio de nombres. Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Hacer referencia a propiedades por Namespace</a></param>
         <param name="Value">El valor que se va a establecer para la propiedad especificada por <paramref name="SchemaName" />.</param>
         <summary>Establece la propiedad especificada por <paramref name="SchemaName" /> en el valor especificado por <paramref name="Value" />.</summary>
-        <remarks>
-          <para>Si la propiedad no existe y la <paramref name="SchemaName" /> contiene un especificador de propiedades válido, <b>SetProperty</b> crea la propiedad y se asigna el valor especificado por <paramref name="Value" />. Si la propiedad existe y <paramref name="SchemaName" /> es válida, a continuación, <b>SetProperty</b> asigna la propiedad con el valor especificado por <paramref name="Value" />.</para> Tenga en cuenta que una propiedad personalizada creada mediante el uso de <b>PropertyAccessor</b> no se admite en una vista personalizada de 
-          <para>. Si desea ver una propiedad personalizada en un elemento, crear la propiedad mediante el uso de la <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> método.</para><para>Si el objeto primario de <b>PropertyAccessor</b> admite una explícita operación de <b>Guardar</b> y, a continuación, las propiedades se deben guardar en el objeto con un explícitas <b>Guardar</b> llamada al método. Si el objeto no admite explícita operación de <b>Guardar</b> y, a continuación, las propiedades se guardan en el objeto cuando se llame a <b>SetProperties</b> . </para><para>Debe tener cuidado y asegúrese de que todas las excepciones se controlan correctamente. Condiciones donde se produce un error de configuración propiedades incluye:</para><list type="bullet"><item><para>la propiedad es de sólo lectura, como algunos Outlook y MAPI son propiedades de sólo lectura.</para></item><item><para>La propiedad al que hace referencia el espacio de nombres especificado no se encuentra.</para></item><item><para>La propiedad especificada en un formato no válido y no se puede analizar.</para></item><item><para>La propiedad no existe y no se puede crear.</para></item><item><para>La propiedad existe pero se pasa un valor de un tipo incorrecto.</para></item><item><para>No puede abrir la propiedad porque el cliente no está conectado.</para></item><item><para>La propiedad se crea mediante el método <b>Add</b> de la <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> objeto. Al establecer la propiedad por primera vez, debe usar el <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> (propiedad) de la <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> objeto, en lugar de la <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" /> o el método <b>SetProperty</b> del objeto <b>PropertyAccessor</b> .</para></item></list><para>Para obtener más información sobre cómo configurar propiedades que usen el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></para><para /></remarks>
+        <remarks><para>Si la propiedad no existe y la <paramref name="SchemaName" /> contiene un especificador de propiedades válido, <b>SetProperty</b> crea la propiedad y se asigna el valor especificado por <paramref name="Value" />. Si la propiedad existe y <paramref name="SchemaName" /> es válida, a continuación, <b>SetProperty</b> asigna la propiedad con el valor especificado por <paramref name="Value" />.</para>
+          <para>Tenga en cuenta que no se admite en una vista personalizada una propiedad personalizada creada usando <b>PropertyAccessor</b>. Si desea ver una propiedad personalizada en un elemento, crear la propiedad mediante el uso de la <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> (método).</para>
+          <para>Si el objeto primario de <b>PropertyAccessor</b> admite explícita operación de <b>Guardar</b> y, a continuación, las propiedades se deben guardar en el objeto con un explícitas <b>Guardar</b> llamada al método. Si el objeto no admite explícita operación de <b>Guardar</b> y, a continuación, las propiedades se guardan en el objeto cuando se llame a <b>SetProperties</b>.</para>
+          <para>Tenga cuidado y asegúrese de que se controlan todas las excepciones correctamente. Las condiciones en las que el establecimiento de las propiedades genera un error incluyen las siguientes:</para>
+          <list type="bullet">
+            <item>
+              <para>La propiedad es de sólo lectura, ya que algunas propiedades de Outlook y MAPI son de sólo lectura.</para>
+            </item>
+            <item>
+              <para>La propiedad a la que hace referencia el espacio de nombres especificado no se encuentra.</para>
+            </item>
+            <item>
+              <para>La propiedad se especifica en un formato no válido y no se puede analizar.</para>
+            </item>
+            <item>
+              <para>La propiedad no existe y no se puede crear.</para>
+            </item>
+            <item>
+              <para>La propiedad existe pero se pasa a un valor de un tipo que no es correcto.</para>
+            </item>
+            <item>
+              <para>No se puede abrir la propiedad porque el cliente no está conectado.</para>
+            </item>
+            <item>
+              <para>La propiedad se crea mediante el método <b>Add</b> de la <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> objeto. Al establecer la propiedad por primera vez, debe usar el <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> (propiedad) de la <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> objeto, en lugar de la <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" /> o el método <b>SetProperty</b> del objeto <b>PropertyAccessor</b> .</para>
+            </item>
+          </list>
+          <para>Para obtener más información acerca de cómo establecer las propiedades con el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StringToBinary">
@@ -435,10 +465,8 @@
         <param name="Value">Valor de tipo String hexadecimal que se va a convertir en una matriz de bytes.</param>
         <summary>Convierte una cadena especificada por <paramref name="Value" /> en una matriz de bytes.</summary>
         <returns>Valor de <b>objeto</b> que representa una matriz de bytes devuelta desde la conversión.</returns>
-        <remarks>
-          <para>Para obtener más información sobre la conversión de tipo cuando se utiliza el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Para obtener más información sobre la conversión de tipo cuando se utiliza el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UTCToLocalTime">
@@ -467,10 +495,8 @@
         <param name="Value">El valor de fecha y hora que se va a convertir de la hora UTC a la hora local.</param>
         <summary>Convierte el valor de fecha y hora especificado por <paramref name="Value" /> y expresado en hora Universal coordinada (UTC) a un valor de hora local.</summary>
         <returns>Un valor de fecha y hora que representa <paramref name="Value" /> después de convertirse de la hora UTC a la hora local.</returns>
-        <remarks>
-          <para>Para obtener más información sobre la conversión de tipo cuando se usa el <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> de objetos, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Para obtener más información sobre la conversión de tipo cuando se usa el <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> de objetos, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

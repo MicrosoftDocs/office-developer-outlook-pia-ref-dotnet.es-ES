@@ -1,13 +1,5 @@
 <Type Name="_AutoFormatRule" FullName="Microsoft.Office.Interop.Outlook._AutoFormatRule">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="19dc5ad8c7bc39e582d4a0b17fb3ef3ffbb0ac86" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643116" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _AutoFormatRule" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="19dc5ad8c7bc39e582d4a0b17fb3ef3ffbb0ac86" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904556" /></Metadata><TypeSignature Language="C#" Value="public interface _AutoFormatRule" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _AutoFormatRule" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._AutoFormatRule" />
   <TypeSignature Language="VB.NET" Value="Public Interface _AutoFormatRule" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,7 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -145,12 +137,10 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa el filtro para una regla de formato personalizada.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor de esta propiedad es una cadena de DAV Searching and Locating (DASL) que representa el filtro actual para la regla de formato personalizada. Para obtener más información sobre el uso de DASL para filtrar elementos de un formato por la regla de formato, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtrar elementos</a></para>
+        <remarks><para>El valor de esta propiedad es una cadena DASL (DAV Searching and Locating) que representa el filtro actual para la regla de formato personalizada. Para obtener más información sobre el uso de DASL para filtrar elementos a un formato por la regla de formato, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtrar elementos</a></para>
           <para>
-            <b>Nota</b>: esta propiedad devuelve una cadena vacía para una regla de formato estándar (un <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Standard" /> (propiedad) valor establecido en <b>True</b>). Se produce un error si se intenta asignar un valor a esta propiedad para una regla de formato estándar.</para>
-          <para />
-        </remarks>
+            <b>Nota</b>: esta propiedad devuelve una cadena vacía para una regla de formato estándar (un <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> de objetos con un <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Standard" /> valor de la propiedad se establece en <b>True</b>). Se produce un error si se intenta asignar un valor a esta propiedad para una regla de formato estándar.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -179,7 +169,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" /> object que representa la fuente utilizada para mostrar elementos de Outlook que cumplen las condiciones para la regla de formato en la vista. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" /> object que representa la fuente utilizada para mostrar elementos de Outlook que cumplen las condiciones para la regla de formato en la vista. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -266,18 +256,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Standard">
@@ -303,12 +291,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>booleano</b> (<b>bool</b> en C#) que indica si la <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> objeto representa una regla de formato integrada de Outlook. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>booleano</b> (<b>bool</b> en C#) que indica si la <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRule" /> objeto representa una regla de formato integrada de Outlook. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Si el valor de esta propiedad se establece en <b>True</b>, entonces el <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Filter" /> y <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" /> no se puede cambiar las propiedades del objeto <b>AutoFormatRule</b> . De forma similar, no puede usar el <see cref="M:Microsoft.Office.Interop.Outlook._AutoFormatRules.Remove(System.Object)" /> (método) de la <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> regla de la colección que se va a eliminar un formato integrada de Outlook, ni se puede utilizar el <see cref="M:Microsoft.Office.Interop.Outlook._AutoFormatRules.Insert(System.String,System.Object)" /> método de la colección <b>AutoFormatRules</b> para insertar una regla de formato personalizada por encima de o entre el integrada Outlook contenidas en esa colección de reglas de formato.</para>
-          <para />
-        </remarks>
+        <remarks><para>Si el valor de esta propiedad se establece en <b>True</b>, entonces el <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Filter" /> y <see cref="P:Microsoft.Office.Interop.Outlook._AutoFormatRule.Name" /> no se puede cambiar las propiedades del objeto <b>AutoFormatRule</b> . De forma similar, no puede usar el <see cref="M:Microsoft.Office.Interop.Outlook._AutoFormatRules.Remove(System.Object)" /> (método) de la <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> regla de la colección que se va a eliminar un formato integrada de Outlook, ni se puede utilizar el <see cref="M:Microsoft.Office.Interop.Outlook._AutoFormatRules.Insert(System.String,System.Object)" /> método de la colección <b>AutoFormatRules</b> para insertar una regla de formato personalizada por encima de o entre el integrada Outlook contenidas en esa colección de reglas de formato.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="Selection" FullName="Microsoft.Office.Interop.Outlook.Selection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c546cacfd6888cac8506d614c46b0204cc42399d" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643337" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Selection : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c7af77512ef69a2ad810f96955f3537afca082e8" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902575" /></Metadata><TypeSignature Language="C#" Value="public interface Selection : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Selection implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Selection" />
   <TypeSignature Language="VB.NET" Value="Public Interface Selection&#xA;Implements IEnumerable" />
@@ -31,10 +23,8 @@
   </Attributes>
   <Docs>
     <summary>Contiene el conjunto de elementos de Outlook actualmente seleccionados en un explorador.</summary>
-    <remarks>
-      <para>Usar el <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> (propiedad) para devolver la colección de <b>selección</b> de la <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto.</para>
-      <para />
-    </remarks>
+    <remarks><para>Usar el <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> (propiedad) para devolver la colección de <b>selección</b> de la <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> objeto.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -60,7 +50,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -88,7 +78,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -116,7 +106,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -147,11 +137,9 @@
         <param name="SelectionContents">Especifica el tipo de objetos de la selección que se va a devolver.</param>
         <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> objeto que contiene el tipo de objetos especificados por la <paramref name="SelectionContents" /> parámetro y que están seleccionados actualmente en el explorador activo.</summary>
         <returns>Devuelve un objeto <b>Selection</b> que contiene el tipo especificado de objetos que se han seleccionado en el explorador activo.</returns>
-        <remarks>
-          <para>Llamada a <b>GetSelection</b> con <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" /> como el argumento devuelve un objeto <b>Selection</b> que tiene la <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Location" /> propiedad igual a <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionLocation.olViewList" />.</para>
-          <para>Si la vista actual no es una vista de conversación, o bien, si la <b>ubicación</b> no es igual a <b>OlSelectionLocation.olViewList</b>, la llamada a <b>GetSelection</b> con <b>olConversationHeaders</b> como el argumento devuelve una <b>selección</b> objeto con <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> igual a 0.</para>
-          <para />
-        </remarks>
+        <remarks><para>Llamada a <b>GetSelection</b> con <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" /> como el argumento devuelve un objeto <b>Selection</b> que tiene la <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Location" /> propiedad igual a <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionLocation.olViewList" />.</para>
+          <para>Si la vista actual no es una vista de conversación, o, si la <b>ubicación</b> no es igual a <b>OlSelectionLocation.olViewList</b>, la llamada a <b>GetSelection</b> con <b>olConversationHeaders</b> como el argumento devuelve un objeto <b>Selection</b> con <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> igual a 0.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -209,13 +197,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlSelectionLocation</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlSelectionLocation" /> constante que especifica la ubicación en la interfaz de usuario de Microsoft Outlook la selección actual. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlSelectionLocation" /> constante que especifica la ubicación en la interfaz de usuario de Microsoft Outlook la selección actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Una propiedad de <b>ubicación</b> con el valor <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionLocation.olViewList" /> significa que la selección actual se encuentra en una lista de elementos en un explorador. Al llamar a <see cref="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" /> con <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" /> como el argumento devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> igual que el número de encabezados de conversación en la selección actual.</para>
-          <para>Si la propiedad <b>Location</b> no es igual a <b>olViewList</b>, llamada a <b>GetSelection</b> con <b>olConversationHeaders como el argumento devuelve un objeto <b>Selection</b> con <b>recuento</b> igual a 0</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Una propiedad de <b>ubicación</b> con el valor <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionLocation.olViewList" /> significa que la selección actual se encuentra en una lista de elementos en un explorador. Al llamar a <see cref="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" /> con <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" /> como el argumento devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> de objetos con <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> igual que el número de encabezados de conversación en la selección actual.</para>
+          <para>Si la propiedad <b>Location</b> no es igual a <b>olViewList</b>, llamada a <b>GetSelection</b> con <b>olConversationHeaders</b> como el argumento devuelve un objeto <b>Selection</b> con <b>recuento</b> igual a 0.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -269,18 +255,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>
