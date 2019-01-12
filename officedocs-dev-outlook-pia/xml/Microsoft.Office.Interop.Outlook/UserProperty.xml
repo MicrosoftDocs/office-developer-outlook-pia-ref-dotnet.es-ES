@@ -1,13 +1,5 @@
 <Type Name="UserProperty" FullName="Microsoft.Office.Interop.Outlook.UserProperty">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9b01972ade23a15cfa40aaec742d199b4c5ab4d2" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642831" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface UserProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7fa9c65db165ff886aa519574a59d9d364a004cc" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896761" /></Metadata><TypeSignature Language="C#" Value="public interface UserProperty" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract UserProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.UserProperty" />
   <TypeSignature Language="VB.NET" Value="Public Interface UserProperty" />
@@ -26,26 +18,13 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="d9d19-101">Representa una propiedad personalizada de un elemento de Outlook.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d9d19-101">Represents a custom property of an Outlook item.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="d9d19-102">
-        <para>Uso <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.UserProperties" />(<paramref name="index" />), donde <paramref name="index" /> es un nombre o número de índice, para devolver un solo objeto <b>UserProperty</b> .</para> Uso de 
-      <para>el <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> (método) para crear un nuevo <b>objeto UserProperty</b> para un elemento y agregarlo a la <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> objeto. El método <b>Add</b> permite especificar un nombre y tipo para la nueva propiedad.</para><para><b>Nota</b>: cuando se crea una propiedad personalizada, se agrega un campo en la carpeta que contiene el elemento (con el mismo nombre que la propiedad). Ese campo puede usarse como una columna en las vistas de la carpeta.</para><para /></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="d9d19-102">
-          <para>Use <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.UserProperties" />(<paramref name="index" />), where <paramref name="index" /> is a name or index number, to return a single <b>UserProperty</b> object.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />  method to create a new <b>UserProperty</b> for an item and add it to the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />  object. The <b>Add</b> method allows you to specify a name and type for the new property.</para>
-          <para>
-            <b>Note</b>: When you create a custom property, a field is added in the folder that contains the item (using the same name as the property). That field can be used as a column in folder views.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="048d7-101">Representa una propiedad personalizada de un elemento de Outlook.</span><span class="sxs-lookup"><span data-stu-id="048d7-101">Represents a custom property of an Outlook item.</span></span></summary>
+    <remarks><para><span data-ttu-id="048d7-102">Uso <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.UserProperties" />(<paramref name="index" />), donde <paramref name="index" /> es un nombre o número de índice, para devolver un solo objeto <b>UserProperty</b> .</span><span class="sxs-lookup"><span data-stu-id="048d7-102">Use <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.UserProperties" />(<paramref name="index" />), where <paramref name="index" /> is a name or index number, to return a single <b>UserProperty</b> object.</span></span></para>
+      <para><span data-ttu-id="048d7-103">Usar el <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> (método) para crear un nuevo <b>objeto UserProperty</b> para un elemento y agregarlo a la <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="048d7-103">Use the <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />  method to create a new <b>UserProperty</b> for an item and add it to the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" />  object.</span></span> <span data-ttu-id="048d7-104">El método <b>Add</b> permite especificar un nombre y un tipo para la nueva propiedad.</span><span class="sxs-lookup"><span data-stu-id="048d7-104">The <b>Add</b> method allows you to specify a name and type for the new property.</span></span></para>
+      <para><span data-ttu-id="048d7-105">
+        <b>Nota</b>: cuando se crea una propiedad personalizada, se agrega un campo en la carpeta que contiene el elemento (con el mismo nombre que la propiedad).</span><span class="sxs-lookup"><span data-stu-id="048d7-105">
+        <b>Note</b>: When you create a custom property, a field is added in the folder that contains the item (using the same name as the property).</span></span> <span data-ttu-id="048d7-106">Ese campo se puede utilizar como columna de las vistas de carpeta.</span><span class="sxs-lookup"><span data-stu-id="048d7-106">That field can be used as a column in folder views.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -71,16 +50,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d9d19-103">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="d9d19-104">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-104">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="048d7-107">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span><span class="sxs-lookup"><span data-stu-id="048d7-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="048d7-108">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="048d7-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -108,16 +78,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d9d19-105">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="d9d19-106">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="048d7-109">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span><span class="sxs-lookup"><span data-stu-id="048d7-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="048d7-110">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="048d7-110">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -143,12 +104,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="d9d19-107">Elimina un objeto de la colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-107">Deletes an object from the collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="048d7-111">Elimina un objeto de la colección.</span><span class="sxs-lookup"><span data-stu-id="048d7-111">Deletes an object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -178,16 +134,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d9d19-108">Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que representa la fórmula para la propiedad de usuario.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-108">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the formula for the user property.</span>
-          </span>
-          <span data-ttu-id="d9d19-109">Lectura y escritura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-109">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="048d7-112">Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que representa la fórmula para la propiedad de usuario.</span><span class="sxs-lookup"><span data-stu-id="048d7-112">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the formula for the user property.</span></span> <span data-ttu-id="048d7-113">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="048d7-113">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -218,12 +165,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d9d19-110">[!PRECAUCIóN] Este objeto, miembro o enumeración está en desuso y no debería usarse en el código.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-110">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="048d7-114">[!PRECAUCIóN] Este objeto, miembro o enumeración está en desuso y no debería usarse en el código.</span><span class="sxs-lookup"><span data-stu-id="048d7-114">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -251,16 +193,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d9d19-111">Devuelve un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre para mostrar para el objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-111">Returns a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span>
-          </span>
-          <span data-ttu-id="d9d19-112">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="048d7-115">Devuelve un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre para mostrar para el objeto.</span><span class="sxs-lookup"><span data-stu-id="048d7-115">Returns a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span></span> <span data-ttu-id="048d7-116">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="048d7-116">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -288,12 +221,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d9d19-p105">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-p105">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="048d7-p107">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="048d7-p107">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -321,41 +249,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d9d19-115">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-115">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="d9d19-116">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-116">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="048d7-119">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="048d7-119">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="048d7-120">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="048d7-120">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d9d19-117">
-            <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="048d7-121">La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="048d7-121">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="048d7-122">Los dos miembros tienen el mismo propósito.</span><span class="sxs-lookup"><span data-stu-id="048d7-122">Both members serve the same purpose.</span></span> <span data-ttu-id="048d7-123">Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</span><span class="sxs-lookup"><span data-stu-id="048d7-123">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-117">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -381,16 +284,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlUserPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d9d19-118">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> constante que indica el tipo del objeto especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-118">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> constant indicating the type of the specified object.</span>
-          </span>
-          <span data-ttu-id="d9d19-119">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-119">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="048d7-124">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> constante que indica el tipo del objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="048d7-124">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> constant indicating the type of the specified object.</span></span> <span data-ttu-id="048d7-125">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="048d7-125">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -421,29 +315,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d9d19-120">Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que indica la fórmula de validación para la propiedad de usuario.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-120">Returns or sets a <b>String</b> (<b>string</b> in C#) indicating the validation formula for the user property.</span>
-          </span>
-          <span data-ttu-id="d9d19-121">Lectura y escritura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-121">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="048d7-126">Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que indica la fórmula de validación para la propiedad de usuario.</span><span class="sxs-lookup"><span data-stu-id="048d7-126">Returns or sets a <b>String</b> (<b>string</b> in C#) indicating the validation formula for the user property.</span></span> <span data-ttu-id="048d7-127">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="048d7-127">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d9d19-122">
-            <para>Outlook utiliza la fórmula de validación para validar el <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> (propiedad) cuando se guarda un elemento.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-122">
-              <para>The validation formula is used by Outlook to validate the <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> property when an item is saved.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="048d7-128">Outlook utiliza la fórmula de validación para validar el <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> (propiedad) cuando se guarda un elemento.</span><span class="sxs-lookup"><span data-stu-id="048d7-128">The validation formula is used by Outlook to validate the <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> property when an item is saved.</span></span>  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ValidationText">
@@ -472,29 +347,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d9d19-123">Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que especifica el texto de validación para la propiedad de usuario especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-123">Returns or sets a <b>String</b> (<b>string</b> in C#) specifying the validation text for the specified user property.</span>
-          </span>
-          <span data-ttu-id="d9d19-124">Lectura y escritura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-124">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="048d7-129">Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que especifica el texto de validación para la propiedad de usuario especificado.</span><span class="sxs-lookup"><span data-stu-id="048d7-129">Returns or sets a <b>String</b> (<b>string</b> in C#) specifying the validation text for the specified user property.</span></span> <span data-ttu-id="048d7-130">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="048d7-130">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d9d19-125">
-            <para>El texto de validación es el mensaje de error que un usuario recibe cuando la <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> no cumple los criterios especificados en <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.ValidationFormula" />.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-125">
-              <para>The validation text is the error message that a user receives when the <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> does not meet the criteria specified in <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.ValidationFormula" />.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="048d7-131">El texto de validación es el mensaje de error que un usuario recibe cuando la <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> no cumple los criterios especificados en <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.ValidationFormula" />.</span><span class="sxs-lookup"><span data-stu-id="048d7-131">The validation text is the error message that a user receives when the <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> does not meet the criteria specified in <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.ValidationFormula" />.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -523,31 +379,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="d9d19-126">Devuelve o establece un <b>objeto</b> que indica el valor de la propiedad personalizada especificada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-126">Returns or sets an <b>Object</b> indicating the value for the specified custom property.</span>
-          </span>
-          <span data-ttu-id="d9d19-127">Lectura y escritura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-127">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="048d7-132">Devuelve o establece un <b>objeto</b> que indica el valor de la propiedad personalizada especificada.</span><span class="sxs-lookup"><span data-stu-id="048d7-132">Returns or sets an <b>Object</b> indicating the value for the specified custom property.</span></span> <span data-ttu-id="048d7-133">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="048d7-133">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="d9d19-128">
-            <para>Para establecer por primera vez una propiedad creada por el <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> (método), utilice la propiedad <b>Value</b> en lugar de la <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" /> o <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> (método) de la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto.</para>
-            <para>Para obtener más información acerca del acceso a las propiedades en Outlook, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87861">Introducción a las propiedades</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="d9d19-128">
-              <para>To set for the first time a property created by the <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> method, use the <b>Value</b> property instead of the <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" /> or <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</para>
-              <para>For more information on accessing properties in Outlook, see <a href="http://go.microsoft.com/fwlink/?LinkId=87861">Properties Overview</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="048d7-134">Para establecer por primera vez una propiedad creada por el <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> (método), utilice la propiedad <b>Value</b> en lugar de la <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" /> o <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> (método) de la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="048d7-134">To set for the first time a property created by the <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> method, use the <b>Value</b> property instead of the <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" /> or <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span></span></para>
+          <para><span data-ttu-id="048d7-135">Para obtener más información acerca del acceso a las propiedades en Outlook, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87861">Introducción a las propiedades</a></span><span class="sxs-lookup"><span data-stu-id="048d7-135">For more information on accessing properties in Outlook, see <a href="http://go.microsoft.com/fwlink/?LinkId=87861">Properties Overview</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="_NavigationPane" FullName="Microsoft.Office.Interop.Outlook._NavigationPane">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b0971992678e056bef3b026b53553b66b4d8b318" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643085" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _NavigationPane" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b0971992678e056bef3b026b53553b66b4d8b318" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896768" /></Metadata><TypeSignature Language="C#" Value="public interface _NavigationPane" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _NavigationPane" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._NavigationPane" />
   <TypeSignature Language="VB.NET" Value="Public Interface _NavigationPane" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="75429-101">Esto es una interfaz principal en una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="75429-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="75429-102">Use esta interfaz principal sólo cuando el método que desea usar comparte el mismo nombre que un evento del objeto COM; en este caso, se convierte en esta interfaz para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="75429-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="75429-103">De lo contrario, use la interfaz de .NET que se deriva de la coclase COM para tener acceso a los métodos, propiedades y eventos del objeto COM.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="75429-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="75429-104">Para obtener información sobre el objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="75429-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="b9cef-101">Esto es una interfaz principal en una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente.</span><span class="sxs-lookup"><span data-stu-id="b9cef-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="b9cef-102">Use esta interfaz principal sólo cuando el método que desea usar comparte el mismo nombre que un evento del objeto COM; en este caso, se convierte en esta interfaz para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento.</span><span class="sxs-lookup"><span data-stu-id="b9cef-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="b9cef-103">De lo contrario, use la interfaz de .NET que se deriva de la coclase COM para tener acceso a los métodos, propiedades y eventos del objeto COM.</span><span class="sxs-lookup"><span data-stu-id="b9cef-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="b9cef-104">Para obtener información sobre el objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />.</span><span class="sxs-lookup"><span data-stu-id="b9cef-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="75429-105">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="75429-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="75429-106">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="75429-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b9cef-105">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span><span class="sxs-lookup"><span data-stu-id="b9cef-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="b9cef-106">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="b9cef-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -107,29 +73,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="75429-107">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="75429-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="75429-108">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="75429-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b9cef-107">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span><span class="sxs-lookup"><span data-stu-id="b9cef-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="b9cef-108">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="b9cef-108">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="75429-109">
-            <para>Esta propiedad devuelve la <b>constante olNavigationPane</b> para el <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> objeto.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="75429-109">
-              <para>This property returns <b>olNavigationPane</b> for the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="b9cef-109">Esta propiedad devuelve la <b>constante olNavigationPane</b> para el <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="b9cef-109">This property returns <b>olNavigationPane</b> for the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CurrentModule">
@@ -158,16 +105,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NavigationModule</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="75429-110">Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> object que representa el módulo de exploración seleccionado actualmente en el panel de navegación.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="75429-110">Returns or sets a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> object that represents the currently selected navigation module in the Navigation Pane.</span>
-          </span>
-          <span data-ttu-id="75429-111">Lectura y escritura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="75429-111">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b9cef-110">Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> object que representa el módulo de exploración seleccionado actualmente en el panel de navegación.</span><span class="sxs-lookup"><span data-stu-id="b9cef-110">Returns or sets a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> object that represents the currently selected navigation module in the Navigation Pane.</span></span> <span data-ttu-id="b9cef-111">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="b9cef-111">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -198,33 +136,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="75429-112">Devuelve o establece un valor <b>entero</b> (<b>int</b> en C#) que indica el número de <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> objetos que se muestran en el panel de navegación.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="75429-112">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that indicates the number of <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> objects displayed in the Navigation Pane.</span>
-          </span>
-          <span data-ttu-id="75429-113">Lectura y escritura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="75429-113">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b9cef-112">Devuelve o establece un valor <b>entero</b> (<b>int</b> en C#) que indica el número de <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> objetos que se muestran en el panel de navegación.</span><span class="sxs-lookup"><span data-stu-id="b9cef-112">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that indicates the number of <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> objects displayed in the Navigation Pane.</span></span> <span data-ttu-id="b9cef-113">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="b9cef-113">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="75429-114">
-            <para>Esta propiedad sólo se puede establecer en un valor entre 0 y el valor de la <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Count" /> (propiedad) para la <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" /> colección del objeto <b>NavigationPane</b> . Si esta propiedad se establece en un valor mayor que el valor máximo permitido, el valor de la propiedad se establece automáticamente en el valor máximo permitido. Se produce un error si esta propiedad se establece en un menor de 0.</para>
-            <para>Si el <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.IsCollapsed" /> (propiedad) de la <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> objeto se establece en <b>False</b>, a continuación, este valor de la propiedad representa el número de módulos de navegación para el que se muestran el icono y el nombre en el panel de navegación. Si <b>IsCollapsed</b> se establece en <b>True</b>, a continuación, el valor de la propiedad <b>DisplayedModuleCount</b> representa el número de módulos de navegación para el que se muestra un icono en el panel de navegación.</para>
-            <para>Establecer el valor de esta propiedad cambia el tamaño de la sección módulos del panel de exploración para mostrar más o menos objetos <b>NavigationModule</b> , según sea necesario.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="75429-114">
-              <para>This property can only be set to a value between 0 and the value of the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Count" /> property for the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" /> collection of the <b>NavigationPane</b> object. If this property is set to a value greater than the maximum allowable value, the property value is automatically set to the maximum allowable value. An error occurs if this property is set to less than 0.</para>
-              <para> If the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.IsCollapsed" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> object is set to <b>False</b>, then this property value represents the number of navigation modules for which both icon and name are displayed in the Navigation Pane. If <b>IsCollapsed</b> is set to <b>True</b>, then the <b>DisplayedModuleCount</b> property value represents the number of navigation modules for which an icon is displayed in the Navigation Pane.</para>
-              <para>Setting the value of this property resizes the Modules section of the Navigation Pane to display more or fewer <b>NavigationModule</b> objects as needed.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="b9cef-114">Esta propiedad sólo se puede establecer en un valor entre 0 y el valor de la <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Count" /> (propiedad) para la <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" /> colección del objeto <b>NavigationPane</b> .</span><span class="sxs-lookup"><span data-stu-id="b9cef-114">This property can only be set to a value between 0 and the value of the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Count" /> property for the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" /> collection of the <b>NavigationPane</b> object.</span></span> <span data-ttu-id="b9cef-115">Si esta propiedad se establece en un valor mayor que el valor máximo permitido, el valor de la propiedad se establece automáticamente en el valor máximo permitido.</span><span class="sxs-lookup"><span data-stu-id="b9cef-115">If this property is set to a value greater than the maximum allowable value, the property value is automatically set to the maximum allowable value.</span></span> <span data-ttu-id="b9cef-116">Si esta propiedad se establece en un valor menor que 0, se produce un error.</span><span class="sxs-lookup"><span data-stu-id="b9cef-116">An error occurs if this property is set to less than 0.</span></span></para>
+          <para> <span data-ttu-id="b9cef-117">Si el <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.IsCollapsed" /> (propiedad) de la <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> objeto se establece en <b>False</b>, a continuación, este valor de la propiedad representa el número de módulos de navegación para el que se muestran el icono y el nombre en el panel de navegación.</span><span class="sxs-lookup"><span data-stu-id="b9cef-117">If the <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.IsCollapsed" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> object is set to <b>False</b>, then this property value represents the number of navigation modules for which both icon and name are displayed in the Navigation Pane.</span></span> <span data-ttu-id="b9cef-118">Si <b>IsCollapsed</b> se establece en <b>True</b>, el valor de la propiedad <b>DisplayedModuleCount</b> representa el número de módulos de exploración para la que se muestra un icono en el panel de navegación.</span><span class="sxs-lookup"><span data-stu-id="b9cef-118">If <b>IsCollapsed</b> is set to <b>True</b>, then the <b>DisplayedModuleCount</b> property value represents the number of navigation modules for which an icon is displayed in the Navigation Pane.</span></span></para>
+          <para><span data-ttu-id="b9cef-119">Establecer el valor de esta propiedad cambia el tamaño de la sección módulos del panel de exploración para mostrar más o menos objetos <b>NavigationModule</b>, según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="b9cef-119">Setting the value of this property resizes the Modules section of the Navigation Pane to display more or fewer <b>NavigationModule</b> objects as needed.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsCollapsed">
@@ -253,16 +170,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="75429-115">Devuelve o establece un valor <b>booleano</b> (<b>bool</b> en C#) que determina si se contrae el panel de navegación.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="75429-115">Returns or sets a <b>Boolean</b> value (<b>bool</b> in C#) that determines whether the Navigation Pane is collapsed.</span>
-          </span>
-          <span data-ttu-id="75429-116">Lectura y escritura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="75429-116">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b9cef-120">Devuelve o establece un valor <b>booleano</b> (<b>bool</b> en C#) que determina si se contrae el panel de navegación.</span><span class="sxs-lookup"><span data-stu-id="b9cef-120">Returns or sets a <b>Boolean</b> value (<b>bool</b> in C#) that determines whether the Navigation Pane is collapsed.</span></span> <span data-ttu-id="b9cef-121">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="b9cef-121">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -290,16 +198,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NavigationModules</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="75429-117">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> object que representa el conjunto de módulos de exploración contenidos en el panel de navegación.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="75429-117">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> object that represents the set of navigation modules contained by the Navigation Pane.</span>
-          </span>
-          <span data-ttu-id="75429-118">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="75429-118">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b9cef-122">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> object que representa el conjunto de módulos de exploración contenidos en el panel de navegación.</span><span class="sxs-lookup"><span data-stu-id="b9cef-122">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> object that represents the set of navigation modules contained by the Navigation Pane.</span></span> <span data-ttu-id="b9cef-123">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="b9cef-123">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -327,12 +226,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="75429-p108">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="75429-p108">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b9cef-p110">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="b9cef-p110">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -360,41 +254,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="75429-121">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="75429-121">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="75429-122">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="75429-122">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b9cef-126">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="b9cef-126">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="b9cef-127">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="b9cef-127">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="75429-123">
-            <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="b9cef-128">La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="b9cef-128">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="b9cef-129">Los dos miembros tienen el mismo propósito.</span><span class="sxs-lookup"><span data-stu-id="b9cef-129">Both members serve the same purpose.</span></span> <span data-ttu-id="b9cef-130">Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</span><span class="sxs-lookup"><span data-stu-id="b9cef-130">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="75429-123">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

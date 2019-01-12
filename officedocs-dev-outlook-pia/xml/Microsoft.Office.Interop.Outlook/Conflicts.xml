@@ -1,13 +1,5 @@
 <Type Name="Conflicts" FullName="Microsoft.Office.Interop.Outlook.Conflicts">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="938557de02fd694a12c2c3aebdc3d07309c7eb00" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642056" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Conflicts : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f7c1329c4afbeba3b9424c35b382506745d72eac" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906880" /></Metadata><TypeSignature Language="C#" Value="public interface Conflicts : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Conflicts implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Conflicts" />
   <TypeSignature Language="VB.NET" Value="Public Interface Conflicts&#xA;Implements IEnumerable" />
@@ -30,26 +22,12 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="fcffe-101">Contiene una colección de <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> objetos que representan todos los elementos de Microsoft Outlook que están en conflicto con un elemento de Outlook determinado.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="fcffe-101">Contains a collection of <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> objects that represent all Microsoft Outlook items that are in conflict with a particular Outlook item.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="fcffe-102">
-        <para>Usar el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Conflicts" /> elemento de propiedad de cualquier Outlook, como <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, para devolver el objeto <b>Conflicts</b> .</para> Uso de 
-      <para>el <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> (propiedad) del objeto <b>Conflicts</b> para determinar si el elemento está involucrado en un conflicto. Un valor distinto de cero indica conflicto.</para><para>Usar el <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Item(System.Object)" /> (propiedad) (<b>este</b> en C#) para recuperar un elemento concreto en conflicto de <b>la colección Conflicts</b> .</para><para>Usar el <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />, y <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> métodos para pasar la colección <b>Conflicts</b> .</para><para /></span>
-      <span class="sxs-lookup">
-        <span data-stu-id="fcffe-102">
-          <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Conflicts" /> property of any Outlook item, such as <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, to return the <b>Conflicts</b> object.</para>
-          <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> property of the <b>Conflicts</b> object to determine if the item is invloved in a conflict. A non-zero value indicates conflict.</para>
-          <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Item(System.Object)" /> property (<b>this</b> in C#)to retrieve a particular conflict item from the <b>Conflicts</b> collection object.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />, and <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> methods to traverse the <b>Conflicts</b> collection.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="67c48-101">Contiene una colección de <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> objetos que representan todos los elementos de Microsoft Outlook que están en conflicto con un elemento de Outlook determinado.</span><span class="sxs-lookup"><span data-stu-id="67c48-101">Contains a collection of <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> objects that represent all Microsoft Outlook items that are in conflict with a particular Outlook item.</span></span></summary>
+    <remarks><para><span data-ttu-id="67c48-102">Usar el <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Conflicts" /> elemento de propiedad de cualquier Outlook, como <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, para devolver el objeto <b>Conflicts</b> .</span><span class="sxs-lookup"><span data-stu-id="67c48-102">Use the <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Conflicts" /> property of any Outlook item, such as <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, to return the <b>Conflicts</b> object.</span></span></para>
+      <para><span data-ttu-id="67c48-103">Usar el <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> (propiedad) del objeto <b>Conflicts</b> para determinar si el elemento está involucrado en un conflicto.</span><span class="sxs-lookup"><span data-stu-id="67c48-103">Use the <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> property of the <b>Conflicts</b> object to determine if the item is invloved in a conflict.</span></span> <span data-ttu-id="67c48-104">Un valor distinto de cero indica conflicto.</span><span class="sxs-lookup"><span data-stu-id="67c48-104">A non-zero value indicates conflict.</span></span></para>
+      <para><span data-ttu-id="67c48-105">Usar el <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Item(System.Object)" /> (propiedad) (<b>este</b> en C#) para recuperar un elemento concreto en conflicto de <b>la colección Conflicts</b> .</span><span class="sxs-lookup"><span data-stu-id="67c48-105">Use the <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Item(System.Object)" /> property (<b>this</b> in C#)to retrieve a particular conflict item from the <b>Conflicts</b> collection object.</span></span></para>
+      <para><span data-ttu-id="67c48-106">Usar el <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />, y <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> métodos para pasar la colección <b>Conflicts</b> .</span><span class="sxs-lookup"><span data-stu-id="67c48-106">Use the <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />, and <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> methods to traverse the <b>Conflicts</b> collection.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -75,16 +53,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fcffe-103">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="fcffe-104">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-104">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="67c48-107">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span><span class="sxs-lookup"><span data-stu-id="67c48-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="67c48-108">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="67c48-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -112,16 +81,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fcffe-105">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="fcffe-106">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="67c48-109">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span><span class="sxs-lookup"><span data-stu-id="67c48-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="67c48-110">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="67c48-110">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -149,16 +109,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fcffe-107">Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-107">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="fcffe-108">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="67c48-111">Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada.</span><span class="sxs-lookup"><span data-stu-id="67c48-111">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span></span> <span data-ttu-id="67c48-112">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="67c48-112">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -184,30 +135,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="fcffe-109">Devuelve el primer objeto de la <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-109">Returns the first object in the <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="fcffe-110">A <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object que representa el primer objeto incluido en la colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-110">A <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object that represents the first object contained by the collection.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="fcffe-111">
-            <para>Devuelve <b>Nothing</b> si no hay ningún objeto primer existe, por ejemplo, si no hay ningún objeto en la colección. Para garantizar el funcionamiento correcto de <b>GetFirst</b>, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, y <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> métodos en una colección grande, llame al método <b>GetFirst</b> antes de llamar al método <b>GetNext</b> en esa colección y llame al <b>método GetLast</b> antes de llamar a <b>GetPrevious </b>. Para asegurarse de que las llamadas siempre se estén efectuando en la misma colección, cree una variable explícita que hace referencia a esa colección antes de entrar en el bucle.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-111">
-              <para>Returns <b>Nothing</b> if no first object exists, for example, if there are no objects in the collection.To ensure correct operation of the <b>GetFirst</b>, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, and <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection and call <b>GetLast</b> before calling <b>GetPrevious</b>. To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="67c48-113">Devuelve el primer objeto de la <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> colección.</span><span class="sxs-lookup"><span data-stu-id="67c48-113">Returns the first object in the <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="67c48-114">A <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object que representa el primer objeto incluido en la colección.</span><span class="sxs-lookup"><span data-stu-id="67c48-114">A <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object that represents the first object contained by the collection.</span></span></returns>
+        <remarks><para><span data-ttu-id="67c48-115">Devuelve <b>Nothing</b> si no hay ningún objeto primer existe, por ejemplo, si no hay ningún objeto en la colección. Para garantizar el funcionamiento correcto de <b>GetFirst</b>, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, y <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> métodos en una colección grande, llame al método <b>GetFirst</b> antes de llamar al método <b>GetNext</b> en esa colección y llame al <b>método GetLast</b> antes de llamar a <b>GetPrevious </b>.</span><span class="sxs-lookup"><span data-stu-id="67c48-115">Returns <b>Nothing</b> if no first object exists, for example, if there are no objects in the collection.To ensure correct operation of the <b>GetFirst</b>, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, and <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection and call <b>GetLast</b> before calling <b>GetPrevious</b>.</span></span> <span data-ttu-id="67c48-116">Para asegurarse de que siempre se realizan las llamadas en la misma colección, cree una variable explícita que haga referencia a esa colección antes de entrar en el bucle.</span><span class="sxs-lookup"><span data-stu-id="67c48-116">To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetLast">
@@ -231,30 +162,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="fcffe-112">Devuelve el último objeto de la <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-112">Returns the last object in the <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="fcffe-113">A <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object que representa el último objeto incluido en la colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-113">A <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object that represents the last object contained by the collection.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="fcffe-114">
-            <para>Devuelve <b>Nothing</b> si no hay un último objeto, por ejemplo, si la colección está vacía. Para garantizar el funcionamiento correcto de la <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <b>GetLast</b>, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, y <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> métodos en una colección grande, llame al método <b>GetFirst</b> antes de llamar al método <b>GetNext</b> en esa colección y llame al <b>método GetLast</b> antes de llamar a <b>GetPrevious </b>. Para asegurarse de que las llamadas siempre se estén efectuando en la misma colección, cree una variable explícita que hace referencia a esa colección antes de entrar en el bucle.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-114">
-              <para> It returns <b>Nothing</b> if no last object exists, for example, if the collection is empty.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <b>GetLast</b>, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, and <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>. To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="67c48-117">Devuelve el último objeto de la <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> colección.</span><span class="sxs-lookup"><span data-stu-id="67c48-117">Returns the last object in the <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="67c48-118">A <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object que representa el último objeto incluido en la colección.</span><span class="sxs-lookup"><span data-stu-id="67c48-118">A <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object that represents the last object contained by the collection.</span></span></returns>
+        <remarks><para> <span data-ttu-id="67c48-119">Devuelve <b>Nothing</b> si no hay un último objeto, por ejemplo, si la colección está vacía. Para garantizar el funcionamiento correcto de la <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <b>GetLast</b>, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, y <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> métodos en una colección grande, llame al método <b>GetFirst</b> antes de llamar al método <b>GetNext</b> en esa colección y llame al <b>método GetLast</b> antes de llamar a <b>GetPrevious </b>.</span><span class="sxs-lookup"><span data-stu-id="67c48-119">It returns <b>Nothing</b> if no last object exists, for example, if the collection is empty.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <b>GetLast</b>, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, and <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>.</span></span> <span data-ttu-id="67c48-120">Para asegurarse de que siempre se realizan las llamadas en la misma colección, cree una variable explícita que haga referencia a esa colección antes de entrar en el bucle.</span><span class="sxs-lookup"><span data-stu-id="67c48-120">To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetNext">
@@ -278,30 +189,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="fcffe-115">Devuelve el siguiente objeto en el <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-115">Returns the next object in the <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="fcffe-116">A <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object que representa el siguiente objeto incluido en la colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-116">A <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object that represents the next object contained by the collection.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="fcffe-117">
-            <para>Devuelve <b>Nothing</b> si no existe un objeto siguiente, por ejemplo, si está situado al final de la colección. Para garantizar el funcionamiento correcto de la <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />, <b>GetNext</b>, y <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> métodos en una colección grande, llame al método <b>GetFirst</b> antes de llamar al método <b>GetNext</b> en esa colección y llame al <b>método GetLast</b> antes de llamar a <b>GetPrevious </b>. Para asegurarse de que las llamadas siempre se estén efectuando en la misma colección, cree una variable explícita que hace referencia a esa colección antes de entrar en el bucle.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-117">
-              <para>It returns <b>Nothing</b> if no next object exists, for example, if already positioned at the end of the collection.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />, <b>GetNext</b>, and <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>. To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="67c48-121">Devuelve el siguiente objeto en el <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> colección.</span><span class="sxs-lookup"><span data-stu-id="67c48-121">Returns the next object in the <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="67c48-122">A <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object que representa el siguiente objeto incluido en la colección.</span><span class="sxs-lookup"><span data-stu-id="67c48-122">A <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object that represents the next object contained by the collection.</span></span></returns>
+        <remarks><para><span data-ttu-id="67c48-123">Devuelve <b>Nothing</b> si no existe un objeto siguiente, por ejemplo, si está situado al final de la colección. Para garantizar el funcionamiento correcto de la <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />, <b>GetNext</b>, y <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> métodos en una colección grande, llame al método <b>GetFirst</b> antes de llamar al método <b>GetNext</b> en esa colección y llame al <b>método GetLast</b> antes de llamar a <b>GetPrevious </b>.</span><span class="sxs-lookup"><span data-stu-id="67c48-123">It returns <b>Nothing</b> if no next object exists, for example, if already positioned at the end of the collection.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />, <b>GetNext</b>, and <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>.</span></span> <span data-ttu-id="67c48-124">Para asegurarse de que siempre se realizan las llamadas en la misma colección, cree una variable explícita que haga referencia a esa colección antes de entrar en el bucle.</span><span class="sxs-lookup"><span data-stu-id="67c48-124">To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetPrevious">
@@ -325,30 +216,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="fcffe-118">Devuelve el objeto anterior en el <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-118">Returns the previous object in the <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="fcffe-119">A <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object que representa el objeto anterior incluido en la colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-119">A <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object that represents the previous object contained by the collection.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="fcffe-120">
-            <para>Devuelve <b>Nothing</b> si no existe un objeto anterior, por ejemplo, si se ha llegado al principio de la colección. Para garantizar el funcionamiento correcto de la <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, y los métodos <b>GetPrevious</b> en una colección grande, llame al método <b>GetFirst</b> antes de llamar al método <b>GetNext</b> en esa colección y llame al <b>método GetLast</b> antes de llamar a <b> GetPrevious</b>. Para asegurarse de que las llamadas siempre se estén efectuando en la misma colección, cree una variable explícita que hace referencia a esa colección antes de entrar en el bucle.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-120">
-              <para>It returns <b>Nothing</b> if no previous object exists, for example, if already positioned at the beginning of the collection.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, and <b>GetPrevious</b> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>. To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="67c48-125">Devuelve el objeto anterior en el <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> colección.</span><span class="sxs-lookup"><span data-stu-id="67c48-125">Returns the previous object in the <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="67c48-126">A <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object que representa el objeto anterior incluido en la colección.</span><span class="sxs-lookup"><span data-stu-id="67c48-126">A <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object that represents the previous object contained by the collection.</span></span></returns>
+        <remarks><para><span data-ttu-id="67c48-127">Devuelve <b>Nothing</b> si no existe un objeto anterior, por ejemplo, si se ha llegado al principio de la colección. Para garantizar el funcionamiento correcto de la <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, y los métodos <b>GetPrevious</b> en una colección grande, llame al método <b>GetFirst</b> antes de llamar al método <b>GetNext</b> en esa colección y llame al <b>método GetLast</b> antes de llamar a <b> GetPrevious</b>.</span><span class="sxs-lookup"><span data-stu-id="67c48-127">It returns <b>Nothing</b> if no previous object exists, for example, if already positioned at the beginning of the collection.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, and <b>GetPrevious</b> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>.</span></span> <span data-ttu-id="67c48-128">Para asegurarse de que siempre se realizan las llamadas en la misma colección, cree una variable explícita que haga referencia a esa colección antes de entrar en el bucle.</span><span class="sxs-lookup"><span data-stu-id="67c48-128">To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -377,24 +248,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="fcffe-121">Puede ser el número de índice del objeto o un valor utilizado para que coincida con la propiedad predeterminada de un objeto de la colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-121">Either the index number of the object, or a value used to match the default property of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="fcffe-122">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> objeto de la colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-122">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object from the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="fcffe-123">Objeto <b>Conflict</b> que representa el objeto especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-123">A <b>Conflict</b> object that represents the specified object.</span>
-          </span>
-        </value>
+        <param name="Index"><span data-ttu-id="67c48-129">Puede ser el número de índice del objeto o un valor utilizado para que coincida con la propiedad predeterminada de un objeto de la colección.</span><span class="sxs-lookup"><span data-stu-id="67c48-129">Either the index number of the object, or a value used to match the default property of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="67c48-130">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> objeto de la colección.</span><span class="sxs-lookup"><span data-stu-id="67c48-130">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> object from the collection.</span></span></summary>
+        <value><span data-ttu-id="67c48-131">Objeto <b>Conflict</b> que representa el objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="67c48-131">A <b>Conflict</b> object that represents the specified object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -421,12 +277,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fcffe-p104">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-p104">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="67c48-p109">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="67c48-p109">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -454,41 +305,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="fcffe-126">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-126">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="fcffe-127">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-127">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="67c48-134">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="67c48-134">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="67c48-135">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="67c48-135">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="fcffe-128">
-            <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="67c48-136">La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="67c48-136">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="67c48-137">Los dos miembros tienen el mismo propósito.</span><span class="sxs-lookup"><span data-stu-id="67c48-137">Both members serve the same purpose.</span></span> <span data-ttu-id="67c48-138">Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</span><span class="sxs-lookup"><span data-stu-id="67c48-138">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="fcffe-128">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>
