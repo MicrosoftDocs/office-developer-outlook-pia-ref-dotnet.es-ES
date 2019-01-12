@@ -1,13 +1,5 @@
 <Type Name="OutlookBarStorage" FullName="Microsoft.Office.Interop.Outlook.OutlookBarStorage">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="043c8ecdd93490c3e8263146a82163cecdeb3921" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642228" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OutlookBarStorage" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d13a6d2bb6e5b24337516ec0dbcf6227c9faa792" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905767" /></Metadata><TypeSignature Language="C#" Value="public interface OutlookBarStorage" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OutlookBarStorage" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OutlookBarStorage" />
   <TypeSignature Language="VB.NET" Value="Public Interface OutlookBarStorage" />
@@ -26,26 +18,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="476e0-101">Representa el almacenamiento para los objetos en el panel de accesos directos.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="476e0-101">Represents the storage for objects in the Shortcuts pane.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="476e0-102">
-        <para>Usar el <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Contents" /> (propiedad) de un <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" /> objeto para recuperar el objeto <b>OutlookBarStorage</b> del panel.</para>
-        <para>Usar el <see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarStorage.Groups" /> (propiedad) para recuperar la <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroups" /> objeto para el panel de accesos directos.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="476e0-102">
-          <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Contents" />  property of an <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />  object to retrieve the <b>OutlookBarStorage</b> object for the pane.</para>
-          <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarStorage.Groups" />  property to retrieve the <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroups" />  object for the Shortcuts pane.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="76b02-101">Representa el almacenamiento para los objetos en el panel de accesos directos.</span><span class="sxs-lookup"><span data-stu-id="76b02-101">Represents the storage for objects in the Shortcuts pane.</span></span></summary>
+    <remarks><para><span data-ttu-id="76b02-102">Usar el <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Contents" /> (propiedad) de un <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" /> objeto para recuperar el objeto <b>OutlookBarStorage</b> del panel.</span><span class="sxs-lookup"><span data-stu-id="76b02-102">Use the <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Contents" />  property of an <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />  object to retrieve the <b>OutlookBarStorage</b> object for the pane.</span></span></para>
+      <para><span data-ttu-id="76b02-103">Usar el <see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarStorage.Groups" /> (propiedad) para recuperar la <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroups" /> objeto para el panel de accesos directos.</span><span class="sxs-lookup"><span data-stu-id="76b02-103">Use the <see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarStorage.Groups" />  property to retrieve the <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroups" />  object for the Shortcuts pane.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -71,16 +47,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="476e0-103">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="476e0-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="476e0-104">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="476e0-104">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="76b02-104">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span><span class="sxs-lookup"><span data-stu-id="76b02-104">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="76b02-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="76b02-105">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -108,16 +75,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="476e0-105">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="476e0-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="476e0-106">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="476e0-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="76b02-106">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span><span class="sxs-lookup"><span data-stu-id="76b02-106">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="76b02-107">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="76b02-107">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -145,16 +103,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OutlookBarGroups</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="476e0-107">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroups" /> objeto que representa el conjunto de grupos en el panel de accesos directos.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="476e0-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroups" />  object representing the set of groups in the Shortcuts pane.</span>
-          </span>
-          <span data-ttu-id="476e0-108">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="476e0-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="76b02-108">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroups" /> objeto que representa el conjunto de grupos en el panel de accesos directos.</span><span class="sxs-lookup"><span data-stu-id="76b02-108">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroups" />  object representing the set of groups in the Shortcuts pane.</span></span> <span data-ttu-id="76b02-109">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="76b02-109">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -182,12 +131,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="476e0-p104">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="476e0-p104">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="76b02-p104">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="76b02-p104">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -215,41 +159,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="476e0-111">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="476e0-111">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="476e0-112">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="476e0-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="76b02-112">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="76b02-112">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="76b02-113">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="76b02-113">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="476e0-113">
-            <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="76b02-114">La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="76b02-114">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="76b02-115">Los dos miembros tienen el mismo propósito.</span><span class="sxs-lookup"><span data-stu-id="76b02-115">Both members serve the same purpose.</span></span> <span data-ttu-id="76b02-116">Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</span><span class="sxs-lookup"><span data-stu-id="76b02-116">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="476e0-113">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

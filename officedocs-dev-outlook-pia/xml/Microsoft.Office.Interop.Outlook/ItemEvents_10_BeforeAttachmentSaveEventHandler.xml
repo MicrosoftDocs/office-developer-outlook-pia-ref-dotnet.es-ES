@@ -1,13 +1,5 @@
 <Type Name="ItemEvents_10_BeforeAttachmentSaveEventHandler" FullName="Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentSaveEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="03b69b98e856ac24efa41462e20ebbd2ab0eb1af" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643643" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void ItemEvents_10_BeforeAttachmentSaveEventHandler(Attachment Attachment, out bool Cancel);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="674783041aabb1599fef0eed1cad38d6e7f695cd" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904199" /></Metadata><TypeSignature Language="C#" Value="public delegate void ItemEvents_10_BeforeAttachmentSaveEventHandler(Attachment Attachment, out bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ItemEvents_10_BeforeAttachmentSaveEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_BeforeAttachmentSaveEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub ItemEvents_10_BeforeAttachmentSaveEventHandler(Attachment As Attachment, ByRef Cancel As Boolean)" />
@@ -35,31 +27,9 @@
     <ReturnType>System.Void</ReturnType>
   </ReturnValue>
   <Docs>
-    <param name="Attachment">
-      <span data-ttu-id="52481-101">
-        <b>Datos adjuntos</b> que se guarde.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="52481-101">The <b>Attachment</b> to be saved.</span>
-      </span>
-    </param>
-    <param name="Cancel">
-      <span data-ttu-id="52481-102">
-        <b>False</b> cuando se produce el evento.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="52481-102">
-          <b>False</b> when the event occurs.</span>
-      </span>
-      <span data-ttu-id="52481-103">Si el procedimiento de evento establece este argumento en <b>True</b>, la operación de guardar no se completa la operación y no se modifican los datos adjuntos.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="52481-103">If the event procedure sets this argument to <b>True</b>, the save operation is not completed and the attachment is not changed.</span>
-      </span>
-    </param>
-    <summary>
-      <span data-ttu-id="52481-p102">Se trata de un delegado para un evento en el objeto correspondiente. Después de implementar un método de devolución de llamada para el evento, utilice este delegado para conectar el método de devolución de llamada con el evento. Si hubiera varias versiones de la interfaz de eventos, este delegado conectaría el método de devolución de llamadas para el evento en la versión especificada de Outlook.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="52481-p102">This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</span>
-      </span>
-    </summary>
+    <param name="Attachment"><span data-ttu-id="23dca-101"><b>Datos adjuntos</b> que se guarde.</span><span class="sxs-lookup"><span data-stu-id="23dca-101">The <b>Attachment</b> to be saved.</span></span></param>
+    <param name="Cancel"><span data-ttu-id="23dca-102"><b>False</b> cuando se produce el evento.</span><span class="sxs-lookup"><span data-stu-id="23dca-102"><b>False</b> when the event occurs.</span></span> <span data-ttu-id="23dca-103">Si el procedimiento de evento establece este argumento en <b>True</b>, la operación de guardar no se completa la operación y no se modifican los datos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="23dca-103">If the event procedure sets this argument to <b>True</b>, the save operation is not completed and the attachment is not changed.</span></span></param>
+    <summary><span data-ttu-id="23dca-p102">Se trata de un delegado para un evento en el objeto correspondiente. Después de implementar un método de devolución de llamada para el evento, utilice este delegado para conectar el método de devolución de llamada con el evento. Si hubiera varias versiones de la interfaz de eventos, este delegado conectaría el método de devolución de llamadas para el evento en la versión especificada de Outlook.</span><span class="sxs-lookup"><span data-stu-id="23dca-p102">This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
 </Type>

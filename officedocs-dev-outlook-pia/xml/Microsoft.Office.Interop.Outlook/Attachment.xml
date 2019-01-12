@@ -1,13 +1,5 @@
 <Type Name="Attachment" FullName="Microsoft.Office.Interop.Outlook.Attachment">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bca3de4ee3e1766193a9380a2d4dcee5344f4ba1" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642094" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Attachment" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="eadbaac7ca2fb1ea21fb2b4899e303c68daea5b3" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904223" /></Metadata><TypeSignature Language="C#" Value="public interface Attachment" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Attachment" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Attachment" />
   <TypeSignature Language="VB.NET" Value="Public Interface Attachment" />
@@ -26,26 +18,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="11d6b-101">Representa un documento o un vínculo a un documento contenido en un elemento de Outlook.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="11d6b-101">Represents a document or link to a document contained in an Outlook item.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="11d6b-102">
-        <para>Uso <see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" /> (<paramref name="index" />), donde <paramref name="index" /> es el número de índice, para devolver un único objeto <b>Attachment</b> .</para>
-        <para>Usar la <see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" /> método para agregar datos adjuntos a un elemento.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="11d6b-102">
-          <para>Use <see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" /> (<paramref name="index" />), where <paramref name="index" /> is the index number, to return a single <b>Attachment</b> object.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" />  method to add an attachment to an item.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="e985c-101">Representa un documento o un vínculo a un documento contenido en un elemento de Outlook.</span><span class="sxs-lookup"><span data-stu-id="e985c-101">Represents a document or link to a document contained in an Outlook item.</span></span></summary>
+    <remarks><para><span data-ttu-id="e985c-102">Uso <see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" /> (<paramref name="index" />), donde <paramref name="index" /> es el número de índice, para devolver un único objeto <b>Attachment</b> .</span><span class="sxs-lookup"><span data-stu-id="e985c-102">Use <see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" /> (<paramref name="index" />), where <paramref name="index" /> is the index number, to return a single <b>Attachment</b> object.</span></span></para>
+      <para><span data-ttu-id="e985c-103">Usar el <see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" /> método para agregar datos adjuntos a un elemento.</span><span class="sxs-lookup"><span data-stu-id="e985c-103">Use the <see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" />  method to add an attachment to an item.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -71,16 +47,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="11d6b-103">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="11d6b-104">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-104">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e985c-104">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto.</span><span class="sxs-lookup"><span data-stu-id="e985c-104">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="e985c-105">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="e985c-105">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -108,29 +75,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="11d6b-105">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel" /> constante que especifica si hay algún tipo de restricción en los datos adjuntos en función de su extensión de archivo.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel" /> constant that specifies if there is any restriction on the attachment based on its file extension.</span>
-          </span>
-          <span data-ttu-id="11d6b-106">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e985c-106">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel" /> constante que especifica si hay algún tipo de restricción en los datos adjuntos en función de su extensión de archivo.</span><span class="sxs-lookup"><span data-stu-id="e985c-106">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel" /> constant that specifies if there is any restriction on the attachment based on its file extension.</span></span> <span data-ttu-id="e985c-107">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="e985c-107">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="11d6b-107">
-            <para>Este valor de esta propiedad refleja si un archivo adjunto está bloqueado en función de su extensión de archivo y cómo se ha configurado seguridad de datos adjuntos en el equipo cliente. Para obtener más información acerca de la seguridad de los datos adjuntos en Outlook, vea el sitio Web Office Resource Kit.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-107">
-              <para>This value of this property reflects whether an attachment is blocked based on its file extension and how attachment security has been set up on the client computer. For more information on attachment security in Outlook, see the Office Resource Kit Web site.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="e985c-p103">Este valor de esta propiedad refleja si un dato adjunto está bloqueado según la extensión del archivo y cómo se ha configurado la seguridad de datos adjuntos en el equipo cliente. Para obtener más información sobre la seguridad de datos adjuntos, vea el sitio web del kit de recursos de Office.</span><span class="sxs-lookup"><span data-stu-id="e985c-p103">This value of this property reflects whether an attachment is blocked based on its file extension and how attachment security has been set up on the client computer. For more information on attachment security in Outlook, see the Office Resource Kit Web site.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -156,16 +104,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="11d6b-108">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-108">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="11d6b-109">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-109">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e985c-110">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto.</span><span class="sxs-lookup"><span data-stu-id="e985c-110">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="e985c-111">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="e985c-111">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -191,12 +130,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="11d6b-110">Elimina un objeto de la colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-110">Deletes an object from the collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e985c-112">Elimina un objeto de la colección.</span><span class="sxs-lookup"><span data-stu-id="e985c-112">Deletes an object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -226,29 +160,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="11d6b-111">Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre, que no necesita ser el nombre de archivo real, que se muestra debajo del icono que representa al archivo adjunto incrustado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-111">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the name, which does not need to be the actual file name, displayed below the icon representing the embedded attachment.</span>
-          </span>
-          <span data-ttu-id="11d6b-112">Lectura y escritura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-112">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e985c-113">Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre, que no necesita ser el nombre de archivo real, que se muestra debajo del icono que representa al archivo adjunto incrustado.</span><span class="sxs-lookup"><span data-stu-id="e985c-113">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the name, which does not need to be the actual file name, displayed below the icon representing the embedded attachment.</span></span> <span data-ttu-id="e985c-114">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="e985c-114">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="11d6b-113">
-            <para>Esta propiedad corresponde a la propiedad <b>PidTagDisplayName</b>de MAPI.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-113">
-              <para>This property corresponds to the MAPI property <b>PidTagDisplayName</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="e985c-115">Esta propiedad corresponde a la propiedad <b>PidTagDisplayName</b> de MAPI.</span><span class="sxs-lookup"><span data-stu-id="e985c-115">This property corresponds to the MAPI property <b>PidTagDisplayName</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FileName">
@@ -274,29 +189,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="11d6b-114">Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre de archivo de los datos adjuntos.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-114">Returns a <b>String</b> (<b>string</b> in C#) representing the file name of the attachment.</span>
-          </span>
-          <span data-ttu-id="11d6b-115">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-115">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e985c-116">Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre de archivo de los datos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="e985c-116">Returns a <b>String</b> (<b>string</b> in C#) representing the file name of the attachment.</span></span>  <span data-ttu-id="e985c-117">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="e985c-117">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="11d6b-116">
-            <para>Utilice esta propiedad junto con la <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.PathName" /> (propiedad).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-116">
-              <para>Use this property in conjunction with the <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.PathName" />  property.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="e985c-118">Utilice esta propiedad junto con la <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.PathName" /> (propiedad).</span><span class="sxs-lookup"><span data-stu-id="e985c-118">Use this property in conjunction with the <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.PathName" />  property.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetTemporaryFilePath">
@@ -320,123 +216,71 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="11d6b-117">Devuelve la ruta de acceso completa del archivo adjunto que se encuentra en una carpeta de archivos temporales.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-117">Returns the full path to the attached file that is in a temporary-files folder.</span>
-          </span>
-          <span data-ttu-id="11d6b-118">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-118">Read-only.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="11d6b-119">Devuelve un <see cref="T:System.String" /> que representa la ruta de acceso completa al archivo adjunto temporal.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-119">Returns a <see cref="T:System.String" /> that represents the full path to the temporary attachment file.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="11d6b-120">
-            <para>
-              <b>GetTemporaryFilePath</b> (método) sólo es válida para los archivos adjuntos cuya <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.Type" /> propiedad es <see cref="F:Microsoft.Office.Interop.Outlook.OlAttachmentType.olByValue" />. Esto significa que los datos adjuntos son una copia y que se puede tener acceso a la copia incluso si se ha quitado el archivo original. Para otros tipos de datos adjuntos, el método <b>GetTemporaryFilePath</b> devuelve un error. </para>
-            <para>
-              <b>GetTemporaryFilePath</b> también devuelve un error al obtener acceso a un <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> de objetos en un <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> colección o en la <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> objeto. Uso <b>GetTemporaryFilePath</b> sólo en las devoluciones de llamada de evento de datos adjuntos se enumeran a continuación para diversos elementos de Outlook de Microsoft:</para>
-            <list type="bullet">
-              <item>
-                <para>
-                  <b>AttachmentAdd</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>AttachmentRead</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>AttachmentRemove</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>BeforeAttachmentAdd</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>BeforeAttachmentPreview</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>BeforeAttachmentRead</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>BeforeAttachmentSave</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <b>BeforeAttachmentWriteToTempFile</b>
-                </para>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-120">
-              <para>The <b>GetTemporaryFilePath</b> method is only valid for those attachments whose <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.Type" /> property is <see cref="F:Microsoft.Office.Interop.Outlook.OlAttachmentType.olByValue" />. That means that the attachment is a copy and that the copy can be accessed even if the original file is removed. For other attachment types, the <b>GetTemporaryFilePath</b> method returns an error. </para>
-              <para>
-                <b>GetTemporaryFilePath</b> also returns an error when accessing an <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> object in an <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> collection or in the <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> object. Use <b>GetTemporaryFilePath</b> only in attachment event callbacks listed below for various Microsoft Outlook items:</para>
-              <list type="bullet">
-                <item>
-                  <para>
-                    <b>AttachmentAdd</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>AttachmentRead</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>AttachmentRemove</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>BeforeAttachmentAdd</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>BeforeAttachmentPreview</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>BeforeAttachmentRead</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>BeforeAttachmentSave</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <b>BeforeAttachmentWriteToTempFile</b>
-                  </para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="e985c-119">Devuelve la ruta de acceso completa del archivo adjunto que se encuentra en una carpeta de archivos temporales.</span><span class="sxs-lookup"><span data-stu-id="e985c-119">Returns the full path to the attached file that is in a temporary-files folder.</span></span> <span data-ttu-id="e985c-120">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="e985c-120">Read-only.</span></span></summary>
+        <returns><span data-ttu-id="e985c-121">Devuelve un <see cref="T:System.String" /> que representa la ruta de acceso completa al archivo adjunto temporal.</span><span class="sxs-lookup"><span data-stu-id="e985c-121">Returns a <see cref="T:System.String" /> that represents the full path to the temporary attachment file.</span></span></returns>
+        <remarks><para><span data-ttu-id="e985c-122"><b>GetTemporaryFilePath</b> (método) sólo es válida para los archivos adjuntos cuya <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.Type" /> propiedad es <see cref="F:Microsoft.Office.Interop.Outlook.OlAttachmentType.olByValue" />.</span><span class="sxs-lookup"><span data-stu-id="e985c-122">The <b>GetTemporaryFilePath</b> method is only valid for those attachments whose <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.Type" /> property is <see cref="F:Microsoft.Office.Interop.Outlook.OlAttachmentType.olByValue" />.</span></span> <span data-ttu-id="e985c-123">Esto significa que los datos adjuntos están una copia y que se puede tener acceso a la copia incluso si se quita el archivo original.</span><span class="sxs-lookup"><span data-stu-id="e985c-123">That means that the attachment is a copy and that the copy can be accessed even if the original file is removed.</span></span> <span data-ttu-id="e985c-124">Para otros tipos de datos adjuntos, el método <b>GetTemporaryFilePath</b> devuelve un error.</span><span class="sxs-lookup"><span data-stu-id="e985c-124">For other attachment types, the <b>GetTemporaryFilePath</b> method returns an error.</span></span> </para>
+          <para><span data-ttu-id="e985c-125">
+            <b>GetTemporaryFilePath</b> también devuelve un error al obtener acceso a un <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> de objetos en un <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> colección o en la <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="e985c-125">
+            <b>GetTemporaryFilePath</b> also returns an error when accessing an <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> object in an <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> collection or in the <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> object.</span></span> <span data-ttu-id="e985c-126">Uso <b>GetTemporaryFilePath</b> sólo en las devoluciones de llamada de un evento adjunto enumerados a continuación para los diversos elementos de Microsoft Outlook:</span><span class="sxs-lookup"><span data-stu-id="e985c-126">Use <b>GetTemporaryFilePath</b> only in attachment event callbacks listed below for various Microsoft Outlook items:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="e985c-127">
+                <b>AttachmentAdd</b>
+              </span><span class="sxs-lookup"><span data-stu-id="e985c-127">
+                <b>AttachmentAdd</b>
+              </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="e985c-128">
+                <b>AttachmentRead</b>
+              </span><span class="sxs-lookup"><span data-stu-id="e985c-128">
+                <b>AttachmentRead</b>
+              </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="e985c-129">
+                <b>AttachmentRemove</b>
+              </span><span class="sxs-lookup"><span data-stu-id="e985c-129">
+                <b>AttachmentRemove</b>
+              </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="e985c-130">
+                <b>BeforeAttachmentAdd</b>
+              </span><span class="sxs-lookup"><span data-stu-id="e985c-130">
+                <b>BeforeAttachmentAdd</b>
+              </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="e985c-131">
+                <b>BeforeAttachmentPreview</b>
+              </span><span class="sxs-lookup"><span data-stu-id="e985c-131">
+                <b>BeforeAttachmentPreview</b>
+              </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="e985c-132">
+                <b>BeforeAttachmentRead</b>
+              </span><span class="sxs-lookup"><span data-stu-id="e985c-132">
+                <b>BeforeAttachmentRead</b>
+              </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="e985c-133">
+                <b>BeforeAttachmentSave</b>
+              </span><span class="sxs-lookup"><span data-stu-id="e985c-133">
+                <b>BeforeAttachmentSave</b>
+              </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="e985c-134">
+                <b>BeforeAttachmentWriteToTempFile</b>
+              </span><span class="sxs-lookup"><span data-stu-id="e985c-134">
+                <b>BeforeAttachmentWriteToTempFile</b>
+              </span></span></para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Index">
@@ -462,29 +306,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="11d6b-121">Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica la posición del objeto dentro de la colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-121">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the position of the object within the collection.</span>
-          </span>
-          <span data-ttu-id="11d6b-122">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-122">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e985c-135">Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica la posición del objeto dentro de la colección.</span><span class="sxs-lookup"><span data-stu-id="e985c-135">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the position of the object within the collection.</span></span>  <span data-ttu-id="e985c-136">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="e985c-136">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="11d6b-123">
-            <para>La propiedad <b>Index</b> sólo es válida durante la sesión actual y se puede cambiar si se agregan a los objetos y se elimine de la colección. El primer objeto de la colección tiene un valor de <b>índice</b> de 1.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-123">
-              <para>The <b>Index</b> property is only valid during the current session and can change as objects are added to and deleted from the collection. The first object in the collection has an <b>Index</b> value of 1.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="e985c-p111">La propiedad <b>Index</b> solamente es válida durante la sesión actual y se puede cambiar si se agregan a los objetos y se elimine de la colección. El primer objeto de la colección tiene un valor de <b>índice</b> de 1.</span><span class="sxs-lookup"><span data-stu-id="e985c-p111">The <b>Index</b> property is only valid during the current session and can change as objects are added to and deleted from the collection. The first object in the collection has an <b>Index</b> value of 1.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MAPIOBJECT">
@@ -513,12 +338,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="11d6b-124">[!PRECAUCIóN] Este objeto, miembro o enumeración está en desuso y no debería usarse en el código.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-124">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e985c-139">[!PRECAUCIóN] Este objeto, miembro o enumeración está en desuso y no debería usarse en el código.</span><span class="sxs-lookup"><span data-stu-id="e985c-139">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -546,12 +366,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="11d6b-p108">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-p108">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e985c-p112">Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="e985c-p112">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -579,29 +394,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="11d6b-127">Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa la ruta de acceso completa a la que está vinculada el archivo adjunto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-127">Returns a <b>String</b> (<b>string</b> in C#) representing the full path to the linked attached file.</span>
-          </span>
-          <span data-ttu-id="11d6b-128">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-128">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e985c-142">Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa la ruta de acceso completa a la que está vinculada el archivo adjunto.</span><span class="sxs-lookup"><span data-stu-id="e985c-142">Returns a <b>String</b> (<b>string</b> in C#) representing the full path to the linked attached file.</span></span> <span data-ttu-id="e985c-143">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="e985c-143">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="11d6b-129">
-            <para>Esta propiedad sólo es válida para archivos vinculados.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-129">
-              <para>This property is only valid for linked files.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="e985c-144">Esta propiedad sólo es válida para archivos vinculados.</span><span class="sxs-lookup"><span data-stu-id="e985c-144">This property is only valid for linked files.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Position">
@@ -630,31 +426,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="11d6b-130">Devuelve o establece un valor de <b>número entero</b> (<b>int</b> en C#) que indica la posición de los datos adjuntos en el cuerpo del elemento.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-130">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the position of the attachment within the body of the item.</span>
-          </span>
-          <span data-ttu-id="11d6b-131">Lectura y escritura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-131">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e985c-145">Devuelve o establece un valor de <b>número entero</b> (<b>int</b> en C#) que indica la posición de los datos adjuntos en el cuerpo del elemento.</span><span class="sxs-lookup"><span data-stu-id="e985c-145">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the position of the attachment within the body of the item.</span></span> <span data-ttu-id="e985c-146">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="e985c-146">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="11d6b-132">
-            <para>La propiedad <b>Position</b> sólo funciona en los datos adjuntos para un elemento donde el formato del cuerpo sea de texto enriquecido (RTF). Si el formato del cuerpo no es RTF, la propiedad <b>Position</b> se omitirá para una operación set y siempre devuelve cero (0) para una operación get.</para>
-            <para>Si se establece la propiedad <b>Position</b> en 0 para un elemento donde dar formato el cuerpo es RTF, los datos adjuntos estarán ocultos en la interfaz de usuario de Outlook. Los datos adjuntos no está visible en una vista, y el usuario no puede quitar los datos adjuntos desde el cuerpo del elemento. Aún se pueden tener acceso a los datos adjuntos a través de la <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> colección en el elemento.</para> Es el único elemento que permite establecer mediante programación la propiedad BodyFormat de 
-          <para>un <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />. Otros tipos de elementos, como citas, contactos o tareas tienen el formato RTF de forma predeterminada. </para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-132">
-              <para>The <b>Position</b> property only works on an attachment for an item where the body format is Rich Text (RTF). If the body format is not RTF, the <b>Position</b> property is ignored for a set operation and always returns zero (0) for a get operation.</para>
-              <para>If you set the <b>Position</b> property to 0 for an item where the body format is RTF, the attachment will be hidden in Outlook's user interface. The attachment is not visible in a view, and the user cannot remove the attachment from the body of the item. The attachment can still be accessed through the <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> collection on the item.</para>
-              <para>The only item that allows programmatic setting of the BodyFormat property is a <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />. Other item types such as Appointment, Contact, and Task are RTF by default. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="e985c-p115">La propiedad <b>Position</b> sólo funciona en datos adjuntos para un elemento cuyo formato del cuerpo sea de texto enriquecido (RTF). Si el formato del cuerpo no es RTF, la propiedad <b>Position</b> se omitirá para una operación set y siempre devuelve cero (0) para una operación get.</span><span class="sxs-lookup"><span data-stu-id="e985c-p115">The <b>Position</b> property only works on an attachment for an item where the body format is Rich Text (RTF). If the body format is not RTF, the <b>Position</b> property is ignored for a set operation and always returns zero (0) for a get operation.</span></span></para>
+          <para><span data-ttu-id="e985c-149">Si establece la propiedad <b>Position</b> en 0 para un elemento cuyo formato del cuerpo es RTF, los datos adjuntos se ocultarán en la interfaz de usuario de Outlook.</span><span class="sxs-lookup"><span data-stu-id="e985c-149">If you set the <b>Position</b> property to 0 for an item where the body format is RTF, the attachment will be hidden in Outlook's user interface.</span></span> <span data-ttu-id="e985c-150">Los datos adjuntos no están visible en una vista, y el usuario no puede quitar los datos adjuntos desde el cuerpo del elemento.</span><span class="sxs-lookup"><span data-stu-id="e985c-150">The attachment is not visible in a view, and the user cannot remove the attachment from the body of the item.</span></span> <span data-ttu-id="e985c-151">Aún se pueden tener acceso a los datos adjuntos a través de la <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> colección en el elemento.</span><span class="sxs-lookup"><span data-stu-id="e985c-151">The attachment can still be accessed through the <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> collection on the item.</span></span></para>
+          <para><span data-ttu-id="e985c-152">El único elemento que permite establecer mediante programación la propiedad BodyFormat es un <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />.</span><span class="sxs-lookup"><span data-stu-id="e985c-152">The only item that allows programmatic setting of the BodyFormat property is a <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />.</span></span> <span data-ttu-id="e985c-153">Otros tipos de elementos, como citas, contactos o tareas tienen el formato RTF de forma predeterminada.</span><span class="sxs-lookup"><span data-stu-id="e985c-153">Other item types such as Appointment, Contact, and Task are RTF by default.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyAccessor">
@@ -680,16 +457,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="11d6b-133">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto que admite la creación, obtener, establecer y eliminación de propiedades del objeto primario <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-133">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> object.</span>
-          </span>
-          <span data-ttu-id="11d6b-134">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-134">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e985c-154">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto que admite la creación, obtener, establecer y eliminación de propiedades del objeto primario <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="e985c-154">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> object.</span></span> <span data-ttu-id="e985c-155">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="e985c-155">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -717,18 +485,8 @@
         <Parameter Name="Path" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Path">
-          <span data-ttu-id="11d6b-135">Ubicación en la que se guardan los datos adjuntos.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-135">The location at which to save the attachment.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="11d6b-136">Guarda los datos adjuntos en la ruta de acceso especificada.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-136">Saves the attachment to the specified path.</span>
-          </span>
-        </summary>
+        <param name="Path"><span data-ttu-id="e985c-156">Ubicación en la que se guardan los datos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="e985c-156">The location at which to save the attachment.</span></span></param>
+        <summary><span data-ttu-id="e985c-157">Guarda los datos adjuntos en la ruta de acceso especificada.</span><span class="sxs-lookup"><span data-stu-id="e985c-157">Saves the attachment to the specified path.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -755,41 +513,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="11d6b-137">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-137">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="11d6b-138">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-138">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e985c-158">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="e985c-158">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="e985c-159">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="e985c-159">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="11d6b-139">
-            <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="e985c-160">La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="e985c-160">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="e985c-161">Los dos miembros tienen el mismo propósito.</span><span class="sxs-lookup"><span data-stu-id="e985c-161">Both members serve the same purpose.</span></span> <span data-ttu-id="e985c-162">Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</span><span class="sxs-lookup"><span data-stu-id="e985c-162">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-139">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Size">
@@ -815,29 +548,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="11d6b-140">Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el tamaño (en bytes) de los datos adjuntos.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-140">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the size (in bytes) of the attachment.</span>
-          </span>
-          <span data-ttu-id="11d6b-141">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-141">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e985c-163">Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el tamaño (en bytes) de los datos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="e985c-163">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the size (in bytes) of the attachment.</span></span> <span data-ttu-id="e985c-164">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="e985c-164">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="11d6b-142">
-            <para>Esta información no siempre esté disponible para los datos adjuntos.  Por ejemplo, en un mensaje S/MIME, el tamaño real de los datos adjuntos es desconocido hasta que se extraen los datos adjuntos. En los casos donde no se puede determinar el tamaño de los datos adjuntos, esta propiedad devuelve 0.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-142">
-              <para>This information may not always be available for attachments.  For example, on an S/MIME message, the actual attachment sizes are unknown until the attachment is extracted. In cases where the attachment size cannot be determined, this property returns 0.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="e985c-165">Es posible que esta información no siempre esté disponible para los datos adjuntos.</span><span class="sxs-lookup"><span data-stu-id="e985c-165">This information may not always be available for attachments.</span></span>  <span data-ttu-id="e985c-166">Por ejemplo, en un mensaje S/MIME, los tamaños reales de los datos adjuntos se desconocen hasta que éstos se extraen.</span><span class="sxs-lookup"><span data-stu-id="e985c-166">For example, on an S/MIME message, the actual attachment sizes are unknown until the attachment is extracted.</span></span> <span data-ttu-id="e985c-167">En los casos en que no puede determinarse el tamaño de los datos adjuntos, esta propiedad devuelve 0.</span><span class="sxs-lookup"><span data-stu-id="e985c-167">In cases where the attachment size cannot be determined, this property returns 0.</span></span>  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -863,16 +577,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAttachmentType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="11d6b-143">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentType" /> constante que indica el tipo del objeto especificado.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-143">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentType" /> constant indicating the type of the specified object.</span>
-          </span>
-          <span data-ttu-id="11d6b-144">Es de solo lectura.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="11d6b-144">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="e985c-168">Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentType" /> constante que indica el tipo del objeto especificado.</span><span class="sxs-lookup"><span data-stu-id="e985c-168">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentType" /> constant indicating the type of the specified object.</span></span> <span data-ttu-id="e985c-169">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="e985c-169">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
