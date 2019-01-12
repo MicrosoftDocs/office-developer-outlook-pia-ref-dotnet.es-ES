@@ -1,13 +1,5 @@
 <Type Name="FoldersEvents_Event" FullName="Microsoft.Office.Interop.Outlook.FoldersEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8712690eb460563beab04c8826e629a5eefa9363" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643636" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface FoldersEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="41d900bed9fd2f108814d2772911730bb8d454a0" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903464" /></Metadata><TypeSignature Language="C#" Value="public interface FoldersEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract FoldersEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.FoldersEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface FoldersEvents_Event" />
@@ -29,12 +21,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="35688-p101">Se trata de una interfaz .NET creada al procesar una coclase COM que requiere el código administrado para la interoperabilidad con el objeto COM correspondiente. Esta interfaz implementa todos los eventos de interfaces anteriores, además de los eventos nuevos. Úsela solamente si el evento que quiere usar comparte el mismo nombre que un método del objeto COM. Si fuera ese el caso, realice la conversión a esta interfaz para conectarse con el evento y la conversión a la interfaz principal para llamar al método. En caso contrario, use la interfaz .NET derivada de la coclase COM para acceder a los métodos, las propiedades y los eventos del objeto COM.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="35688-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="35b83-p101">Se trata de una interfaz .NET creada al procesar una coclase COM que requiere el código administrado para la interoperabilidad con el objeto COM correspondiente. Esta interfaz implementa todos los eventos de interfaces anteriores, además de los eventos nuevos. Úsela solamente si el evento que quiere usar comparte el mismo nombre que un método del objeto COM. Si fuera ese el caso, realice la conversión a esta interfaz para conectarse con el evento y la conversión a la interfaz principal para llamar al método. En caso contrario, use la interfaz .NET derivada de la coclase COM para acceder a los métodos, las propiedades y los eventos del objeto COM.</span><span class="sxs-lookup"><span data-stu-id="35b83-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -53,12 +40,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.FoldersEvents_FolderAddEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="35688-105">Se produce cuando se agrega una carpeta a especificado <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="35688-105">Occurs when a folder is added to the specified <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />  collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="35b83-105">Se produce cuando se agrega una carpeta a especificado <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> colección.</span><span class="sxs-lookup"><span data-stu-id="35b83-105">Occurs when a folder is added to the specified <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />  collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -77,24 +59,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.FoldersEvents_FolderChangeEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="35688-106">Se produce cuando una carpeta en el especificado <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> se cambia la colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="35688-106">Occurs when a folder in the specified <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />  collection is changed.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="35688-107">
-            <para>El evento <b>FolderChange</b> se desencadena cuando se cambia una carpeta de un objeto de colección <b>Folders</b> , ya sea a través de la acción de un usuario o código de programa. El cambio puede ser un usuario o código de programa, cambiar el nombre de la carpeta, o agregar, cambiar o quitar un elemento en la carpeta.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="35688-107">
-              <para>The <b>FolderChange</b> event fires when a folder in a <b>Folders</b> collection object is changed, either through user action or program code. The change can be a user or program code renaming the folder, or adding, changing, or removing an item in the folder. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="35b83-106">Se produce cuando una carpeta en el especificado <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> se cambia la colección.</span><span class="sxs-lookup"><span data-stu-id="35b83-106">Occurs when a folder in the specified <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />  collection is changed.</span></span></summary>
+        <remarks><para><span data-ttu-id="35b83-107">El evento <b>FolderChange</b> se desencadena cuando se cambia una carpeta de un objeto de colección <b>Folders</b>, ya sea a través de la acción del usuario o código de programa.</span><span class="sxs-lookup"><span data-stu-id="35b83-107">The <b>FolderChange</b> event fires when a folder in a <b>Folders</b> collection object is changed, either through user action or program code.</span></span> <span data-ttu-id="35b83-108">El cambio puede ser un usuario o código de programa, cambiar el nombre de la carpeta, o agregar, cambiar o quitar un elemento en la carpeta.</span><span class="sxs-lookup"><span data-stu-id="35b83-108">The change can be a user or program code renaming the folder, or adding, changing, or removing an item in the folder.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FolderRemove">
@@ -112,12 +79,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.FoldersEvents_FolderRemoveEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="35688-108">Se produce cuando se quita una carpeta de especificado <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> colección.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="35688-108">Occurs when a folder is removed from the specified <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />  collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="35b83-109">Se produce cuando se quita una carpeta de especificado <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> colección.</span><span class="sxs-lookup"><span data-stu-id="35b83-109">Occurs when a folder is removed from the specified <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />  collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

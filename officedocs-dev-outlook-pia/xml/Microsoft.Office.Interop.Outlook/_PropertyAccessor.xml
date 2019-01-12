@@ -1,13 +1,5 @@
 <Type Name="_PropertyAccessor" FullName="Microsoft.Office.Interop.Outlook._PropertyAccessor">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="78e2122c80a9c947755c0b2d0a28a1c207ecb94a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20641944" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _PropertyAccessor" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="78e2122c80a9c947755c0b2d0a28a1c207ecb94a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906215" /></Metadata><TypeSignature Language="C#" Value="public interface _PropertyAccessor" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _PropertyAccessor" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._PropertyAccessor" />
   <TypeSignature Language="VB.NET" Value="Public Interface _PropertyAccessor" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="cb0b8-101">Esto es una interfaz principal en una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="cb0b8-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="cb0b8-102">Use esta interfaz principal sólo cuando el método que desea usar comparte el mismo nombre que un evento del objeto COM; en este caso, se convierte en esta interfaz para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="cb0b8-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="cb0b8-103">De lo contrario, use la interfaz de .NET que se deriva de la coclase COM para tener acceso a los métodos, propiedades y eventos del objeto COM.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="cb0b8-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="cb0b8-104">Para obtener información sobre el objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="cb0b8-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="3dd64-101">Esto es una interfaz principal en una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente.</span><span class="sxs-lookup"><span data-stu-id="3dd64-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="3dd64-102">Use esta interfaz principal sólo cuando el método que desea usar comparte el mismo nombre que un evento del objeto COM; en este caso, se convierte en esta interfaz para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento.</span><span class="sxs-lookup"><span data-stu-id="3dd64-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="3dd64-103">De lo contrario, use la interfaz de .NET que se deriva de la coclase COM para tener acceso a los métodos, propiedades y eventos del objeto COM.</span><span class="sxs-lookup"><span data-stu-id="3dd64-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="3dd64-104">Para obtener información sobre el objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />.</span><span class="sxs-lookup"><span data-stu-id="3dd64-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0b8-105">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación principal (Outlook) para la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-105">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent application (Outlook) for the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span>
-          </span>
-          <span data-ttu-id="cb0b8-106">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="3dd64-105">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación principal (Outlook) para la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="3dd64-105">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent application (Outlook) for the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span></span> <span data-ttu-id="3dd64-106">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="3dd64-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -107,36 +73,11 @@
         <Parameter Name="Value" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Value">
-          <span data-ttu-id="cb0b8-107">Representa la matriz de bytes que se convertirá.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-107">Represents the array of bytes to be converted.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="cb0b8-108">Convierte la matriz de bytes especificada por <paramref name="Value" /> en una <b>cadena</b> (<b>cadena</b> en C#).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-108">Converts the array of bytes specified by <paramref name="Value" /> to a <b>String</b> (<b>string</b> in C#).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="cb0b8-109">Hexadecimal <b>String</b> (<b>cadena</b> en C#) que representa el valor convertido.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-109">A hexadecimal <b>String</b> (<b>string</b> in C#) that represents the converted value.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="cb0b8-110">
-            <para>Para obtener más información sobre la conversión de tipo cuando se utiliza el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-110">
-              <para>For more information on type conversion when using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Value"><span data-ttu-id="3dd64-107">Representa la matriz de bytes que se convertirá.</span><span class="sxs-lookup"><span data-stu-id="3dd64-107">Represents the array of bytes to be converted.</span></span></param>
+        <summary><span data-ttu-id="3dd64-108">Convierte la matriz de bytes especificada por <paramref name="Value" /> en una <b>cadena</b> (<b>cadena</b> en C#).</span><span class="sxs-lookup"><span data-stu-id="3dd64-108">Converts the array of bytes specified by <paramref name="Value" /> to a <b>String</b> (<b>string</b> in C#).</span></span></summary>
+        <returns><span data-ttu-id="3dd64-109">Hexadecimal <b>String</b> (<b>cadena</b> en C#) que representa el valor convertido.</span><span class="sxs-lookup"><span data-stu-id="3dd64-109">A hexadecimal <b>String</b> (<b>string</b> in C#) that represents the converted value.</span></span></returns>
+        <remarks><para><span data-ttu-id="3dd64-110">Para obtener más información sobre la conversión de tipo cuando se utiliza el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></span><span class="sxs-lookup"><span data-stu-id="3dd64-110">For more information on type conversion when using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -162,16 +103,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0b8-111">Devuelve una constante en el <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> (enumeración) que indica la clase de la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-111">Returns a constant in the  <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> enumeration indicating the class of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span>
-          </span>
-          <span data-ttu-id="cb0b8-112">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="3dd64-111">Devuelve una constante en el <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> (enumeración) que indica la clase de la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="3dd64-111">Returns a constant in the  <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> enumeration indicating the class of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span></span> <span data-ttu-id="3dd64-112">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="3dd64-112">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -199,52 +131,11 @@
         <Parameter Name="SchemaNames" Type="System.Object&amp;" RefType="ref" />
       </Parameters>
       <Docs>
-        <param name="SchemaNames">
-          <span data-ttu-id="cb0b8-113">Una matriz que contiene los nombres de las propiedades que se va a eliminar del objeto primario de la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-113">An array that contains the names of the properties that are to be deleted for the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span>
-          </span>
-          <span data-ttu-id="cb0b8-114">Estas propiedades se hace referencia por espacio de nombres.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-114">These properties are referenced by namespace.</span>
-          </span>
-          <span data-ttu-id="cb0b8-115">Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Hacer referencia a propiedades por Namespace</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-115">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="cb0b8-116">Elimina las propiedades especificadas en la matriz <paramref name="SchemaNames" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-116">Deletes the properties specified in the array <paramref name="SchemaNames" />.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="cb0b8-117">Un <b>objeto</b> que es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si la operación se realizó correctamente, o es una matriz de objetos <b>Err</b> si se produce un error.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-117">An <b>Object</b> that is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the operation is successful, or is an array of <b>Err</b> objects if an error occurs.</span>
-          </span>
-          <span data-ttu-id="cb0b8-118">Si el valor devuelto es una matriz, el tamaño de esta matriz es el mismo que el de la matriz SchemaNames.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-118">If the return value is an array, the size of this array is the same as that of the SchemaNames array.</span>
-          </span>
-          <span data-ttu-id="cb0b8-119">El resultado de eliminar la propiedad correspondiente en el parámetro <b>SchemaNames</b> de error, se asigna un valor Err de la matriz.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-119">An <b>Err</b> value in the array is mapped to the error result of deleting the corresponding property in the SchemaNames parameter.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="cb0b8-120">
-            <para>El llamador debe tener el permiso para eliminar propiedades. El método <b>DeleteProperties</b> sólo elimina las propiedades personalizadas que existen. No se elimina ninguna propiedad integrada de Outlook ni ninguna propiedad MAPI. No elimina las propiedades personalizadas de la <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> objeto.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-120">
-              <para>The caller must have the permission to delete properties. The <b>DeleteProperties</b> method only deletes custom properties that exist. It does not delete any Outlook built-in property or any MAPI property. It does not delete custom properties of the <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="SchemaNames"><span data-ttu-id="3dd64-113">Una matriz que contiene los nombres de las propiedades que se va a eliminar del objeto primario de la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="3dd64-113">An array that contains the names of the properties that are to be deleted for the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span></span> <span data-ttu-id="3dd64-114">Estas propiedades se hace referencia por espacio de nombres.</span><span class="sxs-lookup"><span data-stu-id="3dd64-114">These properties are referenced by namespace.</span></span> <span data-ttu-id="3dd64-115">Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Hacer referencia a propiedades por Namespace</a></span><span class="sxs-lookup"><span data-stu-id="3dd64-115">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span></span></param>
+        <summary><span data-ttu-id="3dd64-116">Elimina las propiedades especificadas en la matriz <paramref name="SchemaNames" />.</span><span class="sxs-lookup"><span data-stu-id="3dd64-116">Deletes the properties specified in the array <paramref name="SchemaNames" />.</span></span></summary>
+        <returns><span data-ttu-id="3dd64-117">Un <b>objeto</b> que es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si la operación se realizó correctamente, o es una matriz de objetos <b>Err</b> si se produce un error.</span><span class="sxs-lookup"><span data-stu-id="3dd64-117">An <b>Object</b> that is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the operation is successful, or is an array of <b>Err</b> objects if an error occurs.</span></span> <span data-ttu-id="3dd64-118">Si el valor devuelto es una matriz, el tamaño de esta matriz es el mismo que el de la matriz SchemaNames.</span><span class="sxs-lookup"><span data-stu-id="3dd64-118">If the return value is an array, the size of this array is the same as that of the SchemaNames array.</span></span> <span data-ttu-id="3dd64-119">El resultado de eliminar la propiedad correspondiente en el parámetro <b>SchemaNames</b> de error, se asigna un valor Err de la matriz.</span><span class="sxs-lookup"><span data-stu-id="3dd64-119">An <b>Err</b> value in the array is mapped to the error result of deleting the corresponding property in the SchemaNames parameter.</span></span></returns>
+        <remarks><para><span data-ttu-id="3dd64-120">El llamador debe tener el permiso para eliminar propiedades.</span><span class="sxs-lookup"><span data-stu-id="3dd64-120">The caller must have the permission to delete properties.</span></span> <span data-ttu-id="3dd64-121">El método <b>DeleteProperties</b> sólo elimina las propiedades personalizadas existentes.</span><span class="sxs-lookup"><span data-stu-id="3dd64-121">The <b>DeleteProperties</b> method only deletes custom properties that exist.</span></span> <span data-ttu-id="3dd64-122">No se elimina ninguna propiedad integrada de Outlook ni ninguna propiedad MAPI.</span><span class="sxs-lookup"><span data-stu-id="3dd64-122">It does not delete any Outlook built-in property or any MAPI property.</span></span> <span data-ttu-id="3dd64-123">No elimina las propiedades personalizadas de la <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="3dd64-123">It does not delete custom properties of the <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeleteProperty">
@@ -270,38 +161,10 @@
         <Parameter Name="SchemaName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="SchemaName">
-          <span data-ttu-id="cb0b8-121">El nombre de la propiedad que se va a eliminar del objeto primario de la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-121">The name of the property that is to be deleted for the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span>
-          </span>
-          <span data-ttu-id="cb0b8-122">La propiedad se hace referencia por espacio de nombres.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-122">The property is referenced by namespace.</span>
-          </span>
-          <span data-ttu-id="cb0b8-123">Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Hacer referencia a propiedades por Namespace</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-123">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="cb0b8-124">Elimina la propiedad especificada por <paramref name="SchemaName" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-124">Deletes the property specified by <paramref name="SchemaName" />.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="cb0b8-125">
-            <para>El llamador debe tener el permiso para eliminar propiedades. El método <b>DeleteProperty</b> elimina sólo las propiedades personalizadas; no se elimina ninguna propiedad integrada de Outlook ni ninguna propiedad MAPI. No elimina las propiedades personalizadas de la <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> objeto.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-125">
-              <para>The caller must have the permission to delete properties. The <b>DeleteProperty</b> method deletes only custom properties; it does not delete any Outlook built-in property or any MAPI property. It does not delete custom properties of the <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="SchemaName"><span data-ttu-id="3dd64-124">El nombre de la propiedad que se va a eliminar del objeto primario de la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="3dd64-124">The name of the property that is to be deleted for the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span></span> <span data-ttu-id="3dd64-125">La propiedad se hace referencia por espacio de nombres.</span><span class="sxs-lookup"><span data-stu-id="3dd64-125">The property is referenced by namespace.</span></span> <span data-ttu-id="3dd64-126">Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Hacer referencia a propiedades por Namespace</a></span><span class="sxs-lookup"><span data-stu-id="3dd64-126">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span></span></param>
+        <summary><span data-ttu-id="3dd64-127">Elimina la propiedad especificada por <paramref name="SchemaName" />.</span><span class="sxs-lookup"><span data-stu-id="3dd64-127">Deletes the property specified by <paramref name="SchemaName" />.</span></span></summary>
+        <remarks><para><span data-ttu-id="3dd64-128">El llamador debe tener el permiso para eliminar propiedades.</span><span class="sxs-lookup"><span data-stu-id="3dd64-128">The caller must have the permission to delete properties.</span></span> <span data-ttu-id="3dd64-129">El método <b>DeleteProperty</b> elimina sólo las propiedades personalizadas; no se elimina ninguna propiedad integrada de Outlook ni ninguna propiedad MAPI.</span><span class="sxs-lookup"><span data-stu-id="3dd64-129">The <b>DeleteProperty</b> method deletes only custom properties; it does not delete any Outlook built-in property or any MAPI property.</span></span> <span data-ttu-id="3dd64-130">No elimina las propiedades personalizadas de la <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="3dd64-130">It does not delete custom properties of the <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetProperties">
@@ -327,54 +190,12 @@
         <Parameter Name="SchemaNames" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="SchemaNames">
-          <span data-ttu-id="cb0b8-126">Matriz que contiene los nombres de las propiedades cuyos valores se van a devolver.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-126">An array that contains the names of the properties whose values are to be returned.</span>
-          </span>
-          <span data-ttu-id="cb0b8-127">El espacio de nombres hace referencia a estas propiedades.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-127">These properties are referenced by namespace.</span>
-          </span>
-          <span data-ttu-id="cb0b8-128">Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Hacer referencia a propiedades por Namespace</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-128">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="cb0b8-129">Obtiene los valores de las propiedades especificadas por la matriz unidimensional <paramref name="SchemaNames" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-129">Obtains the values of the properties specified by the one-dimensional array <paramref name="SchemaNames" />.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="cb0b8-130">Un <b>objeto</b> que representa una matriz de valores de las propiedades especificadas en el parámetro <paramref name="SchemaNames" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-130">An <b>Object</b> that represents an array of values of the properties specified in the parameter <paramref name="SchemaNames" />.</span>
-          </span>
-          <span data-ttu-id="cb0b8-131">El número de elementos en la matriz devuelta es igual al número de elementos de la <paramref name="SchemaNames" /> matriz.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-131">The number of elements in the returned array equals the number of elements in the <paramref name="SchemaNames" /> array.</span>
-          </span>
-          <span data-ttu-id="cb0b8-132">Si se produce un error al obtener una propiedad específica, se devolverá el valor de <b>Err</b> en la ubicación correspondiente en la matriz devuelta.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-132">If an error occurs for getting a specific property, the <b>Err</b> value will be returned in the corresponding location in the returned array.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="cb0b8-133">
-            <para>La matriz devuelta por <b>GetProperties</b> puede contener elementos de distintos tipos, según el tipo de la propiedad solicitada. El tipo de elemento de la matriz devuelto por <b>GetProperties</b> será el mismo que el tipo de la propiedad subyacente. Ciertos tipos de propiedades sin procesar como <b>pt Object</b> no son compatibles y provocan un error. Si necesita la conversión del tipo de propiedad sin procesar, por ejemplo, de <b>PT_BINARY</b> a una cadena o de <b>PT_SYSTIME</b> a la hora local, use los métodos auxiliares <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" /> y <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />. </para>
-            <para>Para obtener más información sobre la obtención de propiedades que usen el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-133">
-              <para>The array returned by <b>GetProperties</b> can contain elements of different types, depending on the type of the property requested. The type of the array element returned by <b>GetProperties</b> will be the same as the type of the underlying property. Certain raw property types such as <b>PT_OBJECT</b> are unsupported and will raise an error. If you require conversion of the raw property type, for example, from <b>PT_BINARY</b> to a string, or from <b>PT_SYSTIME</b> to  a local time, use the helper methods  <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" /> and <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />. </para>
-              <para>For more information on getting properties using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="SchemaNames"><span data-ttu-id="3dd64-131">Matriz que contiene los nombres de las propiedades cuyos valores se van a devolver.</span><span class="sxs-lookup"><span data-stu-id="3dd64-131">An array that contains the names of the properties whose values are to be returned.</span></span> <span data-ttu-id="3dd64-132">El espacio de nombres hace referencia a estas propiedades.</span><span class="sxs-lookup"><span data-stu-id="3dd64-132">These properties are referenced by namespace.</span></span> <span data-ttu-id="3dd64-133">Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Hacer referencia a propiedades por Namespace</a></span><span class="sxs-lookup"><span data-stu-id="3dd64-133">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span></span></param>
+        <summary><span data-ttu-id="3dd64-134">Obtiene los valores de las propiedades especificadas por la matriz unidimensional <paramref name="SchemaNames" />.</span><span class="sxs-lookup"><span data-stu-id="3dd64-134">Obtains the values of the properties specified by the one-dimensional array <paramref name="SchemaNames" />.</span></span></summary>
+        <returns><span data-ttu-id="3dd64-135">Un <b>objeto</b> que representa una matriz de valores de las propiedades especificadas en el parámetro <paramref name="SchemaNames" />.</span><span class="sxs-lookup"><span data-stu-id="3dd64-135">An <b>Object</b> that represents an array of values of the properties specified in the parameter <paramref name="SchemaNames" />.</span></span> <span data-ttu-id="3dd64-136">El número de elementos en la matriz devuelta es igual al número de elementos de la <paramref name="SchemaNames" /> matriz.</span><span class="sxs-lookup"><span data-stu-id="3dd64-136">The number of elements in the returned array equals the number of elements in the <paramref name="SchemaNames" /> array.</span></span>  <span data-ttu-id="3dd64-137">Si se produce un error al obtener una propiedad específica, se devolverá el valor de <b>Err</b> en la ubicación correspondiente en la matriz devuelta.</span><span class="sxs-lookup"><span data-stu-id="3dd64-137">If an error occurs for getting a specific property, the <b>Err</b> value will be returned in the corresponding location in the returned array.</span></span></returns>
+        <remarks><para><span data-ttu-id="3dd64-138">La matriz devuelta por <b>GetProperties</b> puede contener elementos de distintos tipos, según el tipo de la propiedad solicitada.</span><span class="sxs-lookup"><span data-stu-id="3dd64-138">The array returned by <b>GetProperties</b> can contain elements of different types, depending on the type of the property requested.</span></span> <span data-ttu-id="3dd64-139">El tipo de elemento de la matriz devuelto por <b>GetProperties</b> será el mismo que el tipo de la propiedad subyacente.</span><span class="sxs-lookup"><span data-stu-id="3dd64-139">The type of the array element returned by <b>GetProperties</b> will be the same as the type of the underlying property.</span></span> <span data-ttu-id="3dd64-140">Ciertos tipos de propiedades sin procesar como <b>pt Object</b> no son compatibles y provocan un error.</span><span class="sxs-lookup"><span data-stu-id="3dd64-140">Certain raw property types such as <b>PT_OBJECT</b> are unsupported and will raise an error.</span></span> <span data-ttu-id="3dd64-141">Si necesita la conversión del tipo de propiedad sin procesar, por ejemplo, de <b>PT_BINARY</b> a una cadena o de <b>PT_SYSTIME</b> a la hora local, use los métodos auxiliares <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" /> y <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />.</span><span class="sxs-lookup"><span data-stu-id="3dd64-141">If you require conversion of the raw property type, for example, from <b>PT_BINARY</b> to a string, or from <b>PT_SYSTIME</b> to  a local time, use the helper methods  <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" /> and <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />.</span></span> </para>
+          <para><span data-ttu-id="3dd64-142">Para obtener más información sobre la obtención de propiedades que usen el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></span><span class="sxs-lookup"><span data-stu-id="3dd64-142">For more information on getting properties using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetProperty">
@@ -400,46 +221,12 @@
         <Parameter Name="SchemaName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="SchemaName">
-          <span data-ttu-id="cb0b8-134">Nombre de la propiedad cuyo valor se va a devolver.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-134">The name of the property whose value is to be returned.</span>
-          </span>
-          <span data-ttu-id="cb0b8-135">El espacio de nombres hace referencia a la propiedad.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-135">The property is referenced by namespace.</span>
-          </span>
-          <span data-ttu-id="cb0b8-136">Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Hacer referencia a propiedades por Namespace</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-136">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="cb0b8-137">Devuelve un objeto <b>Object</b> que representa el valor de la propiedad especificada por <paramref name="SchemaName" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-137">Returns an <b>Object</b> that represents the value of the property specified by <paramref name="SchemaName" />.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="cb0b8-138">El valor de un <b>objeto</b> que representa el valor de la propiedad solicitada como especificado por <paramref name="SchemaName" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-138">An <b>Object</b> value that represents the value of the requested property as specified by <paramref name="SchemaName" />.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="cb0b8-139">
-            <para>El tipo del valor devuelto será el mismo que el tipo de la propiedad subyacente. Ciertos tipos de propiedades sin procesar como <b>pt Object</b> no son compatibles y provocan un error. Si necesita la conversión del tipo de propiedad sin procesar, por ejemplo, de <b>PT_BINARY</b> a una cadena o de <b>PT_SYSTIME</b> a la hora local, use los métodos auxiliares <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" /> y <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />. </para>
-            <para>Para obtener más información sobre la obtención de propiedades que usen el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-139">
-              <para>The type of the return value will be the same as the type of the underlying property. Certain raw property types such as <b>PT_OBJECT</b> are unsupported and will raise an error. If you require conversion of the raw property type, for example, from <b>PT_BINARY</b> to a string, or from <b>PT_SYSTIME</b> to a local time, use the helper methods <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" /> and <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />. </para>
-              <para>For more information on getting properties using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="SchemaName"><span data-ttu-id="3dd64-143">Nombre de la propiedad cuyo valor se va a devolver.</span><span class="sxs-lookup"><span data-stu-id="3dd64-143">The name of the property whose value is to be returned.</span></span> <span data-ttu-id="3dd64-144">El espacio de nombres hace referencia a la propiedad.</span><span class="sxs-lookup"><span data-stu-id="3dd64-144">The property is referenced by namespace.</span></span> <span data-ttu-id="3dd64-145">Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Hacer referencia a propiedades por Namespace</a></span><span class="sxs-lookup"><span data-stu-id="3dd64-145">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span></span></param>
+        <summary><span data-ttu-id="3dd64-146">Devuelve un objeto <b>Object</b> que representa el valor de la propiedad especificada por <paramref name="SchemaName" />.</span><span class="sxs-lookup"><span data-stu-id="3dd64-146">Returns an <b>Object</b> that represents the value of the property specified by <paramref name="SchemaName" />.</span></span></summary>
+        <returns><span data-ttu-id="3dd64-147">El valor de un <b>objeto</b> que representa el valor de la propiedad solicitada como especificado por <paramref name="SchemaName" />.</span><span class="sxs-lookup"><span data-stu-id="3dd64-147">An <b>Object</b> value that represents the value of the requested property as specified by <paramref name="SchemaName" />.</span></span></returns>
+        <remarks><para><span data-ttu-id="3dd64-148">El tipo del valor devuelto será el mismo que el tipo de la propiedad subyacente.</span><span class="sxs-lookup"><span data-stu-id="3dd64-148">The type of the return value will be the same as the type of the underlying property.</span></span> <span data-ttu-id="3dd64-149">Ciertos tipos de propiedades sin procesar como <b>pt Object</b> no son compatibles y provocan un error.</span><span class="sxs-lookup"><span data-stu-id="3dd64-149">Certain raw property types such as <b>PT_OBJECT</b> are unsupported and will raise an error.</span></span> <span data-ttu-id="3dd64-150">Si necesita la conversión del tipo de propiedad sin procesar, por ejemplo, de <b>PT_BINARY</b> a una cadena o de <b>PT_SYSTIME</b> a la hora local, use los métodos auxiliares <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" /> y <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />.</span><span class="sxs-lookup"><span data-stu-id="3dd64-150">If you require conversion of the raw property type, for example, from <b>PT_BINARY</b> to a string, or from <b>PT_SYSTIME</b> to a local time, use the helper methods <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" /> and <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />.</span></span> </para>
+          <para><span data-ttu-id="3dd64-151">Para obtener más información sobre la obtención de propiedades que usen el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></span><span class="sxs-lookup"><span data-stu-id="3dd64-151">For more information on getting properties using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LocalTimeToUTC">
@@ -465,36 +252,11 @@
         <Parameter Name="Value" Type="System.DateTime" />
       </Parameters>
       <Docs>
-        <param name="Value">
-          <span data-ttu-id="cb0b8-140">El valor de DateTime que se va a convertir de hora local a la hora UTC.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-140">The DateTime value to be converted from local time to UTC.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="cb0b8-141">Convierte un valor de fecha y hora especificado por <paramref name="Value" /> desde el formato de hora local al formato hora Universal coordinada (UTC).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-141">Converts a DateTime value specified by <paramref name="Value" /> from the  local time format to Coordinated Universal Time (UTC) format.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="cb0b8-142">Un valor de fecha y hora que representa <paramref name="Value" /> después de convertirse de la hora local a la hora UTC.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-142">A DateTime value that represents <paramref name="Value" /> after being converted from local time to UTC.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="cb0b8-143">
-            <para>Para obtener más información sobre la conversión de tipo cuando se utiliza el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-143">
-              <para>For more information on type conversion when using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Value"><span data-ttu-id="3dd64-152">El valor de DateTime que se va a convertir de hora local a la hora UTC.</span><span class="sxs-lookup"><span data-stu-id="3dd64-152">The DateTime value to be converted from local time to UTC.</span></span></param>
+        <summary><span data-ttu-id="3dd64-153">Convierte un valor de fecha y hora especificado por <paramref name="Value" /> desde el formato de hora local al formato hora Universal coordinada (UTC).</span><span class="sxs-lookup"><span data-stu-id="3dd64-153">Converts a DateTime value specified by <paramref name="Value" /> from the  local time format to Coordinated Universal Time (UTC) format.</span></span></summary>
+        <returns><span data-ttu-id="3dd64-154">Un valor de fecha y hora que representa <paramref name="Value" /> después de convertirse de la hora local a la hora UTC.</span><span class="sxs-lookup"><span data-stu-id="3dd64-154">A DateTime value that represents <paramref name="Value" /> after being converted from local time to UTC.</span></span></returns>
+        <remarks><para><span data-ttu-id="3dd64-155">Para obtener más información sobre la conversión de tipo cuando se utiliza el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></span><span class="sxs-lookup"><span data-stu-id="3dd64-155">For more information on type conversion when using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -520,16 +282,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0b8-144">Devuelve el objeto primario de la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-144">Returns the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span>
-          </span>
-          <span data-ttu-id="cb0b8-145">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-145">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="3dd64-156">Devuelve el objeto primario de la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="3dd64-156">Returns the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object.</span></span> <span data-ttu-id="3dd64-157">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="3dd64-157">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -557,41 +310,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0b8-146">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-146">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span>
-          </span>
-          <span data-ttu-id="cb0b8-147">Es de solo lectura</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-147">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="3dd64-158">Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="3dd64-158">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span></span>  <span data-ttu-id="3dd64-159">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="3dd64-159">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="cb0b8-148">
-            <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método se puede utilizar indistintamente para obtener la <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="3dd64-160">La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método se puede utilizar indistintamente para obtener la <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual.</span><span class="sxs-lookup"><span data-stu-id="3dd64-160">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span></span> <span data-ttu-id="3dd64-161">Los dos miembros tienen el mismo propósito.</span><span class="sxs-lookup"><span data-stu-id="3dd64-161">Both members serve the same purpose.</span></span> <span data-ttu-id="3dd64-162">Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</span><span class="sxs-lookup"><span data-stu-id="3dd64-162">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-148">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetProperties">
@@ -618,88 +346,39 @@
         <Parameter Name="Values" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="SchemaNames">
-          <span data-ttu-id="cb0b8-149">Una matriz de nombres de propiedades cuyos valores se va a establecer como especificado por el parámetro de valores.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-149">An array of names of properties whose values are to be set as specified by the Values parameter.</span>
-          </span>
-          <span data-ttu-id="cb0b8-150">Estas propiedades se hace referencia por espacio de nombres.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-150">These properties are referenced by namespace.</span>
-          </span>
-          <span data-ttu-id="cb0b8-151">Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Hacer referencia a propiedades por Namespace</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-151">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span>
-          </span>
-        </param>
-        <param name="Values">
-          <span data-ttu-id="cb0b8-152">Matriz de valores que se van a establecer para las propiedades especificadas por el parámetro SchemaNames.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-152">An array of values that are to be set for the properties specified by the SchemaNames parameter.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="cb0b8-153">Establece las propiedades especificadas por la matriz <paramref name="SchemaNames" /> a los valores especificados por la matriz <paramref name="Values" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-153">Sets the properties specified by the array <paramref name="SchemaNames" /> to the values specified by the array <paramref name="Values" />.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="cb0b8-154">Un <b>objeto</b> que es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si la operación se realiza correctamente.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-154">An <b>Object</b> that is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the operation is successful.</span>
-          </span>
-          <span data-ttu-id="cb0b8-155">Si se produce un error antes de que se establecen las propiedades, por ejemplo, el número de elementos de la matriz de SchemaNames no coincide con en la matriz de Values, y se devolverá un valor <b>Err</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-155">If there is an error before any properties are set, for example, the number of elements in the SchemaNames array does not match that in the Values array, and an <b>Err</b> value will be returned.</span>
-          </span>
-          <span data-ttu-id="cb0b8-156">Si se ha producido un error durante la configuración de las propiedades, el valor devuelto es una matriz de objetos <b>Err</b> , el número de elementos de esta matriz es el mismo que el de la matriz SchemaNames.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-156">If there is an error during the setting of the properties, the return value is an array of <b>Err</b> objects, with the number  of elements in this array being the same as that of the SchemaNames array.</span>
-          </span>
-          <span data-ttu-id="cb0b8-157">Se asigna un valor <b>Err</b> de la matriz en el resultado de error de configuración de la propiedad correspondiente en el parámetro SchemaNames.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-157">An <b>Err</b> value in the array is mapped to the error result of setting the corresponding property in the SchemaNames parameter.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="cb0b8-158">
-            <para>Si la propiedad no existe y la <paramref name="SchemaNames" /> elemento contiene un especificador de propiedad válido, a continuación, <b>SetProperties</b> crea la propiedad y se asigna la propiedad con el valor especificado por <paramref name="Values" />. El tipo de la propiedad será el tipo del elemento pasado en <paramref name="Values" />. Si la propiedad existe, <b>SetProperties</b> asigna a la propiedad el valor especificado por <paramref name="Values" />.</para> Tenga en cuenta que una propiedad personalizada creada mediante el uso de <b>PropertyAccessor</b> no se admite en una vista personalizada de 
-          <para>. Si desea ver una propiedad personalizada en un elemento, crear la propiedad mediante el uso de la <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> método.</para><para>Si el objeto primario de la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> admite explícita operación de <b>Guardar</b> y, a continuación, las propiedades se deben guardar en el objeto con un explícitas <b>Guardar</b> llamada al método. Si el objeto no admite explícita operación de <b>Guardar</b> y, a continuación, las propiedades se guardan en el objeto cuando se llame a <b>SetProperties</b> . </para><para>Debe tener cuidado y asegúrese de que todas las excepciones se controlan correctamente. Condiciones donde se produce un error de configuración propiedades incluye:</para><list type="bullet"><item><para>la propiedad es de sólo lectura, como algunos Outlook y MAPI son propiedades de sólo lectura.</para></item><item><para>La propiedad al que hace referencia el espacio de nombres especificado no se encuentra.</para></item><item><para>La propiedad especificada en un formato no válido y no se puede analizar.</para></item><item><para>La propiedad no existe y no se puede crear.</para></item><item><para>La propiedad existe pero se pasa un valor de un tipo incorrecto.</para></item><item><para>No puede abrir la propiedad porque el cliente no está conectado.</para></item><item><para>La propiedad se crea mediante el método <b>Add</b> de la <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> objeto. Al establecer la propiedad por primera vez, debe usar el <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> (propiedad) de la <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> objeto, en lugar de la <b>SetProperties</b> o <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> método del objeto <b>PropertyAccessor</b> .</para></item></list><para>Para obtener más información sobre cómo configurar propiedades que usen el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-158">
-              <para>If the property does not exist and the <paramref name="SchemaNames" /> element contains a valid property specifier, then <b>SetProperties</b> creates the property and assigns the property with  the value specified by <paramref name="Values" />. The type of the property will be the type of the element passed in <paramref name="Values" />. If the property does exist, then <b>SetProperties</b> assigns the property the value as specified by <paramref name="Values" />.</para>
-              <para>Note that a custom property created by using the <b>PropertyAccessor</b> is not supported in a custom view. If you want to view a custom property on an item, create the property by using the <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> method.</para>
-              <para>If the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> supports an explicit <b>Save</b> operation, then the properties should be saved to the object with an explicit <b>Save</b> method call. If the object does not support an explicit <b>Save</b> operation, then the properties are saved to the object when <b>SetProperties</b> is called. </para>
-              <para>Use caution and ensure that all exceptions are handled correctly. Conditions where setting properties fails include:</para>
-              <list type="bullet">
-                <item>
-                  <para>The property is read-only, as some Outlook and MAPI properties are read-only.</para>
-                </item>
-                <item>
-                  <para>The property referenced by the specified namespace is not found.</para>
-                </item>
-                <item>
-                  <para>The property is specified in an invalid format and cannot be parsed.</para>
-                </item>
-                <item>
-                  <para>The property does not exist and cannot be created.</para>
-                </item>
-                <item>
-                  <para>The property exists but is passed a value of an incorrect type.</para>
-                </item>
-                <item>
-                  <para>Cannot open the property because the client is offline.</para>
-                </item>
-                <item>
-                  <para>The property is created using the <b>Add</b> method of the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> object. When setting the property for the first time, you must use the <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> object, instead of the <b>SetProperties</b> or <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> method of the <b>PropertyAccessor</b> object.</para>
-                </item>
-              </list>
-              <para>For more information on setting properties using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="SchemaNames"><span data-ttu-id="3dd64-163">Una matriz de nombres de propiedades cuyos valores se va a establecer como especificado por el parámetro de valores.</span><span class="sxs-lookup"><span data-stu-id="3dd64-163">An array of names of properties whose values are to be set as specified by the Values parameter.</span></span> <span data-ttu-id="3dd64-164">Estas propiedades se hace referencia por espacio de nombres.</span><span class="sxs-lookup"><span data-stu-id="3dd64-164">These properties are referenced by namespace.</span></span> <span data-ttu-id="3dd64-165">Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Hacer referencia a propiedades por Namespace</a></span><span class="sxs-lookup"><span data-stu-id="3dd64-165">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span></span></param>
+        <param name="Values"><span data-ttu-id="3dd64-166">Matriz de valores que se van a establecer para las propiedades especificadas por el parámetro SchemaNames.</span><span class="sxs-lookup"><span data-stu-id="3dd64-166">An array of values that are to be set for the properties specified by the SchemaNames parameter.</span></span></param>
+        <summary><span data-ttu-id="3dd64-167">Establece las propiedades especificadas por la matriz <paramref name="SchemaNames" /> a los valores especificados por la matriz <paramref name="Values" />.</span><span class="sxs-lookup"><span data-stu-id="3dd64-167">Sets the properties specified by the array <paramref name="SchemaNames" /> to the values specified by the array <paramref name="Values" />.</span></span></summary>
+        <returns><span data-ttu-id="3dd64-168">Un <b>objeto</b> que es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si la operación se realiza correctamente.</span><span class="sxs-lookup"><span data-stu-id="3dd64-168">An <b>Object</b> that is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the operation is successful.</span></span> <span data-ttu-id="3dd64-169">Si se produce un error antes de que se establecen las propiedades, por ejemplo, el número de elementos de la matriz de SchemaNames no coincide con en la matriz de Values, y se devolverá un valor <b>Err</b>.</span><span class="sxs-lookup"><span data-stu-id="3dd64-169">If there is an error before any properties are set, for example, the number of elements in the SchemaNames array does not match that in the Values array, and an <b>Err</b> value will be returned.</span></span> <span data-ttu-id="3dd64-170">Si se ha producido un error durante la configuración de las propiedades, el valor devuelto es una matriz de objetos <b>Err</b> , el número de elementos de esta matriz es el mismo que el de la matriz SchemaNames.</span><span class="sxs-lookup"><span data-stu-id="3dd64-170">If there is an error during the setting of the properties, the return value is an array of <b>Err</b> objects, with the number  of elements in this array being the same as that of the SchemaNames array.</span></span> <span data-ttu-id="3dd64-171">Se asigna un valor <b>Err</b> de la matriz en el resultado de error de configuración de la propiedad correspondiente en el parámetro SchemaNames.</span><span class="sxs-lookup"><span data-stu-id="3dd64-171">An <b>Err</b> value in the array is mapped to the error result of setting the corresponding property in the SchemaNames parameter.</span></span></returns>
+        <remarks><para><span data-ttu-id="3dd64-172">Si la propiedad no existe y la <paramref name="SchemaNames" /> elemento contiene un especificador de propiedad válido, a continuación, <b>SetProperties</b> crea la propiedad y se asigna la propiedad con el valor especificado por <paramref name="Values" />.</span><span class="sxs-lookup"><span data-stu-id="3dd64-172">If the property does not exist and the <paramref name="SchemaNames" /> element contains a valid property specifier, then <b>SetProperties</b> creates the property and assigns the property with  the value specified by <paramref name="Values" />.</span></span> <span data-ttu-id="3dd64-173">El tipo de la propiedad será el tipo del elemento pasado en <paramref name="Values" />.</span><span class="sxs-lookup"><span data-stu-id="3dd64-173">The type of the property will be the type of the element passed in <paramref name="Values" />.</span></span> <span data-ttu-id="3dd64-174">Si la propiedad existe, <b>SetProperties</b> asigna a la propiedad el valor especificado por <paramref name="Values" />.</span><span class="sxs-lookup"><span data-stu-id="3dd64-174">If the property does exist, then <b>SetProperties</b> assigns the property the value as specified by <paramref name="Values" />.</span></span></para>
+          <para><span data-ttu-id="3dd64-175">Tenga en cuenta que no se admite en una vista personalizada una propiedad personalizada creada usando <b>PropertyAccessor</b>.</span><span class="sxs-lookup"><span data-stu-id="3dd64-175">Note that a custom property created by using the <b>PropertyAccessor</b> is not supported in a custom view.</span></span> <span data-ttu-id="3dd64-176">Si desea ver una propiedad personalizada en un elemento, crear la propiedad mediante el uso de la <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> (método).</span><span class="sxs-lookup"><span data-stu-id="3dd64-176">If you want to view a custom property on an item, create the property by using the <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> method.</span></span></para>
+          <para><span data-ttu-id="3dd64-177">Si el objeto primario de la <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> admite explícita operación de <b>Guardar</b> y, a continuación, las propiedades se deben guardar en el objeto con un explícitas <b>Guardar</b> llamada al método.</span><span class="sxs-lookup"><span data-stu-id="3dd64-177">If the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> supports an explicit <b>Save</b> operation, then the properties should be saved to the object with an explicit <b>Save</b> method call.</span></span> <span data-ttu-id="3dd64-178">Si el objeto no admite explícita operación de <b>Guardar</b> y, a continuación, las propiedades se guardan en el objeto cuando se llame a <b>SetProperties</b>.</span><span class="sxs-lookup"><span data-stu-id="3dd64-178">If the object does not support an explicit <b>Save</b> operation, then the properties are saved to the object when <b>SetProperties</b> is called.</span></span> </para>
+          <para><span data-ttu-id="3dd64-p122">Tenga cuidado y asegúrese de que se controlan todas las excepciones correctamente. Las condiciones en las que el establecimiento de las propiedades genera un error incluyen las siguientes:</span><span class="sxs-lookup"><span data-stu-id="3dd64-p122">Use caution and ensure that all exceptions are handled correctly. Conditions where setting properties fails include:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="3dd64-181">La propiedad es de sólo lectura, ya que algunas propiedades de Outlook y MAPI son de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="3dd64-181">The property is read-only, as some Outlook and MAPI properties are read-only.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="3dd64-182">La propiedad a la que hace referencia el espacio de nombres especificado no se encuentra.</span><span class="sxs-lookup"><span data-stu-id="3dd64-182">The property referenced by the specified namespace is not found.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="3dd64-183">La propiedad se especifica en un formato no válido y no se puede analizar.</span><span class="sxs-lookup"><span data-stu-id="3dd64-183">The property is specified in an invalid format and cannot be parsed.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="3dd64-184">La propiedad no existe y no se puede crear.</span><span class="sxs-lookup"><span data-stu-id="3dd64-184">The property does not exist and cannot be created.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="3dd64-185">La propiedad existe pero se pasa a un valor de un tipo que no es correcto.</span><span class="sxs-lookup"><span data-stu-id="3dd64-185">The property exists but is passed a value of an incorrect type.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="3dd64-186">No se puede abrir la propiedad porque el cliente no está conectado.</span><span class="sxs-lookup"><span data-stu-id="3dd64-186">Cannot open the property because the client is offline.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="3dd64-187">La propiedad se crea mediante el método <b>Add</b> de la <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="3dd64-187">The property is created using the <b>Add</b> method of the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> object.</span></span> <span data-ttu-id="3dd64-188">Al establecer la propiedad por primera vez, debe usar el <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> (propiedad) de la <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> objeto, en lugar de la <b>SetProperties</b> o <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> método del objeto <b>PropertyAccessor</b> .</span><span class="sxs-lookup"><span data-stu-id="3dd64-188">When setting the property for the first time, you must use the <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> object, instead of the <b>SetProperties</b> or <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> method of the <b>PropertyAccessor</b> object.</span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="3dd64-189">Para obtener más información acerca de cómo establecer las propiedades con el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></span><span class="sxs-lookup"><span data-stu-id="3dd64-189">For more information on setting properties using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetProperty">
@@ -726,70 +405,38 @@
         <Parameter Name="Value" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="SchemaName">
-          <span data-ttu-id="cb0b8-159">El nombre de una propiedad cuyo valor se va a establecer como especificado por <paramref name="Value" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-159">The name of a property whose value is to be set as specified by <paramref name="Value" />.</span>
-          </span>
-          <span data-ttu-id="cb0b8-160">La propiedad se hace referencia por espacio de nombres.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-160">The property is referenced by namespace.</span>
-          </span>
-          <span data-ttu-id="cb0b8-161">Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Hacer referencia a propiedades por Namespace</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-161">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span>
-          </span>
-        </param>
-        <param name="Value">
-          <span data-ttu-id="cb0b8-162">El valor que se va a establecer para la propiedad especificada por <paramref name="SchemaName" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-162">The value that is to be set for the property specified by <paramref name="SchemaName" />.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="cb0b8-163">Establece la propiedad especificada por <paramref name="SchemaName" /> en el valor especificado por <paramref name="Value" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-163">Sets the property specified by <paramref name="SchemaName" /> to the value specified by <paramref name="Value" />.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="cb0b8-164">
-            <para>Si la propiedad no existe y la <paramref name="SchemaName" /> contiene un especificador de propiedades válido, <b>SetProperty</b> crea la propiedad y se asigna el valor especificado por <paramref name="Value" />. Si la propiedad existe y <paramref name="SchemaName" /> es válida, a continuación, <b>SetProperty</b> asigna la propiedad con el valor especificado por <paramref name="Value" />.</para> Tenga en cuenta que una propiedad personalizada creada mediante el uso de <b>PropertyAccessor</b> no se admite en una vista personalizada de 
-          <para>. Si desea ver una propiedad personalizada en un elemento, crear la propiedad mediante el uso de la <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> método.</para><para>Si el objeto primario de <b>PropertyAccessor</b> admite una explícita operación de <b>Guardar</b> y, a continuación, las propiedades se deben guardar en el objeto con un explícitas <b>Guardar</b> llamada al método. Si el objeto no admite explícita operación de <b>Guardar</b> y, a continuación, las propiedades se guardan en el objeto cuando se llame a <b>SetProperties</b> . </para><para>Debe tener cuidado y asegúrese de que todas las excepciones se controlan correctamente. Condiciones donde se produce un error de configuración propiedades incluye:</para><list type="bullet"><item><para>la propiedad es de sólo lectura, como algunos Outlook y MAPI son propiedades de sólo lectura.</para></item><item><para>La propiedad al que hace referencia el espacio de nombres especificado no se encuentra.</para></item><item><para>La propiedad especificada en un formato no válido y no se puede analizar.</para></item><item><para>La propiedad no existe y no se puede crear.</para></item><item><para>La propiedad existe pero se pasa un valor de un tipo incorrecto.</para></item><item><para>No puede abrir la propiedad porque el cliente no está conectado.</para></item><item><para>La propiedad se crea mediante el método <b>Add</b> de la <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> objeto. Al establecer la propiedad por primera vez, debe usar el <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> (propiedad) de la <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> objeto, en lugar de la <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" /> o el método <b>SetProperty</b> del objeto <b>PropertyAccessor</b> .</para></item></list><para>Para obtener más información sobre cómo configurar propiedades que usen el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-164">
-              <para>If the property does not exist and the <paramref name="SchemaName" /> contains a valid property specifier, then <b>SetProperty</b> creates the property and assigns the value specified by <paramref name="Value" />. If the property does exist and <paramref name="SchemaName" /> is valid, then <b>SetProperty</b> assigns the property with the value specified by <paramref name="Value" />.</para>
-              <para>Note that a custom property created by using the <b>PropertyAccessor</b> is not supported in a custom view. If you want to view a custom property on an item, create the property by using the <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> method.</para>
-              <para>If the parent object of the <b>PropertyAccessor</b> supports an explicit <b>Save</b> operation, then the properties should be saved to the object with an explicit <b>Save</b> method call. If the object does not support an explicit <b>Save</b> operation, then the properties are saved to the object when <b>SetProperties</b> is called. </para>
-              <para>Use caution and ensure that all exceptions are handled correctly. Conditions where setting properties fails include:</para>
-              <list type="bullet">
-                <item>
-                  <para>The property is read-only, as some Outlook and MAPI properties are read-only.</para>
-                </item>
-                <item>
-                  <para>The property referenced by the specified namespace is not found.</para>
-                </item>
-                <item>
-                  <para>The property is specified in an invalid format and cannot be parsed.</para>
-                </item>
-                <item>
-                  <para>The property does not exist and cannot be created.</para>
-                </item>
-                <item>
-                  <para>The property exists but is passed a value of an incorrect type.</para>
-                </item>
-                <item>
-                  <para>Cannot open the property because the client is offline.</para>
-                </item>
-                <item>
-                  <para>The property is created using the <b>Add</b> method of the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> object. When setting the property for the first time, you must use the <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> object, instead of the <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" /> or <b>SetProperty</b> method of the <b>PropertyAccessor</b> object.</para>
-                </item>
-              </list>
-              <para>For more information on setting properties using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="SchemaName"><span data-ttu-id="3dd64-190">El nombre de una propiedad cuyo valor se va a establecer como especificado por <paramref name="Value" />.</span><span class="sxs-lookup"><span data-stu-id="3dd64-190">The name of a property whose value is to be set as specified by <paramref name="Value" />.</span></span> <span data-ttu-id="3dd64-191">La propiedad se hace referencia por espacio de nombres.</span><span class="sxs-lookup"><span data-stu-id="3dd64-191">The property is referenced by namespace.</span></span> <span data-ttu-id="3dd64-192">Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Hacer referencia a propiedades por Namespace</a></span><span class="sxs-lookup"><span data-stu-id="3dd64-192">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span></span></param>
+        <param name="Value"><span data-ttu-id="3dd64-193">El valor que se va a establecer para la propiedad especificada por <paramref name="SchemaName" />.</span><span class="sxs-lookup"><span data-stu-id="3dd64-193">The value that is to be set for the property specified by <paramref name="SchemaName" />.</span></span></param>
+        <summary><span data-ttu-id="3dd64-194">Establece la propiedad especificada por <paramref name="SchemaName" /> en el valor especificado por <paramref name="Value" />.</span><span class="sxs-lookup"><span data-stu-id="3dd64-194">Sets the property specified by <paramref name="SchemaName" /> to the value specified by <paramref name="Value" />.</span></span></summary>
+        <remarks><para><span data-ttu-id="3dd64-195">Si la propiedad no existe y la <paramref name="SchemaName" /> contiene un especificador de propiedades válido, <b>SetProperty</b> crea la propiedad y se asigna el valor especificado por <paramref name="Value" />.</span><span class="sxs-lookup"><span data-stu-id="3dd64-195">If the property does not exist and the <paramref name="SchemaName" /> contains a valid property specifier, then <b>SetProperty</b> creates the property and assigns the value specified by <paramref name="Value" />.</span></span> <span data-ttu-id="3dd64-196">Si la propiedad existe y <paramref name="SchemaName" /> es válida, a continuación, <b>SetProperty</b> asigna la propiedad con el valor especificado por <paramref name="Value" />.</span><span class="sxs-lookup"><span data-stu-id="3dd64-196">If the property does exist and <paramref name="SchemaName" /> is valid, then <b>SetProperty</b> assigns the property with the value specified by <paramref name="Value" />.</span></span></para>
+          <para><span data-ttu-id="3dd64-197">Tenga en cuenta que no se admite en una vista personalizada una propiedad personalizada creada usando <b>PropertyAccessor</b>.</span><span class="sxs-lookup"><span data-stu-id="3dd64-197">Note that a custom property created by using the <b>PropertyAccessor</b> is not supported in a custom view.</span></span> <span data-ttu-id="3dd64-198">Si desea ver una propiedad personalizada en un elemento, crear la propiedad mediante el uso de la <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> (método).</span><span class="sxs-lookup"><span data-stu-id="3dd64-198">If you want to view a custom property on an item, create the property by using the <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> method.</span></span></para>
+          <para><span data-ttu-id="3dd64-p127">Si el objeto primario de <b>PropertyAccessor</b> admite explícita operación de <b>Guardar</b> y, a continuación, las propiedades se deben guardar en el objeto con un explícitas <b>Guardar</b> llamada al método. Si el objeto no admite explícita operación de <b>Guardar</b> y, a continuación, las propiedades se guardan en el objeto cuando se llame a <b>SetProperties</b>.</span><span class="sxs-lookup"><span data-stu-id="3dd64-p127">If the parent object of the <b>PropertyAccessor</b> supports an explicit <b>Save</b> operation, then the properties should be saved to the object with an explicit <b>Save</b> method call. If the object does not support an explicit <b>Save</b> operation, then the properties are saved to the object when <b>SetProperties</b> is called. </span></span></para>
+          <para><span data-ttu-id="3dd64-p128">Tenga cuidado y asegúrese de que se controlan todas las excepciones correctamente. Las condiciones en las que el establecimiento de las propiedades genera un error incluyen las siguientes:</span><span class="sxs-lookup"><span data-stu-id="3dd64-p128">Use caution and ensure that all exceptions are handled correctly. Conditions where setting properties fails include:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="3dd64-203">La propiedad es de sólo lectura, ya que algunas propiedades de Outlook y MAPI son de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="3dd64-203">The property is read-only, as some Outlook and MAPI properties are read-only.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="3dd64-204">La propiedad a la que hace referencia el espacio de nombres especificado no se encuentra.</span><span class="sxs-lookup"><span data-stu-id="3dd64-204">The property referenced by the specified namespace is not found.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="3dd64-205">La propiedad se especifica en un formato no válido y no se puede analizar.</span><span class="sxs-lookup"><span data-stu-id="3dd64-205">The property is specified in an invalid format and cannot be parsed.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="3dd64-206">La propiedad no existe y no se puede crear.</span><span class="sxs-lookup"><span data-stu-id="3dd64-206">The property does not exist and cannot be created.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="3dd64-207">La propiedad existe pero se pasa a un valor de un tipo que no es correcto.</span><span class="sxs-lookup"><span data-stu-id="3dd64-207">The property exists but is passed a value of an incorrect type.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="3dd64-208">No se puede abrir la propiedad porque el cliente no está conectado.</span><span class="sxs-lookup"><span data-stu-id="3dd64-208">Cannot open the property because the client is offline.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="3dd64-209">La propiedad se crea mediante el método <b>Add</b> de la <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> objeto.</span><span class="sxs-lookup"><span data-stu-id="3dd64-209">The property is created using the <b>Add</b> method of the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> object.</span></span> <span data-ttu-id="3dd64-210">Al establecer la propiedad por primera vez, debe usar el <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> (propiedad) de la <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> objeto, en lugar de la <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" /> o el método <b>SetProperty</b> del objeto <b>PropertyAccessor</b> .</span><span class="sxs-lookup"><span data-stu-id="3dd64-210">When setting the property for the first time, you must use the <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> object, instead of the <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" /> or <b>SetProperty</b> method of the <b>PropertyAccessor</b> object.</span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="3dd64-211">Para obtener más información acerca de cómo establecer las propiedades con el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></span><span class="sxs-lookup"><span data-stu-id="3dd64-211">For more information on setting properties using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StringToBinary">
@@ -815,36 +462,11 @@
         <Parameter Name="Value" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Value">
-          <span data-ttu-id="cb0b8-165">Valor de tipo String hexadecimal que se va a convertir en una matriz de bytes.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-165">A hexadecimal string value that is to be converted to an array of bytes.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="cb0b8-166">Convierte una cadena especificada por <paramref name="Value" /> en una matriz de bytes.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-166">Converts a string specified by <paramref name="Value" /> to an  array of bytes.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="cb0b8-167">Valor de <b>objeto</b> que representa una matriz de bytes devuelta desde la conversión.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-167">An <b>Object</b> value that represents an array of bytes returned from the conversion.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="cb0b8-168">
-            <para>Para obtener más información sobre la conversión de tipo cuando se utiliza el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-168">
-              <para>For more information on type conversion when using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Value"><span data-ttu-id="3dd64-212">Valor de tipo String hexadecimal que se va a convertir en una matriz de bytes.</span><span class="sxs-lookup"><span data-stu-id="3dd64-212">A hexadecimal string value that is to be converted to an array of bytes.</span></span></param>
+        <summary><span data-ttu-id="3dd64-213">Convierte una cadena especificada por <paramref name="Value" /> en una matriz de bytes.</span><span class="sxs-lookup"><span data-stu-id="3dd64-213">Converts a string specified by <paramref name="Value" /> to an  array of bytes.</span></span></summary>
+        <returns><span data-ttu-id="3dd64-214">Valor de <b>objeto</b> que representa una matriz de bytes devuelta desde la conversión.</span><span class="sxs-lookup"><span data-stu-id="3dd64-214">An <b>Object</b> value that represents an array of bytes returned from the conversion.</span></span></returns>
+        <remarks><para><span data-ttu-id="3dd64-215">Para obtener más información sobre la conversión de tipo cuando se utiliza el objeto <b>PropertyAccessor</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></span><span class="sxs-lookup"><span data-stu-id="3dd64-215">For more information on type conversion when using the  <b>PropertyAccessor</b> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UTCToLocalTime">
@@ -870,36 +492,11 @@
         <Parameter Name="Value" Type="System.DateTime" />
       </Parameters>
       <Docs>
-        <param name="Value">
-          <span data-ttu-id="cb0b8-169">El valor de fecha y hora que se va a convertir de la hora UTC a la hora local.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-169">The DateTime value to be converted from UTC to local time.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="cb0b8-170">Convierte el valor de fecha y hora especificado por <paramref name="Value" /> y expresado en hora Universal coordinada (UTC) a un valor de hora local.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-170">Converts the DateTime value that is specified by <paramref name="Value" /> and expressed in Coordinated Universal Time (UTC) to a value in local time.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="cb0b8-171">Un valor de fecha y hora que representa <paramref name="Value" /> después de convertirse de la hora UTC a la hora local.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-171">A DateTime value that represents <paramref name="Value" /> after being converted from UTC to local time.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="cb0b8-172">
-            <para>Para obtener más información sobre la conversión de tipo cuando se usa el <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> de objetos, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0b8-172">
-              <para>For more information on type conversion when using the  <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Value"><span data-ttu-id="3dd64-216">El valor de fecha y hora que se va a convertir de la hora UTC a la hora local.</span><span class="sxs-lookup"><span data-stu-id="3dd64-216">The DateTime value to be converted from UTC to local time.</span></span></param>
+        <summary><span data-ttu-id="3dd64-217">Convierte el valor de fecha y hora especificado por <paramref name="Value" /> y expresado en hora Universal coordinada (UTC) a un valor de hora local.</span><span class="sxs-lookup"><span data-stu-id="3dd64-217">Converts the DateTime value that is specified by <paramref name="Value" /> and expressed in Coordinated Universal Time (UTC) to a value in local time.</span></span></summary>
+        <returns><span data-ttu-id="3dd64-218">Un valor de fecha y hora que representa <paramref name="Value" /> después de convertirse de la hora UTC a la hora local.</span><span class="sxs-lookup"><span data-stu-id="3dd64-218">A DateTime value that represents <paramref name="Value" /> after being converted from UTC to local time.</span></span></returns>
+        <remarks><para><span data-ttu-id="3dd64-219">Para obtener más información sobre la conversión de tipo cuando se usa el <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> de objetos, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Procedimientos recomendados para obtener y establecer propiedades</a></span><span class="sxs-lookup"><span data-stu-id="3dd64-219">For more information on type conversion when using the  <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object, see <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices for Getting and Setting Properties</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

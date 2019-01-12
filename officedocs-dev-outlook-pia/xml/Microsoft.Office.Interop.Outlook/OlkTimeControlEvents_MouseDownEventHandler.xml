@@ -1,13 +1,5 @@
 <Type Name="OlkTimeControlEvents_MouseDownEventHandler" FullName="Microsoft.Office.Interop.Outlook.OlkTimeControlEvents_MouseDownEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5a404562640172cb5be67cf41045b83bd61efd04" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642025" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void OlkTimeControlEvents_MouseDownEventHandler(OlMouseButton Button, OlShiftState Shift, float X, float Y);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1eda39eab498bd846411c78e833f628c04c23c36" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905284" /></Metadata><TypeSignature Language="C#" Value="public delegate void OlkTimeControlEvents_MouseDownEventHandler(OlMouseButton Button, OlShiftState Shift, float X, float Y);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlkTimeControlEvents_MouseDownEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkTimeControlEvents_MouseDownEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub OlkTimeControlEvents_MouseDownEventHandler(Button As OlMouseButton, Shift As OlShiftState, X As Single, Y As Single)" />
@@ -49,36 +41,11 @@
     <ReturnType>System.Void</ReturnType>
   </ReturnValue>
   <Docs>
-    <param name="Button">
-      <span data-ttu-id="0d561-101">Un <see cref="T:Microsoft.Office.Interop.Outlook.OlMouseButton" /> constante que especifica qué botón del mouse que se ha presionado.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0d561-101">An  <see cref="T:Microsoft.Office.Interop.Outlook.OlMouseButton" /> constant that specifies which button on the mouse has been pressed.</span>
-      </span>
-    </param>
-    <param name="Shift">
-      <span data-ttu-id="0d561-102">Una máscara OR bit a bit de constantes en el <see cref="T:Microsoft.Office.Interop.Outlook.OlShiftState" /> (enumeración) que especifica si se han presionado las teclas MAYÚS, CTRL o ALT.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0d561-102">A bitwise-OR mask of constants in the <see cref="T:Microsoft.Office.Interop.Outlook.OlShiftState" /> enumeration that specifies whether the SHIFT, CTRL, or ALT keys have been pressed.</span>
-      </span>
-    </param>
-    <param name="X">
-      <span data-ttu-id="0d561-103">Identifica la ubicación del cursor del mouse en el eje X relativa al formulario.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0d561-103">Identifies the location of the mouse cursor on the X-axis relative to the  form.</span>
-      </span>
-    </param>
-    <param name="Y">
-      <span data-ttu-id="0d561-104">Identifica la ubicación del cursor del mouse en el eje Y relativa al formulario.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0d561-104">Identifies the location of the mouse cursor on the Y-axis relative to the  form.</span>
-      </span>
-    </param>
-    <summary>
-      <span data-ttu-id="0d561-p101">Se trata de un delegado para un evento en el objeto correspondiente. Después de implementar un método de devolución de llamada para el evento, utilice este delegado para conectar el método de devolución de llamada con el evento. Si hubiera varias versiones de la interfaz de eventos, este delegado conectaría el método de devolución de llamadas para el evento en la versión especificada de Outlook.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="0d561-p101">This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</span>
-      </span>
-    </summary>
+    <param name="Button"><span data-ttu-id="cd331-101">Un <see cref="T:Microsoft.Office.Interop.Outlook.OlMouseButton" /> constante que especifica qué botón del mouse que se ha presionado.</span><span class="sxs-lookup"><span data-stu-id="cd331-101">An  <see cref="T:Microsoft.Office.Interop.Outlook.OlMouseButton" /> constant that specifies which button on the mouse has been pressed.</span></span></param>
+    <param name="Shift"><span data-ttu-id="cd331-102">Una máscara OR bit a bit de constantes en el <see cref="T:Microsoft.Office.Interop.Outlook.OlShiftState" /> (enumeración) que especifica si se han presionado las teclas MAYÚS, CTRL o ALT.</span><span class="sxs-lookup"><span data-stu-id="cd331-102">A bitwise-OR mask of constants in the <see cref="T:Microsoft.Office.Interop.Outlook.OlShiftState" /> enumeration that specifies whether the SHIFT, CTRL, or ALT keys have been pressed.</span></span></param>
+    <param name="X"><span data-ttu-id="cd331-103">Identifica la ubicación del cursor del mouse en el eje X relativa al formulario.</span><span class="sxs-lookup"><span data-stu-id="cd331-103">Identifies the location of the mouse cursor on the X-axis relative to the  form.</span></span></param>
+    <param name="Y"><span data-ttu-id="cd331-104">Identifica la ubicación del cursor del mouse en el eje Y relativa al formulario.</span><span class="sxs-lookup"><span data-stu-id="cd331-104">Identifies the location of the mouse cursor on the Y-axis relative to the  form.</span></span></param>
+    <summary><span data-ttu-id="cd331-p101">Se trata de un delegado para un evento en el objeto correspondiente. Después de implementar un método de devolución de llamada para el evento, utilice este delegado para conectar el método de devolución de llamada con el evento. Si hubiera varias versiones de la interfaz de eventos, este delegado conectaría el método de devolución de llamadas para el evento en la versión especificada de Outlook.</span><span class="sxs-lookup"><span data-stu-id="cd331-p101">This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
 </Type>
