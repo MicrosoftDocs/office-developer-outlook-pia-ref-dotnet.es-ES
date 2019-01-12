@@ -1,13 +1,5 @@
 <Type Name="OlkSenderPhotoEvents_Event" FullName="Microsoft.Office.Interop.Outlook.OlkSenderPhotoEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="38b39f13b137a4b4ed1bf56097da0fda2cac1133" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642225" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkSenderPhotoEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="822ba4099c9cbb5e680fd7e7bbc599cadba66c9d" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905064" /></Metadata><TypeSignature Language="C#" Value="public interface OlkSenderPhotoEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkSenderPhotoEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkSenderPhotoEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkSenderPhotoEvents_Event" />
@@ -49,10 +41,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando cambia la imagen de contacto del remitente.</summary>
-        <remarks>
-          <para>El cambio de imagen de contacto del remitente implica normalmente que el <see cref="P:Microsoft.Office.Interop.Outlook._OlkSenderPhoto.PreferredWidth" /> y <see cref="P:Microsoft.Office.Interop.Outlook._OlkSenderPhoto.PreferredHeight" /> propiedades han cambiado. Por lo tanto, este evento se puede usar como una indicación de la necesidad de cambiar el tamaño del control.</para>
-          <para />
-        </remarks>
+        <remarks><para>El cambio de imagen de contacto del remitente implica normalmente que el <see cref="P:Microsoft.Office.Interop.Outlook._OlkSenderPhoto.PreferredWidth" /> y <see cref="P:Microsoft.Office.Interop.Outlook._OlkSenderPhoto.PreferredHeight" /> propiedades han cambiado. Por tanto, este evento se utiliza para indicar que es necesario ajustar el tamaño del control.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Click">
@@ -128,10 +118,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce una vez registrado el movimiento del mouse (ratón) por el control.</summary>
-        <remarks>
-          <para>Al presionar la tecla ALT desencadena el evento <b>MouseMove</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Al presionar la tecla ALT desencadena el evento <b>MouseMove</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseUp">

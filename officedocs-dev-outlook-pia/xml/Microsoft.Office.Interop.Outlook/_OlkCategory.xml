@@ -1,13 +1,5 @@
 <Type Name="_OlkCategory" FullName="Microsoft.Office.Interop.Outlook._OlkCategory">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bfef22c75845cc5449966a7acca35e34e14c7181" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642892" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkCategory" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="bfef22c75845cc5449966a7acca35e34e14c7181" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904157" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkCategory" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkCategory" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkCategory" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkCategory" />
@@ -58,11 +50,9 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que cambia automáticamente el tamaño del control para mostrar todo el contenido.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado de esta propiedad es <b>True</b>.</para>
-          <para>Este control supone una línea a menos que el contenido se expanda y necesite más espacio.  En este caso, el control aumentará para mostrar el contenido y Bajar el contenido restante del formulario para crear espacio.</para>
-          <para />
-        </remarks>
+        <remarks><para>  El valor predeterminado de esta propiedad es <b>True</b>.</para>
+          <para>En este control se supone que hay una línea a no ser que el contenido se expanda y se necesite más espacio. En ese caso, el control aumenta de tamaño para mostrar el contenido y baja el contenido restante del formulario para dejar espacio.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -96,10 +86,8 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>UInteger</b> (<b>uint</b> en C#) que indica el color de fondo del control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0x8000000F, "Cara del botón".</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0x8000000F, "Cara del botón". </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackStyle">
@@ -130,10 +118,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" /> constante que cambia el estilo de fondo del control entre transparente y opaco. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olBackStyleOpaque</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olBackStyleOpaque</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -164,10 +150,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que indica si el control puede funcionar.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ForeColor">
@@ -201,10 +185,8 @@
       <Docs>
         <summary>Devuelve o establece un valor de <b>UInteger</b> (<b>uint</b> en C#) que indica el color de primer plano del control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0 x 80000008, "Texto de ventana".</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#). El valor predeterminado de esta propiedad es 0 x 80000008, "Texto de ventana".  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -235,10 +217,8 @@
       <Docs>
         <summary>Devuelve o establece un <b>StdPicture</b> que representa una imagen personalizada para el cursor del mouse (ratón) para este control. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -269,10 +249,8 @@
       <Docs>
         <summary>Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constante que especifica el tipo de puntero mostrado cuando el usuario coloca el mouse sobre el control.  Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor predeterminado es <b>olMousePointerDefault</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El valor predeterminado es <b>olMousePointerDefault</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

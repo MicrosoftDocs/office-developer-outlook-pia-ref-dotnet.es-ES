@@ -1,13 +1,5 @@
 <Type Name="_Columns" FullName="Microsoft.Office.Interop.Outlook._Columns">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9300e361b5107c915d7b8582ebd31d96a46678c7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642591" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Columns : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9300e361b5107c915d7b8582ebd31d96a46678c7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902806" /></Metadata><TypeSignature Language="C#" Value="public interface _Columns : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Columns implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Columns" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Columns&#xA;Implements IEnumerable" />
@@ -60,17 +52,15 @@
         <param name="Name">Nombre de la propiedad agregada como columna.</param>
         <summary>Agrega el <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> especificado por <paramref name="Name" /> a la <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> colección y restablece el <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</summary>
         <returns>Un objeto <b>Column</b> que representa la nueva columna.</returns>
-        <remarks>
+        <remarks><para>
+            <b>Columns.Add</b> agrega la <b>columna</b> de especificada hasta el final de la colección de <b>columnas</b> de la <b>tabla</b> y restablece la <b>tabla</b> moviendo la fila actual justo antes de la primera fila de la <b>tabla</b>. Si <b>Columns.Add</b> devuelve un error, no cambiará la fila actual.</para>
           <para>
-            <b>Columns.Add</b> agrega la <b>columna</b> de especificada hasta el final de la colección de <b>columnas</b> para la <b>tabla</b>y restablece la <b>tabla</b> moviendo la fila actual justo antes de la primera fila de la <b>tabla</b>. Si <b>Columns.Add</b> devuelve un error, no cambiará la fila actual. </para>
-          <para>
-            <paramref name="Name" /> puede ser un nombre de propiedad explícita integrada o un nombre de propiedad al que hace referencia por espacio de nombres. Se debe hacer referencia como el nombre de la configuración regional inglés. Para obtener más información sobre cómo hacer referencia a propiedades por espacio de nombres, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Hacer referencia a propiedades por Namespace</a></para>
-          <para>Si va a agregar una propiedad que es una propiedad explícita integrada en el modelo de objetos, por ejemplo, <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />, debe especificar <paramref name="Name" />como el nombre de propiedad explícito integrado en inglés.  Para algunos tipos de propiedades, el formato utilizado cuando agregar estas propiedades como columnas afecta a cómo se expresan sus valores en la <b>tabla</b>. Para obtener más información sobre la representación de valor de propiedad en una <b>tabla</b>, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Factores que afectan a la representación de los valores de las (propiedad) en las clases Table y View</a></para>
-          <para>Si va a agregar una propiedad personalizada a una <b>tabla</b>, hacer referencia a la propiedad el espacio de nombres de cadena MAPI, deberá anexar explícitamente el tipo de la propiedad hasta el final de la referencia de propiedad. Por ejemplo, para agregar la propiedad personalizada MyCustomProperty, cuyo tipo es Unicode string, deberá anexar explícitamente el tipo 001f a la referencia, como en: http://schemas.microsoft.com/mapi/string/{HHHHHHHH-HHHH-HHHH-HHHH-HHHHHHHHHHHH}/MyCustomProperty/0x0000001f, donde {HHHHHHHH-HHHH-HHHH-HHHH-HHHHHHHHHHHH} representa el espacio de nombres GUID.</para>
-          <para>Determinadas propiedades no pueden ser agregada a la <b>tabla</b> usando <b>Columns.Add</b>, incluido las propiedades binarias, propiedades calculadas y contenido del cuerpo HTML o RTF. Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Propiedades no compatibles en un objeto Table o un filtro de tabla</a></para>
-          <para>mientras <see cref="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" /> se puede usar para facilitar el almacenamiento en caché algunas propiedades para un acceso muy rápido a dichas propiedades de un <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> colección, algunos las propiedades están restringidas de <b>SetColumns</b>. Dado que estas restricciones no se aplican a <b>Columns.Add</b>, el objeto <b>Table</b> es una alternativa menos restrictiva que <b>Items</b>.</para>
-          <para />
-        </remarks>
+            <paramref name="Name" />puede ser un nombre de propiedad explícita integrada o un nombre de propiedad al que hace referencia por espacio de nombres. Se le debe hacer referencia en la configuración regional del inglés. Para obtener más información sobre cómo hacer referencia a propiedades por espacio de nombres, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Hacer referencia a propiedades por Namespace</a></para>
+          <para>Si va a agregar una propiedad que es una propiedad explícita integrada en el modelo de objetos, por ejemplo, <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />, debe especificar <paramref name="Name" /> como el nombre de propiedad explícito integrado en inglés.  Para algunos tipos de propiedades, el formato utilizado a agregar estas propiedades como columnas afecta al modo en que se expresan sus valores en la <b>tabla</b>. Para obtener más información sobre la representación de valor de propiedad en una <b>tabla</b>, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Factores que afectan a la representación de los valores de las (propiedad) en las clases Table y View</a></para>
+          <para>Si va a agregar una propiedad personalizada a una <b>tabla</b>, hacer referencia a la propiedad el espacio de nombres de cadena MAPI, deberá anexar explícitamente el tipo de la propiedad hasta el final de la referencia de propiedad. Por ejemplo, para agregar la propiedad personalizada MyCustomProperty, cuyo tipo es Unicode string, deberá anexar explícitamente el tipo 001f a la referencia, como en: http://schemas.microsoft.com/mapi/string/{HHHHHHHH-HHHH-HHHH-HHHH-HHHHHHHHHHHH}/MyCustomProperty/0x0000001f, donde {HHHHHHHH-HHHH-HHHH-HHHH-HHHHHHHHHHHH} representa el GUID del espacio de nombres .</para>
+          <para>Algunas propiedades no se puede agregar a una <b>tabla</b> usando <b>Columns.Add</b>, incluido las propiedades binarias, propiedades calculadas y contenido HTML o RTF. Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Propiedades no compatibles en un objeto Table o un filtro Table</a></para>
+          <para>Mientras <see cref="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" /> se puede usar para facilitar el almacenamiento en caché algunas propiedades para un acceso muy rápido a dichas propiedades de un <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> colección, algunas propiedades tienen restricciones <b>SetColumns</b>. Dado que estas restricciones no se aplican a <b>Columns.Add</b>, el objeto <b>Table</b> es una alternativa menos restrictiva que <b>Items</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -96,7 +86,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación principal (Outlook) para la <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación principal (Outlook) para la <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -124,7 +114,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una constante en el <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> (enumeración) que indica la clase de la <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve una constante en el <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> (enumeración) que indica la clase de la <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -152,7 +142,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que representa el número de <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> objetos de la colección. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que representa el número de <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> objetos de la colección. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -212,7 +202,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el objeto primario de la <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve el objeto primario de la <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -242,11 +232,9 @@
       <Docs>
         <param name="Index">Un valor de índice de base 1 que puede ser un valor de <b>número entero</b> (<b>int</b> en C#) que representa el índice de columna de la colección <b>Columns</b> o una <b>cadena</b> (<b>cadena</b> en C#) que representa la <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> de la <b>columna</b>.</param>
         <summary>Quita el <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> objeto especificado por <paramref name="Index" /> y restablece el <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</summary>
-        <remarks>
-          <para>El método <b>Remove</b> restablece la <b>tabla</b> moviendo la fila actual justo antes de la primera fila de la <b>tabla</b>. If, sin embargo, no es válida <paramref name="Index" /> se ha especificado, a continuación, no quite cualquier columna o restablecer la <b>tabla</b>.</para>
+        <remarks><para>El método <b>Remove</b> restablece la <b>tabla</b> moviendo la fila actual justo antes de la primera fila de la <b>tabla</b>. If, sin embargo, no es válida <paramref name="Index" /> se ha especificado, a continuación, no quite cualquier columna o restablecer la <b>tabla</b>.</para>
           <para>Devuelve un mensaje de error si no es válida <paramref name="Index" /> se ha especificado.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RemoveAll">
@@ -271,11 +259,9 @@
       <Parameters />
       <Docs>
         <summary>Quita todas las columnas de la <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> colección y restablece el <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</summary>
-        <remarks>
-          <para>
-            <b>RemoveAll</b> restablece la <b>tabla</b> moviendo la fila actual justo antes de la primera fila de la <b>tabla</b>. Después de llamar a <b>RemoveAll</b>, <see cref="P:Microsoft.Office.Interop.Outlook._Columns.Count" /> se convierte en cero (0).</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>RemoveAll</b> restablece la <b>tabla</b> moviendo la fila actual justo antes de la primera fila de la <b>tabla</b>. Después de llamar a <b>RemoveAll</b>, <see cref="P:Microsoft.Office.Interop.Outlook._Columns.Count" /> se convierte en cero (0). </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -301,18 +287,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

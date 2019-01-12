@@ -1,13 +1,5 @@
 <Type Name="_FormRegionStartup" FullName="Microsoft.Office.Interop.Outlook._FormRegionStartup">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b34bd4c4bdf22fffb31f02727f5872c4371b275f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643530" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _FormRegionStartup" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b34bd4c4bdf22fffb31f02727f5872c4371b275f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904584" /></Metadata><TypeSignature Language="C#" Value="public interface _FormRegionStartup" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _FormRegionStartup" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._FormRegionStartup" />
   <TypeSignature Language="VB.NET" Value="Public Interface _FormRegionStartup" />
@@ -54,12 +46,10 @@
       <Docs>
         <param name="FormRegion">El objeto <b>FormRegion</b> que representa el área de formulario que se muestra.</param>
         <summary>Permite a un complemento actualizar la interfaz de usuario de un área de formulario antes de mostrarla.</summary>
-        <remarks>
-          <para>Este método permite a Outlook pasar el objeto <b>FormRegion</b> para el complemento y permite a un complemento actualizar la interfaz de usuario del área de formulario antes de que se muestre para que, por ejemplo, se puede cambiar el texto de las etiquetas o suprimir contenido irrelevante. Se le llama después de que se crean instancias de los controles y se calcula el diseño, pero antes de formulario de la región se hace visible. </para>
+        <remarks><para>Este método permite a Outlook pasar el objeto <b>FormRegion</b> para el complemento y permite a un complemento actualizar la interfaz de usuario del área de formulario antes de que se muestre para que, por ejemplo, puede cambiar el texto de las etiquetas o suprimir contenido irrelevante. Se le llama después de que se crean instancias de los controles y se calcula el diseño, pero antes del formulario región se hace visible.</para>
           <para>Al implementar este método, tenga en cuenta que el elemento obtenido a partir la <paramref name="FormRegion" /> parámetro (es decir, el <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.Item" /> (propiedad) del objeto <b>FormRegion</b> ) es de sólo lectura.</para>
           <para>Para obtener ejemplos de complementos en C# y Visual Basic .NET que implementan <b>FormRegionStartup</b>, vea descargas de ejemplos de código en MSDN.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetFormRegionIcon">
@@ -92,13 +82,11 @@
         <param name="Icon">Una constante que identifica el tipo de icono.</param>
         <summary>Obtiene una imagen de icono que se mostrará para un tipo particular de icono para el área del formulario.</summary>
         <returns>Un <b>objeto</b> que es una matriz de bytes que representa los bytes originales del archivo de imagen o un objeto <b>IPictureDisp</b> .</returns>
-        <remarks>
-          <para>Este método está pensado para ser implementada por un complemento y llamado por Outlook. Como parte de la <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" /> de la interfaz, este método y el <see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionManifest(System.String,System.Int32)" /> (método) proporcionan un mecanismo a través del cual un complemento puede registrar un área de formulario y proporcionar Outlook con el manifiesto XML y los iconos para el área de formulario.</para>
-          <para>Si le gustaría que un complemento para proporcionar iconos de un área de formulario, especifique el ProgID del complemento al registrar el área de formulario en el registro de Windows. Para obtener más información acerca de cómo registrar un área de formulario, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87933">Especificar áreas de formulario en el registro de Windows</a><b>GetFormRegionManifest</b> y los métodos de <b>GetFormRegionIcon</b> de la interfaz <b>FormRegionStartup</b> . </para>
-          <para>En el XML de manifiesto para el área de formulario, en el elemento icons, especifique el complemento de valor para cada uno de los elementos secundarios que le gustaría usar un icono personalizado.  Implementar <b>GetFormRegionIcon</b> de modo que cuando Outlook pasa ese tipo de icono como un argumento <paramref name="Icon" />, <b>GetFormRegionIcon</b> devuelve la imagen del icono personalizado. Si desea que Outlook muestre el icono predeterminado, implementar <b>GetFormRegionIcon</b> de modo que devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) para ese tipo de icono. <b>GetFormRegionIcon</b> también debe que devolver <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) cuando <paramref name="Icon" /> es <b>olFormRegionIconDefault</b>.</para>
-          <para>Al iniciar Outlook, se lee la lista de áreas de formulario desde el registro de Windows y se almacena en caché los datos asociados con las áreas de formulario. Si un área de formulario se ha registrado con un ProgID, Outlook recurrirá a la correspondiente complemento llamando a su implementación de <b>GetFormRegionIcon</b> para cualquier icono en el manifiesto XML que tiene addin como el valor de un elemento secundario del elemento de iconos. Tenga en cuenta que si no especifica ningún ProgID en el registro de Windows, Outlook no llamará a los métodos <b>GetFormRegionManifest</b> y <b>GetFormRegionIcon</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Este método está destinado a su implementación por parte de un complemento y para que Outlook lo llame. Como parte de la <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" /> de la interfaz, este método y el <see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionManifest(System.String,System.Int32)" /> (método) proporcionan un mecanismo a través del cual un complemento puede registrar un área de formulario y proporcionar Outlook con el manifiesto XML y los iconos para el área de formulario.</para>
+          <para>Si desea proporcionar iconos para un área de formulario con un complemento, especifique el ProgID del complemento al registrar el área de formulario en el registro de Windows. Para obtener más información acerca de cómo registrar un área de formulario, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87933">Especificar áreas de formulario en el registro de Windows</a><b>GetFormRegionManifest</b> y los métodos de <b>GetFormRegionIcon</b> de la interfaz <b>FormRegionStartup</b> . </para>
+          <para>En el manifiesto XML para el área de formulario, en el elemento icons, especifique el complemento de valor para cada uno de los elementos secundarios que le gustaría usar un icono personalizado.  Implementar <b>GetFormRegionIcon</b> de modo que cuando Outlook pasa ese tipo de icono como un argumento <paramref name="Icon" />, <b>GetFormRegionIcon</b> devuelve la imagen del icono personalizado. Si desea que Outlook muestre el icono predeterminado, implementar <b>GetFormRegionIcon</b> de modo que devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) para ese tipo de icono. <b>GetFormRegionIcon</b> también debe que devolver <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) cuando <paramref name="Icon" /> es <b>olFormRegionIconDefault</b>.</para>
+          <para> Cuando se inicia Outlook, lee la lista de áreas del formulario del Registro de Windows y copia en caché los datos asociados con las áreas del formulario. Si un área del formulario se registró con un ProgID, Outlook recurrirá al complemento correspondiente llamando a su implementación de <b>GetFormRegionIcon</b> para todo icono en el manifiesto XML que tenga addin como el valor del elemento secundario icons. Tenga en cuenta que si no especifica ningún ProgID en el registro de Windows, Outlook no llamará a los métodos <b>GetFormRegionManifest</b> y <b>GetFormRegionIcon</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetFormRegionManifest">
@@ -129,25 +117,26 @@
         <param name="LCID">El identificador de configuración regional que identifica el idioma que Outlook está usando actualmente. Este valor se usa para obtener las cadenas de localización que corresponden a este idioma para el área del formulario.</param>
         <summary>Obtiene el manifiesto XML para un área del formulario.</summary>
         <returns>Un <b>objeto</b> que representa el manifiesto XML para un área de formulario. Esta cadena XML incluye las características del área de formulario, como el nombre para mostrar (según lo especificado por el elemento de título), cualquier archivo asociado de diseño o complemento, todas las acciones de usuario compatibles y cualquier cadena de localización. El XML debe cumplir el esquema XML de área de formulario. Para obtener más información sobre el esquema XML de área de formulario, vea la referencia de esquema de XML de Microsoft Outlook 2010 en la <a href="http://msdn.microsoft.com/en-us/library/default.aspx">Biblioteca de MSDN</a></returns>
-        <remarks>
-          <para>Este método está pensado para ser implementada por un complemento y llamado por Outlook. Como parte de la <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" /> de la interfaz, este método y el <see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionIcon(System.String,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionIcon)" /> (método) proporcionan un mecanismo a través del cual un complemento puede registrar un área de formulario y proporcionar Outlook el manifiesto XML y los iconos para el área de formulario.</para>
-          <para>Si le gustaría que un complemento para proporcionar el manifiesto XML para un área de formulario, especifique el ProgID del complemento al registrar el área de formulario en el registro de Windows. Para obtener más información acerca de cómo registrar un área de formulario, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87933">Especificar áreas de formulario en el registro de Windows</a>(método)<b>GetFormRegionManifest</b> de la interfaz <b>FormRegionStartup</b> . Tenga en cuenta que si no especifica ningún ProgID en el registro de Windows, Outlook no llamará a este método.</para>
-          <para>Se permite la confianza en un complemento para proporcionar el manifiesto XML para un área de formulario también significa el complemento proporcionar ningún icono para el área de formulario. El complemento también debe implementar la <b>GetFormRegionIcon</b> de la interfaz <b>FormRegionStartup</b> . Outlook llamará a <b>GetFormRegionIcon</b> para obtener el complemento especificados iconos para el área de formulario. Para obtener más información sobre el uso de un complemento para especificar iconos, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87934">Cómo: usar un complemento para especificar iconos para un área de formulario</a></para>
-          <para> al iniciar Outlook, se lee la lista de áreas de formulario desde el registro de Windows y se almacena en caché los datos. En función de estos datos, si los avisos de Outlook que un complemento se ha especificado para proporcionar el manifiesto XML para un área de formulario, Outlook usará el ProgID proporcionado en los datos almacenados en caché y la llamada al método <b>GetFormRegionManifest</b> implementado por este complemento para obtener el XML que necesita para mostrar el área de formulario. Si el manifiesto XML no es válido y no se ajusta al esquema XML de área de formulario, Outlook no podrá cargar el área de formulario. Además, si no especifica ningún ProgID en el registro de Windows, Outlook no llamará a los métodos <b>GetFormRegionManifest</b> y <b>GetFormRegionIcon</b> .</para>
-          <para>Outlook ignora los siguientes elementos cuando el complemento proporciona el manifiesto XML:</para>
+        <remarks><para>Este método está destinado a su implementación por parte de un complemento y para que Outlook lo llame. Como parte de la <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" /> de la interfaz, este método y el <see cref="M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionIcon(System.String,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionIcon)" /> (método) proporcionan un mecanismo a través del cual un complemento puede registrar un área de formulario y proporcionar Outlook el manifiesto XML y los iconos para el área de formulario.</para>
+          <para>Si desea que un complemento para proporcionar el manifiesto XML para un área de formulario, especifique la ProgID del complemento al registrar el área de formulario en el registro de Windows. Para obtener más información acerca de cómo registrar un área de formulario, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87933">Especificar áreas de formulario en el registro de Windows</a>(método)<b>GetFormRegionManifest</b> de la interfaz <b>FormRegionStartup</b> . Tenga en cuenta que si no especifica ningún ProgID en el registro de Windows, Outlook no llamará a este método.</para>
+          <para>Confiar en un complemento para proporcionar que el manifiesto XML para un área de formulario también significa que se permite el complemento proporcionar los iconos del área de formulario. El complemento también debe implementar la <b>GetFormRegionIcon</b> de la interfaz <b>FormRegionStartup</b>. Outlook llamará a <b>GetFormRegionIcon</b> para obtener el complemento especificados iconos para el área de formulario. Para obtener más información sobre el uso de un complemento para especificar iconos, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87934">Cómo: usar un complemento para especificar iconos para un área de formulario</a></para>
+          <para> Cuando se inicia Outlook, lee la lista de áreas de formulario en el registro de Windows y almacena en caché los datos. En función de estos datos, si los avisos de Outlook que un complemento se ha especificado para proporcionar el manifiesto XML para un área de formulario, Outlook usará el ProgID proporcionado en los datos en caché y llame al método <b>GetFormRegionManifest</b> implementado por este complemento para obtener el XML que necesita para mostrar el área de formulario. Si el manifiesto XML no es válido y no se ajusta al esquema XML de área de formulario, Outlook no podrán cargar el área de formulario. Además, si no especifica ningún ProgID en el registro de Windows, Outlook no llamará a los métodos <b>GetFormRegionManifest</b> y <b>GetFormRegionIcon</b> .</para>
+          <para>Outlook ignora los siguientes elementos cuando el complemento proporciona el manifiesto XML: </para>
           <list type="bullet">
             <item>
               <para>nombre: Outlook ignora el valor especificado para este elemento y usará el nombre especificado para el área de formulario en el registro.</para>
             </item>
             <item>
-              <para>layoutFile: Outlook ignora este elemento porque un complemento está extendiendo esta área de formulario.</para>
+              <para>layoutFile: Outlook ignora este elemento porque un complemento está extendiendo esta área del formulario.</para>
             </item>
             <item>
-              <para>addin: Outlook usa el valor que está precedido por un signo igual (=) en el registro como el ProgID del complemento.</para>
-            </item> atributo de archivo de 
-            <item><para>de stringOverride: Outlook pasa por alto cualquier archivo de localización secundario especificado por el elemento stringOverride. El complemento puede implementar <b>GetFormRegionManifest</b> para devolver en línea en el manifiesto XML para la localización de cadena para especificado <paramref name="LCID" />, o administrar localización de cadena de otra forma, por ejemplo, uso de localización de .NET Framework y, a continuación, devolver el XML adecuado de manifiestos para especificado <paramref name="LCID" />.</para></item></list>
-          <para />
-        </remarks>
+              <para>addin: Outlook usa el valor que está precedido por un signo igual (=) en el Registro como el ProgID del complemento.</para>
+            </item>
+            <item>
+              <para>atributo de archivo de stringOverride: Outlook pasa por alto cualquier archivo de localización secundario especificado por el elemento stringOverride. El complemento puede implementar <b>GetFormRegionManifest</b> para devolver en línea en el manifiesto XML para la localización de cadena para especificado <paramref name="LCID" />, o administrar localización de cadena de otra forma, por ejemplo, uso de localización de .NET Framework y, a continuación, devolver el el manifiesto XML adecuado para especificado <paramref name="LCID" />.</para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetFormRegionStorage">
@@ -184,9 +173,17 @@
         <param name="FormRegionSize">Tipo de área del formulario que se está cargando, bien sea adyacente o independiente.</param>
         <summary>Obtiene el almacenamiento adecuado para un área de formulario basándose en la información especificada.</summary>
         <returns>Un <b>objeto</b> que representa el almacenamiento que Outlook ha asignado para el área de formulario. El tipo del valor devuelto puede ser: <b>String</b> (<b>cadena</b> en C#) que representa que el valor devuelto es una ruta de acceso local a un almacenamiento de formularios de Outlook (. Archivo OFS); <b>Byte()</b> , que representa que el valor devuelto es una matriz de bytes que contiene el contenido de la. Archivo OFS; <b>IStorage</b> , que representa el valor devuelto es un objeto de almacenamiento COM <b>IStorage</b> (sólo para C++); <b>Nothing</b> o <b>Null</b>, que representa que Outlook no ha podido asignar almacenamiento para esta área de formulario y no cargará el área de formulario.</returns>
-        <remarks>
-          <para>El complemento debe comprobar el valor devuelto por <b>GetFormRegionStorage</b>. Un área de formulario no se cargará si se cumple el almacenamiento devuelto cualquiera de los siguientes:</para>almacenamiento
-          <list type="bullet"><item><para>el valor devuelto es un. OFS especificado mediante una ruta de acceso no local.</para></item><item><para>El almacenamiento devuelto es un archivo, pero no es un. OFS guardado desde el Diseñador de formularios.</para></item></list><para>Para ver ejemplos de complementos en C# y Visual Basic .NET que implementan la <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" /> de la interfaz, vea descargas de ejemplos de código en MSDN.</para><para /></remarks>
+        <remarks><para>El complemento debe comprobar el valor devuelto por <b>GetFormRegionStorage</b>. Un área de formulario no se cargará si se cumple el almacenamiento devuelto alguna de las siguientes opciones:</para>
+          <list type="bullet">
+            <item>
+              <para>El almacenamiento devuelto es un archivo .OFS especificado mediante una ruta de acceso no local.</para>
+            </item>
+            <item>
+              <para>El almacenamiento devuelto es un archivo, pero no es un archivo .OFS guardado desde el diseñador de formularios.</para>
+            </item>
+          </list>
+          <para>Para ver ejemplos de complementos en C# y Visual Basic .NET que implementan la <see cref="T:Microsoft.Office.Interop.Outlook.FormRegionStartup" /> de la interfaz, vea descargas de ejemplos de código en MSDN.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

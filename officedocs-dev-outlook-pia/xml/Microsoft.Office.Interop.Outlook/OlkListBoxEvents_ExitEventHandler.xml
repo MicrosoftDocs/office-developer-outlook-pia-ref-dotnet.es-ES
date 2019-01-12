@@ -1,13 +1,5 @@
 <Type Name="OlkListBoxEvents_ExitEventHandler" FullName="Microsoft.Office.Interop.Outlook.OlkListBoxEvents_ExitEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b34d4afd73e15df82047c334bd475ef76f4f4482" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642335" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void OlkListBoxEvents_ExitEventHandler(ref bool Cancel);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="83d3f1cbe1d4511eecb3fb8da1c48795d450e6e6" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905452" /></Metadata><TypeSignature Language="C#" Value="public delegate void OlkListBoxEvents_ExitEventHandler(ref bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlkListBoxEvents_ExitEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkListBoxEvents_ExitEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub OlkListBoxEvents_ExitEventHandler(ByRef Cancel As Boolean)" />
@@ -34,8 +26,7 @@
     <ReturnType>System.Void</ReturnType>
   </ReturnValue>
   <Docs>
-    <param name="Cancel">
-      <b>False</b> cuando se produce el evento. Si el procedimiento de evento establece este argumento en <b>True</b>, la operación de salir no finaliza y el foco permanece en este control. </param>
+    <param name="Cancel"><b>False</b> cuando se produce el evento. Si el procedimiento de evento establece este argumento en <b>True</b>, la operación de salir no finaliza y el foco permanece en este control. </param>
     <summary>Se trata de un delegado para un evento en el objeto correspondiente. Después de implementar un método de devolución de llamada para el evento, utilice este delegado para conectar el método de devolución de llamada con el evento. Si hubiera varias versiones de la interfaz de eventos, este delegado conectaría el método de devolución de llamadas para el evento en la versión especificada de Outlook.</summary>
     <remarks>To be added.</remarks>
   </Docs>

@@ -1,13 +1,5 @@
 <Type Name="Store" FullName="Microsoft.Office.Interop.Outlook.Store">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6445374782d0b4add1312b6169f01fab8b0ba475" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643072" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Store : Microsoft.Office.Interop.Outlook._Store" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="80f18cf084b45ff5e3b2a810c96deb110c412178" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903142" /></Metadata><TypeSignature Language="C#" Value="public interface Store : Microsoft.Office.Interop.Outlook._Store" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Store implements class Microsoft.Office.Interop.Outlook._Store" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Store" />
   <TypeSignature Language="VB.NET" Value="Public Interface Store&#xA;Implements _Store" />
@@ -31,14 +23,12 @@
   </Attributes>
   <Docs>
     <summary>Representa un archivo en el equipo local o unidad de red que almacena mensajes de correo electrónico y otros elementos de una cuenta del perfil actual.</summary>
-    <remarks>
-      <para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._Store" />. </para>
-      <para>Un perfil define una o varias cuentas de correo electrónico, y cada cuenta de correo electrónico está asociado con un servidor de un tipo específico. Para un servidor de Exchange, puede ser un almacén en el servidor, en una carpeta pública de Exchange, o en un archivo de carpetas personales (.pst) o un archivo de carpetas sin conexión (.ost). Para un servidor de correo electrónico POP3, IMAP o HTTP, un almacén es un archivo .pst.</para>
-      <para>Se puede usar el <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> y objetos <b>Store</b> para enumerar todas las carpetas y carpetas de búsqueda de todos los almacenes de la sesión actual.  Debido a que obtener la carpeta raíz o las carpetas de búsqueda de un almacén requiere abrir el almacén y abrir un almacén constituye una sobrecarga en el rendimiento, puede comprobar el <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsOpen" /> (propiedad) antes de decidirse a realizar la operación. </para>
-      <para>Si usa un servidor de Exchange, puede tener acceso a otros explícitas integradas <b>almacenar</b> propiedades para almacenan las características tales como <see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" />, <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsCachedExchange" />, y <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsDataFileStore" />. Usar el <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto devuelto por <see cref="P:Microsoft.Office.Interop.Outlook._Store.PropertyAccessor" /> para tener acceso a otras propiedades de almacén que no se exponen en el modelo de objetos de Outlook.</para>
+    <remarks><para>Ésta es una interfaz de .NET que se deriva de una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz derivada para tener acceso a todos los miembros de método, evento y propiedad del objeto COM. Sin embargo, si un método o evento que va a usar comparte el mismo nombre en el mismo objeto COM, se convierte en la interfaz primaria correspondiente para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. Hacer referencia a este tema para obtener información sobre el objeto COM. Para obtener información acerca de los miembros de métodos y propiedades del objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook._Store" />. </para>
+      <para>Un perfil define una o varias cuentas de correo electrónico, y cada una de ellas se asocia a un servidor de un tipo concreto. Si utiliza un servidor de Exchange, puede tener un almacén en el servidor, en una carpeta pública de Exchange, en un archivo de carpetas personales (.pst) o en un archivo de carpetas sin conexión (.ost). Para los servidores de correo electrónico POP3, IMAP o HTTP, los almacenes son archivos .pst.</para>
+      <para>Puede usar el <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> y objetos <b>Store</b> para enumerar todas las carpetas y carpetas de búsqueda de todos los almacenes de la sesión actual.  Debido a que obtener la carpeta raíz o las carpetas de búsqueda de un almacén requiere abrir el almacén y abrir un almacén constituye una sobrecarga en el rendimiento, puede comprobar el <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsOpen" /> (propiedad) antes de decidirse a realizar la operación. </para>
+      <para>Si utiliza un servidor de Exchange, puede tener acceso a otros explícitas integradas <b>almacenar</b> propiedades para almacenan las características tales como <see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" />, <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsCachedExchange" />, y <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsDataFileStore" />. Usar el <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto devuelto por <see cref="P:Microsoft.Office.Interop.Outlook._Store.PropertyAccessor" /> para tener acceso a otras propiedades de almacén que no se exponen en el modelo de objetos de Outlook.</para>
       <para>Para obtener más información sobre cómo almacenar elementos de Outlook en carpetas y almacenes, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87932">Almacenar elementos de Outlook</a></para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

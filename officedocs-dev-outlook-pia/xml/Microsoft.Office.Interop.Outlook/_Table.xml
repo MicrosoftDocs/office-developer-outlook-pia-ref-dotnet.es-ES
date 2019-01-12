@@ -1,13 +1,5 @@
 <Type Name="_Table" FullName="Microsoft.Office.Interop.Outlook._Table">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f3622358929b16ec4cf2cb1b6f8e806f59c4d317" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642632" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Table" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f3622358929b16ec4cf2cb1b6f8e806f59c4d317" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903898" /></Metadata><TypeSignature Language="C#" Value="public interface _Table" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Table" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Table" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Table" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación principal (Outlook) para la <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación principal (Outlook) para la <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,7 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una constante en el <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> (enumeración) que indica la clase de la <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve una constante en el <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> (enumeración) que indica la clase de la <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -109,14 +101,12 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Columns</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> objeto de colección que contiene las columnas definidas para el <see cref="T:Microsoft.Office.Interop.Outlook.Table" />. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> objeto de colección que contiene las columnas definidas para el <see cref="T:Microsoft.Office.Interop.Outlook.Table" />. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El objeto de colección <b>Columns</b> es el miembro predeterminado del objeto <b>Table</b> .  </para>
-          <para>, Mientras que las filas de una <b>tabla</b> corresponden a los elementos del objeto primario <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> o <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> objeto de la <b>tabla</b>, <b>las columnas</b> de una <b>tabla</b> se corresponden con las propiedades de estos elementos. Columnas predeterminadas se definen para todas las carpetas según la carpeta principal del objeto <b>Table</b> . Por ejemplo, las propiedades predeterminadas de la Bandeja de entrada son: <b>EntryID</b>, <b>Subject</b>, <b>CreationTime</b>, <b>LastModificationTime</b>y <b>MessageClass</b>. Para obtener más información sobre las propiedades predeterminadas para una <b>tabla</b>, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87925">Propiedades predeterminadas mostradas en un objeto Table</a></para>
-          <para>para agregar <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> objetos a la colección de <b>columnas</b> de una <b>tabla</b>, use <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />. Para quitar el conjunto de columnas predeterminado, use <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" />. Para obtener más información acerca de cómo ajustar las columnas de una <b>tabla</b>, vea <a href="http://go.microsoft.com/fwlink/?LinkID=87935">Agregar columnas a un objeto Table</a></para>
-          <para />
-        </remarks>
+        <remarks><para>El objeto de colección <b>Columns</b> es el miembro predeterminado del objeto <b>Table</b>.</para>
+          <para>Mientras que las filas de una <b>tabla</b> corresponden a los elementos del objeto primario <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> o <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> objeto de la <b>tabla</b>, <b>las columnas</b> de una <b>tabla</b> se corresponden con las propiedades de estos elementos. Se definen columnas predeterminadas para todas las carpetas según la carpeta principal del objeto <b>Table</b>. Por ejemplo, las propiedades predeterminadas de la Bandeja de entrada son: <b>EntryID</b>, <b>Subject</b>, <b>CreationTime</b>, <b>LastModificationTime</b> y <b>MessageClass</b>. Para obtener más información sobre las propiedades predeterminadas para una <b>tabla</b>, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87925">Propiedades predeterminadas mostradas en un objeto Table</a></para>
+          <para>Para agregar <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> objetos a la colección de <b>columnas</b> de una <b>tabla</b>, use <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />. Para quitar el conjunto de columnas predeterminado, use <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" />. Para obtener más información acerca de cómo ajustar las columnas de una <b>tabla</b>, vea <a href="http://go.microsoft.com/fwlink/?LinkID=87935">Agregar columnas a un objeto Table</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EndOfTable">
@@ -142,14 +132,12 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <b>valor Boolean</b> (<b>bool</b> en C#) que indica si la fila actual se sitúa después de la última fila de la <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <b>valor Boolean</b> (<b>bool</b> en C#) que indica si la fila actual se sitúa después de la última fila de la <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Cuando se abre una <b>tabla</b> mediante <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />, <see cref="M:Microsoft.Office.Interop.Outlook.Search.GetTable" />, o <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />, el valor de <b>EndOfTable</b> depende del número de filas en la <b>tabla</b>. Si no hay ninguna fila, <b>EndOfTable</b> devuelve True. Si hay filas, <b>EndOfTable</b> devuelve <b>False</b> hasta que se mueve el cursor más allá de la última fila de la tabla.  </para>
-          <para>La <b>tabla</b> tiene dos filas virtuales <b>Null</b> , una antes de la primera fila y otra después de la última fila de la <b>tabla</b>. Cada llamada a <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> mueve la fila actual a la fila siguiente en la <b>tabla</b> y devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object que representa la fila actual.   </para>
-          <para>La propiedad <b>EndOfTable</b> devuelve <b>True</b> si la fila actual está después de la última fila y <b>False</b> si la fila actual está antes de la última fila o.</para>
-          <para />
-        </remarks>
+        <remarks><para>Cuando se abre una <b>tabla</b> mediante <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />, <see cref="M:Microsoft.Office.Interop.Outlook.Search.GetTable" />, o <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />, el valor de <b>EndOfTable</b> depende del número de filas en la <b>tabla</b>. Si no hay ninguna fila, <b>EndOfTable</b> devuelve True. Si hay filas, <b>EndOfTable</b> devuelve <b>False</b> hasta que se mueve el cursor más allá de la última fila de la tabla.  </para>
+          <para>La <b>tabla</b> tiene dos filas virtuales <b>Null</b>, una antes de la primera fila y otra después de la última fila de la <b>tabla</b>. Cada llamada a <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> mueve la fila actual a la fila siguiente en la <b>tabla</b> y devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object que representa la fila actual.   </para>
+          <para>La propiedad <b>EndOfTable</b> devuelve <b>True</b> si la fila actual está después de la última fila y <b>False</b> si la fila actual es igual o anterior a la última fila.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FindNextRow">
@@ -175,12 +163,10 @@
       <Docs>
         <summary>Busca la siguiente fila en la <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> que cumple los criterios especificados en una anterior <see cref="M:Microsoft.Office.Interop.Outlook._Table.FindRow(System.String)" />.</summary>
         <returns>A <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object que representa la siguiente fila en la <b>tabla</b> que cumpla la condición de filtro en la anterior llamada a <b>FindRow</b>. Devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si <b>FindNextRow</b> no encuentra otra fila que cumpla los criterios especificados en <b>FindRow</b>. También devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si no se ha llamado a <b>FindRow</b> antes de <b>llamar a FindNextRow</b>.</returns>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>FindNextRow</b> encuentra la siguiente fila basándose en la fila devuelta por la anterior <b>llamada a FindRow</b> o <b>FindNextRow</b>. No depende de la fila actual (como la fila actual puede haber cambiado de posición desde la anterior <b>llamada a FindRow</b> o <b>FindNextRow</b>, por ejemplo, mediante <see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" />).</para>
-          <para>Si <b>FindNextRow</b> encuentra una fila, colocará la actual fila en esa fila. Si no encuentra otra fila, no cambiará de posición la actual fila.</para>
-          <para />
-        </remarks>
+          <para>Si <b>FindNextRow</b> encuentra una fila, colocará la actual fila en esa fila. Si no encuentra ninguna otra fila, no cambiará de posición la actual fila.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FindRow">
@@ -209,16 +195,14 @@
         <param name="Filter">Especifica la condición que tiene que cumplir una fila en la <b>tabla</b>.</param>
         <summary>Busca la primera fila en la <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> que cumple los criterios especificados en <paramref name="Filter" />.</summary>
         <returns>A <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> object que representa la primera fila en la <b>tabla</b> que cumpla los criterios de filtro. Devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si no puede se encuentra la fila o la <b>tabla</b> no contiene todas las filas.</returns>
-        <remarks>
+        <remarks><para>
+            <b>FindRow</b> siempre comienza a partir de la primera fila en la <b>tabla</b>.</para>
           <para>
-            <b>FindRow</b> siempre comienza a partir de la primera fila en la <b>tabla</b>.  </para>
+            <b>FindRow</b> devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si una propiedad en <paramref name="Filter" /> no existe en el espacio de nombres especificado. La propiedad se considera una propiedad con nombre en el conjunto de propiedades MAPI, PS_PUBLIC_STRINGS. En este caso, <b>FindRow</b> no devuelve un error.</para>
           <para>
-            <b>FindRow</b> devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si una propiedad en <paramref name="Filter" /> no existe en el espacio de nombres especificado. La propiedad se considera como una propiedad con nombre en el conjunto de propiedades MAPI, PS_PUBLIC_STRINGS. <b>FindRow</b> no devuelve un error en este caso.</para>
-          <para>
-            <b>FindRow</b> devuelve un error si <paramref name="Filter" /> es una cadena en blanco o una restricción no válida. En los casos donde <b>FindRow</b> no encuentra ninguna fila, la fila actual no se traslada a la que se encontraba antes de la llamada a <b>FindRow</b>.</para>
-          <para>Para utilizar la búsqueda de indización de contenido en una <b>tabla</b>, utilice la <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> (método). <b>FindRow</b> devuelve un error si <paramref name="Filter" /> contiene palabras clave de indización de contenido. </para>
-          <para />
-        </remarks>
+            <b>FindRow</b> devuelve un error si <paramref name="Filter" /> es una cadena en blanco o una restricción no válida. En los casos donde <b>FindRow</b> no encuentra ninguna fila, la fila actual no situarse en la que encontraba antes de la llamada a <b>FindRow</b>.</para>
+          <para>Para utilizar la búsqueda con indización de contenido en una <b>tabla</b>, utilice la <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> (método). <b>FindRow</b> devuelve un error si <paramref name="Filter" /> contiene palabras clave de indización de contenido. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetArray">
@@ -247,14 +231,12 @@
         <param name="MaxRows">Especifica el número máximo de filas que se devuelven de la <b>tabla</b>.</param>
         <summary>Obtiene una matriz bidimensional que contiene un conjunto de valores de fila y columna de la <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</summary>
         <returns>Valor de <b>objeto</b> que es una matriz bidimensional que representa un conjunto de valores de fila y columna de la <b>tabla</b>. La matriz es de base cero; una matriz índice (i, j) utiliza un índice en la i-ésima columna y j-ésima fila en la matriz. Las columnas de la matriz corresponden a las columnas de la <b>tabla</b> y las filas de la matriz corresponden a las filas de la <b>tabla</b>. El número de filas de la matriz devuelta es el valor menor de <paramref name="MaxRows" /> y el número real de filas de la <b>tabla</b>.</returns>
-        <remarks>
-          <para>El método <b>GetArray</b> ofrece una forma conceptualmente sencilla de obtener valores de una <b>tabla</b> copiar toda o parte de los datos en la <b>tabla</b> (basado en la fila actual) a una matriz e indizando la matriz.</para>
+        <remarks><para>El método <b>GetArray</b> ofrece una forma conceptualmente sencilla para obtener valores de una <b>tabla</b> copiar toda o parte de los datos de la <b>tabla</b> (basado en la fila actual) a una matriz e indizando la matriz.</para>
           <para>
-            <b>GetArray</b> siempre comienza en la fila actual de la <b>tabla</b>. Devuelve una matriz con <paramref name="MaxRows" /> número de filas si hay al menos <paramref name="MaxRows" /> número de filas de la <b>tabla</b> empezando en la posición actual. Si <paramref name="MaxRows" /> no es mayor que el número total de filas de la <b>tabla</b>, y hay menos de <paramref name="MaxRows" /> número de elementos en la <b>tabla</b> empezando por la fila actual, se devolverá una matriz que contiene solo el resto de filas en la <b> Tabla</b>. Si se llama a <b>GetArray</b> y no hay ninguna fila restante, a continuación, <b>GetArray</b> devuelve una matriz vacía de cero elementos.</para>
-          <para>Después de obtener las filas correspondientes de la <b>tabla</b> y antes de que devuelve, <b>GetArray</b> siempre cambia la posición actual fila a la fila siguiente en la <b>tabla</b>, si existe una fila siguiente. GetArray funciona como si <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> es llamado n veces.</para>
-          <para>Los valores de las columnas se asignan a columnas en la <b>tabla</b>y, por lo tanto, se determinan mediante el formato de nombre de la propiedad que se utiliza para la columna. Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Factores que afectan a la representación de los valores de las (propiedad) en las clases Table y View</a></para>
-          <para />
-        </remarks>
+            <b>GetArray</b> siempre comienza a partir de la fila actual de la <b>tabla</b>. Devuelve una matriz con <paramref name="MaxRows" /> número de filas si hay al menos <paramref name="MaxRows" /> número de filas de la <b>tabla</b> empezando en la posición actual. Si <paramref name="MaxRows" /> no es mayor que el número total de filas de la <b>tabla</b>, y hay menos de <paramref name="MaxRows" /> número de elementos en la <b>tabla</b> empezando por la fila actual, se devolverá una matriz que contiene solo el resto de filas en la <b>tabla</b>. Si se llama a <b>GetArray</b> y no hay filas restantes, <b>GetArray</b> devuelve una matriz vacía de cero elementos.</para>
+          <para>Después de obtener las filas correspondientes de la <b>tabla</b> y antes de devolver, <b>GetArray</b> siempre cambia la posición actual fila a la fila siguiente en la <b>tabla</b>, si existe una fila siguiente. GetArray funciona como si <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> es llamado n veces.</para>
+          <para>Los valores de las columnas se asignan a columnas en la <b>tabla</b> y, por tanto, se determinan mediante el formato de nombre de la propiedad que se utiliza para la columna. Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Factores que afectan a la representación de los valores de las (propiedad) en las clases Table y View</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetNextRow">
@@ -306,11 +288,9 @@
       <Docs>
         <summary>Obtiene el número de filas en el <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</summary>
         <returns>Un valor <b>entero</b> (<b>int</b> en C#) que representa el número de filas de la tabla.</returns>
-        <remarks>
-          <para>
-            <b>GetRowCount</b> en una tabla de gran tamaño, se producirá un impacto de rendimiento.  Debido a restricciones MAPI (por ejemplo, restricciones de memoria para tablas de gran tamaño, operaciones simultáneas en la <b>tabla</b>), <b>GetRowCount</b> no pueda determinar el número de filas de la <b>tabla</b>o devuelva únicamente una fila aproximada recuento. En estos casos, <b>GetRowCount</b> devolverá un error. Debe usar la detección de error apropiada para que <b>GetRowCount</b> para determinar si la llamada devuelve un error.</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>GetRowCount</b> en una tabla grande dará como resultado un impacto en el rendimiento.  Debido a restricciones MAPI (por ejemplo, restricciones de memoria para tablas de gran tamaño, operaciones simultáneas en la <b>tabla</b>), <b>GetRowCount</b> no pueda determinar el número de filas de la <b>tabla</b>o devuelva únicamente una fila aproximada recuento. En estos casos, <b>GetRowCount</b> devolverá un error. Debe usar la detección de error apropiada para que <b>GetRowCount</b> determine si la llamada devuelve un error. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MoveToStart">
@@ -335,11 +315,9 @@
       <Parameters />
       <Docs>
         <summary>Mueve la fila actual de la <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> justo antes de la primera fila de la <b>tabla</b>.</summary>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>MoveToStart</b> es lo mismo que restablecer la <b>tabla</b>. Si se llama <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> después de llamar a <b>MoveToStart</b>, se devolverá una fila que representa la primera fila en la <b>tabla</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -365,7 +343,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <b>objeto</b> primario de la <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve el <b>objeto</b> primario de la <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -396,18 +374,16 @@
         <param name="Filter">Especifica los criterios para las filas del objeto <b>Table</b> .</param>
         <summary>Se aplica un filtro a las filas de la <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> y obtiene un nuevo objeto <b>Table</b> .</summary>
         <returns>Un objeto <b>Table</b> que se devuelve aplicando <paramref name="Filter" /> a las filas del objeto <b>Table</b> primario.</returns>
-        <remarks>
-          <para>Sólo puede usar <b>Table.Restrict</b> para aplicar otro filtro a la <b>tabla</b> si el objeto primario de la <b>tabla</b> es un <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto. Si el objeto primario es un <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> de objetos, <b>Restrict</b> devolverá un error.</para>
+        <remarks><para>Sólo puede usar <b>Table.Restrict</b> para aplicar otro filtro a la <b>tabla</b> si el objeto primario de la <b>tabla</b> es un <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> objeto. Si el objeto primario es un <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> de objetos, <b>Restrict</b> devolverá un error.</para>
           <para>Dado que el filtro se aplica a las filas del objeto Table, esto equivale a aplicar un filtro que es un AND lógico de <paramref name="Filter" /> y todos los filtros anteriores aplicados al mismo objeto <b>Table</b> .</para>
           <para>
-            <paramref name="Filter" /> es una consulta de propiedades especificadas de los elementos que se representan como filas del objeto <b>Table</b>primario. La consulta usa la sintaxis Microsoft Jet o la sintaxis de DAV Searching and Locating (DASL). Por ejemplo, el siguiente filtro de Jet y filtro DASL especifican los mismos criterios para los elementos con <b>LastModificationTime</b> de anterior a 3:30 p.m. del 12 de junio de 2005:</para>
-          <para>criterios = "[LastModificationTime] &lt; '" &amp; formato$ ("6/12 / 2005 3:30 PM "," fecha General ") &amp; "'"</para>
-          <para>criterios =" @SQL = " &amp; Chr (34) &amp; "DAV:getlastmodified" &amp; Chr (34) &amp; " &lt; ' " &amp; formato$ (" 12/6/2005 3:30 PM "," fecha General ") &amp; "'" </para>
+            <paramref name="Filter" />es una consulta de propiedades especificadas de los elementos que se representan como filas del objeto <b>Table</b>primario. La consulta usa la sintaxis Microsoft Jet o la sintaxis de DAV Searching and Locating (DASL). Por ejemplo, el siguiente filtro de Jet y filtro DASL especifican los mismos criterios para los elementos con <b>LastModificationTime</b> anterior a 3:30 p.m. del 12 de junio de 2005:</para>
+          <para>criterios = "[LastModificationTime] &lt; '" &amp; formato$ ("12/6/2005 3:30 PM","fecha General") &amp; "'"</para>
+          <para>criterios = "@SQL =" &amp; Chr (34) &amp; "DAV:getlastmodified" &amp; Chr (34) &amp; " &lt; '" &amp; formato$ ("12/6/2005 3:30 PM","fecha General") &amp; "'" </para>
           <para>Para obtener más información sobre cómo especificar filtros para el objeto <b>Table</b> , vea <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtrar elementos</a></para>
-          <para>Si <paramref name="Filter" /> contiene propiedades personalizadas, esas propiedades deben existir en la carpeta principal del objeto <b>Table</b> en orden de la restricción funcione correctamente.  Algunas propiedades no se admiten en un filtro de <b>tabla</b> , como propiedades binarias, propiedades calculadas y contenidos de cuerpo HTML o RTF. Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Propiedades no compatibles en un objeto Table o un filtro de tabla</a></para>
+          <para>Si <paramref name="Filter" /> contiene propiedades personalizadas, esas propiedades deben existir en la carpeta principal del objeto <b>Table</b> para la restricción funcione correctamente.  Algunas propiedades no se admiten en un filtro de <b>tabla</b>, como propiedades binarias, propiedades calculadas y contenido HTML o RTF. Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Propiedades no compatibles en un objeto Table o un filtro Table</a></para>
           <para>Si <paramref name="Filter" /> es una cadena en blanco, <b>Restrict</b> devuelve un objeto <b>Table</b> que es idéntico al objeto <b>Table</b> primario.  </para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -433,18 +409,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sort">
@@ -473,15 +447,13 @@
         <param name="SortProperty">Especifica la propiedad que se va a usar para ordenar las filas de la <b>tabla</b>.</param>
         <param name="Descending">Si desea ordenar la <b>tabla</b> en orden descendente.</param>
         <summary>Ordena las filas de la <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> mediante la propiedad especificada en <paramref name="SortProperty" /> y restablece la fila actual justo antes de la primera fila en la <b>tabla</b>.</summary>
-        <remarks>
-          <para>
-            <paramref name="SortProperty" /> puede ser cualquier propiedad integrada explícita o propiedad personalizada, a excepción de las propiedades binarias y varios valores. Debe hacer referencia a la propiedad por su nombre de cadena explícito; no se puede hacer referencia por espacio de nombres. Para obtener información sobre cómo especificar las propiedades de ordenación, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87936">Ordenar los elementos de una carpeta</a></para>
-          <para>ordenar la tabla equivale a llamar a un <see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" /> (método). El cursor se colocará al inicio de la tabla.  </para>
+        <remarks><para>
+            <paramref name="SortProperty" />puede ser cualquier propiedad integrada explícita o propiedad personalizada, a excepción de las propiedades binarias y varios valores. A la propiedad debe hacerse referencia mediante su nombre de cadena explícito y no mediante un espacio de nombres. Para obtener información sobre cómo especificar las propiedades de ordenación, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87936">Ordenar los elementos de una carpeta</a></para>
+          <para>Ordenar la tabla equivale a llamar a un <see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" /> (método). El cursor se colocará al principio del objeto Table.  </para>
           <para>Si <b>llama a Table.Sort</b> y, a continuación, <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> se denominan, el filtrado los elementos de la nueva <b>tabla</b> se ordenarán por el mismo <paramref name="SortProperty" /> y <paramref name="SortOrder" />.</para>
           <para>
             <b>Table.Sort</b> sólo admite la ordenación en una sola columna.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

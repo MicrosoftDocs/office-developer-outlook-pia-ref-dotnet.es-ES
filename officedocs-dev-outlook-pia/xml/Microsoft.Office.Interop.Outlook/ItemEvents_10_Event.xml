@@ -1,13 +1,5 @@
 <Type Name="ItemEvents_10_Event" FullName="Microsoft.Office.Interop.Outlook.ItemEvents_10_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fd919c2e15484df8a6620c4aef0387453e2d0b25" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642433" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ItemEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="10db76b897312de282fe89c78af9317334dffa68" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904612" /></Metadata><TypeSignature Language="C#" Value="public interface ItemEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ItemEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ItemEvents_10_Event" />
@@ -49,14 +41,13 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce después de que Microsoft Outlook guarde el elemento.</summary>
-        <remarks>
-          <para>El evento <b>AfterWrite</b> se produce después de la <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Write" /> (evento). Este evento no es se puede cancelar. Para determinar cuando el elemento se descargue de la memoria, use el <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> (evento). </para>
-          <para>El evento <b>AfterWrite</b> corresponde al evento <b>iexchextmessageevents:: Onwritecomplete</b>las extensiones de cliente de Exchange (ECE).</para>
-          <para>Se pueden tener acceso sólo a los siguientes miembros del objeto de elemento en el evento <b>AfterWrite</b> :</para>
+        <remarks><para>El evento <b>AfterWrite</b> se produce después de la <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Write" /> (evento). Este evento no es se puede cancelar. Para determinar cuando el elemento se descargue de la memoria, use el <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> (evento). </para>
+          <para>El evento <b>AfterWrite</b> corresponde al evento <b>iexchextmessageevents:: Onwritecomplete</b> de las extensiones de cliente de Exchange (ECE).</para>
+          <para>Pueden tener acceso sólo a los siguientes miembros del objeto de elemento en el evento <b>AfterWrite</b>: </para>
           <list type="bullet">
             <item>
               <para>
-                <b>Clase</b>
+                <b>clase</b>
               </para>
             </item>
             <item>
@@ -70,11 +61,10 @@
               </para>
             </item>
           </list>
-          <para>La <b>MAPIOBJECT</b> de la propiedad es una propiedad oculta en el modelo de objetos de Outlook. Esta propiedad proporciona acceso al objeto subyacente MAPI IMessage y se puede invocar sólo a través de la interfaz IUnknown. La propiedad es accesible a los programas escritos en lenguajes como C o C++ que admiten <b>IUnknown</b>. <b>MAPIOBJECT</b> no está disponible a través de la interfaz IDispatch. Lenguajes de desarrollo, como Visual Basic para aplicaciones (VBA), Visual C# y Visual Basic son compatibles con la interfaz <b>IDispatch</b> pero no <b>IUnknown</b>y, por lo tanto, no pueden obtener acceso a <b>MAPIOBJECT</b>. Si otras propiedades o métodos del elemento primario se tiene acceso a este evento, Outlook genera un error. </para>
-          <para>El objeto obtenido de la propiedad <b>MAPIOBJECT</b> en este evento debe contener todos los cambios se conservan por Outlook. El implementador puede llamar al método SaveChanges en el objeto <b>IMessage</b> para conservar los cambios realizados en el objeto <b>IMessage</b> subyacente representada por <b>MAPIOBJECT</b>y Outlook no volverá a esos cambios. </para>
-          <para>Implementadores debe liberar el objeto obtenido de la propiedad <b>MAPIOBJECT</b> en el evento antes de que finalice el evento. Si se intenta utilizar ese objeto fuera del contexto del evento no es compatible y conducirá a un comportamiento inesperado.</para>
-          <para />
-        </remarks>
+          <para>La propiedad <b>MAPIOBJECT</b> es una propiedad oculta en el modelo de objetos de Outlook. Esta propiedad proporciona acceso al objeto MAPI IMessage subyacente y se puede invocar sólo a través de la interfaz IUnknown. La propiedad es accesible a los programas escritos en lenguajes como C o C++ que admiten <b>IUnknown</b>. <b>MAPIOBJECT</b> no está disponible a través de la interfaz IDispatch. Los lenguajes de programación como Visual Basic para aplicaciones (VBA), Visual C# y Visual Basic admiten la interfaz <b>IDispatch</b> y no <b>IUnknown</b> y por lo tanto, no pueden tener acceso a <b>MAPIOBJECT</b>. Si otras propiedades o métodos del elemento primario se tiene acceso en este caso, Outlook genera un error.</para>
+          <para>El objeto obtenido de la propiedad <b>MAPIOBJECT</b> en este caso debe contener todos los cambios que se conservan por Outlook. El implementador puede llamar al método SaveChanges en el objeto <b>IMessage</b> para conservar los cambios realizados en el objeto <b>IMessage</b> subyacente representada por <b>MAPIOBJECT</b> y Outlook no volverá a esos cambios.</para>
+          <para>Los implementadores deben liberar el objeto obtenido de la propiedad <b>MAPIOBJECT</b> en el evento antes de que finalice el evento. Si se intenta utilizar ese objeto fuera del contexto del evento no es compatible y dará lugar a un comportamiento inesperado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AttachmentAdd">
@@ -169,10 +159,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce antes de que se obtenga una vista previa de los datos adjuntos asociados a una instancia del objeto primario.</summary>
-        <remarks>
-          <para>Este evento se produce antes de obtener vista previa adjuntos, ya sea desde la banda de datos adjuntos en el panel de lectura del explorador activo o desde el inspector activo.</para>
-          <para />
-        </remarks>
+        <remarks><para>Este evento se produce antes de obtener una vista previa de los datos adjuntos, ya sea desde la banda de adjuntos del Panel de lectura del explorador activo o desde el inspector activo.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeAttachmentRead">
@@ -210,10 +198,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce justo antes de guardar datos adjuntos.</summary>
-        <remarks>
-          <para>Este evento corresponde a cuando se guardan los datos adjuntos en el almacén de mensajes. El evento <b>BeforeAttachmentSave</b> se produce justo antes de guardar datos adjuntos cuando se guarda un elemento. Si un usuario modifica los datos adjuntos y, a continuación, guarda los cambios, el evento <b>BeforeAttachmentSave</b> no se producirá en ese momento; en su lugar, se producirá cuando más adelante se guarda el elemento en Sí. Tampoco producirá cuando se guarden los datos adjuntos en el disco duro mediante el método <b>SaveAsFile</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Este evento corresponde a cuando se guardan los datos adjuntos en el almacén de mensajes. El evento <b>BeforeAttachmentSave</b> se produce justo antes de guardan datos adjuntos cuando se guarda un elemento. Si un usuario modifica los datos adjuntos y, a continuación, guarda los cambios, el evento <b>BeforeAttachmentSave</b> no se producirá en ese momento; en su lugar, se producirá cuando más adelante se guarda el elemento en Sí. Tampoco producirá cuando se guarden los datos adjuntos en el disco duro mediante el método <b>SaveAsFile</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeAttachmentWriteToTempFile">
@@ -270,24 +256,22 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce justo antes de que Microsoft Outlook empiece a resolver nombres en la colección de destinatarios de un elemento (que es una instancia del objeto primario).</summary>
-        <remarks>
-          <para>El evento no se desencadena en las siguientes circunstancias:</para>
+        <remarks><para>El evento no se desencadena en las siguientes circunstancias:  </para>
           <list type="bullet">
             <item>
-              <para>Cuando se personaliza un formulario de entrada del diario y después se resuelve un contacto en el campo contactos.</para>
+              <para>Cuando se personaliza un formulario de entrada del Diario y después se resuelve un contacto en el campo Contactos. </para>
             </item>
             <item>
-              <para>Cuando se personaliza un formulario de contacto y después se resuelve un contacto en el campo contactos.</para>
+              <para>Cuando se personaliza un formulario de contacto y después se resuelve un contacto en el campo Contactos. </para>
             </item>
             <item>
-              <para>Cuando se personaliza cualquier tipo de formulario y Outlook resuelve automáticamente el nombre en segundo plano.</para>
+              <para>Cuando se personaliza cualquier tipo de formulario y Outlook resuelve automáticamente el nombre en segundo plano. </para>
             </item>
             <item>
-              <para>Creado y resuelve un destinatario mediante programación.</para>
+              <para>Cuando se crea y se resuelve un destinatario mediante programación.</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeDelete">
@@ -306,11 +290,9 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce antes de que se elimine un elemento (que es una instancia del objeto primario).</summary>
-        <remarks>
-          <para>En orden para que este evento se desencadene cuando un mensaje de correo electrónico, lista de distribución, entrada del diario, tarea, contacto, o se eliminan post a través de una acción, un inspector debe estar abierto.</para>
-          <para>El evento se produce cada vez que se elimina un elemento.</para>
-          <para />
-        </remarks>
+        <remarks><para>Para que este evento se desencadene cuando se elimina un mensaje de correo electrónico, una lista de distribución, una entrada del Diario, una tarea, un contacto o una publicación, debe haber un inspector abierto.</para>
+          <para>Este evento ocurre cada vez que se elimina un elemento.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeRead">
@@ -329,14 +311,13 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce antes de que Microsoft Outlook comience a leer las propiedades del elemento.</summary>
-        <remarks>
-          <para>El evento <b>BeforeRead</b> se produce después de la <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> (evento). A diferencia de otros eventos con el prefijo <b>antes</b> , no es se puede cancelar este evento. Para determinar cuando el elemento se descargue de la memoria, use el <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> (evento). </para>
-          <para>El evento <b>BeforeRead</b> corresponde al evento <b>iexchextmessageevents:: Onread</b>las extensiones de cliente de Exchange (ECE).</para>
-          <para>Se pueden tener acceso sólo a los siguientes miembros del objeto de elemento en el evento <b>BeforeRead</b> :</para>
+        <remarks><para>El evento <b>BeforeRead</b> se produce después de la <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> (evento). A diferencia de otros eventos con el prefijo <b>antes</b> , no es se puede cancelar este evento. Para determinar cuando el elemento se descargue de la memoria, use el <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> (evento). </para>
+          <para>El evento <b>BeforeRead</b> corresponde al evento <b>iexchextmessageevents:: Onread</b> de las extensiones de cliente de Exchange (ECE).</para>
+          <para>Pueden tener acceso sólo a los siguientes miembros del objeto de elemento en el evento <b>BeforeRead</b>: </para>
           <list type="bullet">
             <item>
               <para>
-                <b>Clase</b>
+                <b>clase</b>
               </para>
             </item>
             <item>
@@ -350,11 +331,10 @@
               </para>
             </item>
           </list>
-          <para>La <b>MAPIOBJECT</b> de la propiedad es una propiedad oculta en el modelo de objetos de Outlook. Esta propiedad proporciona acceso al objeto subyacente MAPI IMessage y se puede invocar sólo a través de la interfaz IUnknown. La propiedad es accesible a los programas escritos en lenguajes como C o C++ que admiten <b>IUnknown</b>. <b>MAPIOBJECT</b> no está disponible a través de la interfaz IDispatch. Lenguajes de desarrollo, como Visual Basic para aplicaciones (VBA), Visual C# y Visual Basic son compatibles con la interfaz <b>IDispatch</b> pero no <b>IUnknown</b>y, por lo tanto, no pueden obtener acceso a <b>MAPIOBJECT</b>. Si otras propiedades o métodos del elemento primario se tiene acceso a este evento, Outlook genera un error. </para>
-          <para>Si el implementador obtiene acceso al objeto de <b>IMessage</b> subyacente y cambia las propiedades de ese objeto, Outlook representarán que el elemento que refleja los cambios realizados en el objeto <b>IMessage</b> . El implementador no tiene para llamar a SaveChanges en el objeto <b>IMessage</b> para hacer que los cambios se reflejen en Outlook. </para>
-          <para>Implementadores debe liberar el objeto obtenido de la propiedad <b>MAPIOBJECT</b> en el evento antes de que finalice el evento. Si se intenta utilizar ese objeto fuera del contexto del evento no es compatible y conducirá a un comportamiento inesperado.</para>
-          <para />
-        </remarks>
+          <para>La propiedad <b>MAPIOBJECT</b> es una propiedad oculta en el modelo de objetos de Outlook. Esta propiedad proporciona acceso al objeto MAPI IMessage subyacente y se puede invocar sólo a través de la interfaz IUnknown. La propiedad es accesible a los programas escritos en lenguajes como C o C++ que admiten <b>IUnknown</b>. <b>MAPIOBJECT</b> no está disponible a través de la interfaz IDispatch. Los lenguajes de programación como Visual Basic para aplicaciones (VBA), Visual C# y Visual Basic admiten la interfaz <b>IDispatch</b> y no <b>IUnknown</b> y por lo tanto, no pueden tener acceso a <b>MAPIOBJECT</b>. Si otras propiedades o métodos del elemento primario se tiene acceso en este caso, Outlook genera un error.</para>
+          <para>Si el implementador obtiene acceso a las propiedades de objeto y los cambios de <b>IMessage</b> subyacentes en ese objeto, Outlook representará ese elemento lo que refleja los cambios realizados en el objeto <b>IMessage</b>. El implementador no tiene para llamar a SaveChanges en el objeto <b>IMessage</b> para hacer que los cambios se reflejen en Outlook.</para>
+          <para>Los implementadores deben liberar el objeto obtenido de la propiedad <b>MAPIOBJECT</b> en el evento antes de que finalice el evento. Si se intenta utilizar ese objeto fuera del contexto del evento no es compatible y dará lugar a un comportamiento inesperado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -373,10 +353,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando se cierra el inspector asociado a un elemento (que es una instancia del objeto primario).</summary>
-        <remarks>
-          <para>Si se utiliza el método <b>Close</b> para desencadenar este evento, éste sólo se podrá cancelar si el método <b>Close</b> utiliza el argumento <b>olPromptForSave</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Si utiliza el método <b>Close</b> para desencadenar este evento, sólo se podrá cancelar si el método <b>Close</b> utiliza el argumento <b>olPromptForSave</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CustomAction">
@@ -395,10 +373,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando se ejecuta una acción personalizada de un elemento (que es una instancia del objeto primario).</summary>
-        <remarks>
-          <para>El objeto <b>Action</b> y el elemento recién creado resultante de la acción personalizada se pasan al evento.</para>
-          <para />
-        </remarks>
+        <remarks><para>El objeto <b>Action</b> y el elemento recién creado resultante de la acción personalizada se pasan al evento.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CustomPropertyChange">
@@ -417,10 +393,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando se modifica una propiedad personalizada de un elemento (que es una instancia del objeto primario).</summary>
-        <remarks>
-          <para>El nombre de la propiedad se pasa al procedimiento para que pueda determinar qué propiedad personalizada ha cambiado.</para>
-          <para />
-        </remarks>
+        <remarks><para>El nombre de la propiedad se pasa al procedimiento de forma que se pueda determinar qué propiedad personalizada ha cambiado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Forward">
@@ -458,10 +432,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando se abre una instancia del objeto primario en un <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />.</summary>
-        <remarks>
-          <para>Cuando se produzca este evento, el objeto <b>Inspector</b> se inicializa pero aún no se muestra. El evento <b>Open</b> se diferencia de la <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> en que <b>lectura</b> se produce siempre que el usuario selecciona el elemento en una vista que admite la modificación de las celdas y cuando el elemento se abre en un inspector.</para>
-          <para />
-        </remarks>
+        <remarks><para>Cuando se produce este evento, el objeto <b>Inspector</b> se inicializa sin aún no se muestra. El evento <b>Open</b> se diferencia de la <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> en que <b>lectura</b> se produce siempre que el usuario selecciona el elemento en una vista que admite la modificación de las celdas y cuando el elemento se abre en un inspector.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyChange">
@@ -480,10 +452,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando se modifica una propiedad integrada explícita de una instancia del objeto primario.</summary>
-        <remarks>
-          <para>El nombre de la propiedad se pasa al evento para que pueda determinar qué propiedad ha cambiado.</para>
-          <para />
-        </remarks>
+        <remarks><para>El nombre de la propiedad se pasa al evento para que se pueda determinar qué propiedad ha cambiado.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Read">
@@ -502,10 +472,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando el usuario abre una instancia del objeto primario para modificarla.</summary>
-        <remarks>
-          <para>El evento <b>Read</b> difiere de la <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Open" /> en que <b>lectura</b> se produce siempre que el usuario selecciona el elemento en una vista que admite la modificación de las celdas y cuando el elemento se abre en un <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />.</para>
-          <para />
-        </remarks>
+        <remarks><para>El evento <b>Read</b> difiere de la <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Open" /> en que <b>lectura</b> se produce siempre que el usuario selecciona el elemento en una vista que admite la modificación de las celdas y cuando el elemento se abre en un <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReadComplete">
@@ -524,12 +492,10 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando Outlook ha finalizado la lectura de las propiedades del elemento.</summary>
-        <remarks>
-          <para>El evento <b>ReadComplete</b> se produce después de la <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeRead" /> (evento) y antes de la <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> evento para el elemento. </para>
-          <para>Para determinar cuando el elemento se descargue de la memoria, utilice la <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> evento.</para>
-          <para>El evento <b>ReadComplete</b> corresponde al evento las extensiones de cliente de Exchange (ECE) <b>IExchExtMessageEvents::OnReadComplete</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El evento <b>ReadComplete</b> se produce después de la <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeRead" /> (evento) y antes de la <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> evento para el elemento. </para>
+          <para>Para determinar cuando el elemento se descargue de la memoria, use el <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> (evento).</para>
+          <para>El evento <b>ReadComplete</b> corresponde al evento <b>IExchExtMessageEvents::OnReadComplete</b>las extensiones de cliente de Exchange (ECE).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Reply">
@@ -548,10 +514,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando el usuario selecciona la acción Responder para un elemento (que es una instancia del objeto primario).</summary>
-        <remarks>
-          <para>Devuelve la respuesta como un <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>Devuelve la respuesta como un <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReplyAll">
@@ -570,10 +534,8 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando el usuario selecciona la acción Responder a todos para un elemento (que es una instancia del objeto primario).</summary>
-        <remarks>
-          <para>Devuelve la respuesta como un <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>Devuelve la respuesta como un <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Send">
@@ -611,12 +573,10 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce antes de que un elemento de Outlook se descargue de la memoria, bien sea mediante programación o mediante acciones del usuario.</summary>
-        <remarks>
-          <para>Este evento se produce después de que se produce el evento <b>Close</b> para el elemento de Outlook, pero antes de Outlook se descargue de la memoria, lo que permite un complemento liberar los recursos relacionados con el objeto de elemento.  Aunque el evento se produce antes de que el elemento de Outlook se descargue de la memoria, no se puede cancelar este evento.</para>
+        <remarks><para>Este evento se produce después de que se produzca el evento <b>Close</b> para el elemento de Outlook, pero antes de Outlook se descargue de la memoria, lo que permite un complemento liberar los recursos relacionados con el objeto de elemento.  Aunque el evento se produce antes de que el elemento de Outlook se descargue de la memoria, no se puede cancelar este evento.</para>
           <para>
-            <b>Nota</b>: este evento está pensado únicamente como un evento de notificación, para que un complemento puede eliminar la referencia del objeto.  Se produce un error si se llama a cualquier propiedad o método para este objeto dentro del evento <b>Unload</b> .</para>
-          <para />
-        </remarks>
+            <b>Nota</b>: este evento está pensado únicamente como un evento de notificación, para que un complemento puede eliminar la referencia del objeto.  Se produce un error si se llama a cualquier propiedad o método para este objeto dentro del evento <b>Unload</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Write">

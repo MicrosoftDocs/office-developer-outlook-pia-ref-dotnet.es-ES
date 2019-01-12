@@ -1,13 +1,5 @@
 <Type Name="OlRuleConditionType" FullName="Microsoft.Office.Interop.Outlook.OlRuleConditionType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="420b4d8422ef3de8b9f1b7ac956632bf20619f7b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20643211" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlRuleConditionType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="55c9c3c8d21a782558acd0cb913818a13333d9f0" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903716" /></Metadata><TypeSignature Language="C#" Value="public enum OlRuleConditionType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlRuleConditionType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlRuleConditionType" />
@@ -21,9 +13,9 @@
   </Base>
   <Docs>
     <summary>Especifica el tipo de condición de regla o de condición de excepción de una regla.</summary>
-    <remarks>
-      <para>La lista de tipos de condición de regla en esta enumeración incluye todas las condiciones de regla y las condiciones de excepción que es compatible con las reglas y el Asistente de alertas. Tenga en cuenta que aunque puede enumerar mediante programación todas las condiciones de regla y las condiciones de excepción de una regla, puede crear una regla mediante programación con sólo las condiciones usadas con más frecuencia. Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificar condiciones de regla</a></para>de tipos de
-      <para>por ejemplo, la condición de regla <b>olConditionDateRange</b> y <b>olConditionSizeRange</b> sólo se admiten por (enumeración) y habilitación o deshabilitación en una regla existente . No se puede crear mediante programación una regla con estas condiciones. Mediante programación no se puede obtener o establecer los valores de x e y que representan el rango.</para><para /></remarks>
+    <remarks><para>The list of rule condition types in this enumeration includes all the rule conditions and exception conditions that the Rules and Alerts Wizard supports. Note that while you can programmatically enumerate all the rule conditions and exception conditions for a rule, you can programmatically create a rule with only the most commonly used conditions. Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificar condiciones de regla</a></para>
+      <para>Por ejemplo, se admiten los tipos de condiciones de regla <b>olConditionDateRange</b> y <b>olConditionSizeRange</b> sólo para la enumeración y la habilitación o deshabilitación en una regla existente. No puede crear una regla con tales condiciones mediante programación. Tampoco puede obtener o definir mediante programación los valores de x e y que representan el intervalo.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olConditionAccount">

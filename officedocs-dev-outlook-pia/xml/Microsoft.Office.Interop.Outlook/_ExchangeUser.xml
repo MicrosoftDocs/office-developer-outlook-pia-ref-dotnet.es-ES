@@ -1,13 +1,5 @@
 <Type Name="_ExchangeUser" FullName="Microsoft.Office.Interop.Outlook._ExchangeUser">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a9ddbfaff850f514434b04c735be4ebc01664fb1" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20641836" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _ExchangeUser" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a9ddbfaff850f514434b04c735be4ebc01664fb1" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902911" /></Metadata><TypeSignature Language="C#" Value="public interface _ExchangeUser" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ExchangeUser" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._ExchangeUser" />
   <TypeSignature Language="VB.NET" Value="Public Interface _ExchangeUser" />
@@ -58,11 +50,9 @@
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que representa el X400 dirección de correo electrónico del <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad se da por supuesto la X400 dirección del usuario. Para determinar la dirección de Internet principal, utilice la <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.PrimarySmtpAddress" /> (propiedad).</para>
-          <para>La propiedad <b>Address</b> se debe establecer antes de llamar a la <see cref="M:Microsoft.Office.Interop.Outlook._ExchangeUser.Details(System.Object)" /> método.</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad supone que la dirección es la dirección X400 del usuario. Para determinar la dirección de Internet principal, utilice la <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.PrimarySmtpAddress" /> (propiedad).</para>
+          <para>La propiedad <b>Address</b> se debe establecer antes de llamar a la <see cref="M:Microsoft.Office.Interop.Outlook._ExchangeUser.Details(System.Object)" /> (método). </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddressEntryUserType">
@@ -88,12 +78,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAddressEntryUserType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve <b>olExchangeUserAddressEntry</b> , que es una constante de la <see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" /> tipo de enumeración que representa el usuario de la <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Es de solo lectura</summary>
+        <summary>Devuelve <b>olExchangeUserAddressEntry</b> , que es una constante de la <see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" /> tipo de enumeración que representa el usuario de la <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El objeto <b>ExchangeUser</b> se deriva el <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objeto. Hereda la propiedad <b>AddressEntryUserType</b> del objeto <b>AddressEntry</b> . En el caso de <b>ExchangeUser</b>, <b>AddressEntryUserType</b> siempre debe devolver <b>olExchangeUserAddressEntry</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>El objeto <b>ExchangeUser</b> se deriva el <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objeto. Hereda la propiedad <b>AddressEntryUserType</b> del objeto <b>AddressEntry</b>. En el caso de <b>ExchangeUser</b>, <b>AddressEntryUserType</b> siempre debe devolver <b>olExchangeUserAddressEntry</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Alias">
@@ -119,13 +107,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el alias para el <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el alias para el <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad <b>PidTagAccount</b>de MAPI.</para>
-          <para>Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagAccount</b> de MAPI.</para>
+          <para>Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -151,7 +137,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación principal (Outlook) para la <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación principal (Outlook) para la <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -184,11 +170,9 @@
       <Docs>
         <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre del Ayudante para el <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI <b>pidtagassistant de MAPI</b>.</para>
-          <para>Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagAssistant</b> de MAPI.</para>
+          <para>Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BusinessTelephoneNumber">
@@ -219,11 +203,9 @@
       <Docs>
         <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el número de teléfono de trabajo para el <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI, <b>PidTagBusinessTelephoneNumber</b>.</para>
-          <para>Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagBusinessTelephoneNumber</b> de MAPI.</para>
+          <para> Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="City">
@@ -254,11 +236,9 @@
       <Docs>
         <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa la ciudad para la <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI, <b>PidTagLocality</b>.</para>
-          <para>Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagLocality</b> de MAPI.</para>
+          <para> Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -284,7 +264,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una constante en el <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> (enumeración) que indica la clase de la <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve una constante en el <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> (enumeración) que indica la clase de la <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -317,11 +297,9 @@
       <Docs>
         <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa los comentarios para el <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI, <b>PidTagComment</b>.</para>
-          <para>Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagComment</b> de MAPI.</para>
+          <para> Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CompanyName">
@@ -352,11 +330,9 @@
       <Docs>
         <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre de la empresa para la <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI, <b>PidTagCompanyName</b>.</para>
-          <para>Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagCompanyName</b> de MAPI.</para>
+          <para> Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -381,10 +357,8 @@
       <Parameters />
       <Docs>
         <summary>Elimina el <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> objeto desde el <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> objeto de la colección a la que pertenece.</summary>
-        <remarks>
-          <para>El objeto <b>ExchangeUser</b> se deriva el <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objeto. Un objeto <b>ExchangeUser</b> es un objeto <b>AddressEntry</b> que tiene <b>una constante olExchangeUserAddressEntry</b> como la <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.AddressEntryUserType" />; al llamar a <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.GetExchangeUser" /> devuelve el objeto <b>ExchangeUser</b> correspondiente.</para>
-          <para />
-        </remarks>
+        <remarks><para>El objeto <b>ExchangeUser</b> se deriva el <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objeto. Un objeto <b>ExchangeUser</b> es un objeto <b>AddressEntry</b> que tiene <b>una constante olExchangeUserAddressEntry</b> como la <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.AddressEntryUserType" />; al llamar a <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.GetExchangeUser" /> devuelve el objeto <b>ExchangeUser</b> correspondiente.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Department">
@@ -415,11 +389,9 @@
       <Docs>
         <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el departamento de la <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI, <b>PidTagDepartmentName</b>.</para>
-          <para>Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagDepartmentName</b> de MAPI.</para>
+          <para> Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Details">
@@ -446,11 +418,9 @@
       <Docs>
         <param name="HWnd">Controlador de la ventana principal del cuadro de diálogo Detalles. El valor cero (predeterminado) especifica un cuadro de diálogo modal.</param>
         <summary>Muestra un cuadro de diálogo modal que proporciona información detallada acerca de un <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> objeto.</summary>
-        <remarks>
-          <para>El método <b>Details</b> genera un error si el <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.Name" /> (propiedad) está vacío. Debe usar el control de errores para controlar los errores en tiempo de ejecución y cuando el usuario hace clic en Cancelar en el cuadro de diálogo. </para>
-          <para>Los <b>Detalles</b> del método Details detiene el código que se ejecute mientras se muestra el cuadro de diálogo.   </para>
-          <para />
-        </remarks>
+        <remarks><para>El método <b>Details</b> genera un error si el <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.Name" /> (propiedad) está vacío. Debe utilizar el tratamiento de errores para controlar los errores en tiempo de ejecución y cuando el usuario hace clic en Cancelar en el cuadro de diálogo. </para>
+          <para>El método <b>Details</b> detiene el ejecución mientras se muestra el cuadro de diálogo del código.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayType">
@@ -476,11 +446,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDisplayType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve <b>olUser</b> , que es una constante de la <see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" /> (enumeración) que representa la naturaleza de la <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Es de solo lectura</summary>
+        <summary>Devuelve <b>olUser</b> , que es una constante de la <see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" /> (enumeración) que representa la naturaleza de la <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI, <b>PidTagDisplayType</b>.</para> Objeto 
-          <para><b>ExchangeUser</b> se deriva el <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objeto. Hereda la propiedad <b>DisplayType</b> del objeto <b>AddressEntry</b> . En el caso de <b>ExchangeUser</b>, <b>DisplayType</b> siempre debe devolver <b>olUser</b>.</para><para /></remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagDisplayType</b> de MAPI.</para>
+          <para> El objeto <b>ExchangeUser</b> se deriva el <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objeto. Hereda la propiedad <b>DisplayType</b> del objeto <b>AddressEntry</b>. En el caso de <b>ExchangeUser</b>, <b>DisplayType</b> siempre debe devolver <b>olUser</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FirstName">
@@ -511,11 +481,9 @@
       <Docs>
         <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre de la <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI, <b>PidTagGivenName</b>.</para>
-          <para>Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagGivenName</b> de MAPI.</para>
+          <para> Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetContact">
@@ -540,12 +508,9 @@
       <Parameters />
       <Docs>
         <summary>Devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) porque el <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> objeto no se corresponde con un contacto de una libreta de direcciones de contactos.</summary>
-        <returns>
-          <b>Nada</b> (una referencia nula (Nothing en Visual Basic) en C#) porque el objeto <b>ExchangeUser</b> no se corresponde con un contacto de una libreta de direcciones de contactos.</returns>
-        <remarks>
-          <para>El objeto <b>ExchangeUser</b> se deriva el <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objeto. Hereda el método <b>GetContact</b> del objeto <b>AddressEntry</b> y, en el caso de <b>ExchangeUser</b>, este método siempre devuelve <b>Nothing</b>.</para>
-          <para />
-        </remarks>
+        <returns><b>Nada</b> (una referencia nula (Nothing en Visual Basic) en C#) porque el objeto <b>ExchangeUser</b> no se corresponde con un contacto de una libreta de direcciones de contactos.</returns>
+        <remarks><para>El objeto <b>ExchangeUser</b> se deriva el <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objeto. Hereda el método <b>GetContact</b> del objeto <b>AddressEntry</b> y, en el caso de <b>ExchangeUser</b>, este método siempre devuelve <b>Nothing</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetDirectReports">
@@ -571,11 +536,9 @@
       <Docs>
         <summary>Obtiene un <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> objeto de colección que contiene todos los usuarios que notifican directamente al usuario de Exchange.</summary>
         <returns>Objeto de colección <b>AddressEntries</b> que contiene los usuarios que son subordinados directos del usuario de Exchange. El objeto <b>AddressEntries</b> tendrá un recuento de cero (0) si no hay ningún subordinado directo representado por un <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> en la sesión actual, o si no se han implementado subordinados directos en el directorio de Exchange.</returns>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>GetDirectReports</b> es una operación costosa en términos de rendimiento si no hay una conexión lenta al servidor de Exchange.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetExchangeDistributionList">
@@ -600,12 +563,9 @@
       <Parameters />
       <Docs>
         <summary>Devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) porque el <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> objeto no se corresponde con un <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" /> objeto.</summary>
-        <returns>
-          <b>Nada</b> (una referencia nula (Nothing en Visual Basic) en C#) porque el objeto <b>ExchangeUser</b> no se corresponde con un objeto <b>ExchangeDistributionList</b> .</returns>
-        <remarks>
-          <para>El objeto <b>ExchangeUser</b> se deriva el <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objeto. Hereda el método <b>GetExchangeDistributionList</b> del objeto <b>AddressEntry</b> y, en el caso de <b>ExchangeUser</b>, este método siempre devuelve <b>Nothing</b>.</para>
-          <para />
-        </remarks>
+        <returns><b>Nada</b> (una referencia nula (Nothing en Visual Basic) en C#) porque el objeto <b>ExchangeUser</b> no se corresponde con un objeto <b>ExchangeDistributionList</b> .</returns>
+        <remarks><para>El objeto <b>ExchangeUser</b> se deriva el <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objeto. Hereda el método <b>GetExchangeDistributionList</b> del objeto <b>AddressEntry</b> y, en el caso de <b>ExchangeUser</b>, este método siempre devuelve <b>Nothing</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetExchangeUser">
@@ -715,11 +675,9 @@
       <Docs>
         <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> objeto de colección que contiene el <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> listas de objetos que representan la distribución de Exchange a la que pertenece el usuario.</summary>
         <returns>Objeto de colección <b>AddressEntries</b> que representa la distribución de Exchange se enumera a la que el <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> pertenece. Devuelve un objeto de colección <b>AddressEntries</b> con un recuento de cero (0) si <b>ExchangeUser</b> no es un miembro de ninguna lista de distribución de Exchange.</returns>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>GetMemberOfList</b> es una operación costosa en términos de rendimiento si no hay una conexión lenta a Exchange Server.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetPicture">
@@ -745,11 +703,9 @@
       <Docs>
         <summary>Obtiene un <see cref="T:stdole.StdPicture" /> object que representa la imagen del usuario de Microsoft Exchange que se muestra en Microsoft Outlook.</summary>
         <returns>To be added.</returns>
-        <remarks>
-          <para>La imagen del usuario de Exchange se almacena en Active Directory y se muestra en varios lugares de Outlook, incluidos el cuadro de diálogo para las propiedades de Outlook y Card.If de contacto la imagen no existe para el usuario, <b>GetPicture</b> devuelve <b>Nothing</b> (un null (Nothing en Visual Basic) en C#).</para>
-          <para>Sólo se puede llamar <b>GetPicture</b> desde código que se ejecuta en proceso como Outlook. No se puede ordenar un objeto <b>StdPicture</b> a través de límites de proceso. Si intenta llamar a <b>GetPicture</b> desde código fuera de proceso, se produce una excepción. Para obtener más información, vea <a href="http://support.microsoft.com/kb/150034">un servidor de automatización no puede pasar un puntero a la imagen implementación del objeto IPictureDisp a través de límites de proceso</a></para>
-          <para />
-        </remarks>
+        <remarks><para>La imagen del usuario de Exchange se almacena en Active Directory y se muestra en varios lugares de Outlook, incluidos el cuadro de diálogo para las propiedades de Outlook y Card.If de contacto la imagen no existe para el usuario, <b>GetPicture</b> devuelve <b>Nothing</b> (un referencia nula (Nothing en Visual Basic) en C#).</para>
+          <para><b>GetPicture</b> sólo se puede llamar desde el código que se ejecuta en proceso como Outlook. Un objeto <b>StdPicture</b> no se puede ordenar a través de límites de proceso. Si intenta llamar a <b>GetPicture</b> desde código fuera de proceso, se produce una excepción. Para obtener más información, vea <a href="http://support.microsoft.com/kb/150034">un servidor de automatización no puede pasar un puntero a la imagen implementación del objeto IPictureDisp a través de límites de proceso</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ID">
@@ -775,12 +731,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el identificador único para la <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el identificador único para la <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El objeto <b>ExchangeUser</b> se deriva el <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objeto. Hereda la propiedad <b>ID</b> del objeto <b>AddressEntry</b> . El proveedor de transporte asigna un identificador de cadena permanente y único cuando se crea un objeto <b>AddressEntry</b> . Estos identificadores no cambian de una sesión a otra.</para>
-          <para />
-        </remarks>
+        <remarks><para> El objeto <b>ExchangeUser</b> se deriva el <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objeto. Hereda la propiedad <b>ID</b> del objeto <b>AddressEntry</b>. El proveedor de transporte asigna un identificador de cadena permanente y único cuando se crea un objeto <b>AddressEntry</b>. Estos identificadores no cambian de una sesión a otra.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="JobTitle">
@@ -811,11 +765,9 @@
       <Docs>
         <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el puesto de trabajo de la <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI <b>PidTagTitle</b>.</para>
-          <para>Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagTitle</b> MAPI.</para>
+          <para>Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastName">
@@ -846,11 +798,9 @@
       <Docs>
         <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el último nombre de la <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI <b>pidtagsurname MAPI</b>.</para>
-          <para>Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagSurname</b> MAPI.</para>
+          <para>Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Manager">
@@ -980,11 +930,9 @@
       <Docs>
         <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el número de teléfono móvil para la <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI <b>pidtagmobiletelephonenumber de MAPI</b>.</para>
-          <para>Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagMobileTelephoneNumber</b> de MAPI.</para>
+          <para>Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -1046,11 +994,9 @@
       <Docs>
         <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa la ubicación de la oficina para el <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI, <b>PidTagOfficeLocation</b>.</para>
-          <para>Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagOfficeLocation</b> de MAPI.</para>
+          <para> Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -1076,7 +1022,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <b>objeto</b> primario de la <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve el <b>objeto</b> primario de la <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1109,11 +1055,9 @@
       <Docs>
         <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el código postal para el <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI, <b>PidTagPostalCode</b>.</para>
-          <para>Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagPostalCode</b> de MAPI.</para>
+          <para>Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PrimarySmtpAddress">
@@ -1139,13 +1083,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa la dirección de Protocolo Simple de transferencia de correo (SMTP) principal para la <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Es de solo lectura</summary>
+        <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa la dirección de Protocolo Simple de transferencia de correo (SMTP) principal para la <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI, <b>PidTagEmailAddress</b>.</para>
-          <para>Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagEmailAddress</b> de MAPI.</para>
+          <para> Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyAccessor">
@@ -1171,7 +1113,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto que admite la creación, obtener, establecer y eliminación de propiedades del objeto primario <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> objeto que admite la creación, obtener, establecer y eliminación de propiedades del objeto primario <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1199,18 +1141,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StateOrProvince">
@@ -1241,11 +1181,9 @@
       <Docs>
         <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el estado o provincia para la <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI, <b>PidTagStateOrProvince</b>.</para>
-          <para>Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagStateOrProvince</b> de MAPI.</para>
+          <para> Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StreetAddress">
@@ -1276,11 +1214,9 @@
       <Docs>
         <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa la dirección postal para el <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Esta propiedad corresponde a la propiedad MAPI, <b>PidTagStreetAddress</b>.</para>
-          <para>Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Esta propiedad corresponde a la propiedad <b>PidTagStreetAddress</b> de MAPI.</para>
+          <para> Devuelve una cadena vacía si esta propiedad no se ha implementado o no existe para el objeto <b>ExchangeUser</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -1311,10 +1247,8 @@
       <Docs>
         <summary>Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa el tipo de entrada para el <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El objeto <b>ExchangeUser</b> se deriva el <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objeto. Hereda la propiedad <b>Type</b> del objeto <b>AddressEntry</b> . En el caso de <b>ExchangeUser</b>, el tipo siempre es la cadena "EX".</para>
-          <para />
-        </remarks>
+        <remarks><para>El objeto <b>ExchangeUser</b> se deriva el <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objeto. Hereda la propiedad <b>Type</b> del objeto <b>AddressEntry</b>. En el caso de <b>ExchangeUser</b>, el tipo siempre es la cadena "EX".</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Update">
@@ -1343,11 +1277,9 @@
         <param name="MakePermanent">Un valor de <b>True</b> indica que se vacía la caché de propiedades y todos los cambios se confirman en la libreta de direcciones subyacente. Un valor de <b>False</b> indica que la caché de propiedades se ha vaciado pero no confirmada en almacenamiento persistente. El valor predeterminado es <b>True</b>. </param>
         <param name="Refresh">Un valor de <b>True</b> indica que se vuelve a cargar la caché de propiedades de los valores de la libreta de direcciones subyacente. Un valor de <b>False</b> indica que no se vuelve a cargar la caché de propiedades. El valor predeterminado es <b>False</b>. </param>
         <summary>Expone un cambio realizado en la <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> objeto en el sistema de mensajería.</summary>
-        <remarks>
-          <para>Las nuevas entradas o los cambios realizados en las entradas existentes no son persistentes en la colección hasta que se ha llamado al método <b>Update</b> con su <paramref name="MakePermanent" /> parámetro establecido en <b>True</b>.  </para>
+        <remarks><para>Las nuevas entradas o los cambios realizados en las entradas existentes no son persistentes en la colección hasta que se ha llamado al método <b>Update</b> con su <paramref name="MakePermanent" /> parámetro establecido en <b>True</b>.  </para>
           <para>Para vaciar la memoria caché y, a continuación, volver a cargar los valores de la libreta de direcciones, llame al método <b>Update</b> con el <paramref name="MakePermanent" /> parámetro se establece en <b>False</b> y el <paramref name="Refresh" /> parámetro establecido en <b>True</b>.  </para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UpdateFreeBusy">

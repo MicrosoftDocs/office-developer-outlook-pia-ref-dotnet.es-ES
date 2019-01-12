@@ -1,13 +1,5 @@
 <Type Name="_Rule" FullName="Microsoft.Office.Interop.Outlook._Rule">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0fc7984ff84a0eea00858aa8ce56abf24313ff68" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20641939" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Rule" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0fc7984ff84a0eea00858aa8ce56abf24313ff68" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902799" /></Metadata><TypeSignature Language="C#" Value="public interface _Rule" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Rule" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Rule" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Rule" />
@@ -53,13 +45,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleActions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> objeto de colección que representa todas las acciones de regla disponibles para la regla. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> objeto de colección que representa todas las acciones de regla disponibles para la regla. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Puede enumerar y habilitar reglas con cualquier acción de regla que admiten las reglas y el Asistente para alertas, pero puede crear mediante programación reglas que tengan sólo las acciones de regla más comunes y no cualquier acción de regla que admite el Asistente de alertas y reglas. Para obtener más información sobre las acciones de regla admitidas, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Especificar acciones de regla</a></para>
-          <para>a través de la propiedad <b>Actions</b> , cada regla está asociada a un objeto <b>RuleActions</b> . La colección <b>RuleActions</b> es un objeto fijo: no se puede agregar o quitar elementos de esta colección. Acciones de regla que estén habilitadas en la regla tendrán una acción de regla habilitada en la colección <b>RuleActions</b> . Regla de acciones que no están habilitadas en la regla tendrán una acción de regla en esta colección que tiene el <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" /> propiedad establecida en <b>False</b>. Acciones de regla que no se admiten durante la creación de reglas mediante programación sólo pueden enumerarse en la colección <b>RuleActions</b> para una regla existente, pero como la colección <b>RuleActions</b> es fija, no se puede crear una regla y agregar dichas acciones a la colección <b>RuleActions</b> asociada.</para>
-          <para />
-        </remarks>
+        <remarks><para>Puede enumerar y habilitar reglas con cualquier acción de regla que admiten las reglas y el Asistente para alertas, pero puede crear mediante programación reglas que tengan sólo las acciones de regla más comunes y no cualquier acción de regla que admite el Asistente de alertas y reglas. Para obtener más información sobre las acciones de regla admitidas, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Especificar acciones de regla</a></para>
+          <para>A través de la propiedad <b>Actions</b>, cada regla tiene asociado un objeto <b>RuleActions</b>. La colección <b>RuleActions</b> es un objeto fijo: no se puede agregar o quitar elementos de esta colección. Acciones de regla que estén habilitadas en la regla tendrán una acción de regla habilitada en la colección <b>RuleActions</b>. Regla de acciones que no están habilitadas en la regla tendrán una acción de regla en esta colección que tiene el <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" /> propiedad establecida en <b>False</b>. Acciones de regla que no son compatibles durante la creación de reglas mediante programación sólo pueden enumerarse en la colección <b>RuleActions</b> para una regla existente, pero como la colección <b>RuleActions</b> es fija, no se puede crear una regla y agregar dichas acciones a la colección <b>RuleActions</b> asociada.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -85,7 +75,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -113,7 +103,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -141,14 +131,12 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleConditions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> objeto de colección que representa todas las condiciones de regla disponibles para la regla. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> objeto de colección que representa todas las condiciones de regla disponibles para la regla. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Una condición para una regla indica una condición bajo la que debe aplicarse la regla. Las <b>condiciones</b> y <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Exceptions" /> propiedades comparten el mismo conjunto de condiciones y devolver un objeto de colección <b>RuleConditions</b> correspondiente.</para>
-          <para>Mediante programación puede enumerar y habilitar reglas con cualquier condición de regla que admiten las reglas y el Asistente para alertas, pero puede crear reglas que solamente las condiciones de regla utilizadas con frecuencia, y no cualquier regla de condición que puede tener las reglas y el Asistente para alertas admite. Para obtener más información sobre la compatibilidad de condición de regla, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificar condiciones de regla</a></para>
-          <para>a través de la propiedad <b>Conditions</b> , cada regla está asociada con un objeto <b>RuleConditions</b> . La colección <b>RuleConditions</b> es un objeto fijo: no se puede agregar o quitar elementos de esta colección. Las condiciones de regla que estén habilitadas en la regla tendrán una condición de regla habilitada en la colección <b>RuleConditions</b> . Regla de condiciones que no estén habilitadas en la regla tendrán una condición de regla en esta colección que tiene el <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> propiedad establecida en <b>False</b>. Las condiciones de regla que no se admiten durante la creación de reglas mediante programación sólo pueden enumerarse en la colección <b>RuleConditions</b> para una regla existente, pero como la colección <b>RuleConditions</b> es fija, no se puede crear una regla y agregar dicha condición a la colección <b>RuleConditions</b> asociada.</para>
-          <para />
-        </remarks>
+        <remarks><para>Una condición para una regla indica una condición bajo la que debe aplicarse la regla. Las <b>condiciones</b> y <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Exceptions" /> propiedades comparten el mismo conjunto de condiciones y devolver un objeto de colección <b>RuleConditions</b> correspondiente.</para>
+          <para>Mediante programación puede enumerar y habilitar reglas con cualquier condición de regla que admiten las reglas y el Asistente para alertas, pero puede crear reglas que tengan sólo las condiciones de regla más comunes y no cualquier condición de regla que admite el Asistente de alertas y reglas. Para obtener más información sobre la compatibilidad de condición de regla, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificar condiciones de regla</a></para>
+          <para>A través de la propiedad <b>Conditions</b>, cada regla está asociada a un objeto <b>RuleConditions</b>. La colección <b>RuleConditions</b> es un objeto fijo: no se puede agregar o quitar elementos de esta colección. Las condiciones de regla que estén habilitadas en la regla tendrán una condición de regla habilitada en la colección <b>RuleConditions</b>. Regla de condiciones que no estén habilitadas en la regla tendrán una condición de regla en esta colección que tiene el <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> propiedad establecida en <b>False</b>. Las condiciones de regla que no son compatibles durante la creación de reglas mediante programación sólo pueden enumerarse en la colección <b>RuleConditions</b> para una regla existente, pero como la colección <b>RuleConditions</b> es fija, no se puede crear una regla y agregar dichas condiciones a la colección <b>RuleConditions</b> asociada.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -179,11 +167,9 @@
       <Docs>
         <summary>Devuelve o establece un valor <b>booleano</b> (<b>bool</b> en C#) que determina si se aplica la regla. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Establecer la propiedad <b>Enabled</b> de una regla no garantiza que se habilitará la regla. La regla sólo estará habilitada después <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> se ejecuta correctamente.</para>
-          <para>Uso de <b>Rule.Enabled</b> y <b>Rules.Save</b> aplica la regla de forma coherente y hace que las reglas más allá de la sesión actual. Al habilitar una regla (que se ha guardado correctamente) garantiza que se aplicará la regla. Si se trata de una regla de cliente local, se aplicará la regla cuando se está ejecutando Outlook, y si la regla es una regla basada en el servidor, se aplicará independientemente de si se está ejecutando Outlook. Si no habilita la regla, a continuación, se define la regla, pero no se aplicará. Sin embargo, puede usar <see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" /> para aplicar una regla como una operación de uso único, independientemente de si está habilitada la regla.  </para>
-          <para />
-        </remarks>
+        <remarks><para>Establecer la propiedad <b>Enabled</b> de una regla no garantiza que se habilitará la regla. La regla sólo estará habilitada después <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> se ejecuta correctamente.</para>
+          <para>Uso de <b>Rule.Enabled</b> y <b>Rules.Save</b> aplica la regla de forma coherente y hace que las reglas más allá de la sesión actual. Al habilitar una regla (que se ha guardado correctamente) garantiza que se aplicará la regla. Si se trata de una regla de cliente local, se aplicará la regla cuando Outlook se está ejecutando y si la regla es una regla basada en servidor, se aplicará independientemente de si se está ejecutando Outlook. Si no habilita la regla, a continuación, se define la regla, pero no se aplicará. Sin embargo, puede usar <see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" /> para aplicar una regla como una operación de uso único, independientemente de si está habilitada la regla.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Exceptions">
@@ -209,14 +195,12 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleConditions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> objeto de colección que representa todas las condiciones de excepción de regla disponibles para la regla. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> objeto de colección que representa todas las condiciones de excepción de regla disponibles para la regla. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Una condición de excepción de una regla indica una condición bajo la que no se aplique la regla. Tanto el <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Conditions" /> y propiedades de <b>excepciones</b> comparten el mismo conjunto de condiciones y devuelven un objeto de colección <b>RuleConditions</b> correspondiente.</para>
-          <para>Puede enumerar y habilitar reglas con cualquier condición de excepción de regla que admiten las reglas y el Asistente para alertas, pero puede crear mediante programación reglas que tienen sólo la usan con más frecuencia las condiciones de excepción de regla, y no cualquier excepción a la regla que condición las reglas y alertas asistente admite. Para obtener más información sobre la compatibilidad de condición de regla, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificar condiciones de regla</a></para>
-          <para>a través de la propiedad <b>Conditions</b> , cada regla está asociada con un objeto <b>RuleConditions</b> . La colección <b>RuleConditions</b> es un objeto fijo: no se puede agregar o quitar elementos de esta colección. Las condiciones de excepción de regla que estén habilitadas en la regla tendrán una condición de excepción de regla habilitada en la colección <b>RuleConditions</b> . Regla de las condiciones de excepción que no están habilitadas en la regla tendrán una condición de excepción de regla en esta colección que tiene el <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> propiedad establecida en <b>False</b>. Las condiciones de excepción de regla que no se admiten durante la creación de reglas mediante programación sólo pueden enumerarse en la colección <b>RuleConditions</b> para una regla existente, pero como la colección <b>RuleConditions</b> es fija, no se puede crear una regla y agregar dichas condiciones de excepción a la colección <b>RuleConditions</b> asociada.</para>
-          <para />
-        </remarks>
+        <remarks><para>Una condición de excepción de una regla indica una condición en la que no se aplique la regla. Tanto el <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Conditions" /> y propiedades de <b>excepciones</b> comparten el mismo conjunto de condiciones y devuelven un objeto de colección <b>RuleConditions</b> correspondiente.</para>
+          <para>Es posible enumerar y habilitar reglas con cualquier condición de excepción de regla que admiten las reglas y el Asistente para alertas, pero puede crear mediante programación reglas que solamente la usan con más frecuencia las condiciones de excepción de regla, y no cualquier excepción a la regla de condición que puede tener el Reglas y alertas asistente admite. Para obtener más información sobre la compatibilidad de condición de regla, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificar condiciones de regla</a></para>
+          <para>A través de la propiedad <b>Conditions</b>, cada regla está asociada a un objeto <b>RuleConditions</b>. La colección <b>RuleConditions</b> es un objeto fijo: no se puede agregar o quitar elementos de esta colección. Las condiciones de excepción de regla que estén habilitadas en la regla tendrán una condición de excepción de regla habilitada en la colección <b>RuleConditions</b>. Regla de las condiciones de excepción que no están habilitadas en la regla tendrán una condición de excepción de regla en esta colección que tiene el <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> propiedad establecida en <b>False</b>. Las condiciones de excepción de regla que no son compatibles durante la creación de reglas mediante programación sólo pueden enumerarse en la colección <b>RuleConditions</b> para una regla existente, pero como la colección <b>RuleConditions</b> es fija, no se puede crear una regla y agregar dichas condiciones de excepción a la colección <b>RuleConditions</b> asociada.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Execute">
@@ -244,27 +228,28 @@
         <Parameter Name="RuleExecuteOption" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="ShowProgress">
-          <b>True</b> para mostrar el cuadro de diálogo de progreso cuando se ejecuta la regla, <b>False</b> para ejecutar la regla sin mostrar el cuadro de diálogo.</param>
+        <param name="ShowProgress"><b>True</b> para mostrar el cuadro de diálogo de progreso cuando se ejecuta la regla, <b>False</b> para ejecutar la regla sin mostrar el cuadro de diálogo.</param>
         <param name="Folder">Representa la carpeta donde se aplicará la regla.</param>
-        <param name="IncludeSubfolders">
-          <b>True</b> para aplicar la regla a subcarpetas de la carpeta indicada por el parámetro Folder; <b>False</b> para aplicar la regla únicamente a esa carpeta pero no a sus subcarpetas.</param>
+        <param name="IncludeSubfolders"><b>True</b> para aplicar la regla a subcarpetas de la carpeta indicada por el parámetro Folder; <b>False</b> para aplicar la regla únicamente a esa carpeta pero no a sus subcarpetas.</param>
         <param name="RuleExecuteOption">Representa si la regla se debe aplicar a los mensajes leídos, sin leer o a todos los mensajes de la carpeta o las carpetas especificadas por los parámetros Folder e IncludeSubfolders.</param>
         <summary>Aplica una regla como una operación de un solo uso.</summary>
-        <remarks>
-          <para>Uso <see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" /> para aplicar una regla como una operación de uso único, independientemente de si <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Enabled" /> es <b>True</b>. Utilice <b>Rule.Enabled</b> y, a continuación, <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> si desea aplicar la regla de forma coherente y conservar las reglas más allá de la sesión actual.</para>
-          <para>Los parámetros del método <b>Execute</b> son opcionales. Si no especifica ningún parámetro, se aplicará la regla a todos los mensajes en la Bandeja de entrada, pero no a las subcarpetas de la Bandeja de entrada. Los valores predeterminados para los argumentos opcionales son los siguientes: </para>
+        <remarks><para>Uso <see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" /> para aplicar una regla como una operación de uso único, independientemente de si <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Enabled" /> es <b>True</b>. Utilice <b>Rule.Enabled</b> y, a continuación, <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> si desea aplicar la regla de forma coherente y conservar las reglas más allá de la sesión actual.</para>
+          <para>Los parámetros del método <b>Execute</b> son opcionales. Si no especifica ningún parámetro, se aplicará la regla a todos los mensajes en la Bandeja de entrada, pero no a las subcarpetas de la Bandeja de entrada. Los valores predeterminados para los argumentos opcionales son:</para>
           <list type="table">
+            <item>
+              <description>Parámetro</description>
+              <description>Valor predeterminado</description>
+            </item>
             <item>
               <description>ShowProgress</description>
               <description>False</description>
             </item>
-            <item>del 
-              <description>parámetro</description><description>Valor predeterminado</description></item>
-            <item>de la
-              <description>carpeta</description><description>Bandeja de entrada</description></item>
             <item>
-              <description> IncludeSubfolders</description>
+              <description>Folder</description>
+              <description>Bandeja de entrada</description>
+            </item>
+            <item>
+              <description>IncludeSubfolders</description>
               <description>False</description>
             </item>
             <item>
@@ -274,10 +259,9 @@
               </description>
             </item>
           </list>
-          <para>Si <paramref name="ShowProgress" /> es <b>True</b> y el usuario cancela el cuadro de diálogo Progreso de la regla se cancela la ejecución de la misma manera como si el usuario hubiera cancelado la ejecución de la regla a través de las reglas y el Asistente de alertas. Ejecutar devuelve un error cuando el usuario cancela el cuadro de diálogo de progreso.</para>
-          <para>Si tiene previsto mostrar una interfaz de usuario de progreso personalizada en lugar de usar el cuadro de diálogo de progreso, debe tener en cuenta que no hay ningún eventos que indican cuándo se inicia la ejecución de la regla y se detiene.</para>
-          <para />
-        </remarks>
+          <para>Si <paramref name="ShowProgress" /> es <b>True</b> y el usuario cancela el cuadro de diálogo de progreso de la ejecución de la regla se cancela de la misma manera que si el usuario hubiera cancelado de ejecución a través de las reglas y el Asistente de alertas de la regla. Execute devuelve un error cuando el usuario cancela el cuadro de diálogo de progreso.</para>
+          <para>Si piensa mostrar una interfaz de usuario de progreso personalizada en lugar de utilizar el cuadro de diálogo de progreso, debe tener en cuenta que no existen eventos que indiquen el momento en que se inicia y finaliza la ejecución de la regla.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExecutionOrder">
@@ -308,11 +292,9 @@
       <Docs>
         <summary>Devuelve o establece un valor <b>entero</b> (<b>int</b> en C#) que indica el orden de ejecución de la regla entre otras reglas de la <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> colección. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Propiedad ExecutionOrder</b> se le asigna directamente con el valor numérico de <paramref name="Index" /> en <see cref="P:Microsoft.Office.Interop.Outlook._Rules.Item(System.Object)" />. Por ejemplo, Rules.Item (1) representa una regla cuya <b>propiedad ExecutionOrder</b> que se va a 1, Rules.Item (2) representa una regla cuya <b>propiedad ExecutionOrder</b> que se va a 2 y Rules.Item (Rules.Count) representa la regla con la que se va a <b>ExecutionOrder</b><see cref="P:Microsoft.Office.Interop.Outlook._Rules.Count" />.</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>Propiedad ExecutionOrder</b> se le asigna directamente con el valor numérico de <paramref name="Index" /> en <see cref="P:Microsoft.Office.Interop.Outlook._Rules.Item(System.Object)" />. Por ejemplo, Rules.Item (1) representa una regla cuya <b>propiedad ExecutionOrder</b> que se va a 1, Rules.Item (2) representa una regla cuya <b>propiedad ExecutionOrder</b> que se va a 2 y Rules.Item (Rules.Count) representa la regla con la que se va a <b>ExecutionOrder</b> <see cref="P:Microsoft.Office.Interop.Outlook._Rules.Count" />.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsLocalRule">
@@ -338,14 +320,12 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <b>valor Boolean</b> (<b>bool</b> en C#) que indica si la regla se ejecuta como una regla de cliente. Es de solo lectura</summary>
+        <summary>Devuelve un <b>valor Boolean</b> (<b>bool</b> en C#) que indica si la regla se ejecuta como una regla de cliente. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Una regla de cliente ejecuta sólo cuando se ejecuta Outlook. Si <b>IsLocalRule</b> es <b>False</b>, la regla se ejecuta como una regla de servidor.</para>
-          <para>Si tiene una cuenta de correo electrónico de Microsoft Exchange Server, el servidor puede aplicar las reglas de servidor a los mensajes incluso si no tiene Outlook que se ejecuta. Las reglas se deben establecer que se aplicará a los mensajes cuando éstos se envíen a la Bandeja de entrada en el servidor y las reglas deben ser capaz de ejecutarse hasta su finalización en el servidor. Por ejemplo, una regla no se puede ejecutar hasta su finalización en el servidor si la acción especifica que se imprima el mensaje. Si no se puede aplicar una regla en el servidor, se aplica cuando se inicia Outlook.</para>
-          <para>Si la colección de reglas en un almacén contiene tanto reglas de cliente de servidor, las reglas del lado del servidor se aplican en primer lugar, seguido de las reglas de cliente.</para>
-          <para />
-        </remarks>
+        <remarks><para>Una regla de cliente ejecuta sólo cuando se ejecuta Outlook. Si <b>IsLocalRule</b> es <b>False</b>, la regla se ejecuta como una regla de servidor.</para>
+          <para>Si tiene una cuenta de correo electrónico de Microsoft Exchange Server, el servidor puede aplicar las reglas de servidor a sus mensajes incluso si Outlook no se está ejecutando. Las reglas deben configurarse para que se apliquen a los mensajes en el momento de entregarlos en su Bandeja de entrada en el servidor y deben poder ejecutarse en su totalidad en el mismo. Por ejemplo, una regla no puede ejecutarse en su totalidad en el servidor si la acción especifica que debe imprimirse el mensaje. Si una regla no puede aplicarse en el servidor, se aplicará cuando inicie Outlook.</para>
+          <para>Si la colección de reglas de un almacén contiene tanto reglas de servidor como de cliente, en primer lugar se aplican las reglas de servidor y después las reglas de cliente.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -376,12 +356,10 @@
       <Docs>
         <summary>Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre de la regla. Lectura y escritura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Nombre</b> es la propiedad predeterminada y un indizador para una regla en un <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> objeto de la colección. Se corresponde con <b>PidTagRuleMsgName</b> (0x65EC001E).</para>
-          <para>Nombres de las reglas no son únicos entre las reglas de la misma colección.</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>Name</b> es la propiedad predeterminada y un indizador para una regla en un <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> objeto de la colección. Se corresponde con <b>PidTagRuleMsgName</b> (0x65EC001E).</para>
+          <para>Los nombres de las reglas no son únicos entre las reglas de la misma colección.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -409,10 +387,8 @@
       <Docs>
         <summary>Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El elemento principal de la <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objeto es el <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> objeto.</para>
-          <para />
-        </remarks>
+        <remarks><para>El elemento principal de la <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objeto es el <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> objeto.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RuleType">
@@ -438,7 +414,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRuleType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una constante de la <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleType" /> (enumeración) que indica si la regla se aplica a los mensajes que se envían o reciben. Es de solo lectura</summary>
+        <summary>Devuelve una constante de la <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleType" /> (enumeración) que indica si la regla se aplica a los mensajes que se envían o reciben. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -466,18 +442,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

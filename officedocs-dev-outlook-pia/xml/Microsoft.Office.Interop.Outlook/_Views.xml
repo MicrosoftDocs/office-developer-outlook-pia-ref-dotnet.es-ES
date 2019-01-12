@@ -1,13 +1,5 @@
 <Type Name="_Views" FullName="Microsoft.Office.Interop.Outlook._Views">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="66617b0bde6b97d2cfc7ba1b7b89affe0a7d6251" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642638" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Views : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="66617b0bde6b97d2cfc7ba1b7b89affe0a7d6251" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903940" /></Metadata><TypeSignature Language="C#" Value="public interface _Views : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Views implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Views" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Views&#xA;Implements IEnumerable" />
@@ -63,8 +55,7 @@
         <param name="SaveOption">Opción para guardar que especifica los permisos de la nueva vista. <b>olViewSaveOptionAllFoldersOfType</b> Puede tener acceso a la vista en todas las carpetas de este tipo. <b>olViewSaveOptionThisFolderEveryOne</b> La vista se puede tener acceso a todos los usuarios de esta carpeta sólo. <b>olViewSaveOptionThisFolderOnlyMe</b> Puede tener acceso a la vista en esta carpeta sólo por el usuario.</param>
         <summary>Crea una nueva vista en el <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> colección.</summary>
         <returns>A <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object que representa la nueva vista.</returns>
-        <remarks>
-          <para>Si agrega una <b>vista</b> a una colección de <b>vistas</b> de una carpeta que no sea la carpeta actual, debe guardar primero una copia del objeto de colección <b>Views</b> y, a continuación, agregar la <b>vista</b> a este objeto de colección, tal como se muestra en el ejemplo de código siguiente. Se trata de una solución alternativa para un problema existente que en caso contrario, provocará una llamada a <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" /> para la se ha agregado <b>la vista</b> se lleve a cabo.</para>
+        <remarks><para>Si agrega una <b>vista</b> a una colección de <b>vistas</b> de una carpeta que no sea la carpeta actual, debe guardar primero una copia del objeto de colección <b>Views</b> y, a continuación, agregar la <b>vista</b> a este objeto de colección, tal como se muestra en el ejemplo de código siguiente. Se trata de una solución alternativa para un problema existente que en caso contrario, provocará una llamada a <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" /> para la se ha agregado <b>la vista</b> se lleve a cabo.</para>
           <code>Sub CalendarView()
     Dim calView As Outlook.View
     Dim vws As Outlook.Views
@@ -110,8 +101,7 @@ End Sub</code>
     // This Apply call will be fine.
     calView.Apply();
 }</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -137,7 +127,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -165,7 +155,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -193,7 +183,7 @@ End Sub</code>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que indica el número de objetos de la colección especificada. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -341,18 +331,16 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

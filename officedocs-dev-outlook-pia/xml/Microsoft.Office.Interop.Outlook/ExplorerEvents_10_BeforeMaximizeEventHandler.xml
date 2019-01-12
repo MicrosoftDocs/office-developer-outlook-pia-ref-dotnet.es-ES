@@ -1,13 +1,5 @@
 <Type Name="ExplorerEvents_10_BeforeMaximizeEventHandler" FullName="Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMaximizeEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="51723df0781412ad7a841c0dd23b00de7057e5be" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642658" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void ExplorerEvents_10_BeforeMaximizeEventHandler(out bool Cancel);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="42a83617b36e79b87762edb27689201e4e8fb95a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903905" /></Metadata><TypeSignature Language="C#" Value="public delegate void ExplorerEvents_10_BeforeMaximizeEventHandler(out bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ExplorerEvents_10_BeforeMaximizeEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMaximizeEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub ExplorerEvents_10_BeforeMaximizeEventHandler(ByRef Cancel As Boolean)" />
@@ -34,8 +26,7 @@
     <ReturnType>System.Void</ReturnType>
   </ReturnValue>
   <Docs>
-    <param name="Cancel">
-      <b>False</b> cuando se produce el evento. Si el procedimiento de evento establece este argumento en <b>True</b>, la operación no se completa y el explorador no está maximizado. </param>
+    <param name="Cancel"><b>False</b> cuando se produce el evento. Si el procedimiento de evento establece este argumento en <b>True</b>, la operación no se completa y el explorador no está maximizado. </param>
     <summary>Se trata de un delegado para un evento en el objeto correspondiente. Después de implementar un método de devolución de llamada para el evento, utilice este delegado para conectar el método de devolución de llamada con el evento. Si hubiera varias versiones de la interfaz de eventos, este delegado conectaría el método de devolución de llamadas para el evento en la versión especificada de Outlook.</summary>
     <remarks>To be added.</remarks>
   </Docs>

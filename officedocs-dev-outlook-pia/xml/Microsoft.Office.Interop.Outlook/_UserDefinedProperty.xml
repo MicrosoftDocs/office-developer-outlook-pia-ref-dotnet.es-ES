@@ -1,13 +1,5 @@
 <Type Name="_UserDefinedProperty" FullName="Microsoft.Office.Interop.Outlook._UserDefinedProperty">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d8729233aeddbd5461aab178148b6ab4c140eb82" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="es-ES" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20642358" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _UserDefinedProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d8729233aeddbd5461aab178148b6ab4c140eb82" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905172" /></Metadata><TypeSignature Language="C#" Value="public interface _UserDefinedProperty" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _UserDefinedProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._UserDefinedProperty" />
   <TypeSignature Language="VB.NET" Value="Public Interface _UserDefinedProperty" />
@@ -53,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,7 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Es de solo lectura</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -134,20 +126,19 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que representa el formato de presentación para el <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" /> objeto. Es de solo lectura</summary>
+        <summary>Devuelve un valor <b>entero</b> (<b>int</b> en C#) que representa el formato de presentación para el <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>El valor de esta propiedad es una constante de una enumeración, donde es depende del valor de la enumeración el <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Type" /> (propiedad) para el objeto <b>UserDefinedProperty</b> :</para>
+        <remarks><para>El valor de esta propiedad es una constante de una enumeración, donde es depende del valor de la enumeración el <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Type" /> (propiedad) para el objeto <b>UserDefinedProperty</b> :</para>
           <list type="table">
             <item>
-              <description>valor de tipo</description>
+              <description>Valor del tipo</description>
               <description>DisplayFormat (enumeración)</description>
             </item>
             <item>
               <description>
                 <b>olCombination</b>
               </description>
-              <description>No disponible (enumeración). Esta propiedad siempre devuelve 1 para <b>olCombination</b>.</description>
+              <description>No hay enumeración disponible. Esta propiedad siempre devuelve 1 para <b>olCombination</b>.</description>
             </item>
             <item>
               <description>
@@ -185,7 +176,7 @@
               <description>
                 <b>olFormula</b>
               </description>
-              <description>No disponible (enumeración). Esta propiedad siempre devuelve 1 para <b>olFormula</b>.</description>
+              <description>No hay enumeración disponible. Esta propiedad siempre devuelve 1 para <b>olFormula</b>.</description>
             </item>
             <item>
               <description>
@@ -215,7 +206,7 @@
               <description>
                 <b>olOutlookInternal</b>
               </description>
-              <description>No disponible (enumeración). Esta propiedad siempre devuelve 1 para <b>olOutlookInternal</b>.</description>
+              <description>No hay enumeración disponible. Esta propiedad siempre devuelve 1 para <b>olOutlookInternal</b>.</description>
             </item>
             <item>
               <description>
@@ -241,15 +232,16 @@
                 <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatText" />
               </description>
             </item>
-            <description>
-              <b>olYesNo</b>
-            </description>
-            <description>
-              <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatYesNo" />
-            </description>
+            <item>
+              <description>
+                <b>olYesNo</b>
+              </description>
+              <description>
+                <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatYesNo" />
+              </description>
+            </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Formula">
@@ -275,7 +267,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa la fórmula para el objeto <b>UserDefinedProperty</b> . Es de solo lectura</summary>
+        <summary>Devuelve un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa la fórmula para el objeto <b>UserDefinedProperty</b> . Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -303,7 +295,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre para mostrar para el objeto. Es de solo lectura</summary>
+        <summary>Devuelve un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre para mostrar para el objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -359,18 +351,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Es de solo lectura</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -396,7 +386,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlUserPropertyType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> constante que indica el tipo de la <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" /> objeto. Es de solo lectura.</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> constante que indica el tipo de la <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
