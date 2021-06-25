@@ -1,5 +1,5 @@
 <Type Name="_OlkComboBox" FullName="Microsoft.Office.Interop.Outlook._OlkComboBox">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="89f18877a1a25c0c409aacc28f213dc09a4b2fad" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901434" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkComboBox" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c820bf50404a80db164080f3f14e21ad21d54c4c" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139616" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkComboBox" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkComboBox" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkComboBox" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkComboBox" />
@@ -18,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary><span data-ttu-id="1f307-101">Esto es una interfaz principal en una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente.</span><span class="sxs-lookup"><span data-stu-id="1f307-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="1f307-102">Use esta interfaz principal sólo cuando el método que desea usar comparte el mismo nombre que un evento del objeto COM; en este caso, se convierte en esta interfaz para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento.</span><span class="sxs-lookup"><span data-stu-id="1f307-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="1f307-103">De lo contrario, use la interfaz de .NET que se deriva de la coclase COM para tener acceso a los métodos, propiedades y eventos del objeto COM.</span><span class="sxs-lookup"><span data-stu-id="1f307-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="1f307-104">Para obtener información sobre el objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.OlkComboBox" />.</span><span class="sxs-lookup"><span data-stu-id="1f307-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkComboBox" />.</span></span></summary>
+    <summary><span data-ttu-id="4b9ba-101">Es una interfaz principal en una coclase COM que el código administrado necesita para la interoperabilidad con el objeto COM correspondiente.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="4b9ba-102">Use esta interfaz principal únicamente cuando el método que desee usar comparta el mismo nombre que un evento del objeto COM; en este caso, realice la conversión a esta interfaz para llamar al método y realice la conversión a la última versión de la interfaz de eventos para conectarse al evento.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="4b9ba-103">En caso contrario, use la interfaz .NET derivada de la coclase COM para obtener acceso a los métodos, propiedades y eventos del objeto COM.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="4b9ba-104">Para obtener información sobre el objeto COM, vea <see cref="T:Microsoft.Office.Interop.Outlook.OlkComboBox" /> .</span><span class="sxs-lookup"><span data-stu-id="4b9ba-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.OlkComboBox" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,10 +45,10 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="ItemText"><span data-ttu-id="1f307-105">Valor que se agrega a la lista en el cuadro combinado.</span><span class="sxs-lookup"><span data-stu-id="1f307-105">Value to be added to the list in the combo box.</span></span></param>
-        <param name="Index"><span data-ttu-id="1f307-106">Valor de base 0 que especifica el orden del nuevo elemento en la lista.</span><span class="sxs-lookup"><span data-stu-id="1f307-106">A 0-based value that specifies the order of the new item in the list.</span></span></param>
-        <summary><span data-ttu-id="1f307-107">Agrega un elemento a la lista especificando, a título opcional, un índice para el nuevo elemento que aparece en la lista.</span><span class="sxs-lookup"><span data-stu-id="1f307-107">Adds an item to the list, optionally specifying an index for the new item to appear in the list.</span></span></summary>
-        <remarks><para><span data-ttu-id="1f307-108">Si el valor de <paramref name="Index" /> es igual o mayor que el número de elementos de la lista, el nuevo elemento se agregará al final de la lista.</span><span class="sxs-lookup"><span data-stu-id="1f307-108">If the value of  <paramref name="Index" /> is equal to or larger than the number of elements in the list, the new item will  be added to the end of the list.</span></span></para>
+        <param name="ItemText"><span data-ttu-id="4b9ba-105">Valor que se agrega a la lista en el cuadro combinado.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-105">Value to be added to the list in the combo box.</span></span></param>
+        <param name="Index"><span data-ttu-id="4b9ba-106">Valor de base 0 que especifica el orden del nuevo elemento en la lista.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-106">A 0-based value that specifies the order of the new item in the list.</span></span></param>
+        <summary><span data-ttu-id="4b9ba-107">Agrega un elemento a la lista especificando, a título opcional, un índice para el nuevo elemento que aparece en la lista.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-107">Adds an item to the list, optionally specifying an index for the new item to appear in the list.</span></span></summary>
+        <remarks><para><span data-ttu-id="4b9ba-108">Si el valor de es igual o mayor que el número de elementos de la lista, el nuevo elemento se agregará al  <paramref name="Index" /> final de la lista.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-108">If the value of  <paramref name="Index" /> is equal to or larger than the number of elements in the list, the new item will  be added to the end of the list.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -78,10 +78,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-109">Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que cambia automáticamente el tamaño del control para mostrar todo el contenido.</span><span class="sxs-lookup"><span data-stu-id="1f307-109">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that automatically sizes the control to display  the entire contents.</span></span>  <span data-ttu-id="1f307-110">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="1f307-110">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-109">Devuelve o establece un <b>valor booleano</b> (<b>bool</b> en C#) que ajusta automáticamente el tamaño del control para mostrar todo el contenido.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-109">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that automatically sizes the control to display  the entire contents.</span></span>  <span data-ttu-id="4b9ba-110">Lectura/escritura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-110">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para>  <span data-ttu-id="1f307-111">El valor predeterminado de esta propiedad es <b>False</b>.</span><span class="sxs-lookup"><span data-stu-id="1f307-111">The default value for this property is <b>False</b>.</span></span></para>
-          <para><span data-ttu-id="1f307-p103">Automáticamente al establecer <b>AutoSize</b> en <b>True</b>, establece el ancho del área de visualización a la longitud del texto en el cuadro combinado. Este comportamiento es similar al cuadro de texto de una línea.</span><span class="sxs-lookup"><span data-stu-id="1f307-p103">Setting <b>AutoSize</b> to <b>True</b> automatically sets the width of the display area to the length of the text in the combo box. This behavior is similar to the single-line text box. </span></span></para>
+        <remarks><para>  <span data-ttu-id="4b9ba-111">El valor predeterminado de esta propiedad es <b>False</b>.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-111">The default value for this property is <b>False</b>.</span></span></para>
+          <para><span data-ttu-id="4b9ba-p103">Automáticamente al establecer <b>AutoSize</b> en <b>True</b>, establece el ancho del área de visualización a la longitud del texto en el cuadro combinado. Este comportamiento es similar al cuadro de texto de una línea.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-p103">Setting <b>AutoSize</b> to <b>True</b> automatically sets the width of the display area to the length of the text in the combo box. This behavior is similar to the single-line text box. </span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -111,9 +111,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-114">Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si se inserta una ficha automáticamente cuando el control se ha rellenado hasta la longitud máxima especificada.</span><span class="sxs-lookup"><span data-stu-id="1f307-114">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies if a tab is inserted automatically  when the control has been filled to the maximum length specified.</span></span> <span data-ttu-id="1f307-115">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="1f307-115">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-114">Devuelve o establece un <b>valor booleano</b> (<b>bool</b> en C#) que especifica si una pestaña se inserta automáticamente cuando el control se ha rellenado con la longitud máxima especificada.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-114">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies if a tab is inserted automatically  when the control has been filled to the maximum length specified.</span></span> <span data-ttu-id="4b9ba-115">Lectura/escritura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-115">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para>  <span data-ttu-id="1f307-116">El valor predeterminado de esta propiedad es <b>False</b>.</span><span class="sxs-lookup"><span data-stu-id="1f307-116">The default value for this property is <b>False</b>.</span></span></para>
+        <remarks><para>  <span data-ttu-id="4b9ba-116">El valor predeterminado de esta propiedad es <b>False</b>.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-116">The default value for this property is <b>False</b>.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -143,9 +143,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-117">Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si una palabra o un carácter es la unidad básica utilizada para extender una selección.</span><span class="sxs-lookup"><span data-stu-id="1f307-117">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether a word or a character is the basic unit used to extend a selection.</span></span>  <span data-ttu-id="1f307-118">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="1f307-118">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-117">Devuelve o establece un <b>valor booleano</b> (<b>bool</b> en C#) que especifica si una palabra o un carácter es la unidad básica usada para extender una selección.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-117">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether a word or a character is the basic unit used to extend a selection.</span></span>  <span data-ttu-id="4b9ba-118">Lectura/escritura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-118">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="1f307-119">El valor predeterminado es <b>True</b>.</span><span class="sxs-lookup"><span data-stu-id="1f307-119">The default value is <b>True</b>.</span></span></para>
+        <remarks><para><span data-ttu-id="4b9ba-119">El valor predeterminado es <b>True</b>.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-119">The default value is <b>True</b>.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -178,9 +178,9 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-120">Devuelve o establece un valor de <b>UInteger</b> (<b>uint</b> en C#) que indica el color de fondo del control.</span><span class="sxs-lookup"><span data-stu-id="1f307-120">Returns or sets a <b>UInteger</b> (<b>uint</b> in C#) value that indicates the background color of the control.</span></span> <span data-ttu-id="1f307-121">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="1f307-121">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-120">Devuelve o establece un <b>valor UInteger</b> ( uint en<b>C#)</b> que indica el color de fondo del control.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-120">Returns or sets a <b>UInteger</b> (<b>uint</b> in C#) value that indicates the background color of the control.</span></span> <span data-ttu-id="4b9ba-121">Lectura/escritura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-121">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="1f307-122">Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#).</span><span class="sxs-lookup"><span data-stu-id="1f307-122">This property is of the type <b>OLE_COLOR</b> which is a <b>UInteger</b> (<b>uint</b> in C#) value.</span></span> <span data-ttu-id="1f307-123">El valor predeterminado de esta propiedad es 0 x 80000005, "Ventana".</span><span class="sxs-lookup"><span data-stu-id="1f307-123">The default value for this property is 0x80000005, "Window."</span></span> </para>
+        <remarks><para><span data-ttu-id="4b9ba-122">Esta propiedad es del <b>tipo</b> OLE_COLOR que es un valor <b>UInteger</b> (<b>uint</b> en C#).</span><span class="sxs-lookup"><span data-stu-id="4b9ba-122">This property is of the type <b>OLE_COLOR</b> which is a <b>UInteger</b> (<b>uint</b> in C#) value.</span></span> <span data-ttu-id="4b9ba-123">El valor predeterminado de esta propiedad es 0 x 80000005, "Ventana".</span><span class="sxs-lookup"><span data-stu-id="4b9ba-123">The default value for this property is 0x80000005, "Window."</span></span> </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -210,9 +210,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlBorderStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-124">Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> constante que define el estilo de borde que rodea el control.</span><span class="sxs-lookup"><span data-stu-id="1f307-124">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> constant that defines the style of the  border  around the control.</span></span>   <span data-ttu-id="1f307-125">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="1f307-125">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-124">Devuelve o establece una <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> constante que define el estilo del borde alrededor del control.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-124">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> constant that defines the style of the  border  around the control.</span></span>   <span data-ttu-id="4b9ba-125">Lectura/escritura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-125">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="1f307-126">El valor predeterminado es <b>olBorderStyleSingle</b>.</span><span class="sxs-lookup"><span data-stu-id="1f307-126">The default value is <b>olBorderStyleSingle</b>.</span></span></para>
+        <remarks><para><span data-ttu-id="4b9ba-126">El valor predeterminado es <b>olBorderStyleSingle</b>.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-126">The default value is <b>olBorderStyleSingle</b>.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -237,7 +237,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary><span data-ttu-id="1f307-127">Quita todos los objetos de la lista en el cuadro combinado.</span><span class="sxs-lookup"><span data-stu-id="1f307-127">Removes all objects from the list in the combo box.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-127">Quita todos los objetos de la lista en el cuadro combinado.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-127">Removes all objects from the list in the combo box.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -262,9 +262,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary><span data-ttu-id="1f307-128">Copia el contenido del control en el Portapapeles.</span><span class="sxs-lookup"><span data-stu-id="1f307-128">Copies the contents of the control to the clipboard.</span></span></summary>
-        <remarks><para><span data-ttu-id="1f307-129">Los datos se copian como texto sin formato y reemplazan el contenido existente en el Portapapeles.</span><span class="sxs-lookup"><span data-stu-id="1f307-129">The data is copied in unformatted text format, replacing the existing contents of the clipboard.</span></span></para>
-          <para><span data-ttu-id="1f307-130">Si el estilo del control es <b>olComboBoxStyleListBox</b>, este método copia la selección actual en la lista desplegable en el Portapapeles.</span><span class="sxs-lookup"><span data-stu-id="1f307-130">If the control style is <b>olComboBoxStyleListBox</b>, then this method copies the current selection in the drop-down list to the clipboard.</span></span></para>
+        <summary><span data-ttu-id="4b9ba-128">Copia el contenido del control en el Portapapeles.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-128">Copies the contents of the control to the clipboard.</span></span></summary>
+        <remarks><para><span data-ttu-id="4b9ba-129">Los datos se copian como texto sin formato y reemplazan el contenido existente en el Portapapeles.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-129">The data is copied in unformatted text format, replacing the existing contents of the clipboard.</span></span></para>
+          <para><span data-ttu-id="4b9ba-130">Si el estilo del control es <b>olComboBoxStyleListBox</b>, este método copia la selección actual en la lista desplegable en el Portapapeles.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-130">If the control style is <b>olComboBoxStyleListBox</b>, then this method copies the current selection in the drop-down list to the clipboard.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -289,9 +289,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary><span data-ttu-id="1f307-131">Quita el contenido del control y lo copia en el Portapapeles.</span><span class="sxs-lookup"><span data-stu-id="1f307-131">Removes the contents of the control and copies the contents to the clipboard.</span></span></summary>
-        <remarks><para><span data-ttu-id="1f307-132">Los datos se copian en el Portapapeles como texto sin formato y reemplazan el contenido existente en el Portapapeles.</span><span class="sxs-lookup"><span data-stu-id="1f307-132">The data is copied to the clipboard in unformatted text format, replacing the existing contents of the clipboard.</span></span></para>
-          <para><span data-ttu-id="1f307-133">Si el estilo del control es <b>olComboBoxStyleListBox</b>, a continuación, este método no corta nada.</span><span class="sxs-lookup"><span data-stu-id="1f307-133">If the control style is <b>olComboBoxStyleListBox</b>, then this method will not cut anything.</span></span></para>
+        <summary><span data-ttu-id="4b9ba-131">Quita el contenido del control y lo copia en el Portapapeles.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-131">Removes the contents of the control and copies the contents to the clipboard.</span></span></summary>
+        <remarks><para><span data-ttu-id="4b9ba-132">Los datos se copian en el Portapapeles como texto sin formato y reemplazan el contenido existente en el Portapapeles.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-132">The data is copied to the clipboard in unformatted text format, replacing the existing contents of the clipboard.</span></span></para>
+          <para><span data-ttu-id="4b9ba-133">Si el estilo del control es <b>olComboBoxStyleListBox</b>, a continuación, este método no corta nada.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-133">If the control style is <b>olComboBoxStyleListBox</b>, then this method will not cut anything.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -321,9 +321,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDragBehavior</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-134">Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlDragBehavior" /> constante que indica si el sistema habilita la característica de arrastrar y colocar para este control.</span><span class="sxs-lookup"><span data-stu-id="1f307-134">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlDragBehavior" /> constant that indicates whether the system enables the drag-and-drop feature for this control.</span></span>  <span data-ttu-id="1f307-135">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="1f307-135">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-134">Devuelve o establece una constante que indica si el sistema habilita la característica de arrastrar <see cref="T:Microsoft.Office.Interop.Outlook.OlDragBehavior" /> y colocar para este control.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-134">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlDragBehavior" /> constant that indicates whether the system enables the drag-and-drop feature for this control.</span></span>  <span data-ttu-id="4b9ba-135">Lectura/escritura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-135">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="1f307-136">El valor predeterminado es <b>olDragDropDisabled</b>.</span><span class="sxs-lookup"><span data-stu-id="1f307-136">The default value is <b>olDragDropDisabled</b>.</span></span></para>
+        <remarks><para><span data-ttu-id="4b9ba-136">El valor predeterminado es <b>olDragDropDisabled</b>.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-136">The default value is <b>olDragDropDisabled</b>.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -348,8 +348,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary><span data-ttu-id="1f307-137">Expande la parte desplegable del cuadro combinado.</span><span class="sxs-lookup"><span data-stu-id="1f307-137">Expands  the drop-down portion of the combo box.</span></span></summary>
-        <remarks><para><span data-ttu-id="1f307-138">Simula la acción del usuario al hacer clic en el botón del control.</span><span class="sxs-lookup"><span data-stu-id="1f307-138">Simulates the user clicking the drop button on the control.</span></span> <span data-ttu-id="1f307-139">Este método hace que el <see cref="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.DropButtonClick" /> evento se desencadene.</span><span class="sxs-lookup"><span data-stu-id="1f307-139">This method causes the <see cref="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.DropButtonClick" /> event to fire.</span></span></para>
+        <summary><span data-ttu-id="4b9ba-137">Expande la parte desplegable del cuadro combinado.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-137">Expands  the drop-down portion of the combo box.</span></span></summary>
+        <remarks><para><span data-ttu-id="4b9ba-138">Simula la acción del usuario al hacer clic en el botón del control.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-138">Simulates the user clicking the drop button on the control.</span></span> <span data-ttu-id="4b9ba-139">Este método hace que <see cref="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.DropButtonClick" /> el evento se desprenda.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-139">This method causes the <see cref="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.DropButtonClick" /> event to fire.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -379,9 +379,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-140">Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que indica si el control puede funcionar.</span><span class="sxs-lookup"><span data-stu-id="1f307-140">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the control is allowed to function.</span></span>  <span data-ttu-id="1f307-141">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="1f307-141">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-140">Devuelve o establece un <b>valor booleano</b> (<b>bool</b> en C#) que indica si el control puede funcionar.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-140">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the control is allowed to function.</span></span>  <span data-ttu-id="4b9ba-141">Lectura/escritura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-141">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="1f307-142">El valor predeterminado es <b>True</b>.</span><span class="sxs-lookup"><span data-stu-id="1f307-142">The default value is <b>True</b>.</span></span></para>
+        <remarks><para><span data-ttu-id="4b9ba-142">El valor predeterminado es <b>True</b>.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-142">The default value is <b>True</b>.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -411,9 +411,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-143">Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" /> constante que especifica el comportamiento de selección al entrar en el control.</span><span class="sxs-lookup"><span data-stu-id="1f307-143">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" /> constant that specifies the selection behavior when entering the control.</span></span> <span data-ttu-id="1f307-144">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="1f307-144">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-143">Devuelve o establece una <see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" /> constante que especifica el comportamiento de selección al entrar en el control.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-143">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" /> constant that specifies the selection behavior when entering the control.</span></span> <span data-ttu-id="4b9ba-144">Lectura/escritura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-144">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="1f307-145">El valor predeterminado es <b>olEnterFieldBehaviorSelectAll</b>.</span><span class="sxs-lookup"><span data-stu-id="1f307-145">The default value is <b>olEnterFieldBehaviorSelectAll</b>.</span></span></para>
+        <remarks><para><span data-ttu-id="4b9ba-145">El valor predeterminado es <b>olEnterFieldBehaviorSelectAll</b>.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-145">The default value is <b>olEnterFieldBehaviorSelectAll</b>.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -440,9 +440,9 @@
         <ReturnType>stdole.StdFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-146">Devuelve un <b>StdFont</b> que representa la fuente utilizada para representar el texto dentro del control.</span><span class="sxs-lookup"><span data-stu-id="1f307-146">Returns a <b>StdFont</b> that represents the font used to render the text inside the control.</span></span>  <span data-ttu-id="1f307-147">Es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="1f307-147">Read-only.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-146">Devuelve un <b>StdFont</b> que representa la fuente utilizada para representar el texto dentro del control.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-146">Returns a <b>StdFont</b> that represents the font used to render the text inside the control.</span></span>  <span data-ttu-id="4b9ba-147">Es de sólo lectura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-147">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="1f307-148">La fuente se expresa como la de tipo <b>stdfont</b>de Microsoft Windows.</span><span class="sxs-lookup"><span data-stu-id="1f307-148">The font is expressed as the Microsoft Windows type <b>stdfont</b>.</span></span></para>
+        <remarks><para><span data-ttu-id="4b9ba-148">La fuente se expresa como microsoft Windows tipo <b>stdfont</b>.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-148">The font is expressed as the Microsoft Windows type <b>stdfont</b>.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -475,9 +475,9 @@
         <ReturnType>System.UInt32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-149">Devuelve o establece un valor de <b>UInteger</b> (<b>uint</b> en C#) que indica el color de primer plano del control.</span><span class="sxs-lookup"><span data-stu-id="1f307-149">Returns or sets a <b>UInteger</b> (<b>uint</b> in C#) value that indicates the foreground color of the control.</span></span> <span data-ttu-id="1f307-150">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="1f307-150">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-149">Devuelve o establece un <b>valor UInteger</b> ( uint en<b>C#)</b> que indica el color de primer plano del control.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-149">Returns or sets a <b>UInteger</b> (<b>uint</b> in C#) value that indicates the foreground color of the control.</span></span> <span data-ttu-id="4b9ba-150">Lectura/escritura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-150">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="1f307-151">Esta propiedad es del tipo <b>OLE_COLOR</b> , que es un valor <b>UInteger</b> (<b>uint</b> en C#).</span><span class="sxs-lookup"><span data-stu-id="1f307-151">This property is of the type <b>OLE_COLOR</b> which is a <b>UInteger</b> (<b>uint</b> in C#) value.</span></span> <span data-ttu-id="1f307-152">El valor predeterminado de esta propiedad es 0 x 80000008, "Texto de ventana".</span><span class="sxs-lookup"><span data-stu-id="1f307-152">The default value for this property is 0x80000008, "Window Text."</span></span>  </para>
+        <remarks><para><span data-ttu-id="4b9ba-151">Esta propiedad es del <b>tipo</b> OLE_COLOR que es un valor <b>UInteger</b> (<b>uint</b> en C#).</span><span class="sxs-lookup"><span data-stu-id="4b9ba-151">This property is of the type <b>OLE_COLOR</b> which is a <b>UInteger</b> (<b>uint</b> in C#) value.</span></span> <span data-ttu-id="4b9ba-152">El valor predeterminado de esta propiedad es 0 x 80000008, "Texto de ventana".</span><span class="sxs-lookup"><span data-stu-id="4b9ba-152">The default value for this property is 0x80000008, "Window Text."</span></span>  </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -504,10 +504,10 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index"><span data-ttu-id="1f307-153">Valor de base 0 que especifica la ubicación de un elemento en la lista.</span><span class="sxs-lookup"><span data-stu-id="1f307-153">A zero-based value that specifies the location of an item in the list.</span></span></param>
-        <summary><span data-ttu-id="1f307-154">Obtiene una <b>cadena</b> (<b>cadena</b> en C#) que representa un elemento en la ubicación especificada en la lista de control de cuadro combinado.</span><span class="sxs-lookup"><span data-stu-id="1f307-154">Obtains a <b>String</b> (<b>string</b> in C#) that represents an item at the specified location in the list of the combo box control.</span></span></summary>
-        <returns><span data-ttu-id="1f307-155">Un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa el elemento en la ubicación especificada en la lista.</span><span class="sxs-lookup"><span data-stu-id="1f307-155">A <b>String</b> (<b>string</b> in C#) value that represents the item at the specified location in the list.</span></span></returns>
-        <remarks><para><span data-ttu-id="1f307-156">Si <paramref name="Index" /> está fuera del intervalo de valores permitidos (entre cero y <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" />-1), un fuera de los límites se devolverá el error.</span><span class="sxs-lookup"><span data-stu-id="1f307-156">If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" />-1), then an out-of-bounds  error will be returned.</span></span></para>
+        <param name="Index"><span data-ttu-id="4b9ba-153">Valor de base 0 que especifica la ubicación de un elemento en la lista.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-153">A zero-based value that specifies the location of an item in the list.</span></span></param>
+        <summary><span data-ttu-id="4b9ba-154">Obtiene una <b>cadena</b> (<b>cadena</b> en C#) que representa un elemento en la ubicación especificada en la lista del control de cuadro combinado.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-154">Obtains a <b>String</b> (<b>string</b> in C#) that represents an item at the specified location in the list of the combo box control.</span></span></summary>
+        <returns><span data-ttu-id="4b9ba-155">Valor <b>string</b> (<b>string</b> in C#) que representa el elemento en la ubicación especificada de la lista.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-155">A <b>String</b> (<b>string</b> in C#) value that represents the item at the specified location in the list.</span></span></returns>
+        <remarks><para><span data-ttu-id="4b9ba-156">Si está fuera del intervalo de los valores <paramref name="Index" /> permitidos (entre cero y -1), se devolverá un error fuera <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" /> de límites.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-156">If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" />-1), then an out-of-bounds  error will be returned.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -537,9 +537,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-157">Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si una selección se muestra o se oculta para el control cuando el control pierde el foco.</span><span class="sxs-lookup"><span data-stu-id="1f307-157">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies if a selection is displayed or hidden for the control when the control loses focus.</span></span>  <span data-ttu-id="1f307-158">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="1f307-158">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-157">Devuelve o establece un <b>valor booleano</b> (<b>bool</b> en C#) que especifica si se muestra u oculta una selección para el control cuando el control pierde el foco.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-157">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies if a selection is displayed or hidden for the control when the control loses focus.</span></span>  <span data-ttu-id="4b9ba-158">Lectura/escritura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-158">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="1f307-p117">El valor predeterminado de esta propiedad es <b>True</b>.</span><span class="sxs-lookup"><span data-stu-id="1f307-p117">The default value of this property is <b>True</b>. </span></span></para>
+        <remarks><para><span data-ttu-id="4b9ba-p117">El valor predeterminado de esta propiedad es <b>True</b>.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-p117">The default value of this property is <b>True</b>. </span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -566,9 +566,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-160">Devuelve un valor <b>entero</b> (<b>int</b> en C#) que especifica el número de elementos en la lista desplegable el combinado de control de cuadro.</span><span class="sxs-lookup"><span data-stu-id="1f307-160">Returns an <b>Integer</b> (<b>int</b> in C#) value that specifies the number of elements in the drop-down list of the combo box control.</span></span> <span data-ttu-id="1f307-161">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="1f307-161">Read-only.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-160">Devuelve un <b>valor Integer</b> (<b>int</b> en C#) que especifica el número de elementos de la lista desplegable del control de cuadro combinado.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-160">Returns an <b>Integer</b> (<b>int</b> in C#) value that specifies the number of elements in the drop-down list of the combo box control.</span></span> <span data-ttu-id="4b9ba-161">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-161">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="1f307-162">El valor predeterminado es cero, que indica que no hay elementos en la lista.</span><span class="sxs-lookup"><span data-stu-id="1f307-162">The default value is zero, indicating that there are no items in the list.</span></span></para>
+        <remarks><para><span data-ttu-id="4b9ba-162">El valor predeterminado es cero, que indica que no hay elementos en la lista.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-162">The default value is zero, indicating that there are no items in the list.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -598,11 +598,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-163">Devuelve o establece control un valor <b>entero</b> (<b>int</b> en C#) que indica la ubicación del elemento seleccionado actualmente en la lista del cuadro combinado.</span><span class="sxs-lookup"><span data-stu-id="1f307-163">Reurns or sets an <b>Integer</b> (<b>int</b> in C#) value that indicates the location of the currently selected element in the list of the combo box control.</span></span> <span data-ttu-id="1f307-164">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="1f307-164">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-163">Devuelve o establece un <b>valor Integer</b> (<b>int</b> en C#) que indica la ubicación del elemento seleccionado actualmente en la lista del control de cuadro combinado.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-163">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that indicates the location of the currently selected element in the list of the combo box control.</span></span> <span data-ttu-id="4b9ba-164">Lectura/escritura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-164">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="1f307-165">
-            <b>ListIndex</b> es un valor de base cero índice en la matriz de elementos de la lista.</span><span class="sxs-lookup"><span data-stu-id="1f307-165">
-            <b>ListIndex</b> is a zero-based value indexing into the array of items in the list.</span></span>  <span data-ttu-id="1f307-166">El valor predeterminado es -1, que indica que no hay ningún elemento está seleccionado.</span><span class="sxs-lookup"><span data-stu-id="1f307-166">The default value is -1, indicating that no item is selected.</span></span></para>
+        <remarks><para><span data-ttu-id="4b9ba-165">
+            <b>ListIndex</b> es un valor de base cero índice en la matriz de elementos de la lista.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-165">
+            <b>ListIndex</b> is a zero-based value indexing into the array of items in the list.</span></span>  <span data-ttu-id="4b9ba-166">El valor predeterminado es -1, que indica que no hay ningún elemento está seleccionado.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-166">The default value is -1, indicating that no item is selected.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -632,10 +632,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-167">Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si el control está bloqueado desde que se está cambiando.</span><span class="sxs-lookup"><span data-stu-id="1f307-167">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether or not the control is locked from being changed.</span></span>  <span data-ttu-id="1f307-168">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="1f307-168">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-167">Devuelve o establece un <b>valor booleano</b> (<b>bool</b> en C#) que especifica si el control está bloqueado para que no se cambie.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-167">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether or not the control is locked from being changed.</span></span>  <span data-ttu-id="4b9ba-168">Lectura/escritura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-168">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="1f307-169">El valor predeterminado es <b>False</b>.</span><span class="sxs-lookup"><span data-stu-id="1f307-169">The default value is <b>False</b>.</span></span></para>
-          <para><span data-ttu-id="1f307-p122">Cuando el control está bloqueado, no parece que esté "deshabilitado", pero el usuario no puede modificar su contenido.</span><span class="sxs-lookup"><span data-stu-id="1f307-p122">When the control is locked, the control does not have  a "disabled" appearance, but the user cannot edit the contents of the control.  </span></span></para>
+        <remarks><para><span data-ttu-id="4b9ba-169">El valor predeterminado es <b>False</b>.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-169">The default value is <b>False</b>.</span></span></para>
+          <para><span data-ttu-id="4b9ba-p122">Cuando el control está bloqueado, no parece que esté "deshabilitado", pero el usuario no puede modificar su contenido.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-p122">When the control is locked, the control does not have  a "disabled" appearance, but the user cannot edit the contents of the control.  </span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -665,9 +665,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-171">Devuelve o establece un valor <b>entero</b> (<b>int</b> en C#) que especifica el número máximo de caracteres para el <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" /> de este control.</span><span class="sxs-lookup"><span data-stu-id="1f307-171">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that specifies the maximum number of characters for the <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" /> of this control.</span></span>  <span data-ttu-id="1f307-172">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="1f307-172">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-171">Devuelve o establece un <b>valor Integer</b> (<b>int</b> en C#) que especifica el número máximo de caracteres para este <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" /> control.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-171">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that specifies the maximum number of characters for the <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" /> of this control.</span></span>  <span data-ttu-id="4b9ba-172">Lectura/escritura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-172">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="1f307-p124">El valor predeterminado es cero, lo que indica simplemente que no se ha definido ninguna longitud máxima para el valor de este control. Sin embargo, es posible que exista una longitud máxima impuesta por la memoria disponible u otros factores.</span><span class="sxs-lookup"><span data-stu-id="1f307-p124">The default value is zero, which only means that no maximum length for the value has been defined for this control. A maximum length may still be in place based on available memory or other factors.</span></span></para>
+        <remarks><para><span data-ttu-id="4b9ba-p124">El valor predeterminado es cero, lo que indica simplemente que no se ha definido ninguna longitud máxima para el valor de este control. Sin embargo, es posible que exista una longitud máxima impuesta por la memoria disponible u otros factores.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-p124">The default value is zero, which only means that no maximum length for the value has been defined for this control. A maximum length may still be in place based on available memory or other factors.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -697,9 +697,9 @@
         <ReturnType>stdole.StdPicture</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-p125">Devuelve o establece un <b>StdPicture</b> que representa una imagen personalizada para el cursor del mouse (ratón) para este control. Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="1f307-p125">Returns or sets a <b>StdPicture</b> that represents a custom picture to the mouse cursor for this control. Read/write.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-p125">Devuelve o establece un <b>StdPicture</b> que representa una imagen personalizada para el cursor del mouse (ratón) para este control. Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-p125">Returns or sets a <b>StdPicture</b> that represents a custom picture to the mouse cursor for this control. Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="1f307-177">El valor predeterminado es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</span><span class="sxs-lookup"><span data-stu-id="1f307-177">The default value is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
+        <remarks><para><span data-ttu-id="4b9ba-177">El valor predeterminado es <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#).</span><span class="sxs-lookup"><span data-stu-id="4b9ba-177">The default value is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -729,9 +729,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMousePointer</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-178">Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constante que especifica el tipo de puntero mostrado cuando el usuario coloca el mouse sobre el control.</span><span class="sxs-lookup"><span data-stu-id="1f307-178">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constant that specifies the type of pointer displayed when the user positions the mouse over the control.</span></span>  <span data-ttu-id="1f307-179">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="1f307-179">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-178">Devuelve o establece una constante que especifica el tipo de puntero que se muestra cuando el usuario coloca <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> el mouse sobre el control.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-178">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> constant that specifies the type of pointer displayed when the user positions the mouse over the control.</span></span>  <span data-ttu-id="4b9ba-179">Lectura/escritura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-179">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="1f307-180">El valor predeterminado es <b>olMousePointerDefault</b>.</span><span class="sxs-lookup"><span data-stu-id="1f307-180">The default value is <b>olMousePointerDefault</b>.</span></span></para>
+        <remarks><para><span data-ttu-id="4b9ba-180">El valor predeterminado es <b>olMousePointerDefault</b>.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-180">The default value is <b>olMousePointerDefault</b>.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -756,9 +756,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary><span data-ttu-id="1f307-181">Pega el contenido del Portapapeles en el control.</span><span class="sxs-lookup"><span data-stu-id="1f307-181">Pastes the contents of the clipboard in the control.</span></span></summary>
-        <remarks><para><span data-ttu-id="1f307-182">El contenido del Portapapeles se pega como texto sin formato.</span><span class="sxs-lookup"><span data-stu-id="1f307-182">The contents of the clipboard are pasted in unformatted text.</span></span></para>
-          <para><span data-ttu-id="1f307-183">Este método no pega ningún dato cuando el control <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Style" /> es <b>olComboBoxStyleListBox</b>.</span><span class="sxs-lookup"><span data-stu-id="1f307-183">This method does not paste anything when the control's <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Style" /> is <b>olComboBoxStyleListBox</b>.</span></span></para>
+        <summary><span data-ttu-id="4b9ba-181">Pega el contenido del Portapapeles en el control.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-181">Pastes the contents of the clipboard in the control.</span></span></summary>
+        <remarks><para><span data-ttu-id="4b9ba-182">El contenido del Portapapeles se pega como texto sin formato.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-182">The contents of the clipboard are pasted in unformatted text.</span></span></para>
+          <para><span data-ttu-id="4b9ba-183">Este método no pega nada cuando el control es <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Style" /> <b>olComboBoxStyleListBox</b>.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-183">This method does not paste anything when the control's <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Style" /> is <b>olComboBoxStyleListBox</b>.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -785,9 +785,9 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index"><span data-ttu-id="1f307-184">Valor de base 0 que actúa de índice en la matriz de elementos de la lista.</span><span class="sxs-lookup"><span data-stu-id="1f307-184">A zero-based value indexing into the array of items in the list.</span></span></param>
-        <summary><span data-ttu-id="1f307-185">Quita el elemento especificado de la lista.</span><span class="sxs-lookup"><span data-stu-id="1f307-185">Removes the specified item from the list.</span></span></summary>
-        <remarks><para><span data-ttu-id="1f307-186">Si <paramref name="Index" /> está fuera del intervalo de valores permitidos (entre cero y <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" />-1), un fuera de los límites se devolverá el error.</span><span class="sxs-lookup"><span data-stu-id="1f307-186">If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" />-1), then an out-of-bounds error will be returned.</span></span> </para>
+        <param name="Index"><span data-ttu-id="4b9ba-184">Valor de base 0 que actúa de índice en la matriz de elementos de la lista.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-184">A zero-based value indexing into the array of items in the list.</span></span></param>
+        <summary><span data-ttu-id="4b9ba-185">Quita el elemento especificado de la lista.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-185">Removes the specified item from the list.</span></span></summary>
+        <remarks><para><span data-ttu-id="4b9ba-186">Si está fuera del intervalo de los valores <paramref name="Index" /> permitidos (entre cero y -1), se devolverá un error fuera <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" /> de límites.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-186">If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" />-1), then an out-of-bounds error will be returned.</span></span> </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -817,9 +817,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-187">Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que especifica si el usuario puede seleccionar una línea de texto haciendo clic en la región a la izquierda del texto.</span><span class="sxs-lookup"><span data-stu-id="1f307-187">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether the user can select a line of text by clicking in the region to the left of the text.</span></span>   <span data-ttu-id="1f307-188">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="1f307-188">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-187">Devuelve o establece un <b>valor booleano</b> (<b>bool</b> en C#) que especifica si el usuario puede seleccionar una línea de texto haciendo clic en la región a la izquierda del texto.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-187">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether the user can select a line of text by clicking in the region to the left of the text.</span></span>   <span data-ttu-id="4b9ba-188">Lectura/escritura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-188">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="1f307-189">Si <b>es True</b>, al hacer clic en el margen hace que la selección de texto.</span><span class="sxs-lookup"><span data-stu-id="1f307-189">If <b>True</b>, clicking in the margin causes selection of text.</span></span>  <span data-ttu-id="1f307-190">Si <b>False</b>, esta acción no selecciona ningún texto.</span><span class="sxs-lookup"><span data-stu-id="1f307-190">If <b>False</b>, this action does not select any text.</span></span> <span data-ttu-id="1f307-191">El valor predeterminado es <b>False</b>.</span><span class="sxs-lookup"><span data-stu-id="1f307-191">The default value is <b>False</b>.</span></span>  </para>
+        <remarks><para><span data-ttu-id="4b9ba-189">Si <b>es True</b>, al hacer clic en el margen hace que la selección de texto.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-189">If <b>True</b>, clicking in the margin causes selection of text.</span></span>  <span data-ttu-id="4b9ba-190">Si <b>False</b>, esta acción no selecciona ningún texto.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-190">If <b>False</b>, this action does not select any text.</span></span> <span data-ttu-id="4b9ba-191">El valor predeterminado es <b>False</b>.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-191">The default value is <b>False</b>.</span></span>  </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -849,12 +849,12 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-192">Devuelve o establece un valor <b>entero</b> (<b>int</b> en C#) que especifica el número de caracteres de la selección actual.</span><span class="sxs-lookup"><span data-stu-id="1f307-192">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that specifies the number of characters in the current selection.</span></span>  <span data-ttu-id="1f307-193">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="1f307-193">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-192">Devuelve o establece un <b>valor Integer</b> (<b>int</b> en C#) que especifica el número de caracteres de la selección actual.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-192">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that specifies the number of characters in the current selection.</span></span>  <span data-ttu-id="4b9ba-193">Lectura/escritura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-193">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="1f307-194">La selección actual es especificada por <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" />, que es una parte del control <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />.</span><span class="sxs-lookup"><span data-stu-id="1f307-194">The current selection is specified by <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" />, which is a portion of the control's <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />.</span></span> <span data-ttu-id="1f307-195">El número máximo de caracteres que puede admitirse para el <b>valor</b> es <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</span><span class="sxs-lookup"><span data-stu-id="1f307-195">The maximum number of characters that can be supported for <b>Value</b> is <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</span></span></para>
-          <para><span data-ttu-id="1f307-p132">El valor predeterminado es cero, lo que significa que no hay ningún texto seleccionado actualmente.</span><span class="sxs-lookup"><span data-stu-id="1f307-p132">The default value is zero, which means no text is currently selected. </span></span></para>
-          <para><span data-ttu-id="1f307-197">La propiedad <b>SelLength</b> siempre es válida, incluso cuando el control no tiene el foco.</span><span class="sxs-lookup"><span data-stu-id="1f307-197">The <b>SelLength</b> property is always valid, even when the control does not have focus.</span></span></para>
-          <para><span data-ttu-id="1f307-198">Si se establece <b>SelLength</b> en un valor menor que cero, se produce un error.</span><span class="sxs-lookup"><span data-stu-id="1f307-198">Setting <b>SelLength</b> to a value less than zero causes an error.</span></span>   <span data-ttu-id="1f307-199">Si se intenta establecer el valor en uno mayor que <b>MaxLength</b>, <b>SelLength</b> en <b>MaxLength</b>.</span><span class="sxs-lookup"><span data-stu-id="1f307-199">Attempting to set the value greater than <b>MaxLength</b> results in setting <b>SelLength</b> to <b>MaxLength</b>.</span></span>  </para>
+        <remarks><para><span data-ttu-id="4b9ba-194">La selección actual se especifica mediante <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" /> , que es una parte del control <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" /> .</span><span class="sxs-lookup"><span data-stu-id="4b9ba-194">The current selection is specified by <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" />, which is a portion of the control's <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />.</span></span> <span data-ttu-id="4b9ba-195">El número máximo de caracteres que se pueden admiten para <b>Value</b> es <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" /> .</span><span class="sxs-lookup"><span data-stu-id="4b9ba-195">The maximum number of characters that can be supported for <b>Value</b> is <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</span></span></para>
+          <para><span data-ttu-id="4b9ba-p132">El valor predeterminado es cero, lo que significa que no hay ningún texto seleccionado actualmente.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-p132">The default value is zero, which means no text is currently selected. </span></span></para>
+          <para><span data-ttu-id="4b9ba-197">La propiedad <b>SelLength</b> siempre es válida, incluso cuando el control no tiene el foco.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-197">The <b>SelLength</b> property is always valid, even when the control does not have focus.</span></span></para>
+          <para><span data-ttu-id="4b9ba-198">Si se establece <b>SelLength</b> en un valor menor que cero, se produce un error.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-198">Setting <b>SelLength</b> to a value less than zero causes an error.</span></span>   <span data-ttu-id="4b9ba-199">Si se intenta establecer el valor en uno mayor que <b>MaxLength</b>, <b>SelLength</b> en <b>MaxLength</b>.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-199">Attempting to set the value greater than <b>MaxLength</b> results in setting <b>SelLength</b> to <b>MaxLength</b>.</span></span>  </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -884,11 +884,11 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-200">Devuelve o establece un valor de <b>número entero</b> (<b>int</b> en C#) que especifica el punto inicial del texto seleccionado o el punto de inserción si no se ha seleccionado ningún texto.</span><span class="sxs-lookup"><span data-stu-id="1f307-200">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that specifies either  the starting point of the selected text or the insertion point if no text has been selected.</span></span>    <span data-ttu-id="1f307-201">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="1f307-201">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-200">Devuelve o establece un valor <b>Integer</b> (<b>int</b> en C#) que especifica el punto inicial del texto seleccionado o el punto de inserción si no se ha seleccionado ningún texto.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-200">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that specifies either  the starting point of the selected text or the insertion point if no text has been selected.</span></span>    <span data-ttu-id="4b9ba-201">Lectura/escritura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-201">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="1f307-202">La selección actual es especificada por <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" />, que es una parte del control <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />.</span><span class="sxs-lookup"><span data-stu-id="1f307-202">The current selection is specified by <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" />, which is a portion of the control's <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />.</span></span> <span data-ttu-id="1f307-203">El número máximo de caracteres que puede admitirse para el <b>valor</b> es <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</span><span class="sxs-lookup"><span data-stu-id="1f307-203">The maximum number of characters that can be supported for <b>Value</b> is <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</span></span></para>
-          <para><span data-ttu-id="1f307-204">El valor predeterminado es cero, lo que significa que no hay ningún texto seleccionado y que el punto de inserción está al principio.</span><span class="sxs-lookup"><span data-stu-id="1f307-204">The default value is zero, which means no text is selected and the insertion point is at the beginning.</span></span></para>
-          <para><span data-ttu-id="1f307-205">La propiedad <b>SelStart</b> siempre es válida, incluso cuando el control no tiene el foco.</span><span class="sxs-lookup"><span data-stu-id="1f307-205">The <b>SelStart</b> property is always valid, even when the control does not have focus.</span></span>  <span data-ttu-id="1f307-206">Al establecer <b>SelStart</b> en un valor menor que cero, se produce un error.</span><span class="sxs-lookup"><span data-stu-id="1f307-206">Setting <b>SelStart</b> to a value less than zero causes an error.</span></span>  <span data-ttu-id="1f307-207">Al establecer <b>SelStart</b> en un valor mayor que <b>MaxLength</b>, <b>SelStart</b> se restablece en <b>MaxLength</b>.</span><span class="sxs-lookup"><span data-stu-id="1f307-207">Setting <b>SelStart</b> to a value greater than <b>MaxLength</b> will reset <b>SelStart</b> to <b>MaxLength</b>.</span></span>  <span data-ttu-id="1f307-208">Cambiar el valor de <b>SelStart,</b> cancela la selección existente, sitúa el punto de inserción en el texto y establece la propiedad <b>SelLength</b> a cero.</span><span class="sxs-lookup"><span data-stu-id="1f307-208">Changing the value of <b>SelStart</b> cancels any existing selection, places the insertion point in the text, and sets the <b>SelLength</b> property to zero.</span></span> </para>
+        <remarks><para><span data-ttu-id="4b9ba-202">La selección actual se especifica mediante <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" /> , que es una parte del control <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" /> .</span><span class="sxs-lookup"><span data-stu-id="4b9ba-202">The current selection is specified by <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" />, which is a portion of the control's <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />.</span></span> <span data-ttu-id="4b9ba-203">El número máximo de caracteres que se pueden admiten para <b>Value</b> es <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" /> .</span><span class="sxs-lookup"><span data-stu-id="4b9ba-203">The maximum number of characters that can be supported for <b>Value</b> is <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</span></span></para>
+          <para><span data-ttu-id="4b9ba-204">El valor predeterminado es cero, lo que significa que no hay ningún texto seleccionado y que el punto de inserción está al principio.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-204">The default value is zero, which means no text is selected and the insertion point is at the beginning.</span></span></para>
+          <para><span data-ttu-id="4b9ba-205">La propiedad <b>SelStart</b> siempre es válida, incluso cuando el control no tiene el foco.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-205">The <b>SelStart</b> property is always valid, even when the control does not have focus.</span></span>  <span data-ttu-id="4b9ba-206">Al establecer <b>SelStart</b> en un valor menor que cero, se produce un error.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-206">Setting <b>SelStart</b> to a value less than zero causes an error.</span></span>  <span data-ttu-id="4b9ba-207">Al establecer <b>SelStart</b> en un valor mayor que <b>MaxLength</b>, <b>SelStart</b> se restablece en <b>MaxLength</b>.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-207">Setting <b>SelStart</b> to a value greater than <b>MaxLength</b> will reset <b>SelStart</b> to <b>MaxLength</b>.</span></span>  <span data-ttu-id="4b9ba-208">Cambiar el valor de <b>SelStart,</b> cancela la selección existente, sitúa el punto de inserción en el texto y establece la propiedad <b>SelLength</b> a cero.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-208">Changing the value of <b>SelStart</b> cancels any existing selection, places the insertion point in the text, and sets the <b>SelLength</b> property to zero.</span></span> </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -915,12 +915,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-209">Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa la parte seleccionada del valor del cuadro combinado.</span><span class="sxs-lookup"><span data-stu-id="1f307-209">Returns a <b>String</b> (<b>string</b> in C#) that represents the selected portion of the value of the combo box.</span></span>    <span data-ttu-id="1f307-210">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="1f307-210">Read-only.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-209">Devuelve una <b>cadena</b> (<b>cadena</b> en C#) que representa la parte seleccionada del valor del cuadro combinado.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-209">Returns a <b>String</b> (<b>string</b> in C#) that represents the selected portion of the value of the combo box.</span></span>    <span data-ttu-id="4b9ba-210">Solo lectura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-210">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="1f307-211">
-            <b>SelText</b> representa la selección actual, que es una parte del control <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />.</span><span class="sxs-lookup"><span data-stu-id="1f307-211">
-            <b>SelText</b> represents the current selection, which is a portion of the control's <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />.</span></span> <span data-ttu-id="1f307-212">El número máximo de caracteres que puede admitirse para el <b>valor</b> es <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</span><span class="sxs-lookup"><span data-stu-id="1f307-212">The maximum number of characters that can be supported for <b>Value</b> is <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</span></span></para>
-          <para><span data-ttu-id="1f307-213">El valor predeterminado es una cadena vacía.</span><span class="sxs-lookup"><span data-stu-id="1f307-213">The default value is an empty string.</span></span></para>
+        <remarks><para><span data-ttu-id="4b9ba-211">
+            <b>SelText</b> representa la selección actual, que es una parte del control <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" /> .</span><span class="sxs-lookup"><span data-stu-id="4b9ba-211">
+            <b>SelText</b> represents the current selection, which is a portion of the control's <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />.</span></span> <span data-ttu-id="4b9ba-212">El número máximo de caracteres que se pueden admiten para <b>Value</b> es <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" /> .</span><span class="sxs-lookup"><span data-stu-id="4b9ba-212">The maximum number of characters that can be supported for <b>Value</b> is <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</span></span></para>
+          <para><span data-ttu-id="4b9ba-213">El valor predeterminado es una cadena vacía.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-213">The default value is an empty string.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -948,10 +948,10 @@
         <Parameter Name="Item" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Index"><span data-ttu-id="1f307-214">Valor de base 0 que especifica la ubicación de un elemento en la lista.</span><span class="sxs-lookup"><span data-stu-id="1f307-214">A zero-based value that specifies the location of an item in the list.</span></span></param>
-        <param name="Item"><span data-ttu-id="1f307-215">Valor que se utiliza para actualizar la lista en la ubicación especificada.</span><span class="sxs-lookup"><span data-stu-id="1f307-215">The value to be used to update the list at the specified location.</span></span></param>
-        <summary><span data-ttu-id="1f307-216">Establece el elemento en la ubicación especificada en la lista del cuadro combinado en el valor especificado.</span><span class="sxs-lookup"><span data-stu-id="1f307-216">Sets the item at the specified location in the list of the combo box to the specified value.</span></span></summary>
-        <remarks><para><span data-ttu-id="1f307-217">Si <paramref name="Index" /> está fuera del intervalo de valores permitidos (entre cero y <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), un fuera de los límites se devolverá el error.</span><span class="sxs-lookup"><span data-stu-id="1f307-217">If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), then an out-of-bounds error will be returned.</span></span> </para>
+        <param name="Index"><span data-ttu-id="4b9ba-214">Valor de base 0 que especifica la ubicación de un elemento en la lista.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-214">A zero-based value that specifies the location of an item in the list.</span></span></param>
+        <param name="Item"><span data-ttu-id="4b9ba-215">Valor que se utiliza para actualizar la lista en la ubicación especificada.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-215">The value to be used to update the list at the specified location.</span></span></param>
+        <summary><span data-ttu-id="4b9ba-216">Establece el elemento en la ubicación especificada en la lista del cuadro combinado en el valor especificado.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-216">Sets the item at the specified location in the list of the combo box to the specified value.</span></span></summary>
+        <remarks><para><span data-ttu-id="4b9ba-217">Si está fuera del intervalo de los valores <paramref name="Index" /> permitidos (entre cero y -1), se devolverá un error fuera <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" /> de límites.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-217">If <paramref name="Index" /> is outside the range of the allowed values (between zero and <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), then an out-of-bounds error will be returned.</span></span> </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -981,9 +981,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlComboBoxStyle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-218">Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlComboBoxStyle" /> constante para especificar cómo el usuario puede elegir o establecer el valor del control.</span><span class="sxs-lookup"><span data-stu-id="1f307-218">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlComboBoxStyle" /> constant to specify how the user can choose or set the control's value.</span></span>  <span data-ttu-id="1f307-219">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="1f307-219">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-218">Devuelve o establece una constante para especificar cómo el usuario puede elegir <see cref="T:Microsoft.Office.Interop.Outlook.OlComboBoxStyle" /> o establecer el valor del control.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-218">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlComboBoxStyle" /> constant to specify how the user can choose or set the control's value.</span></span>  <span data-ttu-id="4b9ba-219">Lectura/escritura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-219">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="1f307-p141">El valor predeterminado es <b>olComboBoxStyleCombo</b>.</span><span class="sxs-lookup"><span data-stu-id="1f307-p141">The default value is <b>olComboBoxStyleCombo</b>. </span></span></para>
+        <remarks><para><span data-ttu-id="4b9ba-p141">El valor predeterminado es <b>olComboBoxStyleCombo</b>.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-p141">The default value is <b>olComboBoxStyleCombo</b>. </span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1013,10 +1013,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-221">Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que es el texto que se muestra en el control.</span><span class="sxs-lookup"><span data-stu-id="1f307-221">Returns or sets a <b>String</b> (<b>string</b> in C#) that is the text displayed in the control.</span></span> <span data-ttu-id="1f307-222">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="1f307-222">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-221">Devuelve o establece una <b>cadena</b> (<b>cadena</b> en C#) que es el texto que se muestra en el control.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-221">Returns or sets a <b>String</b> (<b>string</b> in C#) that is the text displayed in the control.</span></span> <span data-ttu-id="4b9ba-222">Lectura/escritura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-222">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="1f307-223">El valor predeterminado de la propiedad <b>Text</b> es una cadena vacía.</span><span class="sxs-lookup"><span data-stu-id="1f307-223">The default value of the <b>Text</b> property is the empty string.</span></span></para>
-          <para><span data-ttu-id="1f307-224">La propiedad <b>Text</b> proporciona el mismo valor que el <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" /> (propiedad), pero el valor es inflexible como una <b>cadena</b> (<b>cadena</b> en C#).</span><span class="sxs-lookup"><span data-stu-id="1f307-224">The <b>Text</b> property provides the same value as the <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" /> property, but the value is strongly typed as a <b>String</b> (<b>string</b> in C#).</span></span></para>
+        <remarks><para><span data-ttu-id="4b9ba-223">El valor predeterminado de la propiedad <b>Text</b> es una cadena vacía.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-223">The default value of the <b>Text</b> property is the empty string.</span></span></para>
+          <para><span data-ttu-id="4b9ba-224">La <b>propiedad Text</b> proporciona el mismo valor que la propiedad, pero el valor está fuertemente escrito como <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" /> <b>string</b> (<b>cadena</b> en C#).</span><span class="sxs-lookup"><span data-stu-id="4b9ba-224">The <b>Text</b> property provides the same value as the <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" /> property, but the value is strongly typed as a <b>String</b> (<b>string</b> in C#).</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1046,9 +1046,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlTextAlign</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-225">Devuelve o establece un <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constante que especifica cómo se alinea el texto en el control.</span><span class="sxs-lookup"><span data-stu-id="1f307-225">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constant that specifies how text is aligned in the control.</span></span>  <span data-ttu-id="1f307-226">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="1f307-226">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-225">Devuelve o establece una constante que especifica cómo se alinea <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> el texto en el control.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-225">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> constant that specifies how text is aligned in the control.</span></span>  <span data-ttu-id="4b9ba-226">Lectura/escritura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-226">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="1f307-227">El valor predeterminado es <b>olTextAlignLeft</b> en idiomas de izquierda a derecha como inglés.</span><span class="sxs-lookup"><span data-stu-id="1f307-227">The default value is <b>olTextAlignLeft</b> in left-to-right languages such as English.</span></span></para>
+        <remarks><para><span data-ttu-id="4b9ba-227">El valor predeterminado es <b>olTextAlignLeft</b> en idiomas de izquierda a derecha como inglés.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-227">The default value is <b>olTextAlignLeft</b> in left-to-right languages such as English.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1078,10 +1078,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-228">Devuelve o establece un valor <b>entero</b> (<b>int</b> en C#) que representa el índice del elemento en la parte superior de la parte mostrada de la lista en el cuadro combinado.</span><span class="sxs-lookup"><span data-stu-id="1f307-228">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that represents the index of the item at the top of the displayed portion of the list in the combo box.</span></span> <span data-ttu-id="1f307-229">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="1f307-229">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-228">Devuelve o establece un <b>valor Integer</b> (<b>int</b> en C#) que representa el índice del elemento en la parte superior de la parte mostrada de la lista en el cuadro combinado.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-228">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that represents the index of the item at the top of the displayed portion of the list in the combo box.</span></span> <span data-ttu-id="4b9ba-229">Lectura/escritura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-229">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="1f307-230">Conforme se desplaza la lista, va cambiando el elemento de la parte superior de la lista, así como el valor de esta propiedad para reflejar el elemento actualmente mostrado en la parte superior de la lista.</span><span class="sxs-lookup"><span data-stu-id="1f307-230">As the list scrolls, the item at the top of the list will change, and the value of this property will change to reflect the item currently displayed at the top of the list.</span></span></para>
-          <para><span data-ttu-id="1f307-p145">El valor del índice es de base cero. El valor predeterminado es -1, que indica que no debe aplicarse ningún orden especial.</span><span class="sxs-lookup"><span data-stu-id="1f307-p145">The index value is zero-based. The default value is -1, indicating that no special ordering should be applied.</span></span></para>
+        <remarks><para><span data-ttu-id="4b9ba-230">Conforme se desplaza la lista, va cambiando el elemento de la parte superior de la lista, así como el valor de esta propiedad para reflejar el elemento actualmente mostrado en la parte superior de la lista.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-230">As the list scrolls, the item at the top of the list will change, and the value of this property will change to reflect the item currently displayed at the top of the list.</span></span></para>
+          <para><span data-ttu-id="4b9ba-p145">El valor del índice es de base cero. El valor predeterminado es -1, que indica que no debe aplicarse ningún orden especial.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-p145">The index value is zero-based. The default value is -1, indicating that no special ordering should be applied.</span></span></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1111,9 +1111,9 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><span data-ttu-id="1f307-233">Devuelve o establece un <b>objeto</b> que representa el contenido seleccionado en la lista mostrada en el control.</span><span class="sxs-lookup"><span data-stu-id="1f307-233">Returns or sets an <b>Object</b> that represents the content selected in the list displayed by the control.</span></span> <span data-ttu-id="1f307-234">Lectura y escritura.</span><span class="sxs-lookup"><span data-stu-id="1f307-234">Read/write.</span></span></summary>
+        <summary><span data-ttu-id="4b9ba-233">Devuelve o establece un <b>objeto Object</b> que representa el contenido seleccionado en la lista mostrada por el control.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-233">Returns or sets an <b>Object</b> that represents the content selected in the list displayed by the control.</span></span> <span data-ttu-id="4b9ba-234">Lectura/escritura.</span><span class="sxs-lookup"><span data-stu-id="4b9ba-234">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks><para><span data-ttu-id="1f307-235">El valor es el mismo que el valor de <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Text" />, con la salvedad de que esta propiedad es el <b>objeto</b> y <b>texto</b> tiene establecimiento inflexible como <b>cadena</b> (<b>cadena</b> en C#).</span><span class="sxs-lookup"><span data-stu-id="1f307-235">The value is the same as the value of  <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Text" />, except that this property is <b>Object</b> and <b>Text</b> is strongly typed as <b>String</b> (<b>string</b> in C#).</span></span>  </para>
+        <remarks><para><span data-ttu-id="4b9ba-235">El valor es el mismo que el valor de , excepto que esta propiedad es Object y Text está fuertemente escrito como <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Text" /> <b>String</b> ( <b></b> <b>string</b> en C#). <b></b></span><span class="sxs-lookup"><span data-stu-id="4b9ba-235">The value is the same as the value of  <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Text" />, except that this property is <b>Object</b> and <b>Text</b> is strongly typed as <b>String</b> (<b>string</b> in C#).</span></span>  </para>
           <para> </para></remarks>
       </Docs>
     </Member>
