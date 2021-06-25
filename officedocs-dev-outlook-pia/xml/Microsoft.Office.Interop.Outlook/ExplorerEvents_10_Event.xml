@@ -1,5 +1,5 @@
 <Type Name="ExplorerEvents_10_Event" FullName="Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="1284170d4c7d7e9f8115cbb6aa1c5cae9ad00511" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896803" /></Metadata><TypeSignature Language="C#" Value="public interface ExplorerEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c3a3195e08f69bc1e2baf898bd2129a95216031f" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139491" /></Metadata><TypeSignature Language="C#" Value="public interface ExplorerEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ExplorerEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ExplorerEvents_10_Event" />
@@ -80,7 +80,7 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce antes de que el explorador examine una nueva carpeta, como resultado de una acción del usuario o mediante código de programación.</summary>
-        <remarks><para>Si la carpeta que se cambia está en un espacio de nombres que no admite la automatización (como el sistema de archivos), <paramref name="NewFolder" /> es <b>Nothing</b>.</para>
+        <remarks><para>Si la carpeta a la que se cambia está en un espacio de nombres que no admite la automatización (como el sistema de archivos), <paramref name="NewFolder" /> es <b>Nothing</b>.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -199,7 +199,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMoveEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Se produce cuando el <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> se mueve por el usuario.</summary>
+        <summary>Se produce cuando  <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> el usuario lo mueve.</summary>
         <remarks><para>Este evento se puede cancelar después de haber comenzado.</para>
           <para> </para></remarks>
       </Docs>
@@ -219,7 +219,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeSizeEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Se produce cuando el usuario cambia el tamaño actual <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</summary>
+        <summary>Se produce cuando el usuario tiene el tamaño actual <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> .</summary>
         <remarks><para>Este evento se puede cancelar después de haber comenzado. Si se cancela el evento, no se ajustará el tamaño de la ventana.</para>
           <para> </para></remarks>
       </Docs>
@@ -259,7 +259,7 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando se cierra un explorador.</summary>
-        <remarks><para>Si usa el <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Close" /> método para desencadenar este evento, éste sólo se podrá cancelar si el método <b>Close</b> utiliza el argumento <b>olPromptForSave</b> .</para>
+        <remarks><para>Si usa el método para disparar este evento, solo se puede cancelar si el método Close usa el <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Close" /> <b>argumento olPromptForSave.</b> <b></b></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -316,8 +316,8 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_InlineResponseEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Se produce cuando el usuario realiza una acción que hace que una respuesta en línea que aparezca en el panel de lectura.</summary>
-        <remarks><para>Este evento devuelve un objeto de elemento que representa el elemento de respuesta en línea.</para>
+        <summary>Se produce cuando el usuario realiza una acción que hace que una respuesta en línea aparezca en el panel de lectura.</summary>
+        <remarks><para>Este evento devuelve un objeto item que representa el elemento de respuesta en línea.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -336,26 +336,26 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_InlineResponseCloseEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Se produce cuando el usuario realiza una acción que hace que la respuesta en línea activo Cerrar el panel de lectura.</summary>
-        <remarks><para>Este evento se desencadena cuando una respuesta en línea nueva o respuesta de borrador en línea está cerrado por los motivos siguientes:</para>
+        <summary>Se produce cuando el usuario realiza una acción que hace que la respuesta en línea activa se cierre en el panel de lectura.</summary>
+        <remarks><para>Este evento se produce cuando se cierra una nueva respuesta en línea o borrador de respuesta en línea por los siguientes motivos:</para>
           <list type="bullet">
             <item>
-              <para>El usuario selecciona el comando <b>Pop</b> .</para>
+              <para>El usuario selecciona el <b>comando Pop Out.</b></para>
             </item>
             <item>
-              <para>El usuario selecciona el comando <b>Descartar</b> .</para>
+              <para>El usuario selecciona el <b>comando Descartar.</b></para>
             </item>
             <item>
               <para>El usuario envía la respuesta en línea.</para>
             </item>
             <item>
-              <para>El usuario se desplaza a un mensaje distinto en la lista de mensajes.</para>
+              <para>El usuario navega a otro mensaje de la lista de mensajes.</para>
             </item>
             <item>
-              <para>El usuario se desplaza a una carpeta diferente.</para>
+              <para>El usuario navega a una carpeta diferente.</para>
             </item>
             <item>
-              <para>El usuario cambia los módulos, por ejemplo desde el módulo de correo al módulo calendario.</para>
+              <para>El usuario cambia los módulos, por ejemplo del módulo de correo al módulo Calendario.</para>
             </item>
           </list>
           <para> </para></remarks>
@@ -377,7 +377,7 @@
       </ReturnValue>
       <Docs>
         <summary>Se produce cuando el usuario cambia a otro elemento de una carpeta mediante la interfaz de usuario (UI) o mediante programación.</summary>
-        <remarks><para>Este evento también se produce cuando el usuario, bien mediante programación o mediante la interfaz de usuario, hace clic o cambia a una carpeta diferente que contiene los elementos que Outlook selecciona automáticamente el primer elemento de esa carpeta. Sin embargo, este evento no tiene lugar si se trata de una carpeta del sistema de archivos o si se está mostrando una carpeta con una vista web actual. </para>
+        <remarks><para>Este evento también se produce cuando el usuario, mediante programación o mediante la interfaz de usuario, hace clic o cambia a una carpeta diferente que contiene elementos como Outlook selecciona automáticamente el primer elemento de esa carpeta. Sin embargo, este evento no tiene lugar si se trata de una carpeta del sistema de archivos o si se está mostrando una carpeta con una vista web actual. </para>
           <para> </para></remarks>
       </Docs>
     </Member>

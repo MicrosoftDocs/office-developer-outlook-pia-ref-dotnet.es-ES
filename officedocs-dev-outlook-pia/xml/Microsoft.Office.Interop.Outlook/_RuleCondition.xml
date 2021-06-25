@@ -1,5 +1,5 @@
 <Type Name="_RuleCondition" FullName="Microsoft.Office.Interop.Outlook._RuleCondition">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="af36306ccdab868e5bb190858133f5629a0bcc9d" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898205" /></Metadata><TypeSignature Language="C#" Value="public interface _RuleCondition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="34c8b257cbe3a183c9f968b5fbf92261f64ed341" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139596" /></Metadata><TypeSignature Language="C#" Value="public interface _RuleCondition" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _RuleCondition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._RuleCondition" />
   <TypeSignature Language="VB.NET" Value="Public Interface _RuleCondition" />
@@ -18,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Esto es una interfaz principal en una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz principal sólo cuando el método que desea usar comparte el mismo nombre que un evento del objeto COM; en este caso, se convierte en esta interfaz para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. De lo contrario, use la interfaz de .NET que se deriva de la coclase COM para tener acceso a los métodos, propiedades y eventos del objeto COM. Para obtener información sobre el objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />.</summary>
+    <summary>Es una interfaz principal en una coclase COM que el código administrado necesita para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz principal únicamente cuando el método que desee usar comparta el mismo nombre que un evento del objeto COM; en este caso, realice la conversión a esta interfaz para llamar al método y realice la conversión a la última versión de la interfaz de eventos para conectarse al evento. En caso contrario, use la interfaz .NET derivada de la coclase COM para obtener acceso a los métodos, propiedades y eventos del objeto COM. Para obtener información sobre el objeto COM, vea <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> .</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> objeto que representa la aplicación Outlook principal del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -73,7 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
+        <summary>Devuelve una <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -101,9 +101,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRuleConditionType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una constante en el <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" /> (enumeración) que indica el tipo de condición para el <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> objeto. Solo lectura.</summary>
+        <summary>Devuelve una constante en la <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" /> enumeración que indica el tipo de condición para el <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks><para>Para obtener más información sobre las condiciones de regla admitidas para la creación de reglas mediante programación, las admitidas para las reglas para la recepción de mensajes y las admitidas para las reglas para el envío de mensajes, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificar condiciones de regla</a></para>
+        <remarks><para>Para obtener más información sobre las condiciones de regla admitidas para la creación de reglas mediante programación, las admitidas para las reglas para recibir mensajes y las admitidas para reglas para enviar mensajes, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificación</a> de condiciones de regla</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -133,11 +133,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que determina si el <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> está habilitado. Lectura y escritura.</summary>
+        <summary>Devuelve o establece un <b>valor booleano</b> (<b>bool</b> en C#) que determina si está <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> habilitado. Lectura/escritura.</summary>
         <value>To be added.</value>
-        <remarks><para>Después de habilitar una condición de regla, también debe guardarse la regla mediante el uso de <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> para que la condición de regla y su estado habilitado persistan más allá de la sesión actual.  Una condición de regla está habilitada únicamente después de haberla guardado correctamente. </para>
-          <para>Devuelve un error si se intenta habilitar una condición de regla admitida únicamente en una regla de tipo <b>olRuleSend</b> para una regla de tipo <b>olRuleReceive</b>, o viceversa.  Para obtener más información sobre admitidas por las reglas para la recepción de mensajes o las reglas para el envío de mensajes, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificar condiciones de regla</a></para>
-          <para>No se puede habilitar o deshabilitar una condición de tipo <b>olConditionOtherMachine</b>. Este tipo de condición de regla indica que la regla puede ejecutarse sólo en un equipo específico que no es el actual. Esto sucede cuando se crea la regla en que equipo y la condición de regla <b>olConditionLocalMachineOnly</b> está habilitada, que indica que la regla puede ejecutar solo en dicho equipo. Al ejecutar la misma regla en otro equipo, la regla indicará que la condición <b>olConditionOtherMachine</b> está habilitada.</para>
+        <remarks><para>Después de habilitar una condición de regla, también debe guardar la regla con el fin de que la condición de regla y su estado habilitado persistan más allá de <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> la sesión actual.  Una condición de regla está habilitada únicamente después de haberla guardado correctamente. </para>
+          <para>Devuelve un error si intenta habilitar una condición de regla que solo se admite en una regla de tipo  <b>olRuleSend</b> para una regla de tipo <b>olRuleReceive</b>o viceversa.  Para obtener más información sobre la compatibilidad con las reglas para recibir mensajes o reglas para enviar mensajes, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificación de condiciones de regla</a></para>
+          <para>No se puede habilitar o deshabilitar una condición de tipo <b>olConditionOtherMachine</b>. Este tipo de condición de regla indica que la regla sólo puede ejecutarse en un equipo específico distinto del actual. Esto sucede cuando la regla se crea en ese equipo y la condición de regla <b>olConditionLocalMachineOnly</b> está habilitada, lo que indica que la regla solo se puede ejecutar en ese equipo. Al ejecutar la misma regla en otro equipo, la regla indicará que la condición <b>olConditionOtherMachine</b> está habilitada.</para>
           <para>Devuelve un error si se intenta habilitar una condición de excepción de tipo <b>olConditionLocalMachineOnly</b>.</para>
           <para> </para></remarks>
       </Docs>
@@ -167,7 +167,7 @@
       <Docs>
         <summary>Devuelve al elemento primario del <b>objeto</b> del objeto especificado. Es de sólo lectura.</summary>
         <value>To be added.</value>
-        <remarks><para>El elemento principal de la <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> objeto es el <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objeto.</para>
+        <remarks><para>El elemento primario del <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> objeto es el <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> objeto.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -194,9 +194,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  objeto de la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La <b>propiedad Session</b> y el método se pueden usar <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> indistintamente para obtener el <b>objeto NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>

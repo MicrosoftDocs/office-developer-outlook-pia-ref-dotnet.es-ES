@@ -1,5 +1,5 @@
 <Type Name="_MailModule" FullName="Microsoft.Office.Interop.Outlook._MailModule">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="f4a919f25b3d83f96d4b107547649713c302fb12" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905291" /></Metadata><TypeSignature Language="C#" Value="public interface _MailModule" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="dc9d8afe9a2806c2f76ebcb9253980c53f84b82a" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139624" /></Metadata><TypeSignature Language="C#" Value="public interface _MailModule" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _MailModule" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._MailModule" />
   <TypeSignature Language="VB.NET" Value="Public Interface _MailModule" />
@@ -18,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Esto es una interfaz principal en una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz principal sólo cuando el método que desea usar comparte el mismo nombre que un evento del objeto COM; en este caso, se convierte en esta interfaz para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. De lo contrario, use la interfaz de .NET que se deriva de la coclase COM para tener acceso a los métodos, propiedades y eventos del objeto COM. Para obtener información sobre el objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" />.</summary>
+    <summary>Es una interfaz principal en una coclase COM que el código administrado necesita para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz principal únicamente cuando el método que desee usar comparta el mismo nombre que un evento del objeto COM; en este caso, realice la conversión a esta interfaz para llamar al método y realice la conversión a la última versión de la interfaz de eventos para conectarse al evento. En caso contrario, use la interfaz .NET derivada de la coclase COM para obtener acceso a los métodos, propiedades y eventos del objeto COM. Para obtener información sobre el objeto COM, vea <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> .</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> objeto que representa la aplicación Outlook principal del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -73,9 +73,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
+        <summary>Devuelve una <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks><para>Esta propiedad devuelve la <b>constante olMailModule</b> para el <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> objeto.</para>
+        <remarks><para>Esta propiedad devuelve <b>olMailModule</b> para el <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> objeto.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -102,7 +102,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un valor de <b>cadena</b> (<b>cadena</b> en C#) que representa el nombre para mostrar localizado para la <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> objeto. Solo lectura.</summary>
+        <summary>Devuelve un <b>valor string</b> (<b>string</b> in C#) que representa el nombre para mostrar localizado del <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -130,7 +130,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NavigationGroups</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" /> objeto que contiene el conjunto de grupos de exploración asociado con el <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> objeto. Solo lectura.</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" /> objeto que contiene el conjunto de grupos de navegación asociados al <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -158,9 +158,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlNavigationModuleType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlNavigationModuleType" /> constante que representa el tipo de módulo de navegación para el objeto. Solo lectura.</summary>
+        <summary>Devuelve una <see cref="T:Microsoft.Office.Interop.Outlook.OlNavigationModuleType" /> constante que representa el tipo de módulo de navegación del objeto. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks><para>Esta propiedad devuelve la <b>constante olModuleMail</b> para el <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> objeto.</para>
+        <remarks><para>Esta propiedad devuelve <b>olModuleMail</b> para el <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> objeto.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -218,16 +218,16 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve o establece un valor <b>entero</b> (int en C#) que representa la posición ordinal de la <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> de objeto al que se muestra en el panel de navegación. Lectura y escritura.</summary>
+        <summary>Devuelve o establece un <b>valor Integer</b> (int en C#) que representa la posición ordinal del objeto cuando se muestra en el panel <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> de navegación. Lectura/escritura.</summary>
         <value>To be added.</value>
         <remarks><para>Esta propiedad sólo puede establecerse en un valor entre 1 y 8. Se produce un error si se intenta establecer esta propiedad en un valor situado fuera de ese intervalo.</para>
-          <para>Cambiar el valor de esta propiedad para un objeto <b>MailModule</b> cambia los valores de <b>posición</b> de los demás módulos de exploración contenidos en una <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> colección, dependiendo del cambio relativo entre el valor nuevo y el valor original de la <b> Posición</b> (propiedad) para ese objeto <b>MailModule</b> :</para>
+          <para>Al cambiar el valor de esta propiedad para un objeto <b>MailModule,</b> se cambian los valores <b>position</b> de otros módulos de navegación contenidos en una colección, en función del cambio relativo entre el nuevo valor y el valor original de la propiedad Position para ese <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> objeto <b>MailModule:</b> <b></b></para>
           <list type="bullet">
             <item>
-              <para>Si el valor nuevo es menor que el valor original, a continuación, el objeto <b>MailModule</b> especificado se mueve hacia arriba a la nueva posición e inserta los otros módulos de navegación ya en o por debajo de esa posición hacia abajo.</para>
+              <para>Si el nuevo valor es menor que el valor original, el objeto <b>MailModule</b> especificado sube a la nueva posición y presiona hacia abajo los demás módulos de navegación que ya están en esa nueva posición o debajo de esa nueva posición.</para>
             </item>
             <item>
-              <para>Si el nuevo valor es mayor que el valor original, a continuación, el objeto <b>MailModule</b> especificado mueve hacia abajo a la nueva posición e inserta los otros módulos de navegación entre la posición antigua y la nueva posición hacia arriba, ocupar la posición antigua.</para>
+              <para>Si el nuevo valor es mayor que el valor original, el objeto <b>MailModule</b> especificado baja a la nueva posición e inserta los demás módulos de navegación entre la posición antigua y la nueva posición hacia arriba, rellenando la posición antigua.</para>
             </item>
           </list>
           <para> </para></remarks>
@@ -256,9 +256,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  objeto de la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La <b>propiedad Session</b> y el método se pueden usar <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> indistintamente para obtener el <b>objeto NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
@@ -294,7 +294,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve o establece un valor <b>booleano</b> (<b>bool</b> en C#) que determina si el <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> objeto se muestra en el panel de navegación. Lectura y escritura.</summary>
+        <summary>Devuelve o establece un <b>valor booleano</b> (<b>bool</b> en C#) que determina si el objeto se <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> muestra en el panel de navegación. Lectura/escritura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

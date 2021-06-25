@@ -1,5 +1,5 @@
 <Type Name="_Table" FullName="Microsoft.Office.Interop.Outlook._Table">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="158a812340e5870cd83216af795ef455983e655b" /><Meta Name="ms.sourcegitcommit" Value="9e48edef9d279c87fa2fbd78f150bc92c2332179" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="04/13/2021" /><Meta Name="ms.locfileid" Value="51691745" /></Metadata><TypeSignature Language="C#" Value="public interface _Table" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="acab0c8ad700585a716e430c5c571181307dc05c" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139442" /></Metadata><TypeSignature Language="C#" Value="public interface _Table" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Table" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Table" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Table" />
@@ -103,7 +103,7 @@
       <Docs>
         <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> objeto de colección que contiene las columnas definidas para <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> . Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks><para>El objeto de colección <b>Columns</b> es el miembro predeterminado del objeto <b>Table</b>.  </para>
+        <remarks><para>El objeto de colección <b>Columns</b> es el miembro predeterminado del objeto <b>Table</b>.</para>
           <para>Mientras que las filas de <b>un objeto Table</b> corresponden a elementos del objeto primario o del objeto Table , las columnas de un objeto Table corresponden a las propiedades de estos <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> elementos. <b></b> <b></b> <b></b> Se definen columnas predeterminadas para todas las carpetas según la carpeta principal del objeto <b>Table</b>. Por ejemplo, las propiedades predeterminadas de la Bandeja de entrada son: <b>EntryID</b>, <b>Subject</b>, <b>CreationTime</b>, <b>LastModificationTime</b> y <b>MessageClass</b>. Para obtener más información sobre las propiedades predeterminadas de <b>un objeto Table,</b>vea <a href="http://go.microsoft.com/fwlink/?LinkId=87925">Default Properties Displayed in a Table (Propiedades</a> predeterminadas mostradas en un objeto Table)</para>
           <para>Para agregar <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> objetos a la colección <b>Columns</b> de un <b>objeto Table,</b>use <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" /> . Para quitar el conjunto de columnas predeterminado, use <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> . Para obtener más información sobre cómo ajustar las columnas de un <b>objeto Table,</b>vea <a href="http://go.microsoft.com/fwlink/?LinkID=87935">Agregar columnas a un objeto Table</a></para>
           <para> </para></remarks>
@@ -165,7 +165,7 @@
         <returns>Objeto que representa la siguiente fila de table que cumple la condición <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> de filtro de la llamada anterior a <b>FindRow</b>. <b></b> Devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si <b>FindNextRow</b> no puede encontrar otra fila que cumpla los criterios especificados en <b>FindRow</b>. También devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si no se ha llamado a <b>FindRow</b> antes <b>de FindNextRow</b>.</returns>
         <remarks><para>
             <b>FindNextRow</b> encuentra la siguiente fila basándose en la fila devuelta por la anterior <b>llamada a FindRow</b> o <b>FindNextRow</b>. No depende de la fila actual (ya que es posible que la fila actual se haya cambiado de posición desde la <b>anterior FindRow</b> o <b>FindNextRow</b>, por ejemplo, por <see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" /> ).</para>
-          <para>Si <b>FindNextRow</b> encuentra una fila, colocará la actual fila en esa fila. Si no encuentra ninguna otra fila, no cambiará de posición la actual fila.</para>
+          <para>Si <b>FindNextRow</b> encuentra una fila, colocará la actual fila en esa fila. Si no encuentra otra fila, no se cambiar la posición la fila actual.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -194,11 +194,11 @@
       <Docs>
         <param name="Filter">Especifica la condición que tiene que cumplir una fila en la <b>tabla</b>.</param>
         <summary>Busca la primera fila del  <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> que cumple los criterios especificados en <paramref name="Filter" /> .</summary>
-        <returns>Objeto <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> que representa la primera fila del objeto <b>Table</b> que cumple los criterios de filtro. Devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si no se puede encontrar dicha fila o <b>la tabla</b> no contiene ninguna fila.</returns>
+        <returns>Objeto <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> que representa la primera fila del objeto <b>Table</b> que cumple los criterios de filtro. Devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si no se encuentra dicha fila, o <b>la tabla</b> no contiene ninguna fila.</returns>
         <remarks><para>
-            <b>FindRow</b> siempre comienza a partir de la primera fila en la <b>tabla</b>.  </para>
+            <b>FindRow</b> siempre comienza a partir de la primera fila en la <b>tabla</b>.</para>
           <para>
-            <b>FindRow</b> devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si no existe una propiedad en <paramref name="Filter" /> el espacio de nombres especificado. La propiedad se considera una propiedad con nombre en el conjunto de propiedades MAPI, PS_PUBLIC_STRINGS. En este caso, <b>FindRow</b> no devuelve un error.</para>
+            <b>FindRow</b> devuelve <b>Nothing</b> (una referencia nula (Nothing en Visual Basic) en C#) si no existe una propiedad en el <paramref name="Filter" /> espacio de nombres especificado. La propiedad se considera una propiedad con nombre en el conjunto de propiedades MAPI, PS_PUBLIC_STRINGS. En este caso, <b>FindRow</b> no devuelve un error.</para>
           <para>
             <b>FindRow</b> devuelve un error si es una cadena <paramref name="Filter" /> en blanco o una restricción no válida. En los casos en los que  <b>FindRow</b> no encuentra ninguna fila, la fila actual no se volverá a colocar en el lugar donde estaba antes de la llamada a <b>FindRow</b>.</para>
           <para>Para usar la búsqueda de indización de contenido en <b>un objeto Table,</b>use el <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> método. <b>FindRow</b> devuelve un error si <paramref name="Filter" /> contiene palabras clave de indización de contenido. </para>
@@ -289,7 +289,7 @@
         <summary>Obtiene el número de filas en <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> el .</summary>
         <returns>Valor <b>Integer</b> (<b>int</b> en C#) que representa el número de filas de Table.</returns>
         <remarks><para>
-            <b>GetRowCount</b> en una tabla grande dará como resultado un impacto en el rendimiento.  Debido a restricciones MAPI (por ejemplo, restricciones de memoria para tablas de gran tamaño, operaciones simultáneas en el objeto <b>Table</b>), es posible que <b>GetRowCount</b> no pueda determinar el número de filas del objeto <b>Table</b> o que devuelva únicamente un recuento de filas aproximado. En estos casos, <b>GetRowCount</b> devolverá un error. Debe usar la detección de error apropiada para que <b>GetRowCount</b> determine si la llamada devuelve un error. </para>
+            <b>GetRowCount</b> en una tabla grande dará como resultado un impacto en el rendimiento.  Debido a las restricciones MAPI (por ejemplo, restricciones de memoria para tablas grandes, operaciones simultáneas en <b>table),</b>Es posible que <b>GetRowCount</b> no pueda determinar el número de filas de table <b>o</b>que solo pueda devolver un recuento aproximado de filas. En estos casos, <b>GetRowCount</b> devolverá un error. Debe usar la detección de error apropiada para que <b>GetRowCount</b> determine si la llamada devuelve un error. </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -379,7 +379,7 @@
           <para>
             <paramref name="Filter" /> es una consulta sobre las propiedades especificadas de los elementos que se representan como filas en el elemento <b>primario Table</b>. La consulta usa la sintaxis de Microsoft Jet o la sintaxis DASL (DAV Searching and Locating). Por ejemplo, el siguiente filtro de Jet y el siguiente filtro DASL especifican los mismos criterios para los elementos cuyo valor de <b>LastModificationTime</b> sea anterior a 3:30 p.m. del 12 de junio de 2005:</para>
           <para>criteria = "[LastModificationTime] &lt; '" &amp; Format$("6/12/2005 3:30PM","General Date") &amp; "'"</para>
-          <para>criteria = "@SQL=" &amp; Chr(34) &amp; "DAV:getlastmodified" &amp; Chr(34)          &amp; " &lt; '" &amp; Format$("6/12/2005 3:30PM","General Date") &amp; "'" </para>
+          <para>criteria = "@SQL=" &amp; Chr(34) &amp; "DAV:getlastmodified" &amp; Chr(34) &amp; " &lt; '" &amp; Format$("6/12/2005 3:30PM","General Date") &amp; "'" </para>
           <para>Para obtener más información sobre cómo especificar filtros para el <b>objeto Table,</b> vea <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtering Items</a></para>
           <para>Si contiene propiedades personalizadas, estas propiedades deben existir en la carpeta principal del objeto Table para que la restricción funcione <paramref name="Filter" /> correctamente. <b></b>  Algunas propiedades no se admiten en un filtro de <b>tabla</b>, como propiedades binarias, propiedades calculadas y contenido HTML o RTF. Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Propiedades no admitidas en un objeto Table o filtro de tabla</a></para>
           <para>Si <paramref name="Filter" /> es una cadena en blanco, <b>Restrict</b> devuelve un <b>objeto Table</b> idéntico al objeto <b>Table</b> primario.  </para>

@@ -1,5 +1,5 @@
 <Type Name="_TextRuleCondition" FullName="Microsoft.Office.Interop.Outlook._TextRuleCondition">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="08c43d46f2b5c5edff71f17ab9960a3f103b9a53" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900226" /></Metadata><TypeSignature Language="C#" Value="public interface _TextRuleCondition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="77ef5a9daa77cf15bef3492520a6ed8b9feca023" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="es-ES" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139472" /></Metadata><TypeSignature Language="C#" Value="public interface _TextRuleCondition" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _TextRuleCondition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._TextRuleCondition" />
   <TypeSignature Language="VB.NET" Value="Public Interface _TextRuleCondition" />
@@ -18,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Esto es una interfaz principal en una coclase COM que requiere código administrado para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz principal sólo cuando el método que desea usar comparte el mismo nombre que un evento del objeto COM; en este caso, se convierte en esta interfaz para llamar al método y convierte en la interfaz de eventos más reciente para conectar con el evento. De lo contrario, use la interfaz de .NET que se deriva de la coclase COM para tener acceso a los métodos, propiedades y eventos del objeto COM. Para obtener información sobre el objeto COM, consulte <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" />.</summary>
+    <summary>Es una interfaz principal en una coclase COM que el código administrado necesita para la interoperabilidad con el objeto COM correspondiente. Use esta interfaz principal únicamente cuando el método que desee usar comparta el mismo nombre que un evento del objeto COM; en este caso, realice la conversión a esta interfaz para llamar al método y realice la conversión a la última versión de la interfaz de eventos para conectarse al evento. En caso contrario, use la interfaz .NET derivada de la coclase COM para obtener acceso a los métodos, propiedades y eventos del objeto COM. Para obtener información sobre el objeto COM, vea <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> .</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object que representa la aplicación Outlook principal para el objeto. Solo lectura.</summary>
+        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> objeto que representa la aplicación Outlook principal del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -73,7 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve un <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
+        <summary>Devuelve una <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constante que indica la clase del objeto. Solo lectura.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -101,9 +101,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRuleConditionType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve una constante de la <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" /> (enumeración) que indica el tipo de condición de regla. Solo lectura.</summary>
+        <summary>Devuelve una constante de la <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" /> enumeración que indica el tipo de condición de regla. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks><para>El valor de la <b>propiedad ConditionType</b> depende del tipo de condición de regla, como varios tipos de uso de las condiciones de regla la <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> objeto: <b>olConditionBody</b>, <b>olConditionBodyOrSubject</b>, <b>olConditionMessageHeader</b>y <b> olConditionSubject</b>. Excepción de <b>olConditionMessageHeader</b>, que sólo es compatible con las reglas para recibir mensajes, todos estos tipos de condiciones son compatibles con las reglas para recibir mensajes, así como las reglas para el envío de mensajes. Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificar condiciones de regla</a></para>
+        <remarks><para>El valor de <b>ConditionType</b> depende del tipo de condición de regla, ya que varios tipos de condiciones de regla usan el <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> objeto: <b>olConditionBody</b>, <b>olConditionBodyOrSubject</b>, <b>olConditionMessageHeader</b>y <b>olConditionSubject</b>. Excepto  <b>olConditionMessageHeader</b>, que solo es compatible con las reglas para recibir mensajes, todos estos tipos de condiciones son compatibles con las reglas para recibir mensajes, así como las reglas para enviar mensajes. Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificación de condiciones de regla</a></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -133,10 +133,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que determina si la condición de regla está habilitada. Lectura y escritura.</summary>
+        <summary>Devuelve o establece un <b>valor Boolean</b> (<b>bool</b> en C#) que determina si la condición de regla está habilitada. Lectura/escritura.</summary>
         <value>To be added.</value>
-        <remarks><para>Después de habilitar una condición de regla, también debe guardarse la regla mediante el uso de <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> para que la condición de regla y su estado habilitado persistan más allá de la sesión actual.  Una condición de regla está habilitada únicamente después de haberla guardado correctamente. </para>
-          <para>Devuelve un error si se intenta habilitar una condición de regla admitida únicamente en una regla de tipo <b>olRuleSend</b> para una regla de tipo <b>olRuleReceive</b>, o viceversa.  Para obtener más información sobre admitidas por las reglas para la recepción de mensajes o las reglas para el envío de mensajes, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificar condiciones de regla</a></para>
+        <remarks><para>Después de habilitar una condición de regla, también debe guardar la regla con el fin de que la condición de regla y su estado habilitado persistan más allá de <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> la sesión actual.  Una condición de regla está habilitada únicamente después de haberla guardado correctamente. </para>
+          <para>Devuelve un error si intenta habilitar una condición de regla que solo se admite en una regla de tipo  <b>olRuleSend</b> para una regla de tipo <b>olRuleReceive</b>o viceversa.  Para obtener más información sobre la compatibilidad con las reglas para recibir mensajes o reglas para enviar mensajes, vea <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Especificación de condiciones de regla</a></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -192,9 +192,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> objeto para la sesión actual. Solo lectura.</summary>
+        <summary>Devuelve el <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  objeto de la sesión actual. Solo lectura.</summary>
         <value>To be added.</value>
-        <remarks><para>La propiedad <b>Session</b> y el <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> método puede usarse indistintamente para obtener el objeto <b>NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
+        <remarks><para>La <b>propiedad Session</b> y el método se pueden usar <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> indistintamente para obtener el <b>objeto NameSpace</b> de la sesión actual. Los dos miembros tienen el mismo propósito. Por ejemplo, los siguientes pares de instrucciones realizan la misma función:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
@@ -230,7 +230,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Devuelve o establece una matriz de elementos de <b>cadena</b> (<b>cadena</b> en C#) que representa el texto que se va a evaluar la condición de regla. Lectura y escritura.</summary>
+        <summary>Devuelve o establece una matriz de <b>elementos String</b> (<b>string</b> en C#) que representa el texto que debe evaluar la condición de regla. Lectura/escritura.</summary>
         <value>To be added.</value>
         <remarks><para>Para la evaluación puede asignar una matriz que tenga una o varias cadenas. Para evaluar varias cadenas de texto asignadas en una matriz se usa la operación lógica OR.</para>
           <para> </para></remarks>
